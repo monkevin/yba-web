@@ -28,17 +28,14 @@ export default function ThongTinClient({
   slug,
   phien,
   dau,
-  cacBan: banDau,
 }: {
   eventId: string;
   slug: string;
   phien: Dong[];
   dau: DuLieu;
-  cacBan: { ten: string; moTa: string }[];
 }) {
   const router = useRouter();
   const [d, setD] = useState(dau);
-  const [cacBan, setCacBan] = useState(banDau);
   const [tb, setTb] = useState("");
   const [ban, setBan] = useState(false);
 
@@ -48,7 +45,7 @@ export default function ThongTinClient({
     const res = await fetch(`/api/quan-tri/su-kien/${eventId}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ ...d, cacBan }),
+      body: JSON.stringify(d),
     });
     const r = await res.json().catch(() => ({}));
     setBan(false);
@@ -124,33 +121,13 @@ export default function ThongTinClient({
         </div>
       </section>
 
-      <section className="card p-5">
-        <h2 className="font-bold text-navy-800">Các ban trong Ban tổ chức</h2>
-        <p className="text-sm text-slate-500">Dùng để phân công người, nhóm công việc và chi phí theo ban.</p>
-        <ul className="mt-3 space-y-2">
-          {cacBan.map((b, i) => (
-            <li key={i} className="grid gap-2 sm:grid-cols-[220px_1fr_auto]">
-              <input
-                className="inp"
-                value={b.ten}
-                onChange={(e) => setCacBan(cacBan.map((x, j) => (j === i ? { ...x, ten: e.target.value } : x)))}
-              />
-              <input
-                className="inp"
-                value={b.moTa}
-                placeholder="Nhiệm vụ chính"
-                onChange={(e) => setCacBan(cacBan.map((x, j) => (j === i ? { ...x, moTa: e.target.value } : x)))}
-              />
-              <button className="btn-ghost" onClick={() => setCacBan(cacBan.filter((_, j) => j !== i))}>
-                Xoá
-              </button>
-            </li>
-          ))}
-        </ul>
-        <button className="mt-2 text-sm text-navy-600 hover:underline" onClick={() => setCacBan([...cacBan, { ten: "", moTa: "" }])}>
-          + Thêm ban
-        </button>
-      </section>
+      <p className="text-sm text-slate-500">
+        Các ban (thêm, đổi tên, xoá) và người trong từng ban quản lý ở tab{" "}
+        <a href={`/quan-tri/su-kien/${eventId}/ban-to-chuc`} className="text-navy-600 hover:underline">
+          Ban tổ chức
+        </a>
+        .
+      </p>
 
       <section className="card p-5">
         <h2 className="font-bold text-navy-800">Bài học kinh nghiệm</h2>

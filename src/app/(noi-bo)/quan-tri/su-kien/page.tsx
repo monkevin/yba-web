@@ -130,10 +130,17 @@ export default async function TrungTamSuKien() {
         title="Trung tâm sự kiện"
         subtitle="Tổ chức mọi sự kiện của Chi hội ở một nơi: khách mời, check-in, Ban tổ chức, công việc, kịch bản, tài trợ, thu chi, báo cáo."
         action={
-          q.quanLy ? (
-            <Link href="/quan-tri/su-kien/moi" className="btn-primary">
-              + Tạo sự kiện
-            </Link>
+          q.quanLy || q.taiChinh ? (
+            <div className="flex flex-wrap gap-2">
+              <Link href="/quan-tri/su-kien/bao-cao-nam" className="btn-ghost">
+                Báo cáo năm
+              </Link>
+              {q.quanLy && (
+                <Link href="/quan-tri/su-kien/moi" className="btn-primary">
+                  + Tạo sự kiện
+                </Link>
+              )}
+            </div>
           ) : undefined
         }
       />

@@ -130,7 +130,11 @@ export async function thongKeHoiVien(
       _sum: { giaTri: true },
       _count: { _all: true },
     }),
-    prisma.banToChuc.count({ where: { memberId, event: { startAt: trongNam } } }),
+    // Đếm theo SỰ KIỆN, không theo dòng: một người ở hai ban của cùng sự kiện
+    // (Trưởng BTC kiêm Ban Nội dung) chỉ tính một lần "Tham gia Ban tổ chức"
+    prisma.banToChuc
+      .findMany({ where: { memberId, event: { startAt: trongNam } }, select: { eventId: true }, distinct: ["eventId"] })
+      .then((r) => r.length),
     prisma.listing.count({ where: { memberId, createdAt: trongNam } }),
     // Ưu đãi cũng phải lọc theo năm mở, cùng lý do trên
     prisma.uuDai.count({

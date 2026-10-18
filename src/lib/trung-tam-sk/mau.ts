@@ -84,6 +84,18 @@ const BASE_TASKS: TaskT[] = [
   { t: "Chốt điểm hoạt động hội viên", c: "Trưởng BTC", d: 5, p: "P1", min: "nho" },
   { t: "Quyết toán thu – chi, công nợ, chứng từ", c: "Ban Tài trợ – Tài chính", d: 14, p: "P0", min: "vua" },
   { t: "Họp rút kinh nghiệm, ghi bài học vào tab Thông tin", c: "Trưởng BTC", d: 10, p: "P1", min: "nho" },
+  // Checklist theo ban (18/10/2026 — Chủ nhiệm: "mỗi ban có checklist khối lượng công việc")
+  { t: "Lập danh sách vật phẩm ở tab Hậu cần, giao người phụ trách từng món", c: "Ban Hậu cần", d: -21, p: "P1", min: "nho" },
+  { t: "Kiểm kê toàn bộ vật phẩm theo tab Hậu cần, đóng thùng / chất xe", c: "Ban Hậu cần", d: -1, p: "P0", min: "nho" },
+  { t: "Setup địa điểm: bàn check-in, backdrop, âm thanh, bàn quà, khu NTT", c: "Ban Hậu cần", d: 0, p: "P0", min: "nho", kind: "checklist" },
+  { t: "Thu hồi đạo cụ, kiểm đếm, bàn giao địa điểm", c: "Ban Hậu cần", d: 0, p: "P1", min: "nho", kind: "checklist" },
+  { t: "Đăng bài công bố sự kiện + link đăng ký (QR ở tab Cổng QR)", c: "Ban Truyền thông", d: -21, p: "P0", min: "nho" },
+  { t: "In bảng QR đăng ký / check-in / hỏi đáp / đánh giá từ tab Cổng QR", c: "Ban Truyền thông", d: -4, p: "P0", min: "nho" },
+  { t: "Chụp ảnh, quay clip trong ngày; livestream nếu có", c: "Ban Truyền thông", d: 0, p: "P0", min: "nho", kind: "checklist" },
+  { t: "Kịch bản chi tiết từng phút ở tab Kịch bản, chốt người phụ trách từng mục", c: "Ban Nội dung & MC", d: -10, p: "P0", min: "nho" },
+  { t: "Bám kịch bản theo giờ: nhắc MC / diễn giả từng mục, giữ đúng thời lượng", c: "Ban Nội dung & MC", d: 0, p: "P0", min: "nho", kind: "checklist" },
+  { t: "Duyệt câu hỏi khách gửi qua QR, chọn câu chiếu lên màn hình", c: "Ban Nội dung & MC", d: 0, p: "P1", min: "vua", kind: "checklist" },
+  { t: "Khai báo giải bốc thăm + nhà tài trợ giải ở tab Bốc thăm", c: "Ban Tài trợ – Tài chính", d: -7, p: "P1", min: "vua" },
 ];
 
 type TypeT = {
@@ -106,6 +118,14 @@ const COMMON_ITEMS: ItemT[] = [
   { cat: "An toàn", name: "Bộ sơ cứu, danh bạ khẩn cấp", owner: "Ban Hậu cần", d: -1, min: "vua" },
 ];
 
+
+const COMMON_RISKS: RiskT[] = [
+  { t: "Âm thanh / màn hình lỗi", l: 2, i: 3, m: "Soundcheck trước 2 giờ; laptop + 2 USB dự phòng; kỹ thuật trực cạnh sân khấu" },
+  { t: "Khách đến ít hơn đăng ký (no-show)", l: 2, i: 2, m: "Nhắc khách D-1 & sáng ngày diễn ra; báo suất ăn theo tỉ lệ đến thực tế các kỳ trước" },
+  { t: "Diễn giả / khách VIP đến trễ hoặc huỷ", l: 1, i: 3, m: "Xác nhận lại D-2; có người dự phòng; MC chuẩn bị nội dung chèn" },
+  { t: "NTT chậm chuyển tiền", l: 2, i: 2, m: "Ghi hạn thanh toán trong xác nhận tài trợ; theo dõi tab Tài trợ", min: "vua" },
+  { t: "Khách đông hơn dự kiến", l: 1, i: 2, m: "Dự phòng 10% ghế & suất ăn; khu đứng networking", min: "vua" },
+];
 
 const TYPES: Record<string, TypeT> = {
   coffee: {
@@ -402,3 +422,57 @@ export function taoDuLieuMau(loai: string, quyMo: QuyMo, ngay: Date | null, gioB
     mucTieuKhach: THONG_TIN_QUY_MO[quyMo].guests,
   };
 }
+
+/** Giải bốc thăm gợi ý (gala, thể thao, hoặc quy mô lớn) */
+const GIAI_MAU: Record<QuyMo, { ten: string; soLuong: number }[]> = {
+  nho: [],
+  vua: [
+    { ten: "Giải Ba", soLuong: 1 },
+    { ten: "Giải Nhì", soLuong: 1 },
+    { ten: "Giải Nhất", soLuong: 1 },
+  ],
+  lon: [
+    { ten: "Giải Khuyến khích", soLuong: 10 },
+    { ten: "Giải Ba", soLuong: 1 },
+    { ten: "Giải Nhì", soLuong: 1 },
+    { ten: "Giải Nhất", soLuong: 1 },
+    { ten: "Giải Đặc biệt", soLuong: 1 },
+  ],
+};
+
+/**
+ * Bảng hạng tài trợ gợi ý theo quy mô (triệu đồng) — mỗi chương trình sửa
+ * lại mức tiền, số suất, quyền lợi ở tab Tài trợ.
+ */
+const MUC_HANG: Record<QuyMo, number[]> = {
+  nho: [30, 20, 10, 5, 3, 2],
+  vua: [100, 50, 30, 20, 10, 5],
+  lon: [200, 100, 50, 30, 15, 5],
+};
+const TEN_HANG = ["Nhà tài trợ chính", "Kim cương", "Vàng", "Bạc", "Đồng", "Đồng hành"];
+
+export function hangTaiTroMau(quyMo: QuyMo, quyenLoi: Record<string, string[]>) {
+  return TEN_HANG.map((ten, i) => ({
+    ten,
+    mucTien: MUC_HANG[quyMo][i] * 1_000_000,
+    soSuat: i === 0 ? 1 : null,
+    quyenLoi: (quyenLoi[ten] ?? []).join("\n") || null,
+    order: i + 1,
+  }));
+}
+
+/** Nhà cung cấp, rủi ro, giải bốc thăm theo mẫu (đợt 2) */
+export function taoDuLieuMauDot2(loai: string, quyMo: QuyMo) {
+  const T = TYPES[loai] ?? TYPES.other;
+  return {
+    nhaCungCap: T.vendors.map((v, i) => ({ hangMuc: v, order: i + 1 })),
+    ruiRo: [...COMMON_RISKS, ...T.risks]
+      .filter((r) => atLeast(quyMo, r.min ?? "nho"))
+      .map((r, i) => ({ ruiRo: r.t, khaNang: r.l, tacDong: r.i, phuongAn: r.m, order: i + 1 })),
+    giai: (loai === "gala" || loai === "sport" || quyMo === "lon" ? GIAI_MAU[quyMo] : []).map((g, i) => ({
+      ...g,
+      order: i + 1,
+    })),
+  };
+}
+

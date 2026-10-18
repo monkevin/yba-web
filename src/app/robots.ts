@@ -21,6 +21,8 @@ export default function robots(): MetadataRoute.Robots {
         "/uu-dai",
         "/bang-hoat-dong",
         "/login",
+        // Cổng QR khách của từng sự kiện — chỉ phát qua mã QR của Ban tổ chức
+        "/sk/",
         "/api/",
       ],
     },

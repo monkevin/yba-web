@@ -4,8 +4,10 @@ import { prisma } from "@/lib/prisma";
 import { QUYEN, co } from "@/lib/quyen";
 import { uniqueSlug } from "@/lib/slug";
 import { TT_TAI_TRO_CHUA_CHOT } from "@/lib/tai-tro";
-import { type QuyenBang, tuNgayNhap } from "@/lib/trung-tam-sk/bang";
-import { type QuyMo, taoDuLieuMau } from "@/lib/trung-tam-sk/mau";
+import { randomInt } from "crypto";
+import { QUYEN_LOI_THEO_HANG, type QuyenBang, chuan, tuNgayNhap } from "@/lib/trung-tam-sk/bang";
+import { tongHopDanhGia } from "@/lib/trung-tam-sk/danh-gia";
+import { type QuyMo, hangTaiTroMau, taoDuLieuMau, taoDuLieuMauDot2 } from "@/lib/trung-tam-sk/mau";
 
 /**
  * TRUNG TÂM SỰ KIỆN — phần chạy ở máy chủ (quyền, tạo sự kiện theo mẫu,
@@ -88,6 +90,42 @@ export function docCacBan(json: string | null | undefined): { ten: string; moTa:
   }
 }
 
+/**
+ * Đổi tên (moi trống = xoá) một ban trong danh sách. Ban chỉ có trong dữ liệu
+ * (gõ tay ở bảng) mà chưa có trong danh sách → đặt tên là thêm vào. Trả danh
+ * sách mới + cặp tên cần đổi theo ở người / việc / thu chi / hậu cần.
+ */
+export function tinhDoiTenBan(
+  cacBanJson: string | null | undefined,
+  x: { cu?: unknown; moi?: unknown; moTa?: unknown }
+): { cacBan: string; doiBan: { cu: string; moi: string | null } | null } | { error: string } {
+  const cu = String(x.cu ?? "").trim();
+  const moi = String(x.moi ?? "").trim().slice(0, 80) || null;
+  if (!cu) return { error: "Thiếu tên ban" };
+  const ds = docCacBan(cacBanJson);
+  if (moi && moi !== cu && ds.some((y) => y.ten === moi)) return { error: `Đã có "${moi}"` };
+  const moTa = typeof x.moTa === "string" ? x.moTa.trim().slice(0, 300) : undefined;
+  const co = ds.some((y) => y.ten === cu);
+  const moiDs = !moi
+    ? ds.filter((y) => y.ten !== cu)
+    : co
+      ? ds.map((y) => (y.ten === cu ? { ten: moi, moTa: moTa ?? y.moTa } : y))
+      : [...ds, { ten: moi, moTa: moTa ?? "" }];
+  if (moiDs.length > 30) return { error: "Tối đa 30 ban" };
+  return { cacBan: JSON.stringify(moiDs), doiBan: moi !== cu ? { cu, moi } : null };
+}
+
+/** Các lệnh ghi để người, việc, thu chi, hậu cần, kịch bản của ban đi theo tên mới */
+export function lenhDoiTenBan(eventId: string, skId: string, d: { cu: string; moi: string | null }) {
+  return [
+    prisma.banToChuc.updateMany({ where: { eventId, ban: d.cu }, data: { ban: d.moi } }),
+    prisma.skViec.updateMany({ where: { skId, ban: d.cu }, data: { ban: d.moi } }),
+    prisma.skThuChi.updateMany({ where: { skId, ban: d.cu }, data: { ban: d.moi } }),
+    prisma.skHauCan.updateMany({ where: { skId, phuTrach: d.cu }, data: { phuTrach: d.moi } }),
+    prisma.skKichBan.updateMany({ where: { skId, phuTrach: d.cu }, data: { phuTrach: d.moi } }),
+  ];
+}
+
 export type DuLieuTao = {
   /** Gắn vào sự kiện có sẵn (mục "Sự kiện & chương trình"); trống = tạo sự kiện mới */
   eventId?: string | null;
@@ -147,6 +185,7 @@ export async function taoToChuc(d: DuLieuTao): Promise<string> {
     eventId = ev.id;
   }
 
+  const ma = await taoMaCong();
   await prisma.$transaction(async (tx) => {
     const sk = await tx.skSuKien.create({
       data: {
@@ -155,6 +194,8 @@ export async function taoToChuc(d: DuLieuTao): Promise<string> {
         quyMo: d.quyMo,
         mucTieuKhach: d.mucTieuKhach ?? mau.mucTieuKhach,
         cacBan: JSON.stringify(mau.cacBan),
+        ma,
+        pinCheckin: taoPin(),
       },
       select: { id: true },
     });
@@ -180,9 +221,44 @@ export async function taoToChuc(d: DuLieuTao): Promise<string> {
     });
     await tx.skHauCan.createMany({ data: mau.hauCan.map((h) => ({ ...h, skId })) });
     await tx.skThuChi.createMany({ data: mau.thuChi.map((t) => ({ ...t, skId })) });
+    await tx.skHangTaiTro.createMany({
+      data: hangTaiTroMau(d.quyMo, QUYEN_LOI_THEO_HANG).map((h) => ({ ...h, skId })),
+    });
+    const m2 = taoDuLieuMauDot2(d.loai, d.quyMo);
+    await tx.skNhaCungCap.createMany({ data: m2.nhaCungCap.map((x) => ({ ...x, skId })) });
+    await tx.skRuiRo.createMany({ data: m2.ruiRo.map((x) => ({ ...x, skId })) });
+    await tx.skGiai.createMany({ data: m2.giai.map((x) => ({ ...x, skId })) });
   });
 
   return eventId!;
+}
+
+// ─────────────────────────────── cổng QR ───────────────────────────────
+
+/** Bỏ chữ dễ nhầm (0/O, 1/I/L) — khách gõ tay từ bảng in vẫn đúng */
+const BANG_CHU = "abcdefghjkmnpqrstuvwxyz23456789";
+
+/**
+ * Mã ngắn cho đường dẫn /sk/[ma]. SkSuKien.ma KHÔNG đặt unique ở CSDL (thêm
+ * unique vào bảng đang có là db push trên máy chủ dừng) → kiểm trùng ở đây.
+ */
+export async function taoMaCong(): Promise<string> {
+  for (let lan = 0; lan < 20; lan++) {
+    const ma = Array.from({ length: 6 }, () => BANG_CHU[randomInt(BANG_CHU.length)]).join("");
+    if (!(await prisma.skSuKien.findFirst({ where: { ma }, select: { id: true } }))) return ma;
+  }
+  throw new Error("Không sinh được mã cổng QR");
+}
+
+export const taoPin = () => String(randomInt(1000, 10000));
+
+/** Sự kiện tạo từ đợt 1 chưa có mã cổng / PIN → cấp ngay (gọi ở tab Cổng QR) */
+export async function damBaoMaCong(skId: string): Promise<{ ma: string; pinCheckin: string }> {
+  const sk = await prisma.skSuKien.findUniqueOrThrow({ where: { id: skId }, select: { ma: true, pinCheckin: true } });
+  if (sk.ma && sk.pinCheckin) return { ma: sk.ma, pinCheckin: sk.pinCheckin };
+  const data = { ma: sk.ma ?? (await taoMaCong()), pinCheckin: sk.pinCheckin ?? taoPin() };
+  await prisma.skSuKien.update({ where: { id: skId }, data });
+  return data;
 }
 
 // ─────────────────────────────── thống kê ───────────────────────────────
@@ -223,7 +299,15 @@ export async function thongKe(eventId: string, skId: string) {
         quyenLoi: { select: { xong: true } },
       },
     }),
-    prisma.banToChuc.findMany({ where: { eventId }, select: { ban: true, memberId: true } }),
+    prisma.banToChuc.findMany({ where: { eventId }, select: { ban: true, memberId: true, hoTen: true } }),
+  ]);
+  const [danhGia, cauHoi, giai, ncc, ruiRo, baiDang] = await Promise.all([
+    tongHopDanhGia(skId),
+    prisma.skCauHoi.groupBy({ by: ["trangThai"], where: { skId }, _count: { _all: true } }),
+    prisma.skGiai.findMany({ where: { skId }, select: { soLuong: true, trung: { where: { trangThai: "TRUNG" }, select: { id: true } } } }),
+    prisma.skNhaCungCap.findMany({ where: { skId }, select: { trangThai: true, giaTri: true, daCoc: true } }),
+    prisma.skRuiRo.findMany({ where: { skId }, select: { khaNang: true, tacDong: true, trangThai: true } }),
+    prisma.skBaiDang.findMany({ where: { skId }, select: { reach: true, tuongTac: true } }),
   ]);
 
   const theoPhien = phien.map((p) => {
@@ -324,7 +408,32 @@ export async function thongKe(eventId: string, skId: string) {
     },
     hauCan: { tong: hauCan.length, xong: hauCan.filter((h) => h.trangThai === "XONG").length },
     taiChinh: { ...taiChinh, tongThu, ketDu: tongThu - taiChinh.thucChi },
-    btc: { tong: btc.length, hoiVien: btc.filter((b) => b.memberId).length },
+    // Một người ở nhiều ban vẫn đếm một lần
+    btc: {
+      tong: new Set(btc.map((b) => b.memberId ?? `ten:${chuan(b.hoTen)}`)).size,
+      hoiVien: new Set(btc.filter((b) => b.memberId).map((b) => b.memberId)).size,
+    },
+    danhGia,
+    cauHoi: {
+      tong: sum(cauHoi.map((c) => c._count._all)),
+      moi: cauHoi.find((c) => c.trangThai === "MOI")?._count._all ?? 0,
+    },
+    giai: { suat: sum(giai.map((g) => g.soLuong)), daTrao: sum(giai.map((g) => g.trung.length)) },
+    ncc: {
+      tong: ncc.length,
+      chuaChot: ncc.filter((n) => n.trangThai === "TIM" || n.trangThai === "BAO_GIA").length,
+      giaTri: sum(ncc.map((n) => n.giaTri)),
+      daCoc: sum(ncc.map((n) => n.daCoc)),
+    },
+    ruiRo: {
+      tong: ruiRo.length,
+      moCao: ruiRo.filter((r) => r.trangThai !== "DA_XU_LY" && r.khaNang * r.tacDong >= 6).length,
+    },
+    truyenThong: {
+      soBai: baiDang.length,
+      reach: sum(baiDang.map((b) => b.reach)),
+      tuongTac: sum(baiDang.map((b) => b.tuongTac)),
+    },
   };
 }
 

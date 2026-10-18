@@ -2,11 +2,15 @@ import { prisma } from "@/lib/prisma";
 import { TRANG_THAI_SU_KIEN, docSo, tuNgayNhap } from "@/lib/trung-tam-sk/bang";
 import { dongBoHoiVien } from "@/lib/trung-tam-sk/checkin";
 import { LOAI_SU_KIEN } from "@/lib/trung-tam-sk/mau";
-import { nguoiDungApi, nguoiGhi } from "@/lib/trung-tam-sk/may-chu";
+import { lenhDoiTenBan, nguoiDungApi, nguoiGhi, taoPin, tinhDoiTenBan } from "@/lib/trung-tam-sk/may-chu";
 
 /**
  * Thông tin chung của một sự kiện ở Trung tâm.
  * PATCH — sửa thông tin (ghi cả vào Event: tên, ngày giờ, địa điểm, công bố).
+ *   `doiTenBan: { cu, moi, moTa? }` — đổi tên (moi trống = xoá) một ban: người,
+ *   việc, thu chi, hậu cần, kịch bản của ban đó đi theo tên mới.
+ *   `moDangKy | moTuCheckin | moHoiDap | moDanhGia` — công tắc cổng QR khách;
+ *   `doiPin: true` — cấp PIN tự check-in mới (PIN cũ bị lộ).
  * DELETE — gỡ khỏi Trung tâm: xoá lớp tổ chức (khách, việc, kịch bản, thu
  * chi, hậu cần), GIỮ NGUYÊN sự kiện, Ban tổ chức và nhà tài trợ.
  */
@@ -22,7 +26,7 @@ export async function PATCH(req: Request, ctx: Ctx) {
   const a = await nguoiDungApi("quanLy");
   if (a instanceof Response) return a;
   const { eventId } = await ctx.params;
-  const sk = await prisma.skSuKien.findUnique({ where: { eventId }, select: { id: true } });
+  const sk = await prisma.skSuKien.findUnique({ where: { eventId }, select: { id: true, cacBan: true } });
   if (!sk) return Response.json({ error: "Sự kiện chưa bật quản lý ở Trung tâm" }, { status: 404 });
   const b = (await req.json().catch(() => ({}))) as Record<string, unknown>;
 
@@ -50,6 +54,10 @@ export async function PATCH(req: Request, ctx: Ctx) {
     d.mucTieuKhach = n && n > 0 ? Math.round(n) : null;
   }
   if ("mucTieuThu" in b) d.mucTieuThu = Math.max(0, docSo(b.mucTieuThu) ?? 0);
+  for (const k of ["moDangKy", "moTuCheckin", "moHoiDap", "moDanhGia"] as const) {
+    if (typeof b[k] === "boolean") d[k] = b[k];
+  }
+  if (b.doiPin === true) d.pinCheckin = taoPin();
   for (const k of ["ghiChu", "baiHocTot", "baiHocCaiThien"] as const) {
     if (k in b) d[k] = chuoi(b[k], 4000);
   }
@@ -61,9 +69,18 @@ export async function PATCH(req: Request, ctx: Ctx) {
     d.cacBan = JSON.stringify(ds.slice(0, 30));
   }
 
+  let doiBan: { cu: string; moi: string | null } | null = null;
+  if (b.doiTenBan && typeof b.doiTenBan === "object") {
+    const r = tinhDoiTenBan(sk.cacBan, b.doiTenBan as Record<string, unknown>);
+    if ("error" in r) return Response.json({ error: r.error }, { status: 400 });
+    d.cacBan = r.cacBan;
+    doiBan = r.doiBan;
+  }
+
   await prisma.$transaction([
     ...(Object.keys(ev).length ? [prisma.event.update({ where: { id: eventId }, data: ev })] : []),
     ...(Object.keys(d).length ? [prisma.skSuKien.update({ where: { eventId }, data: d })] : []),
+    ...(doiBan ? lenhDoiTenBan(eventId, sk.id, doiBan) : []),
   ]);
   return Response.json({ ok: true });
 }

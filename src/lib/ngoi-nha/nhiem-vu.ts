@@ -252,7 +252,8 @@ export async function dongBoTuDong(
       }),
       prisma.banToChuc.findMany({
         where: { memberId, event: { startAt: trongMua } },
-        select: { id: true, event: { select: { title: true, startAt: true } } },
+        select: { id: true, eventId: true, event: { select: { title: true, startAt: true } } },
+        orderBy: { id: "asc" },
       }),
       prisma.loiChuc.findMany({
         where: { guiId: memberId, createdAt: trongMua },
@@ -319,7 +320,11 @@ export async function dongBoTuDong(
       moTa: `Kết nối giao dịch ${d.code}`,
     });
   }
+  // Một sự kiện tính một lần dù người đó ở nhiều ban (Trung tâm sự kiện cho xếp nhiều ban)
+  const daTinhBtc = new Set<string>();
   for (const b of btc) {
+    if (daTinhBtc.has(b.eventId)) continue;
+    daTinhBtc.add(b.eventId);
     ungVien.push({
       maNv: "NV12",
       khoa: `btc:${b.id}`,

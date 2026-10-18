@@ -4,7 +4,7 @@ import { useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import BangDuLieu, { type Cot, type Dong } from "@/components/trung-tam-sk/BangDuLieu";
 import GanHoiVien from "@/components/trung-tam-sk/GanHoiVien";
-import { LOP_TONG, XAC_NHAN, gioVN, nhanLuaChon, tongLuaChon } from "@/lib/trung-tam-sk/bang";
+import { LOP_TONG, NGUON_KHACH, XAC_NHAN, gioVN, nhanLuaChon, tongLuaChon } from "@/lib/trung-tam-sk/bang";
 
 type ThamDu = { phienId: string; xacNhan: string; checkinLuc: Date | string | null };
 const VONG: Record<string, string> = { CHO: "CO", CO: "KHONG", KHONG: "CHO" };
@@ -148,6 +148,18 @@ export default function KhachClient({
     "ban",
     "email",
     "ghiChu",
+    {
+      key: "nguon",
+      label: "Nguồn",
+      rong: 120,
+      giaTri: (r) => nhanLuaChon(NGUON_KHACH, r.nguon),
+      render: (r) =>
+        r.nguon && r.nguon !== "BTC" ? (
+          <span className={`rounded-full px-2 py-0.5 text-xs ${LOP_TONG[tongLuaChon(NGUON_KHACH, r.nguon)]}`}>
+            {nhanLuaChon(NGUON_KHACH, r.nguon)}
+          </span>
+        ) : null,
+    },
   ];
 
   return (

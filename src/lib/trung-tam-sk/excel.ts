@@ -5,7 +5,11 @@ import {
   BANG,
   LOAI_THU_CHI,
   MOI,
+  NGUON_KHACH,
+  TRANG_THAI_CAU_HOI,
   TRANG_THAI_HAU_CAN,
+  TRANG_THAI_NCC,
+  TRANG_THAI_RUI_RO,
   TRANG_THAI_THU_CHI,
   TRANG_THAI_VIEC,
   UU_TIEN,
@@ -222,6 +226,7 @@ export async function xuatExcel(eventId: string, q: QuyenSk): Promise<{ ten: str
           VIP: k.vip ? "x" : "",
           Bàn: k.ban ?? "",
           "Mã hội viên": k.memberId ? ma.get(k.memberId) ?? "" : "",
+          Nguồn: nhanLuaChon(NGUON_KHACH, k.nguon),
         };
         for (const p of phien) {
           const t = k.thamDu.find((x) => x.phienId === p.id);
@@ -286,9 +291,102 @@ export async function xuatExcel(eventId: string, q: QuyenSk): Promise<{ ten: str
         "Ghi chú": h.ghiChu ?? "",
       }))
     );
+    const [ncc, ruiRo, taiLieu, baiDang, giai, cauHoi, danhGia] = await Promise.all([
+      prisma.skNhaCungCap.findMany({ where: { skId }, orderBy: { order: "asc" } }),
+      prisma.skRuiRo.findMany({ where: { skId }, orderBy: { order: "asc" } }),
+      prisma.skTaiLieu.findMany({ where: { skId }, orderBy: { order: "asc" } }),
+      prisma.skBaiDang.findMany({ where: { skId }, orderBy: [{ ngay: "asc" }, { order: "asc" }] }),
+      prisma.skGiai.findMany({
+        where: { skId },
+        orderBy: { order: "asc" },
+        include: { trung: { orderBy: { luc: "asc" }, include: { khach: { select: { ten: true, donVi: true } } } } },
+      }),
+      prisma.skCauHoi.findMany({ where: { skId }, orderBy: { createdAt: "asc" } }),
+      prisma.skDanhGia.findMany({ where: { skId }, orderBy: { createdAt: "asc" } }),
+    ]);
+    them(
+      "NCC",
+      ncc.map((n) => ({
+        "Hạng mục": n.hangMuc,
+        "Nhà cung cấp": n.ten ?? "",
+        "Liên hệ": n.lienHe ?? "",
+        "Giá trị HĐ": tien(n.giaTri),
+        "Đã cọc": tien(n.daCoc),
+        "Trạng thái": nhanLuaChon(TRANG_THAI_NCC, n.trangThai),
+        "Ghi chú": n.ghiChu ?? "",
+      }))
+    );
+    them(
+      "Rủi ro",
+      ruiRo.map((r) => ({
+        "Rủi ro": r.ruiRo,
+        "Khả năng": r.khaNang,
+        "Tác động": r.tacDong,
+        Mức: r.khaNang * r.tacDong,
+        "Phương án": r.phuongAn ?? "",
+        "Người xử lý": r.nguoiXuLy ?? "",
+        "Trạng thái": nhanLuaChon(TRANG_THAI_RUI_RO, r.trangThai),
+      }))
+    );
+    them(
+      "Truyền thông",
+      [
+        ...taiLieu.map((t) => ({ Loại: "Link", Ngày: "", Nhóm: t.nhom ?? "", Tên: t.ten, Link: t.url ?? "", Reach: "", "Tương tác": "" })),
+        ...baiDang.map((b) => ({
+          Loại: "Bài đăng",
+          Ngày: ngayVN(b.ngay),
+          Nhóm: b.kenh ?? "",
+          Tên: b.tieuDe,
+          Link: b.link ?? "",
+          Reach: b.reach,
+          "Tương tác": b.tuongTac,
+        })),
+      ]
+    );
+    them(
+      "Bốc thăm",
+      giai.flatMap((g) =>
+        g.trung.length
+          ? g.trung.map((t) => ({
+              Giải: g.ten,
+              "Phần quà": g.phanQua ?? "",
+              "Nhà tài trợ giải": g.nhaTaiTro ?? "",
+              "Người trúng": t.khach.ten,
+              "Đơn vị": t.khach.donVi ?? "",
+              "Trạng thái": t.trangThai === "VANG" ? "Vắng — đã quay lại" : "Trúng",
+              Lúc: `${gioVN(t.luc)} ${ngayVN(t.luc)}`,
+            }))
+          : [{ Giải: g.ten, "Phần quà": g.phanQua ?? "", "Nhà tài trợ giải": g.nhaTaiTro ?? "", "Người trúng": "", "Đơn vị": "", "Trạng thái": "", Lúc: "" }]
+      )
+    );
+    them(
+      "Hỏi đáp",
+      cauHoi.map((c) => ({
+        "Câu hỏi": c.noiDung,
+        "Người hỏi": c.ten ?? "Ẩn danh",
+        "Trạng thái": nhanLuaChon(TRANG_THAI_CAU_HOI, c.trangThai),
+        Lúc: `${gioVN(c.createdAt)} ${ngayVN(c.createdAt)}`,
+      }))
+    );
+    them(
+      "Đánh giá",
+      danhGia.map((d) => ({
+        "Hài lòng (1–5)": d.haiLong,
+        "NPS (0–10)": d.nps ?? "",
+        "Thích nhất": d.thichNhat ?? "",
+        "Góp ý": d.gopY ?? "",
+        Tên: d.ten ?? "",
+        Lúc: `${gioVN(d.createdAt)} ${ngayVN(d.createdAt)}`,
+      }))
+    );
   }
 
   if (q.taiChinh) {
+    const hang = await prisma.skHangTaiTro.findMany({ where: { skId }, orderBy: { order: "asc" } });
+    them(
+      "Hạng tài trợ",
+      hang.map((h) => ({ Hạng: h.ten, "Mức tài trợ": tien(h.mucTien), "Số suất": h.soSuat ?? "", "Quyền lợi": h.quyenLoi ?? "" }))
+    );
     const tt = await prisma.taiTroSuKien.findMany({
       where: { eventId },
       orderBy: [{ order: "asc" }],

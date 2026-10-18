@@ -4,6 +4,12 @@
  */
 export const BAC_TAI_TRO = [
   {
+    ten: "Nhà tài trợ chính",
+    icon: "👑",
+    lop: "from-do-500 to-do-800",
+    vien: "ring-do-300",
+  },
+  {
     ten: "Kim cương",
     icon: "💎",
     lop: "from-sky-500 to-indigo-600",
@@ -41,7 +47,7 @@ export function bacTaiTro(ten: string | null | undefined) {
   return BAC_TAI_TRO.find((b) => b.ten === ten) ?? BAC_TAI_TRO[BAC_TAI_TRO.length - 1];
 }
 
-/** Thứ hạng để sắp xếp: Kim cương = 0. */
+/** Thứ hạng để sắp xếp: Nhà tài trợ chính = 0, Kim cương = 1… */
 export function thuHangBac(ten: string | null | undefined): number {
   const i = BAC_TAI_TRO.findIndex((b) => b.ten === ten);
   return i < 0 ? BAC_TAI_TRO.length : i;
