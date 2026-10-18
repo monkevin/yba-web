@@ -35,3 +35,9 @@ backup*/
 /soat/
 /tai-lieu/
 /S*YBA*2026/
+
+# File mẫu Excel cho thư ký (nút "Tải file mẫu" ở /quan-tri/noi-dung/su-kien)
+# là MÃ NGUỒN, phải có trong git dù *.xlsx bị loại ở trên
+!public/mau/
+!public/mau/*.xlsx
+

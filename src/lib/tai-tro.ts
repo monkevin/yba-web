@@ -20,6 +20,23 @@ export const BAC_TAI_TRO = [
   },
 ] as const;
 
+/**
+ * Trạng thái lượt tài trợ CHƯA chốt: "Huỷ", và "Đang vận động" (Trung tâm sự
+ * kiện ghi NTT đang liên hệ để Ban Tài trợ theo dõi). Các lượt này KHÔNG
+ * được vinh danh ở /tai-tro và KHÔNG tính điểm đóng góp — mọi chỗ cộng dồn
+ * TaiTroSuKien phải lọc `trangThai: { notIn: TT_TAI_TRO_CHUA_CHOT }`.
+ */
+export const TT_TAI_TRO_CHUA_CHOT = ["Huỷ", "Đang vận động"];
+
+/** Trạng thái chọn được ở Trung tâm sự kiện (giữ nguyên 3 giá trị file mẫu cũ). */
+export const TRANG_THAI_TAI_TRO = [
+  "Đang vận động",
+  "Cam kết",
+  "Còn thiếu",
+  "Hoàn tất",
+  "Huỷ",
+] as const;
+
 export function bacTaiTro(ten: string | null | undefined) {
   return BAC_TAI_TRO.find((b) => b.ten === ten) ?? BAC_TAI_TRO[BAC_TAI_TRO.length - 1];
 }

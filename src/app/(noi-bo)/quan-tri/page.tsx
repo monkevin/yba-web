@@ -4,6 +4,7 @@ import { requireUserPage } from "@/lib/auth";
 import { DEAL_STATUS } from "@/lib/deal";
 import { prisma } from "@/lib/prisma";
 import { QUYEN, co, type MaQuyen } from "@/lib/quyen";
+import { ngayVN } from "@/lib/trung-tam-sk/bang";
 
 const NAM_NAY = new Date().getFullYear();
 
@@ -74,12 +75,33 @@ export default async function AdminHome({
     prisma.nnNhiemVu.count({ where: { trangThai: "CHO_XAC_NHAN", cach: "BAN_DUYET" } }),
   ]);
 
-  // Khách mời Lễ chuyển giao 10/10 (thư mời riêng + check-in + xếp bàn)
-  const [km1010Tong, km1010XacNhan, km1010Checkin] = await Promise.all([
-    prisma.khachMoi1010.count(),
-    prisma.khachMoi1010.count({ where: { trangThai: "XAC_NHAN" } }),
-    prisma.khachMoi1010.count({ where: { checkinLuc: { not: null } } }),
+  // Trung tâm sự kiện: sự kiện gần nhất đang / sắp diễn ra (Lễ 10/10 đã
+  // chuyển vào mục Lưu trữ của Trung tâm — 18/10/2026)
+  const [skGanNhat, soSkQuanLy] = await Promise.all([
+    prisma.skSuKien.findFirst({
+      where: {
+        trangThai: { not: "HUY" },
+        event: { startAt: { gte: new Date(new Date().getTime() - 36 * 3600_000) } },
+      },
+      orderBy: { event: { startAt: "asc" } },
+      select: {
+        id: true,
+        trangThai: true,
+        event: { select: { title: true, startAt: true } },
+        _count: { select: { khach: true } },
+      },
+    }),
+    prisma.skSuKien.count(),
   ]);
+  const [skXacNhan, skCheckin] = skGanNhat
+    ? await Promise.all([
+        prisma.skKhach.count({ where: { skId: skGanNhat.id, thamDu: { some: { xacNhan: "CO" } } } }),
+        prisma.skKhach.count({ where: { skId: skGanNhat.id, thamDu: { some: { checkinLuc: { not: null } } } } }),
+      ])
+    : [0, 0];
+  const skDangDienRa =
+    !!skGanNhat &&
+    (skGanNhat.trangThai === "DANG_DIEN_RA" || ngayVN(skGanNhat.event.startAt) === ngayVN(new Date()));
 
   /**
    * Mỗi ô kèm quyền cần có — không đủ quyền thì ô đó không hiện.
@@ -94,8 +116,8 @@ export default async function AdminHome({
     title: string;
     desc: string;
     quyen: MaQuyen;
-    /** Quyền thay thế: có quyền này cũng thấy ô */
-    hoacQuyen?: MaQuyen;
+    /** Quyền thay thế: có một trong các quyền này cũng thấy ô */
+    hoacQuyen?: MaQuyen | MaQuyen[];
     gap?: number;
     /** Sự kiện đang diễn ra — tô vàng nổi bật */
     noiBat?: boolean;
@@ -161,13 +183,16 @@ export default async function AdminHome({
     },
     "Sự kiện",
     {
-      href: "/quan-tri/su-kien-1010",
-      title: "Trung tâm sự kiện 10/10",
-      desc: km1010Tong
-        ? `${km1010XacNhan}/${km1010Tong} khách đã xác nhận · ${km1010Checkin} đã check-in`
-        : "Chưa nhập danh sách khách mời",
+      href: "/quan-tri/su-kien",
+      title: "Trung tâm sự kiện",
+      desc: skGanNhat
+        ? `${skGanNhat.event.title} · ${ngayVN(skGanNhat.event.startAt).slice(0, 5)} — ${skXacNhan}/${skGanNhat._count.khach} khách xác nhận · ${skCheckin} đã check-in`
+        : soSkQuanLy
+          ? `${soSkQuanLy} sự kiện đã tổ chức — tạo sự kiện mới theo quy mô`
+          : "Tạo sự kiện theo quy mô: khách mời, check-in, Ban tổ chức, công việc, tài trợ, thu chi",
       quyen: QUYEN.SU_KIEN_QUAN_LY,
-      noiBat: true,
+      hoacQuyen: [QUYEN.SU_KIEN_TAI_CHINH, QUYEN.SU_KIEN_CHECKIN],
+      noiBat: skDangDienRa,
     },
     {
       href: "/quan-tri/noi-dung/su-kien",
@@ -301,7 +326,8 @@ export default async function AdminHome({
       continue;
     }
     dem++;
-    if (!(co(user, muc.quyen) || (!!muc.hoacQuyen && co(user, muc.hoacQuyen)))) {
+    const thayThe = muc.hoacQuyen ? [muc.hoacQuyen].flat() : [];
+    if (!(co(user, muc.quyen) || thayThe.some((m) => co(user, m)))) {
       continue;
     }
     nhomHien[nhomHien.length - 1].o.push({

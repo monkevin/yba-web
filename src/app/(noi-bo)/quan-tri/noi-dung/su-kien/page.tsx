@@ -1,6 +1,7 @@
 import { requireQuyen } from "@/lib/auth";
 import { QUYEN } from "@/lib/quyen";
 import Link from "next/link";
+import { SLUG_1010 } from "@/lib/checkin-1010";
 import { PageHeader } from "@/components/ui";
 import { formatDate } from "@/lib/format";
 import { prisma } from "@/lib/prisma";
@@ -29,7 +30,10 @@ export default async function QuanTriSuKien({
     prisma.event.findMany({
       where,
       orderBy: { startAt: "desc" },
-      include: { _count: { select: { registrations: true } } },
+      include: {
+        _count: { select: { registrations: true } },
+        toChuc: { select: { id: true } },
+      },
     }),
     prisma.event.count(),
     prisma.event.count({ where: { startAt: { gte: nay } } }),
@@ -148,6 +152,19 @@ export default async function QuanTriSuKien({
               </div>
 
               <div className="flex shrink-0 gap-2">
+                {e.slug !== SLUG_1010 && (
+                  <Link
+                    href={
+                      e.toChuc
+                        ? `/quan-tri/su-kien/${e.id}`
+                        : `/quan-tri/su-kien/moi?eventId=${e.id}`
+                    }
+                    className="btn-ghost py-1.5"
+                    title="Khách mời, check-in, Ban tổ chức, công việc, tài trợ, thu chi — ở Trung tâm sự kiện"
+                  >
+                    {e.toChuc ? "Tổ chức" : "+ Tổ chức"}
+                  </Link>
+                )}
                 <Link
                   href={`/quan-tri/noi-dung/su-kien/${e.id}`}
                   className="btn-ghost py-1.5"
