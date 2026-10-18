@@ -203,6 +203,42 @@ export default async function TongQuanSuKien({ params }: { params: Promise<{ id:
         </div>
       )}
 
+      {q.quanLy && (
+        <section className="grid gap-3 sm:grid-cols-3 lg:grid-cols-6">
+          {[
+            {
+              href: "ncc-rui-ro",
+              ten: "NCC chưa chốt",
+              so: s.ncc.chuaChot,
+              phu: `${s.ncc.tong} hạng mục`,
+              canhBao: s.ncc.chuaChot > 0,
+            },
+            {
+              href: "ncc-rui-ro",
+              ten: "Rủi ro cao còn mở",
+              so: s.ruiRo.moCao,
+              phu: `${s.ruiRo.tong} rủi ro`,
+              canhBao: s.ruiRo.moCao > 0,
+            },
+            { href: "truyen-thong", ten: "Reach truyền thông", so: soVN(s.truyenThong.reach), phu: `${s.truyenThong.soBai} bài` },
+            { href: "hoi-dap", ten: "Câu hỏi mới", so: s.cauHoi.moi, phu: `${s.cauHoi.tong} câu`, canhBao: s.cauHoi.moi > 0 },
+            { href: "boc-tham", ten: "Giải đã trao", so: `${s.giai.daTrao}/${s.giai.suat}`, phu: "suất bốc thăm" },
+            {
+              href: "danh-gia",
+              ten: "Hài lòng · NPS",
+              so: s.danhGia.so ? `${s.danhGia.tbHaiLong?.toFixed(1)}★` : "—",
+              phu: s.danhGia.so ? `${s.danhGia.so} phiếu · NPS ${s.danhGia.nps ?? "—"}` : "chưa có đánh giá",
+            },
+          ].map((o) => (
+            <Link key={o.ten} href={`${goc}/${o.href}`} className={`card p-3 hover:bg-slate-50 ${o.canhBao ? "ring-1 ring-amber-300" : ""}`}>
+              <div className="text-xs text-slate-500">{o.ten}</div>
+              <div className={`text-xl font-bold ${o.canhBao ? "text-amber-700" : "text-navy-800"}`}>{o.so}</div>
+              <div className="text-[11px] text-slate-400">{o.phu}</div>
+            </Link>
+          ))}
+        </section>
+      )}
+
       <p className="text-xs text-slate-400">
         Số liệu tính lúc {gioVN(new Date())} — tải lại trang để cập nhật.
       </p>

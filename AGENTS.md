@@ -766,10 +766,48 @@ API ở `src/app/api/quan-tri/su-kien/`.
   sự kiện tạo SAU đó.
 - **Lễ chuyển giao 10/10** giữ nguyên bộ công cụ riêng, vào từ mục "Lưu trữ"
   của Trung tâm; sự kiện `SLUG_1010` không gắn được vào Trung tâm.
-- **Đợt 2 (chưa làm)**: cổng QR cho khách (đăng ký / tự check-in / hỏi đáp /
-  đánh giá), bốc thăm, xếp bàn, link & bài đăng, nhà cung cấp, rủi ro, báo
-  cáo năm, nối Lịch hoạt động. Bản tham khảo đã viết ở repo mon-amie-pm
-  (`src/lib/events/`), chuyển sang theo đúng quy ước ở đây.
+- **Tab hai tầng** theo vòng đời (`layout.tsx` + `TabSuKien.tsx`): Tổng quan ·
+  Chuẩn bị (BTC, Công việc, Kịch bản, Hậu cần, NCC & rủi ro) · Khách mời
+  (Danh sách, Xếp bàn, Check-in) · Tài chính · Truyền thông · Tại sự kiện
+  (Cổng QR, Bốc thăm, Hỏi đáp) · Sau sự kiện (Đánh giá, Báo cáo) · Thông tin.
+  Thêm trang mới = thêm vào đúng nhóm, lọc theo quyền.
+- **Hạng tài trợ theo TỪNG chương trình** (`SkHangTaiTro`: NTT chính, Kim
+  cương… Đồng hành, mức tiền, số suất, quyền lợi mỗi dòng một mục). Thêm NTT
+  chọn hạng mà không nhập tiền → lấy mức tiền của hạng; quyền lợi sinh từ
+  bảng hạng (không có thì theo `QUYEN_LOI_THEO_HANG`). Báo cáo gửi NTT ở
+  `[id]/tai-tro/[ttId]` — KHÔNG in số đã thu, người vận động, ghi chú nội bộ.
+- **Ban tổ chức = thẻ ban** (`SkSuKien.cacBan` JSON). Đổi tên / xoá ban qua
+  PATCH `{ doiTenBan: { cu, moi } }` (`tinhDoiTenBan` + `lenhDoiTenBan`): người,
+  việc, thu chi, hậu cần, kịch bản của ban đi theo tên mới (xoá → về "Chưa
+  xếp ban", không mất dữ liệu). Một người ở nhiều ban của cùng sự kiện chỉ
+  được tính MỘT lần "Tham gia BTC" (`diem-hoat-dong.ts`, `ngoi-nha/nhiem-vu.ts`
+  đếm theo sự kiện, không theo dòng). `tabCuaBan` nối ban → tab phụ trách.
+- **Công việc = checklist theo ban** (bảng / Excel vẫn ở nút bên cạnh). "Nạp
+  checklist mẫu của ban" (`tao-mau` `{ phan: "viec", ban }`) chỉ thêm việc mẫu
+  chưa có (so tiêu đề) — bấm lại không nhân đôi. Ban đổi tên vẫn nhận mẫu của
+  ban cùng mảng việc.
+- **Cổng QR cho khách** `/sk/[ma]` (route group `(cong-sk)`, noindex, chặn
+  trong robots): đăng ký, tự check-in (SĐT + PIN in tại bàn đón), hỏi đáp,
+  đánh giá — bốn công tắc ở tab Cổng QR. `SkSuKien.ma` KHÔNG unique ở CSDL
+  (bảng đang có) → `taoMaCong` tự kiểm trùng. Logic ở `cong.ts`, route
+  `/api/sk/[ma]/*` chỉ mở cổng + giới hạn tần suất (`gioi-han.ts`, theo máy VÀ
+  theo cả sự kiện; PIN sai đếm riêng). Trùng SĐT thì KHÔNG ghi đè thông tin
+  BTC đã nhập và trả lời như nhau (không lộ ai đã có trong danh sách). Trang
+  công khai không bao giờ trả danh sách khách / SĐT. Khách tự vào ghi
+  `SkKhach.nguon` (ONLINE / TU_CHECKIN / LICH…).
+- **Bốc thăm** (`boc-tham.ts`): máy chủ chọn, chỉ khách ĐÃ check-in, mỗi khách
+  trúng tối đa một giải (`SkTrungGiai` unique skId + khachId). Khách vắng →
+  VANG: suất quay lại, người đó không vào vòng quay nữa.
+- **Hỏi đáp**: chiếu câu mới thì câu đang chiếu tự sang "Đã trả lời"
+  (`suaDong` bảng cauhoi); màn chiếu `[id]/hoi-dap/chieu` tự làm mới 3 giây.
+- **Link người dùng dán** (Drive, bài đăng, bằng chứng quyền lợi) chỉ thành
+  thẻ `<a>` qua `linkAnToan` (chặn `javascript:`).
+- **Lịch hoạt động**: tab Thông tin đưa sự kiện lên Lịch (`SkSuKien.lichId`,
+  công bố theo trạng thái công bố của sự kiện) và nhập đăng ký ĐÃ DUYỆT vào
+  khách (trùng SĐT bỏ qua); đăng ký tài trợ → NTT "Đang vận động" (cần quyền
+  Tài chính).
+- **Báo cáo năm** `/quan-tri/su-kien/bao-cao-nam?nam=` dùng `thongKe` từng sự
+  kiện; cột tiền chỉ hiện với quyền Tài chính.
 - Docker: `thiep-1010/` không có trong git (dữ liệu cá nhân) — Dockerfile tự
   `mkdir -p thiep-1010` để build từ bản clone không dừng. `public/mau/*.xlsx`
   (file mẫu cho thư ký) PHẢI có trong git, `.gitignore` đã mở ngoại lệ.
@@ -794,8 +832,10 @@ API ở `src/app/api/quan-tri/su-kien/`.
   và kiểm tra quy tắc khai phạm vi giao thương.
 - `npm run test:phanquyen` — kiểm tra hàm phân quyền trong `src/lib/quyen.ts`.
 - `npm run test:trungtamsk` — Trung tâm sự kiện: đọc số tiền / ngày, mẫu loại ×
-  quy mô, quyền sự kiện (`-- --csdl` chạy trọn luồng check-in → điểm trên một
-  sự kiện + hội viên thử rồi tự xoá).
+  quy mô, checklist theo ban, NPS, giới hạn tần suất, quyền sự kiện (`-- --csdl`
+  chạy trọn luồng check-in → điểm, cổng QR đăng ký / tự check-in / dò PIN, bốc
+  thăm, đổi tên ban, điểm BTC nhiều ban trên một sự kiện + hội viên thử rồi tự
+  xoá).
 - `npm run test:ngoinha` — soát nội dung + luật chơi game Ngôi nhà Chợ Lớn
   (`-- --csdl` để chạy thêm ván thử trên CSDL).
 - `npm run test:labai` — Lá bài mỗi ngày (nội dung, tỉ lệ, quà, một lá mỗi ngày).

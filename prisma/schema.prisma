@@ -1813,17 +1813,38 @@ model SkSuKien {
   baiHocTot      String?
   baiHocCaiThien String?
 
-  phien   SkPhien[]
-  khach   SkKhach[]
-  viec    SkViec[]
-  kichBan SkKichBan[]
-  thuChi  SkThuChi[]
-  hauCan  SkHauCan[]
+  /// CỔNG QR CHO KHÁCH (đợt 2, /sk/[ma]): mã ngắn in trên QR — duy nhất do
+  /// mã nguồn kiểm (KHÔNG @unique: thêm unique vào bảng đang có là db push
+  /// trên máy chủ dừng). Bốn công tắc mở từng cổng + PIN tự check-in.
+  ma          String?
+  moDangKy    Boolean @default(false)
+  moTuCheckin Boolean @default(false)
+  moHoiDap    Boolean @default(false)
+  moDanhGia   Boolean @default(false)
+  pinCheckin  String?
+  /// Mục Lịch hoạt động đã đưa lên (LichHoatDong.id, chuỗi thường)
+  lichId      String?
+
+  phien      SkPhien[]
+  khach      SkKhach[]
+  viec       SkViec[]
+  kichBan    SkKichBan[]
+  thuChi     SkThuChi[]
+  hauCan     SkHauCan[]
+  hangTaiTro SkHangTaiTro[]
+  giai       SkGiai[]
+  cauHoi     SkCauHoi[]
+  danhGia    SkDanhGia[]
+  taiLieu    SkTaiLieu[]
+  baiDang    SkBaiDang[]
+  nhaCungCap SkNhaCungCap[]
+  ruiRo      SkRuiRo[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
   @@index([trangThai])
+  @@index([ma])
 }
 
 /// Một phiên của sự kiện (VD Tọa đàm · Lễ · Gala) — xác nhận và check-in tính riêng từng phiên
@@ -1866,12 +1887,13 @@ model SkKhach {
   ban      String?
   /// Hồ sơ hội viên (chuỗi thường, không khoá ngoại — như KhachMoi1010)
   memberId String?
-  /// BTC | EXCEL | LE_TAN (khách vãng lai thêm ở bàn check-in)
+  /// BTC | EXCEL | LE_TAN (vãng lai ở bàn check-in) | ONLINE (cổng QR đăng ký) | TU_CHECKIN | LICH (từ Lịch hoạt động)
   nguon    String   @default("BTC")
   ghiChu   String?
   order    Int      @default(0)
 
-  thamDu SkThamDu[]
+  thamDu    SkThamDu[]
+  trungGiai SkTrungGiai[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -1996,4 +2018,154 @@ model SkQuyenLoi {
   order    Int          @default(0)
 
   @@index([taiTroId])
+}
+
+/// Bảng hạng tài trợ RIÊNG của từng chương trình (mỗi chương trình một mức
+/// tiền khác nhau). Thêm NTT chọn hạng → tự điền số tiền + danh sách quyền lợi.
+model SkHangTaiTro {
+  id       String   @id @default(cuid())
+  skId     String
+  sk       SkSuKien @relation(fields: [skId], references: [id], onDelete: Cascade)
+  /// Nhà tài trợ chính | Kim cương | Vàng | Bạc | Đồng | Đồng hành | …
+  ten      String
+  /// Mức tài trợ của hạng ở chương trình này (VND)
+  mucTien  Float    @default(0)
+  /// Số suất tối đa (trống = không giới hạn)
+  soSuat   Int?
+  /// Quyền lợi, mỗi dòng một mục — sinh danh sách nghiệm thu cho NTT
+  quyenLoi String?
+  order    Int      @default(0)
+
+  @@index([skId])
+}
+
+/// Giải bốc thăm may mắn
+model SkGiai {
+  id        String   @id @default(cuid())
+  skId      String
+  sk        SkSuKien @relation(fields: [skId], references: [id], onDelete: Cascade)
+  ten       String
+  phanQua   String?
+  nhaTaiTro String?
+  soLuong   Int      @default(1)
+  order     Int      @default(0)
+
+  trung SkTrungGiai[]
+
+  @@index([skId])
+}
+
+/// Một lượt trúng giải. Mỗi khách trúng tối đa MỘT giải mỗi sự kiện (unique
+/// skId + khachId — bảng mới nên đặt unique được). Khách vắng → VANG: suất
+/// giải được quay lại, khách đó không vào vòng quay nữa.
+model SkTrungGiai {
+  id        String   @id @default(cuid())
+  skId      String
+  giaiId    String
+  giai      SkGiai   @relation(fields: [giaiId], references: [id], onDelete: Cascade)
+  khachId   String
+  khach     SkKhach  @relation(fields: [khachId], references: [id], onDelete: Cascade)
+  /// TRUNG | VANG
+  trangThai String   @default("TRUNG")
+  luc       DateTime @default(now())
+
+  @@unique([skId, khachId])
+  @@index([giaiId])
+}
+
+/// Câu hỏi khách gửi qua QR cho diễn giả
+model SkCauHoi {
+  id        String   @id @default(cuid())
+  skId      String
+  sk        SkSuKien @relation(fields: [skId], references: [id], onDelete: Cascade)
+  noiDung   String
+  /// Tên người hỏi — trống = ẩn danh
+  ten       String?
+  /// MOI | CHIEU (đang chiếu lên màn hình) | DA_TRA_LOI | AN
+  trangThai String   @default("MOI")
+  createdAt DateTime @default(now())
+
+  @@index([skId])
+}
+
+/// Đánh giá của khách sau sự kiện (hài lòng 1–5, NPS 0–10)
+model SkDanhGia {
+  id        String   @id @default(cuid())
+  skId      String
+  sk        SkSuKien @relation(fields: [skId], references: [id], onDelete: Cascade)
+  haiLong   Int
+  nps       Int?
+  thichNhat String?
+  gopY      String?
+  ten       String?
+  createdAt DateTime @default(now())
+
+  @@index([skId])
+}
+
+/// Link quan trọng: thư mục Drive, KV, album ảnh, clip, file kế hoạch…
+model SkTaiLieu {
+  id     String   @id @default(cuid())
+  skId   String
+  sk     SkSuKien @relation(fields: [skId], references: [id], onDelete: Cascade)
+  nhom   String?
+  ten    String
+  url    String?
+  ghiChu String?
+  order  Int      @default(0)
+
+  @@index([skId])
+}
+
+/// Bài đã đăng + reach — số liệu đưa vào báo cáo gửi nhà tài trợ
+model SkBaiDang {
+  id       String    @id @default(cuid())
+  skId     String
+  sk       SkSuKien  @relation(fields: [skId], references: [id], onDelete: Cascade)
+  ngay     DateTime?
+  kenh     String?
+  tieuDe   String
+  link     String?
+  reach    Int       @default(0)
+  tuongTac Int       @default(0)
+  ghiChu   String?
+  order    Int       @default(0)
+
+  @@index([skId])
+}
+
+/// Nhà cung cấp (địa điểm, âm thanh, in ấn…)
+model SkNhaCungCap {
+  id        String   @id @default(cuid())
+  skId      String
+  sk        SkSuKien @relation(fields: [skId], references: [id], onDelete: Cascade)
+  hangMuc   String
+  ten       String?
+  lienHe    String?
+  giaTri    Float    @default(0)
+  daCoc     Float    @default(0)
+  /// TIM | BAO_GIA | DA_CHOT | DA_TT
+  trangThai String   @default("TIM")
+  ghiChu    String?
+  order     Int      @default(0)
+
+  @@index([skId])
+}
+
+/// Rủi ro & phương án dự phòng
+model SkRuiRo {
+  id        String   @id @default(cuid())
+  skId      String
+  sk        SkSuKien @relation(fields: [skId], references: [id], onDelete: Cascade)
+  ruiRo     String
+  /// 1 thấp – 3 cao
+  khaNang   Int      @default(2)
+  tacDong   Int      @default(2)
+  phuongAn  String?
+  nguoiXuLy String?
+  /// MO | DA_XU_LY
+  trangThai String   @default("MO")
+  order     Int      @default(0)
+
+  @@index([skId])
 }

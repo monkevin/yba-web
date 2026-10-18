@@ -131,6 +131,7 @@ export const TT_TAI_TRO: LuaChon[] = TRANG_THAI_TAI_TRO.map((t) => ({
 }));
 
 export const BAC_TAI_TRO_CHON: LuaChon[] = [
+  "Nhà tài trợ chính",
   "Kim cương",
   "Vàng",
   "Bạc",
@@ -281,6 +282,97 @@ export const BANG: Record<string, CauHinhBang> = {
       nguoiVanDong: { label: "Người vận động", kieu: "chu", rong: 140 },
       lienHe: { label: "Liên hệ", kieu: "chu", rong: 160 },
       ghiChu: { label: "Ghi chú", kieu: "doan", rong: 180 },
+    },
+  },
+  hangtaitro: {
+    ten: "Hạng tài trợ",
+    cha: "sk",
+    tieuDe: "ten",
+    quyen: "TAI_CHINH",
+    truong: {
+      ten: { label: "Hạng", kieu: "chu", rong: 160 },
+      mucTien: { label: "Mức tài trợ", kieu: "tien", rong: 130, tenKhac: ["Số tiền", "Mức tiền"] },
+      soSuat: { label: "Số suất", kieu: "so", rong: 80 },
+      quyenLoi: { label: "Quyền lợi (mỗi dòng một mục)", kieu: "doan", rong: 360 },
+    },
+  },
+  giai: {
+    ten: "Giải bốc thăm",
+    cha: "sk",
+    tieuDe: "ten",
+    quyen: "QUAN_LY",
+    truong: {
+      ten: { label: "Giải", kieu: "chu", rong: 160 },
+      phanQua: { label: "Phần quà", kieu: "doan", rong: 220 },
+      nhaTaiTro: { label: "Nhà tài trợ giải", kieu: "chu", rong: 180 },
+      soLuong: { label: "Số lượng", kieu: "so", rong: 80 },
+    },
+  },
+  cauhoi: {
+    ten: "Câu hỏi",
+    cha: "sk",
+    tieuDe: "noiDung",
+    quyen: "QUAN_LY",
+    truong: {
+      noiDung: { label: "Câu hỏi", kieu: "doan", rong: 360 },
+      ten: { label: "Người hỏi", kieu: "chu", rong: 140 },
+      trangThai: { label: "Trạng thái", kieu: "chon", luaChon: [], rong: 120 },
+    },
+  },
+  tailieu: {
+    ten: "Link quan trọng",
+    cha: "sk",
+    tieuDe: "ten",
+    quyen: "QUAN_LY",
+    truong: {
+      ten: { label: "Tên", kieu: "chu", rong: 220 },
+      url: { label: "Link", kieu: "chu", rong: 260 },
+      nhom: { label: "Nhóm", kieu: "chu", rong: 140 },
+      ghiChu: { label: "Ghi chú", kieu: "doan", rong: 200 },
+    },
+  },
+  baidang: {
+    ten: "Bài đã đăng",
+    cha: "sk",
+    tieuDe: "tieuDe",
+    quyen: "QUAN_LY",
+    truong: {
+      ngay: { label: "Ngày đăng", kieu: "ngay", rong: 110 },
+      kenh: { label: "Kênh", kieu: "chu", rong: 120 },
+      tieuDe: { label: "Tiêu đề", kieu: "doan", rong: 260 },
+      link: { label: "Link", kieu: "chu", rong: 140 },
+      reach: { label: "Reach", kieu: "so", rong: 90 },
+      tuongTac: { label: "Tương tác", kieu: "so", rong: 90 },
+      ghiChu: { label: "Ghi chú", kieu: "doan", rong: 180 },
+    },
+  },
+  ncc: {
+    ten: "Nhà cung cấp",
+    cha: "sk",
+    tieuDe: "hangMuc",
+    quyen: "QUAN_LY",
+    truong: {
+      hangMuc: { label: "Hạng mục", kieu: "chu", rong: 170 },
+      ten: { label: "Nhà cung cấp", kieu: "chu", rong: 200 },
+      lienHe: { label: "Liên hệ", kieu: "chu", rong: 160 },
+      giaTri: { label: "Giá trị HĐ", kieu: "tien", rong: 120 },
+      daCoc: { label: "Đã cọc", kieu: "tien", rong: 110 },
+      trangThai: { label: "Trạng thái", kieu: "chon", luaChon: [], rong: 130 },
+      ghiChu: { label: "Ghi chú", kieu: "doan", rong: 200 },
+    },
+  },
+  ruiro: {
+    ten: "Rủi ro",
+    cha: "sk",
+    tieuDe: "ruiRo",
+    quyen: "QUAN_LY",
+    truong: {
+      ruiRo: { label: "Rủi ro", kieu: "doan", rong: 240 },
+      khaNang: { label: "Khả năng (1–3)", kieu: "so", rong: 90 },
+      tacDong: { label: "Tác động (1–3)", kieu: "so", rong: 90 },
+      phuongAn: { label: "Phương án dự phòng", kieu: "doan", rong: 280 },
+      nguoiXuLy: { label: "Người xử lý", kieu: "chu", rong: 130 },
+      trangThai: { label: "Trạng thái", kieu: "chon", luaChon: [], rong: 110 },
     },
   },
   quyenloi: {
@@ -461,6 +553,18 @@ export function epKieu(t: Truong, v: unknown): unknown {
  * trợ có hạng (sửa / thêm / xoá từng dòng sau đó tuỳ hợp đồng).
  */
 export const QUYEN_LOI_THEO_HANG: Record<string, string[]> = {
+  "Nhà tài trợ chính": [
+    "Đồng tổ chức: tên / logo đứng cùng Chi hội trên mọi ấn phẩm",
+    "Logo lớn nhất, vị trí trung tâm backdrop, LED, thư mời, standee",
+    "Phát biểu chào mừng + trao quà trên sân khấu",
+    "Clip giới thiệu doanh nghiệp 90 giây trên LED",
+    "Booth trưng bày vị trí đẹp nhất",
+    "Bài giới thiệu riêng trên fanpage + website Chi hội + báo chí",
+    "MC xướng tên nhiều lần trong chương trình",
+    "Vinh danh + kỷ niệm chương đặc biệt",
+    "6 suất tham dự khu VIP",
+    "Ảnh bằng chứng quyền lợi gửi kèm báo cáo NTT",
+  ],
   "Kim cương": [
     "Logo vị trí trung tâm trên backdrop, LED, thư mời, standee",
     "Phát biểu / trao quà trên sân khấu",
@@ -490,3 +594,57 @@ export const QUYEN_LOI_THEO_HANG: Record<string, string[]> = {
   Đồng: ["Logo trên LED", "Vinh danh trên sân khấu", "1 suất tham dự"],
   "Đồng hành": ["Logo trên LED", "Cảm ơn trên fanpage"],
 };
+
+export const TRANG_THAI_CAU_HOI: LuaChon[] = [
+  { value: "MOI", label: "Chờ duyệt", tong: "slate" },
+  { value: "CHIEU", label: "Đang chiếu", tong: "red" },
+  { value: "DA_TRA_LOI", label: "Đã trả lời", tong: "green" },
+  { value: "AN", label: "Ẩn", tong: "slate" },
+];
+/** SkKhach.nguon — khách vào danh sách bằng đường nào */
+export const NGUON_KHACH: LuaChon[] = [
+  { value: "BTC", label: "BTC nhập" },
+  { value: "EXCEL", label: "File Excel" },
+  { value: "LE_TAN", label: "Lễ tân thêm", tong: "amber" },
+  { value: "ONLINE", label: "Đăng ký QR", tong: "blue" },
+  { value: "TU_CHECKIN", label: "Vãng lai tự check-in", tong: "amber" },
+  { value: "LICH", label: "Lịch hoạt động", tong: "violet" },
+];
+export const TRANG_THAI_NCC: LuaChon[] = [
+  { value: "TIM", label: "Đang tìm", tong: "slate" },
+  { value: "BAO_GIA", label: "Đã báo giá", tong: "blue" },
+  { value: "DA_CHOT", label: "Đã chốt / cọc", tong: "amber" },
+  { value: "DA_TT", label: "Đã thanh toán", tong: "green" },
+];
+export const TRANG_THAI_RUI_RO: LuaChon[] = [
+  { value: "MO", label: "Đang theo dõi", tong: "amber" },
+  { value: "DA_XU_LY", label: "Đã xử lý", tong: "green" },
+];
+BANG.cauhoi.truong.trangThai.luaChon = TRANG_THAI_CAU_HOI;
+BANG.ncc.truong.trangThai.luaChon = TRANG_THAI_NCC;
+BANG.ruiro.truong.trangThai.luaChon = TRANG_THAI_RUI_RO;
+
+/**
+ * Ban → tab phụ trách (thẻ ban ở Ban tổ chức / Công việc dẫn thẳng sang).
+ * So khớp theo chữ trong tên ban nên ban tự đặt tên khác vẫn nhận được.
+ */
+export function tabCuaBan(ten: string): { duong: string; nhan: string } | null {
+  const n = chuan(ten);
+  if (n.includes("noi dung") || n.includes("mc")) return { duong: "kich-ban", nhan: "Kịch bản" };
+  if (n.includes("hau can")) return { duong: "hau-can", nhan: "Hậu cần" };
+  if (n.includes("truyen thong") || n.includes("media")) return { duong: "truyen-thong", nhan: "Truyền thông" };
+  if (n.includes("tai tro") || n.includes("tai chinh")) return { duong: "tai-tro", nhan: "Tài trợ" };
+  if (n.includes("khach") || n.includes("le tan")) return { duong: "khach", nhan: "Khách mời" };
+  if (n.includes("ky thuat") || n.includes("hien truong")) return { duong: "ncc-rui-ro", nhan: "NCC & rủi ro" };
+  return null;
+}
+
+
+/** Chỉ mở link http(s) — chặn "javascript:" gõ / dán nhầm vào ô link */
+export function linkAnToan(url: unknown): string | null {
+  const t = typeof url === "string" ? url.trim() : "";
+  if (/^https?:\/\//i.test(t)) return t;
+  // Dán thiếu giao thức: "drive.google.com/…"
+  if (/^[\w-]+(\.[\w-]+)+(\/|$)/.test(t)) return `https://${t}`;
+  return null;
+}

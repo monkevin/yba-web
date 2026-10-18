@@ -36,6 +36,13 @@ const MO_HINH: Record<string, string> = {
   btc: "banToChuc",
   taitro: "taiTroSuKien",
   quyenloi: "skQuyenLoi",
+  hangtaitro: "skHangTaiTro",
+  giai: "skGiai",
+  cauhoi: "skCauHoi",
+  tailieu: "skTaiLieu",
+  baidang: "skBaiDang",
+  ncc: "skNhaCungCap",
+  ruiro: "skRuiRo",
 };
 
 export function layBang(ten: string): { cauHinh: CauHinhBang; db: Delegate } | null {
@@ -118,6 +125,9 @@ export async function themDong(
   const max = await db.aggregate({ where: cha, _max: { order: true } });
   let order = max._max.order ?? 0;
   const cm = ten === "khach" ? await napChiMucHoiVien() : null;
+  const hangTheoTen = new Map(
+    (ten === "taitro" && skId ? await prisma.skHangTaiTro.findMany({ where: { skId } }) : []).map((h) => [h.ten, h])
+  );
 
   const tao: Dong[] = [];
   for (const vao of dsVao.slice(0, 2000)) {
@@ -153,6 +163,11 @@ export async function themDong(
         cm
       );
     }
+    // Chọn hạng mà chưa nhập số tiền → lấy mức tiền của hạng ở chương trình này
+    if (ten === "taitro" && typeof data.mucTaiTro === "string" && !("hienKim" in data)) {
+      const hang = hangTheoTen.get(data.mucTaiTro);
+      if (hang?.mucTien) data.hienKim = hang.mucTien;
+    }
     if (ten === "taitro" && typeof data.hienKim === "number" && !(Number(data.giaTri) >= data.hienKim))
       data.giaTri = data.hienKim;
     const dong = await db.create({ data: { ...data, ...cha, order: ++order } });
@@ -166,9 +181,13 @@ export async function themDong(
         if (p) await prisma.skThamDu.create({ data: { khachId: dong.id, phienId: p.id, xacNhan: String(xn) } });
       }
     }
-    // Nhà tài trợ có hạng → sinh sẵn danh sách quyền lợi để nghiệm thu
+    // Nhà tài trợ có hạng → sinh sẵn danh sách quyền lợi theo bảng hạng của
+    // CHƯƠNG TRÌNH này (không có thì theo mẫu chung)
     if (ten === "taitro" && typeof data.mucTaiTro === "string") {
-      const mau = QUYEN_LOI_THEO_HANG[data.mucTaiTro] ?? [];
+      const hang = hangTheoTen.get(data.mucTaiTro);
+      const mau = hang?.quyenLoi
+        ? hang.quyenLoi.split("\n").map((x) => x.trim()).filter(Boolean)
+        : QUYEN_LOI_THEO_HANG[data.mucTaiTro] ?? [];
       if (mau.length)
         await prisma.skQuyenLoi.createMany({
           data: mau.map((noiDung, i) => ({ taiTroId: dong.id, noiDung, order: i + 1 })),
@@ -217,6 +236,13 @@ export async function suaDong(
     const tri = Number("giaTri" in r.data ? r.data.giaTri : cu.giaTri) || 0;
     // Trang vinh danh cộng theo "Tổng giá trị" — không để nhỏ hơn tiền mặt cam kết
     if (tri < kim) r.data.giaTri = kim;
+  }
+  // Màn hình chiếu chỉ một câu hỏi: chiếu câu mới thì câu đang chiếu coi như đã trả lời
+  if (ten === "cauhoi" && r.data.trangThai === "CHIEU") {
+    await prisma.skCauHoi.updateMany({
+      where: { skId: String(cu.skId), trangThai: "CHIEU", id: { not: id } },
+      data: { trangThai: "DA_TRA_LOI" },
+    });
   }
   const dong = await db.update({ where: { id }, data: r.data });
   if (ten === "khach" && "memberId" in r.data && r.data.memberId !== cu.memberId) {

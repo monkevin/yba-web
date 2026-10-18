@@ -19,19 +19,37 @@ export default async function KhungSuKien({
   if (!ev?.toChuc) return <>{children}</>;
 
   const goc = `/quan-tri/su-kien/${id}`;
-  const tab = [
-    { href: goc, ten: "Tổng quan", hien: q.quanLy || q.taiChinh },
-    { href: `${goc}/khach`, ten: "Khách mời", hien: q.quanLy },
-    { href: `${goc}/check-in`, ten: "Check-in", hien: q.checkin },
-    { href: `${goc}/ban-to-chuc`, ten: "Ban tổ chức", hien: q.quanLy },
-    { href: `${goc}/cong-viec`, ten: "Công việc", hien: q.quanLy },
-    { href: `${goc}/kich-ban`, ten: "Kịch bản", hien: q.quanLy },
-    { href: `${goc}/hau-can`, ten: "Hậu cần", hien: q.quanLy },
-    { href: `${goc}/tai-tro`, ten: "Tài trợ", hien: q.taiChinh },
-    { href: `${goc}/thu-chi`, ten: "Thu chi", hien: q.taiChinh },
-    { href: `${goc}/bao-cao`, ten: "Báo cáo", hien: q.quanLy || q.taiChinh },
-    { href: `${goc}/thong-tin`, ten: "Thông tin", hien: q.quanLy },
-  ].filter((t) => t.hien);
+  const t = (duong: string, ten: string, hien: boolean) => ({ href: duong ? `${goc}/${duong}` : goc, ten, hien });
+  const nhom = [
+    { ten: "Tổng quan", tab: [t("", "Tổng quan", q.quanLy || q.taiChinh)] },
+    {
+      ten: "Chuẩn bị",
+      tab: [
+        t("ban-to-chuc", "Ban tổ chức", q.quanLy),
+        t("cong-viec", "Công việc", q.quanLy),
+        t("kich-ban", "Kịch bản", q.quanLy),
+        t("hau-can", "Hậu cần", q.quanLy),
+        t("ncc-rui-ro", "NCC & rủi ro", q.quanLy),
+      ],
+    },
+    {
+      ten: "Khách mời",
+      tab: [t("khach", "Danh sách", q.quanLy), t("xep-ban", "Xếp bàn", q.quanLy), t("check-in", "Check-in", q.checkin)],
+    },
+    { ten: "Tài chính", tab: [t("tai-tro", "Tài trợ", q.taiChinh), t("thu-chi", "Thu chi", q.taiChinh)] },
+    { ten: "Truyền thông", tab: [t("truyen-thong", "Truyền thông", q.quanLy)] },
+    {
+      ten: "Tại sự kiện",
+      tab: [t("cong-qr", "Cổng QR", q.quanLy), t("boc-tham", "Bốc thăm", q.quanLy), t("hoi-dap", "Hỏi đáp", q.quanLy)],
+    },
+    {
+      ten: "Sau sự kiện",
+      tab: [t("danh-gia", "Đánh giá", q.quanLy || q.taiChinh), t("bao-cao", "Báo cáo", q.quanLy || q.taiChinh)],
+    },
+    { ten: "Thông tin", tab: [t("thong-tin", "Thông tin", q.quanLy)] },
+  ]
+    .map((n) => ({ ten: n.ten, tab: n.tab.filter((x) => x.hien).map(({ href, ten }) => ({ href, ten })) }))
+    .filter((n) => n.tab.length);
 
   return (
     <div>
@@ -66,7 +84,7 @@ export default async function KhungSuKien({
           )}
         </div>
       </div>
-      <TabSuKien tab={tab} goc={goc} />
+      <TabSuKien nhom={nhom} goc={goc} />
       {children}
     </div>
   );
