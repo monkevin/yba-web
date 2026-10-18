@@ -18,6 +18,7 @@ export default function CongQrClient({
   eventId,
   tieuDe,
   goc,
+  duong,
   pin,
   mo: dau,
   dem,
@@ -25,6 +26,8 @@ export default function CongQrClient({
   eventId: string;
   tieuDe: string;
   goc: string;
+  /** Đường dẫn tương đối — nút "Mở thử" luôn mở đúng máy đang dùng */
+  duong: string;
   pin: string;
   mo: Record<Cong, boolean>;
   dem: Record<Cong, number>;
@@ -116,7 +119,7 @@ export default function CongQrClient({
                     <button onClick={() => chep(url)} className="btn-ghost !px-2 !py-1 text-xs">
                       {daChep === url ? "Đã chép ✓" : "Chép link"}
                     </button>
-                    <a href={url} target="_blank" rel="noopener" className="btn-ghost !px-2 !py-1 text-xs">
+                    <a href={`${duong}/${c.duong}`} target="_blank" rel="noopener" className="btn-ghost !px-2 !py-1 text-xs">
                       Mở thử ↗
                     </a>
                   </div>

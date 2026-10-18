@@ -1,5 +1,5 @@
 import { prisma } from "@/lib/prisma";
-import { SITE } from "@/lib/site";
+import { gocWeb } from "@/lib/trung-tam-sk/goc-web";
 import { napTrang } from "@/lib/trung-tam-sk/trang";
 import ManChieuHoiDap from "./ManChieuHoiDap";
 
@@ -15,7 +15,7 @@ export default async function ChieuHoiDapPage({ params }: { params: Promise<{ id
     <ManChieuHoiDap
       tieuDe={ev.title}
       cauHoi={q}
-      linkGui={sk.ma && sk.moHoiDap ? `${SITE.url}/sk/${sk.ma}/hoi-dap` : null}
+      linkGui={sk.ma && sk.moHoiDap ? `${await gocWeb()}/sk/${sk.ma}/hoi-dap` : null}
     />
   );
 }
