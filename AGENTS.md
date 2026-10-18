@@ -719,6 +719,61 @@ khu hội viên); `/ngoi-nha` đã có trong `PROTECTED` và `robots.ts`.
   force-dynamic). KHÔNG hiện SĐT/bàn; khách `anKhoiDanhSach` và ê-kíp BTC
   không hiện tên trên màn (quân số vẫn đếm đủ).
 
+## Trung tâm sự kiện (`/quan-tri/su-kien`, từ 18/10/2026)
+
+Công cụ TỔ CHỨC dùng chung cho mọi sự kiện của Chi hội (Chủ nhiệm chốt
+18/10: "ghép vào trang quản trị, không làm tab riêng"). Ô 08 trang
+/quan-tri dẫn vào đây; mỗi sự kiện ở mục 09 có nút "Tổ chức". Mã ở
+`src/lib/trung-tam-sk/`, trang ở `src/app/(noi-bo)/quan-tri/su-kien/`,
+API ở `src/app/api/quan-tri/su-kien/`.
+
+- **Gắn vào `Event` có sẵn**, 1 sự kiện ↔ 1 `SkSuKien` (`Event.toChuc`).
+  Tạo mới ở /quan-tri/su-kien/moi sinh luôn `Event` (published = false — Ban
+  Truyền thông bật ở tab Thông tin). Bảng mới đều tiền tố `Sk*`: phiên,
+  khách, xác nhận/check-in theo phiên, việc D-x, kịch bản, thu chi, hậu cần,
+  quyền lợi NTT. **DÙNG LẠI bảng cũ**: `BanToChuc` (BTC — vẫn đếm điểm cống
+  hiến, vẫn quét thẻ được ở Mini App), `TaiTroSuKien` (NTT — trang /tai-tro
+  vinh danh đọc chung), `ThamDuSuKien` + `DiemHoatDong` (check-in → điểm),
+  `Member` (không có bảng hội viên riêng). Chỉ THÊM bảng / cột tuỳ chọn để
+  `db push` trên máy chủ không cần --accept-data-loss.
+- **Ba quyền**: `SU_KIEN_QUAN_LY` (khách có SĐT, BTC, việc, kịch bản, hậu
+  cần, thông tin), `SU_KIEN_TAI_CHINH` (tài trợ, thu chi — ADMIN giới hạn chỉ
+  tích Quản lý sự kiện sẽ KHÔNG thấy tài chính), `SU_KIEN_CHECKIN` (tình
+  nguyện viên: chỉ màn check-in, SĐT bị che bằng `cheSoDienThoai`). Trang
+  dùng `napTrang(id, quyen)` (`trang.ts`), route dùng `nguoiDungApi()`.
+- **Check-in → điểm**: `datCheckin` (`checkin.ts`) ghi `SkThamDu`, khách là
+  hội viên thì `ThamDuSuKien` = DA_CHECKIN với `checkinBoi =
+  "trung-tam-su-kien"` rồi gọi `congDiemCheckinSuKien` — CÙNG khoá `cisk:`
+  với quét thẻ Mini App nên hai nơi vẫn chỉ một dòng điểm. Huỷ hết check-in
+  chỉ lùi bản ghi do Trung tâm đánh dấu, không đụng lượt Mini App. Xoá khách
+  / phiên / gỡ khỏi Trung tâm đều chạy `dongBoHoiVien` để điểm khớp lại.
+  Ghép hội viên dùng `timHoiVienKhop` của 10/10 (thà sót hơn ghép nhầm).
+- **NTT "Đang vận động"** (mới liên hệ, chưa chốt) KHÔNG được vinh danh và
+  KHÔNG tính điểm: mọi chỗ cộng dồn `TaiTroSuKien` phải lọc
+  `trangThai: { notIn: TT_TAI_TRO_CHUA_CHOT }` (`src/lib/tai-tro.ts`). Tổng
+  giá trị (`giaTri`) tự nâng bằng tiền mặt cam kết nếu nhập thấp hơn.
+- **Nhập file mẫu ở mục 09 bị chặn (409)** với sự kiện đang quản lý ở Trung
+  tâm — route đó xoá sạch BTC + NTT trước khi nhập lại.
+- **Bảng sửa trực tiếp** (`BangDuLieu`) và API `/bang/[bang]` dùng chung cấu
+  hình `BANG` (`bang.ts`) làm danh sách trắng: thêm cột = thêm vào schema VÀ
+  `BANG`. Trang máy chủ không được truyền hàm xuống `BangDuLieu` — bọc trong
+  một client component (như `KichBanClient`).
+- **Ngày giờ**: máy chủ chạy UTC. Ngày không giờ lưu 12:00 giờ VN
+  (`tuNgayNhap`), hiển thị bằng `ngayVN` / `gioVN` (múi Asia/Ho_Chi_Minh) —
+  đừng dùng `formatDate` / `toDateInput` cho dữ liệu Trung tâm.
+- **Mẫu sự kiện** 8 loại × 3 quy mô ở `mau.ts` (các ban, việc theo mốc D-x,
+  kịch bản, hậu cần, dự trù chi) — sửa file là cập nhật quy trình chuẩn cho
+  sự kiện tạo SAU đó.
+- **Lễ chuyển giao 10/10** giữ nguyên bộ công cụ riêng, vào từ mục "Lưu trữ"
+  của Trung tâm; sự kiện `SLUG_1010` không gắn được vào Trung tâm.
+- **Đợt 2 (chưa làm)**: cổng QR cho khách (đăng ký / tự check-in / hỏi đáp /
+  đánh giá), bốc thăm, xếp bàn, link & bài đăng, nhà cung cấp, rủi ro, báo
+  cáo năm, nối Lịch hoạt động. Bản tham khảo đã viết ở repo mon-amie-pm
+  (`src/lib/events/`), chuyển sang theo đúng quy ước ở đây.
+- Docker: `thiep-1010/` không có trong git (dữ liệu cá nhân) — Dockerfile tự
+  `mkdir -p thiep-1010` để build từ bản clone không dừng. `public/mau/*.xlsx`
+  (file mẫu cho thư ký) PHẢI có trong git, `.gitignore` đã mở ngoại lệ.
+
 ## SEO & chia sẻ
 
 - `src/app/sitemap.ts` sinh sitemap từ CSDL — thêm nhánh công khai mới thì nhớ
@@ -738,6 +793,9 @@ khu hội viên); `/ngoi-nha` đã có trong `PROTECTED` và `robots.ts`.
 - `npm run test:chiso` — đối chiếu chỉ số xúc tiến thương mại công khai với CSDL
   và kiểm tra quy tắc khai phạm vi giao thương.
 - `npm run test:phanquyen` — kiểm tra hàm phân quyền trong `src/lib/quyen.ts`.
+- `npm run test:trungtamsk` — Trung tâm sự kiện: đọc số tiền / ngày, mẫu loại ×
+  quy mô, quyền sự kiện (`-- --csdl` chạy trọn luồng check-in → điểm trên một
+  sự kiện + hội viên thử rồi tự xoá).
 - `npm run test:ngoinha` — soát nội dung + luật chơi game Ngôi nhà Chợ Lớn
   (`-- --csdl` để chạy thêm ván thử trên CSDL).
 - `npm run test:labai` — Lá bài mỗi ngày (nội dung, tỉ lệ, quà, một lá mỗi ngày).

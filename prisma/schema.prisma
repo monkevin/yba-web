@@ -522,6 +522,9 @@ model Event {
   nguoiThamDu   NguoiThamDu[]
   taiTro        TaiTroSuKien[]
   thamDu        ThamDuSuKien[]
+  /// Lớp "tổ chức" ở Trung tâm sự kiện (/quan-tri/su-kien) — null với sự
+  /// kiện chỉ lưu nội dung, album
+  toChuc        SkSuKien?
   /// Tổng kinh phí tổ chức (VND) — thư ký nhập theo file mẫu
   tongKinhPhi   Float               @default(0)
   /// Ý nghĩa / mục tiêu chương trình
@@ -665,9 +668,20 @@ model TaiTroSuKien {
   /// Hiện kim (VND) và mô tả hiện vật — thư ký ghi rõ để quyết toán
   hienKim   Float   @default(0)
   hienVat   String?
-  /// Hoàn tất | Cam kết | Còn thiếu
+  /// Hoàn tất | Cam kết | Còn thiếu | Đang vận động | Huỷ.
+  /// "Đang vận động" (Trung tâm sự kiện, 18/10/2026) = mới liên hệ, CHƯA chốt:
+  /// không vinh danh công khai, không tính điểm — xem TT_TAI_TRO_CHUA_CHOT
   trangThai String  @default("Hoàn tất")
   ghiChu    String?
+
+  /// Trung tâm sự kiện: tiền mặt đã thực nhận (VND), ngày nhận, người phụ
+  /// trách vận động, liên hệ đầu mối — bản ghi nhập từ file mẫu để trống
+  daThu        Float        @default(0)
+  ngayThu      DateTime?
+  nguoiVanDong String?
+  lienHe       String?
+  order        Int          @default(0)
+  quyenLoi     SkQuyenLoi[]
 
   createdAt DateTime @default(now())
 
@@ -687,6 +701,14 @@ model BanToChuc {
   /// TRUONG_BAN | PHO_BAN | BAN_CHI_DAO | THANH_VIEN
   vaiTro   String  @default("THANH_VIEN")
   ghiChu   String?
+  /// Trung tâm sự kiện (18/10/2026): thuộc ban nào trong BTC (VD "Ban Hậu
+  /// cần"), nhiệm vụ, SĐT liên hệ trong ngày diễn ra, ca trực. Bản ghi nhập
+  /// từ file mẫu để trống — vẫn đếm điểm cống hiến như cũ
+  ban         String?
+  nhiemVu     String?
+  soDienThoai String?
+  caTruc      String?
+  order       Int     @default(0)
 
   @@index([eventId])
   @@index([memberId])
@@ -1757,4 +1779,221 @@ model KhachMoi1010 {
   @@index([trangThai])
   @@index([ten])
   @@index([memberId])
+}
+
+// ═══════════════════════════ TRUNG TÂM SỰ KIỆN ═══════════════════════════
+// /quan-tri/su-kien (18/10/2026) — công cụ TỔ CHỨC dùng chung cho mọi sự
+// kiện: khách mời theo phiên, check-in, phân công BTC, việc theo mốc D-x,
+// kịch bản, tài trợ, thu chi, hậu cần, báo cáo. Gắn vào `Event` có sẵn
+// (1 sự kiện ↔ 1 SkSuKien). DÙNG LẠI bảng cũ: BanToChuc (BTC), TaiTroSuKien
+// (nhà tài trợ), ThamDuSuKien + DiemHoatDong (check-in hội viên → điểm).
+// Chỉ thêm bảng mới, không đổi cột cũ → `db push` trên máy chủ chạy được
+// không cần --accept-data-loss. Logic ở src/lib/trung-tam-sk/.
+
+/// Lớp tổ chức của một sự kiện
+model SkSuKien {
+  id      String @id @default(cuid())
+  eventId String @unique
+  event   Event  @relation(fields: [eventId], references: [id], onDelete: Cascade)
+
+  /// coffee | workshop | gala | sport | csr | trade | trip | other — xem LOAI_SU_KIEN
+  loai      String @default("other")
+  /// nho | vua | lon
+  quyMo     String @default("vua")
+  /// KE_HOACH | CHUAN_BI | DANG_DIEN_RA | DA_XONG | HUY
+  trangThai String @default("CHUAN_BI")
+
+  mucTieuKhach   Int?
+  /// Mục tiêu thu (tài trợ + vé), VND
+  mucTieuThu     Float   @default(0)
+  /// Các ban trong BTC, chuỗi JSON [{ten, moTa}] — sinh từ mẫu theo quy mô
+  cacBan         String?
+  ghiChu         String?
+  /// Bài học sau sự kiện — tự vào báo cáo tổng kết
+  baiHocTot      String?
+  baiHocCaiThien String?
+
+  phien   SkPhien[]
+  khach   SkKhach[]
+  viec    SkViec[]
+  kichBan SkKichBan[]
+  thuChi  SkThuChi[]
+  hauCan  SkHauCan[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([trangThai])
+}
+
+/// Một phiên của sự kiện (VD Tọa đàm · Lễ · Gala) — xác nhận và check-in tính riêng từng phiên
+model SkPhien {
+  id      String    @id @default(cuid())
+  skId    String
+  sk      SkSuKien  @relation(fields: [skId], references: [id], onDelete: Cascade)
+  ten     String
+  batDau  DateTime?
+  diaDiem String?
+  sucChua Int?
+  order   Int       @default(0)
+
+  thamDu  SkThamDu[]
+  kichBan SkKichBan[]
+
+  @@index([skId])
+}
+
+/// Khách mời của một sự kiện — gồm cả khách ngoài Hội. Hội viên được ghép
+/// `memberId` (theo SĐT / tên, như khách 10/10) để check-in tự cộng điểm.
+model SkKhach {
+  id       String   @id @default(cuid())
+  skId     String
+  sk       SkSuKien @relation(fields: [skId], references: [id], onDelete: Cascade)
+  danhXung String?
+  ten      String
+  chucDanh String?
+  donVi    String?
+  phone    String?
+  email    String?
+  /// Nhóm khách tự do: "Hội viên", "Lãnh đạo Hội", "Nhà tài trợ"…
+  nhom     String?
+  /// Người phụ trách mời / chăm sóc
+  nguoiMoi String?
+  /// CHUA_MOI | DA_GUI | DA_GOI | TU_CHOI
+  moi      String   @default("CHUA_MOI")
+  vip      Boolean  @default(false)
+  /// Số / tên bàn
+  ban      String?
+  /// Hồ sơ hội viên (chuỗi thường, không khoá ngoại — như KhachMoi1010)
+  memberId String?
+  /// BTC | EXCEL | LE_TAN (khách vãng lai thêm ở bàn check-in)
+  nguon    String   @default("BTC")
+  ghiChu   String?
+  order    Int      @default(0)
+
+  thamDu SkThamDu[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([skId])
+  @@index([memberId])
+  @@index([phone])
+}
+
+/// Xác nhận + check-in của một khách ở một phiên
+model SkThamDu {
+  id         String    @id @default(cuid())
+  khachId    String
+  khach      SkKhach   @relation(fields: [khachId], references: [id], onDelete: Cascade)
+  phienId    String
+  phien      SkPhien   @relation(fields: [phienId], references: [id], onDelete: Cascade)
+  /// CHO | CO | KHONG
+  xacNhan    String    @default("CHO")
+  checkinLuc DateTime?
+  /// Tên người bấm check-in (lễ tân)
+  checkinBoi String?
+
+  @@unique([khachId, phienId])
+  @@index([phienId])
+}
+
+/// Công việc / checklist theo mốc D-x
+model SkViec {
+  id        String    @id @default(cuid())
+  skId      String
+  sk        SkSuKien  @relation(fields: [skId], references: [id], onDelete: Cascade)
+  ban       String?
+  tieuDe    String
+  nguoiLam  String?
+  hanChot   DateTime?
+  /// P0 | P1 | P2
+  uuTien    String    @default("P1")
+  /// CHUA | DANG | XONG | VUONG
+  trangThai String    @default("CHUA")
+  /// VIEC | CHECKLIST (việc trong ngày diễn ra)
+  loai      String    @default("VIEC")
+  ghiChu    String?
+  order     Int       @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([skId])
+  @@index([hanChot])
+}
+
+/// Một mục trong kịch bản chương trình
+model SkKichBan {
+  id        String   @id @default(cuid())
+  skId      String
+  sk        SkSuKien @relation(fields: [skId], references: [id], onDelete: Cascade)
+  phienId   String?
+  phien     SkPhien? @relation(fields: [phienId], references: [id], onDelete: SetNull)
+  /// Giờ bắt đầu dạng "14:30"
+  gio       String?
+  /// Phút
+  thoiLuong Int?
+  noiDung   String
+  phuTrach  String?
+  kyThuat   String?
+  /// Mục nội bộ BTC (setup, soundcheck…) — không in ra kịch bản cho khách
+  noiBo     Boolean  @default(false)
+  ghiChu    String?
+  order     Int      @default(0)
+
+  @@index([skId])
+}
+
+/// Dòng thu / chi của sự kiện (dự trù + thực tế)
+model SkThuChi {
+  id        String    @id @default(cuid())
+  skId      String
+  sk        SkSuKien  @relation(fields: [skId], references: [id], onDelete: Cascade)
+  /// CHI | THU
+  loai      String    @default("CHI")
+  hangMuc   String
+  ban       String?
+  duTru     Float     @default(0)
+  thucTe    Float     @default(0)
+  /// DU_KIEN | CHUA_TT | DA_TT
+  trangThai String    @default("DU_KIEN")
+  phuTrach  String?
+  ngay      DateTime?
+  ghiChu    String?
+  order     Int       @default(0)
+
+  @@index([skId])
+}
+
+/// Hậu cần, vật phẩm cần chuẩn bị
+model SkHauCan {
+  id        String    @id @default(cuid())
+  skId      String
+  sk        SkSuKien  @relation(fields: [skId], references: [id], onDelete: Cascade)
+  nhom      String?
+  ten       String
+  soLuong   Int?
+  donVi     String?
+  phuTrach  String?
+  hanChot   DateTime?
+  /// CHUA | DANG | XONG
+  trangThai String    @default("CHUA")
+  ghiChu    String?
+  order     Int       @default(0)
+
+  @@index([skId])
+}
+
+/// Quyền lợi đã cam kết với một nhà tài trợ — tick khi đã thực hiện (nghiệm thu)
+model SkQuyenLoi {
+  id       String       @id @default(cuid())
+  taiTroId String
+  taiTro   TaiTroSuKien @relation(fields: [taiTroId], references: [id], onDelete: Cascade)
+  noiDung  String
+  xong     Boolean      @default(false)
+  ghiChu   String?
+  order    Int          @default(0)
+
+  @@index([taiTroId])
 }

@@ -1,5 +1,6 @@
 import { prisma } from "@/lib/prisma";
 import { DEAL_STATUS } from "@/lib/deal";
+import { TT_TAI_TRO_CHUA_CHOT } from "@/lib/tai-tro";
 
 /**
  * Điểm hoạt động hội viên (YBA Activity Score).
@@ -123,6 +124,7 @@ export async function thongKeHoiVien(
     prisma.taiTroSuKien.aggregate({
       where: {
         memberId,
+        trangThai: { notIn: TT_TAI_TRO_CHUA_CHOT },
         OR: [{ event: { startAt: trongNam } }, { eventId: null, createdAt: trongNam }],
       },
       _sum: { giaTri: true },

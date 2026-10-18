@@ -124,8 +124,19 @@ export async function POST(req: Request): Promise<Response> {
   // ── Tạo hoặc cập nhật sự kiện ─────────────────────────────────
   const daCo = await prisma.event.findFirst({
     where: { title: tieuDe },
-    select: { id: true },
+    select: { id: true, toChuc: { select: { id: true } } },
   });
+  // Sự kiện đang quản lý ở Trung tâm sự kiện: nhập lại file sẽ XOÁ SẠCH Ban
+  // tổ chức + nhà tài trợ (kèm nghiệm thu quyền lợi) đã nhập ở đó → chặn.
+  if (daCo?.toChuc) {
+    return Response.json(
+      {
+        error:
+          "Sự kiện này đang được quản lý ở Trung tâm sự kiện — sửa Ban tổ chức và nhà tài trợ ngay tại đó (/quan-tri/su-kien), không nhập lại file.",
+      } satisfies Ket,
+      { status: 409 }
+    );
+  }
 
   const duLieu = {
     title: tieuDe,

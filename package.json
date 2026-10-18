@@ -70,6 +70,7 @@
     "test:dautruongnv": "tsx scripts/kiem-tra-dau-truong-nv.ts",
     "test:nguoichoi": "tsx scripts/kiem-tra-nguoi-choi.ts",
     "test:checkin": "tsx scripts/kiem-tra-checkin-1010.ts",
+    "test:trungtamsk": "tsx scripts/kiem-tra-trung-tam-su-kien.ts",
     "test:giaodiengame": "tsx scripts/kiem-tra-giao-dien-game.ts",
     "dev:thu": "next dev -p 3012",
     "start:thu": "next start -p 3012"

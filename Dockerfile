@@ -24,6 +24,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends openssl \
 
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+# thiep-1010/ (thiệp in tên khách) là dữ liệu cá nhân, KHÔNG có trong git —
+# build từ bản clone GitHub thì tạo thư mục rỗng để lệnh COPY ở tầng chạy
+# không dừng build. Build từ thư mục có sẵn thiệp trên máy chủ: giữ nguyên.
+RUN mkdir -p thiep-1010
 
 # Next thu thập dữ liệu trang lúc build nên phải có DATABASE_URL trỏ vào một
 # file có thật. Đây chỉ là CSDL tạm để build, không đi vào ảnh cuối.

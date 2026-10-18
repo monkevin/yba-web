@@ -2,7 +2,7 @@ import Link from "next/link";
 import LogoDoanhNghiep from "@/components/web/LogoDoanhNghiep";
 import { prisma } from "@/lib/prisma";
 import { tenDoanhNghiep } from "@/lib/ten-doanh-nghiep";
-import { BAC_TAI_TRO, thuHangBac, tienGon } from "@/lib/tai-tro";
+import { BAC_TAI_TRO, TT_TAI_TRO_CHUA_CHOT, thuHangBac, tienGon } from "@/lib/tai-tro";
 
 /**
  * Bảng vinh danh nhà tài trợ — gom toàn bộ lượt tài trợ đã ghi nhận theo từng
@@ -10,7 +10,7 @@ import { BAC_TAI_TRO, thuHangBac, tienGon } from "@/lib/tai-tro";
  */
 export default async function NhaTaiTro() {
   const ds = await prisma.taiTroSuKien.findMany({
-    where: { trangThai: { not: "Huỷ" } },
+    where: { trangThai: { notIn: TT_TAI_TRO_CHUA_CHOT } },
     include: {
       member: { select: { slug: true, company: true, logo: true } },
     },

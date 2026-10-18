@@ -22,6 +22,8 @@ export const QUYEN = {
   TIN_DANG_DUYET: "tin_dang.duyet",
   NOI_DUNG_VIET: "noi_dung.viet",
   SU_KIEN_QUAN_LY: "su_kien.quan_ly",
+  SU_KIEN_TAI_CHINH: "su_kien.tai_chinh",
+  SU_KIEN_CHECKIN: "su_kien.checkin",
   TRANG_TINH_SUA: "trang_tinh.sua",
   VINH_DANH_QUAN_LY: "vinh_danh.quan_ly",
   HOI_PHI_QUAN_LY: "hoi_phi.quan_ly",
@@ -85,17 +87,32 @@ export const NHOM_QUYEN: {
     ],
   },
   {
+    nhom: "Sự kiện",
+    quyen: [
+      {
+        ma: QUYEN.SU_KIEN_QUAN_LY,
+        ten: "Quản lý sự kiện",
+        mo: "Tạo và sửa sự kiện, xem danh sách đăng ký tham dự. Ở Trung tâm sự kiện: khách mời (có SĐT), Ban tổ chức, công việc, kịch bản, hậu cần, báo cáo.",
+      },
+      {
+        ma: QUYEN.SU_KIEN_TAI_CHINH,
+        ten: "Tài chính sự kiện",
+        mo: "Trung tâm sự kiện: nhà tài trợ, tiền đã thu, nghiệm thu quyền lợi, thu – chi và kết dư.",
+      },
+      {
+        ma: QUYEN.SU_KIEN_CHECKIN,
+        ten: "Check-in khách tại sự kiện",
+        mo: "Chỉ mở màn check-in ở bàn lễ tân — dành cho tình nguyện viên. Không xem được SĐT đầy đủ.",
+      },
+    ],
+  },
+  {
     nhom: "Nội dung website",
     quyen: [
       {
         ma: QUYEN.NOI_DUNG_VIET,
         ten: "Viết tin tức, bản tin",
         mo: "Viết, sửa, công bố bài trên mục Tin tức.",
-      },
-      {
-        ma: QUYEN.SU_KIEN_QUAN_LY,
-        ten: "Quản lý sự kiện",
-        mo: "Tạo và sửa sự kiện, xem danh sách đăng ký tham dự.",
       },
       {
         ma: QUYEN.TRANG_TINH_SUA,
@@ -189,6 +206,16 @@ export const BO_QUYEN_MAU: { ten: string; mo: string; quyen: MaQuyen[] }[] = [
     ten: "Ban Sự kiện",
     mo: "Quản lý sự kiện và danh sách đăng ký tham dự.",
     quyen: [QUYEN.HOI_VIEN_XEM, QUYEN.SU_KIEN_QUAN_LY, QUYEN.NOI_DUNG_VIET],
+  },
+  {
+    ten: "Ban Tài trợ – Tài chính sự kiện",
+    mo: "Nhà tài trợ, thu tiền, nghiệm thu quyền lợi, thu – chi ở Trung tâm sự kiện.",
+    quyen: [QUYEN.SU_KIEN_TAI_CHINH],
+  },
+  {
+    ten: "Lễ tân sự kiện (tình nguyện viên)",
+    mo: "Chỉ check-in khách tại bàn lễ tân.",
+    quyen: [QUYEN.SU_KIEN_CHECKIN],
   },
 ];
 
