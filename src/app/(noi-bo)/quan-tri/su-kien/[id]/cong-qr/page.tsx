@@ -1,6 +1,6 @@
 import { prisma } from "@/lib/prisma";
-import { SITE } from "@/lib/site";
 import { NGUOI_TU_CHECKIN } from "@/lib/trung-tam-sk/cong";
+import { gocWeb } from "@/lib/trung-tam-sk/goc-web";
 import { damBaoMaCong } from "@/lib/trung-tam-sk/may-chu";
 import { napTrang } from "@/lib/trung-tam-sk/trang";
 import CongQrClient from "./CongQrClient";
@@ -23,7 +23,8 @@ export default async function CongQrPage({ params }: { params: Promise<{ id: str
     <CongQrClient
       eventId={ev.id}
       tieuDe={ev.title}
-      goc={`${SITE.url}/sk/${ma}`}
+      goc={`${await gocWeb()}/sk/${ma}`}
+      duong={`/sk/${ma}`}
       pin={pinCheckin}
       mo={{ moDangKy: sk.moDangKy, moTuCheckin: sk.moTuCheckin, moHoiDap: sk.moHoiDap, moDanhGia: sk.moDanhGia }}
       dem={{ moDangKy: dangKy, moTuCheckin: tuCheckin, moHoiDap: cauHoi, moDanhGia: danhGia }}
