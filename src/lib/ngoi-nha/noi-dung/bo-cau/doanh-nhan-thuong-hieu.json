@@ -1,0 +1,691 @@
+{
+  "chuDe": "doanh-nhan-thuong-hieu",
+  "ten": "Doanh nhân & thương hiệu nổi tiếng",
+  "bo": [
+    {
+      "ma": "doanh-nhan-thuong-hieu-01",
+      "ten": "Nhà sáng lập công nghệ thế giới",
+      "moTa": "Những người đứng sau Microsoft, Amazon, Google, NVIDIA và các tên tuổi công nghệ lớn.",
+      "cau": [
+        {
+          "hoi": "Năm 1975, ai cùng Paul Allen đồng sáng lập Microsoft?",
+          "phuongAn": ["Bill Gates", "Steve Jobs", "Larry Ellison", "Michael Dell"],
+          "dung": 0,
+          "giai": "Bill Gates và người bạn thời phổ thông Paul Allen thành lập Microsoft năm 1975 tại Albuquerque, bang New Mexico (Mỹ)."
+        },
+        {
+          "hoi": "Amazon, khởi đầu là hiệu sách trực tuyến năm 1994, do ai sáng lập?",
+          "phuongAn": ["Pierre Omidyar", "Jeff Bezos", "Reed Hastings", "Jack Dorsey"],
+          "dung": 1,
+          "giai": "Jeff Bezos thành lập Amazon năm 1994 tại bang Washington (Mỹ), ban đầu chỉ bán sách qua mạng rồi mở rộng sang mọi ngành hàng."
+        },
+        {
+          "hoi": "Mark Zuckerberg ra mắt Facebook năm 2004 khi đang là sinh viên trường đại học nào?",
+          "phuongAn": ["Đại học Stanford", "Viện Công nghệ MIT", "Đại học Harvard", "Đại học Yale"],
+          "dung": 2,
+          "giai": "Facebook (khi đó tên “TheFacebook”) ra đời tháng 2/2004 tại Đại học Harvard, ban đầu chỉ dành cho sinh viên trường này."
+        },
+        {
+          "hoi": "Larry Page và Sergey Brin gặp nhau và phát triển Google khi đang là nghiên cứu sinh tại đâu?",
+          "phuongAn": ["Đại học Harvard", "Đại học Berkeley", "Viện Công nghệ MIT", "Đại học Stanford"],
+          "dung": 3,
+          "giai": "Hai nhà sáng lập là nghiên cứu sinh khoa học máy tính tại Đại học Stanford; Google được thành lập chính thức năm 1998."
+        },
+        {
+          "hoi": "Jensen Huang đồng sáng lập công ty công nghệ nào vào năm 1993?",
+          "phuongAn": ["Intel", "NVIDIA", "AMD", "Qualcomm"],
+          "dung": 1,
+          "giai": "Jensen Huang cùng Chris Malachowsky và Curtis Priem lập NVIDIA năm 1993, khởi đầu với chip xử lý đồ họa cho máy tính."
+        },
+        {
+          "hoi": "Michael Dell bắt đầu kinh doanh máy tính năm 1984 từ nơi nào?",
+          "phuongAn": ["Phòng ký túc xá Đại học Texas", "Ga-ra nhà bố mẹ ở California", "Tầng hầm cửa hàng ở Houston", "Văn phòng thuê ở New York"],
+          "dung": 0,
+          "giai": "Khi còn là sinh viên Đại học Texas tại Austin, Michael Dell lắp ráp và bán máy tính ngay trong phòng ký túc xá, lập nên PC’s Limited – tiền thân của Dell."
+        },
+        {
+          "hoi": "Ga-ra ở Palo Alto được coi là “nơi khai sinh Thung lũng Silicon” gắn với những nhà sáng lập nào?",
+          "phuongAn": ["Steve Jobs và Steve Wozniak", "Larry Page và Sergey Brin", "Bill Gates và Paul Allen", "Bill Hewlett và David Packard"],
+          "dung": 3,
+          "giai": "Năm 1939, Bill Hewlett và David Packard lập HP trong một ga-ra ở Palo Alto; nơi này được bang California công nhận là “Nơi khai sinh Thung lũng Silicon”."
+        },
+        {
+          "hoi": "Gordon Moore – người đưa ra “Định luật Moore” – là đồng sáng lập tập đoàn nào?",
+          "phuongAn": ["IBM", "Texas Instruments", "Intel", "Apple"],
+          "dung": 2,
+          "giai": "Gordon Moore cùng Robert Noyce thành lập Intel năm 1968. Định luật Moore dự báo số bóng bán dẫn trên chip tăng gấp đôi sau khoảng hai năm."
+        },
+        {
+          "hoi": "Trước khi mang tên Google, công cụ tìm kiếm do Larry Page và Sergey Brin phát triển có tên là gì?",
+          "phuongAn": ["BackRub", "WebCrawler", "AltaVista", "Googolplex"],
+          "dung": 0,
+          "giai": "Dự án ở Stanford ban đầu tên BackRub vì phân tích các liên kết trỏ ngược (backlink); tên Google lấy cảm hứng từ “googol” – số 1 với 100 chữ số 0."
+        },
+        {
+          "hoi": "Oracle do Larry Ellison đồng sáng lập năm 1977 mang tên ban đầu là gì?",
+          "phuongAn": ["Ellison Data Group", "Database Systems Corporation", "Software Development Laboratories", "Pacific Computing Labs"],
+          "dung": 2,
+          "giai": "Công ty ra đời năm 1977 với tên Software Development Laboratories, năm 1979 đổi thành Relational Software Inc., sau đó lấy tên sản phẩm chủ lực Oracle."
+        }
+      ]
+    },
+    {
+      "ma": "doanh-nhan-thuong-hieu-02",
+      "ten": "Thương hiệu tiêu dùng toàn cầu",
+      "moTa": "Nguồn gốc và chủ sở hữu của những thương hiệu quen thuộc trong đời sống hằng ngày.",
+      "cau": [
+        {
+          "hoi": "Thương hiệu nội thất IKEA có nguồn gốc từ quốc gia nào?",
+          "phuongAn": ["Đan Mạch", "Thụy Điển", "Na Uy", "Phần Lan"],
+          "dung": 1,
+          "giai": "IKEA do Ingvar Kamprad thành lập năm 1943 tại Thụy Điển; tên gọi ghép từ chữ cái đầu tên ông, trang trại Elmtaryd và làng Agunnaryd."
+        },
+        {
+          "hoi": "Thương hiệu cà phê hòa tan Nescafé thuộc sở hữu của tập đoàn nào?",
+          "phuongAn": ["Nestlé", "Unilever", "Mondelez", "Kraft Heinz"],
+          "dung": 0,
+          "giai": "Nescafé ra mắt năm 1938, là thương hiệu của tập đoàn Nestlé (Thụy Sĩ); tên gọi ghép từ “Nestlé” và “café”."
+        },
+        {
+          "hoi": "Thương hiệu thể thao Adidas có nguồn gốc từ quốc gia nào?",
+          "phuongAn": ["Hoa Kỳ", "Anh", "Đức", "Ý"],
+          "dung": 2,
+          "giai": "Adidas được Adolf “Adi” Dassler đăng ký năm 1949 tại Đức; tên gọi ghép từ biệt danh “Adi” và họ “Dassler”."
+        },
+        {
+          "hoi": "Tập đoàn mỹ phẩm L’Oréal có trụ sở chính tại quốc gia nào?",
+          "phuongAn": ["Thụy Sĩ", "Ý", "Hoa Kỳ", "Pháp"],
+          "dung": 3,
+          "giai": "L’Oréal được nhà hóa học Eugène Schueller thành lập năm 1909 tại Paris và đến nay vẫn đặt trụ sở chính tại Pháp."
+        },
+        {
+          "hoi": "Thương hiệu thời trang Zara thuộc tập đoàn nào?",
+          "phuongAn": ["H&M Group", "Inditex", "Fast Retailing", "Kering"],
+          "dung": 1,
+          "giai": "Zara là thương hiệu chủ lực của Inditex, tập đoàn Tây Ban Nha do Amancio Ortega đồng sáng lập; cửa hàng Zara đầu tiên mở năm 1975 tại A Coruña."
+        },
+        {
+          "hoi": "Kem phết hạt phỉ Nutella là sản phẩm của tập đoàn nào?",
+          "phuongAn": ["Ferrero", "Mars", "Nestlé", "Hershey"],
+          "dung": 0,
+          "giai": "Nutella ra đời năm 1964, thuộc tập đoàn gia đình Ferrero của Ý – chủ sở hữu cả Kinder và Ferrero Rocher."
+        },
+        {
+          "hoi": "Thương hiệu dao cạo Gillette hiện thuộc tập đoàn nào?",
+          "phuongAn": ["Unilever", "Johnson & Johnson", "Procter & Gamble", "Colgate-Palmolive"],
+          "dung": 2,
+          "giai": "Procter & Gamble mua lại Gillette năm 2005 với giá khoảng 57 tỷ USD, một trong những thương vụ lớn nhất ngành hàng tiêu dùng."
+        },
+        {
+          "hoi": "Coca-Cola được dược sĩ John Pemberton tạo ra năm 1886 tại thành phố nào?",
+          "phuongAn": ["Atlanta", "New York", "Chicago", "Boston"],
+          "dung": 0,
+          "giai": "Coca-Cola ra đời tại Atlanta (bang Georgia) năm 1886; ban đầu được bán theo ly tại quầy nước của hiệu thuốc với giá 5 xu."
+        },
+        {
+          "hoi": "Unilever ra đời năm 1929 từ việc hợp nhất Lever Brothers (Anh) với công ty Margarine Unie của nước nào?",
+          "phuongAn": ["Bỉ", "Đức", "Hà Lan", "Pháp"],
+          "dung": 2,
+          "giai": "Công ty xà phòng Lever Brothers (Anh) và công ty bơ thực vật Margarine Unie (Hà Lan) hợp nhất năm 1929, tạo nên tập đoàn Unilever."
+        },
+        {
+          "hoi": "Hans Wilsdorf thành lập công ty tiền thân của Rolex năm 1905 tại thành phố nào?",
+          "phuongAn": ["Geneva", "Zurich", "Paris", "London"],
+          "dung": 3,
+          "giai": "Công ty Wilsdorf & Davis ra đời tại London năm 1905; tên Rolex được đăng ký năm 1908 và công ty chuyển về Geneva (Thụy Sĩ) năm 1919."
+        }
+      ]
+    },
+    {
+      "ma": "doanh-nhan-thuong-hieu-03",
+      "ten": "Tập đoàn châu Á",
+      "moTa": "Chuyện khởi nghiệp và mô hình của các tập đoàn lớn ở Nhật Bản, Hàn Quốc, Trung Quốc, Ấn Độ, Thái Lan.",
+      "cau": [
+        {
+          "hoi": "Trước khi sáng lập Alibaba năm 1999, Jack Ma (Mã Vân) từng làm nghề gì?",
+          "phuongAn": ["Kỹ sư phần mềm", "Giáo viên tiếng Anh", "Nhân viên ngân hàng", "Phóng viên kinh tế"],
+          "dung": 1,
+          "giai": "Jack Ma tốt nghiệp sư phạm tiếng Anh và dạy học ở Hàng Châu trước khi khởi nghiệp; Alibaba do ông cùng 17 cộng sự thành lập năm 1999."
+        },
+        {
+          "hoi": "Akio Morita cùng Masaru Ibuka đồng sáng lập tập đoàn nào của Nhật Bản năm 1946?",
+          "phuongAn": ["Panasonic", "Toshiba", "Sony", "Hitachi"],
+          "dung": 2,
+          "giai": "Sony tiền thân là Tokyo Tsushin Kogyo, ra đời năm 1946 tại Tokyo; công ty chính thức đổi tên thành Sony năm 1958."
+        },
+        {
+          "hoi": "Ứng dụng nhắn tin WeChat (Weixin) là sản phẩm của tập đoàn nào?",
+          "phuongAn": ["Alibaba", "Baidu", "ByteDance", "Tencent"],
+          "dung": 3,
+          "giai": "WeChat do Tencent phát triển, ra mắt năm 2011, sau trở thành “siêu ứng dụng” tích hợp nhắn tin, thanh toán và mua sắm."
+        },
+        {
+          "hoi": "Tên “Samsung” trong tiếng Hàn có nghĩa là gì?",
+          "phuongAn": ["Ba ngôi sao", "Mặt trời mọc", "Ngọn núi lớn", "Vạn thắng lợi"],
+          "dung": 0,
+          "giai": "“Samsung” (Tam Tinh) nghĩa là “ba ngôi sao”, gửi gắm mong muốn doanh nghiệp lớn mạnh và trường tồn như các vì sao."
+        },
+        {
+          "hoi": "Tập đoàn Toyota có khởi nguồn từ công ty sản xuất sản phẩm gì của gia đình Toyoda?",
+          "phuongAn": ["Xe đạp", "Máy dệt", "Máy may", "Động cơ tàu"],
+          "dung": 1,
+          "giai": "Công ty máy dệt tự động Toyoda do Sakichi Toyoda sáng lập; con trai ông là Kiichiro Toyoda phát triển mảng ô tô, hình thành Toyota."
+        },
+        {
+          "hoi": "Các tập đoàn gia đình đa ngành lớn của Hàn Quốc như Samsung, Hyundai, LG được gọi chung là gì?",
+          "phuongAn": ["Keiretsu", "Zaibatsu", "Chaebol", "Kongsi"],
+          "dung": 2,
+          "giai": "Chaebol là mô hình tập đoàn đa ngành do gia đình kiểm soát ở Hàn Quốc; Zaibatsu và Keiretsu là các khái niệm tương tự của Nhật Bản."
+        },
+        {
+          "hoi": "Chuỗi thời trang Uniqlo thuộc tập đoàn mẹ nào của Nhật Bản?",
+          "phuongAn": ["Fast Retailing", "Seven & i Holdings", "Aeon Group", "Rakuten Group"],
+          "dung": 0,
+          "giai": "Uniqlo là thương hiệu chủ lực của Fast Retailing, tập đoàn được Tadashi Yanai phát triển từ cửa hàng may mặc nhỏ của gia đình ông."
+        },
+        {
+          "hoi": "Tập đoàn Charoen Pokphand (C.P. Group) có trụ sở chính tại quốc gia nào?",
+          "phuongAn": ["Malaysia", "Singapore", "Indonesia", "Thái Lan"],
+          "dung": 3,
+          "giai": "C.P. Group khởi nghiệp năm 1921 từ một cửa hàng hạt giống ở Bangkok, nay là một trong những tập đoàn tư nhân lớn nhất Thái Lan."
+        },
+        {
+          "hoi": "Năm 2008, Tata Motors (Ấn Độ) mua lại hai thương hiệu xe sang nào từ Ford?",
+          "phuongAn": ["Jaguar và Land Rover", "Volvo và Saab", "Aston Martin và Lotus", "Rolls-Royce và Bentley"],
+          "dung": 0,
+          "giai": "Tata Motors mua Jaguar và Land Rover từ Ford năm 2008 với giá khoảng 2,3 tỷ USD – thương vụ nổi bật của doanh nghiệp châu Á vào phân khúc xe sang."
+        },
+        {
+          "hoi": "Tập đoàn Mitsubishi do Iwasaki Yataro sáng lập năm 1870 khởi đầu trong lĩnh vực nào?",
+          "phuongAn": ["Khai thác mỏ than", "Vận tải biển", "Ngân hàng thương mại", "Dệt may xuất khẩu"],
+          "dung": 1,
+          "giai": "Mitsubishi khởi đầu là hãng vận tải biển, sau mở rộng sang khai mỏ, đóng tàu, ngân hàng…; tên gọi nghĩa là “ba hình thoi”, thể hiện qua logo ba viên kim cương."
+        }
+      ]
+    },
+    {
+      "ma": "doanh-nhan-thuong-hieu-04",
+      "ten": "Doanh nghiệp Việt Nam tiêu biểu",
+      "moTa": "Những cột mốc đáng nhớ của các doanh nghiệp và thương hiệu Việt quen thuộc.",
+      "cau": [
+        {
+          "hoi": "Thương hiệu sữa đặc “Ông Thọ” quen thuộc với nhiều thế hệ người Việt thuộc doanh nghiệp nào?",
+          "phuongAn": ["Vinamilk", "TH true MILK", "Nutifood", "FrieslandCampina"],
+          "dung": 0,
+          "giai": "Sữa đặc có đường Ông Thọ là nhãn hàng lâu đời thuộc Công ty Cổ phần Sữa Việt Nam (Vinamilk)."
+        },
+        {
+          "hoi": "Biti’s là thương hiệu Việt Nam nổi tiếng trong ngành hàng nào?",
+          "phuongAn": ["Bánh kẹo", "Giày dép", "Đồ nhựa gia dụng", "Văn phòng phẩm"],
+          "dung": 1,
+          "giai": "Biti’s (Bình Tiên) ra đời năm 1982 tại TP.HCM và trở thành thương hiệu giày dép quen thuộc của nhiều thế hệ người Việt."
+        },
+        {
+          "hoi": "Chuỗi siêu thị Co.opmart thuộc hệ thống bán lẻ nào?",
+          "phuongAn": ["Satra", "Vingroup", "Central Retail", "Saigon Co.op"],
+          "dung": 3,
+          "giai": "Co.opmart thuộc Liên hiệp Hợp tác xã Thương mại TP.HCM (Saigon Co.op); siêu thị Co.opmart đầu tiên khai trương năm 1996."
+        },
+        {
+          "hoi": "Tập đoàn Hòa Phát được biết đến nhiều nhất với lĩnh vực sản xuất nào?",
+          "phuongAn": ["Xi măng", "Phân bón", "Thép", "Điện tử"],
+          "dung": 2,
+          "giai": "Sản xuất thép (thép xây dựng, thép cuộn cán nóng, ống thép…) là lĩnh vực cốt lõi của Tập đoàn Hòa Phát, gắn với các khu liên hợp gang thép quy mô lớn."
+        },
+        {
+          "hoi": "Công ty FPT được thành lập vào năm nào?",
+          "phuongAn": ["1986", "1988", "1991", "1995"],
+          "dung": 1,
+          "giai": "FPT ra đời ngày 13/9/1988; chữ FPT ban đầu là viết tắt của “Food Processing Technology” – Công ty Công nghệ Chế biến Thực phẩm."
+        },
+        {
+          "hoi": "Vinamilk (tiền thân là Công ty Sữa – Cà phê Miền Nam) được thành lập năm nào?",
+          "phuongAn": ["1976", "1980", "1986", "1992"],
+          "dung": 0,
+          "giai": "Công ty Sữa – Cà phê Miền Nam, tiền thân của Vinamilk, thành lập ngày 20/8/1976 trên cơ sở tiếp quản các nhà máy sữa ở phía Nam."
+        },
+        {
+          "hoi": "Cụm trang trại bò sữa tập trung đầu tiên của TH true MILK được xây dựng tại tỉnh nào?",
+          "phuongAn": ["Lâm Đồng", "Sơn La", "Gia Lai", "Nghệ An"],
+          "dung": 3,
+          "giai": "TH true MILK xây dựng cụm trang trại bò sữa tập trung quy mô lớn tại vùng Nghĩa Đàn, Nghệ An; sản phẩm sữa tươi ra mắt cuối năm 2010."
+        },
+        {
+          "hoi": "Hãng hàng không Vietjet thực hiện chuyến bay thương mại đầu tiên vào năm nào?",
+          "phuongAn": ["2007", "2009", "2011", "2013"],
+          "dung": 2,
+          "giai": "Vietjet được thành lập năm 2007 nhưng đến ngày 25/12/2011 mới khai trương chuyến bay thương mại đầu tiên từ TP.HCM đi Hà Nội."
+        },
+        {
+          "hoi": "Technocom – tiền thân của Vingroup – từng sản xuất mì gói Mivina tại quốc gia nào?",
+          "phuongAn": ["Ukraine", "Nga", "Ba Lan", "Cộng hòa Séc"],
+          "dung": 0,
+          "giai": "Technocom thành lập năm 1993 tại Kharkiv (Ukraine), ra mắt mì Mivina năm 1995; sau đó các nhà sáng lập về nước đầu tư, hình thành Tập đoàn Vingroup."
+        },
+        {
+          "hoi": "Ngày 28/7/2000, hai mã cổ phiếu đầu tiên giao dịch trên thị trường chứng khoán Việt Nam là?",
+          "phuongAn": ["VNM và FPT", "REE và SAM", "SAB và BMP", "HPG và VCB"],
+          "dung": 1,
+          "giai": "Phiên giao dịch đầu tiên tại Trung tâm Giao dịch Chứng khoán TP.HCM ngày 28/7/2000 chỉ có hai mã: REE (Cơ điện lạnh) và SAM (Cáp và Vật liệu viễn thông)."
+        }
+      ]
+    },
+    {
+      "ma": "doanh-nhan-thuong-hieu-05",
+      "ten": "Câu nói nổi tiếng của doanh nhân",
+      "moTa": "Đoán chủ nhân những câu nói về đầu tư, khách hàng và đổi mới đã trở thành kinh điển.",
+      "cau": [
+        {
+          "hoi": "“Quy tắc số 1: Không bao giờ để mất tiền. Quy tắc số 2: Không bao giờ quên quy tắc số 1.” Đây là câu nói của ai?",
+          "phuongAn": ["Warren Buffett", "George Soros", "Bill Gates", "John D. Rockefeller"],
+          "dung": 0,
+          "giai": "Đây là nguyên tắc đầu tư nổi tiếng của Warren Buffett, nhấn mạnh việc bảo toàn vốn và tránh những rủi ro làm mất vốn vĩnh viễn."
+        },
+        {
+          "hoi": "Nhà sáng lập nào nổi tiếng với quan điểm “Khách hàng thứ nhất, nhân viên thứ hai, cổ đông thứ ba”?",
+          "phuongAn": ["Jeff Bezos", "Masayoshi Son", "Lý Gia Thành", "Jack Ma"],
+          "dung": 3,
+          "giai": "Jack Ma nhiều lần khẳng định triết lý này của Alibaba: phục vụ tốt khách hàng và chăm lo nhân viên thì cổ đông sẽ hưởng lợi lâu dài."
+        },
+        {
+          "hoi": "“Nhiều khi người ta không biết mình muốn gì cho đến khi bạn cho họ thấy.” Câu nói này của ai?",
+          "phuongAn": ["Bill Gates", "Steve Jobs", "Jeff Bezos", "Larry Page"],
+          "dung": 1,
+          "giai": "Steve Jobs nói ý này với tạp chí BusinessWeek năm 1998, thể hiện cách Apple thiết kế sản phẩm đi trước nhu cầu khách hàng."
+        },
+        {
+          "hoi": "Phương châm nội bộ “Move fast and break things” (Hành động nhanh, dám phá vỡ) gắn với nhà sáng lập nào?",
+          "phuongAn": ["Jack Dorsey", "Reed Hastings", "Mark Zuckerberg", "Evan Spiegel"],
+          "dung": 2,
+          "giai": "Đây là phương châm ban đầu của Mark Zuckerberg tại Facebook; năm 2014 ông điều chỉnh thành “Move fast with stable infrastructure”."
+        },
+        {
+          "hoi": "Ai đã viết: “Những khách hàng không hài lòng nhất là nguồn học hỏi lớn nhất của bạn”?",
+          "phuongAn": ["Sam Walton", "Bill Gates", "Howard Schultz", "Richard Branson"],
+          "dung": 1,
+          "giai": "Câu này nằm trong sách “Business @ the Speed of Thought” (1999) của Bill Gates, khuyên doanh nghiệp tận dụng phản hồi tiêu cực để cải tiến."
+        },
+        {
+          "hoi": "“Chỉ những kẻ đa nghi mới tồn tại” (Only the Paranoid Survive) là phương châm của nhà lãnh đạo tập đoàn nào?",
+          "phuongAn": ["IBM", "Microsoft", "Nokia", "Intel"],
+          "dung": 3,
+          "giai": "Andy Grove, cựu CEO Intel, dùng câu này làm tựa sách năm 1996, nhấn mạnh doanh nghiệp phải luôn cảnh giác trước các “điểm uốn chiến lược”."
+        },
+        {
+          "hoi": "Jeff Bezos thường nhắc nhân viên Amazon giữ tinh thần nào để doanh nghiệp không rơi vào trì trệ?",
+          "phuongAn": ["“Luôn là Năm thứ 10”", "“Mỗi ngày một bước nhỏ”", "“Luôn là Ngày 1”", "“Chậm mà chắc”"],
+          "dung": 2,
+          "giai": "Trong thư gửi cổ đông năm 2016, Bezos viết “Ngày 2” là trì trệ, dẫn tới suy tàn; vì vậy Amazon phải luôn giữ tinh thần khởi nghiệp của “Ngày 1”."
+        },
+        {
+          "hoi": "“Khách hàng có thể chọn xe sơn bất kỳ màu nào họ muốn, miễn là màu đen.” Ai đã nói câu này?",
+          "phuongAn": ["John D. Rockefeller", "Henry Ford", "Walter Chrysler", "Ferdinand Porsche"],
+          "dung": 1,
+          "giai": "Henry Ford viết câu này trong tự truyện “My Life and Work” (1922), phản ánh chiến lược chuẩn hóa để sản xuất hàng loạt xe Model T giá rẻ."
+        },
+        {
+          "hoi": "“Hãy thay đổi tất cả, trừ vợ và con cái” là lời kêu gọi đổi mới năm 1993 của lãnh đạo tập đoàn nào?",
+          "phuongAn": ["Hyundai", "LG", "Samsung", "Sony"],
+          "dung": 2,
+          "giai": "Chủ tịch Samsung Lee Kun-hee phát biểu tại Frankfurt năm 1993, mở đầu cuộc cải tổ đưa Samsung theo đuổi chất lượng thay vì số lượng."
+        },
+        {
+          "hoi": "“Nếu không thấy ngượng với phiên bản đầu tiên của sản phẩm, bạn đã ra mắt quá muộn.” Câu này của ai?",
+          "phuongAn": ["Reid Hoffman", "Peter Thiel", "Marc Andreessen", "Paul Graham"],
+          "dung": 0,
+          "giai": "Reid Hoffman, đồng sáng lập LinkedIn, dùng câu này để khuyến khích khởi nghiệp ra mắt sớm, lấy phản hồi thực tế rồi cải tiến nhanh."
+        }
+      ]
+    },
+    {
+      "ma": "doanh-nhan-thuong-hieu-06",
+      "ten": "Sách kinh doanh kinh điển",
+      "moTa": "Ghép đúng tác phẩm với tác giả trong tủ sách mà doanh nhân nào cũng nên đọc.",
+      "cau": [
+        {
+          "hoi": "Cuốn “Đắc nhân tâm” (How to Win Friends and Influence People, 1936) là của tác giả nào?",
+          "phuongAn": ["Napoleon Hill", "Stephen Covey", "Dale Carnegie", "Brian Tracy"],
+          "dung": 2,
+          "giai": "Dale Carnegie xuất bản cuốn sách năm 1936; đây là một trong những sách về giao tiếp, ứng xử bán chạy nhất mọi thời đại."
+        },
+        {
+          "hoi": "Tác giả của cuốn “Cha giàu, cha nghèo” (Rich Dad Poor Dad) là ai?",
+          "phuongAn": ["Robert Kiyosaki", "T. Harv Eker", "Tony Robbins", "Dave Ramsey"],
+          "dung": 0,
+          "giai": "Robert Kiyosaki (viết cùng Sharon Lechter) xuất bản sách năm 1997, so sánh tư duy tài chính của “người cha nghèo” và “người cha giàu”."
+        },
+        {
+          "hoi": "Cuốn “7 thói quen của người thành đạt” (The 7 Habits of Highly Effective People) do ai viết?",
+          "phuongAn": ["John C. Maxwell", "Stephen R. Covey", "Zig Ziglar", "Ken Blanchard"],
+          "dung": 1,
+          "giai": "Stephen R. Covey xuất bản sách năm 1989; thói quen đầu tiên trong sách là “Luôn chủ động” (Be Proactive)."
+        },
+        {
+          "hoi": "“Nghĩ giàu và làm giàu” (Think and Grow Rich, 1937) là tác phẩm của ai?",
+          "phuongAn": ["Dale Carnegie", "Og Mandino", "Earl Nightingale", "Napoleon Hill"],
+          "dung": 3,
+          "giai": "Napoleon Hill xuất bản sách năm 1937, đúc kết các nguyên tắc từ việc tìm hiểu những người thành đạt; đây là một trong những sách phát triển bản thân bán chạy nhất."
+        },
+        {
+          "hoi": "Cuốn “Từ tốt đến vĩ đại” (Good to Great, 2001) là của tác giả nào?",
+          "phuongAn": ["Tom Peters", "Jim Collins", "Michael Porter", "Gary Hamel"],
+          "dung": 1,
+          "giai": "Jim Collins cùng nhóm nghiên cứu phân tích các công ty chuyển từ tốt sang vượt trội bền vững; nổi bật là khái niệm “lãnh đạo cấp độ 5”."
+        },
+        {
+          "hoi": "Cuốn “Chiến lược đại dương xanh” (Blue Ocean Strategy) do ai viết?",
+          "phuongAn": ["Gary Hamel và C.K. Prahalad", "Jim Collins và Jerry Porras", "W. Chan Kim và Renée Mauborgne", "Chip Heath và Dan Heath"],
+          "dung": 2,
+          "giai": "Hai giáo sư trường INSEAD xuất bản sách năm 2005, khuyên doanh nghiệp tạo khoảng thị trường mới thay vì lao vào cạnh tranh khốc liệt ở “đại dương đỏ”."
+        },
+        {
+          "hoi": "Vòng lặp “Xây dựng – Đo lường – Học hỏi” và khái niệm MVP được phổ biến qua cuốn sách nào?",
+          "phuongAn": ["Khởi nghiệp tinh gọn (The Lean Startup)", "Từ số 0 đến 1 (Zero to One)", "Bắt đầu với câu hỏi Tại sao (Start with Why)", "Lợi thế cạnh tranh (Competitive Advantage)"],
+          "dung": 0,
+          "giai": "Eric Ries phổ biến vòng lặp Build–Measure–Learn và khái niệm sản phẩm khả dụng tối thiểu (MVP) qua cuốn “The Lean Startup” xuất bản năm 2011."
+        },
+        {
+          "hoi": "“Gã nghiện giày” (Shoe Dog) là hồi ký của nhà sáng lập thương hiệu nào?",
+          "phuongAn": ["Adidas", "Puma", "Nike", "Converse"],
+          "dung": 2,
+          "giai": "Phil Knight – nhà sáng lập Nike – kể hành trình từ bán giày nhập khẩu từ Nhật Bản trong cốp xe đến xây dựng thương hiệu toàn cầu."
+        },
+        {
+          "hoi": "Khái niệm “đổi mới đột phá” (disruptive innovation) được phổ biến qua cuốn “The Innovator’s Dilemma” của ai?",
+          "phuongAn": ["Philip Kotler", "Peter Drucker", "Michael Porter", "Clayton Christensen"],
+          "dung": 3,
+          "giai": "Giáo sư Clayton Christensen (Đại học Harvard) xuất bản sách năm 1997, giải thích vì sao doanh nghiệp dẫn đầu vẫn có thể bị đối thủ nhỏ, rẻ hơn thay thế."
+        },
+        {
+          "hoi": "Hai tác giả nào viết cuốn “Định vị” (Positioning: The Battle for Your Mind), sách kinh điển về chiếm lĩnh tâm trí khách hàng?",
+          "phuongAn": ["Al Ries và Jack Trout", "David Ogilvy và Leo Burnett", "Philip Kotler và Kevin Keller", "Seth Godin và Chris Anderson"],
+          "dung": 0,
+          "giai": "Al Ries và Jack Trout xuất bản sách năm 1981, cho rằng thương hiệu thắng khi chiếm được một vị trí rõ ràng, khác biệt trong tâm trí khách hàng."
+        }
+      ]
+    },
+    {
+      "ma": "doanh-nhan-thuong-hieu-07",
+      "ten": "Mô hình kinh doanh thay đổi ngành",
+      "moTa": "Nhượng quyền, nền tảng, freemium… những cách làm ăn mới đã định hình lại cả một ngành.",
+      "cau": [
+        {
+          "hoi": "Ray Kroc đưa McDonald’s thành chuỗi nhà hàng toàn cầu chủ yếu nhờ mô hình kinh doanh nào?",
+          "phuongAn": ["Nhượng quyền thương mại (franchise)", "Bán hàng đa cấp qua cộng tác viên", "Bán hàng qua catalogue bưu điện", "Tự đầu tư 100% mọi cửa hàng"],
+          "dung": 0,
+          "giai": "Ray Kroc mở rộng McDonald’s bằng nhượng quyền, chuẩn hóa quy trình để mọi cửa hàng phục vụ đồng nhất; ông mua lại công ty từ anh em nhà McDonald năm 1961."
+        },
+        {
+          "hoi": "Airbnb trở thành nền tảng lưu trú lớn mà không cần sở hữu phòng nhờ mô hình nào?",
+          "phuongAn": ["Chuỗi khách sạn nhượng quyền", "Nền tảng kết nối chủ nhà với khách", "Thuê dài hạn rồi cho thuê lại", "Liên doanh với các khách sạn lớn"],
+          "dung": 1,
+          "giai": "Airbnb là nền tảng hai phía: chủ nhà đăng chỗ ở, khách đặt phòng, Airbnb thu phí dịch vụ trên mỗi giao dịch mà không phải đầu tư bất động sản."
+        },
+        {
+          "hoi": "Zara tạo bước ngoặt cho ngành may mặc với mô hình “thời trang nhanh”. Điểm cốt lõi của mô hình này là gì?",
+          "phuongAn": [
+            "Chỉ bán hàng qua kênh trực tuyến",
+            "Bán giá cao, mỗi năm chỉ ra một bộ sưu tập",
+            "Đưa mẫu mới từ thiết kế lên kệ chỉ trong vài tuần",
+            "Nhượng quyền để cửa hàng tự thiết kế mẫu"
+          ],
+          "dung": 2,
+          "giai": "Zara kiểm soát chặt chuỗi thiết kế – sản xuất – phân phối, làm lô nhỏ gần thị trường nên đưa mẫu mới ra cửa hàng rất nhanh, bám sát xu hướng và giảm hàng tồn."
+        },
+        {
+          "hoi": "Năm 1913, Henry Ford đưa vào nhà máy cách làm nào giúp giảm mạnh thời gian lắp ráp và giá bán xe Model T?",
+          "phuongAn": ["Nhập linh kiện giá rẻ từ châu Âu", "Thuê xưởng khác lắp ráp từng phần", "Tăng ca làm đêm cho toàn bộ công nhân", "Dây chuyền lắp ráp chuyển động liên tục"],
+          "dung": 3,
+          "giai": "Dây chuyền lắp ráp chuyển động giúp Ford rút thời gian lắp một xe từ hơn 12 giờ xuống khoảng 1,5 giờ, hạ giá Model T và mở ra thời kỳ sản xuất hàng loạt."
+        },
+        {
+          "hoi": "Các nền tảng như Kickstarter đã phổ biến cách huy động vốn nào cho dự án sáng tạo và sản phẩm mới?",
+          "phuongAn": [
+            "Gọi vốn cộng đồng: nhiều người cùng góp khoản nhỏ",
+            "Phát hành cổ phiếu lần đầu ra công chúng",
+            "Vay thế chấp tài sản tại ngân hàng",
+            "Nhận vốn từ một quỹ đầu tư mạo hiểm duy nhất"
+          ],
+          "dung": 0,
+          "giai": "Crowdfunding cho phép người sáng tạo giới thiệu dự án trực tuyến để đông đảo người ủng hộ góp tiền, thường đổi lại sản phẩm hay quà tặng, đồng thời kiểm chứng nhu cầu thị trường."
+        },
+        {
+          "hoi": "IKEA giảm mạnh chi phí vận chuyển và lưu kho nhờ cách làm nào?",
+          "phuongAn": ["Chỉ bán hàng qua catalogue", "Đóng gói phẳng, khách tự lắp ráp", "Chỉ sản xuất theo đơn đặt trước", "Đặt kho hàng sát nhà máy gỗ"],
+          "dung": 1,
+          "giai": "Đồ nội thất IKEA được thiết kế tháo rời, đóng hộp phẳng; khách tự chở và lắp ráp, giúp giảm thể tích vận chuyển, chi phí lưu kho và giá bán."
+        },
+        {
+          "hoi": "Dell tạo lợi thế lớn trong ngành máy tính thập niên 1990 nhờ mô hình nào?",
+          "phuongAn": ["Bán qua các đại lý bán lẻ lớn", "Nhượng quyền cửa hàng máy tính", "Cho thuê máy tính theo tháng", "Bán trực tiếp, lắp ráp theo đơn khách đặt"],
+          "dung": 3,
+          "giai": "Dell bán thẳng cho khách qua điện thoại, internet và chỉ lắp ráp khi có đơn, nhờ đó giảm tồn kho, bỏ khâu trung gian và quay vòng vốn nhanh."
+        },
+        {
+          "hoi": "Nguồn thu quan trọng giúp chuỗi bán lẻ dạng kho hàng Costco duy trì giá bán rất thấp là gì?",
+          "phuongAn": ["Chiết khấu từ ngân hàng", "Phí thuê mặt bằng", "Phí thành viên hằng năm", "Quảng cáo trong cửa hàng"],
+          "dung": 2,
+          "giai": "Costco giữ biên lợi nhuận trên hàng hóa rất thấp; phí thành viên hằng năm đóng góp phần lợi nhuận quan trọng, nên giữ chân hội viên là cốt lõi của mô hình."
+        },
+        {
+          "hoi": "Southwest Airlines – hình mẫu hàng không giá rẻ – giảm chi phí bảo dưỡng và đào tạo nhờ quyết định nào?",
+          "phuongAn": ["Chỉ khai thác một dòng máy bay Boeing 737", "Chỉ bay các chặng quốc tế đường dài", "Thuê trọn gói phi công từ hãng khác", "Chỉ bán vé tại quầy sân bay"],
+          "dung": 0,
+          "giai": "Dùng duy nhất dòng Boeing 737 giúp Southwest chuẩn hóa phụ tùng, đào tạo phi công, kỹ thuật viên và điều phối tàu bay linh hoạt – nền tảng của mô hình giá rẻ."
+        },
+        {
+          "hoi": "iTunes Music Store (2003) của Apple tạo bước ngoặt cho ngành âm nhạc bằng cách nào?",
+          "phuongAn": ["Bán đĩa CD giá rẻ qua mạng", "Bán lẻ từng bài hát hợp pháp giá 99 xu", "Cho nghe nhạc miễn phí kèm quảng cáo", "Thu phí thuê bao nghe không giới hạn"],
+          "dung": 1,
+          "giai": "Ra mắt năm 2003, iTunes cho mua riêng từng bài với giá 0,99 USD, tạo mô hình bán nhạc số hợp pháp giữa lúc chia sẻ nhạc lậu đang phổ biến."
+        }
+      ]
+    },
+    {
+      "ma": "doanh-nhan-thuong-hieu-08",
+      "ten": "Thương hiệu, logo và khẩu hiệu",
+      "moTa": "Bí mật phía sau những logo, cái tên và khẩu hiệu quảng cáo nổi tiếng thế giới.",
+      "cau": [
+        {
+          "hoi": "Khẩu hiệu “Just Do It” ra đời năm 1988 thuộc thương hiệu nào?",
+          "phuongAn": ["Adidas", "Nike", "Puma", "Reebok"],
+          "dung": 1,
+          "giai": "“Just Do It” do agency Wieden+Kennedy sáng tác cho Nike năm 1988 và trở thành một trong những khẩu hiệu quảng cáo nổi tiếng nhất thế giới."
+        },
+        {
+          "hoi": "Chiến dịch quảng cáo “Think Different” năm 1997 gắn với thương hiệu nào?",
+          "phuongAn": ["IBM", "Microsoft", "Apple", "Sony"],
+          "dung": 2,
+          "giai": "“Think Different” ra mắt năm 1997 khi Steve Jobs trở lại Apple, tôn vinh những người dám nghĩ khác và giúp phục hồi hình ảnh thương hiệu."
+        },
+        {
+          "hoi": "Logo của Starbucks là hình ảnh gì?",
+          "phuongAn": ["Nàng tiên cá hai đuôi", "Hạt cà phê cách điệu", "Ngôi sao trên mặt biển", "Chiếc thuyền buồm"],
+          "dung": 0,
+          "giai": "Logo Starbucks là hình nàng tiên cá hai đuôi (siren) trong thần thoại, gợi liên tưởng đến biển cả và truyền thống thương cảng của Seattle."
+        },
+        {
+          "hoi": "Khẩu hiệu “I’m lovin’ it” ra mắt năm 2003 thuộc thương hiệu nào?",
+          "phuongAn": ["KFC", "Burger King", "Subway", "McDonald’s"],
+          "dung": 3,
+          "giai": "McDonald’s ra mắt “I’m lovin’ it” năm 2003 (khởi đầu tại Đức với phiên bản “Ich liebe es”) và dùng thống nhất trên toàn cầu."
+        },
+        {
+          "hoi": "Logo FedEx ẩn một hình ảnh trong khoảng trắng giữa chữ “E” và chữ “x”. Đó là hình gì?",
+          "phuongAn": ["Chiếc hộp", "Máy bay", "Ngôi sao", "Mũi tên"],
+          "dung": 3,
+          "giai": "Khoảng trắng giữa chữ E và x tạo thành mũi tên hướng về phía trước, gợi tốc độ và sự chính xác; logo do Lindon Leader thiết kế năm 1994."
+        },
+        {
+          "hoi": "Mũi tên cong dưới chữ “amazon” trong logo Amazon nối từ chữ cái nào đến chữ cái nào?",
+          "phuongAn": ["Từ chữ “a” đến chữ “n”", "Từ chữ “a” đến chữ “z”", "Từ chữ “m” đến chữ “o”", "Từ chữ “a” đến chữ “o”"],
+          "dung": 1,
+          "giai": "Mũi tên nối từ “a” đến “z”, ngụ ý Amazon bán mọi thứ từ A đến Z, đồng thời tạo hình nụ cười thể hiện sự hài lòng của khách hàng."
+        },
+        {
+          "hoi": "Tên thương hiệu LEGO bắt nguồn từ cụm từ tiếng Đan Mạch “leg godt”, có nghĩa là gì?",
+          "phuongAn": ["Xây dựng giỏi", "Khối gỗ nhỏ", "Chơi vui, chơi hay", "Trẻ em hạnh phúc"],
+          "dung": 2,
+          "giai": "Năm 1934, nhà sáng lập Ole Kirk Christiansen ghép “leg godt” – nghĩa là “chơi vui, chơi hay” – thành tên LEGO; ban đầu hãng làm đồ chơi bằng gỗ."
+        },
+        {
+          "hoi": "Ba cánh của ngôi sao trong logo Mercedes-Benz tượng trưng cho điều gì?",
+          "phuongAn": ["Chất lượng, an toàn và sự sang trọng", "Động cơ trên đất liền, trên biển, trên không", "Ba nhà sáng lập đầu tiên của hãng", "Ba nhà máy đầu tiên của Daimler"],
+          "dung": 1,
+          "giai": "Ngôi sao ba cánh thể hiện tham vọng của Daimler đưa động cơ phục vụ con người trên đất liền, trên biển và trên không."
+        },
+        {
+          "hoi": "Năm 1971, Nike trả bao nhiêu tiền cho sinh viên thiết kế Carolyn Davidson để vẽ logo “Swoosh”?",
+          "phuongAn": ["35 USD", "350 USD", "3.500 USD", "35.000 USD"],
+          "dung": 0,
+          "giai": "Carolyn Davidson nhận 35 USD cho thiết kế Swoosh; về sau Nike tặng bà cổ phiếu và một chiếc nhẫn vàng gắn logo để tri ân."
+        },
+        {
+          "hoi": "Trước khi mang tên Pepsi-Cola (1898), thức uống do dược sĩ Caleb Bradham pha chế có tên là gì?",
+          "phuongAn": ["Bradham Soda", "Carolina Cola", "Pep Tonic", "Brad’s Drink"],
+          "dung": 3,
+          "giai": "Năm 1893, Caleb Bradham ở New Bern (bang Bắc Carolina, Mỹ) tạo ra “Brad’s Drink”, đến năm 1898 đổi tên thành Pepsi-Cola."
+        }
+      ]
+    },
+    {
+      "ma": "doanh-nhan-thuong-hieu-09",
+      "ten": "Thất bại lớn và bài học kinh doanh",
+      "moTa": "Những cú trượt kinh điển và bài học quản trị giúp doanh nghiệp tránh đi vào vết xe đổ.",
+      "cau": [
+        {
+          "hoi": "Hãng nào từng là nhà sản xuất điện thoại di động lớn nhất thế giới hơn một thập kỷ nhưng tụt hậu trong kỷ nguyên điện thoại thông minh, phải bán mảng thiết bị năm 2013?",
+          "phuongAn": ["Nokia", "BlackBerry", "Motorola", "Sony Ericsson"],
+          "dung": 0,
+          "giai": "Nokia chậm thích ứng khi iPhone và Android bùng nổ, giữ hệ điều hành Symbian quá lâu; thương vụ bán mảng thiết bị di động cho Microsoft công bố năm 2013, hoàn tất năm 2014."
+        },
+        {
+          "hoi": "Dòng xe nào của Ford ra mắt năm 1957 với chiến dịch quảng bá rầm rộ nhưng bán ế nặng, trở thành thất bại kinh điển trong marketing?",
+          "phuongAn": ["Mustang", "Model T", "Thunderbird", "Edsel"],
+          "dung": 3,
+          "giai": "Edsel được đầu tư rất lớn nhưng ra mắt khi thị trường chuộng xe nhỏ gọn, thiết kế gây tranh cãi, định vị mơ hồ; Ford khai tử dòng xe này vào cuối năm 1959."
+        },
+        {
+          "hoi": "Sau khi rời Apple năm 1985, Steve Jobs thành lập công ty máy tính nào, về sau được chính Apple mua lại?",
+          "phuongAn": ["Pixar", "NeXT", "Atari", "General Magic"],
+          "dung": 1,
+          "giai": "Jobs lập NeXT năm 1985; Apple công bố mua NeXT cuối năm 1996, đưa ông trở lại, và công nghệ của NeXT trở thành nền tảng cho hệ điều hành Mac OS X."
+        },
+        {
+          "hoi": "Hãng nào có kỹ sư chế tạo chiếc máy ảnh kỹ thuật số đầu tiên năm 1975 nhưng chậm chuyển đổi vì lo ảnh hưởng mảng phim ảnh?",
+          "phuongAn": ["Fujifilm", "Canon", "Kodak", "Nikon"],
+          "dung": 2,
+          "giai": "Kỹ sư Steven Sasson của Kodak chế tạo máy ảnh số đầu tiên năm 1975. Bài học: đừng để nỗi lo mất doanh thu cũ cản trở việc dẫn đầu công nghệ mới."
+        },
+        {
+          "hoi": "Năm 2000, chuỗi cho thuê băng đĩa Blockbuster từ chối mua lại công ty nào với giá khoảng 50 triệu USD?",
+          "phuongAn": ["Netflix", "Hulu", "Redbox", "YouTube"],
+          "dung": 0,
+          "giai": "Blockbuster đánh giá thấp mô hình thuê DVD qua mạng của Netflix – bài học kinh điển về việc xem nhẹ đối thủ nhỏ mang mô hình kinh doanh mới."
+        },
+        {
+          "hoi": "Trong “cuộc chiến định dạng” băng video thập niên 1970–1980, Betamax của Sony đã thua định dạng nào?",
+          "phuongAn": ["LaserDisc", "Video 2000", "DVD", "VHS"],
+          "dung": 3,
+          "giai": "VHS do JVC phát triển thắng nhờ thời lượng ghi dài hơn và được nhiều hãng cùng sản xuất. Bài học: hệ sinh thái đối tác quan trọng không kém chất lượng kỹ thuật."
+        },
+        {
+          "hoi": "Năm 2008, Yahoo từ chối lời đề nghị mua lại khoảng 44,6 tỷ USD của tập đoàn nào, để rồi năm 2017 bán mảng kinh doanh cốt lõi với giá thấp hơn nhiều?",
+          "phuongAn": ["Google", "Apple", "Microsoft", "Amazon"],
+          "dung": 2,
+          "giai": "Microsoft đề nghị mua Yahoo đầu năm 2008 nhưng bị từ chối; đến năm 2017, mảng Internet cốt lõi của Yahoo được bán cho Verizon với giá khoảng 4,5 tỷ USD."
+        },
+        {
+          "hoi": "Theo bài “Marketing Myopia” (1960) của Theodore Levitt, ngành đường sắt Mỹ suy yếu vì chỉ coi mình kinh doanh đường sắt thay vì kinh doanh gì?",
+          "phuongAn": ["Bất động sản", "Vận tải", "Du lịch", "Năng lượng"],
+          "dung": 1,
+          "giai": "Levitt cho rằng doanh nghiệp phải định nghĩa mình theo nhu cầu khách hàng (vận chuyển người và hàng), không theo sản phẩm hiện có, để khỏi bị ô tô, máy bay thay thế."
+        },
+        {
+          "hoi": "Năm 1985, Coca-Cola thay công thức truyền thống bằng “New Coke”. Sau bao lâu hãng đưa công thức cũ trở lại?",
+          "phuongAn": ["Chưa đầy 3 tháng", "Khoảng 1 năm", "Khoảng 2 năm", "Hơn 5 năm"],
+          "dung": 0,
+          "giai": "Chỉ 79 ngày sau, công thức cũ trở lại với tên Coca-Cola Classic. Bài học: thương hiệu gắn với cảm xúc, thắng trong thử mù vị chưa đủ để thay đổi."
+        },
+        {
+          "hoi": "Trung tâm nghiên cứu PARC – nơi phát triển giao diện đồ họa (GUI) cho máy tính từ thập niên 1970 – do công ty nào thành lập?",
+          "phuongAn": ["IBM", "Xerox", "Hewlett-Packard", "AT&T"],
+          "dung": 1,
+          "giai": "Xerox lập PARC năm 1970; nơi đây tạo ra nhiều phát minh nhưng Xerox chưa khai thác thương mại hiệu quả. Apple sau chuyến tham quan năm 1979 đã đưa GUI thành sản phẩm đại chúng."
+        }
+      ]
+    },
+    {
+      "ma": "doanh-nhan-thuong-hieu-10",
+      "ten": "Ngày Doanh nhân & cộng đồng doanh nhân",
+      "moTa": "Ngày Doanh nhân Việt Nam 13/10, chữ tín và những doanh nhân tiền bối của Sài Gòn – Chợ Lớn.",
+      "cau": [
+        {
+          "hoi": "Ngày Doanh nhân Việt Nam được tổ chức hằng năm vào ngày nào?",
+          "phuongAn": ["10/10", "20/10", "13/10", "13/11"],
+          "dung": 2,
+          "giai": "Ngày 13/10 hằng năm là Ngày Doanh nhân Việt Nam, dịp tôn vinh đóng góp của đội ngũ doanh nhân vào sự phát triển kinh tế – xã hội của đất nước."
+        },
+        {
+          "hoi": "CSR – khái niệm thường gặp trong cộng đồng doanh nhân – là viết tắt của cụm từ nào?",
+          "phuongAn": ["Trách nhiệm xã hội của doanh nghiệp", "Quản trị quan hệ khách hàng", "Báo cáo phát triển bền vững", "Chiến lược tăng trưởng doanh nghiệp"],
+          "dung": 0,
+          "giai": "CSR (Corporate Social Responsibility) là trách nhiệm của doanh nghiệp với người lao động, cộng đồng và môi trường, bên cạnh mục tiêu lợi nhuận."
+        },
+        {
+          "hoi": "Hoàn thành câu nói đề cao chữ tín trong kinh doanh: “Một lần bất tín, …”",
+          "phuongAn": ["trăm lần mất lòng", "vạn lần bất tin", "nghìn lần khó nói", "mười lần chẳng nên"],
+          "dung": 1,
+          "giai": "“Một lần bất tín, vạn lần bất tin”: chỉ một lần thất hứa có thể khiến đối tác mất niềm tin lâu dài – nguyên tắc cốt lõi của người làm kinh doanh."
+        },
+        {
+          "hoi": "Khi tham gia một hội doanh nhân, cách xây dựng quan hệ bền vững được khuyến nghị nhất là gì?",
+          "phuongAn": ["Gặp ai cũng chào bán sản phẩm ngay buổi đầu", "Chỉ kết nối với người có doanh nghiệp lớn nhất", "Trao danh thiếp càng nhiều càng tốt mỗi buổi", "Chủ động hỗ trợ, trao giá trị trước khi đề nghị hợp tác"],
+          "dung": 3,
+          "giai": "Quan hệ trong cộng đồng doanh nhân bền vững khi dựa trên niềm tin; cho đi giá trị trước (chia sẻ kinh nghiệm, giới thiệu đối tác) giúp tạo uy tín và cơ hội lâu dài."
+        },
+        {
+          "hoi": "Thủ tướng Chính phủ ra quyết định lấy ngày 13/10 hằng năm làm Ngày Doanh nhân Việt Nam vào năm nào?",
+          "phuongAn": ["1994", "2000", "2004", "2010"],
+          "dung": 2,
+          "giai": "Quyết định số 990/QĐ-TTg năm 2004 của Thủ tướng Chính phủ chọn ngày 13/10 hằng năm là Ngày Doanh nhân Việt Nam."
+        },
+        {
+          "hoi": "Nhà công nghiệp Trương Văn Bền – một doanh nhân Việt nổi tiếng ở Chợ Lớn thời Pháp thuộc – gắn liền với thương hiệu nào?",
+          "phuongAn": [
+            "Xà bông Cô Ba",
+            "Nước mắm Liên Thành",
+            "Dầu gió Nhị Thiên Đường",
+            "Giày Bata"
+          ],
+          "dung": 0,
+          "giai": "Trương Văn Bền lập nhà máy xà bông ở Chợ Lớn; xà bông Cô Ba của ông là hàng Việt cạnh tranh sòng phẳng với xà bông ngoại nhập trong nửa đầu thế kỷ XX."
+        },
+        {
+          "hoi": "Chợ Bình Tây – biểu tượng thương mại của Chợ Lớn – do thương gia nào bỏ tiền xây dựng?",
+          "phuongAn": ["Hứa Bổn Hòa", "Trương Văn Bền", "Bạch Thái Bưởi", "Quách Đàm"],
+          "dung": 3,
+          "giai": "Thương gia người Hoa Quách Đàm (hiệu buôn Thông Hiệp) mua đất và bỏ tiền xây Chợ Bình Tây; ông mất năm 1927, công trình khởi công năm 1928 và hoàn thành năm 1930."
+        },
+        {
+          "hoi": "Doanh nhân Bạch Thái Bưởi đầu thế kỷ XX được người đương thời mệnh danh là gì?",
+          "phuongAn": ["Vua dệt may", "Vua tàu thủy", "Vua xà bông", "Vua địa ốc"],
+          "dung": 1,
+          "giai": "Bạch Thái Bưởi phát triển hãng vận tải đường thủy lớn, cạnh tranh với các hãng tàu nước ngoài, được mệnh danh “vua tàu thủy” – biểu tượng tự cường của doanh nhân Việt."
+        },
+        {
+          "hoi": "Cuốn “Thương học phương châm” – được xem là sách đầu tiên về buôn bán do người Việt viết – là của ai?",
+          "phuongAn": ["Lương Văn Can", "Bạch Thái Bưởi", "Nguyễn Sơn Hà", "Trương Văn Bền"],
+          "dung": 0,
+          "giai": "Nhà nho Lương Văn Can (1854–1927) viết “Thương học phương châm” (in năm 1928), bàn về học buôn bán, đạo đức và tài năng người kinh doanh; ông được tôn là người thầy của giới doanh thương."
+        },
+        {
+          "hoi": "Tòa nhà nay là Bảo tàng Mỹ thuật TP.HCM vốn là dinh thự của gia tộc doanh nhân nổi tiếng nào?",
+          "phuongAn": ["Gia tộc Quách Đàm", "Gia tộc Trương Văn Bền", "Gia tộc Hứa Bổn Hòa (Chú Hỏa)", "Gia tộc Bạch Thái Bưởi"],
+          "dung": 2,
+          "giai": "Dinh thự do con cháu ông Hứa Bổn Hòa – một trong những người giàu nhất Sài Gòn xưa – xây dựng từ năm 1929 đến 1934, nay là Bảo tàng Mỹ thuật TP.HCM."
+        }
+      ]
+    }
+  ]
+}

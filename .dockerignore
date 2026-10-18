@@ -1,0 +1,34 @@
+# Những thứ KHÔNG chép vào ảnh Docker — giữ ảnh nhẹ và không lộ dữ liệu.
+
+node_modules
+.next
+.git
+.gitignore
+
+# Cơ sở dữ liệu máy làm việc: máy chủ dùng ổ đĩa riêng ở /data
+prisma/*.db
+prisma/*.db-journal
+prisma/dev.db*
+
+# Mật khẩu và khoá — tuyệt đối không đưa vào ảnh
+.env
+.env.local
+.env.*.local
+tai-khoan-hoi-vien.csv
+
+# Tài liệu, dữ liệu thô, kết quả soát — không cần khi chạy
+soat/
+DEPLOY.md
+AGENTS.md
+CLAUDE.md
+*.md
+!README.md
+SỰ KIỆN*/
+Mo-Web-YBA-Cho-Lon.bat
+
+# Rác của hệ điều hành và trình soạn thảo
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+npm-debug.log*

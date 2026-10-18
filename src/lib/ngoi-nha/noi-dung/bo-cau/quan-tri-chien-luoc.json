@@ -1,0 +1,701 @@
+{
+  "chuDe": "quan-tri-chien-luoc",
+  "ten": "Quản trị & chiến lược",
+  "bo": [
+    {
+      "ma": "quan-tri-chien-luoc-01",
+      "ten": "Mô hình phân tích: SWOT, PESTEL, Porter",
+      "moTa": "Nhận diện môi trường kinh doanh qua SWOT, PESTEL và 5 áp lực cạnh tranh của Michael Porter.",
+      "cau": [
+        {
+          "hoi": "Trong mô hình SWOT, chữ “O” là viết tắt của yếu tố nào?",
+          "phuongAn": ["Objectives – Mục tiêu", "Opportunities – Cơ hội", "Operations – Vận hành", "Obstacles – Trở ngại"],
+          "dung": 1,
+          "giai": "SWOT gồm Strengths (Điểm mạnh), Weaknesses (Điểm yếu), Opportunities (Cơ hội) và Threats (Thách thức)."
+        },
+        {
+          "hoi": "Trong SWOT, cặp yếu tố nào phản ánh môi trường BÊN TRONG doanh nghiệp?",
+          "phuongAn": ["Điểm mạnh và Điểm yếu", "Cơ hội và Thách thức", "Điểm mạnh và Cơ hội", "Điểm yếu và Thách thức"],
+          "dung": 0,
+          "giai": "Điểm mạnh, Điểm yếu là yếu tố nội tại doanh nghiệp kiểm soát được; Cơ hội, Thách thức đến từ môi trường bên ngoài."
+        },
+        {
+          "hoi": "Chữ “L” trong mô hình PESTEL đại diện cho nhóm yếu tố nào?",
+          "phuongAn": ["Labor – Lao động", "Logistics – Hậu cần", "Legal – Pháp lý", "Leadership – Lãnh đạo"],
+          "dung": 2,
+          "giai": "PESTEL gồm Chính trị, Kinh tế, Xã hội, Công nghệ, Môi trường (Environmental) và Pháp lý (Legal)."
+        },
+        {
+          "hoi": "Mô hình “5 áp lực cạnh tranh” trong ngành do học giả nào đề xuất?",
+          "phuongAn": ["Philip Kotler", "Peter Drucker", "Igor Ansoff", "Michael Porter"],
+          "dung": 3,
+          "giai": "Michael Porter, giáo sư Đại học Harvard, công bố mô hình 5 áp lực cạnh tranh năm 1979 trên tạp chí Harvard Business Review."
+        },
+        {
+          "hoi": "Một cửa hàng phát hiện đối thủ mới mở ngay bên cạnh, bán giá rẻ hơn. Trong SWOT, thông tin này nên xếp vào nhóm nào?",
+          "phuongAn": ["Điểm yếu (Weaknesses)", "Cơ hội (Opportunities)", "Thách thức (Threats)", "Điểm mạnh (Strengths)"],
+          "dung": 2,
+          "giai": "Đối thủ mới là yếu tố bên ngoài gây bất lợi cho doanh nghiệp nên thuộc nhóm Thách thức, không phải Điểm yếu nội tại."
+        },
+        {
+          "hoi": "Lạm phát và biến động tỷ giá hối đoái được xếp vào nhóm yếu tố nào trong mô hình PESTEL?",
+          "phuongAn": ["Chính trị (Political)", "Kinh tế (Economic)", "Xã hội (Social)", "Pháp lý (Legal)"],
+          "dung": 1,
+          "giai": "Lạm phát, tỷ giá, lãi suất, tăng trưởng GDP là các biến số kinh tế vĩ mô, thuộc nhóm Kinh tế (Economic) trong PESTEL."
+        },
+        {
+          "hoi": "Yếu tố nào KHÔNG thuộc 5 áp lực cạnh tranh gốc trong mô hình của Michael Porter?",
+          "phuongAn": ["Nguy cơ từ sản phẩm thay thế", "Quyền thương lượng của nhà cung cấp", "Nguy cơ từ đối thủ mới gia nhập", "Vai trò điều tiết của Chính phủ"],
+          "dung": 3,
+          "giai": "5 áp lực gốc: cạnh tranh trong ngành, đối thủ mới, sản phẩm thay thế, quyền lực nhà cung cấp và khách hàng. Chính phủ không nằm trong mô hình gốc."
+        },
+        {
+          "hoi": "Cả thị trường chỉ có hai đơn vị cung cấp loại nguyên liệu đặc thù mà doanh nghiệp bắt buộc phải dùng. Áp lực nào trong mô hình Porter tăng mạnh?",
+          "phuongAn": ["Quyền thương lượng của nhà cung cấp", "Quyền thương lượng của khách hàng", "Nguy cơ từ sản phẩm thay thế", "Nguy cơ từ đối thủ mới gia nhập"],
+          "dung": 0,
+          "giai": "Khi nguồn cung tập trung vào ít đơn vị và khó thay thế, nhà cung cấp có quyền ép giá và điều kiện, làm tăng áp lực lên doanh nghiệp."
+        },
+        {
+          "hoi": "Theo Porter, yếu tố nào làm TĂNG rào cản gia nhập ngành, giúp giảm nguy cơ xuất hiện đối thủ mới?",
+          "phuongAn": ["Vốn đầu tư ban đầu để vào ngành rất thấp", "Lợi thế quy mô lớn của doanh nghiệp hiện hữu", "Khách đổi nhà cung cấp gần như không tốn phí", "Kênh phân phối ai cũng dễ dàng tiếp cận"],
+          "dung": 1,
+          "giai": "Lợi thế quy mô giúp doanh nghiệp hiện hữu có chi phí thấp, người mới khó cạnh tranh. Ba phương án còn lại đều làm rào cản gia nhập thấp đi."
+        },
+        {
+          "hoi": "Khi phát triển SWOT thành ma trận TOWS, nhóm chiến lược S-O mang ý nghĩa gì?",
+          "phuongAn": ["Khắc phục điểm yếu để tận dụng cơ hội", "Dùng điểm mạnh để hạn chế thách thức", "Dùng điểm mạnh để nắm bắt cơ hội", "Giảm điểm yếu và né tránh thách thức"],
+          "dung": 2,
+          "giai": "S-O: dùng điểm mạnh nắm cơ hội; W-O: khắc phục điểm yếu để tận dụng cơ hội; S-T: dùng điểm mạnh đối phó thách thức; W-T: phòng thủ."
+        }
+      ]
+    },
+    {
+      "ma": "quan-tri-chien-luoc-02",
+      "ten": "Chiến lược cạnh tranh và Đại dương xanh",
+      "moTa": "Ba chiến lược tổng quát của Porter và cách tạo thị trường mới theo lý thuyết Đại dương xanh.",
+      "cau": [
+        {
+          "hoi": "Theo Michael Porter, ba chiến lược cạnh tranh tổng quát gồm những chiến lược nào?",
+          "phuongAn": ["Thâm nhập, phát triển sản phẩm, đa dạng hóa", "Tăng trưởng, ổn định, thu hẹp", "Dẫn đầu chi phí, khác biệt hóa, tập trung", "Định giá cao, định giá thấp, định giá linh hoạt"],
+          "dung": 2,
+          "giai": "Porter (1980) nêu ba chiến lược tổng quát: dẫn đầu về chi phí, khác biệt hóa và tập trung vào một phân khúc hẹp."
+        },
+        {
+          "hoi": "Trong lý thuyết Đại dương xanh, “đại dương đỏ” dùng để chỉ điều gì?",
+          "phuongAn": ["Thị trường mới, chưa có đối thủ nào", "Thị trường bị pháp luật hạn chế kinh doanh", "Thị trường có biên lợi nhuận rất cao", "Thị trường hiện có, cạnh tranh gay gắt"],
+          "dung": 3,
+          "giai": "Đại dương đỏ là các ngành đã tồn tại, ranh giới rõ, doanh nghiệp giành giật thị phần. Đại dương xanh là không gian thị trường mới."
+        },
+        {
+          "hoi": "Theo Michael Porter, doanh nghiệp theo đuổi chiến lược khác biệt hóa cần tạo ra điều gì?",
+          "phuongAn": [
+            "Giá trị độc đáo khiến khách sẵn lòng trả giá cao hơn",
+            "Chi phí sản xuất thấp nhất trong toàn ngành",
+            "Chỉ phục vụ một phân khúc khách hàng rất hẹp",
+            "Giá bán thấp hơn mọi đối thủ cạnh tranh"
+          ],
+          "dung": 0,
+          "giai": "Khác biệt hóa tạo ra giá trị độc đáo về chất lượng, thiết kế, dịch vụ hay thương hiệu mà khách đánh giá cao, cho phép bán giá cao hơn để bù chi phí tạo khác biệt."
+        },
+        {
+          "hoi": "Doanh nghiệp theo đuổi chiến lược dẫn đầu chi phí thường tập trung vào điều gì?",
+          "phuongAn": ["Thiết kế sản phẩm độc đáo để bán giá cao", "Tối ưu vận hành để có chi phí thấp nhất ngành", "Chỉ phục vụ một nhóm khách hàng rất hẹp", "Chi mạnh cho quảng cáo xây dựng thương hiệu"],
+          "dung": 1,
+          "giai": "Dẫn đầu chi phí là đạt chi phí thấp nhất ngành nhờ quy mô, quy trình, công nghệ, từ đó có thể cạnh tranh về giá mà vẫn có lãi."
+        },
+        {
+          "hoi": "Công cụ nào của lý thuyết Đại dương xanh yêu cầu xác định các yếu tố cần Loại bỏ, Cắt giảm, Gia tăng và Hình thành mới?",
+          "phuongAn": ["Ma trận tăng trưởng – thị phần BCG", "Chu trình cải tiến PDCA", "Mô hình 5 áp lực cạnh tranh", "Khung bốn hành động (ERRC)"],
+          "dung": 3,
+          "giai": "Khung bốn hành động giúp tái cấu trúc giá trị: loại bỏ, cắt giảm yếu tố thừa; gia tăng, hình thành yếu tố mới mà ngành chưa có."
+        },
+        {
+          "hoi": "Một tiệm cắt tóc bỏ gội, sấy, ghế sang trọng; chỉ cắt nhanh 10 phút với giá rẻ. Theo Đại dương xanh, tiệm đang làm gì?",
+          "phuongAn": ["Loại bỏ yếu tố khách ít cần để tạo giá trị mới", "Gia tăng mọi yếu tố để vượt qua đối thủ", "Sao chép mô hình của đối thủ dẫn đầu", "Tăng giá để chuyển lên phân khúc cao cấp"],
+          "dung": 0,
+          "giai": "Tiệm loại bỏ, cắt giảm yếu tố tốn kém mà nhóm khách bận rộn ít cần, đồng thời gia tăng tốc độ, tạo giá trị mới với chi phí thấp."
+        },
+        {
+          "hoi": "Chiến lược tập trung (focus) của Porter khác hai chiến lược còn lại chủ yếu ở điểm nào?",
+          "phuongAn": ["Luôn bán với mức giá thấp nhất thị trường", "Bắt buộc phải có công nghệ độc quyền", "Chỉ nhắm vào một phân khúc thị trường hẹp", "Phục vụ toàn bộ thị trường cùng một lúc"],
+          "dung": 2,
+          "giai": "Chiến lược tập trung chọn phạm vi hẹp (một phân khúc, vùng hoặc nhóm khách), trong đó có thể tập trung chi phí hoặc tập trung khác biệt."
+        },
+        {
+          "hoi": "Theo Porter, doanh nghiệp bị “kẹt ở giữa” (stuck in the middle) là doanh nghiệp như thế nào?",
+          "phuongAn": ["Có thị phần ở mức trung bình trong ngành", "Không rẻ nhất, cũng không khác biệt rõ ràng", "Nằm giữa hai đối thủ lớn về vị trí địa lý", "Đang ở giữa quá trình chuyển đổi số"],
+          "dung": 1,
+          "giai": "Porter cảnh báo doanh nghiệp không theo đuổi rõ chiến lược nào sẽ thua bên chi phí thấp lẫn bên khác biệt, dễ có lợi nhuận kém."
+        },
+        {
+          "hoi": "Theo Kim và Mauborgne, “đổi mới giá trị” (value innovation) – nền tảng của Đại dương xanh – có nghĩa là gì?",
+          "phuongAn": ["Đồng thời tạo khác biệt và giảm chi phí", "Chọn một: khác biệt hóa hoặc chi phí thấp", "Liên tục nâng cấp công nghệ sản xuất", "Tăng giá trị cảm nhận nhờ quảng cáo"],
+          "dung": 0,
+          "giai": "Đổi mới giá trị phá vỡ thế đánh đổi giữa khác biệt và chi phí: vừa tăng giá trị cho khách vừa hạ chi phí, từ đó mở ra thị trường mới."
+        },
+        {
+          "hoi": "Công cụ “Sơ đồ chiến lược” (Strategy Canvas) trong Đại dương xanh chủ yếu dùng để làm gì?",
+          "phuongAn": ["Phân bổ ngân sách cho từng đơn vị kinh doanh", "Lập tiến độ và phân công nhiệm vụ dự án", "Đo mức độ hài lòng của nhân viên nội bộ", "So sánh mức giá trị mang lại trên các yếu tố cạnh tranh"],
+          "dung": 3,
+          "giai": "Sơ đồ chiến lược vẽ đường giá trị của doanh nghiệp và của ngành trên các yếu tố cạnh tranh, giúp thấy chỗ đang giống nhau và cơ hội khác biệt."
+        }
+      ]
+    },
+    {
+      "ma": "quan-tri-chien-luoc-03",
+      "ten": "Ma trận BCG và ma trận Ansoff",
+      "moTa": "Phân bổ nguồn lực cho danh mục sản phẩm và chọn hướng tăng trưởng theo sản phẩm – thị trường.",
+      "cau": [
+        {
+          "hoi": "Ma trận BCG phân loại sản phẩm hoặc đơn vị kinh doanh dựa trên hai tiêu chí nào?",
+          "phuongAn": ["Doanh thu và biên lợi nhuận gộp của sản phẩm", "Giá bán và chi phí sản xuất của sản phẩm", "Mức hài lòng và lòng trung thành của khách", "Tăng trưởng thị trường và thị phần tương đối"],
+          "dung": 3,
+          "giai": "Ma trận của Boston Consulting Group dùng trục tốc độ tăng trưởng thị trường và trục thị phần tương đối để chia thành 4 nhóm."
+        },
+        {
+          "hoi": "Trong ma trận BCG, nhóm “Bò sữa” (Cash Cow) có đặc điểm gì?",
+          "phuongAn": ["Thị phần cao, thị trường tăng trưởng cao", "Thị phần cao, thị trường tăng trưởng thấp", "Thị phần thấp, thị trường tăng trưởng cao", "Thị phần thấp, thị trường tăng trưởng thấp"],
+          "dung": 1,
+          "giai": "Bò sữa dẫn đầu trong thị trường đã chín muồi, cần ít đầu tư nhưng tạo nhiều tiền mặt. Thị phần cao, tăng trưởng cao là Ngôi sao."
+        },
+        {
+          "hoi": "Ma trận Ansoff chủ yếu giúp doanh nghiệp xác định điều gì?",
+          "phuongAn": ["Hướng tăng trưởng theo sản phẩm và thị trường", "Cách định giá cho sản phẩm mới ra mắt", "Cơ cấu tổ chức phù hợp với quy mô", "Thứ tự ưu tiên công việc hằng ngày"],
+          "dung": 0,
+          "giai": "Ansoff kết hợp sản phẩm hiện có/mới với thị trường hiện có/mới, tạo 4 hướng: thâm nhập, phát triển thị trường, phát triển sản phẩm, đa dạng hóa."
+        },
+        {
+          "hoi": "Bán nhiều hơn sản phẩm hiện có cho chính thị trường hiện tại thuộc chiến lược nào trong ma trận Ansoff?",
+          "phuongAn": ["Phát triển thị trường", "Phát triển sản phẩm", "Thâm nhập thị trường", "Đa dạng hóa"],
+          "dung": 2,
+          "giai": "Thâm nhập thị trường giữ nguyên sản phẩm và thị trường, tăng thị phần bằng khuyến mãi, tăng tần suất mua hoặc giành khách của đối thủ."
+        },
+        {
+          "hoi": "Một chuỗi tiệm bánh mì ở TP.HCM mở thêm cửa hàng tại Cần Thơ, bán đúng thực đơn cũ. Theo Ansoff, đây là chiến lược gì?",
+          "phuongAn": ["Thâm nhập thị trường", "Phát triển thị trường", "Phát triển sản phẩm", "Đa dạng hóa"],
+          "dung": 1,
+          "giai": "Sản phẩm giữ nguyên nhưng đưa tới khu vực địa lý mới, tức là thị trường mới, nên thuộc chiến lược phát triển thị trường."
+        },
+        {
+          "hoi": "Với sản phẩm thuộc nhóm “Dấu hỏi” (Question Mark) trong ma trận BCG, doanh nghiệp thường phải quyết định gì?",
+          "phuongAn": ["Duy trì và thu tiền để nuôi nhóm khác", "Loại bỏ ngay vì không còn triển vọng", "Giữ nguyên, không cần theo dõi thêm", "Đầu tư mạnh để thành Ngôi sao hoặc rút lui"],
+          "dung": 3,
+          "giai": "Dấu hỏi ở thị trường tăng trưởng cao nhưng thị phần thấp, ngốn nhiều tiền. Cần chọn lọc: đầu tư để vươn lên Ngôi sao hoặc rút lui."
+        },
+        {
+          "hoi": "Trong bốn chiến lược của ma trận Ansoff, chiến lược nào thường có mức rủi ro cao nhất?",
+          "phuongAn": ["Đa dạng hóa", "Thâm nhập thị trường", "Phát triển thị trường", "Phát triển sản phẩm"],
+          "dung": 0,
+          "giai": "Đa dạng hóa vừa làm sản phẩm mới vừa vào thị trường mới, doanh nghiệp thiếu kinh nghiệm ở cả hai mặt nên rủi ro cao nhất."
+        },
+        {
+          "hoi": "Theo logic ma trận BCG, dòng tiền dồi dào từ nhóm “Bò sữa” nên được ưu tiên dùng vào đâu?",
+          "phuongAn": ["Đầu tư mở rộng cho nhóm Con chó", "Tăng mạnh quảng cáo cho chính Bò sữa", "Nuôi Ngôi sao và Dấu hỏi có triển vọng", "Giữ toàn bộ tiền mặt, không đầu tư thêm"],
+          "dung": 2,
+          "giai": "BCG khuyên dùng tiền từ Bò sữa để nuôi Ngôi sao và các Dấu hỏi được chọn, tạo ra thế hệ Bò sữa tiếp theo cho doanh nghiệp."
+        },
+        {
+          "hoi": "Trong ma trận BCG, “thị phần tương đối” của một sản phẩm được tính như thế nào?",
+          "phuongAn": ["Thị phần của mình chia cho tổng quy mô thị trường", "Doanh thu năm nay chia cho doanh thu năm trước", "Thị phần của mình trừ thị phần trung bình ngành", "Thị phần của mình chia thị phần đối thủ lớn nhất"],
+          "dung": 3,
+          "giai": "Thị phần tương đối so sánh với đối thủ lớn nhất. Chỉ số lớn hơn 1 nghĩa là doanh nghiệp đang dẫn đầu thị trường đó."
+        },
+        {
+          "hoi": "Công ty phần mềm kế toán ra mắt thêm phần mềm quản lý nhân sự, bán cho chính các khách hàng đang dùng. Theo Ansoff, đây là chiến lược gì?",
+          "phuongAn": ["Phát triển sản phẩm", "Đa dạng hóa", "Thâm nhập thị trường", "Phát triển thị trường"],
+          "dung": 0,
+          "giai": "Sản phẩm mới nhưng bán cho thị trường hiện có nên là phát triển sản phẩm. Đa dạng hóa đòi hỏi cả sản phẩm mới lẫn thị trường mới."
+        }
+      ]
+    },
+    {
+      "ma": "quan-tri-chien-luoc-04",
+      "ten": "Mục tiêu và đo lường: SMART, KPI, OKR, BSC",
+      "moTa": "Đặt mục tiêu rõ ràng và đo lường hiệu quả bằng SMART, KPI, OKR và Thẻ điểm cân bằng.",
+      "cau": [
+        {
+          "hoi": "Trong tiêu chí SMART, chữ “M” (Measurable) yêu cầu mục tiêu phải như thế nào?",
+          "phuongAn": ["Đo lường được bằng tiêu chí rõ ràng", "Có ý nghĩa lớn với doanh nghiệp", "Được cấp quản lý phê duyệt", "Hướng tới tối đa hóa lợi nhuận"],
+          "dung": 0,
+          "giai": "SMART: Specific (cụ thể), Measurable (đo lường được), Achievable (khả thi), Relevant (liên quan), Time-bound (có thời hạn)."
+        },
+        {
+          "hoi": "KPI là viết tắt của cụm từ tiếng Anh nào?",
+          "phuongAn": ["Key Process Improvement", "Key Profit Index", "Key Performance Indicator", "Knowledge Performance Integration"],
+          "dung": 2,
+          "giai": "KPI (Key Performance Indicator) là chỉ số đo lường hiệu suất then chốt, cho biết mức độ đạt mục tiêu của cá nhân, bộ phận hay doanh nghiệp."
+        },
+        {
+          "hoi": "Mục tiêu nào dưới đây đáp ứng tiêu chí SMART tốt nhất?",
+          "phuongAn": ["Cố gắng bán hàng tốt hơn năm ngoái", "Trở thành thương hiệu được yêu thích nhất", "Tăng doanh thu càng nhiều càng tốt", "Tăng doanh thu kênh online 15% trong quý IV"],
+          "dung": 3,
+          "giai": "Mục tiêu này cụ thể (kênh online), đo được (15%) và có thời hạn (quý IV). Các phương án khác mơ hồ, không đo được, không có thời hạn."
+        },
+        {
+          "hoi": "Trong phương pháp OKR, phần “KR” (Key Results) có vai trò gì?",
+          "phuongAn": ["Liệt kê mọi đầu việc cần làm hằng ngày", "Kết quả then chốt đo được để biết đạt mục tiêu", "Phần thưởng khi hoàn thành mục tiêu", "Nguồn lực cần cấp cho mục tiêu"],
+          "dung": 1,
+          "giai": "O (Objective) là mục tiêu định tính truyền cảm hứng; KR là vài kết quả then chốt đo lường được, cho biết mục tiêu đã đạt hay chưa."
+        },
+        {
+          "hoi": "Thẻ điểm cân bằng (Balanced Scorecard) đánh giá doanh nghiệp theo bốn khía cạnh nào?",
+          "phuongAn": ["Tài chính, Khách hàng, Quy trình nội bộ, Học hỏi và phát triển", "Tài chính, Khách hàng, Đối thủ cạnh tranh, Nhà cung cấp", "Tài chính, Marketing, Sản xuất, Nhân sự và hành chính", "Chiến lược, Cơ cấu tổ chức, Hệ thống, Con người"],
+          "dung": 0,
+          "giai": "Kaplan và Norton đưa ra 4 khía cạnh: Tài chính, Khách hàng, Quy trình nội bộ, Học hỏi và phát triển, cân bằng chỉ số tài chính và phi tài chính."
+        },
+        {
+          "hoi": "Điểm khác biệt phổ biến giữa OKR và KPI là gì?",
+          "phuongAn": ["OKR chỉ dùng cho tài chính; KPI dùng cho nhân sự", "OKR không cần đo lường; KPI thì bắt buộc đo", "OKR hướng tới mục tiêu tham vọng; KPI theo dõi hiệu suất", "OKR do khách hàng chấm; KPI do quản lý chấm"],
+          "dung": 2,
+          "giai": "OKR thường dùng để tạo bước tiến, chấp nhận mục tiêu thách thức; KPI theo dõi sức khỏe hoạt động thường xuyên. Cả hai đều cần đo lường."
+        },
+        {
+          "hoi": "Thẻ điểm cân bằng (Balanced Scorecard) được phát triển bởi những ai?",
+          "phuongAn": ["Andy Grove và John Doerr", "Robert Kaplan và David Norton", "Edwards Deming và Walter Shewhart", "Michael Hammer và James Champy"],
+          "dung": 1,
+          "giai": "Robert Kaplan và David Norton giới thiệu Thẻ điểm cân bằng trên Harvard Business Review năm 1992. Andy Grove và John Doerr gắn với OKR."
+        },
+        {
+          "hoi": "Chỉ số nào là chỉ số dẫn dắt (leading indicator), giúp dự báo sớm doanh thu của đội bán hàng?",
+          "phuongAn": ["Doanh thu thực tế của tháng trước", "Lợi nhuận ròng cuối năm tài chính", "Công nợ phải thu đã quá hạn", "Số cuộc tư vấn khách mới mỗi tuần"],
+          "dung": 3,
+          "giai": "Chỉ số dẫn dắt đo hoạt động xảy ra trước kết quả: số cuộc tư vấn tăng sẽ kéo doanh thu tăng sau đó. Doanh thu, lợi nhuận là chỉ số kết quả."
+        },
+        {
+          "hoi": "Theo cách áp dụng OKR do John Doerr phổ biến, một mục tiêu mang tính thách thức đạt khoảng 70% thường được đánh giá thế nào?",
+          "phuongAn": ["Là thất bại, cần kỷ luật người phụ trách", "Chứng tỏ mục tiêu đặt quá dễ từ đầu", "Là kết quả tốt với một mục tiêu thách thức", "Buộc phải hủy OKR và đặt lại từ đầu"],
+          "dung": 2,
+          "giai": "Với OKR tham vọng, đạt khoảng 60–70% được xem là thành công; luôn đạt 100% có thể cho thấy mục tiêu đặt chưa đủ thách thức."
+        },
+        {
+          "hoi": "Trong Thẻ điểm cân bằng, khía cạnh “Học hỏi và phát triển” có vai trò gì với ba khía cạnh còn lại?",
+          "phuongAn": ["Là kết quả cuối cùng mà ba khía cạnh kia hướng tới", "Là nền tảng thúc đẩy quy trình, khách hàng và tài chính", "Là khía cạnh độc lập, không liên quan khía cạnh khác", "Là khía cạnh chỉ áp dụng riêng cho phòng nhân sự"],
+          "dung": 1,
+          "giai": "Theo chuỗi nhân quả của BSC: con người, năng lực tốt → quy trình tốt → khách hàng hài lòng → kết quả tài chính. Tài chính mới là kết quả cuối."
+        }
+      ]
+    },
+    {
+      "ma": "quan-tri-chien-luoc-05",
+      "ten": "Cải tiến chất lượng: PDCA, Kaizen, 5S, Lean, Six Sigma",
+      "moTa": "Các phương pháp cải tiến liên tục, giảm lãng phí và nâng chất lượng vận hành doanh nghiệp.",
+      "cau": [
+        {
+          "hoi": "Chu trình PDCA gồm bốn bước theo thứ tự nào?",
+          "phuongAn": ["Thực hiện – Lập kế hoạch – Hành động – Kiểm tra", "Kiểm tra – Lập kế hoạch – Thực hiện – Hành động", "Lập kế hoạch – Thực hiện – Kiểm tra – Hành động", "Lập kế hoạch – Kiểm tra – Thực hiện – Hành động"],
+          "dung": 2,
+          "giai": "PDCA: Plan (Lập kế hoạch) – Do (Thực hiện) – Check (Kiểm tra) – Act (Hành động điều chỉnh), lặp lại liên tục để cải tiến."
+        },
+        {
+          "hoi": "Kaizen, triết lý quản trị xuất phát từ Nhật Bản, mang ý nghĩa gì?",
+          "phuongAn": ["Cải tiến liên tục bằng những bước nhỏ", "Đột phá công nghệ trong thời gian ngắn", "Cắt giảm nhân sự để giảm chi phí", "Kiểm tra chất lượng ở khâu cuối cùng"],
+          "dung": 0,
+          "giai": "Kaizen nghĩa là thay đổi để tốt hơn: mọi người, từ lãnh đạo đến nhân viên, cùng cải tiến nhỏ mỗi ngày, tích lũy thành hiệu quả lớn."
+        },
+        {
+          "hoi": "Bước đầu tiên của 5S là Seiri (Sàng lọc). Bước này yêu cầu làm gì?",
+          "phuongAn": ["Sắp xếp đồ dùng vào vị trí dễ lấy", "Loại bỏ vật dụng không cần thiết khỏi nơi làm việc", "Vệ sinh sạch sẽ máy móc và khu vực", "Duy trì kỷ luật tự giác thành thói quen"],
+          "dung": 1,
+          "giai": "Sàng lọc là phân loại, bỏ những thứ không cần. Sau đó mới đến Sắp xếp, Sạch sẽ, Săn sóc và Sẵn sàng (tự giác duy trì)."
+        },
+        {
+          "hoi": "Phương pháp Six Sigma chủ yếu hướng tới mục tiêu nào?",
+          "phuongAn": ["Tăng số nhân viên kiểm tra chất lượng", "Rút ngắn thời gian họp của lãnh đạo", "Mở rộng danh mục sản phẩm nhanh chóng", "Giảm biến động và lỗi trong quy trình"],
+          "dung": 3,
+          "giai": "Six Sigma dùng dữ liệu và thống kê để giảm biến động, đưa quy trình tới mức gần như không lỗi, nâng sự hài lòng của khách hàng."
+        },
+        {
+          "hoi": "Chu trình PDCA còn được gọi phổ biến theo tên chuyên gia chất lượng nào?",
+          "phuongAn": ["Vòng tròn Taylor", "Vòng tròn Deming", "Vòng tròn Juran", "Vòng tròn Ishikawa"],
+          "dung": 1,
+          "giai": "Chu trình phát triển từ ý tưởng của Walter Shewhart và được W. Edwards Deming phổ biến rộng rãi, nhất là tại Nhật Bản từ thập niên 1950, nên còn gọi là vòng tròn Deming."
+        },
+        {
+          "hoi": "Chu trình DMAIC của Six Sigma gồm những bước nào?",
+          "phuongAn": ["Thiết kế – Đo lường – Áp dụng – Cải tiến – Kiểm tra", "Xác định – Quản lý – Phân tích – Đầu tư – Kiểm soát", "Phát hiện – Đo lường – Điều chỉnh – Cải tiến – Chốt", "Xác định – Đo lường – Phân tích – Cải tiến – Kiểm soát"],
+          "dung": 3,
+          "giai": "DMAIC: Define (Xác định), Measure (Đo lường), Analyze (Phân tích), Improve (Cải tiến), Control (Kiểm soát)."
+        },
+        {
+          "hoi": "Theo Lean, xưởng sản xuất nhiều hơn số lượng khách đặt khiến hàng chất đống. Đây là loại lãng phí nào?",
+          "phuongAn": ["Sản xuất thừa (Overproduction)", "Chờ đợi (Waiting)", "Vận chuyển (Transportation)", "Gia công thừa (Over-processing)"],
+          "dung": 0,
+          "giai": "Sản xuất thừa được hệ thống Toyota xem là lãng phí tệ nhất vì kéo theo tồn kho, chiếm vốn, chiếm mặt bằng và che giấu các vấn đề khác."
+        },
+        {
+          "hoi": "Kỹ thuật “5 Why” (hỏi Tại sao 5 lần) thường được dùng để làm gì?",
+          "phuongAn": ["Đánh giá năng lực 5 nhân viên chủ chốt", "Lập kế hoạch sản xuất cho 5 ngày tới", "Tìm ra nguyên nhân gốc rễ của vấn đề", "Chọn ra 5 nhà cung cấp tốt nhất"],
+          "dung": 2,
+          "giai": "Hỏi “Tại sao” liên tiếp giúp đi từ triệu chứng bề mặt đến nguyên nhân gốc, tránh chỉ xử lý phần ngọn. Kỹ thuật này phổ biến trong hệ thống Toyota."
+        },
+        {
+          "hoi": "Quy trình đạt mức Six Sigma (6σ) tương ứng khoảng bao nhiêu lỗi trên một triệu cơ hội?",
+          "phuongAn": ["3,4 lỗi", "34 lỗi", "233 lỗi", "6.210 lỗi"],
+          "dung": 0,
+          "giai": "Mức 6σ tương ứng khoảng 3,4 lỗi trên một triệu cơ hội (đã tính độ dịch 1,5σ). Mức 5σ khoảng 233 lỗi, mức 4σ khoảng 6.210 lỗi."
+        },
+        {
+          "hoi": "Trong Lean, sản xuất theo cơ chế “kéo” (pull) nghĩa là gì?",
+          "phuongAn": ["Sản xuất tối đa công suất rồi đẩy hàng ra thị trường", "Kéo dài ca làm việc để kịp tiến độ đơn hàng", "Tích trữ tồn kho lớn để phòng thiếu nguyên liệu", "Chỉ sản xuất khi có nhu cầu thực tế từ khâu sau"],
+          "dung": 3,
+          "giai": "Hệ thống kéo để nhu cầu của khách hoặc của khâu sau quyết định việc sản xuất (thường qua thẻ Kanban), giảm tồn kho và sản xuất thừa."
+        }
+      ]
+    },
+    {
+      "ma": "quan-tri-chien-luoc-06",
+      "ten": "Quản lý dự án: phạm vi, tiến độ, phương pháp",
+      "moTa": "Công cụ và nguyên tắc cốt lõi giúp dự án đúng phạm vi, đúng tiến độ và trong ngân sách.",
+      "cau": [
+        {
+          "hoi": "Ba ràng buộc cơ bản của dự án, thường gọi là “tam giác dự án”, gồm những yếu tố nào?",
+          "phuongAn": ["Nhân sự, máy móc, nguyên vật liệu", "Phạm vi, thời gian, chi phí", "Doanh thu, lợi nhuận, thị phần", "Khách hàng, đối thủ, nhà cung cấp"],
+          "dung": 1,
+          "giai": "Phạm vi, thời gian và chi phí ràng buộc lẫn nhau: thay đổi một yếu tố thường kéo theo hai yếu tố còn lại và ảnh hưởng đến chất lượng."
+        },
+        {
+          "hoi": "Biểu đồ Gantt thường được dùng để thể hiện điều gì trong dự án?",
+          "phuongAn": ["Cơ cấu tổ chức của các phòng ban", "Tỷ trọng doanh thu từng sản phẩm", "Dòng tiền vào ra theo từng tháng", "Tiến độ các công việc theo trục thời gian"],
+          "dung": 3,
+          "giai": "Biểu đồ Gantt dùng các thanh ngang trên trục thời gian để thể hiện thời điểm bắt đầu, kết thúc và tiến độ của từng công việc."
+        },
+        {
+          "hoi": "Điểm khác biệt cơ bản giữa một dự án và công việc vận hành thường xuyên là gì?",
+          "phuongAn": ["Dự án luôn có ngân sách lớn hơn vận hành", "Dự án không cần người chịu trách nhiệm chính", "Dự án có thời điểm bắt đầu và kết thúc xác định", "Dự án bắt buộc do đơn vị bên ngoài thực hiện"],
+          "dung": 2,
+          "giai": "Dự án mang tính tạm thời, có thời hạn và tạo ra kết quả riêng biệt; vận hành là hoạt động lặp lại, liên tục để duy trì doanh nghiệp."
+        },
+        {
+          "hoi": "“Cột mốc” (milestone) trong quản lý dự án là gì?",
+          "phuongAn": ["Thời điểm quan trọng đánh dấu một kết quả chính", "Công việc tốn nhiều chi phí nhất dự án", "Người có quyền quyết định cao nhất dự án", "Khoản ngân sách dự phòng cho rủi ro"],
+          "dung": 0,
+          "giai": "Cột mốc là điểm kiểm soát tiến độ, như hoàn tất thiết kế hay bàn giao giai đoạn 1. Nó không tốn thời gian riêng mà đánh dấu một kết quả."
+        },
+        {
+          "hoi": "WBS (Work Breakdown Structure) trong quản lý dự án là gì?",
+          "phuongAn": ["Bảng tính lương thưởng cho đội dự án", "Báo cáo tiến độ hằng tuần gửi nhà đầu tư", "Sơ đồ bố trí mặt bằng thi công", "Cấu trúc phân rã công việc thành phần nhỏ"],
+          "dung": 3,
+          "giai": "WBS chia toàn bộ phạm vi dự án thành các gói công việc nhỏ, dễ ước lượng, giao việc và kiểm soát; là nền tảng để lập tiến độ và ngân sách."
+        },
+        {
+          "hoi": "Theo phương pháp CPM, “đường găng” (critical path) của dự án là gì?",
+          "phuongAn": ["Chuỗi công việc dài nhất, quyết định thời gian dự án", "Chuỗi công việc tốn ít chi phí nhất dự án", "Các công việc có nhiều người tham gia nhất", "Các công việc có thể trì hoãn thoải mái"],
+          "dung": 0,
+          "giai": "Đường găng là chuỗi công việc có tổng thời gian dài nhất; các việc trên đó không có thời gian dự trữ, trễ một việc là cả dự án trễ."
+        },
+        {
+          "hoi": "Trong phương pháp Scrum, “Sprint” là gì?",
+          "phuongAn": ["Buổi họp tổng kết cuối năm của dự án", "Chu kỳ ngắn, cố định để làm ra phần sản phẩm dùng được", "Danh sách lỗi cần sửa ngay lập tức", "Giai đoạn tăng ca chạy nước rút khi trễ hạn"],
+          "dung": 1,
+          "giai": "Sprint là chu kỳ làm việc cố định, không quá một tháng (thường 1–4 tuần), kết thúc bằng phần sản phẩm hoàn chỉnh để xem xét và điều chỉnh."
+        },
+        {
+          "hoi": "Ma trận RACI trong dự án được dùng để làm rõ điều gì?",
+          "phuongAn": ["Mức độ rủi ro của từng hạng mục công việc", "Chi phí dự kiến của từng giai đoạn dự án", "Vai trò, trách nhiệm của mỗi người trong từng việc", "Mức độ hài lòng của khách hàng với dự án"],
+          "dung": 2,
+          "giai": "RACI: Responsible (người thực hiện), Accountable (người chịu trách nhiệm cuối), Consulted (được hỏi ý kiến), Informed (được thông báo)."
+        },
+        {
+          "hoi": "Dự án đang triển khai, khách liên tục yêu cầu thêm hạng mục mà không điều chỉnh thời gian, ngân sách. Hiện tượng này gọi là gì?",
+          "phuongAn": ["Mạ vàng (gold plating)", "Phình phạm vi (scope creep)", "Nút thắt cổ chai (bottleneck)", "Quá tải nguồn lực (over-allocation)"],
+          "dung": 1,
+          "giai": "Scope creep là phạm vi phình dần ngoài kiểm soát. Cần quy trình quản lý thay đổi: đánh giá tác động, thống nhất lại thời gian, chi phí trước khi làm."
+        },
+        {
+          "hoi": "Công việc A có tổng thời gian dự trữ (total float) bằng 0. Nếu A trễ 2 ngày và không có điều chỉnh gì, điều gì sẽ xảy ra?",
+          "phuongAn": ["Dự án không bị ảnh hưởng vì còn việc khác", "Chỉ riêng công việc A trễ, dự án vẫn đúng hạn", "Dự án chỉ trễ 1 ngày nhờ các việc song song", "Ngày kết thúc dự án bị lùi đúng 2 ngày"],
+          "dung": 3,
+          "giai": "Thời gian dự trữ bằng 0 nghĩa là A nằm trên đường găng. Mọi chậm trễ của A đẩy lùi đúng bấy nhiêu ngày cho ngày kết thúc dự án."
+        }
+      ]
+    },
+    {
+      "ma": "quan-tri-chien-luoc-07",
+      "ten": "Ra quyết định: Pareto 80/20, ma trận Eisenhower",
+      "moTa": "Chọn đúng việc cần làm trước bằng nguyên tắc 80/20 và ma trận quan trọng – khẩn cấp.",
+      "cau": [
+        {
+          "hoi": "Nguyên tắc Pareto 80/20 thường được hiểu như thế nào?",
+          "phuongAn": ["Khoảng 80% kết quả đến từ 20% nguyên nhân", "80% nhân viên chỉ nên làm 20% công việc", "Nên dành 80% lợi nhuận để tái đầu tư", "80% ngân sách nên dành cho bán hàng"],
+          "dung": 0,
+          "giai": "Nguyên tắc 80/20 cho thấy một phần nhỏ nguyên nhân tạo ra phần lớn kết quả, giúp nhà quản lý dồn nguồn lực vào những gì tác động mạnh nhất."
+        },
+        {
+          "hoi": "Ma trận Eisenhower phân loại công việc dựa trên hai tiêu chí nào?",
+          "phuongAn": ["Chi phí và lợi nhuận", "Quan trọng và khẩn cấp", "Dễ làm và khó làm", "Cá nhân và tập thể"],
+          "dung": 1,
+          "giai": "Ma trận chia việc thành 4 ô theo mức quan trọng và mức khẩn cấp, từ đó quyết định làm ngay, lên lịch, ủy quyền hay loại bỏ."
+        },
+        {
+          "hoi": "Theo ma trận Eisenhower, việc vừa quan trọng vừa khẩn cấp nên xử lý thế nào?",
+          "phuongAn": ["Lên lịch để làm sau", "Giao cho người khác làm", "Loại bỏ khỏi danh sách", "Làm ngay, tự mình xử lý"],
+          "dung": 3,
+          "giai": "Ô quan trọng – khẩn cấp là việc gấp có hậu quả lớn như sự cố, hạn chót, cần xử lý ngay. Việc quan trọng nhưng chưa gấp mới đưa vào lịch."
+        },
+        {
+          "hoi": "Nguyên tắc 80/20 được đặt theo tên của nhà kinh tế học nào?",
+          "phuongAn": ["Adam Smith", "John Maynard Keynes", "Vilfredo Pareto", "Milton Friedman"],
+          "dung": 2,
+          "giai": "Nguyên tắc mang tên nhà kinh tế học người Ý Vilfredo Pareto, người nghiên cứu sự phân bổ không đồng đều của của cải. Joseph Juran sau đó khái quát thành nguyên tắc Pareto."
+        },
+        {
+          "hoi": "Việc quan trọng nhưng chưa khẩn cấp (đào tạo đội ngũ, xây quy trình) nên xử lý thế nào theo ma trận Eisenhower?",
+          "phuongAn": ["Làm ngay, gác lại mọi việc khác", "Giao hết cho nhân viên mới làm", "Lên lịch cụ thể và giữ thời gian làm", "Bỏ qua vì chưa có hạn gấp"],
+          "dung": 2,
+          "giai": "Đây là nhóm việc tạo giá trị dài hạn nhưng dễ bị việc gấp lấn át. Cần lên lịch rõ ràng và bảo vệ thời gian để thực hiện."
+        },
+        {
+          "hoi": "Chủ doanh nghiệp nhận thấy 20% khách hàng mang lại phần lớn lợi nhuận. Theo tư duy Pareto, hành động hợp lý nhất là gì?",
+          "phuongAn": ["Ưu tiên chăm sóc, giữ chân nhóm khách này", "Ngừng phục vụ toàn bộ nhóm khách còn lại", "Chia đều nguồn lực cho mọi khách hàng", "Tăng giá mạnh riêng cho nhóm khách này"],
+          "dung": 0,
+          "giai": "Pareto giúp ưu tiên nguồn lực cho nhóm tạo giá trị cao, nhưng không có nghĩa bỏ hẳn nhóm còn lại vì họ vẫn đóng góp doanh thu và tiềm năng."
+        },
+        {
+          "hoi": "Biểu đồ Pareto có hình dạng như thế nào?",
+          "phuongAn": ["Biểu đồ tròn chia theo tỷ lệ phần trăm", "Biểu đồ đường thể hiện xu hướng theo thời gian", "Biểu đồ xương cá thể hiện nhóm nguyên nhân", "Cột xếp giảm dần kèm đường phần trăm tích lũy"],
+          "dung": 3,
+          "giai": "Biểu đồ Pareto xếp các nguyên nhân thành cột từ cao xuống thấp, kèm đường tích lũy %, giúp thấy ngay vài nguyên nhân chiếm phần lớn vấn đề."
+        },
+        {
+          "hoi": "Theo ma trận Eisenhower, việc khẩn cấp nhưng không quan trọng (cuộc gọi, email vặt) nên xử lý thế nào?",
+          "phuongAn": ["Tự làm ngay vì đang gấp", "Ủy quyền cho người phù hợp xử lý", "Lên lịch làm vào cuối tuần", "Xếp vào nhóm ưu tiên cao nhất"],
+          "dung": 1,
+          "giai": "Việc gấp nhưng ít giá trị với vai trò của mình nên giao cho người phù hợp, để người quản lý dành thời gian cho việc quan trọng."
+        },
+        {
+          "hoi": "Khi dùng phân tích Pareto để giảm khiếu nại của khách hàng, bước nào cần làm TRƯỚC khi vẽ biểu đồ?",
+          "phuongAn": ["Xử lý dứt điểm từng khiếu nại nhỏ nhất", "Chọn ngẫu nhiên vài khiếu nại để giải quyết", "Chia đều nguồn lực cho mọi loại khiếu nại", "Phân loại và đếm số lần xảy ra từng loại"],
+          "dung": 3,
+          "giai": "Pareto dựa trên dữ liệu: phải phân loại, đếm tần suất từng loại khiếu nại, rồi mới sắp xếp và tập trung xử lý các loại chiếm tỷ trọng lớn."
+        },
+        {
+          "hoi": "Phát biểu nào về nguyên tắc 80/20 là ĐÚNG?",
+          "phuongAn": ["Tỷ lệ 80/20 là quy luật kinh nghiệm, không cố định", "Tỷ lệ luôn chính xác 80/20 trong mọi ngành", "Chỉ áp dụng được cho lĩnh vực bán hàng", "Nghĩa là nên bỏ hẳn 80% nguyên nhân còn lại"],
+          "dung": 0,
+          "giai": "80/20 chỉ là con số minh họa sự mất cân đối; thực tế có thể là 70/30 hay 90/10. Nguyên tắc áp dụng cho nhiều lĩnh vực: bán hàng, chất lượng, thời gian."
+        }
+      ]
+    },
+    {
+      "ma": "quan-tri-chien-luoc-08",
+      "ten": "Mô hình kinh doanh: Canvas, thuê bao, freemium",
+      "moTa": "Hiểu cách doanh nghiệp tạo, trao và thu về giá trị qua Business Model Canvas và các mô hình doanh thu.",
+      "cau": [
+        {
+          "hoi": "Business Model Canvas (Mô hình kinh doanh Canvas) gồm bao nhiêu khối?",
+          "phuongAn": ["5 khối", "7 khối", "12 khối", "9 khối"],
+          "dung": 3,
+          "giai": "Canvas gồm 9 khối: Phân khúc khách hàng, Giá trị, Kênh, Quan hệ khách hàng, Dòng doanh thu, Nguồn lực, Hoạt động, Đối tác chính, Cơ cấu chi phí."
+        },
+        {
+          "hoi": "Mô hình freemium hoạt động như thế nào?",
+          "phuongAn": ["Miễn phí hoàn toàn, thu tiền từ quảng cáo", "Dùng thử miễn phí 7 ngày rồi bắt buộc trả phí", "Miễn phí bản cơ bản, thu phí bản nâng cao", "Giảm giá sâu cho khách đăng ký sớm"],
+          "dung": 2,
+          "giai": "Freemium = free + premium: bản cơ bản miễn phí lâu dài để thu hút nhiều người dùng, một phần trong số đó trả tiền cho tính năng nâng cao."
+        },
+        {
+          "hoi": "Mô hình thuê bao (subscription) có đặc điểm nổi bật nào?",
+          "phuongAn": ["Khách trả một lần và sở hữu vĩnh viễn", "Khách trả phí định kỳ để được dùng sản phẩm", "Khách chỉ trả tiền khi doanh nghiệp có lãi", "Khách đổi hàng lấy hàng, không dùng tiền"],
+          "dung": 1,
+          "giai": "Thuê bao thu phí theo tháng, quý hoặc năm, tạo doanh thu định kỳ dễ dự báo; bài toán cốt lõi là giữ chân khách tiếp tục gia hạn."
+        },
+        {
+          "hoi": "Business Model Canvas do ai khởi xướng?",
+          "phuongAn": ["Alexander Osterwalder", "Eric Ries", "Clayton Christensen", "Steve Blank"],
+          "dung": 0,
+          "giai": "Alexander Osterwalder đề xuất Canvas và cùng Yves Pigneur xuất bản sách Business Model Generation (2010). Eric Ries gắn với Lean Startup."
+        },
+        {
+          "hoi": "Trong Business Model Canvas, khối “Tuyên bố giá trị” (Value Propositions) trả lời câu hỏi nào?",
+          "phuongAn": ["Doanh nghiệp thu tiền từ những nguồn nào?", "Doanh nghiệp giải quyết vấn đề gì cho khách?", "Doanh nghiệp cần những đối tác chủ chốt nào?", "Doanh nghiệp tốn những khoản chi phí lớn nào?"],
+          "dung": 1,
+          "giai": "Tuyên bố giá trị mô tả lợi ích, giải pháp doanh nghiệp mang lại cho từng phân khúc khách: vì sao khách chọn mình thay vì đối thủ."
+        },
+        {
+          "hoi": "Với mô hình thuê bao, chỉ số “tỷ lệ rời bỏ” (churn rate) phản ánh điều gì?",
+          "phuongAn": ["Tỷ lệ khách mới đăng ký trong kỳ", "Tỷ lệ doanh thu tăng thêm mỗi tháng", "Tỷ lệ khách hủy hoặc không gia hạn trong kỳ", "Tỷ lệ người dùng đang ở bản miễn phí"],
+          "dung": 2,
+          "giai": "Churn rate đo phần khách rời đi trong một kỳ. Churn cao buộc doanh nghiệp tốn chi phí thu hút khách mới chỉ để bù lượng khách đã mất."
+        },
+        {
+          "hoi": "Mô hình “dao cạo và lưỡi dao” (razor and blades) kiếm lợi nhuận chủ yếu bằng cách nào?",
+          "phuongAn": ["Bán thiết bị giá cao, tặng vật tư miễn phí", "Cho thuê thiết bị tính phí theo giờ", "Thu phí thành viên để được quyền mua", "Bán thiết bị giá thấp, lãi từ vật tư dùng lặp lại"],
+          "dung": 3,
+          "giai": "Doanh nghiệp bán sản phẩm chính giá thấp để có nhiều người dùng, rồi thu lợi nhuận từ vật tư tiêu hao phải mua lại thường xuyên như lưỡi dao, mực in."
+        },
+        {
+          "hoi": "Trong Business Model Canvas, đâu là ví dụ thuộc khối “Kênh” (Channels)?",
+          "phuongAn": ["Fanpage, showroom và đội bán hàng trực tiếp", "Nhà cung cấp nguyên liệu chính", "Chi phí thuê mặt bằng và tiền lương", "Bằng sáng chế và công thức độc quyền"],
+          "dung": 0,
+          "giai": "Kênh là cách tiếp cận, bán và giao giá trị cho khách. Nhà cung cấp thuộc Đối tác chính, tiền thuê thuộc Cơ cấu chi phí, bằng sáng chế thuộc Nguồn lực."
+        },
+        {
+          "hoi": "Trong mô hình thuê bao, nếu LTV (giá trị vòng đời khách) nhỏ hơn CAC (chi phí có được một khách), điều đó cho thấy gì?",
+          "phuongAn": ["Doanh nghiệp đang giữ chân khách rất tốt", "Chi phí marketing đang được dùng hiệu quả", "Mỗi khách mang về ít hơn chi phí để có được họ", "Doanh nghiệp đã có lãi trên mỗi khách hàng"],
+          "dung": 2,
+          "giai": "LTV nhỏ hơn CAC nghĩa là càng tăng khách càng lỗ. Cần giảm chi phí thu hút khách hoặc tăng giá trị, thời gian gắn bó của mỗi khách."
+        },
+        {
+          "hoi": "Một ứng dụng áp dụng mô hình freemium. Chỉ số nào quan trọng nhất để đánh giá mô hình này tạo ra doanh thu bền vững?",
+          "phuongAn": ["Tổng số lượt tải ứng dụng mỗi tháng", "Tỷ lệ chuyển từ dùng miễn phí sang trả phí", "Số lượt thích trên trang mạng xã hội", "Số lượng tính năng của bản miễn phí"],
+          "dung": 1,
+          "giai": "Freemium chỉ bền vững khi đủ người dùng miễn phí chuyển sang trả phí để bù chi phí phục vụ cả tệp. Lượt tải, lượt thích chỉ là chỉ số bề nổi."
+        }
+      ]
+    },
+    {
+      "ma": "quan-tri-chien-luoc-09",
+      "ten": "Tình huống điều hành doanh nghiệp vừa và nhỏ",
+      "moTa": "Xử lý các tình huống thường gặp về nhân sự, dòng tiền, khách hàng và ủy quyền trong doanh nghiệp.",
+      "cau": [
+        {
+          "hoi": "Nhân viên bán hàng giỏi nhất liên tục đi trễ, ảnh hưởng tinh thần cả đội. Cách xử lý phù hợp nhất ở bước đầu là gì?",
+          "phuongAn": ["Bỏ qua vì người này mang lại doanh số cao", "Phê bình gay gắt trước toàn thể nhân viên", "Gặp riêng, trao đổi thẳng thắn, thống nhất cam kết", "Cho nghỉ việc ngay, không cần trao đổi"],
+          "dung": 2,
+          "giai": "Nguyên tắc: khen công khai, góp ý riêng. Trao đổi thẳng thắn giúp tìm nguyên nhân, giữ công bằng với cả đội mà không làm mất người giỏi."
+        },
+        {
+          "hoi": "Chi phí vận hành của công ty tăng dần qua từng tháng mà không ai phát hiện kịp. Công cụ quản lý nào giúp kiểm soát hiệu quả nhất?",
+          "phuongAn": [
+            "Lập ngân sách và so sánh với thực chi hằng tháng",
+            "Cắt giảm đồng loạt 20% mọi khoản chi",
+            "Chỉ xem báo cáo tài chính vào cuối năm",
+            "Giao kế toán tự quyết mọi khoản chi"
+          ],
+          "dung": 0,
+          "giai": "Ngân sách đặt giới hạn cho từng khoản; đối chiếu thực chi với ngân sách hằng tháng giúp phát hiện sớm khoản vượt và tìm nguyên nhân, thay vì cắt giảm cảm tính."
+        },
+        {
+          "hoi": "Nguyên tắc giao việc nào giúp tránh tình trạng “cha chung không ai khóc”?",
+          "phuongAn": ["Giao việc cho cả nhóm cùng chịu trách nhiệm", "Để nhân viên tự chọn việc mình muốn làm", "Chủ doanh nghiệp tự làm mọi việc quan trọng", "Mỗi việc có đúng một người chịu trách nhiệm chính"],
+          "dung": 3,
+          "giai": "Khi trách nhiệm dàn đều cho nhiều người, không ai thực sự chịu trách nhiệm. Mỗi việc cần một đầu mối rõ ràng, có quyền hạn và thời hạn."
+        },
+        {
+          "hoi": "Khách hàng phản ánh gay gắt trên mạng xã hội về một lỗi sản phẩm có thật. Phản ứng phù hợp nhất của doanh nghiệp là gì?",
+          "phuongAn": ["Xóa bình luận và chặn tài khoản khách hàng", "Nhanh chóng xin lỗi, liên hệ riêng và khắc phục", "Im lặng chờ sự việc tự lắng xuống", "Đăng bài phản bác, cho rằng khách nói sai"],
+          "dung": 1,
+          "giai": "Khi lỗi có thật, phản hồi nhanh, nhận trách nhiệm và khắc phục cụ thể giúp hạn chế khủng hoảng lan rộng, có thể biến khách bức xúc thành khách trung thành."
+        },
+        {
+          "hoi": "Chủ doanh nghiệp bị cuốn vào việc vặt hằng ngày, không còn thời gian cho chiến lược. Giải pháp căn cơ nhất là gì?",
+          "phuongAn": ["Chuẩn hóa quy trình và ủy quyền theo cấp", "Làm thêm giờ vào buổi tối và cuối tuần", "Tuyển thêm người nhưng vẫn tự duyệt mọi việc", "Tạm gác chiến lược đến khi hết việc vặt"],
+          "dung": 0,
+          "giai": "Quy trình rõ giúp nhân viên tự xử lý việc lặp lại; ủy quyền theo cấp giải phóng thời gian để chủ doanh nghiệp tập trung vào định hướng, phát triển."
+        },
+        {
+          "hoi": "Ở một công ty nhỏ, một người vừa lập phiếu chi, vừa giữ tiền mặt, vừa ghi sổ quỹ. Rủi ro lớn nhất và cách xử lý là gì?",
+          "phuongAn": [
+            "Tốn thời gian, nên thuê thêm người nhập liệu",
+            "Dễ sai sót, gian lận; cần tách người giữ tiền và người ghi sổ",
+            "Chứng từ xấu, nên dùng mẫu in sẵn",
+            "Không có rủi ro nếu người đó là người thân"
+          ],
+          "dung": 1,
+          "giai": "Nguyên tắc bất kiêm nhiệm trong kiểm soát nội bộ: người duyệt chi, người giữ tiền và người ghi sổ nên tách bạch để kiểm tra chéo, hạn chế sai sót và gian lận."
+        },
+        {
+          "hoi": "Khi tuyển quản lý cấp trung, cách làm nào giúp giảm rủi ro chọn sai người hiệu quả nhất?",
+          "phuongAn": ["Chọn người có bằng cấp cao nhất trong số hồ sơ nộp vào", "Ưu tiên người quen giới thiệu, không cần phỏng vấn kỹ", "Phỏng vấn năng lực, xác minh tham chiếu, thử việc có mục tiêu", "Chọn ứng viên đề nghị mức lương thấp nhất để tiết kiệm"],
+          "dung": 2,
+          "giai": "Kết hợp nhiều lớp đánh giá (năng lực, người tham chiếu, kết quả thử việc) giúp dự báo hiệu quả công việc tốt hơn so với chỉ dựa vào bằng cấp hay quan hệ."
+        },
+        {
+          "hoi": "Doanh số giảm 3 tháng liên tiếp. Bước đầu tiên hợp lý nhất của người điều hành là gì?",
+          "phuongAn": ["Giảm giá đồng loạt toàn bộ sản phẩm", "Thay toàn bộ đội ngũ bán hàng", "Tăng gấp đôi ngân sách quảng cáo", "Phân tích số liệu để tìm nguyên nhân gốc"],
+          "dung": 3,
+          "giai": "Hành động khi chưa rõ nguyên nhân dễ tốn tiền mà sai hướng. Cần phân tích theo sản phẩm, kênh, khu vực, nhóm khách để tìm đúng gốc vấn đề."
+        },
+        {
+          "hoi": "Chi phí đầu vào tăng, doanh nghiệp buộc phải tăng giá bán với khách hàng lâu năm. Cách làm phù hợp nhất là gì?",
+          "phuongAn": [
+            "Thông báo trước, nêu rõ lý do và giữ chất lượng phục vụ",
+            "Tăng giá ngay trên hóa đơn mà không báo trước",
+            "Âm thầm giảm chất lượng để giữ nguyên giá",
+            "Chỉ tăng giá với những khách ít phàn nàn"
+          ],
+          "dung": 0,
+          "giai": "Minh bạch và báo trước giúp khách chủ động kế hoạch, giữ được lòng tin; tăng giá bất ngờ hay ngầm giảm chất lượng dễ bị phát hiện và làm mất khách lâu năm."
+        },
+        {
+          "hoi": "Doanh nghiệp muốn mở chi nhánh thứ hai, nhưng chi nhánh đầu vẫn phải có chủ trực tiếp quản lý mới chạy được. Nên ưu tiên việc gì trước?",
+          "phuongAn": ["Mở ngay chi nhánh 2 để kịp giành thị trường", "Vay thêm vốn để mở cùng lúc nhiều chi nhánh", "Chuẩn hóa vận hành để chi nhánh 1 chạy không cần chủ", "Mở chi nhánh 2 trước, viết quy trình sau"],
+          "dung": 2,
+          "giai": "Nhân rộng khi chưa có hệ thống là nhân rộng cả vấn đề. Chi nhánh 1 phải chạy ổn bằng quy trình và người quản lý thì mới có mô hình để sao chép."
+        }
+      ]
+    },
+    {
+      "ma": "quan-tri-chien-luoc-10",
+      "ten": "Quản trị thay đổi và đổi mới sáng tạo",
+      "moTa": "Dẫn dắt tổ chức vượt qua kháng cự khi thay đổi và nuôi dưỡng đổi mới sáng tạo bền vững.",
+      "cau": [
+        {
+          "hoi": "Mô hình 8 bước dẫn dắt thay đổi nổi tiếng là của học giả nào?",
+          "phuongAn": ["Kurt Lewin", "John Kotter", "Peter Senge", "Everett Rogers"],
+          "dung": 1,
+          "giai": "Giáo sư John Kotter (Harvard) trình bày mô hình 8 bước trong sách Leading Change (1996). Kurt Lewin nổi tiếng với mô hình 3 giai đoạn."
+        },
+        {
+          "hoi": "Mô hình thay đổi của Kurt Lewin gồm ba giai đoạn nào?",
+          "phuongAn": ["Khởi động – Thực hiện – Kết thúc", "Phát hiện – Thử nghiệm – Nhân rộng", "Phá băng – Thay đổi – Đóng băng lại", "Lập kế hoạch – Làm – Kiểm tra"],
+          "dung": 2,
+          "giai": "Unfreeze – Change – Refreeze: phá vỡ thói quen cũ, thực hiện thay đổi, rồi củng cố để cách làm mới trở thành chuẩn mực ổn định."
+        },
+        {
+          "hoi": "Khái niệm “đổi mới mở” (open innovation) do Henry Chesbrough đề xuất khuyến khích doanh nghiệp làm gì?",
+          "phuongAn": [
+            "Kết hợp ý tưởng, công nghệ từ cả bên trong và bên ngoài",
+            "Công khai toàn bộ bí mật kinh doanh cho đối thủ",
+            "Chỉ dựa vào phòng nghiên cứu nội bộ để giữ bí mật",
+            "Mở cửa văn phòng cho khách tự do tham quan"
+          ],
+          "dung": 0,
+          "giai": "Chesbrough (2003) cho rằng doanh nghiệp nên chủ động đón ý tưởng, công nghệ từ trường đại học, startup, khách hàng, đồng thời đưa công nghệ chưa dùng tới ra thị trường."
+        },
+        {
+          "hoi": "Theo John Kotter, bước đầu tiên để dẫn dắt thay đổi thành công là gì?",
+          "phuongAn": ["Ăn mừng những thắng lợi ngắn hạn", "Gắn thay đổi vào văn hóa doanh nghiệp", "Trao quyền cho nhân viên hành động", "Tạo cảm giác cấp thiết về sự thay đổi"],
+          "dung": 3,
+          "giai": "Bước 1 của Kotter là tạo tính cấp thiết: giúp mọi người thấy vì sao phải thay đổi ngay. Thiếu điều này, tổ chức dễ giữ nếp cũ."
+        },
+        {
+          "hoi": "Theo đường cong chấp nhận đổi mới của Everett Rogers, nhóm nào đón nhận cái mới sớm nhất?",
+          "phuongAn": ["Người chấp nhận sớm (Early adopters)", "Số đông sớm (Early majority)", "Người đổi mới (Innovators)", "Người chậm chân (Laggards)"],
+          "dung": 2,
+          "giai": "Thứ tự của Rogers: Người đổi mới (khoảng 2,5%), Người chấp nhận sớm, Số đông sớm, Số đông muộn và cuối cùng là Người chậm chân."
+        },
+        {
+          "hoi": "Nhân viên phản đối phần mềm quản lý mới vì sợ khó dùng, sợ bị giám sát. Cách giảm kháng cự hiệu quả nhất là gì?",
+          "phuongAn": ["Ép dùng ngay, ai không theo sẽ bị phạt", "Hoãn triển khai đến khi mọi người đồng ý", "Chỉ gửi email thông báo, để tự tìm hiểu", "Giải thích lợi ích, đào tạo, cho tham gia thử nghiệm"],
+          "dung": 3,
+          "giai": "Kháng cự thường đến từ nỗi sợ và thiếu thông tin. Truyền thông rõ lợi ích, đào tạo và cho nhân viên tham gia giúp họ trở thành người đồng hành."
+        },
+        {
+          "hoi": "Trong phương pháp Khởi nghiệp tinh gọn (Lean Startup), MVP – sản phẩm khả dụng tối thiểu – dùng để làm gì?",
+          "phuongAn": ["Ra mắt phiên bản hoàn hảo nhất ngay từ đầu", "Kiểm chứng giả định với khách thật, chi phí thấp", "Giảm giá sản phẩm để xả hàng tồn kho", "Làm hồ sơ đẹp để gọi vốn nhà đầu tư"],
+          "dung": 1,
+          "giai": "MVP là phiên bản đơn giản nhất đủ để học từ phản hồi thực tế theo vòng Xây dựng – Đo lường – Học hỏi, tránh tốn nhiều tiền cho ý tưởng sai."
+        },
+        {
+          "hoi": "Quy trình Tư duy thiết kế (Design Thinking) thường bắt đầu từ bước nào?",
+          "phuongAn": ["Thấu cảm để hiểu sâu nhu cầu người dùng", "Làm mẫu thử và kiểm tra ngay lập tức", "Lập kế hoạch tài chính thật chi tiết", "Chọn công nghệ hiện đại nhất để áp dụng"],
+          "dung": 0,
+          "giai": "Theo mô hình phổ biến của Stanford d.school: Thấu cảm – Xác định vấn đề – Tạo ý tưởng – Làm mẫu thử – Kiểm tra. Mọi thứ bắt đầu từ người dùng."
+        },
+        {
+          "hoi": "Theo Clayton Christensen, đổi mới đột phá thường bắt đầu từ đâu?",
+          "phuongAn": ["Nhóm khách cao cấp, khó tính nhất thị trường", "Cải tiến sản phẩm tốt hơn cho khách hiện tại", "Các tập đoàn dẫn đầu có nguồn lực lớn nhất", "Phân khúc thấp hoặc nhóm khách chưa được phục vụ"],
+          "dung": 3,
+          "giai": "Sản phẩm đột phá thường đơn giản, rẻ, ban đầu phục vụ phân khúc thấp hoặc người chưa từng dùng rồi dần đi lên. Cải tiến cho khách hiện tại là đổi mới duy trì."
+        },
+        {
+          "hoi": "Theo John Kotter, sai lầm nào thường khiến nỗ lực thay đổi thất bại dù ban đầu đã có kết quả tốt?",
+          "phuongAn": ["Truyền thông tầm nhìn quá nhiều lần", "Tuyên bố thắng lợi quá sớm khi chưa bám rễ", "Ăn mừng các thắng lợi ngắn hạn", "Trao quyền rộng rãi cho nhân viên"],
+          "dung": 1,
+          "giai": "Tuyên bố chiến thắng quá sớm khiến tổ chức buông lỏng và nếp cũ quay lại. Ăn mừng thắng lợi ngắn hạn là nên làm, nhưng phải tiếp tục đẩy mạnh thay đổi."
+        }
+      ]
+    }
+  ]
+}

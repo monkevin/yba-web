@@ -1,0 +1,199 @@
+[
+ {
+  "ma": "NV01",
+  "ten": "Có mặt là có vốn",
+  "viec": "Tham gia một sự kiện của Chi hội hoặc của Hội (họp mặt, tọa đàm, thăm doanh nghiệp, Business & Library…)",
+  "xacNhan": "Quét mã QR check-in tại sự kiện",
+  "von": {
+   "XH": 5
+  },
+  "diem": 300,
+  "gioiHan": "Không giới hạn",
+  "muc": "KET_NOI"
+ },
+ {
+  "ma": "NV02",
+  "ten": "Ly cà phê kết nối",
+  "viec": "Tham gia một buổi Coffee Connect",
+  "xacNhan": "Ban Hội viên điểm danh",
+  "von": {
+   "XH": 3
+  },
+  "diem": 200,
+  "gioiHan": "Tối đa 4 lần/tháng",
+  "muc": "KET_NOI"
+ },
+ {
+  "ma": "NV03",
+  "ten": "Người bắc cầu",
+  "viec": "Giới thiệu một mối quan hệ tốt cho một hội viên khác",
+  "xacNhan": "Người được giới thiệu bấm xác nhận trên web",
+  "von": {
+   "XH": 8
+  },
+  "diem": 500,
+  "gioiHan": "Tối đa 3 lần/tháng",
+  "muc": "KET_NOI"
+ },
+ {
+  "ma": "NV04",
+  "ten": "Bàn thành Bán",
+  "viec": "Ghi nhận một giao dịch với hội viên và được Ban điều hành duyệt",
+  "xacNhan": "Tự động khi giao dịch được duyệt trên web",
+  "von": {
+   "TS": 8
+  },
+  "diem": 500,
+  "gioiHan": "Tối đa 5 giao dịch/tháng",
+  "muc": "GIAO_THUONG"
+ },
+ {
+  "ma": "NV05",
+  "ten": "Trao một kinh nghiệm",
+  "viec": "Chia sẻ một bài học kinh doanh tại Coffee Connect hoặc Coffee Share",
+  "xacNhan": "Ban Đào tạo xác nhận",
+  "von": {
+   "TT": 8
+  },
+  "diem": 500,
+  "gioiHan": "Không giới hạn",
+  "muc": "DAN_THAN"
+ },
+ {
+  "ma": "NV06",
+  "ten": "Khỏe để vươn tầm",
+  "viec": "Tham gia một hoạt động thể thao của Chi hội (Pickleball, chạy bộ…)",
+  "xacNhan": "Ban Tổ chức điểm danh",
+  "von": {
+   "CN": 5
+  },
+  "diem": 300,
+  "gioiHan": "Tối đa 4 lần/tháng",
+  "muc": "GAN_KET"
+ },
+ {
+  "ma": "NV07",
+  "ten": "Đến tận nơi",
+  "viec": "Tham gia một chuyến thăm doanh nghiệp hội viên",
+  "xacNhan": "Quét mã QR tại doanh nghiệp",
+  "von": {
+   "XH": 4,
+   "TT": 2
+  },
+  "diem": 300,
+  "gioiHan": "Không giới hạn",
+  "muc": "KET_NOI"
+ },
+ {
+  "ma": "NV08",
+  "ten": "Thêm một huynh đệ",
+  "viec": "Mời một doanh nhân mới tham dự và gia nhập Chi hội",
+  "xacNhan": "Ban Hội viên xác nhận khi kết nạp",
+  "von": {
+   "XH": 10
+  },
+  "diem": 800,
+  "gioiHan": "Không giới hạn",
+  "muc": "DAN_THAN"
+ },
+ {
+  "ma": "NV09",
+  "ten": "Hồ sơ đẹp, dễ tìm",
+  "viec": "Hoàn thiện hồ sơ doanh nghiệp và đăng ít nhất một nhu cầu trên Chợ nhu cầu",
+  "xacNhan": "Tự động khi hồ sơ được duyệt",
+  "von": {
+   "TS": 3
+  },
+  "diem": 200,
+  "gioiHan": "Một lần",
+  "muc": "GIAO_THUONG"
+ },
+ {
+  "ma": "NV10",
+  "ten": "Một món quà cho cộng đồng",
+  "viec": "Đóng góp một trong bốn món quà: một kinh nghiệm, một nguồn lực, một cơ hội hoặc nhận một việc chung",
+  "xacNhan": "Ban Điều hành xác nhận",
+  "von": {
+   "XH": 5
+  },
+  "diem": 400,
+  "gioiHan": "Tối đa 2 lần/tháng",
+  "muc": "DAN_THAN"
+ },
+ {
+  "ma": "NV11",
+  "ten": "Chung tay cộng đồng",
+  "viec": "Tham gia một hoạt động cộng đồng của Chi hội (Nhịp Cầu Doanh Nhân, thư viện, trao quà…)",
+  "xacNhan": "Ban Tổ chức điểm danh",
+  "von": {
+   "XH": 5,
+   "CN": 2
+  },
+  "diem": 400,
+  "gioiHan": "Không giới hạn",
+  "muc": "DAN_THAN"
+ },
+ {
+  "ma": "NV12",
+  "ten": "Vào Ban Tổ chức",
+  "viec": "Tham gia Ban Tổ chức của một chương trình và nhận một đầu việc có tên mình",
+  "xacNhan": "Trưởng Ban Tổ chức xác nhận sau chương trình",
+  "von": {
+   "XH": 6,
+   "CN": 4
+  },
+  "diem": 800,
+  "gioiHan": "Không giới hạn",
+  "muc": "DAN_THAN"
+ },
+ {
+  "ma": "NV13",
+  "ten": "Dùng hàng hội viên",
+  "viec": "Khi doanh nghiệp có nhu cầu, ủng hộ một sản phẩm hoặc dịch vụ của doanh nghiệp hội viên",
+  "xacNhan": "Hội viên bán xác nhận giao dịch trên web",
+  "von": {
+   "TS": 6,
+   "XH": 2
+  },
+  "diem": 500,
+  "gioiHan": "Tối đa 5 lần/tháng",
+  "muc": "GIAO_THUONG"
+ },
+ {
+  "ma": "NV14",
+  "ten": "Lan tỏa sản phẩm hội viên",
+  "viec": "Giới thiệu sản phẩm, dịch vụ của một hội viên đến khách hàng hoặc đối tác bên ngoài",
+  "xacNhan": "Hội viên được giới thiệu xác nhận đã nhận được khách",
+  "von": {
+   "XH": 5,
+   "TS": 3
+  },
+  "diem": 500,
+  "gioiHan": "Tối đa 5 lần/tháng",
+  "muc": "GIAO_THUONG"
+ },
+ {
+  "ma": "NV15",
+  "ten": "Tiếng nói trên fanpage",
+  "viec": "Viết một bình luận có nội dung (không chỉ biểu tượng) dưới bài của fanpage Chi hội hoặc chia sẻ bài kèm cảm nhận",
+  "xacNhan": "Gửi ảnh chụp màn hình, Ban Truyền thông duyệt",
+  "von": {
+   "XH": 2
+  },
+  "diem": 100,
+  "gioiHan": "Tối đa 3 lần/tuần",
+  "muc": "GAN_KET"
+ },
+ {
+  "ma": "NV16",
+  "ten": "Lời chúc sinh nhật",
+  "viec": "Gửi lời chúc sinh nhật tới hội viên có sinh nhật trong ngày ở nhóm Zalo của Chi hội",
+  "xacNhan": "Tự xác nhận trong game (hệ thống kiểm tra đúng ngày sinh nhật của hội viên đó)",
+  "von": {
+   "XH": 1
+  },
+  "diem": 50,
+  "gioiHan": "Tối đa 1 lần/ngày",
+  "muc": "GAN_KET"
+ }
+]

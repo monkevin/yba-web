@@ -1,0 +1,701 @@
+{
+  "chuDe": "marketing-ban-hang",
+  "ten": "Marketing, bán hàng & thương hiệu",
+  "bo": [
+    {
+      "ma": "marketing-ban-hang-01",
+      "ten": "Marketing mix 4P và 7P",
+      "moTa": "Sản phẩm, giá, phân phối, xúc tiến và ba chữ P mở rộng dành cho doanh nghiệp dịch vụ.",
+      "cau": [
+        {
+          "hoi": "Mô hình marketing mix 4P gồm những thành tố nào?",
+          "phuongAn": ["Sản phẩm, Giá, Phân phối, Xúc tiến", "Sản phẩm, Giá, Con người, Quy trình", "Giá, Phân phối, Đối tác, Lợi nhuận", "Sản phẩm, Khách hàng, Giá, Quảng cáo"],
+          "dung": 0,
+          "giai": "4P gồm Product (sản phẩm), Price (giá), Place (phân phối) và Promotion (xúc tiến), do E. Jerome McCarthy đề xuất năm 1960."
+        },
+        {
+          "hoi": "Mô hình 7P bổ sung ba thành tố nào vào 4P, thường áp dụng cho ngành dịch vụ?",
+          "phuongAn": ["Đối tác, Chính sách, Lợi nhuận", "Thương hiệu, Bao bì, Quảng cáo", "Con người, Quy trình, Bằng chứng hữu hình", "Khách hàng, Chi phí, Sự tiện lợi"],
+          "dung": 2,
+          "giai": "Booms và Bitner (1981) bổ sung People, Process, Physical evidence để phản ánh đặc thù dịch vụ: vô hình và gắn liền với người cung cấp."
+        },
+        {
+          "hoi": "Việc chọn bán qua cửa hàng, đại lý hay sàn thương mại điện tử thuộc chữ P nào?",
+          "phuongAn": ["Sản phẩm (Product)", "Phân phối (Place)", "Xúc tiến (Promotion)", "Quy trình (Process)"],
+          "dung": 1,
+          "giai": "Place là cách đưa sản phẩm đến tay khách: kênh phân phối, điểm bán, kho vận và độ phủ thị trường."
+        },
+        {
+          "hoi": "Quảng cáo, quan hệ công chúng và khuyến mãi được xếp vào chữ P nào trong marketing mix?",
+          "phuongAn": ["Giá (Price)", "Phân phối (Place)", "Con người (People)", "Xúc tiến (Promotion)"],
+          "dung": 3,
+          "giai": "Promotion gồm các hoạt động truyền thông: quảng cáo, PR, khuyến mãi, bán hàng cá nhân và marketing trực tiếp."
+        },
+        {
+          "hoi": "Không gian cửa hàng, nội thất, bảng hiệu và hoá đơn thuộc thành tố nào trong 7P?",
+          "phuongAn": ["Bằng chứng hữu hình", "Con người", "Quy trình", "Xúc tiến"],
+          "dung": 0,
+          "giai": "Bằng chứng hữu hình là những yếu tố khách nhìn thấy, chạm được, giúp họ đánh giá một dịch vụ vốn vô hình."
+        },
+        {
+          "hoi": "Một spa chuẩn hoá các bước đón khách, tư vấn, thực hiện và hẹn lịch lại. Doanh nghiệp đang cải tiến chữ P nào?",
+          "phuongAn": ["Con người (People)", "Quy trình (Process)", "Sản phẩm (Product)", "Phân phối (Place)"],
+          "dung": 1,
+          "giai": "Process là trình tự và cách thức cung cấp dịch vụ. Chuẩn hoá quy trình giúp chất lượng ổn định giữa các lần phục vụ."
+        },
+        {
+          "hoi": "Vì sao chữ P 'Con người' đặc biệt quan trọng trong ngành dịch vụ?",
+          "phuongAn": ["Vì nhân sự quyết định giá bán", "Vì nhân sự thay thế hoàn toàn quảng cáo", "Vì dịch vụ được tạo ra và tiêu dùng cùng lúc", "Vì chi phí nhân sự luôn lớn nhất"],
+          "dung": 2,
+          "giai": "Dịch vụ không tách rời người cung cấp. Nhân viên tiếp xúc trực tiếp nên thái độ, kỹ năng của họ chính là chất lượng khách cảm nhận."
+        },
+        {
+          "hoi": "Sản phẩm định vị cao cấp, chất lượng tốt, giữ giá cao, nhưng lại bày bán tràn lan ở các sạp hàng bình dân. Vấn đề chính nằm ở đâu?",
+          "phuongAn": ["Sản phẩm thiếu tính năng mới", "Quảng cáo chưa đủ tần suất", "Giá bán chưa đủ cao so với đối thủ", "Kênh phân phối không khớp định vị"],
+          "dung": 3,
+          "giai": "Các chữ P phải nhất quán với nhau. Sản phẩm và giá đã theo hướng cao cấp, nhưng kênh bán bình dân, tràn lan làm xói mòn hình ảnh cao cấp."
+        },
+        {
+          "hoi": "Mô hình 4C nhìn marketing mix từ phía khách hàng. Chữ C tương ứng với 'Place' là gì?",
+          "phuongAn": ["Tiện lợi (Convenience)", "Chi phí (Cost)", "Giao tiếp (Communication)", "Nhu cầu khách hàng (Consumer)"],
+          "dung": 0,
+          "giai": "Theo Lauterborn (1990): Product ứng với nhu cầu khách, Price với chi phí, Place với sự tiện lợi, Promotion với giao tiếp hai chiều."
+        },
+        {
+          "hoi": "Theo tư duy 4C, 'Chi phí' (Cost) khác 'Giá' (Price) ở điểm nào?",
+          "phuongAn": ["Chi phí chỉ tính giá vốn của doanh nghiệp", "Chi phí gồm cả thời gian, công sức khách bỏ ra", "Chi phí là giá sau khi trừ chiết khấu", "Chi phí là giá bán đã cộng thuế"],
+          "dung": 1,
+          "giai": "Cost là tổng những gì khách bỏ ra để có sản phẩm: tiền, thời gian đi lại, công sức tìm hiểu, rủi ro chuyển đổi — không chỉ giá niêm yết."
+        }
+      ]
+    },
+    {
+      "ma": "marketing-ban-hang-02",
+      "ten": "Phân khúc, thị trường mục tiêu và định vị",
+      "moTa": "Chia thị trường, chọn nhóm khách mục tiêu và tạo vị trí khác biệt trong tâm trí khách hàng.",
+      "cau": [
+        {
+          "hoi": "Ba chữ trong mô hình STP là viết tắt của những bước nào?",
+          "phuongAn": ["Chiến lược, Thử nghiệm, Phát triển", "Bán hàng, Đào tạo, Theo dõi hiệu quả", "Phân khúc, Chọn thị trường mục tiêu, Định vị", "Khảo sát, Thương lượng, Phân phối"],
+          "dung": 2,
+          "giai": "STP gồm Segmentation (phân khúc), Targeting (chọn thị trường mục tiêu) và Positioning (định vị)."
+        },
+        {
+          "hoi": "Chia khách hàng theo độ tuổi, giới tính, thu nhập là phân khúc theo tiêu chí nào?",
+          "phuongAn": ["Địa lý", "Nhân khẩu học", "Tâm lý", "Hành vi"],
+          "dung": 1,
+          "giai": "Phân khúc nhân khẩu học dùng các đặc điểm như tuổi, giới tính, thu nhập, nghề nghiệp, học vấn, quy mô gia đình."
+        },
+        {
+          "hoi": "Chia khách theo tần suất mua, mức độ trung thành, lợi ích tìm kiếm là phân khúc theo tiêu chí nào?",
+          "phuongAn": ["Nhân khẩu học", "Địa lý", "Hành vi", "Tâm lý"],
+          "dung": 2,
+          "giai": "Phân khúc hành vi dựa trên cách khách tương tác với sản phẩm: dịp mua, lợi ích tìm kiếm, tần suất sử dụng, mức trung thành."
+        },
+        {
+          "hoi": "Định vị (positioning) nhằm mục tiêu chính nào?",
+          "phuongAn": ["Chọn địa điểm đặt cửa hàng thuận lợi", "Xếp hạng doanh nghiệp theo doanh thu", "Đặt giá thấp nhất so với thị trường", "Tạo vị trí khác biệt trong tâm trí khách"],
+          "dung": 3,
+          "giai": "Theo Ries và Trout, định vị là chiếm một vị trí rõ ràng, khác biệt trong tâm trí khách hàng mục tiêu so với đối thủ."
+        },
+        {
+          "hoi": "Phân khúc theo lối sống, giá trị sống, tính cách thuộc nhóm tiêu chí nào?",
+          "phuongAn": ["Tâm lý", "Hành vi", "Nhân khẩu học", "Địa lý"],
+          "dung": 0,
+          "giai": "Phân khúc tâm lý dựa trên lối sống, giá trị, thái độ, tính cách — những yếu tố không thấy được qua số liệu nhân khẩu học."
+        },
+        {
+          "hoi": "Theo Philip Kotler, một phân khúc thị trường hiệu quả cần đạt yêu cầu nào dưới đây?",
+          "phuongAn": ["Có thật nhiều đối thủ đang cạnh tranh", "Gồm mọi khách hàng trong khu vực", "Đo lường được và đủ lớn để sinh lời", "Có mức giá bán cao nhất thị trường"],
+          "dung": 2,
+          "giai": "Kotler nêu 5 yêu cầu: đo lường được, đủ lớn, tiếp cận được, khác biệt được và có thể triển khai chương trình marketing được."
+        },
+        {
+          "hoi": "Một công ty chỉ tập trung làm phần mềm quản lý cho các phòng khám nha khoa. Đây là chiến lược chọn thị trường nào?",
+          "phuongAn": ["Marketing đại trà không phân biệt", "Marketing tập trung vào thị trường ngách", "Marketing khác biệt nhiều phân khúc", "Marketing cá nhân hoá từng khách"],
+          "dung": 1,
+          "giai": "Marketing tập trung (niche) dồn nguồn lực vào một phân khúc hẹp, phù hợp doanh nghiệp nhỏ muốn trở thành lựa chọn số một ở đó."
+        },
+        {
+          "hoi": "Một tuyên bố định vị tốt cần trả lời rõ điều gì?",
+          "phuongAn": ["Khách mục tiêu, nhu cầu và điểm khác biệt vượt trội", "Doanh thu, lợi nhuận và thị phần kỳ vọng", "Số nhân viên, chi nhánh và năm thành lập", "Ngân sách quảng cáo từng kênh mỗi tháng"],
+          "dung": 0,
+          "giai": "Tuyên bố định vị chuẩn nêu: dành cho ai, giải quyết nhu cầu gì, thuộc nhóm sản phẩm nào và vì sao tốt hơn lựa chọn khác."
+        },
+        {
+          "hoi": "Doanh nghiệp nhỏ muốn phục vụ 'mọi khách hàng' bằng một thông điệp chung. Rủi ro lớn nhất theo tư duy STP là gì?",
+          "phuongAn": ["Chi phí in ấn tài liệu tăng cao", "Thị phần tăng quá nhanh, khó kiểm soát", "Bị pháp luật cạnh tranh hạn chế", "Thông điệp mờ nhạt, không nhóm nào thấy hợp"],
+          "dung": 3,
+          "giai": "Nguồn lực nhỏ mà dàn trải cho mọi người khiến thông điệp chung chung, không tạo khác biệt. STP giúp tập trung vào nhóm có lợi thế nhất."
+        },
+        {
+          "hoi": "Bản đồ định vị cho thấy một khoảng trống chưa đối thủ nào chiếm. Việc nên làm trước tiên là gì?",
+          "phuongAn": ["Kiểm chứng khoảng trống đó có đủ nhu cầu thật", "Tung sản phẩm ngay để chiếm vị trí đầu tiên", "Hạ giá thấp hơn mọi đối thủ hiện có", "Sao chép sản phẩm của đối thủ mạnh nhất"],
+          "dung": 0,
+          "giai": "Khoảng trống có thể tồn tại vì không có khách cần. Phải xác nhận quy mô nhu cầu và khả năng sinh lời trước khi đầu tư định vị vào đó."
+        }
+      ]
+    },
+    {
+      "ma": "marketing-ban-hang-03",
+      "ten": "Hành trình khách hàng và phễu AIDA",
+      "moTa": "Các giai đoạn khách đi từ biết đến mua, và cách tối ưu từng tầng của phễu bán hàng.",
+      "cau": [
+        {
+          "hoi": "Mô hình AIDA gồm các giai đoạn theo thứ tự nào?",
+          "phuongAn": ["Quan tâm, Chú ý, Hành động, Mong muốn", "Chú ý, Mong muốn, Quan tâm, Hành động", "Chú ý, Quan tâm, Mong muốn, Hành động", "Hành động, Quan tâm, Chú ý, Mong muốn"],
+          "dung": 2,
+          "giai": "AIDA: Attention (chú ý), Interest (quan tâm), Desire (mong muốn), Action (hành động) — tiến trình tâm lý của khách trước khi mua."
+        },
+        {
+          "hoi": "Vì sao quá trình bán hàng thường được mô tả bằng hình 'phễu'?",
+          "phuongAn": ["Số khách tăng dần ở các bước cuối", "Mọi khách đều đi hết các bước", "Chi phí giảm dần về bằng không", "Số khách giảm dần qua từng giai đoạn"],
+          "dung": 3,
+          "giai": "Nhiều người biết đến, ít hơn quan tâm, ít hơn nữa mua. Hình phễu thể hiện sự sàng lọc tự nhiên qua mỗi tầng."
+        },
+        {
+          "hoi": "Bài viết chia sẻ kiến thức giúp nhiều người lần đầu biết đến thương hiệu phục vụ chủ yếu tầng nào của phễu?",
+          "phuongAn": ["Chốt đơn (cuối phễu)", "Nhận biết (đầu phễu)", "Mua lặp lại (sau bán)", "Giới thiệu (sau bán)"],
+          "dung": 1,
+          "giai": "Nội dung giáo dục, chia sẻ kiến thức thu hút người chưa biết thương hiệu, phục vụ tầng nhận biết ở đầu phễu."
+        },
+        {
+          "hoi": "Nút 'Đặt lịch ngay' ở cuối trang bán hàng nhằm thúc đẩy giai đoạn nào của AIDA?",
+          "phuongAn": ["Chú ý", "Quan tâm", "Mong muốn", "Hành động"],
+          "dung": 3,
+          "giai": "Lời kêu gọi hành động (CTA) như 'Đặt lịch ngay' giúp chuyển mong muốn thành hành động cụ thể — chữ A cuối cùng."
+        },
+        {
+          "hoi": "Điểm chạm (touchpoint) trong hành trình khách hàng là gì?",
+          "phuongAn": ["Mọi lần khách tiếp xúc với thương hiệu", "Chỉ lần khách thanh toán tại quầy", "Vị trí đặt biển quảng cáo ngoài trời", "Số lần nhân viên gọi điện cho khách"],
+          "dung": 0,
+          "giai": "Điểm chạm là bất kỳ lúc nào khách tiếp xúc thương hiệu: thấy quảng cáo, đọc đánh giá, gọi tổng đài, nhận hàng, được chăm sóc sau bán."
+        },
+        {
+          "hoi": "Khái niệm 'Khoảnh khắc sự thật số 0' (ZMOT) do Google đưa ra chỉ thời điểm nào trong hành trình khách hàng?",
+          "phuongAn": [
+            "Khi khách nhìn thấy sản phẩm trên kệ hàng",
+            "Khi khách tìm hiểu, đọc đánh giá trên mạng trước khi mua",
+            "Khi khách dùng sản phẩm lần đầu tiên",
+            "Khi khách giới thiệu sản phẩm cho bạn bè"
+          ],
+          "dung": 1,
+          "giai": "Khoảnh khắc thứ nhất là lúc khách thấy sản phẩm trên kệ, thứ hai là lúc dùng. Google bổ sung ZMOT: khách tìm kiếm, xem đánh giá trực tuyến trước khi ra quyết định."
+        },
+        {
+          "hoi": "Khách đã quan tâm nhưng còn phân vân. Nội dung nào phù hợp nhất ở giai đoạn giữa phễu này?",
+          "phuongAn": ["Quảng cáo nhận diện rộng cho người lạ", "Thông báo tuyển dụng nhân sự mới", "Câu chuyện khách hàng thật và bảng so sánh", "Thư cảm ơn gửi sau khi đã mua hàng"],
+          "dung": 2,
+          "giai": "Giữa phễu khách cần bằng chứng để tin: tình huống thực tế, đánh giá, so sánh giải pháp giúp họ chuyển từ quan tâm sang mong muốn."
+        },
+        {
+          "hoi": "Quảng cáo bám đuổi (remarketing) chủ yếu nhắm tới nhóm người nào trong hành trình khách hàng?",
+          "phuongAn": [
+            "Người đã ghé trang, tương tác nhưng chưa mua",
+            "Người chưa từng biết đến thương hiệu",
+            "Khách đã yêu cầu ngừng nhận mọi liên lạc",
+            "Nhân viên và đối tác của doanh nghiệp"
+          ],
+          "dung": 0,
+          "giai": "Remarketing hiển thị lại quảng cáo cho người đã xem sản phẩm hay từng tương tác, nhắc họ quay lại hoàn tất quyết định; nhóm này thường chuyển đổi tốt hơn người lạ."
+        },
+        {
+          "hoi": "Trang bán hàng có 5% người truy cập để lại liên hệ, 20% số liên hệ thành đơn. Muốn có 40 đơn thì cần khoảng bao nhiêu lượt truy cập?",
+          "phuongAn": ["2.000 lượt", "4.000 lượt", "800 lượt", "8.000 lượt"],
+          "dung": 1,
+          "giai": "Cần 40 / 20% = 200 liên hệ, rồi 200 / 5% = 4.000 lượt truy cập. Tỷ lệ chung của cả phễu là 5% × 20% = 1%."
+        },
+        {
+          "hoi": "Mô hình hành trình 5A của Philip Kotler (Marketing 4.0) kết thúc bằng giai đoạn nào?",
+          "phuongAn": ["Hành động (Act)", "Hỏi thông tin (Ask)", "Ủng hộ (Advocate)", "Thu hút (Appeal)"],
+          "dung": 2,
+          "giai": "5A gồm Aware, Appeal, Ask, Act, Advocate. Khách hài lòng trở thành người ủng hộ, chủ động giới thiệu thương hiệu cho người khác."
+        }
+      ]
+    },
+    {
+      "ma": "marketing-ban-hang-04",
+      "ten": "Chỉ số marketing: CAC, LTV, CTR, ROAS, NPS",
+      "moTa": "Đọc đúng và tính nhanh các chỉ số đo hiệu quả marketing, giữ chân và sinh lời từ khách hàng.",
+      "cau": [
+        {
+          "hoi": "CAC (Customer Acquisition Cost) là chỉ số đo điều gì?",
+          "phuongAn": ["Chi phí để có một khách hàng mới", "Tỷ lệ khách hàng quay lại mua", "Doanh thu trung bình mỗi đơn hàng", "Chi phí vận hành mỗi cửa hàng"],
+          "dung": 0,
+          "giai": "CAC = tổng chi phí marketing và bán hàng trong kỳ chia cho số khách hàng mới có được trong kỳ đó."
+        },
+        {
+          "hoi": "CTR (Click-Through Rate) đo lường điều gì?",
+          "phuongAn": ["Tỷ lệ người mua trên người xem", "Tỷ lệ nhấp chuột trên số lần hiển thị", "Chi phí cho mỗi lần nhấp chuột", "Số lần quảng cáo được chia sẻ"],
+          "dung": 1,
+          "giai": "CTR = số lượt nhấp / số lần hiển thị × 100%. Ví dụ 10.000 lần hiển thị có 150 lượt nhấp thì CTR là 1,5%."
+        },
+        {
+          "hoi": "NPS (Net Promoter Score) dựa trên câu hỏi cốt lõi nào?",
+          "phuongAn": ["Bạn đã mua hàng của chúng tôi mấy lần?", "Bạn chi bao nhiêu tiền mỗi tháng?", "Bạn sẵn lòng giới thiệu chúng tôi đến mức nào?", "Bạn biết đến chúng tôi qua kênh nào?"],
+          "dung": 2,
+          "giai": "NPS hỏi khách chấm 0–10 mức sẵn lòng giới thiệu cho bạn bè, đồng nghiệp. Fred Reichheld giới thiệu chỉ số này năm 2003."
+        },
+        {
+          "hoi": "Chỉ số ROAS của một chiến dịch bằng 4 có nghĩa là gì?",
+          "phuongAn": ["Mỗi 1 đồng quảng cáo mang về 4 đồng lợi nhuận", "Quảng cáo đạt tỷ lệ nhấp 4% trên lượt hiển thị", "Cần 4 lượt nhấp để có một đơn hàng", "Mỗi 1 đồng quảng cáo mang về 4 đồng doanh thu"],
+          "dung": 3,
+          "giai": "ROAS = doanh thu từ quảng cáo / chi phí quảng cáo. ROAS 4 là doanh thu, chưa phải lợi nhuận; còn phải trừ giá vốn và chi phí khác."
+        },
+        {
+          "hoi": "Trong NPS, nhóm khách chấm 9–10 điểm được gọi là gì?",
+          "phuongAn": ["Người ủng hộ (Promoters)", "Người trung lập (Passives)", "Người phản đối (Detractors)", "Người trung thành (Loyalists)"],
+          "dung": 0,
+          "giai": "9–10 điểm là Promoters, 7–8 là Passives, 0–6 là Detractors. NPS = % Promoters − % Detractors, dao động từ −100 đến +100."
+        },
+        {
+          "hoi": "Khảo sát 100 khách: 50 người chấm 9–10, 30 người chấm 7–8, 20 người chấm 0–6. NPS là bao nhiêu?",
+          "phuongAn": ["50", "30", "80", "70"],
+          "dung": 1,
+          "giai": "NPS = % Promoters − % Detractors = 50% − 20% = 30. Nhóm trung lập 7–8 điểm không được tính vào công thức."
+        },
+        {
+          "hoi": "Tháng này chi 50 triệu đồng cho marketing và bán hàng, có 25 khách hàng mới. CAC là bao nhiêu?",
+          "phuongAn": ["25 triệu đồng", "0,5 triệu đồng", "1,25 triệu đồng", "2 triệu đồng"],
+          "dung": 3,
+          "giai": "CAC = 50 triệu đồng / 25 khách mới = 2 triệu đồng cho mỗi khách hàng mới."
+        },
+        {
+          "hoi": "Đầu tháng có 200 khách thuê bao, trong tháng có 10 khách huỷ. Tỷ lệ rời bỏ (churn) của tháng là bao nhiêu?",
+          "phuongAn": ["10%", "2%", "5%", "20%"],
+          "dung": 2,
+          "giai": "Tỷ lệ rời bỏ = số khách rời đi / số khách đầu kỳ = 10 / 200 = 5%."
+        },
+        {
+          "hoi": "Theo kinh nghiệm phổ biến ở mô hình kinh doanh thuê bao, tỷ lệ LTV/CAC khoảng bao nhiêu được xem là lành mạnh?",
+          "phuongAn": ["Khoảng 3:1", "Khoảng 1:1", "Khoảng 1:3", "Khoảng 0,5:1"],
+          "dung": 0,
+          "giai": "LTV gấp khoảng 3 lần CAC là ngưỡng tham khảo phổ biến. Dưới 1:1 nghĩa là mỗi khách mới đang làm doanh nghiệp lỗ."
+        },
+        {
+          "hoi": "Đơn trung bình 1 triệu đồng, biên lợi nhuận gộp 40%, khách mua 5 lần trong vòng đời. LTV tính theo lợi nhuận gộp là bao nhiêu?",
+          "phuongAn": ["5 triệu đồng", "2 triệu đồng", "0,4 triệu đồng", "3 triệu đồng"],
+          "dung": 1,
+          "giai": "LTV theo lợi nhuận gộp = 1 triệu × 40% × 5 lần = 2 triệu đồng. Khi so với CAC nên dùng LTV tính theo lợi nhuận, không theo doanh thu."
+        }
+      ]
+    },
+    {
+      "ma": "marketing-ban-hang-05",
+      "ten": "Xây dựng thương hiệu",
+      "moTa": "Tài sản thương hiệu, bộ nhận diện, lời hứa thương hiệu và cách giữ hình ảnh nhất quán.",
+      "cau": [
+        {
+          "hoi": "Vì sao trong quản trị hiện đại, người ta nói thương hiệu không chỉ là logo và tên gọi?",
+          "phuongAn": ["Vì thương hiệu phải gồm cả giấy phép kinh doanh", "Vì thương hiệu còn là cảm nhận, niềm tin của khách", "Vì thương hiệu chỉ có khi đã được xếp hạng", "Vì thương hiệu được đo bằng số vốn điều lệ"],
+          "dung": 1,
+          "giai": "Logo, tên, màu sắc là bộ nhận diện giúp khách nhận ra doanh nghiệp. Giá trị thương hiệu nằm ở những gì khách nghĩ, cảm nhận và tin tưởng qua mọi trải nghiệm."
+        },
+        {
+          "hoi": "Bộ nhận diện thương hiệu (brand identity) thường bao gồm những gì?",
+          "phuongAn": ["Logo, màu sắc, phông chữ, phong cách hình ảnh", "Báo cáo tài chính và kế hoạch kinh doanh", "Danh sách khách hàng và nhà cung cấp", "Nội quy lao động và quy chế lương"],
+          "dung": 0,
+          "giai": "Bộ nhận diện gồm các yếu tố thị giác và ngôn từ: logo, bảng màu, phông chữ, hình ảnh, giọng văn — giúp khách nhận ra thương hiệu."
+        },
+        {
+          "hoi": "Theo Luật Sở hữu trí tuệ 2005 (đã sửa đổi), quyền đối với nhãn hiệu thông thường được xác lập bằng cách nào?",
+          "phuongAn": ["Được cấp văn bằng bảo hộ qua thủ tục đăng ký", "Sử dụng nhãn hiệu trước trên thị trường", "Đăng ký tên miền website trùng tên", "Ghi tên trong giấy đăng ký doanh nghiệp"],
+          "dung": 0,
+          "giai": "Việt Nam áp dụng nguyên tắc nộp đơn đầu tiên: quyền với nhãn hiệu (trừ nhãn hiệu nổi tiếng) xác lập khi được cấp văn bằng bảo hộ."
+        },
+        {
+          "hoi": "Vì sao doanh nghiệp cần dùng logo, màu sắc, giọng văn nhất quán trên mọi kênh?",
+          "phuongAn": ["Để được giảm chi phí in ấn hằng năm", "Để không cần chạy quảng cáo nữa", "Để đối thủ không thể sao chép được", "Để khách dễ nhận ra và ghi nhớ thương hiệu"],
+          "dung": 3,
+          "giai": "Sự nhất quán tạo trí nhớ: khách càng gặp cùng một hình ảnh, giọng điệu thì càng nhận ra nhanh và tin tưởng thương hiệu hơn."
+        },
+        {
+          "hoi": "Thành phần nào thuộc mô hình tài sản thương hiệu (brand equity) của David Aaker?",
+          "phuongAn": ["Doanh thu thuần hằng năm", "Chất lượng cảm nhận", "Tỷ suất lợi nhuận gộp", "Quy mô vốn điều lệ"],
+          "dung": 1,
+          "giai": "Aaker (1991) nêu các thành phần: nhận biết thương hiệu, chất lượng cảm nhận, liên tưởng thương hiệu, lòng trung thành và tài sản độc quyền khác."
+        },
+        {
+          "hoi": "Lời hứa thương hiệu (brand promise) được giữ vững hiệu quả nhất khi nào?",
+          "phuongAn": ["Khi quảng cáo được lặp lại thật nhiều", "Khi slogan được làm mới hằng năm", "Khi trải nghiệm thực tế luôn đúng như cam kết", "Khi giá bán luôn thấp hơn đối thủ"],
+          "dung": 2,
+          "giai": "Thương hiệu được xây bằng việc giữ lời hứa lặp đi lặp lại. Quảng cáo hứa hay mà trải nghiệm không khớp sẽ phá huỷ niềm tin rất nhanh."
+        },
+        {
+          "hoi": "Doanh nghiệp tung sản phẩm ở một ngành hàng mới và dùng luôn tên thương hiệu đã nổi tiếng của mình. Đây là chiến lược gì?",
+          "phuongAn": ["Tái định vị thương hiệu", "Nhượng quyền thương mại", "Đặt thương hiệu riêng cho từng sản phẩm", "Mở rộng thương hiệu (brand extension)"],
+          "dung": 3,
+          "giai": "Mở rộng thương hiệu tận dụng uy tín sẵn có để giảm chi phí giới thiệu, nhưng có rủi ro làm loãng hình ảnh nếu ngành mới không phù hợp."
+        },
+        {
+          "hoi": "Tính cách thương hiệu (brand personality) được hiểu là gì?",
+          "phuongAn": ["Những đặc điểm như con người gắn với thương hiệu", "Tính cách riêng của người sáng lập", "Nội quy ứng xử dành cho nhân viên", "Phong cách thiết kế văn phòng công ty"],
+          "dung": 0,
+          "giai": "Jennifer Aaker (1997) mô tả 5 nhóm tính cách: chân thành, sôi nổi, năng lực, tinh tế, mạnh mẽ — giúp khách gắn bó về cảm xúc."
+        },
+        {
+          "hoi": "Trong kim tự tháp tài sản thương hiệu dựa trên khách hàng (CBBE) của Kevin Keller, tầng cao nhất là gì?",
+          "phuongAn": ["Nổi bật (Salience)", "Cảm nhận (Feelings)", "Cộng hưởng (Resonance)", "Hình ảnh (Imagery)"],
+          "dung": 2,
+          "giai": "Keller xếp các tầng: nổi bật → hiệu năng và hình ảnh → đánh giá và cảm nhận → cộng hưởng, nơi khách gắn bó, trung thành và chủ động ủng hộ."
+        },
+        {
+          "hoi": "Trong đo lường nhận biết thương hiệu, thương hiệu 'top of mind' là thương hiệu như thế nào?",
+          "phuongAn": [
+            "Có giá bán cao nhất trong ngành hàng",
+            "Được khách nhắc tới đầu tiên khi nghĩ về ngành hàng",
+            "Có nhiều lượt theo dõi trên mạng xã hội nhất",
+            "Được đăng ký bảo hộ nhãn hiệu sớm nhất"
+          ],
+          "dung": 1,
+          "giai": "Top of mind là thương hiệu khách tự nhớ ra đầu tiên khi không có gợi ý – mức nhận biết cao nhất; thương hiệu ở vị trí này thường được ưu tiên cân nhắc khi mua."
+        }
+      ]
+    },
+    {
+      "ma": "marketing-ban-hang-06",
+      "ten": "Marketing số: SEO, SEM, nội dung, email",
+      "moTa": "Kiến thức nền về tìm kiếm tự nhiên, quảng cáo tìm kiếm, marketing nội dung và email marketing.",
+      "cau": [
+        {
+          "hoi": "SEO (Search Engine Optimization) là hoạt động nhằm mục tiêu nào?",
+          "phuongAn": ["Tăng thứ hạng tự nhiên trên kết quả tìm kiếm", "Mua vị trí quảng cáo trên công cụ tìm kiếm", "Gửi thư hàng loạt đến khách hàng", "Tăng lượt theo dõi trang mạng xã hội"],
+          "dung": 0,
+          "giai": "SEO tối ưu website để xuất hiện ở kết quả tìm kiếm tự nhiên, không phải trả tiền cho mỗi lượt nhấp."
+        },
+        {
+          "hoi": "Khác biệt cơ bản giữa SEO và quảng cáo tìm kiếm trả tiền theo lượt nhấp (PPC) là gì?",
+          "phuongAn": ["SEO chỉ áp dụng được cho mạng xã hội", "PPC luôn rẻ hơn SEO khi tính lâu dài", "SEO không trả tiền theo lượt nhấp, PPC có", "PPC không thể hiển thị trên Google"],
+          "dung": 2,
+          "giai": "PPC trả tiền mỗi lượt nhấp, có kết quả nhanh nhưng dừng chi là dừng hiển thị; SEO cần thời gian nhưng lượng truy cập tự nhiên bền hơn."
+        },
+        {
+          "hoi": "Trong email marketing, 'tỷ lệ mở' (open rate) cho biết điều gì?",
+          "phuongAn": ["Tỷ lệ thư bị trả về do sai địa chỉ", "Tỷ lệ người bấm huỷ nhận thư", "Tỷ lệ người mua hàng sau khi đọc thư", "Tỷ lệ người mở thư trên số thư gửi thành công"],
+          "dung": 3,
+          "giai": "Tỷ lệ mở = số thư được mở / số thư gửi thành công, phản ánh sức hút của tên người gửi và tiêu đề. Lưu ý: tính năng bảo vệ quyền riêng tư của một số ứng dụng thư có thể làm số này cao hơn thực tế."
+        },
+        {
+          "hoi": "Từ khoá 'đuôi dài' (long-tail keyword) có đặc điểm gì?",
+          "phuongAn": ["Ngắn gọn, lượng tìm kiếm rất lớn", "Cụ thể, ít cạnh tranh, ý định mua rõ hơn", "Chỉ gồm tên thương hiệu doanh nghiệp", "Bắt buộc phải viết bằng tiếng Anh"],
+          "dung": 1,
+          "giai": "Ví dụ 'dịch vụ kế toán trọn gói cho doanh nghiệp nhỏ' so với 'kế toán': ít lượt tìm hơn nhưng người tìm đã biết rõ mình cần gì."
+        },
+        {
+          "hoi": "Marketing nội dung (content marketing) chủ yếu tạo giá trị bằng cách nào?",
+          "phuongAn": ["Đăng thật nhiều bài quảng cáo sản phẩm mỗi ngày", "Cung cấp thông tin hữu ích để thu hút, giữ chân khách", "Mua lượt thích và lượt theo dõi cho trang", "Sao chép bài viết phổ biến từ nơi khác"],
+          "dung": 1,
+          "giai": "Content marketing tạo và phân phối nội dung có giá trị, nhất quán cho khán giả mục tiêu, từ đó xây niềm tin và dẫn đến hành động mua."
+        },
+        {
+          "hoi": "Trong quảng cáo tìm kiếm Google Ads, ngoài giá thầu, yếu tố nào ảnh hưởng lớn đến vị trí quảng cáo?",
+          "phuongAn": ["Chất lượng và mức liên quan của quảng cáo", "Số năm hoạt động của doanh nghiệp", "Số lượt theo dõi trang mạng xã hội", "Quy mô vốn điều lệ của doanh nghiệp"],
+          "dung": 0,
+          "giai": "Thứ hạng quảng cáo dựa trên giá thầu kết hợp chất lượng: tỷ lệ nhấp dự kiến, mức liên quan của quảng cáo và trải nghiệm trang đích."
+        },
+        {
+          "hoi": "Khi gửi email quảng cáo cho danh sách khách hàng, doanh nghiệp cần tuân thủ nguyên tắc nào?",
+          "phuongAn": ["Gửi càng nhiều thư càng tốt để tăng doanh số", "Mua danh sách email để mở rộng tệp khách", "Có sự đồng ý của người nhận và cách huỷ nhận thư", "Ẩn tên người gửi để tăng tỷ lệ mở thư"],
+          "dung": 2,
+          "giai": "Thư quảng cáo cần người nhận đồng ý và luôn có cách từ chối nhận. Dùng danh sách mua lại vừa rủi ro pháp lý về dữ liệu cá nhân vừa dễ bị vào mục Spam."
+        },
+        {
+          "hoi": "Trang đích (landing page) cho một chiến dịch quảng cáo nên được thiết kế thế nào?",
+          "phuongAn": ["Đưa toàn bộ sản phẩm công ty lên cùng một trang", "Dùng trang chủ chung cho mọi chiến dịch", "Gắn nhiều liên kết ra ngoài để khách tự khám phá", "Tập trung một mục tiêu và một lời kêu gọi rõ ràng"],
+          "dung": 3,
+          "giai": "Trang đích hiệu quả khớp với thông điệp quảng cáo, tập trung một mục tiêu, bớt các lối thoát gây xao nhãng để tăng tỷ lệ chuyển đổi."
+        },
+        {
+          "hoi": "Chiến dịch email có tỷ lệ mở cao nhưng tỷ lệ nhấp rất thấp. Nên ưu tiên cải thiện phần nào?",
+          "phuongAn": ["Tiêu đề thư cho hấp dẫn, gây tò mò hơn", "Tên người gửi cho dễ nhận biết hơn", "Giờ gửi thư cho hợp thói quen của khách", "Nội dung và lời kêu gọi hành động trong thư"],
+          "dung": 3,
+          "giai": "Mở nhiều nghĩa là tiêu đề và người gửi đã ổn. Nhấp thấp cho thấy nội dung chưa đủ giá trị hoặc lời kêu gọi hành động chưa rõ, chưa hấp dẫn."
+        },
+        {
+          "hoi": "Theo hướng dẫn đánh giá chất lượng nội dung của Google, bộ tiêu chí E-E-A-T gồm những gì?",
+          "phuongAn": ["Trải nghiệm, Chuyên môn, Thẩm quyền, Đáng tin cậy", "Tương tác, Hiệu quả, Quảng cáo, Lưu lượng", "Tốc độ, Bảo mật, Di động, Liên kết", "Từ khoá, Tiêu đề, Mô tả, Đường dẫn"],
+          "dung": 0,
+          "giai": "E-E-A-T: Experience, Expertise, Authoritativeness, Trustworthiness. Google bổ sung chữ E 'Trải nghiệm' vào cuối năm 2022."
+        }
+      ]
+    },
+    {
+      "ma": "marketing-ban-hang-07",
+      "ten": "Bán hàng B2B và xử lý từ chối",
+      "moTa": "Quy trình bán hàng cho doanh nghiệp, khai thác nhu cầu và cách phản hồi khi khách từ chối.",
+      "cau": [
+        {
+          "hoi": "B2B là mô hình bán hàng giữa những đối tượng nào?",
+          "phuongAn": ["Doanh nghiệp với doanh nghiệp", "Doanh nghiệp với người tiêu dùng", "Người tiêu dùng với người tiêu dùng", "Doanh nghiệp với cơ quan nhà nước"],
+          "dung": 0,
+          "giai": "B2B (Business to Business) là giao dịch giữa các doanh nghiệp; B2C là doanh nghiệp với người tiêu dùng; B2G là với cơ quan nhà nước."
+        },
+        {
+          "hoi": "So với bán lẻ cho cá nhân, bán hàng B2B thường có đặc điểm nào?",
+          "phuongAn": ["Quyết định nhanh, chủ yếu theo cảm xúc", "Chu kỳ bán dài, nhiều người cùng quyết định", "Giá trị mỗi đơn hàng thường nhỏ lẻ", "Luôn chỉ có một người quyết định mua"],
+          "dung": 1,
+          "giai": "Mua hàng B2B thường qua nhiều bộ phận (người dùng, người ảnh hưởng, người duyệt ngân sách), cần so sánh, phê duyệt nên chu kỳ dài hơn."
+        },
+        {
+          "hoi": "Khi khách nói 'Giá bên anh cao quá', bước đầu tiên người bán nên làm là gì?",
+          "phuongAn": ["Giảm giá ngay để giữ chân khách", "Khẳng định giá bên mình là rẻ nhất", "Lắng nghe, hỏi rõ khách đang so sánh với gì", "Chuyển ngay sang chào sản phẩm khác"],
+          "dung": 2,
+          "giai": "Lời từ chối về giá thường che giấu lý do khác. Hỏi để hiểu khách so với phương án nào, ngân sách ra sao rồi mới làm rõ giá trị."
+        },
+        {
+          "hoi": "Trong nhóm mua hàng B2B, 'người ra quyết định' (decision maker) là ai?",
+          "phuongAn": ["Người trực tiếp sử dụng sản phẩm", "Người tiếp nhận hồ sơ báo giá", "Người giới thiệu nhà cung cấp", "Người có quyền phê duyệt mua cuối cùng"],
+          "dung": 3,
+          "giai": "Nhóm mua B2B gồm người dùng, người ảnh hưởng, người gác cổng, người mua và người quyết định — người có quyền phê duyệt cuối cùng."
+        },
+        {
+          "hoi": "Trong phương pháp bán hàng SPIN, câu hỏi 'I' (Implication) nhằm mục đích gì?",
+          "phuongAn": ["Tìm hiểu hiện trạng hoạt động của khách", "Xác định vấn đề khách đang gặp phải", "Làm rõ hệ quả nếu vấn đề không được xử lý", "Để khách tự nói ra lợi ích của giải pháp"],
+          "dung": 2,
+          "giai": "SPIN của Neil Rackham (1988): Situation (hiện trạng), Problem (vấn đề), Implication (hệ quả), Need-payoff (lợi ích khi giải quyết)."
+        },
+        {
+          "hoi": "Khách doanh nghiệp nói 'Để tôi suy nghĩ thêm'. Cách phản hồi nào chuyên nghiệp nhất?",
+          "phuongAn": ["Hỏi khách còn băn khoăn gì, hẹn bước tiếp theo", "Cảm ơn rồi chờ khách tự liên hệ lại", "Gọi nhắc mỗi ngày đến khi khách đồng ý", "Đưa ngay ưu đãi giảm giá để chốt đơn"],
+          "dung": 0,
+          "giai": "'Suy nghĩ thêm' thường có băn khoăn chưa nói ra. Hỏi cụ thể để xử lý và thống nhất mốc liên hệ tiếp theo giúp giữ nhịp thương vụ."
+        },
+        {
+          "hoi": "Kỹ thuật 'Feel – Felt – Found' thường được người bán dùng trong tình huống nào?",
+          "phuongAn": ["Mở đầu cuộc gọi làm quen khách mới", "Xử lý lời từ chối, băn khoăn của khách", "Chốt đơn bằng cách tạo sự khan hiếm", "Bán thêm sản phẩm giá trị cao hơn"],
+          "dung": 1,
+          "giai": "Feel – Felt – Found: thấu hiểu cảm xúc của khách, cho biết người khác cũng từng như vậy, rồi chia sẻ điều họ nhận ra sau khi dùng giải pháp."
+        },
+        {
+          "hoi": "Trước khi gửi báo giá cho khách doanh nghiệp, người bán nên làm gì trước tiên?",
+          "phuongAn": ["Gửi ngay bảng giá đầy đủ mọi sản phẩm", "Đưa mức giá thấp nhất để gây ấn tượng", "Chờ khách tự gửi yêu cầu thật chi tiết", "Làm rõ nhu cầu, tiêu chí chọn và người quyết định"],
+          "dung": 3,
+          "giai": "Báo giá khi chưa hiểu nhu cầu dễ sai phạm vi và bị so giá thuần tuý. Khai thác nhu cầu giúp đề xuất đúng giá trị khách quan tâm."
+        },
+        {
+          "hoi": "Thương vụ B2B lớn bị trì hoãn vì bộ phận tài chính của khách lo ngại chi phí. Bước đi hiệu quả nhất là gì?",
+          "phuongAn": ["Giảm giá sâu để vượt qua vòng tài chính", "Trình bày số liệu hoàn vốn cho bộ phận tài chính", "Chỉ làm việc với người dùng trực tiếp", "Tạm dừng theo đuổi thương vụ này"],
+          "dung": 1,
+          "giai": "Mỗi người trong nhóm mua có mối quan tâm riêng. Bộ phận tài chính cần thấy ROI, thời gian hoàn vốn, tổng chi phí sở hữu — không chỉ tính năng."
+        },
+        {
+          "hoi": "Theo nghiên cứu trong sách 'The Challenger Sale', kiểu người bán nào hiệu quả nhất trong bán hàng phức tạp?",
+          "phuongAn": ["Người thách thức (Challenger)", "Người xây quan hệ (Relationship Builder)", "Người chăm chỉ (Hard Worker)", "Người giải quyết vấn đề (Problem Solver)"],
+          "dung": 0,
+          "giai": "Dixon và Adamson (2011) chỉ ra người thách thức — mang góc nhìn mới cho khách, cá nhân hoá và dẫn dắt cuộc trao đổi — vượt trội nhất."
+        }
+      ]
+    },
+    {
+      "ma": "marketing-ban-hang-08",
+      "ten": "Đàm phán: BATNA và cùng thắng",
+      "moTa": "Chuẩn bị phương án dự phòng, xác định vùng thoả thuận và đàm phán dựa trên lợi ích để cùng thắng.",
+      "cau": [
+        {
+          "hoi": "BATNA trong đàm phán là gì?",
+          "phuongAn": ["Phương án thay thế tốt nhất nếu không đạt thoả thuận", "Mức giá cao nhất bên bán đưa ra", "Điều khoản phạt khi vi phạm hợp đồng", "Mức chiết khấu tối đa được phép"],
+          "dung": 0,
+          "giai": "BATNA (Best Alternative To a Negotiated Agreement) do Fisher và Ury nêu trong sách 'Getting to Yes' (1981): lựa chọn tốt nhất nếu đàm phán thất bại."
+        },
+        {
+          "hoi": "Đàm phán 'cùng thắng' (win-win) hướng đến kết quả nào?",
+          "phuongAn": ["Một bên giành được nhiều nhất có thể", "Hai bên luôn chia đôi mọi khoản chênh lệch", "Bên mạnh hơn quyết định các điều khoản", "Lợi ích cốt lõi của cả hai bên được đáp ứng"],
+          "dung": 3,
+          "giai": "Cùng thắng không phải chia đôi máy móc mà là tìm giải pháp đáp ứng lợi ích quan trọng của cả hai, giữ được quan hệ hợp tác lâu dài."
+        },
+        {
+          "hoi": "Trên bàn đàm phán, bên nào thường có lợi thế hơn?",
+          "phuongAn": ["Bên nói nhiều và nói nhanh hơn", "Bên có phương án thay thế (BATNA) tốt hơn", "Bên có văn phòng làm việc lớn hơn", "Bên đến điểm hẹn sớm hơn"],
+          "dung": 1,
+          "giai": "Có BATNA tốt thì ít phụ thuộc vào thoả thuận, dám từ chối điều khoản bất lợi. Vì vậy cải thiện BATNA là cách tăng sức mạnh đàm phán."
+        },
+        {
+          "hoi": "Trước một buổi đàm phán quan trọng, việc chuẩn bị nào cần thiết nhất?",
+          "phuongAn": ["Chuẩn bị lời lẽ cứng rắn để áp đảo đối tác", "Chọn nhà hàng sang trọng để gặp mặt", "Xác định mục tiêu, giới hạn và BATNA của mình", "Mang theo thật nhiều người cùng đi"],
+          "dung": 2,
+          "giai": "Biết rõ mình muốn gì, điểm dừng ở đâu và phương án thay thế nếu không thành giúp đàm phán tự tin, không nhượng bộ quá mức."
+        },
+        {
+          "hoi": "ZOPA trong đàm phán là gì?",
+          "phuongAn": ["Mức giá đầu tiên bên mua đưa ra", "Thời hạn cuối cùng phải ký hợp đồng", "Vùng giao nhau giữa mức chấp nhận của hai bên", "Tổng chi phí tổ chức buổi đàm phán"],
+          "dung": 2,
+          "giai": "ZOPA (Zone Of Possible Agreement) là khoảng giữa giá thấp nhất bên bán chịu bán và giá cao nhất bên mua chịu trả. Không có ZOPA thì khó đạt thoả thuận."
+        },
+        {
+          "hoi": "Bên bán chấp nhận tối thiểu 80 triệu đồng, bên mua trả tối đa 95 triệu đồng. Vùng thoả thuận khả dĩ (ZOPA) là gì?",
+          "phuongAn": ["Từ 80 đến 95 triệu đồng", "Dưới 80 triệu đồng", "Trên 95 triệu đồng", "Chỉ đúng 87,5 triệu đồng"],
+          "dung": 0,
+          "giai": "ZOPA nằm giữa mức tối thiểu của bên bán (80 triệu) và mức tối đa của bên mua (95 triệu). Mọi mức giá trong khoảng này đều có thể chốt."
+        },
+        {
+          "hoi": "Theo 'Getting to Yes', nguyên tắc 'tập trung vào lợi ích, không vào lập trường' nghĩa là gì?",
+          "phuongAn": ["Giữ vững yêu cầu ban đầu đến cùng", "Tìm lý do thực sự đằng sau yêu cầu của mỗi bên", "Nhượng bộ ngay để giữ gìn quan hệ", "Chỉ bàn về giá, bỏ qua điều khoản khác"],
+          "dung": 1,
+          "giai": "Lập trường là điều một bên đòi; lợi ích là lý do họ đòi. Hiểu lợi ích giúp tìm ra phương án thoả mãn cả hai thay vì giằng co."
+        },
+        {
+          "hoi": "Khách đề nghị giảm giá 10%. Cách nhượng bộ nào khôn ngoan nhất?",
+          "phuongAn": ["Đồng ý ngay để giữ khách hàng", "Giảm hẳn 15% để khách thêm hài lòng", "Từ chối thẳng và kết thúc trao đổi", "Đổi lấy điều kiện như tăng số lượng, trả sớm"],
+          "dung": 3,
+          "giai": "Nguyên tắc 'không cho không': mỗi nhượng bộ nên đổi lấy giá trị tương xứng như tăng số lượng, thanh toán nhanh, hợp đồng dài hạn."
+        },
+        {
+          "hoi": "Hiệu ứng 'mỏ neo' (anchoring) trong đàm phán cho thấy điều gì?",
+          "phuongAn": ["Con số đưa ra đầu tiên ảnh hưởng mạnh đến kết quả", "Bên lên tiếng sau luôn nắm lợi thế", "Đàm phán kéo dài luôn có lợi cho bên mua", "Giá chốt luôn là trung bình của hai mức"],
+          "dung": 0,
+          "giai": "Con số đầu tiên thành điểm tham chiếu kéo các đề nghị sau về gần nó. Khi đã chuẩn bị kỹ, chủ động đưa mỏ neo hợp lý thường có lợi."
+        },
+        {
+          "hoi": "Bạn đang đàm phán với nhà cung cấp duy nhất và BATNA của bạn yếu. Việc nên làm trước tiên là gì?",
+          "phuongAn": ["Nói rõ mình không còn lựa chọn nào khác", "Ép giá thật gay gắt để tỏ ra mạnh", "Tìm thêm nguồn cung khác để cải thiện BATNA", "Chấp nhận mọi điều kiện đối tác đưa ra"],
+          "dung": 2,
+          "giai": "Sức mạnh đàm phán đến từ phương án thay thế. Khi BATNA yếu, hãy chủ động cải thiện nó và tránh để lộ điểm yếu trước đối tác."
+        }
+      ]
+    },
+    {
+      "ma": "marketing-ban-hang-09",
+      "ten": "Chăm sóc và giữ chân khách hàng",
+      "moTa": "Giá trị của khách hàng trung thành, cách xử lý khiếu nại và các công cụ tăng tỷ lệ mua lại.",
+      "cau": [
+        {
+          "hoi": "Vì sao doanh nghiệp nên chú trọng giữ chân khách hàng cũ?",
+          "phuongAn": ["Khách cũ luôn chịu mua giá cao gấp đôi", "Giữ khách cũ thường rẻ hơn tìm khách mới", "Pháp luật yêu cầu ưu tiên khách cũ", "Khách cũ không bao giờ khiếu nại"],
+          "dung": 1,
+          "giai": "Khách cũ đã tin tưởng nên chi phí bán lại thấp hơn nhiều so với thu hút khách mới, đồng thời họ còn có thể giới thiệu thêm khách."
+        },
+        {
+          "hoi": "Khi khách hàng khiếu nại, việc đầu tiên nhân viên nên làm là gì?",
+          "phuongAn": ["Giải thích ngay lỗi không phải của công ty", "Chuyển ngay khách sang bộ phận khác", "Lắng nghe hết ý và thể hiện sự thấu hiểu", "Đề nghị hoàn tiền trước khi nghe hết"],
+          "dung": 2,
+          "giai": "Khách đang bực cần được lắng nghe trước. Ngắt lời hay biện minh làm căng thẳng tăng; thấu hiểu rồi mới tìm nguyên nhân và xử lý."
+        },
+        {
+          "hoi": "Chương trình khách hàng thân thiết (loyalty program) chủ yếu nhằm mục tiêu gì?",
+          "phuongAn": ["Khuyến khích khách mua lặp lại, gắn bó lâu dài", "Thu hút thật nhiều khách mua lần đầu", "Giảm giá để thanh lý hàng tồn kho", "Thay thế bộ phận chăm sóc khách hàng"],
+          "dung": 0,
+          "giai": "Tích điểm, hạng thành viên, ưu đãi riêng tạo lý do để khách quay lại, tăng tần suất mua và giá trị vòng đời của khách hàng."
+        },
+        {
+          "hoi": "Gọi điện hỏi thăm khách vài ngày sau khi giao hàng giúp ích gì nhiều nhất?",
+          "phuongAn": ["Thuyết phục khách mua ngay đơn tiếp", "Nhắc khách thanh toán các khoản nợ", "Xin thêm số điện thoại người quen", "Phát hiện sớm vấn đề và tạo thiện cảm"],
+          "dung": 3,
+          "giai": "Chăm sóc sau bán giúp xử lý trục trặc trước khi khách bức xúc, cho khách thấy được quan tâm và mở đường cho lần mua sau."
+        },
+        {
+          "hoi": "'Nghịch lý phục hồi dịch vụ' (service recovery paradox) nói về hiện tượng gì?",
+          "phuongAn": ["Xử lý lỗi thật tốt có thể khiến khách hài lòng hơn trước", "Khách gặp lỗi một lần là sẽ rời bỏ", "Càng xin lỗi nhiều khách càng mất niềm tin", "Dịch vụ càng tốt khách càng ít đòi hỏi"],
+          "dung": 0,
+          "giai": "Khi lỗi được khắc phục nhanh, chu đáo, khách có thể đánh giá doanh nghiệp cao hơn cả lúc chưa gặp lỗi. Tuy vậy, không nên để lỗi xảy ra."
+        },
+        {
+          "hoi": "Chỉ số CES (Customer Effort Score) đo lường điều gì?",
+          "phuongAn": ["Mức sẵn lòng giới thiệu cho người khác", "Tổng số tiền khách chi tiêu mỗi năm", "Số lần khách mở thư của doanh nghiệp", "Mức công sức khách bỏ ra để xong một việc"],
+          "dung": 3,
+          "giai": "CES đo khách phải bỏ bao nhiêu công sức để được hỗ trợ hay hoàn tất giao dịch. Nỗ lực càng thấp, khả năng khách trung thành càng cao."
+        },
+        {
+          "hoi": "Mô hình RFM phân loại khách hàng dựa trên ba yếu tố nào?",
+          "phuongAn": ["Lần mua gần nhất, tần suất mua, số tiền chi tiêu", "Độ tuổi, giới tính và mức thu nhập", "Khu vực, kênh mua và cách thanh toán", "Mức hài lòng, lượt giới thiệu, khiếu nại"],
+          "dung": 0,
+          "giai": "RFM: Recency (mua gần đây), Frequency (mua thường xuyên), Monetary (chi nhiều). Nhờ đó biết nhóm khách VIP, nhóm sắp rời bỏ để chăm sóc phù hợp."
+        },
+        {
+          "hoi": "Một khách mua thường xuyên nay đã 6 tháng không quay lại. Hành động phù hợp nhất là gì?",
+          "phuongAn": ["Xoá khách khỏi danh sách chăm sóc", "Liên hệ hỏi thăm, tìm lý do và mời quay lại", "Gửi tin quảng cáo dồn dập mỗi ngày", "Chờ khách tự quay lại khi có nhu cầu"],
+          "dung": 1,
+          "giai": "Khách giá trị im lặng là dấu hiệu sắp rời bỏ. Chủ động hỏi thăm giúp phát hiện nguyên nhân và cứu vãn quan hệ kịp thời."
+        },
+        {
+          "hoi": "Đầu kỳ có 100 khách, cuối kỳ có 110 khách, trong đó 30 khách mới phát sinh trong kỳ. Tỷ lệ giữ chân khách là bao nhiêu?",
+          "phuongAn": ["110%", "90%", "70%", "80%"],
+          "dung": 3,
+          "giai": "Tỷ lệ giữ chân = (khách cuối kỳ − khách mới) / khách đầu kỳ = (110 − 30) / 100 = 80%. Khách mới không được tính là khách giữ chân."
+        },
+        {
+          "hoi": "Trong chăm sóc khách hàng, chỉ số 'thời gian phản hồi đầu tiên' (First Response Time) đo lường điều gì?",
+          "phuongAn": [
+            "Thời gian giao hàng từ kho tới tay khách",
+            "Thời gian khách dùng hết sản phẩm đầu tiên",
+            "Thời gian từ lúc khách liên hệ đến khi được phản hồi lần đầu",
+            "Thời gian chờ trước khi khách mua lần thứ hai"
+          ],
+          "dung": 2,
+          "giai": "Thời gian phản hồi đầu tiên càng ngắn, khách càng thấy được quan tâm; chỉ số này nên được theo dõi theo từng kênh như điện thoại, email, tin nhắn mạng xã hội."
+        }
+      ]
+    },
+    {
+      "ma": "marketing-ban-hang-10",
+      "ten": "Chiến lược giá",
+      "moTa": "Các phương pháp định giá, tâm lý giá và cách bảo vệ lợi nhuận khi thị trường cạnh tranh về giá.",
+      "cau": [
+        {
+          "hoi": "Định giá 'cộng chi phí' (cost-plus pricing) được thực hiện thế nào?",
+          "phuongAn": ["Lấy giá thành cộng thêm tỷ lệ lợi nhuận mong muốn", "Đặt giá bằng giá đối thủ thấp nhất", "Đặt giá theo mức khách sẵn lòng trả", "Đặt giá thấp để chiếm thị phần nhanh"],
+          "dung": 0,
+          "giai": "Cost-plus: giá bán = giá thành + % lợi nhuận. Cách này dễ tính nhưng bỏ qua cảm nhận giá trị của khách và mức giá của đối thủ."
+        },
+        {
+          "hoi": "Đặt giá 199.000 đồng thay vì 200.000 đồng là ứng dụng chiến lược giá nào?",
+          "phuongAn": ["Giá hớt váng (skimming)", "Giá tâm lý (số lẻ)", "Giá thâm nhập (penetration)", "Giá trọn gói (bundle)"],
+          "dung": 1,
+          "giai": "Giá số lẻ tạo cảm giác rẻ hơn vì khách thường chú ý vào chữ số đầu tiên (199 nghìn đọc như 'một trăm mấy'), dù chênh lệch thực tế rất nhỏ."
+        },
+        {
+          "hoi": "Chiến lược 'giá hớt váng' (price skimming) là gì?",
+          "phuongAn": ["Giá thấp lúc đầu để nhanh chiếm thị phần", "Giữ nguyên giá suốt vòng đời sản phẩm", "Bán bằng giá vốn để xả hàng tồn kho", "Giá cao khi ra mắt rồi giảm dần theo thời gian"],
+          "dung": 3,
+          "giai": "Hớt váng nhắm nhóm khách sẵn sàng trả cao cho sản phẩm mới, sau đó giảm giá để mở rộng sang nhóm khách nhạy cảm về giá hơn."
+        },
+        {
+          "hoi": "Chiến lược 'giá thâm nhập' (penetration pricing) phù hợp nhất khi nào?",
+          "phuongAn": ["Sản phẩm độc quyền, khách sẵn sàng trả cao", "Sản phẩm xa xỉ cần giữ hình ảnh cao cấp", "Khách nhạy cảm về giá, cần chiếm thị phần nhanh", "Doanh nghiệp muốn thu hồi vốn thật nhanh"],
+          "dung": 2,
+          "giai": "Giá thâm nhập đặt thấp để nhanh có nhiều khách và tận dụng lợi thế quy mô. Phù hợp khi khách nhạy cảm về giá và thị trường đủ lớn."
+        },
+        {
+          "hoi": "Định giá dựa trên giá trị (value-based pricing) căn cứ chủ yếu vào điều gì?",
+          "phuongAn": ["Giá trị mà khách hàng cảm nhận được", "Tổng chi phí sản xuất sản phẩm", "Giá bán trung bình của đối thủ", "Mức lợi nhuận đạt được năm trước"],
+          "dung": 0,
+          "giai": "Định giá theo giá trị dựa trên lợi ích khách nhận được và mức họ sẵn lòng trả, giúp sản phẩm khác biệt đạt biên lợi nhuận tốt hơn."
+        },
+        {
+          "hoi": "Gói máy in kèm mực và bảo trì 1 năm bán với giá thấp hơn tổng tiền mua lẻ từng thứ. Đây là chiến lược giá nào?",
+          "phuongAn": ["Định giá hớt váng", "Định giá cộng chi phí", "Định giá theo gói (bundle)", "Định giá theo khu vực địa lý"],
+          "dung": 2,
+          "giai": "Định giá theo gói gộp nhiều sản phẩm, dịch vụ thành một gói rẻ hơn mua lẻ, giúp tăng giá trị đơn hàng và bán kèm những thứ ít được mua riêng."
+        },
+        {
+          "hoi": "Siêu thị bán vài mặt hàng thiết yếu với giá rất thấp, thậm chí chịu lỗ, để kéo khách đến mua thêm các món khác. Đây là chiến lược giá nào?",
+          "phuongAn": [
+            "Giá hớt váng (skimming)",
+            "Định giá theo gói (bundle)",
+            "Định giá cộng chi phí",
+            "Sản phẩm mồi nhử (loss leader)"
+          ],
+          "dung": 3,
+          "giai": "Loss leader chấp nhận lỗ ở mặt hàng thu hút để tăng lượt khách, bù lại bằng doanh thu từ các sản phẩm có biên lợi nhuận cao hơn trong cùng giỏ hàng."
+        },
+        {
+          "hoi": "Đối thủ giảm giá mạnh. Với doanh nghiệp có sản phẩm khác biệt rõ ràng, phản ứng hợp lý nhất là gì?",
+          "phuongAn": ["Giảm giá sâu hơn đối thủ ngay lập tức", "Làm rõ giá trị khác biệt, tránh chiến tranh giá", "Tạm ngừng kinh doanh sản phẩm đó", "Tăng giá gấp đôi để khẳng định đẳng cấp"],
+          "dung": 1,
+          "giai": "Chiến tranh giá bào mòn lợi nhuận cả ngành. Khi có khác biệt thật, truyền thông rõ giá trị giúp giữ khách mà không phải hy sinh biên lợi nhuận."
+        },
+        {
+          "hoi": "Biên lợi nhuận gộp đang là 40%. Nếu giảm giá bán 10%, sản lượng phải tăng khoảng bao nhiêu để giữ nguyên tổng lợi nhuận gộp?",
+          "phuongAn": ["Khoảng 10%", "Khoảng 25%", "Khoảng 33%", "Khoảng 50%"],
+          "dung": 2,
+          "giai": "Giá 100, vốn 60 thì lãi gộp 40. Giảm giá còn 90, lãi gộp còn 30. Cần bán nhiều hơn 40/30 ≈ 1,33 lần, tức tăng khoảng 33% sản lượng."
+        },
+        {
+          "hoi": "Gói Cơ bản 1 triệu, gói Cao cấp 3 triệu. Thêm gói giữa giá 2,8 triệu nhưng ít quyền lợi hơn hẳn gói Cao cấp nhằm mục đích gì?",
+          "phuongAn": ["Làm gói Cao cấp trông đáng tiền hơn hẳn", "Tăng doanh thu trực tiếp từ chính gói giữa", "Giảm số khách chọn gói Cao cấp", "Thay thế dần gói Cơ bản về sau"],
+          "dung": 0,
+          "giai": "Đây là hiệu ứng mồi nhử (decoy): gói giữa gần giá nhưng kém xa quyền lợi khiến gói Cao cấp nổi bật là lựa chọn hời, tăng số khách chọn gói này."
+        }
+      ]
+    }
+  ]
+}

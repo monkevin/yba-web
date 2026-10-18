@@ -1,0 +1,44 @@
+# Chạy website YBA Chợ Lớn trên máy chủ.
+#
+#   docker compose up -d        bật
+#   docker compose logs -f      xem nhật ký
+#   docker compose down         tắt
+#
+# Dữ liệu nằm ở hai ổ đĩa gắn ngoài, nên nâng cấp phiên bản mới KHÔNG mất gì:
+#   ./du-lieu       cơ sở dữ liệu (hội viên, sự kiện, bài viết…)
+#   ./tai-len       ảnh hội viên và Ban Chủ nhiệm tải lên từ trang quản trị
+
+services:
+  web:
+    build: .
+    image: yba-cho-lon:latest
+    container_name: yba-cho-lon
+    restart: unless-stopped
+
+    ports:
+      # Chỉ mở ở máy nội bộ; Nginx bên ngoài sẽ chuyển tiếp vào đây.
+      # Muốn thử nhanh không qua Nginx thì đổi thành "3002:3002".
+      - "127.0.0.1:3002:3002"
+
+    environment:
+      DATABASE_URL: "file:/data/ybacholon.db"
+      # BẮT BUỘC đổi trong file .env trước khi chạy thật
+      SESSION_SECRET: "${SESSION_SECRET:?Chưa đặt SESSION_SECRET trong file .env}"
+      # Để trống thì trang /hoi-ai báo "trợ lý chưa được bật", web vẫn chạy
+      ANTHROPIC_API_KEY: "${ANTHROPIC_API_KEY:-}"
+      # Khoá App Secret của Zalo Mini App — BẮT BUỘC để hội viên đăng nhập
+      # bằng số điện thoại trên Mini App. Thiếu dòng này thì mọi lần bấm
+      # "Xác thực bằng Zalo" đều lỗi 502 (đã dính trên máy chủ 13/08/2026).
+      ZALO_APP_SECRET: "${ZALO_APP_SECRET:-}"
+      NODE_ENV: production
+      TZ: Asia/Ho_Chi_Minh
+
+    volumes:
+      - ./du-lieu:/data
+      - ./tai-len:/app/public/tai-len
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"

@@ -1,0 +1,1176 @@
+{
+  "chuDe": "van-hoa-ky-nang",
+  "ten": "Văn hoá, lễ nghi & kỹ năng doanh nhân",
+  "bo": [
+    {
+      "ma": "van-hoa-ky-nang-01",
+      "ten": "Lễ nghi gặp gỡ: bắt tay, danh thiếp, giới thiệu",
+      "moTa": "Những phép lịch sự đầu tiên khi gặp đối tác: cái bắt tay, tấm danh thiếp và lời giới thiệu.",
+      "cau": [
+        {
+          "hoi": "Khi đối tác trao danh thiếp cho bạn, cách nhận lịch sự nhất là gì?",
+          "phuongAn": [
+            "Nhận bằng hai tay, đọc lướt thông tin rồi cất cẩn thận",
+            "Nhận bằng một tay rồi cho ngay vào túi quần sau",
+            "Đặt ngay xuống bàn, không cần nhìn qua nội dung",
+            "Nhận rồi ghi chú số điện thoại lên mặt danh thiếp"
+          ],
+          "dung": 0,
+          "giai": "Nhận bằng hai tay và dành vài giây đọc tên, chức danh thể hiện sự tôn trọng người trao. Viết lên danh thiếp hay nhét vội vào túi quần bị xem là thiếu lịch sự."
+        },
+        {
+          "hoi": "Một cái bắt tay chuyên nghiệp trong kinh doanh nên như thế nào?",
+          "phuongAn": [
+            "Nắm hờ đầu ngón tay, mắt nhìn sang hướng khác",
+            "Siết thật mạnh và lắc liên tục trong nhiều giây",
+            "Nắm chắc vừa phải, nhìn vào mắt, mỉm cười, 2–3 giây",
+            "Dùng cả hai tay ôm chặt tay đối phương ngay lần đầu"
+          ],
+          "dung": 2,
+          "giai": "Bắt tay chắc vừa phải, giao tiếp bằng mắt và mỉm cười trong khoảng 2–3 giây thể hiện sự tự tin, cởi mở. Nắm hờ gây cảm giác thiếu nhiệt tình, siết quá mạnh gây khó chịu."
+        },
+        {
+          "hoi": "Theo lễ nghi kinh doanh phổ biến, khi giới thiệu hai người có vị trí khác nhau, bạn nên giới thiệu ai với ai?",
+          "phuongAn": [
+            "Giới thiệu người cấp cao hơn với người cấp thấp hơn",
+            "Giới thiệu người cấp thấp hơn với người cấp cao hơn",
+            "Giới thiệu ai đứng gần mình hơn trước, không xét vị trí",
+            "Để hai người tự giới thiệu, người trung gian đứng ngoài"
+          ],
+          "dung": 1,
+          "giai": "Nguyên tắc chung là giới thiệu người có vị trí thấp hơn với người có vị trí cao hơn, tức gọi tên người cấp cao trước để thể hiện sự tôn trọng."
+        },
+        {
+          "hoi": "Khi trao danh thiếp của mình cho đối tác, bạn nên cầm danh thiếp theo hướng nào?",
+          "phuongAn": [
+            "Mặt chữ hướng về phía mình để tiện kiểm tra lại",
+            "Úp mặt chữ xuống để thể hiện sự khiêm tốn",
+            "Đặt nghiêng tuỳ ý, miễn người nhận cầm được",
+            "Mặt chữ hướng về người nhận để họ đọc được ngay"
+          ],
+          "dung": 3,
+          "giai": "Xoay mặt chữ về phía người nhận giúp họ đọc được tên và chức danh ngay khi cầm. Đây là cử chỉ chu đáo được áp dụng rộng rãi trong giao tiếp kinh doanh."
+        },
+        {
+          "hoi": "Vài phút sau khi được giới thiệu, bạn lỡ quên tên đối tác đang trò chuyện. Cách xử lý chân thành, chuyên nghiệp nhất là gì?",
+          "phuongAn": [
+            "Tránh gọi tên suốt buổi để không lộ việc mình quên",
+            "Lịch sự xin lỗi, nhờ họ nhắc lại tên rồi dùng tên đó",
+            "Gọi đại một cái tên gần giống để giữ không khí",
+            "Lén mở điện thoại tra tên họ ngay khi đang trò chuyện"
+          ],
+          "dung": 1,
+          "giai": "Thẳng thắn xin lỗi và nhờ nhắc lại ngay từ sớm là cách chân thành nhất. Càng để lâu càng khó hỏi, còn gọi sai tên gây phật lòng hơn nhiều."
+        },
+        {
+          "hoi": "Tại một buổi kết nối giao thương, lời tự giới thiệu ngắn gọn và hiệu quả nên gồm những gì?",
+          "phuongAn": [
+            "Họ tên, doanh nghiệp, lĩnh vực và giá trị bạn mang lại",
+            "Toàn bộ quá trình học tập, công tác từ khi ra trường",
+            "Bảng giá sản phẩm và chương trình khuyến mãi hiện có",
+            "Doanh thu năm ngoái và số lượng nhân viên công ty"
+          ],
+          "dung": 0,
+          "giai": "Lời tự giới thiệu ngắn nên giúp người nghe biết bạn là ai, làm gì và có thể hợp tác ở điểm nào. Chào giá hay kể dài dễ khiến người nghe mất hứng thú."
+        },
+        {
+          "hoi": "Trong buổi họp, vì sao nên đặt danh thiếp vừa nhận ngay ngắn trên bàn trước mặt?",
+          "phuongAn": [
+            "Để tiện ghi chú nội dung họp lên mặt sau danh thiếp",
+            "Để trả lại danh thiếp cho đối tác khi kết thúc họp",
+            "Để nhớ tên, chức danh từng người và tỏ sự tôn trọng",
+            "Để đối tác thấy mình đã nhận được nhiều danh thiếp"
+          ],
+          "dung": 2,
+          "giai": "Đặt danh thiếp theo vị trí chỗ ngồi giúp bạn gọi đúng tên, đúng chức danh trong suốt buổi họp, đồng thời cho thấy bạn trân trọng thông tin đối tác trao."
+        },
+        {
+          "hoi": "Đối tác trao danh thiếp nhưng bạn đã hết danh thiếp. Cách xử lý chuyên nghiệp nhất là gì?",
+          "phuongAn": [
+            "Nói rằng mình không có thói quen dùng danh thiếp",
+            "Mượn danh thiếp đồng nghiệp rồi viết tên mình lên",
+            "Từ chối nhận để khỏi phải trao lại cho đối tác",
+            "Xin lỗi, tự giới thiệu và gửi thông tin ngay sau đó"
+          ],
+          "dung": 3,
+          "giai": "Thành thật xin lỗi, tự giới thiệu và chủ động gửi thông tin liên hệ qua tin nhắn hoặc email ngay sau buổi gặp vẫn giữ được ấn tượng chuyên nghiệp."
+        },
+        {
+          "hoi": "Theo lễ nghi kinh doanh quốc tế, khi giới thiệu giám đốc công ty mình với một khách hàng quan trọng, bạn nên gọi tên ai trước?",
+          "phuongAn": [
+            "Gọi tên giám đốc trước vì có chức vụ cao nhất công ty",
+            "Gọi tên khách hàng trước vì khách được ưu tiên hơn",
+            "Gọi tên người lớn tuổi hơn trước, bất kể vai trò",
+            "Gọi tên người đến buổi gặp sớm hơn trước"
+          ],
+          "dung": 1,
+          "giai": "Trong kinh doanh, khách hàng được đặt ở vị trí ưu tiên, kể cả so với lãnh đạo công ty mình. Vì vậy gọi tên khách trước rồi giới thiệu giám đốc với khách."
+        },
+        {
+          "hoi": "Khi gặp một đoàn đối tác nhiều người, bạn nên trao đổi danh thiếp theo thứ tự nào?",
+          "phuongAn": [
+            "Bắt đầu từ người đứng gần cửa ra vào nhất",
+            "Bắt đầu từ người trẻ tuổi nhất để tạo sự thân mật",
+            "Bắt đầu từ người có chức vụ cao nhất của đoàn",
+            "Đặt một xấp danh thiếp giữa bàn để mọi người tự lấy"
+          ],
+          "dung": 2,
+          "giai": "Thứ tự trao đổi danh thiếp thường theo cấp bậc: bắt đầu từ trưởng đoàn hoặc người có chức vụ cao nhất, sau đó lần lượt đến các thành viên khác."
+        }
+      ]
+    },
+    {
+      "ma": "van-hoa-ky-nang-02",
+      "ten": "Lễ nghi tiệc và tiếp khách",
+      "moTa": "Ứng xử đúng mực khi mời cơm, dự tiệc, nâng ly và tiếp đón đối tác.",
+      "cau": [
+        {
+          "hoi": "Theo thông lệ, khi bạn chủ động mời đối tác đi ăn để bàn công việc, ai là người thanh toán?",
+          "phuongAn": [
+            "Người có chức vụ cao hơn trong hai bên",
+            "Người đứng ra mời, tức là chính bạn",
+            "Chia đều cho tất cả những người dự",
+            "Người lớn tuổi nhất trong bàn ăn"
+          ],
+          "dung": 1,
+          "giai": "Người đứng ra mời là chủ bữa ăn nên thanh toán. Nên thu xếp trước với nhà hàng để việc trả tiền diễn ra kín đáo, tránh giằng co trước mặt khách."
+        },
+        {
+          "hoi": "Khi dùng tiệc buffet cùng đối tác, cách lấy thức ăn nào phù hợp nhất?",
+          "phuongAn": [
+            "Lấy thật đầy đĩa một lần cho đỡ phải đi lại",
+            "Dùng lại đĩa đã ăn để lấy món mới cho tiện",
+            "Đứng ăn ngay tại quầy thức ăn cho nhanh",
+            "Lấy vừa đủ ăn, cần thì quay lại lấy thêm"
+          ],
+          "dung": 3,
+          "giai": "Tiệc buffet cho phép lấy nhiều lần nên chỉ lấy lượng vừa ăn, dùng đĩa mới cho lượt sau và rời quầy để người khác lấy. Lấy đầy đĩa dễ gây lãng phí và mất thiện cảm."
+        },
+        {
+          "hoi": "Đang tiếp khách tại bàn thì điện thoại đổ chuông. Cách ứng xử phù hợp nhất là gì?",
+          "phuongAn": [
+            "Để im lặng; nếu thật gấp, xin phép ra ngoài nghe ngắn",
+            "Nghe ngay tại bàn nhưng cố gắng nói thật nhỏ",
+            "Bật loa ngoài để khách thấy mình không giấu gì",
+            "Vừa nghe khách nói vừa nhắn tin trả lời cuộc gọi"
+          ],
+          "dung": 0,
+          "giai": "Khi tiếp khách, sự chú ý nên dành trọn cho khách. Điện thoại để im lặng; nếu có cuộc gọi thật sự gấp thì xin phép và ra ngoài nghe thật ngắn."
+        },
+        {
+          "hoi": "Khi chủ tiệc đứng lên phát biểu và nâng ly chúc mừng, khách mời nên làm gì?",
+          "phuongAn": [
+            "Tiếp tục dùng bữa vì phần phát biểu không liên quan",
+            "Uống cạn ly của mình trước khi chủ tiệc nói xong",
+            "Dừng ăn uống, lắng nghe rồi nâng ly cùng mọi người",
+            "Tranh thủ lúc này đi chào hỏi các bàn bên cạnh"
+          ],
+          "dung": 2,
+          "giai": "Phát biểu và nâng ly là nghi thức chung của buổi tiệc. Tạm dừng ăn uống, chú ý lắng nghe và nâng ly cùng mọi người là cách thể hiện sự tôn trọng chủ tiệc."
+        },
+        {
+          "hoi": "Theo phong tục Á Đông, khi cụng ly với người lớn tuổi hoặc cấp trên, bạn nên làm gì?",
+          "phuongAn": [
+            "Giữ miệng ly của mình cao hơn ly của họ",
+            "Cụng thật mạnh để thể hiện sự nhiệt tình",
+            "Cụng bằng một tay, tay kia vẫn cầm điện thoại",
+            "Hạ miệng ly của mình thấp hơn ly của họ"
+          ],
+          "dung": 3,
+          "giai": "Hạ miệng ly thấp hơn khi cụng với người lớn tuổi hay cấp trên là cử chỉ khiêm nhường, thể hiện sự kính trọng trong văn hoá Việt Nam và nhiều nước Á Đông."
+        },
+        {
+          "hoi": "Theo nghi thức tiệc quốc tế phổ biến, khách chính thường được xếp ngồi ở vị trí nào?",
+          "phuongAn": [
+            "Ngồi ngay bên phải chủ tiệc",
+            "Ngồi gần cửa ra vào nhất",
+            "Ngồi cuối bàn, xa chủ tiệc",
+            "Ngồi cạnh lối đi phục vụ"
+          ],
+          "dung": 0,
+          "giai": "Vị trí bên phải chủ tiệc là chỗ danh dự dành cho khách chính, giúp chủ tiệc tiện trò chuyện, tiếp đón. Chỗ gần cửa hay lối đi phục vụ thường kém trang trọng."
+        },
+        {
+          "hoi": "Trong bữa tiệc kiểu Âu có nhiều bộ dao nĩa đặt sẵn, bạn nên dùng theo thứ tự nào?",
+          "phuongAn": [
+            "Từ trong ra ngoài, bắt đầu từ bộ sát đĩa",
+            "Từ ngoài vào trong theo từng món được phục vụ",
+            "Tuỳ ý, miễn cầm dao tay phải, nĩa tay trái",
+            "Dùng một bộ duy nhất cho tất cả các món"
+          ],
+          "dung": 1,
+          "giai": "Dao nĩa được sắp theo trình tự món ăn: bộ ngoài cùng dành cho món đầu tiên. Qua mỗi món, bạn dùng bộ kế tiếp từ ngoài vào trong."
+        },
+        {
+          "hoi": "Sau buổi tiếp khách tại văn phòng, cách tiễn khách chu đáo nhất là gì?",
+          "phuongAn": [
+            "Chào tạm biệt tại bàn rồi tiếp tục công việc",
+            "Nhờ bảo vệ tiễn khách để tiết kiệm thời gian",
+            "Tiễn ra thang máy hoặc cửa, chờ khách đi mới quay vào",
+            "Đứng dậy bắt tay rồi quay lưng đi ngay"
+          ],
+          "dung": 2,
+          "giai": "Tiễn khách ra tận thang máy hoặc cửa và chờ khách rời đi mới quay vào thể hiện sự trân trọng đến phút cuối, để lại ấn tượng tốt cho cả buổi làm việc."
+        },
+        {
+          "hoi": "Trong bữa tiệc kiểu Âu, đĩa bánh mì và ly nước dành cho bạn thường nằm ở phía nào?",
+          "phuongAn": [
+            "Đĩa bánh mì bên phải, ly nước bên trái",
+            "Cả đĩa bánh mì và ly nước đều ở bên phải",
+            "Cả đĩa bánh mì và ly nước đều ở bên trái",
+            "Đĩa bánh mì bên trái, ly nước bên phải"
+          ],
+          "dung": 3,
+          "giai": "Quy tắc dễ nhớ: bánh mì bên trái, đồ uống bên phải. Nắm vững điều này giúp bạn không dùng nhầm đĩa bánh mì hay ly của người ngồi cạnh."
+        },
+        {
+          "hoi": "Theo phép ăn kiểu Âu, đặt dao nĩa thế nào để báo cho người phục vụ biết bạn đã dùng xong món?",
+          "phuongAn": [
+            "Đặt song song, chéo trên đĩa, cán ở khoảng vị trí 4 giờ",
+            "Đặt bắt chéo nhau thành hình chữ X giữa đĩa",
+            "Đặt trả về hai bên đĩa, trên khăn trải bàn",
+            "Đặt dựng nghiêng vào vành đĩa, cán chạm bàn"
+          ],
+          "dung": 0,
+          "giai": "Dao nĩa song song, chéo trên đĩa (hướng khoảng 4 giờ) là tín hiệu đã dùng xong. Đặt bắt chéo thường báo đang tạm nghỉ; để dao nĩa đã dùng lên khăn bàn là không đúng phép."
+        }
+      ]
+    },
+    {
+      "ma": "van-hoa-ky-nang-03",
+      "ten": "Quy tắc trang phục trong kinh doanh",
+      "moTa": "Mặc vest, thắt cà vạt, phối phụ kiện và hiểu đúng các quy định trang phục trên thư mời.",
+      "cau": [
+        {
+          "hoi": "Với áo vest một hàng hai nút, khi đứng bạn nên cài nút như thế nào?",
+          "phuongAn": [
+            "Cài cả hai nút cho thật chỉn chu",
+            "Chỉ cài nút dưới, để hở nút trên",
+            "Chỉ cài nút trên, để hở nút dưới",
+            "Không cài nút nào cho thoải mái"
+          ],
+          "dung": 2,
+          "giai": "Với vest hai nút, khi đứng chỉ cài nút trên, nút dưới luôn để mở. Áo được cắt may theo cách này nên cài cả hai nút sẽ làm áo bị kéo căng, mất dáng."
+        },
+        {
+          "hoi": "Khi ngồi xuống trong buổi họp, người mặc vest một hàng nút nên làm gì với nút áo?",
+          "phuongAn": [
+            "Cài thêm cả nút dưới cho gọn gàng",
+            "Mở nút áo vest để áo không bị căng, nhăn",
+            "Cởi hẳn áo vest vắt lên ghế ngay khi ngồi",
+            "Giữ nguyên nút đã cài như lúc đứng"
+          ],
+          "dung": 1,
+          "giai": "Mở nút áo vest một hàng khi ngồi giúp áo không bị kéo căng, nhăn nhúm và người mặc thoải mái hơn. Khi đứng dậy, bạn cài lại nút như cũ."
+        },
+        {
+          "hoi": "Khi thắt xong, đầu cà vạt nên dài đến vị trí nào là chuẩn?",
+          "phuongAn": [
+            "Dừng giữa bụng, cách thắt lưng một gang tay",
+            "Dài quá thắt lưng, chạm xuống đũng quần",
+            "Ngắn ngang ngực, ngay dưới túi áo sơ mi",
+            "Chạm khoảng mép trên của khoá thắt lưng"
+          ],
+          "dung": 3,
+          "giai": "Đầu cà vạt chạm khoảng mép khoá thắt lưng là độ dài cân đối nhất. Cà vạt quá ngắn trông cụt, quá dài trông luộm thuộm."
+        },
+        {
+          "hoi": "Nguyên tắc phối thắt lưng với giày da khi mặc trang phục công sở là gì?",
+          "phuongAn": [
+            "Thắt lưng và giày da cùng tông màu với nhau",
+            "Thắt lưng sáng màu để tương phản với giày tối",
+            "Chọn thắt lưng cùng màu cà vạt, không cần xét giày",
+            "Thắt lưng bản thật to, khoá càng lớn càng sang"
+          ],
+          "dung": 0,
+          "giai": "Thắt lưng và giày da cùng tông màu (đen với đen, nâu với nâu) tạo sự đồng bộ, chỉn chu. Đây là nguyên tắc cơ bản của trang phục công sở nam."
+        },
+        {
+          "hoi": "Thư mời sự kiện ghi quy định trang phục \"Black tie\". Nam giới nên mặc gì?",
+          "phuongAn": [
+            "Bộ vest đen thường kèm cà vạt bản to màu đen",
+            "Bộ tuxedo (smoking) kèm nơ đen",
+            "Áo sơ mi đen, quần tây, không cần cà vạt",
+            "Áo đuôi tôm kèm nơ trắng và găng tay"
+          ],
+          "dung": 1,
+          "giai": "\"Black tie\" là trang phục dạ tiệc trang trọng: tuxedo kèm nơ đen. Áo đuôi tôm với nơ trắng thuộc chuẩn \"White tie\", còn vest thường với cà vạt chưa đạt chuẩn này."
+        },
+        {
+          "hoi": "Quy định trang phục \"Business casual\" thường phù hợp với lựa chọn nào?",
+          "phuongAn": [
+            "Bộ vest ba mảnh, cà vạt lụa và khăn cài túi",
+            "Quần short, áo thun và giày thể thao",
+            "Quần tây hoặc kaki, sơ mi hoặc polo, không cà vạt",
+            "Tuxedo hoặc lễ phục truyền thống thật trang trọng"
+          ],
+          "dung": 2,
+          "giai": "Business casual là phong cách công sở thoải mái: quần tây hoặc kaki, sơ mi hoặc polo có cổ, giày da hoặc giày lười, thường không cần cà vạt nhưng vẫn lịch sự."
+        },
+        {
+          "hoi": "Khi mặc vest và buông thẳng tay, tay áo sơ mi nên như thế nào so với tay áo vest?",
+          "phuongAn": [
+            "Dài bằng tay áo vest, không lộ ra chút nào",
+            "Ngắn hơn hẳn, nằm gọn bên trong tay áo vest",
+            "Lộ ra khoảng 5 cm để khoe khuy măng sét",
+            "Lộ ra khoảng 1 cm dưới tay áo vest"
+          ],
+          "dung": 3,
+          "giai": "Tay áo sơ mi lộ ra khoảng 1 cm dưới tay áo vest giúp bảo vệ vải vest khỏi mồ hôi, bụi bẩn và tạo đường nét gọn gàng, cân đối cho tổng thể."
+        },
+        {
+          "hoi": "Lần đầu gặp đối tác mới mà chưa rõ quy định trang phục, lựa chọn an toàn nhất là gì?",
+          "phuongAn": [
+            "Mặc trang trọng hơn một chút so với dự đoán",
+            "Mặc thật thoải mái để tạo không khí thân thiện",
+            "Mặc đồ thể thao cho năng động, trẻ trung",
+            "Mặc đồ thật nổi bật để gây ấn tượng mạnh"
+          ],
+          "dung": 0,
+          "giai": "Khi chưa chắc chắn, mặc trang trọng hơn một chút luôn an toàn: bạn có thể cởi áo vest hoặc tháo cà vạt cho phù hợp, còn mặc quá xuề xoà thì khó khắc phục."
+        },
+        {
+          "hoi": "Với áo vest một hàng ba nút, quy tắc \"đôi khi – luôn luôn – không bao giờ\" nghĩa là gì?",
+          "phuongAn": [
+            "Nút trên luôn cài, nút giữa đôi khi, nút dưới không",
+            "Nút trên đôi khi, nút giữa luôn cài, nút dưới không",
+            "Nút trên không cài, nút giữa đôi khi, nút dưới luôn",
+            "Nút trên luôn cài, nút giữa không, nút dưới đôi khi"
+          ],
+          "dung": 1,
+          "giai": "Với vest ba nút: nút trên cài tuỳ kiểu áo (đôi khi), nút giữa luôn cài, nút dưới cùng không bao giờ cài. Đây là quy tắc kinh điển của trang phục nam."
+        },
+        {
+          "hoi": "Trong các quy định trang phục dưới đây, quy định nào trang trọng nhất?",
+          "phuongAn": [
+            "Black tie",
+            "Cocktail attire",
+            "White tie",
+            "Business formal"
+          ],
+          "dung": 2,
+          "giai": "\"White tie\" là chuẩn trang phục trang trọng nhất, dành cho các dạ tiệc nghi lễ cao nhất: nam mặc áo đuôi tôm, nơ trắng. Kế đến là Black tie, rồi mới đến Cocktail."
+        }
+      ]
+    },
+    {
+      "ma": "van-hoa-ky-nang-04",
+      "ten": "Viết email và văn bản chuyên nghiệp",
+      "moTa": "Tiêu đề, lời chào, To – CC – BCC và cách viết thư rõ ràng, lịch sự, dễ hành động.",
+      "cau": [
+        {
+          "hoi": "Dòng tiêu đề (Subject) của một email công việc nên được viết như thế nào?",
+          "phuongAn": [
+            "Để trống để người nhận tò mò mở thư",
+            "Chỉ ghi \"Gửi anh/chị\" cho lịch sự",
+            "Viết thật dài, chép nguyên đoạn đầu nội dung",
+            "Ngắn gọn, nêu rõ nội dung chính của thư"
+          ],
+          "dung": 3,
+          "giai": "Tiêu đề ngắn gọn, rõ nội dung giúp người nhận biết ngay thư nói về gì, ưu tiên xử lý và dễ tìm lại sau này. Thư không tiêu đề dễ bị bỏ qua hoặc rơi vào thư rác."
+        },
+        {
+          "hoi": "Khi gửi email lần đầu cho một đối tác, cách mở đầu nào phù hợp nhất?",
+          "phuongAn": [
+            "\"Kính gửi Anh/Chị [Tên],\" rồi tự giới thiệu ngắn",
+            "\"Ê bạn ơi,\" cho thân mật, gần gũi",
+            "Vào thẳng nội dung, không cần lời chào",
+            "\"Gửi toàn thể mọi người,\" dù chỉ một người nhận"
+          ],
+          "dung": 0,
+          "giai": "Thư đầu tiên nên có lời chào trang trọng kèm tên người nhận và vài dòng giới thiệu bạn là ai, vì sao liên hệ. Cách mở đầu này tạo thiện cảm và sự chuyên nghiệp."
+        },
+        {
+          "hoi": "Trước khi bấm gửi một email quan trọng có tệp đính kèm, việc nên làm là gì?",
+          "phuongAn": [
+            "Gửi ngay cho kịp, sai thì gửi thư đính chính sau",
+            "Thêm thật nhiều người vào CC cho chắc ăn",
+            "Soát lại người nhận, tệp đính kèm và lỗi chính tả",
+            "Nén mọi tệp lại và đặt mật khẩu ngẫu nhiên"
+          ],
+          "dung": 2,
+          "giai": "Email đã gửi đi gần như không thể rút lại. Dành một phút soát người nhận, tệp đính kèm và chính tả giúp tránh gửi nhầm, thiếu tệp hay sai sót làm mất uy tín."
+        },
+        {
+          "hoi": "Khi nào nên dùng nút \"Trả lời tất cả\" (Reply all)?",
+          "phuongAn": [
+            "Khi muốn cảm ơn riêng một người trong nhóm",
+            "Khi mọi người trong chuỗi thư đều cần biết phản hồi",
+            "Khi muốn thư của mình được thật nhiều người đọc",
+            "Khi không nhớ rõ ai là người gửi thư ban đầu"
+          ],
+          "dung": 1,
+          "giai": "Chỉ dùng \"Trả lời tất cả\" khi nội dung phản hồi liên quan đến mọi người trong chuỗi thư. Lạm dụng khiến hộp thư người khác quá tải và dễ lộ thông tin không cần thiết."
+        },
+        {
+          "hoi": "Trong email công việc, trường \"CC\" nên dành cho ai?",
+          "phuongAn": [
+            "Người chịu trách nhiệm chính xử lý yêu cầu",
+            "Người mà bạn không muốn ai khác biết đã nhận thư",
+            "Toàn bộ danh bạ công ty để thông tin lan rộng",
+            "Người cần nắm thông tin nhưng không xử lý chính"
+          ],
+          "dung": 3,
+          "giai": "Trường \"Đến\" (To) dành cho người cần xử lý; \"CC\" dành cho người cần biết để phối hợp hoặc theo dõi. Người nhận cần được ẩn khỏi người khác thì đặt vào BCC."
+        },
+        {
+          "hoi": "Bạn gửi thông báo cho 200 khách hàng không quen biết nhau bằng email thường. Cách làm đúng để bảo vệ thông tin của khách là gì?",
+          "phuongAn": [
+            "Đưa địa chỉ của khách vào trường BCC",
+            "Đưa tất cả địa chỉ vào trường \"Đến\" (To)",
+            "Đưa tất cả địa chỉ vào trường CC",
+            "Chia đôi danh sách vào hai trường To và CC"
+          ],
+          "dung": 0,
+          "giai": "Địa chỉ trong BCC được ẩn với những người nhận khác, nên khách không thấy email của nhau. Để lộ danh sách khách hàng vừa thiếu chuyên nghiệp vừa ảnh hưởng quyền riêng tư."
+        },
+        {
+          "hoi": "Khách hàng gửi email phàn nàn về chất lượng dịch vụ. Cách mở đầu thư trả lời tốt nhất là gì?",
+          "phuongAn": [
+            "Giải thích ngay rằng lỗi không phải do công ty",
+            "Chuyển thư cho bộ phận khác, không phản hồi khách",
+            "Cảm ơn khách phản hồi, ghi nhận và nêu hướng xử lý",
+            "Gửi kèm bảng giá mới để khách chọn dịch vụ khác"
+          ],
+          "dung": 2,
+          "giai": "Cảm ơn và ghi nhận giúp khách thấy được lắng nghe, xoa dịu cảm xúc; nêu rõ hướng xử lý và thời hạn cho thấy trách nhiệm. Đổ lỗi hay im lặng chỉ làm khách thêm bực."
+        },
+        {
+          "hoi": "Khi cần đối tác phản hồi trước một thời hạn, câu nào trong email hiệu quả nhất?",
+          "phuongAn": [
+            "\"Mong anh/chị phản hồi sớm nhất có thể.\"",
+            "\"Anh/chị vui lòng xác nhận giúp trước 17h thứ Sáu.\"",
+            "\"Việc này rất gấp, anh/chị trả lời ngay nhé!!!\"",
+            "\"Khi nào rảnh anh/chị xem giúp em với ạ.\""
+          ],
+          "dung": 1,
+          "giai": "Nêu rõ việc cần làm và mốc thời gian cụ thể giúp người nhận biết chính xác phải làm gì, khi nào. \"Sớm nhất có thể\" rất mơ hồ, còn giọng thúc ép dễ gây phản cảm."
+        },
+        {
+          "hoi": "Nguyên tắc BLUF (Bottom Line Up Front) khi viết email công việc có nghĩa là gì?",
+          "phuongAn": [
+            "Nêu kết luận hoặc yêu cầu chính ngay đầu thư",
+            "Đặt chữ ký và lời cảm ơn lên đầu thư",
+            "Kể bối cảnh chi tiết trước, để kết luận ở cuối",
+            "Viết tiêu đề và nội dung bằng chữ in hoa"
+          ],
+          "dung": 0,
+          "giai": "BLUF nghĩa là \"điều cốt lõi lên trước\": câu đầu nêu ngay kết luận hoặc việc cần người nhận làm, sau đó mới đến chi tiết. Người bận rộn nắm được ý chính chỉ trong vài giây."
+        },
+        {
+          "hoi": "Bạn cần chuyển tiếp (Forward) một chuỗi email dài cho đồng nghiệp mới tham gia dự án. Cách làm chuyên nghiệp nhất là gì?",
+          "phuongAn": [
+            "Bấm chuyển tiếp ngay, không cần viết thêm gì",
+            "Chuyển tiếp rồi gọi điện kể lại toàn bộ chuỗi thư",
+            "Tóm tắt bối cảnh, nêu việc cần làm, rà thông tin nhạy cảm",
+            "Chụp màn hình từng thư rồi gửi qua ứng dụng nhắn tin"
+          ],
+          "dung": 2,
+          "giai": "Vài dòng tóm tắt giúp người mới không phải đọc hết chuỗi thư dài; nêu rõ việc cần làm giúp họ bắt tay ngay. Rà trước để không chuyển nhầm thông tin không nên chia sẻ."
+        }
+      ]
+    },
+    {
+      "ma": "van-hoa-ky-nang-05",
+      "ten": "Thuyết trình và nói trước đám đông",
+      "moTa": "Chuẩn bị bài nói, thiết kế slide, giữ chân người nghe và xử lý tình huống bất ngờ trên sân khấu.",
+      "cau": [
+        {
+          "hoi": "Trước một buổi thuyết trình quan trọng, cách chuẩn bị hiệu quả nhất là gì?",
+          "phuongAn": [
+            "Học thuộc lòng từng chữ và đọc lại nguyên văn",
+            "Tập nói thành tiếng nhiều lần và canh thời gian",
+            "Chỉ làm slide thật đẹp, nội dung nói tự nhiên",
+            "Để sát giờ mới xem lại cho tâm lý thoải mái"
+          ],
+          "dung": 1,
+          "giai": "Tập nói thành tiếng giúp bạn quen mạch ý, phát hiện chỗ vấp và kiểm soát thời lượng. Học thuộc từng chữ dễ bị khựng khi quên, còn slide đẹp không thay được sự chuẩn bị."
+        },
+        {
+          "hoi": "Khi thuyết trình trước đám đông, bạn nên giao tiếp bằng mắt như thế nào?",
+          "phuongAn": [
+            "Nhìn chăm chú vào màn hình chiếu suốt bài",
+            "Nhìn lên trần nhà để đỡ hồi hộp",
+            "Chỉ nhìn vào một người quen ở hàng đầu",
+            "Lần lượt nhìn người nghe ở nhiều khu vực"
+          ],
+          "dung": 3,
+          "giai": "Lần lượt giao tiếp bằng mắt với người nghe ở các khu vực khác nhau giúp mọi người cảm thấy được hướng đến, tăng sự kết nối và độ tin cậy của người nói."
+        },
+        {
+          "hoi": "Nguyên tắc thiết kế slide thuyết trình hiệu quả là gì?",
+          "phuongAn": [
+            "Ít chữ, mỗi slide một ý chính, chữ đủ lớn",
+            "Chép toàn bộ bài nói lên slide để khỏi quên",
+            "Dùng thật nhiều hiệu ứng chuyển động cho sinh động",
+            "Mỗi slide dùng một màu và phông chữ khác nhau"
+          ],
+          "dung": 0,
+          "giai": "Slide là công cụ hỗ trợ, không phải kịch bản để đọc. Ít chữ, mỗi slide một ý và chữ đủ lớn giúp người nghe nắm nhanh ý chính và tập trung vào người nói."
+        },
+        {
+          "hoi": "Khán giả hỏi một câu mà bạn không biết câu trả lời. Cách xử lý chuyên nghiệp nhất là gì?",
+          "phuongAn": [
+            "Trả lời vòng vo để không ai nhận ra mình không biết",
+            "Nói rằng câu hỏi không liên quan đến bài trình bày",
+            "Thừa nhận thẳng thắn, hẹn tìm hiểu và phản hồi sau",
+            "Đưa ra một con số ước đoán cho có câu trả lời"
+          ],
+          "dung": 2,
+          "giai": "Thừa nhận chưa có thông tin và hẹn phản hồi sau thể hiện sự trung thực, giữ uy tín. Trả lời vòng vo hay đoán mò, nếu bị phát hiện, sẽ làm mất lòng tin của người nghe."
+        },
+        {
+          "hoi": "Cách mở đầu bài thuyết trình nào giúp thu hút người nghe tốt nhất?",
+          "phuongAn": [
+            "Xin lỗi vì chuẩn bị chưa được kỹ lưỡng",
+            "Đặt câu hỏi, kể chuyện ngắn hoặc nêu điều gây tò mò",
+            "Đọc lần lượt toàn bộ mục lục mười lăm phần",
+            "Kể thật chi tiết tiểu sử và thành tích bản thân"
+          ],
+          "dung": 1,
+          "giai": "Những giây đầu quyết định người nghe có chú ý hay không. Câu hỏi, chuyện ngắn hay điều gây tò mò khơi dậy hứng thú; mở đầu bằng lời xin lỗi làm giảm uy tín ngay."
+        },
+        {
+          "hoi": "Ban tổ chức báo thời gian trình bày của bạn bị rút từ 20 phút xuống còn 10 phút. Bạn nên làm gì?",
+          "phuongAn": [
+            "Nói nhanh gấp đôi để trình bày đủ nội dung",
+            "Bỏ phần kết luận để tiết kiệm thời gian",
+            "Lướt thật nhanh qua toàn bộ slide đã chuẩn bị",
+            "Tập trung vào thông điệp chính, lược chi tiết phụ"
+          ],
+          "dung": 3,
+          "giai": "Khi thời gian bị cắt, hãy giữ thông điệp cốt lõi và phần kết luận, lược bớt ví dụ, số liệu phụ. Nói quá nhanh hay lướt slide khiến người nghe không đọng lại gì."
+        },
+        {
+          "hoi": "Máy chiếu bất ngờ hỏng giữa lúc bạn đang thuyết trình. Cách xử lý tốt nhất là gì?",
+          "phuongAn": [
+            "Tiếp tục nói ý chính, nhờ kỹ thuật xử lý song song",
+            "Dừng hẳn bài nói và chờ đến khi sửa xong máy",
+            "Xin lỗi khán giả rồi kết thúc buổi trình bày",
+            "Cúi đọc to từng chữ trên slide từ máy tính"
+          ],
+          "dung": 0,
+          "giai": "Người trình bày vững vàng nắm chắc thông điệp, không phụ thuộc slide. Tiếp tục nói các ý chính trong lúc kỹ thuật xử lý giúp giữ nhịp buổi thuyết trình và sự chú ý."
+        },
+        {
+          "hoi": "Cấu trúc \"nói trước điều sẽ nói – nói điều đó – tóm tắt lại điều đã nói\" nhằm mục đích gì?",
+          "phuongAn": [
+            "Kéo dài thời lượng cho đủ thời gian quy định",
+            "Thể hiện người nói có vốn từ vựng phong phú",
+            "Giúp người nghe nắm và ghi nhớ thông điệp chính",
+            "Giúp người nói khỏi phải chuẩn bị nội dung trước"
+          ],
+          "dung": 2,
+          "giai": "Giới thiệu lộ trình, trình bày rồi tóm tắt lại giúp người nghe biết mình đang ở đâu trong bài và nhớ lâu thông điệp chính. Nhắc lại có chủ đích là kỹ thuật ghi nhớ hiệu quả."
+        },
+        {
+          "hoi": "Quy tắc 10/20/30 của chuyên gia Guy Kawasaki cho bài thuyết trình gọi vốn gồm những gì?",
+          "phuongAn": [
+            "10 phút trình bày, 20 slide, 30 người nghe",
+            "10 slide, tối đa 20 phút, cỡ chữ ít nhất 30",
+            "10 ý chính, 20 slide, tối đa 30 phút",
+            "10 slide, 20 phút trình bày, 30 câu hỏi đáp"
+          ],
+          "dung": 1,
+          "giai": "Guy Kawasaki đề xuất bài gọi vốn chỉ nên có khoảng 10 slide, trình bày trong tối đa 20 phút và dùng cỡ chữ tối thiểu 30 để buộc nội dung ngắn gọn, dễ đọc."
+        },
+        {
+          "hoi": "Chủ động dừng lại vài giây (khoảng lặng) trong khi thuyết trình mang lại tác dụng gì?",
+          "phuongAn": [
+            "Nhấn mạnh ý quan trọng, cho người nghe kịp tiếp nhận",
+            "Báo hiệu người nói quên bài, cần khán giả nhắc",
+            "Tạo cơ hội để khán giả chuyển sang xem điện thoại",
+            "Làm bài nói chậm lại để kéo dài thời lượng"
+          ],
+          "dung": 0,
+          "giai": "Khoảng lặng có chủ đích trước hoặc sau ý quan trọng giúp nhấn mạnh thông điệp, cho người nghe thời gian suy ngẫm, đồng thời thay cho các từ đệm như \"à\", \"ừm\"."
+        }
+      ]
+    },
+    {
+      "ma": "van-hoa-ky-nang-06",
+      "ten": "Quản lý thời gian và năng suất",
+      "moTa": "Các công cụ kinh điển giúp chủ doanh nghiệp ưu tiên đúng việc, chống trì hoãn và làm việc tập trung.",
+      "cau": [
+        {
+          "hoi": "Theo các nghiên cứu phổ biến về năng suất, thói quen làm nhiều việc cùng lúc (đa nhiệm) thường dẫn đến điều gì?",
+          "phuongAn": [
+            "Hoàn thành mọi việc nhanh gấp đôi so với làm lần lượt",
+            "Ghi nhớ chi tiết từng việc tốt hơn bình thường",
+            "Tốn thời gian chuyển việc, dễ sai sót, kém tập trung",
+            "Não bộ được nghỉ ngơi nhờ thay đổi việc liên tục"
+          ],
+          "dung": 2,
+          "giai": "Mỗi lần chuyển qua lại giữa các việc, não cần thời gian để tập trung lại. Vì vậy đa nhiệm thường làm chậm tiến độ và tăng sai sót; làm dứt điểm từng việc hiệu quả hơn."
+        },
+        {
+          "hoi": "Kỹ thuật Pomodoro nguyên bản gợi ý chu kỳ làm việc như thế nào?",
+          "phuongAn": [
+            "Tập trung 25 phút, nghỉ ngắn 5 phút",
+            "Tập trung 90 phút, nghỉ 30 phút",
+            "Tập trung 10 phút, nghỉ 10 phút",
+            "Làm liên tục 4 giờ rồi nghỉ 1 giờ"
+          ],
+          "dung": 0,
+          "giai": "Pomodoro do Francesco Cirillo phát triển: làm tập trung 25 phút rồi nghỉ 5 phút, sau khoảng 4 chu kỳ thì nghỉ dài hơn. Cách này giúp giữ sự tập trung và hạn chế mệt mỏi."
+        },
+        {
+          "hoi": "Ẩn dụ \"những tảng đá lớn\" (big rocks) được Stephen Covey phổ biến khuyên người quản lý điều gì?",
+          "phuongAn": [
+            "Giải quyết hết các việc vặt trước cho đầu óc nhẹ nhõm",
+            "Chỉ nhận những dự án có quy mô và giá trị thật lớn",
+            "Dồn các việc khó sang cuối tuần để làm một lần",
+            "Xếp việc quan trọng vào lịch trước, việc vặt xếp sau"
+          ],
+          "dung": 3,
+          "giai": "Như đổ đầy một chiếc bình: đặt đá lớn vào trước thì sỏi, cát vẫn lọt vào khe; đổ cát trước thì hết chỗ cho đá. Việc quan trọng phải được giữ chỗ trong lịch trước tiên."
+        },
+        {
+          "hoi": "Để cuộc họp nội bộ ngắn gọn, không lan man, việc nên làm trước buổi họp là gì?",
+          "phuongAn": [
+            "Mời thật đông người để ai cũng nắm được thông tin",
+            "Gửi trước chương trình họp: mục tiêu, nội dung, thời lượng",
+            "Để buổi họp tự do, ai có ý kiến gì thì cứ nêu",
+            "Chỉ báo giờ họp, nội dung sẽ trao đổi khi gặp mặt"
+          ],
+          "dung": 1,
+          "giai": "Chương trình họp gửi trước giúp người dự chuẩn bị, bám đúng mục tiêu và giữ thời gian. Mời quá đông hay họp không rõ nội dung là nguyên nhân phổ biến khiến họp kéo dài, kém hiệu quả."
+        },
+        {
+          "hoi": "Trong sách The Effective Executive, Peter Drucker khuyên bước đầu tiên để quản lý thời gian hiệu quả là gì?",
+          "phuongAn": [
+            "Lập ngay kế hoạch chi tiết cho cả năm tới",
+            "Cắt giảm toàn bộ các cuộc họp trong tuần",
+            "Ghi chép thời gian thực tế mình đã sử dụng",
+            "Thuê thêm trợ lý để lo việc hành chính"
+          ],
+          "dung": 2,
+          "giai": "Drucker cho rằng người quản lý thường đoán sai thời gian của mình đi đâu. Phải ghi lại thời gian thực tế trước, rồi mới cắt bỏ việc lãng phí và gom thời gian cho việc lớn."
+        },
+        {
+          "hoi": "\"Quy tắc 2 phút\" trong phương pháp Getting Things Done (GTD) của David Allen là gì?",
+          "phuongAn": [
+            "Mỗi cuộc họp không nên kéo dài quá 2 phút",
+            "Nghỉ 2 phút sau mỗi giờ làm việc liên tục",
+            "Dành 2 phút mỗi sáng để viết nhật ký",
+            "Việc nào làm xong dưới 2 phút thì làm ngay"
+          ],
+          "dung": 3,
+          "giai": "Theo David Allen, việc chỉ mất chưa đến 2 phút thì nên làm ngay, vì ghi chép, sắp xếp và nhớ lại việc đó còn tốn thời gian hơn chính việc làm nó."
+        },
+        {
+          "hoi": "Lời khuyên \"Ăn con ếch\" (Eat That Frog) của Brian Tracy khuyến khích điều gì?",
+          "phuongAn": [
+            "Làm việc quan trọng và khó nhất vào đầu ngày",
+            "Ăn sáng thật đầy đủ trước khi bắt đầu làm việc",
+            "Làm các việc nhỏ, dễ trước để lấy đà",
+            "Chia việc khó cho nhiều người cùng làm"
+          ],
+          "dung": 0,
+          "giai": "\"Con ếch\" là việc quan trọng, khó nhất mà bạn hay trì hoãn. Giải quyết nó ngay đầu ngày khi còn nhiều năng lượng giúp tạo đà và giảm áp lực cho cả ngày còn lại."
+        },
+        {
+          "hoi": "Bạn cứ trì hoãn một dự án lớn vì thấy quá ngợp. Cách khắc phục được khuyên phổ biến nhất là gì?",
+          "phuongAn": [
+            "Chờ đến khi thật sự có hứng thú rồi mới bắt đầu",
+            "Chia thành các bước nhỏ, cụ thể và làm ngay bước đầu",
+            "Để sát hạn chót cho áp lực thúc mình làm nhanh hơn",
+            "Nhận thêm dự án khác để quên cảm giác bị ngợp"
+          ],
+          "dung": 1,
+          "giai": "Việc lớn gây ngợp nên dễ bị né tránh. Chia nhỏ thành các bước rõ ràng và bắt tay ngay vào bước đầu giúp vượt qua sức ì, tạo đà và thấy được tiến độ."
+        },
+        {
+          "hoi": "\"Định luật Parkinson\" trong quản lý thời gian phát biểu điều gì?",
+          "phuongAn": [
+            "Năng suất luôn cao nhất vào buổi sáng sớm",
+            "Làm càng nhiều giờ thì kết quả càng tốt",
+            "Công việc giãn ra để lấp đầy thời gian cho phép",
+            "Mỗi người chỉ tập trung tối đa được 20 phút"
+          ],
+          "dung": 2,
+          "giai": "Định luật Parkinson cho rằng công việc sẽ kéo dài cho đến hết thời gian được giao. Đặt hạn chót hợp lý, chặt chẽ hơn giúp tránh lãng phí thời gian và tăng tính tập trung."
+        },
+        {
+          "hoi": "Kỹ thuật \"Time blocking\" (chia khối thời gian) là gì?",
+          "phuongAn": [
+            "Chặn mọi cuộc gọi đến trong giờ làm việc",
+            "Ghi lại toàn bộ thời gian đã dùng vào cuối tuần",
+            "Làm nhiều việc cùng lúc để tận dụng thời gian",
+            "Chia lịch thành khối giờ cố định cho từng loại việc"
+          ],
+          "dung": 3,
+          "giai": "Time blocking là xếp lịch thành từng khối thời gian dành riêng cho một loại việc, như 8h–10h viết kế hoạch. Cách này giảm chuyển đổi qua lại giữa các việc và bảo vệ giờ tập trung."
+        }
+      ]
+    },
+    {
+      "ma": "van-hoa-ky-nang-07",
+      "ten": "Văn hoá kinh doanh Nhật, Hàn, Trung, Mỹ, châu Âu",
+      "moTa": "Hiểu phép lịch sự và cách làm ăn của đối tác quốc tế để hợp tác suôn sẻ, tránh phật ý.",
+      "cau": [
+        {
+          "hoi": "Trong văn hoá Nhật Bản, khi cúi chào (ojigi), cúi càng sâu thể hiện điều gì?",
+          "phuongAn": [
+            "Sự tôn trọng hoặc thành ý càng lớn",
+            "Người cúi đang mệt hoặc không khoẻ",
+            "Người cúi có địa vị cao hơn người đối diện",
+            "Muốn kết thúc cuộc gặp càng sớm càng tốt"
+          ],
+          "dung": 0,
+          "giai": "Ở Nhật, độ sâu và thời gian cúi chào tương ứng mức độ tôn trọng: cúi nhẹ khi chào hỏi thường ngày, cúi sâu hơn với khách quan trọng hoặc khi xin lỗi, cảm ơn trân trọng."
+        },
+        {
+          "hoi": "Phong cách giao tiếp kinh doanh phổ biến của doanh nhân Mỹ thường có đặc điểm gì?",
+          "phuongAn": [
+            "Tránh nói thẳng, ý chính nằm trong ẩn ý",
+            "Cần nhiều bữa tiệc thân tình trước khi bàn việc",
+            "Thẳng thắn, đi vào vấn đề và coi trọng đúng giờ",
+            "Mọi quyết định đều phải chờ họp cả tập thể"
+          ],
+          "dung": 2,
+          "giai": "Văn hoá kinh doanh Mỹ nhìn chung chuộng giao tiếp trực tiếp, rõ ràng, tập trung vào mục tiêu, thời gian và hợp đồng. Nói vòng vo dễ bị hiểu là thiếu minh bạch."
+        },
+        {
+          "hoi": "Khái niệm \"Guanxi\" (quan hệ) trong kinh doanh với đối tác Trung Quốc chỉ điều gì?",
+          "phuongAn": [
+            "Hệ thống thuế quan khi xuất nhập khẩu hàng hoá",
+            "Mạng lưới quan hệ dựa trên lòng tin và tương trợ",
+            "Quy trình đàm phán giá qua nhiều vòng liên tiếp",
+            "Tỷ lệ góp vốn giữa các bên trong liên doanh"
+          ],
+          "dung": 1,
+          "giai": "Guanxi là mạng lưới quan hệ cá nhân được vun đắp qua thời gian, dựa trên lòng tin và sự giúp đỡ qua lại. Quan hệ tốt thường là nền tảng trước khi hợp tác lâu dài."
+        },
+        {
+          "hoi": "Khi làm việc với đối tác Đức, điều gì thường được đặc biệt coi trọng?",
+          "phuongAn": [
+            "Có thể đến trễ vài phút cho không khí thoải mái",
+            "Thay đổi lịch hẹn sát giờ để linh hoạt hơn",
+            "Bàn công việc chủ yếu qua tiệc tùng buổi tối",
+            "Đúng giờ và tuân thủ lịch hẹn đã thống nhất"
+          ],
+          "dung": 3,
+          "giai": "Văn hoá kinh doanh Đức nổi tiếng coi trọng sự đúng giờ, kế hoạch rõ ràng và tính chính xác. Đến muộn hay đổi lịch sát giờ dễ bị xem là thiếu chuyên nghiệp."
+        },
+        {
+          "hoi": "Khi chọn quà tặng đối tác người Hoa, món nào nên tránh vì mang ý nghĩa không may?",
+          "phuongAn": [
+            "Một hộp trà thượng hạng đóng gói đẹp",
+            "Một chiếc đồng hồ treo tường hoặc để bàn",
+            "Một giỏ trái cây tươi đặc sản địa phương",
+            "Một cuốn sách ảnh về văn hoá Việt Nam"
+          ],
+          "dung": 1,
+          "giai": "Trong tiếng Trung, \"tặng đồng hồ\" (tống chung) đồng âm với \"lo việc tang lễ\", nên đồng hồ treo tường, để bàn là món quà nên tránh khi tặng đối tác người Hoa."
+        },
+        {
+          "hoi": "Theo phép lịch sự Hàn Quốc, khi được người lớn tuổi hơn rót rượu, bạn nên làm gì?",
+          "phuongAn": [
+            "Đỡ ly bằng hai tay, khi uống hơi quay mặt sang bên",
+            "Để ly trên bàn cho người lớn tự rót đầy",
+            "Cầm ly một tay và uống ngay khi vừa rót xong",
+            "Từ chối vì uống trước mặt người lớn là thất lễ"
+          ],
+          "dung": 0,
+          "giai": "Người Hàn đỡ ly bằng hai tay khi được người lớn tuổi hay cấp trên rót, và khi uống thường hơi quay mặt đi. Đây là cử chỉ thể hiện sự kính trọng thứ bậc."
+        },
+        {
+          "hoi": "Khi làm việc với đối tác Trung Quốc, vì sao nên tránh phê bình hay bác bỏ ý kiến của họ trước đông người?",
+          "phuongAn": [
+            "Vì mọi ý kiến phản bác phải gửi bằng công văn chính thức",
+            "Vì chỉ trưởng đoàn mới được quyền nghe góp ý",
+            "Vì làm đối tác mất thể diện (mianzi), tổn hại quan hệ",
+            "Vì góp ý thẳng bị hiểu là muốn đòi giảm giá"
+          ],
+          "dung": 2,
+          "giai": "\"Mianzi\" (thể diện) rất quan trọng trong văn hoá kinh doanh Trung Hoa. Góp ý nên kín đáo, tế nhị và riêng tư để giữ thể diện cho đối tác, qua đó giữ gìn quan hệ."
+        },
+        {
+          "hoi": "Khi tặng quà cho đối tác Nhật Bản, nên tránh bộ quà có số lượng nào?",
+          "phuongAn": [
+            "3 món",
+            "5 món",
+            "7 món",
+            "4 món"
+          ],
+          "dung": 3,
+          "giai": "Trong tiếng Nhật, số 4 có cách đọc là \"shi\", đồng âm với chữ \"tử\" (chết), nên bộ quà 4 món thường bị tránh. Các số 3, 5, 7 thường được ưa chuộng hơn."
+        },
+        {
+          "hoi": "\"Nemawashi\" trong văn hoá kinh doanh Nhật Bản là gì?",
+          "phuongAn": [
+            "Nghi thức trao danh thiếp khi gặp đối tác lần đầu",
+            "Bữa tiệc tối ăn mừng sau khi ký kết hợp đồng",
+            "Chế độ làm việc trọn đời tại một công ty",
+            "Vận động đồng thuận riêng trước cuộc họp chính thức"
+          ],
+          "dung": 3,
+          "giai": "Nemawashi (nghĩa gốc: xới đất quanh rễ trước khi chuyển cây) là trao đổi riêng, thu thập ý kiến và tạo đồng thuận trước, để cuộc họp chính thức chủ yếu thông qua quyết định."
+        },
+        {
+          "hoi": "Theo nhà nhân học Edward T. Hall, văn hoá \"ngữ cảnh cao\" (high-context) như Nhật Bản, Trung Quốc có đặc điểm gì?",
+          "phuongAn": [
+            "Ý nghĩa nằm nhiều ở ngữ cảnh, quan hệ và tín hiệu ngầm",
+            "Mọi điều đều được nói thẳng và ghi rõ bằng văn bản",
+            "Chỉ coi trọng hợp đồng, không quan tâm quan hệ",
+            "Giao tiếp chủ yếu qua email thay cho gặp mặt"
+          ],
+          "dung": 0,
+          "giai": "Trong văn hoá ngữ cảnh cao, thông điệp phụ thuộc nhiều vào quan hệ, cử chỉ, hoàn cảnh và điều không nói ra. Ngược lại, văn hoá ngữ cảnh thấp như Mỹ, Đức chuộng lời nói rõ ràng."
+        }
+      ]
+    },
+    {
+      "ma": "van-hoa-ky-nang-08",
+      "ten": "Sài Gòn – Chợ Lớn: lịch sử thương mại",
+      "moTa": "Những dấu mốc, địa danh, chợ phố và cộng đồng thương nhân làm nên vị thế buôn bán sầm uất của Sài Gòn – Chợ Lớn.",
+      "cau": [
+        {
+          "hoi": "Khu Chợ Lớn gắn liền với sự hình thành và phát triển của cộng đồng nào ở Sài Gòn?",
+          "phuongAn": [
+            "Cộng đồng người Chăm",
+            "Cộng đồng người Hoa",
+            "Cộng đồng người Khmer",
+            "Cộng đồng người Ấn"
+          ],
+          "dung": 1,
+          "giai": "Chợ Lớn hình thành từ cuối thế kỷ 18 do cộng đồng người Hoa lập nên, rồi phát triển thành trung tâm thương mại sầm uất bậc nhất Nam Bộ, đến nay vẫn đậm dấu ấn văn hoá người Hoa."
+        },
+        {
+          "hoi": "Chợ Soái Kình Lâm ở khu Chợ Lớn từ lâu nổi tiếng là đầu mối bán sỉ mặt hàng nào?",
+          "phuongAn": [
+            "Hoá chất các loại",
+            "Thuốc bắc, dược liệu",
+            "Đồ điện tử, linh kiện",
+            "Vải vóc các loại"
+          ],
+          "dung": 3,
+          "giai": "Soái Kình Lâm là chợ vải sỉ nổi tiếng của khu Chợ Lớn, nơi tiểu thương và xưởng may nhiều nơi về lấy hàng. Chợ Lớn vẫn giữ nhiều chợ, phố chuyên một ngành hàng như vậy."
+        },
+        {
+          "hoi": "Thời Pháp thuộc, Chợ Lớn nổi tiếng là trung tâm thu mua, xay xát và xuất khẩu mặt hàng nào của Nam Bộ?",
+          "phuongAn": [
+            "Lúa gạo",
+            "Cà phê",
+            "Cao su",
+            "Hồ tiêu"
+          ],
+          "dung": 0,
+          "giai": "Lúa gạo từ đồng bằng sông Cửu Long theo kênh rạch đổ về Chợ Lớn, nơi tập trung nhiều nhà máy xay xát và thương nhân người Hoa, rồi xuất khẩu qua cảng Sài Gòn."
+        },
+        {
+          "hoi": "Con đường nào ở Chợ Lớn nổi tiếng với dãy tiệm thuốc bắc, dược liệu lâu đời?",
+          "phuongAn": [
+            "Đường Lê Công Kiều",
+            "Đường Nguyễn Trãi",
+            "Đường Hải Thượng Lãn Ông",
+            "Đường Đồng Khởi"
+          ],
+          "dung": 2,
+          "giai": "Đường Hải Thượng Lãn Ông, mang tên hiệu của danh y Lê Hữu Trác, từ lâu tập trung các tiệm thuốc bắc, thuốc nam, dược liệu, tạo thành phố thuốc đặc trưng của Chợ Lớn."
+        },
+        {
+          "hoi": "Chợ Bến Thành với tháp đồng hồ quen thuộc như ngày nay được khánh thành vào năm nào?",
+          "phuongAn": [
+            "Năm 1898",
+            "Năm 1914",
+            "Năm 1930",
+            "Năm 1955"
+          ],
+          "dung": 1,
+          "giai": "Chợ Bến Thành hiện nay được xây dựng từ năm 1912 và khánh thành năm 1914. Ngôi chợ cùng tháp đồng hồ ở cửa chính đã trở thành biểu tượng thương mại của Sài Gòn."
+        },
+        {
+          "hoi": "Tuyến kênh nào nối khu Chợ Lớn với sông Sài Gòn, từng là huyết mạch đưa lúa gạo, hàng hoá về Chợ Lớn?",
+          "phuongAn": [
+            "Kênh Nhiêu Lộc – Thị Nghè",
+            "Kênh Tham Lương – Bến Cát",
+            "Kênh Tân Hóa – Lò Gốm",
+            "Kênh Tàu Hủ – Bến Nghé"
+          ],
+          "dung": 3,
+          "giai": "Kênh Tàu Hủ – rạch Bến Nghé chạy từ Chợ Lớn ra sông Sài Gòn. Ghe thuyền chở lúa gạo, nông sản từ miền Tây theo tuyến này về Chợ Lớn, tạo nên vị thế thương cảng sầm uất."
+        },
+        {
+          "hoi": "Các hội quán người Hoa ở Chợ Lớn như Nghĩa An, Tuệ Thành, Ôn Lăng, ngoài sinh hoạt tín ngưỡng còn đóng vai trò gì?",
+          "phuongAn": [
+            "Nơi sinh hoạt đồng hương, tương trợ, kết nối làm ăn",
+            "Nơi thu thuế hàng hoá cho chính quyền thời đó",
+            "Kho chứa lúa gạo trước khi đưa ra cảng xuất khẩu",
+            "Trường đào tạo phiên dịch cho thương nhân ngoại quốc"
+          ],
+          "dung": 0,
+          "giai": "Hội quán là nơi đồng hương người Hoa gặp gỡ, giúp nhau khi mới đến lập nghiệp, lo việc chung và kết nối làm ăn, góp phần tạo nên sức mạnh thương mại của Chợ Lớn."
+        },
+        {
+          "hoi": "Người Hoa ở Chợ Lớn xưa tổ chức thành các \"bang\" như Quảng Đông, Phúc Kiến, Triều Châu. Các bang được chia theo tiêu chí nào?",
+          "phuongAn": [
+            "Theo ngành hàng buôn bán chủ lực",
+            "Theo quy mô vốn làm ăn của từng nhà",
+            "Theo quê gốc và tiếng nói (phương ngữ)",
+            "Theo thời điểm đến định cư ở Chợ Lớn"
+          ],
+          "dung": 2,
+          "giai": "Bang là cách người Hoa tập hợp theo quê gốc và phương ngữ, như Quảng Đông, Phúc Kiến, Triều Châu, Hải Nam, Hẹ. Mỗi bang có người đứng đầu lo việc chung của cộng đồng mình."
+        },
+        {
+          "hoi": "Trước khi về lập nghiệp ở Chợ Lớn, nhiều thương nhân người Hoa từng lập thương cảng sầm uất nào ở vùng Biên Hòa – Đồng Nai cuối thế kỷ 17?",
+          "phuongAn": [
+            "Phố Hiến",
+            "Cù lao Phố",
+            "Hội An",
+            "Hà Tiên"
+          ],
+          "dung": 1,
+          "giai": "Cù lao Phố (Nông Nại Đại Phố) do di dân người Hoa lập từ cuối thế kỷ 17 từng là thương cảng lớn của xứ Đồng Nai. Khi thương cảng suy tàn, nhiều thương nhân dời về lập nên Chợ Lớn."
+        },
+        {
+          "hoi": "Trong tiếng Hoa, Chợ Lớn được gọi là \"Đề Ngạn\". Tên gọi này có nghĩa là gì?",
+          "phuongAn": [
+            "Khu chợ lớn nhất phương Nam",
+            "Vùng đất của người buôn bán",
+            "Bờ đê, bờ kè ven sông",
+            "Bến cảng của thương nhân Hoa"
+          ],
+          "dung": 2,
+          "giai": "\"Đề Ngạn\" nghĩa là bờ đê, bờ kè, gợi hình ảnh phố buôn bán mọc lên dọc bờ kênh rạch. Còn tên tiếng Việt \"Chợ Lớn\" đơn giản nghĩa là chợ to."
+        }
+      ]
+    },
+    {
+      "ma": "van-hoa-ky-nang-09",
+      "ten": "Phong tục kinh doanh của người Việt",
+      "moTa": "Tục lệ buôn bán, lễ Tết và những câu tục ngữ ông bà để lại cho người làm ăn.",
+      "cau": [
+        {
+          "hoi": "Kinh nghiệm buôn bán \"mua tận gốc, bán tận ngọn\" khuyên người kinh doanh điều gì?",
+          "phuongAn": [
+            "Mua tận nơi sản xuất, bán thẳng tới người tiêu dùng",
+            "Mua hàng lúc đầu mùa, để dành bán vào cuối mùa",
+            "Nhập thật nhiều hàng rồi bán hạ giá để xoay vốn",
+            "Mua lại cả doanh nghiệp rồi bán dần từng tài sản"
+          ],
+          "dung": 0,
+          "giai": "Mua tận gốc để có giá tốt, nguồn hàng chắc chắn; bán tận ngọn để tới thẳng người dùng cuối. Bớt khâu trung gian giúp người buôn giữ được nhiều lợi nhuận hơn."
+        },
+        {
+          "hoi": "Theo phong tục ngày Tết, \"xông đất\" (xông nhà) là gì?",
+          "phuongAn": [
+            "Dọn dẹp, lau chùi nhà cửa vào ngày 30 Tết",
+            "Chuẩn bị mâm cỗ để cúng đêm giao thừa",
+            "Người đầu tiên đến nhà, cửa hàng sau giao thừa",
+            "Đi chợ mua sắm lần đầu tiên trong năm mới"
+          ],
+          "dung": 2,
+          "giai": "Theo quan niệm dân gian, người đầu tiên bước vào nhà hay cửa hàng sau giao thừa sẽ mang vận khí cho cả năm, nên nhiều gia đình, cửa hàng chọn người hợp tuổi, vui vẻ."
+        },
+        {
+          "hoi": "Trong buôn bán truyền thống, \"mở hàng\" là gì?",
+          "phuongAn": [
+            "Sửa sang, mở rộng mặt bằng cửa hàng mới thuê",
+            "Mở cửa hàng từ sáng sớm trước giờ quy định",
+            "Chương trình giảm giá để xả hết hàng tồn kho",
+            "Lượt mua đầu tiên của khách trong ngày, đầu năm"
+          ],
+          "dung": 3,
+          "giai": "\"Mở hàng\" là lượt mua đầu tiên trong ngày hoặc đầu năm. Nhiều người buôn bán quan niệm mở hàng suôn sẻ sẽ mang lại may mắn, buôn may bán đắt cho cả ngày, cả năm."
+        },
+        {
+          "hoi": "Tiệc \"tất niên\" mà nhiều doanh nghiệp Việt tổ chức có ý nghĩa gì?",
+          "phuongAn": [
+            "Tiệc mừng khai trương một chi nhánh mới",
+            "Tiệc cuối năm tổng kết, tri ân nhân viên, đối tác",
+            "Tiệc kỷ niệm ngày thành lập doanh nghiệp",
+            "Tiệc chào mừng nhân viên mới vào làm việc"
+          ],
+          "dung": 1,
+          "giai": "Tất niên là dịp cuối năm để doanh nghiệp nhìn lại một năm làm việc, khen thưởng, tri ân nhân viên và đối tác, gắn kết tập thể trước khi bước sang năm mới."
+        },
+        {
+          "hoi": "Câu tục ngữ \"Buôn có bạn, bán có phường\" khuyên người kinh doanh điều gì?",
+          "phuongAn": [
+            "Nên buôn bán một mình để giữ bí mật",
+            "Chỉ nên làm ăn với người trong gia đình",
+            "Nên liên kết, hợp tác với người cùng nghề",
+            "Nên mở cửa hàng ở nơi ít đối thủ cạnh tranh"
+          ],
+          "dung": 2,
+          "giai": "Câu tục ngữ đề cao sự liên kết: người buôn bán cần bạn hàng, cần phường hội cùng nghề để chia sẻ thông tin, hỗ trợ nguồn hàng và cùng nhau phát triển bền vững."
+        },
+        {
+          "hoi": "Thành ngữ \"Thuận mua vừa bán\" thể hiện nguyên tắc nào trong giao dịch?",
+          "phuongAn": [
+            "Hai bên tự nguyện, cùng đồng ý về giá và điều kiện",
+            "Người bán được quyền quyết định giá cuối cùng",
+            "Người mua luôn được trả giá thấp nhất có thể",
+            "Giao dịch bắt buộc phải qua người môi giới"
+          ],
+          "dung": 0,
+          "giai": "\"Thuận mua vừa bán\" nghĩa là mua bán dựa trên sự tự nguyện, thoả thuận của cả hai bên: người mua thấy hợp lý, người bán thấy vừa ý thì giao dịch mới thành."
+        },
+        {
+          "hoi": "Câu nói quen thuộc của giới buôn bán \"Phi thương bất phú\" có nghĩa là gì?",
+          "phuongAn": [
+            "Làm ăn phi pháp thì không thể giàu bền vững",
+            "Người đã giàu thì không cần buôn bán nữa",
+            "Buôn bán nhỏ lẻ thì không bao giờ giàu được",
+            "Không buôn bán, kinh doanh thì khó mà giàu"
+          ],
+          "dung": 3,
+          "giai": "\"Phi\" là không, \"thương\" là buôn bán, \"phú\" là giàu. Câu nói đề cao vai trò của buôn bán, kinh doanh trong việc tạo ra của cải cho gia đình và xã hội."
+        },
+        {
+          "hoi": "Theo phong tục, nhiều cơ sở kinh doanh cúng vía Thần Tài vào ngày nào để cầu may mắn, tài lộc?",
+          "phuongAn": [
+            "Mùng 1 tháng Giêng âm lịch",
+            "Mùng 10 tháng Giêng âm lịch",
+            "Rằm tháng Giêng âm lịch",
+            "Ngày 23 tháng Chạp âm lịch"
+          ],
+          "dung": 1,
+          "giai": "Mùng 10 tháng Giêng âm lịch được dân gian xem là ngày vía Thần Tài. Nhiều cửa hàng, doanh nghiệp làm lễ cầu mong một năm buôn bán thuận lợi, tài lộc hanh thông."
+        },
+        {
+          "hoi": "Câu tục ngữ \"Buôn tàu buôn bè không bằng ăn dè hà tiện\" nhắn nhủ điều gì?",
+          "phuongAn": [
+            "Buôn bán đường thuỷ lợi hơn buôn bán đường bộ",
+            "Nên đầu tư tàu thuyền thay vì mở cửa hàng",
+            "Chi tiêu tiết kiệm quý không kém kiếm nhiều tiền",
+            "Buôn bán lớn luôn rủi ro nên chỉ buôn nhỏ"
+          ],
+          "dung": 2,
+          "giai": "Câu tục ngữ đề cao sự tiết kiệm: kiếm nhiều như buôn tàu buôn bè mà tiêu xài hoang phí thì cũng không bằng người biết chi tiêu dè dặt, tích luỹ. Quản lý chi phí là gốc làm giàu."
+        },
+        {
+          "hoi": "Câu \"Mua danh ba vạn, bán danh ba đồng\" gửi gắm bài học gì cho người kinh doanh?",
+          "phuongAn": [
+            "Nên mua lại thương hiệu thay vì tự xây dựng",
+            "Giá bán ra phải luôn thấp hơn giá mua vào",
+            "Thương hiệu nổi tiếng thì nên bán giá thật rẻ",
+            "Danh tiếng khó xây dựng nhưng rất dễ đánh mất"
+          ],
+          "dung": 3,
+          "giai": "Có được tiếng tốt phải đổi bằng nhiều công sức, tiền bạc (ba vạn), nhưng chỉ một việc sai là danh tiếng mất giá (ba đồng). Người kinh doanh phải giữ uy tín trong từng việc nhỏ."
+        }
+      ]
+    },
+    {
+      "ma": "van-hoa-ky-nang-10",
+      "ten": "Trách nhiệm xã hội, ESG và phát triển bền vững",
+      "moTa": "Những khái niệm nền tảng về CSR, ESG, kinh tế tuần hoàn và giảm phát thải cho doanh nghiệp.",
+      "cau": [
+        {
+          "hoi": "Ba chữ cái trong thuật ngữ ESG lần lượt là viết tắt của những lĩnh vực nào?",
+          "phuongAn": [
+            "Kinh tế – Xã hội – Tăng trưởng",
+            "Môi trường – Xã hội – Quản trị",
+            "Năng lượng – An toàn – Tăng trưởng",
+            "Môi trường – Chiến lược – Toàn cầu"
+          ],
+          "dung": 1,
+          "giai": "ESG gồm Environmental (Môi trường), Social (Xã hội) và Governance (Quản trị). Đây là bộ tiêu chí đánh giá mức độ phát triển bền vững và có trách nhiệm của doanh nghiệp."
+        },
+        {
+          "hoi": "Tiêu chuẩn quốc tế ISO 14001 quy định yêu cầu đối với hệ thống quản lý nào?",
+          "phuongAn": [
+            "Hệ thống quản lý chất lượng sản phẩm",
+            "Hệ thống quản lý an toàn thông tin",
+            "Hệ thống quản lý an toàn thực phẩm",
+            "Hệ thống quản lý môi trường"
+          ],
+          "dung": 3,
+          "giai": "ISO 14001 là tiêu chuẩn về hệ thống quản lý môi trường. Tiêu chuẩn quản lý chất lượng là ISO 9001, an toàn thông tin là ISO/IEC 27001, an toàn thực phẩm là ISO 22000."
+        },
+        {
+          "hoi": "Hoạt động nào sau đây thuộc trụ cột \"S\" (Xã hội) trong ESG?",
+          "phuongAn": [
+            "Bảo đảm an toàn lao động và phúc lợi cho nhân viên",
+            "Lắp điện mặt trời để giảm phát thải carbon",
+            "Thành lập ban kiểm soát và kiểm toán độc lập",
+            "Xử lý nước thải đạt chuẩn trước khi xả ra ngoài"
+          ],
+          "dung": 0,
+          "giai": "Trụ cột Xã hội gồm quyền lợi và an toàn người lao động, quan hệ cộng đồng, khách hàng. Điện mặt trời, xử lý nước thải thuộc Môi trường; ban kiểm soát thuộc Quản trị."
+        },
+        {
+          "hoi": "\"Kinh tế tuần hoàn\" khác mô hình kinh tế truyền thống ở điểm cốt lõi nào?",
+          "phuongAn": [
+            "Chỉ sản xuất theo mùa vụ trong năm",
+            "Quay vòng vốn nhanh để tăng lợi nhuận",
+            "Tái sử dụng, tái chế để giảm thiểu chất thải",
+            "Luân chuyển nhân sự giữa các bộ phận"
+          ],
+          "dung": 2,
+          "giai": "Kinh tế tuần hoàn thay mô hình \"khai thác – sản xuất – thải bỏ\" bằng cách thiết kế để tái sử dụng, sửa chữa, tái chế, giữ tài nguyên trong vòng sử dụng lâu nhất và giảm chất thải."
+        },
+        {
+          "hoi": "Mô hình 3P (Triple Bottom Line) do John Elkington đề xuất đánh giá doanh nghiệp theo ba yếu tố nào?",
+          "phuongAn": [
+            "Doanh thu – Chi phí – Lợi nhuận",
+            "Con người – Hành tinh – Lợi nhuận",
+            "Sản phẩm – Giá cả – Phân phối",
+            "Vốn – Công nghệ – Nhân lực"
+          ],
+          "dung": 1,
+          "giai": "Triple Bottom Line (People – Planet – Profit) cho rằng thành công của doanh nghiệp không chỉ đo bằng lợi nhuận mà còn bằng tác động đến con người và môi trường."
+        },
+        {
+          "hoi": "Chương trình Nghị sự 2030 của Liên Hợp Quốc đề ra bao nhiêu Mục tiêu Phát triển bền vững (SDGs)?",
+          "phuongAn": [
+            "8 mục tiêu",
+            "10 mục tiêu",
+            "12 mục tiêu",
+            "17 mục tiêu"
+          ],
+          "dung": 3,
+          "giai": "Năm 2015, Liên Hợp Quốc thông qua 17 Mục tiêu Phát triển bền vững đến năm 2030, như xoá nghèo, giáo dục chất lượng, hành động vì khí hậu. Trước đó là 8 Mục tiêu Thiên niên kỷ."
+        },
+        {
+          "hoi": "\"Greenwashing\" (tẩy xanh) là hành vi gì?",
+          "phuongAn": [
+            "Quảng bá sai lệch, phóng đại mức thân thiện môi trường",
+            "Dùng chất tẩy rửa thân thiện để vệ sinh nhà xưởng",
+            "Sơn lại nhà xưởng màu xanh để làm mới hình ảnh",
+            "Trồng thêm thật nhiều cây xanh quanh văn phòng"
+          ],
+          "dung": 0,
+          "giai": "Greenwashing là việc tuyên bố, quảng cáo sai lệch hoặc thổi phồng mức thân thiện môi trường của sản phẩm, hoạt động. Hành vi này làm mất lòng tin của khách hàng và nhà đầu tư."
+        },
+        {
+          "hoi": "Mục tiêu \"Net Zero\" (phát thải ròng bằng 0) có nghĩa là gì?",
+          "phuongAn": [
+            "Doanh nghiệp ngừng hoàn toàn mọi hoạt động sản xuất",
+            "Giảm một nửa lượng phát thải so với năm trước",
+            "Lượng khí nhà kính thải ra cân bằng với lượng loại bỏ",
+            "Chỉ dùng xe điện cho toàn bộ đội xe của công ty"
+          ],
+          "dung": 2,
+          "giai": "Net Zero là trạng thái lượng khí nhà kính phát thải được cân bằng bởi lượng loại bỏ khỏi khí quyển, sau khi đã cắt giảm tối đa phát thải và bù đắp phần còn lại."
+        },
+        {
+          "hoi": "Theo chuẩn kiểm kê khí nhà kính GHG Protocol, phát thải \"Phạm vi 2\" (Scope 2) của doanh nghiệp là gì?",
+          "phuongAn": [
+            "Phát thải trực tiếp từ lò hơi, xe cộ của doanh nghiệp",
+            "Phát thải gián tiếp từ điện, nhiệt, hơi nước mua về",
+            "Phát thải trong chuỗi cung ứng và khi khách dùng sản phẩm",
+            "Phát thải của doanh nghiệp khác cùng khu công nghiệp"
+          ],
+          "dung": 1,
+          "giai": "Phạm vi 1 là phát thải trực tiếp từ nguồn doanh nghiệp sở hữu; Phạm vi 2 là phát thải gián tiếp từ năng lượng mua về như điện; Phạm vi 3 là các phát thải gián tiếp khác trong chuỗi giá trị."
+        },
+        {
+          "hoi": "Cơ chế EPR được quy định trong Luật Bảo vệ môi trường 2020 có nghĩa là gì?",
+          "phuongAn": [
+            "Đánh giá rủi ro môi trường cho dự án đầu tư",
+            "Chương trình khuyến khích dùng năng lượng tái tạo",
+            "Quỹ bảo hiểm cho sự cố tràn dầu trên biển",
+            "Trách nhiệm mở rộng của nhà sản xuất, nhập khẩu"
+          ],
+          "dung": 3,
+          "giai": "EPR (Extended Producer Responsibility) yêu cầu nhà sản xuất, nhập khẩu một số sản phẩm, bao bì có trách nhiệm tái chế, xử lý chúng sau khi hết vòng đời, thay vì đẩy gánh nặng cho xã hội."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1516 @@
+{
+ "nhom": [
+  {
+   "ma": "TAM_NHIN",
+   "ten": "Tầm nhìn & kiên trì"
+  },
+  {
+   "ma": "LANH_DAO",
+   "ten": "Lãnh đạo & con người"
+  },
+  {
+   "ma": "KHACH_HANG",
+   "ten": "Khách hàng, chất lượng & đổi mới"
+  },
+  {
+   "ma": "TU_DUY",
+   "ten": "Tiền bạc, rủi ro & tư duy"
+  },
+  {
+   "ma": "HOP_TAC",
+   "ten": "Hợp tác, uy tín & lời người Việt"
+  }
+ ],
+ "danhNgon": [
+  {
+   "ma": "DN001",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Như đắp một ngọn núi, chỉ còn thiếu một sọt đất mà dừng lại, thì chính là ta tự dừng.",
+   "tacGia": "Khổng Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "譬如為山，未成一簣，止，吾止也 (Thí như vi sơn, vị thành nhất quỹ, chỉ, ngô chỉ dã)",
+   "nguon": "Luận Ngữ, Thiên Tử Hãn",
+   "yNghia": "Dự án bỏ dở khi đã gần về đích là thất bại do mình, không phải do thị trường."
+  },
+  {
+   "ma": "DN002",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Muốn nhanh thì không tới được, ham lợi nhỏ thì việc lớn không thành.",
+   "tacGia": "Khổng Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "欲速則不達，見小利則大事不成 (Dục tốc tắc bất đạt, kiến tiểu lợi tắc đại sự bất thành)",
+   "nguon": "Luận Ngữ, Thiên Tử Lộ",
+   "yNghia": "Đừng đổi uy tín lâu dài lấy một hợp đồng lời nhanh trước mắt."
+  },
+  {
+   "ma": "DN003",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Người không lo xa, ắt có buồn gần.",
+   "tacGia": "Khổng Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "人無遠慮，必有近憂 (Nhân vô viễn lự, tất hữu cận ưu)",
+   "nguon": "Luận Ngữ, Thiên Vệ Linh Công",
+   "yNghia": "Tính trước dòng tiền và nhân sự cho vài năm tới để bớt phải chữa cháy hôm nay."
+  },
+  {
+   "ma": "DN004",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Kẻ sĩ không thể không rộng lòng và cương nghị, vì gánh thì nặng mà đường thì xa.",
+   "tacGia": "Tăng Tử",
+   "moTaTacGia": "Học trò Khổng Tử, Trung Hoa cổ đại",
+   "nguyenVan": "士不可以不弘毅，任重而道遠 (Sĩ bất khả dĩ bất hoằng nghị, nhậm trọng nhi đạo viễn)",
+   "nguon": "Luận Ngữ, Thiên Thái Bá",
+   "yNghia": "Người dẫn dắt doanh nghiệp cần tầm nhìn rộng và ý chí bền cho chặng đường dài."
+  },
+  {
+   "ma": "DN005",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Cây lớn một vòng tay ôm mọc lên từ mầm nhỏ; đài cao chín tầng khởi từ những lớp đất đắp dần.",
+   "tacGia": "Lão Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "合抱之木，生於毫末；九層之臺，起於累土 (Hợp bão chi mộc, sinh ư hào mạt; cửu tằng chi đài, khởi ư lũy thổ)",
+   "nguon": "Đạo Đức Kinh, chương 64",
+   "yNghia": "Thương hiệu lớn được đắp nên từ từng khách hàng hài lòng mỗi ngày."
+  },
+  {
+   "ma": "DN006",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Thắng người là có sức, thắng được mình mới là mạnh; người bền bỉ gắng làm là người có chí.",
+   "tacGia": "Lão Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "勝人者有力，自勝者強……強行者有志 (Thắng nhân giả hữu lực, tự thắng giả cường… cường hành giả hữu chí)",
+   "nguon": "Đạo Đức Kinh, chương 33",
+   "yNghia": "Trước khi vượt đối thủ, hãy thắng sự trì hoãn và nản lòng của chính mình."
+  },
+  {
+   "ma": "DN007",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Làm việc cũng như đào giếng: đào sâu chín nhận mà chưa tới mạch nước thì vẫn là giếng bỏ.",
+   "tacGia": "Mạnh Tử",
+   "moTaTacGia": "Nhà tư tưởng Nho gia, Trung Hoa cổ đại",
+   "nguyenVan": "有為者辟若掘井，掘井九軔而不及泉，猶為棄井也 (Hữu vi giả thí nhược quật tỉnh, quật tỉnh cửu nhận nhi bất cập tuyền, do vi khí tỉnh dã)",
+   "nguon": "Mạnh Tử, Thiên Tận Tâm thượng",
+   "yNghia": "Khoản đầu tư bỏ dở không tạo ra giá trị; đã chọn hướng thì theo đến khi có kết quả."
+  },
+  {
+   "ma": "DN008",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Khắc rồi bỏ thì gỗ mục cũng không gãy; khắc mãi không thôi thì vàng đá cũng chạm trổ được.",
+   "tacGia": "Tuân Tử",
+   "moTaTacGia": "Nhà tư tưởng Nho gia, Trung Hoa cổ đại",
+   "nguyenVan": "鍥而舍之，朽木不折；鍥而不舍，金石可鏤 (Khiết nhi xả chi, hủ mộc bất chiết; khiết nhi bất xả, kim thạch khả lũ)",
+   "nguon": "Tuân Tử, Thiên Khuyến Học",
+   "yNghia": "Thị trường khó đến đâu cũng mở ra với người kiên trì chăm sóc khách hàng."
+  },
+  {
+   "ma": "DN009",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Đội quân thắng trận nắm chắc phần thắng rồi mới giao chiến; đội quân bại trận giao chiến rồi mới tìm cách thắng.",
+   "tacGia": "Tôn Tử",
+   "moTaTacGia": "Nhà quân sự, Trung Hoa cổ đại",
+   "nguyenVan": "勝兵先勝而後求戰，敗兵先戰而後求勝 (Thắng binh tiên thắng nhi hậu cầu chiến, bại binh tiên chiến nhi hậu cầu thắng)",
+   "nguon": "Binh pháp Tôn Tử, Thiên Quân Hình",
+   "yNghia": "Chuẩn bị kỹ nguồn lực, khách hàng và phương án trước khi mở một thị trường mới."
+  },
+  {
+   "ma": "DN010",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Có công mài sắt, có ngày nên kim.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Kho tàng tục ngữ dân gian",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Kỹ năng bán hàng hay quản trị đều thành thạo nhờ rèn luyện đều đặn mỗi ngày."
+  },
+  {
+   "ma": "DN011",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Chớ thấy sóng cả mà ngã tay chèo.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Kho tàng tục ngữ dân gian",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Khi thị trường biến động, người cầm lái càng phải vững tay để giữ nhịp cho đội ngũ."
+  },
+  {
+   "ma": "DN012",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Thua keo này, ta bày keo khác.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Kho tàng tục ngữ dân gian",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Một chiến dịch thất bại là dữ liệu để thử cách mới, không phải lý do để bỏ cuộc."
+  },
+  {
+   "ma": "DN013",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Lửa thử vàng, gian nan thử sức.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Kho tàng tục ngữ dân gian",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Giai đoạn khó khăn cho thấy rõ đối tác, nhân sự và doanh nghiệp nào thực sự bền."
+  },
+  {
+   "ma": "DN014",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Nếu không biết mình muốn cập bến nào, thì chẳng ngọn gió nào là gió thuận.",
+   "tacGia": "Seneca",
+   "moTaTacGia": "Triết gia khắc kỷ, La Mã cổ đại",
+   "nguyenVan": "Ignoranti quem portum petat nullus suus ventus est.",
+   "nguon": "Thư gửi Lucilius (Epistulae Morales), thư số 71, viết khoảng năm 62–65",
+   "yNghia": "Có đích đến rõ ràng mới biết cơ hội nào nên nắm, cơ hội nào nên bỏ qua."
+  },
+  {
+   "ma": "DN015",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Trở ngại cho hành động lại thúc đẩy hành động. Điều chắn ngang đường trở thành con đường.",
+   "tacGia": "Marcus Aurelius",
+   "moTaTacGia": "Hoàng đế, triết gia khắc kỷ, La Mã cổ đại",
+   "nguyenVan": "The impediment to action advances action. What stands in the way becomes the way.",
+   "nguon": "Suy tưởng (Meditations), quyển 5, đoạn 20; bản dịch tiếng Anh của Gregory Hays, 2002",
+   "yNghia": "Mỗi lời phàn nàn của khách là chỉ dẫn để sản phẩm và dịch vụ tốt lên."
+  },
+  {
+   "ma": "DN016",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Nếu tôi nhìn được xa hơn, đó là nhờ đứng trên vai những người khổng lồ.",
+   "tacGia": "Isaac Newton",
+   "moTaTacGia": "Nhà vật lý, nhà toán học, Anh",
+   "nguyenVan": "If I have seen further it is by standing on the shoulders of Giants.",
+   "nguon": "Thư gửi Robert Hooke, 15/2/1676 (lịch cũ ghi 5/2/1675)",
+   "yNghia": "Học từ các anh chị đi trước trong Hội là cách nhanh nhất để nhìn xa hơn trên thương trường."
+  },
+  {
+   "ma": "DN017",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Trong lĩnh vực quan sát, may mắn chỉ mỉm cười với những trí óc đã chuẩn bị sẵn.",
+   "tacGia": "Louis Pasteur",
+   "moTaTacGia": "Nhà khoa học, Pháp",
+   "nguyenVan": "Dans les champs de l'observation, le hasard ne favorise que les esprits préparés.",
+   "nguon": "Diễn văn lễ ra mắt Khoa Văn Douai và Khoa Khoa học Lille, đọc tại Douai ngày 7/12/1854",
+   "yNghia": "Cơ hội chỉ đến với người đã sẵn năng lực, dữ liệu và nguồn lực để nắm lấy nó."
+  },
+  {
+   "ma": "DN018",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Vinh quang lớn nhất của chúng ta không nằm ở chỗ chưa từng vấp ngã, mà ở chỗ đứng dậy sau mỗi lần ngã.",
+   "tacGia": "Oliver Goldsmith",
+   "moTaTacGia": "Nhà văn, nhà thơ gốc Ireland",
+   "nguyenVan": "Our greatest glory is, not in never falling, but in rising every time we fall.",
+   "nguon": "The Citizen of the World, Thư số VII (đăng báo 1760, in thành sách 1762); Quote Investigator xác nhận",
+   "yNghia": "Doanh nhân nào cũng từng vấp; khác biệt nằm ở tốc độ đứng dậy và rút kinh nghiệm."
+  },
+  {
+   "ma": "DN019",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Dù thế giới đầy khổ đau, thế giới cũng đầy những lần con người vượt qua khổ đau.",
+   "tacGia": "Helen Keller",
+   "moTaTacGia": "Nhà văn, nhà giáo dục, Mỹ",
+   "nguyenVan": "Although the world is full of suffering, it is full also of the overcoming of it.",
+   "nguon": "Tiểu luận Optimism (Lạc quan), 1903",
+   "yNghia": "Khó khăn nào của doanh nghiệp cũng từng có người vượt qua; hãy tìm và học từ họ."
+  },
+  {
+   "ma": "DN020",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Khi không còn thay đổi được hoàn cảnh, chúng ta được thử thách để thay đổi chính mình.",
+   "tacGia": "Viktor Frankl",
+   "moTaTacGia": "Bác sĩ tâm thần, nhà văn, Áo",
+   "nguyenVan": "When we are no longer able to change a situation ... we are challenged to change ourselves.",
+   "nguon": "Man's Search for Meaning (Đi tìm lẽ sống), phần Logotherapy in a Nutshell, bản Beacon Press 2006",
+   "yNghia": "Không đổi được thị trường thì đổi cách làm, mô hình và tư duy của chính mình."
+  },
+  {
+   "ma": "DN021",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Đã từng thử. Đã từng thất bại. Không sao. Thử lại. Thất bại lần nữa. Thất bại khá hơn.",
+   "tacGia": "Samuel Beckett",
+   "moTaTacGia": "Nhà văn, Nobel Văn học 1969, Ireland",
+   "nguyenVan": "Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.",
+   "nguon": "Tác phẩm Worstward Ho, 1983",
+   "yNghia": "Mỗi lần thử sản phẩm mới, mục tiêu là sai nhỏ hơn và học nhanh hơn lần trước."
+  },
+  {
+   "ma": "DN022",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Kết quả ư? Tôi có cả đống kết quả! Tôi đã biết vài nghìn thứ không hiệu quả.",
+   "tacGia": "Thomas Edison",
+   "moTaTacGia": "Nhà phát minh, doanh nhân, Mỹ",
+   "nguyenVan": "Results! Why, man, I have gotten a lot of results! I know several thousand things that won't work.",
+   "nguon": "Walter S. Mallory kể lại trong sách Edison: His Life and Inventions (Dyer & Martin), 1910; Quote Investigator",
+   "yNghia": "Thử nghiệm không thành cũng là tài sản: nó loại bớt những hướng sai cho lần sau."
+  },
+  {
+   "ma": "DN023",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Hoạch định dài hạn không bàn về những quyết định trong tương lai, mà về tương lai của những quyết định hôm nay.",
+   "tacGia": "Peter Drucker",
+   "moTaTacGia": "Nhà tư tưởng quản trị, Mỹ gốc Áo",
+   "nguyenVan": "[Long-range planning] does not deal with future decisions. It deals with the futurity of present decisions.",
+   "nguon": "Bài Long-Range Planning: Challenge to Management Science, tạp chí Management Science, tháng 4/1959",
+   "yNghia": "Quyết định tuyển người, vay vốn hôm nay đã định hình doanh nghiệp của nhiều năm sau."
+  },
+  {
+   "ma": "DN024",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Cách tốt nhất để dự đoán tương lai là tự tay phát minh ra nó.",
+   "tacGia": "Alan Kay",
+   "moTaTacGia": "Nhà khoa học máy tính, Mỹ",
+   "nguyenVan": "The best way to predict the future is to invent it.",
+   "nguon": "Châm ngôn ông nêu tại Xerox PARC (1971, theo lời ông); in trên tạp chí InfoWorld, 1982; Quote Investigator",
+   "yNghia": "Thay vì chờ xu hướng, hãy chủ động tạo ra sản phẩm và thị trường mình muốn dẫn đầu."
+  },
+  {
+   "ma": "DN025",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Tốt là kẻ thù của vĩ đại.",
+   "tacGia": "Jim Collins",
+   "moTaTacGia": "Nhà nghiên cứu quản trị, Mỹ",
+   "nguyenVan": "Good is the enemy of great.",
+   "nguon": "Câu mở đầu chương 1 sách Good to Great (Từ tốt đến vĩ đại), 2001",
+   "yNghia": "Hài lòng với mức tạm ổn chính là điều giữ chân doanh nghiệp, không cho bứt lên tầm cao mới."
+  },
+  {
+   "ma": "DN026",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Dù tài năng hay nỗ lực lớn đến đâu, có những việc vẫn cần thời gian: chín người cùng mang thai cũng không thể sinh em bé sau một tháng.",
+   "tacGia": "Warren Buffett",
+   "moTaTacGia": "Nhà đầu tư, Mỹ",
+   "nguyenVan": "No matter how great the talent or effort, some things just take time: you can't produce a baby in one month by getting nine women pregnant.",
+   "nguon": "Thư gửi cổ đông Berkshire Hathaway năm 1985",
+   "yNghia": "Uy tín, đội ngũ và khách hàng trung thành không thể mua gấp bằng cách dồn thêm tiền."
+  },
+  {
+   "ma": "DN027",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Tôi tin chắc rằng khoảng một nửa điều phân biệt doanh nhân thành công với người không thành công chính là sự kiên trì.",
+   "tacGia": "Steve Jobs",
+   "moTaTacGia": "Doanh nhân công nghệ, Mỹ",
+   "nguyenVan": "I'm convinced that about half of what separates the successful entrepreneurs from the non-successful ones is pure perseverance.",
+   "nguon": "Phỏng vấn lịch sử truyền miệng Computerworld – Smithsonian, 20/4/1995",
+   "yNghia": "Khi ý tưởng ngang nhau, người trụ lại lâu hơn thường là người chiến thắng."
+  },
+  {
+   "ma": "DN028",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Nếu mọi việc phải thành công trong ba năm, bạn cạnh tranh với rất nhiều người; dám đầu tư cho bảy năm, đối thủ chỉ còn một phần nhỏ.",
+   "tacGia": "Jeff Bezos",
+   "moTaTacGia": "Doanh nhân thương mại điện tử, Mỹ",
+   "nguyenVan": "If everything you do needs to work on a three-year time horizon, then you're competing against a lot of people ... on a seven-year time horizon, you're now competing against a fraction of those people",
+   "nguon": "Phỏng vấn của Steven Levy, tạp chí Wired, đăng ngày 13/11/2011",
+   "yNghia": "Kiên nhẫn đầu tư cho mục tiêu 5–7 năm giúp doanh nghiệp thoát khỏi cuộc đua ngắn hạn chật chội."
+  },
+  {
+   "ma": "DN029",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Cứ để người khác gọi ý tưởng của bạn là điên rồ… cứ đi tiếp. Đừng dừng lại. Thậm chí đừng nghĩ đến chuyện dừng lại cho tới khi đến nơi.",
+   "tacGia": "Phil Knight",
+   "moTaTacGia": "Doanh nhân ngành giày thể thao, Mỹ",
+   "nguyenVan": "Let everyone else call your idea crazy . . . just keep going. Don't stop. Don't even think about stopping until you get there",
+   "nguon": "Hồi ký Shoe Dog (Gã nghiện giày), 2016",
+   "yNghia": "Ý tưởng mới thường bị hoài nghi lúc đầu; bền bỉ theo đuổi là cách để chứng minh."
+  },
+  {
+   "ma": "DN030",
+   "nhom": "TAM_NHIN",
+   "noiDung": "Cuộc sống chẳng dễ dàng với ai trong chúng ta. Nhưng thì đã sao? Phải có lòng kiên trì, và trên hết là niềm tin vào chính mình.",
+   "tacGia": "Marie Curie",
+   "moTaTacGia": "Nhà khoa học, hai lần đoạt Nobel, Ba Lan – Pháp",
+   "nguyenVan": "La vie n'est facile pour aucun de nous. Mais quoi, il faut avoir de la persévérance, et surtout de la confiance en soi.",
+   "nguon": "Thư gửi anh trai Józef, 18/3/1894; in trong sách Madame Curie của Ève Curie, 1937",
+   "yNghia": "Làm chủ doanh nghiệp là chấp nhận khó khăn; kiên trì và tự tin là vốn quý nhất."
+  },
+  {
+   "ma": "DN031",
+   "nhom": "LANH_DAO",
+   "noiDung": "Bản thân mình ngay thẳng thì không cần ra lệnh, người dưới vẫn làm theo; bản thân không ngay thẳng thì dù có ra lệnh, người ta cũng chẳng theo.",
+   "tacGia": "Khổng Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "其身正，不令而行；其身不正，雖令不從。(Kỳ thân chính, bất lệnh nhi hành; kỳ thân bất chính, tuy lệnh bất tòng.)",
+   "nguon": "Luận Ngữ, Thiên Tử Lộ",
+   "yNghia": "Muốn nhân viên đúng giờ, giữ chữ tín, người chủ doanh nghiệp phải làm gương trước."
+  },
+  {
+   "ma": "DN032",
+   "nhom": "LANH_DAO",
+   "noiDung": "Nhiệm vụ của người quản lý là làm cho điểm mạnh của mỗi người phát huy hiệu quả, và khiến điểm yếu của họ không còn quan trọng.",
+   "tacGia": "Peter Drucker",
+   "moTaTacGia": "Nhà tư tưởng quản trị, Mỹ gốc Áo",
+   "nguyenVan": "A manager's task is to make the strengths of people effective and their weakness irrelevant.",
+   "nguon": "Sách Managing for the Future (1992), tr. 139",
+   "yNghia": "Xếp người vào đúng sở trường thay vì mất công sửa mãi sở đoản của họ."
+  },
+  {
+   "ma": "DN033",
+   "nhom": "LANH_DAO",
+   "noiDung": "Bậc cầm đầu giỏi nhất, người dưới chỉ biết là có người ấy. Khi công việc thành, mọi người đều bảo: “Chính chúng ta tự làm nên.”",
+   "tacGia": "Lão Tử",
+   "moTaTacGia": "Nhà triết học, Trung Hoa cổ đại",
+   "nguyenVan": "太上，下知有之……功成事遂，百姓皆謂我自然。(Thái thượng, hạ tri hữu chi… Công thành sự toại, bách tính giai vị ngã tự nhiên.)",
+   "nguon": "Đạo Đức Kinh, Chương 17",
+   "yNghia": "Lãnh đạo giỏi trao việc và trao cả công lao, để đội ngũ thấy thành quả là của chính mình."
+  },
+  {
+   "ma": "DN034",
+   "nhom": "LANH_DAO",
+   "noiDung": "Không gì thay thế được vài lời khen chân thành, khéo chọn và đúng lúc. Chúng hoàn toàn miễn phí mà lại đáng giá cả gia tài.",
+   "tacGia": "Sam Walton",
+   "moTaTacGia": "Nhà sáng lập chuỗi bán lẻ, Mỹ",
+   "nguyenVan": "Nothing else can quite substitute for a few well-chosen, well-timed, sincere words of praise. They're absolutely free—and worth a fortune.",
+   "nguon": "Tự truyện Made in America (1992), quy tắc số 5",
+   "yNghia": "Khen đúng người, đúng việc, đúng lúc là cách giữ nhân viên giỏi ít tốn kém nhất."
+  },
+  {
+   "ma": "DN035",
+   "nhom": "LANH_DAO",
+   "noiDung": "Người làm ra của, của không làm ra người.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn hóa dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Tài sản lớn nhất của doanh nghiệp là con người; giữ được người giỏi quý hơn giữ tiền."
+  },
+  {
+   "ma": "DN036",
+   "nhom": "LANH_DAO",
+   "noiDung": "Lỗi của người quân tử như nhật thực, nguyệt thực: khi mắc lỗi, ai cũng thấy; khi sửa lỗi, ai cũng ngưỡng mộ.",
+   "tacGia": "Tử Cống",
+   "moTaTacGia": "Học trò Khổng Tử, Trung Hoa cổ đại",
+   "nguyenVan": "君子之過也，如日月之食焉：過也，人皆見之；更也，人皆仰之。(Quân tử chi quá dã, như nhật nguyệt chi thực yên: quá dã, nhân giai kiến chi; canh dã, nhân giai ngưỡng chi.)",
+   "nguon": "Luận Ngữ, Thiên Tử Trương",
+   "yNghia": "Người đứng đầu dám công khai nhận sai và sửa nhanh sẽ được đội ngũ nể trọng hơn."
+  },
+  {
+   "ma": "DN037",
+   "nhom": "LANH_DAO",
+   "noiDung": "Lãnh đạo bậc 5 nhìn ra cửa sổ để ghi công cho những yếu tố ngoài bản thân khi mọi việc suôn sẻ, và nhìn vào gương để nhận trách nhiệm khi việc không thành.",
+   "tacGia": "Jim Collins",
+   "moTaTacGia": "Nhà nghiên cứu quản trị, Mỹ",
+   "nguyenVan": "Level 5 leaders look out the window to apportion credit to factors outside themselves when things go well… they look in the mirror to apportion responsibility, never blaming bad luck.",
+   "nguon": "Sách Good to Great (2001), Chương 2",
+   "yNghia": "Thành công thì cảm ơn đội ngũ, thất bại thì tự soi lại mình trước khi trách ai."
+  },
+  {
+   "ma": "DN038",
+   "nhom": "LANH_DAO",
+   "noiDung": "Trên dưới cùng chung một mong muốn thì sẽ thắng.",
+   "tacGia": "Tôn Tử",
+   "moTaTacGia": "Nhà quân sự, Trung Hoa cổ đại",
+   "nguyenVan": "上下同欲者勝。(Thượng hạ đồng dục giả thắng.)",
+   "nguon": "Tôn Tử binh pháp, Thiên Mưu Công",
+   "yNghia": "Chia sẻ rõ mục tiêu và quyền lợi để từ giám đốc đến nhân viên cùng muốn một điều."
+  },
+  {
+   "ma": "DN039",
+   "nhom": "LANH_DAO",
+   "noiDung": "Ít có điều gì giúp ích cho một người hơn là giao trách nhiệm cho họ, và cho họ biết rằng mình tin tưởng họ.",
+   "tacGia": "Booker T. Washington",
+   "moTaTacGia": "Nhà giáo dục, Mỹ",
+   "nguyenVan": "Few things help an individual more than to place responsibility upon him, and to let him know that you trust him.",
+   "nguon": "Tự truyện Up from Slavery (1901), Chương XI",
+   "yNghia": "Giao việc thật kèm niềm tin thật, nhân sự trẻ sẽ lớn nhanh hơn mọi khóa học."
+  },
+  {
+   "ma": "DN040",
+   "nhom": "LANH_DAO",
+   "noiDung": "Người biết thương người thì người khác thường thương lại; người biết kính người thì người khác thường kính lại.",
+   "tacGia": "Mạnh Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "愛人者，人恆愛之；敬人者，人恆敬之。(Ái nhân giả, nhân hằng ái chi; kính nhân giả, nhân hằng kính chi.)",
+   "nguon": "Mạnh Tử, Thiên Ly Lâu hạ",
+   "yNghia": "Tôn trọng nhân viên, đối tác và khách hàng là khoản đầu tư luôn được đáp lại."
+  },
+  {
+   "ma": "DN041",
+   "nhom": "LANH_DAO",
+   "noiDung": "Nếu chỉ nhìn nhận con người đúng như họ đang là, ta khiến họ tệ đi; nếu đối xử như thể họ đã là người họ nên trở thành, ta đưa họ tới nơi họ có thể tới.",
+   "tacGia": "Goethe",
+   "moTaTacGia": "Nhà thơ, nhà văn, Đức",
+   "nguyenVan": "Wenn wir die Menschen nur nehmen, wie sie sind, so machen wir sie schlechter; wenn wir sie behandeln, als wären sie, was sie sein sollten, so bringen wir sie dahin, wohin sie zu bringen sind.",
+   "nguon": "Tiểu thuyết Wilhelm Meisters Lehrjahre (1795–1796), Quyển 8, Chương 4",
+   "yNghia": "Đặt kỳ vọng cao và tin vào tiềm năng giúp nhân viên trẻ vươn lên đúng tầm."
+  },
+  {
+   "ma": "DN042",
+   "nhom": "LANH_DAO",
+   "noiDung": "Người đứng đầu bậc thấp dùng hết tài sức của mình, bậc giữa dùng hết sức lực của người, bậc cao dùng hết trí tuệ của người.",
+   "tacGia": "Hàn Phi Tử",
+   "moTaTacGia": "Nhà tư tưởng Pháp gia, Trung Hoa cổ đại",
+   "nguyenVan": "下君盡己之能，中君盡人之力，上君盡人之智。(Hạ quân tận kỷ chi năng, trung quân tận nhân chi lực, thượng quân tận nhân chi trí.)",
+   "nguon": "Hàn Phi Tử, Thiên Bát Kinh",
+   "yNghia": "Chủ doanh nghiệp đừng ôm hết việc; hãy khơi dậy ý tưởng và trí tuệ của cả đội ngũ."
+  },
+  {
+   "ma": "DN043",
+   "nhom": "LANH_DAO",
+   "noiDung": "Phần lớn mọi người không lắng nghe để hiểu; họ lắng nghe để đáp lời.",
+   "tacGia": "Stephen Covey",
+   "moTaTacGia": "Tác giả sách quản trị, Mỹ",
+   "nguyenVan": "Most people do not listen with the intent to understand; they listen with the intent to reply.",
+   "nguon": "Sách The 7 Habits of Highly Effective People (1989), tr. 239",
+   "yNghia": "Khi nhân viên trình bày hay khách phàn nàn, hãy nghe cho hết rồi mới trả lời."
+  },
+  {
+   "ma": "DN044",
+   "nhom": "LANH_DAO",
+   "noiDung": "Lời nói chẳng mất tiền mua, lựa lời mà nói cho vừa lòng nhau.",
+   "tacGia": "Ca dao Việt Nam",
+   "moTaTacGia": "Văn hóa dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Ca dao Việt Nam",
+   "yNghia": "Góp ý cho nhân viên hay trả lời khách, lời lẽ tử tế luôn đem lại kết quả tốt hơn."
+  },
+  {
+   "ma": "DN045",
+   "nhom": "LANH_DAO",
+   "noiDung": "Người quân tử hòa hợp với người mà không a dua theo người; kẻ tiểu nhân a dua theo người mà không thật lòng hòa hợp.",
+   "tacGia": "Khổng Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "君子和而不同，小人同而不和。(Quân tử hòa nhi bất đồng, tiểu nhân đồng nhi bất hòa.)",
+   "nguon": "Luận Ngữ, Thiên Tử Lộ",
+   "yNghia": "Đội ngũ mạnh là nơi mọi người dám nói ý kiến khác mà vẫn giữ được đoàn kết."
+  },
+  {
+   "ma": "DN046",
+   "nhom": "LANH_DAO",
+   "noiDung": "Khen thì nêu đích danh, còn phê bình thì chỉ nói theo loại việc.",
+   "tacGia": "Tom Murphy",
+   "moTaTacGia": "Doanh nhân truyền thông Mỹ, bạn của Buffett",
+   "nguyenVan": "Praise by name, criticize by category.",
+   "nguon": "Warren Buffett thuật lại lời khuyên này trong Thư gửi cổ đông Berkshire Hathaway năm 2024 (công bố 2/2025)",
+   "yNghia": "Khen ai hãy gọi tên trước tập thể; góp ý thì nói về việc, đừng bêu tên người."
+  },
+  {
+   "ma": "DN047",
+   "nhom": "LANH_DAO",
+   "noiDung": "Sông biển sở dĩ làm vua của trăm khe suối là vì khéo ở chỗ thấp hơn chúng.",
+   "tacGia": "Lão Tử",
+   "moTaTacGia": "Nhà triết học, Trung Hoa cổ đại",
+   "nguyenVan": "江海所以能為百谷王者，以其善下之。(Giang hải sở dĩ năng vi bách cốc vương giả, dĩ kỳ thiện hạ chi.)",
+   "nguon": "Đạo Đức Kinh, Chương 66",
+   "yNghia": "Người đứng đầu biết hạ mình lắng nghe thì nhân tài và cơ hội sẽ tự tìm đến."
+  },
+  {
+   "ma": "DN048",
+   "nhom": "LANH_DAO",
+   "noiDung": "Tài năng giúp thắng từng trận, nhưng tinh thần đồng đội và trí tuệ mới giành được chức vô địch.",
+   "tacGia": "Michael Jordan",
+   "moTaTacGia": "Huyền thoại bóng rổ, Mỹ",
+   "nguyenVan": "Talent wins games, but teamwork and intelligence wins championships.",
+   "nguon": "Sách I Can't Accept Not Trying (1994), tr. 129",
+   "yNghia": "Một ngôi sao bán hàng không giữ nổi doanh nghiệp bằng một đội ngũ phối hợp nhịp nhàng."
+  },
+  {
+   "ma": "DN049",
+   "nhom": "LANH_DAO",
+   "noiDung": "Mỗi ngày tôi tự xét mình ba điều: làm việc cho người có hết lòng chăng? Giao với bạn có giữ chữ tín chăng? Điều thầy dạy có đem ra thực hành chăng?",
+   "tacGia": "Tăng Tử",
+   "moTaTacGia": "Học trò Khổng Tử, Trung Hoa cổ đại",
+   "nguyenVan": "吾日三省吾身：為人謀而不忠乎？與朋友交而不信乎？傳不習乎？(Ngô nhật tam tỉnh ngô thân: vị nhân mưu nhi bất trung hồ? Dữ bằng hữu giao nhi bất tín hồ? Truyền bất tập hồ?)",
+   "nguon": "Luận Ngữ, Thiên Học Nhi",
+   "yNghia": "Cuối ngày dành vài phút tự hỏi: mình đã tận tâm với khách, giữ lời với đối tác chưa?"
+  },
+  {
+   "ma": "DN050",
+   "nhom": "LANH_DAO",
+   "noiDung": "Hình thái cao nhất mà một nền văn minh có thể đạt tới là một mạng lưới liền mạch của những niềm tin xứng đáng.",
+   "tacGia": "Charlie Munger",
+   "moTaTacGia": "Nhà đầu tư, Mỹ",
+   "nguyenVan": "The highest form that civilization can reach is a seamless web of deserved trust.",
+   "nguon": "Diễn văn tốt nghiệp Trường Luật Đại học USC (2007)",
+   "yNghia": "Cộng đồng doanh nhân vững mạnh khi mỗi người sống xứng đáng với niềm tin anh em trao cho."
+  },
+  {
+   "ma": "DN051",
+   "nhom": "LANH_DAO",
+   "noiDung": "Người quân tử không vì lời nói hay mà đề cử người, cũng không vì người ấy thế nào mà gạt bỏ lời nói phải của họ.",
+   "tacGia": "Khổng Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "君子不以言舉人，不以人廢言。(Quân tử bất dĩ ngôn cử nhân, bất dĩ nhân phế ngôn.)",
+   "nguon": "Luận Ngữ, Thiên Vệ Linh Công",
+   "yNghia": "Đề bạt nhân sự theo việc làm thật; ý kiến hay của người mới cũng đáng được lắng nghe."
+  },
+  {
+   "ma": "DN052",
+   "nhom": "LANH_DAO",
+   "noiDung": "Nhà quản lý là người làm mọi việc đúng cách, còn nhà lãnh đạo là người làm đúng việc.",
+   "tacGia": "Warren Bennis & Burt Nanus",
+   "moTaTacGia": "Học giả về lãnh đạo, Mỹ",
+   "nguyenVan": "Managers are people who do things right and leaders are people who do the right thing.",
+   "nguon": "Sách Leaders: The Strategies for Taking Charge (1985), tr. 21",
+   "yNghia": "Trước khi thúc đội ngũ làm nhanh, hãy chắc chắn cả công ty đang làm đúng việc cần làm."
+  },
+  {
+   "ma": "DN053",
+   "nhom": "LANH_DAO",
+   "noiDung": "Người làm tướng phải có đủ: trí tuệ, chữ tín, lòng nhân, sự dũng cảm và tính nghiêm minh.",
+   "tacGia": "Tôn Tử",
+   "moTaTacGia": "Nhà quân sự, Trung Hoa cổ đại",
+   "nguyenVan": "將者，智、信、仁、勇、嚴也。(Tướng giả, trí, tín, nhân, dũng, nghiêm dã.)",
+   "nguon": "Tôn Tử binh pháp, Thiên Thủy Kế",
+   "yNghia": "Tự chấm mình theo năm phẩm chất này; điểm nào thấp nhất là việc cần rèn trước."
+  },
+  {
+   "ma": "DN054",
+   "nhom": "LANH_DAO",
+   "noiDung": "Chúng tôi xây dựng những con người tuyệt vời, rồi chính họ làm ra những sản phẩm và dịch vụ tuyệt vời.",
+   "tacGia": "Jack Welch",
+   "moTaTacGia": "Nhà quản trị doanh nghiệp, Mỹ",
+   "nguyenVan": "We build great people, who then build great products and services.",
+   "nguon": "Tự truyện Jack: Straight from the Gut (2001), Chương 11",
+   "yNghia": "Đầu tư đào tạo con người trước, chất lượng sản phẩm và dịch vụ sẽ theo sau."
+  },
+  {
+   "ma": "DN055",
+   "nhom": "LANH_DAO",
+   "noiDung": "Biết bỏ ý mình để theo người, vui lòng học lấy điều hay của người khác mà làm điều thiện.",
+   "tacGia": "Mạnh Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "舍己從人，樂取於人以為善。(Xả kỷ tòng nhân, lạc thủ ư nhân dĩ vi thiện.)",
+   "nguon": "Mạnh Tử, Thiên Công Tôn Sửu thượng (lời khen vua Thuấn)",
+   "yNghia": "Lãnh đạo giỏi không cần ý mình luôn đúng, mà biết chọn ý đúng của bất kỳ ai."
+  },
+  {
+   "ma": "DN056",
+   "nhom": "LANH_DAO",
+   "noiDung": "Đừng cố trở thành một người thành công, mà hãy cố trở thành một người có giá trị.",
+   "tacGia": "Albert Einstein",
+   "moTaTacGia": "Nhà vật lý, Đức – Mỹ",
+   "nguyenVan": "Try not to become a man of success but rather try to become a man of value.",
+   "nguon": "Lời nói với William Miller, đăng trên tạp chí LIFE, số ra ngày 2/5/1955",
+   "yNghia": "Doanh nghiệp đáng quý là doanh nghiệp cho khách hàng và cộng đồng nhiều hơn điều mình nhận."
+  },
+  {
+   "ma": "DN057",
+   "nhom": "LANH_DAO",
+   "noiDung": "Thương người như thể thương thân.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn hóa dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Lo cho nhân viên, đối tác như lo cho chính mình, họ sẽ gắn bó với doanh nghiệp lâu dài."
+  },
+  {
+   "ma": "DN058",
+   "nhom": "LANH_DAO",
+   "noiDung": "Kẻ ngốc nào cũng có thể chỉ trích, lên án và phàn nàn, và đa số kẻ ngốc đều làm thế. Nhưng phải có bản lĩnh và sự tự chủ mới thấu hiểu và tha thứ được.",
+   "tacGia": "Dale Carnegie",
+   "moTaTacGia": "Nhà văn, diễn giả, Mỹ",
+   "nguyenVan": "Any fool can criticize, condemn and complain—and most fools do. But it takes character and self-control to be understanding and forgiving.",
+   "nguon": "Sách How to Win Friends and Influence People (1936), Phần 1",
+   "yNghia": "Trước khi trách nhân viên, hãy tìm hiểu vì sao họ làm vậy; thấu hiểu sửa sai tốt hơn chê bai."
+  },
+  {
+   "ma": "DN059",
+   "nhom": "LANH_DAO",
+   "noiDung": "Điều gì không đúng thì đừng làm; điều gì không thật thì đừng nói.",
+   "tacGia": "Marcus Aurelius",
+   "moTaTacGia": "Triết gia Khắc kỷ, La Mã cổ đại",
+   "nguyenVan": "If it is not right, do not do it; if it is not true, do not say it.",
+   "nguon": "Suy tưởng (Meditations), Quyển XII, mục 17 (bản dịch tiếng Anh)",
+   "yNghia": "Quảng bá sản phẩm, báo cáo với cổ đông hay hứa với khách: chỉ làm điều đúng, nói điều thật."
+  },
+  {
+   "ma": "DN060",
+   "nhom": "LANH_DAO",
+   "noiDung": "Kết quả cuộc đời và công việc = Cách suy nghĩ × Nhiệt huyết × Năng lực. Cách suy nghĩ là thái độ sống, có thể từ âm 100 đến dương 100 điểm.",
+   "tacGia": "Inamori Kazuo",
+   "moTaTacGia": "Nhà sáng lập doanh nghiệp, Nhật Bản",
+   "nguyenVan": "人生・仕事の結果＝考え方×熱意×能力。考え方とは生きる姿勢でありマイナス100点からプラス100点まであります。",
+   "nguon": "“Phương trình cuộc đời” trong bộ triết lý của Inamori, trang chính thức Inamori Kazuo",
+   "yNghia": "Tài giỏi mà suy nghĩ lệch thì kết quả thành âm; tuyển và đề bạt người, hãy xem thái độ trước."
+  },
+  {
+   "ma": "DN061",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Chỉ có một định nghĩa đúng về mục đích của kinh doanh: tạo ra khách hàng.",
+   "tacGia": "Peter Drucker",
+   "moTaTacGia": "Nhà tư tưởng quản trị, Mỹ gốc Áo",
+   "nguyenVan": "There is only one valid definition of business purpose: to create a customer.",
+   "nguon": "The Practice of Management, 1954, tr. 37",
+   "yNghia": "Doanh thu, lợi nhuận là kết quả; việc chính mỗi ngày là tạo ra và giữ chân khách hàng."
+  },
+  {
+   "ma": "DN062",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Người kinh doanh nào cũng cần hiểu: một ngành là quá trình làm hài lòng khách hàng, chứ không phải quá trình sản xuất hàng hóa.",
+   "tacGia": "Theodore Levitt",
+   "moTaTacGia": "Giáo sư marketing Đại học Harvard, Mỹ",
+   "nguyenVan": "The view that an industry is a customer-satisfying process, not a goods-producing process, is vital for all businessmen to understand.",
+   "nguon": "Bài \"Marketing Myopia\", Harvard Business Review, số 7–8/1960",
+   "yNghia": "Hãy định nghĩa công ty theo nhu cầu mình giải quyết cho khách, không theo món hàng mình làm ra."
+  },
+  {
+   "ma": "DN063",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Hãy vượt trên kỳ vọng của khách hàng. Làm được vậy, họ sẽ quay lại với bạn hết lần này đến lần khác.",
+   "tacGia": "Sam Walton",
+   "moTaTacGia": "Doanh nhân ngành bán lẻ, Mỹ",
+   "nguyenVan": "Exceed your customers' expectations. If you do, they'll come back over and over.",
+   "nguon": "Hồi ký Sam Walton: Made in America, 1992, quy tắc số 8 trong \"10 quy tắc kinh doanh\"",
+   "yNghia": "Cho khách thêm một chút ngoài điều đã hứa là cách rẻ nhất để có khách quen."
+  },
+  {
+   "ma": "DN064",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Những khách hàng không hài lòng nhất chính là nguồn học hỏi lớn nhất của bạn.",
+   "tacGia": "Bill Gates",
+   "moTaTacGia": "Doanh nhân công nghệ, Mỹ",
+   "nguyenVan": "Your most unhappy customers are your greatest source of learning.",
+   "nguon": "Sách Business @ the Speed of Thought, 1999",
+   "yNghia": "Mỗi lời phàn nàn là một buổi tư vấn miễn phí để doanh nghiệp tự sửa mình."
+  },
+  {
+   "ma": "DN065",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Một điều tôi quý ở khách hàng là họ không bao giờ thấy đủ: kỳ vọng của họ chẳng hề đứng yên, mà luôn tăng lên.",
+   "tacGia": "Jeff Bezos",
+   "moTaTacGia": "Doanh nhân thương mại điện tử, Mỹ",
+   "nguyenVan": "One thing I love about customers is that they are divinely discontent. Their expectations are never static – they go up.",
+   "nguon": "Thư gửi cổ đông Amazon năm 2017 (công bố tháng 4/2018)",
+   "yNghia": "Điều khiến khách trầm trồ hôm qua là bình thường hôm nay; sản phẩm phải nâng cấp liên tục."
+  },
+  {
+   "ma": "DN066",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Phải bắt đầu từ trải nghiệm của khách hàng, rồi mới đi ngược về công nghệ.",
+   "tacGia": "Steve Jobs",
+   "moTaTacGia": "Doanh nhân, nhà sáng tạo công nghệ, Mỹ",
+   "nguyenVan": "You've got to start with the customer experience and work backwards to the technology.",
+   "nguon": "Phát biểu tại hội nghị WWDC 1997 (có video ghi hình)",
+   "yNghia": "Hỏi \"khách được lợi gì\" trước khi hỏi \"mình đang có máy móc, phần mềm gì\"."
+  },
+  {
+   "ma": "DN067",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Chỉ riêng quảng cáo và khuyến mãi thì không giữ nổi một sản phẩm tồi, hay một sản phẩm không hợp thời.",
+   "tacGia": "Akio Morita",
+   "moTaTacGia": "Doanh nhân ngành điện tử, Nhật Bản",
+   "nguyenVan": "Advertising and promotion alone will not sustain a bad product or a product that is not right for the times.",
+   "nguon": "Made in Japan: Akio Morita and Sony, 1986, tr. 158",
+   "yNghia": "Tiền quảng cáo chỉ đưa khách đến; chất lượng mới giữ được khách ở lại."
+  },
+  {
+   "ma": "DN068",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Chất lượng không nằm ở những gì nhà cung cấp bỏ vào, mà ở những gì khách hàng nhận được và sẵn lòng trả tiền.",
+   "tacGia": "Peter Drucker",
+   "moTaTacGia": "Nhà tư tưởng quản trị, Mỹ gốc Áo",
+   "nguyenVan": "Quality in a product or service is not what the supplier puts in. It is what the customer gets out and is willing to pay for.",
+   "nguon": "Innovation and Entrepreneurship, 1985",
+   "yNghia": "Đo chất lượng bằng giá trị khách cảm nhận, không phải bằng công sức mình đã bỏ ra."
+  },
+  {
+   "ma": "DN069",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Chất lượng không đến từ khâu kiểm tra, mà từ việc cải tiến quy trình sản xuất.",
+   "tacGia": "W. Edwards Deming",
+   "moTaTacGia": "Chuyên gia quản lý chất lượng, Mỹ",
+   "nguyenVan": "Quality comes not from inspection, but from improvement of the production process.",
+   "nguon": "Out of the Crisis, MIT, 1982/1986, tr. 29",
+   "yNghia": "Đừng chỉ bắt lỗi thành phẩm; hãy sửa cách làm để lỗi không sinh ra ngay từ đầu."
+  },
+  {
+   "ma": "DN070",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Chất lượng là miễn phí. Thứ tốn tiền là sự thiếu chất lượng: mọi việc không được làm đúng ngay từ lần đầu.",
+   "tacGia": "Philip B. Crosby",
+   "moTaTacGia": "Chuyên gia quản lý chất lượng, Mỹ",
+   "nguyenVan": "Quality is free. It's not a gift, but it is free. What costs money are the unquality things – all the actions that involve not doing jobs right the first time.",
+   "nguon": "Quality Is Free, McGraw-Hill, 1979",
+   "yNghia": "Làm đúng ngay lần đầu rẻ hơn mọi chi phí sửa hàng, đổi hàng và mất khách."
+  },
+  {
+   "ma": "DN071",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Dường như sự hoàn hảo đạt được không phải khi chẳng còn gì để thêm vào, mà khi chẳng còn gì để bớt đi.",
+   "tacGia": "Antoine de Saint-Exupéry",
+   "moTaTacGia": "Nhà văn, phi công, Pháp",
+   "nguyenVan": "Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retrancher.",
+   "nguon": "Terre des hommes, 1939, chương III \"L'Avion\"",
+   "yNghia": "Sản phẩm, dịch vụ tốt là khi đã gọt bỏ mọi thứ rườm rà mà khách không cần."
+  },
+  {
+   "ma": "DN072",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Thiết kế không chỉ là trông thế nào, cảm thấy ra sao. Thiết kế là cách nó vận hành.",
+   "tacGia": "Steve Jobs",
+   "moTaTacGia": "Doanh nhân, nhà sáng tạo công nghệ, Mỹ",
+   "nguyenVan": "It's not just what it looks like and feels like. Design is how it works.",
+   "nguon": "Phỏng vấn của Rob Walker, \"The Guts of a New Machine\", The New York Times Magazine, 30/11/2003",
+   "yNghia": "Đẹp mắt mới là một nửa; sản phẩm còn phải dùng tốt, bền và tiện cho khách."
+  },
+  {
+   "ma": "DN073",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Người thợ muốn làm tốt công việc, trước hết phải mài sắc công cụ của mình.",
+   "tacGia": "Khổng Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "工欲善其事，必先利其器 (Công dục thiện kỳ sự, tất tiên lợi kỳ khí)",
+   "nguon": "Luận Ngữ, Thiên Vệ Linh Công (15.10)",
+   "yNghia": "Đầu tư cho công cụ, quy trình và tay nghề trước khi đòi hỏi kết quả cao."
+  },
+  {
+   "ma": "DN074",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Người ta làm việc thường hỏng ở lúc sắp thành. Cẩn trọng lúc kết thúc như lúc bắt đầu thì không hỏng việc.",
+   "tacGia": "Lão Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "民之從事，常於幾成而敗之。慎終如始，則無敗事 (Dân chi tòng sự, thường ư cơ thành nhi bại chi. Thận chung như thủy, tắc vô bại sự)",
+   "nguon": "Đạo Đức Kinh, chương 64",
+   "yNghia": "Khâu hoàn thiện, đóng gói, giao hàng cũng phải chỉn chu như ngày đầu nhận đơn."
+  },
+  {
+   "ma": "DN075",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Dù mắt tinh như Ly Lâu, tay khéo như Công Thâu, không dùng compa và thước thợ thì cũng không vẽ nổi hình vuông, hình tròn.",
+   "tacGia": "Mạnh Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "離婁之明，公輸子之巧，不以規矩，不能成方員 (Ly Lâu chi minh, Công Thâu Tử chi xảo, bất dĩ quy củ, bất năng thành phương viên)",
+   "nguon": "Mạnh Tử, Thiên Ly Lâu thượng",
+   "yNghia": "Người giỏi đến đâu cũng cần tiêu chuẩn, quy trình rõ thì chất lượng mới đều tay."
+  },
+  {
+   "ma": "DN076",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Con đê nghìn trượng vỡ vì một tổ kiến; căn nhà trăm thước cháy vì đốm lửa lọt qua khe hở ống khói.",
+   "tacGia": "Hàn Phi Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "千丈之堤，以螻蟻之穴潰；百尺之室，以突隙之煙焚 (Thiên trượng chi đê, dĩ lâu nghĩ chi huyệt hội; bách xích chi thất, dĩ đột khích chi yên phần)",
+   "nguon": "Hàn Phi Tử, Thiên Dụ Lão",
+   "yNghia": "Một lỗi nhỏ bị bỏ qua có thể làm sụp uy tín cả thương hiệu; hãy vá ngay khi thấy."
+  },
+  {
+   "ma": "DN077",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Những gì phải học rồi mới làm được, ta học bằng cách làm: người ta thành thợ xây nhờ xây nhà, thành người chơi đàn nhờ chơi đàn.",
+   "tacGia": "Aristotle",
+   "moTaTacGia": "Triết gia, Hy Lạp cổ đại",
+   "nguyenVan": "For the things we have to learn before we can do them, we learn by doing them, e.g. men become builders by building and lyreplayers by playing the lyre.",
+   "nguon": "Đạo đức học Nicomachus (Nicomachean Ethics), Quyển II, 1103a; bản dịch tiếng Anh của W. D. Ross",
+   "yNghia": "Tay nghề không đến từ sách vở mà từ làm đi làm lại mỗi ngày với tiêu chuẩn cao."
+  },
+  {
+   "ma": "DN078",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Tốt gỗ hơn tốt nước sơn.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Bao bì, quảng cáo đẹp chỉ là lớp sơn; thứ giữ khách lâu dài là chất lượng thật."
+  },
+  {
+   "ma": "DN079",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Nhất nghệ tinh, nhất thân vinh.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Tinh thông một nghề đến nơi đến chốn là nền móng vững nhất của mọi thương hiệu."
+  },
+  {
+   "ma": "DN080",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Đổi mới là công cụ đặc thù của doanh nhân: hành động trao cho nguồn lực một năng lực mới để tạo ra của cải.",
+   "tacGia": "Peter Drucker",
+   "moTaTacGia": "Nhà tư tưởng quản trị, Mỹ gốc Áo",
+   "nguyenVan": "Innovation is the specific instrument of entrepreneurship. It is the act that endows resources with a new capacity to create wealth.",
+   "nguon": "Innovation and Entrepreneurship, 1985",
+   "yNghia": "Cùng tiền, cùng người, cùng xưởng, đổi cách làm có thể tạo ra giá trị gấp nhiều lần."
+  },
+  {
+   "ma": "DN081",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Trí tưởng tượng quan trọng hơn kiến thức. Kiến thức thì có hạn, còn trí tưởng tượng bao trùm cả thế giới.",
+   "tacGia": "Albert Einstein",
+   "moTaTacGia": "Nhà vật lý, gốc Đức",
+   "nguyenVan": "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+   "nguon": "Phỏng vấn của G. S. Viereck, \"What Life Means to Einstein\", The Saturday Evening Post, 26/10/1929; Quote Investigator xác nhận",
+   "yNghia": "Thị trường không thiếu người biết nhiều; cái hiếm là người dám hình dung cách làm mới."
+  },
+  {
+   "ma": "DN082",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Việc cần làm không hẳn là thấy điều chưa ai thấy, mà là nghĩ ra điều chưa ai nghĩ về chính cái mà ai cũng thấy.",
+   "tacGia": "Arthur Schopenhauer",
+   "moTaTacGia": "Triết gia, Đức",
+   "nguyenVan": "Daher ist die Aufgabe nicht sowohl zu sehen was noch keiner gesehen hat, als bei Dem was Jeder sieht, zu denken was noch Keiner gedacht hat.",
+   "nguon": "Parerga und Paralipomena, tập II, §76, 1851; Quote Investigator xác nhận là gốc của câu hay bị gán cho Szent-Györgyi",
+   "yNghia": "Cơ hội kinh doanh thường nằm ngay trong những phiền toái khách gặp hằng ngày."
+  },
+  {
+   "ma": "DN083",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Nếu một ngày làm mới được mình, thì hãy ngày ngày làm mới, lại làm mới thêm nữa.",
+   "tacGia": "Sách Đại Học",
+   "moTaTacGia": "Kinh điển Trung Hoa cổ đại",
+   "nguyenVan": "苟日新，日日新，又日新 (Cẩu nhật tân, nhật nhật tân, hựu nhật tân)",
+   "nguon": "Đại Học, chương 2 (dẫn lời khắc trên bồn tắm của vua Thang)",
+   "yNghia": "Mỗi ngày cải tiến một điều nhỏ, một năm sau doanh nghiệp đã khác hẳn."
+  },
+  {
+   "ma": "DN084",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Ôn lại điều cũ mà biết thêm điều mới, người như thế có thể làm thầy.",
+   "tacGia": "Khổng Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "溫故而知新，可以為師矣 (Ôn cố nhi tri tân, khả dĩ vi sư hĩ)",
+   "nguon": "Luận Ngữ, Thiên Vi Chính (2.11)",
+   "yNghia": "Đổi mới bền vững bắt đầu từ việc rút kinh nghiệm kỹ những gì mình đã làm."
+  },
+  {
+   "ma": "DN085",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Cái khó không nằm ở những ý tưởng mới, mà ở việc thoát ra khỏi những ý tưởng cũ.",
+   "tacGia": "John Maynard Keynes",
+   "moTaTacGia": "Nhà kinh tế học, Anh",
+   "nguyenVan": "The difficulty lies, not in the new ideas, but in escaping from the old ones.",
+   "nguon": "Lời tựa The General Theory of Employment, Interest and Money, 1936",
+   "yNghia": "Muốn đổi mới, trước hết phải dám bỏ câu \"xưa nay vẫn làm vậy\"."
+  },
+  {
+   "ma": "DN086",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Đến chỗ cùng thì phải biến đổi, biến đổi thì thông suốt, thông suốt thì lâu bền.",
+   "tacGia": "Kinh Dịch",
+   "moTaTacGia": "Kinh điển Trung Hoa cổ đại",
+   "nguyenVan": "易窮則變，變則通，通則久 (Dịch cùng tắc biến, biến tắc thông, thông tắc cửu)",
+   "nguon": "Chu Dịch, Hệ Từ hạ truyện, chương 2",
+   "yNghia": "Khi cách cũ không còn hiệu quả, đổi mới là con đường để doanh nghiệp đi xa."
+  },
+  {
+   "ma": "DN087",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Dùng binh không có thế cố định, nước không có hình cố định; ai biết theo sự biến đổi của đối phương mà giành thắng lợi, gọi là bậc thần.",
+   "tacGia": "Tôn Tử",
+   "moTaTacGia": "Nhà quân sự, Trung Hoa cổ đại",
+   "nguyenVan": "兵無常勢，水無常形；能因敵變化而取勝者，謂之神 (Binh vô thường thế, thủy vô thường hình; năng nhân địch biến hóa nhi thủ thắng giả, vị chi thần)",
+   "nguon": "Tôn Tử binh pháp, Thiên Hư Thực",
+   "yNghia": "Thị trường đổi thì cách bán phải đổi; linh hoạt như nước là lợi thế của doanh nghiệp nhỏ."
+  },
+  {
+   "ma": "DN088",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Thời biến động lớn, người đang học mới là người thừa hưởng tương lai; người đã học xong thường chỉ được trang bị cho một thế giới không còn nữa.",
+   "tacGia": "Eric Hoffer",
+   "moTaTacGia": "Nhà văn, triết gia xã hội, Mỹ",
+   "nguyenVan": "In a time of drastic change it is the learners who inherit the future. The learned usually find themselves equipped to live in a world that no longer exists.",
+   "nguon": "Reflections on the Human Condition, 1973, chương 1, mục 32",
+   "yNghia": "Kinh nghiệm cũ là vốn quý, nhưng thói quen học cái mới mới giữ doanh nghiệp đứng vững."
+  },
+  {
+   "ma": "DN089",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Thành công trong kinh doanh chứa sẵn mầm mống hủy diệt chính nó.",
+   "tacGia": "Andy Grove",
+   "moTaTacGia": "Doanh nhân công nghệ, Mỹ gốc Hungary",
+   "nguyenVan": "Business success contains the seeds of its own destruction.",
+   "nguon": "Only the Paranoid Survive, 1996, Lời tựa",
+   "yNghia": "Lúc bán chạy nhất là lúc cần tỉnh táo nhất, vì đối thủ đang học theo từng bước."
+  },
+  {
+   "ma": "DN090",
+   "nhom": "KHACH_HANG",
+   "noiDung": "Có ai sợ thay đổi chăng? Nhưng có điều gì xảy ra được mà không cần thay đổi?",
+   "tacGia": "Marcus Aurelius",
+   "moTaTacGia": "Triết gia khắc kỷ, La Mã cổ đại",
+   "nguyenVan": "Is any man afraid of change? Why, what can take place without change?",
+   "nguon": "Suy tưởng (Meditations), Quyển VII, 18; bản dịch tiếng Anh của George Long",
+   "yNghia": "Muốn lớn lên, doanh nghiệp phải chấp nhận đổi cách làm, đổi cả chính người chủ."
+  },
+  {
+   "ma": "DN091",
+   "nhom": "TU_DUY",
+   "noiDung": "Làm điều bất nghĩa mà được giàu sang, thì với ta cũng chỉ như đám mây nổi.",
+   "tacGia": "Khổng Tử",
+   "moTaTacGia": "Nhà tư tưởng, nhà giáo dục, Trung Hoa cổ đại",
+   "nguyenVan": "不義而富且貴，於我如浮雲 (Bất nghĩa nhi phú thả quý, ư ngã như phù vân)",
+   "nguon": "Luận Ngữ, Thiên Thuật Nhi",
+   "yNghia": "Tiền kiếm bằng cách lừa khách hay lách luật không bền; uy tín mới là tài sản giữ được lâu."
+  },
+  {
+   "ma": "DN092",
+   "nhom": "TU_DUY",
+   "noiDung": "Chúng tôi chỉ đơn giản cố gắng biết sợ khi người khác tham lam, và chỉ tham khi người khác sợ hãi.",
+   "tacGia": "Warren Buffett",
+   "moTaTacGia": "Nhà đầu tư huyền thoại, Mỹ",
+   "nguyenVan": "We simply attempt to be fearful when others are greedy and to be greedy only when others are fearful.",
+   "nguon": "Thư gửi cổ đông Berkshire Hathaway năm 1986",
+   "yNghia": "Lúc thị trường hưng phấn hãy thận trọng; lúc mọi người hoảng loạn lại là lúc tỉnh táo tìm cơ hội."
+  },
+  {
+   "ma": "DN093",
+   "nhom": "TU_DUY",
+   "noiDung": "Kiến tha lâu cũng đầy tổ.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Kho tàng dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Tích lũy đều đặn từng khoản lời nhỏ, từng khách hàng một, lâu dần sẽ thành cơ nghiệp."
+  },
+  {
+   "ma": "DN094",
+   "nhom": "TU_DUY",
+   "noiDung": "Không gì vô ích bằng việc làm thật hiệu quả một điều lẽ ra không nên làm.",
+   "tacGia": "Peter Drucker",
+   "moTaTacGia": "Cha đẻ ngành quản trị hiện đại, Mỹ gốc Áo",
+   "nguyenVan": "There is surely nothing quite so useless as doing with great efficiency what should not be done at all.",
+   "nguon": "Bài \"Managing for Business Effectiveness\", Harvard Business Review, số tháng 5–6/1963",
+   "yNghia": "Trước khi tối ưu một quy trình, hãy hỏi việc đó có còn tạo ra giá trị cho khách không."
+  },
+  {
+   "ma": "DN095",
+   "nhom": "TU_DUY",
+   "noiDung": "Không phải ta có quá ít thời gian, mà là ta đã phung phí quá nhiều.",
+   "tacGia": "Seneca",
+   "moTaTacGia": "Triết gia khắc kỷ, La Mã cổ đại",
+   "nguyenVan": "Non exiguum temporis habemus, sed multum perdidimus.",
+   "nguon": "De Brevitate Vitae (Bàn về sự ngắn ngủi của đời người), chương 1",
+   "yNghia": "Bớt một cuộc họp vô ích mỗi tuần là có thêm thời gian cho khách hàng và cho gia đình."
+  },
+  {
+   "ma": "DN096",
+   "nhom": "TU_DUY",
+   "noiDung": "Vấn đề chính của nhà đầu tư, thậm chí là kẻ thù tệ hại nhất của họ, nhiều khả năng lại chính là bản thân họ.",
+   "tacGia": "Benjamin Graham",
+   "moTaTacGia": "Cha đẻ trường phái đầu tư giá trị, Mỹ",
+   "nguyenVan": "The investor's chief problem—and even his worst enemy—is likely to be himself.",
+   "nguon": "Sách The Intelligent Investor (Nhà đầu tư thông minh), bản sửa năm 1973",
+   "yNghia": "Trước mỗi quyết định tiền bạc, hãy tự hỏi mình đang nghĩ bằng lý trí hay bằng cảm xúc."
+  },
+  {
+   "ma": "DN097",
+   "nhom": "TU_DUY",
+   "noiDung": "Người không hiểu thấu hết cái hại của việc dụng binh thì cũng không thể hiểu thấu hết cái lợi của nó.",
+   "tacGia": "Tôn Tử",
+   "moTaTacGia": "Nhà quân sự, tác giả Binh pháp, Trung Hoa cổ đại",
+   "nguyenVan": "不盡知用兵之害者，則不能盡知用兵之利也 (Bất tận tri dụng binh chi hại giả, tắc bất năng tận tri dụng binh chi lợi dã)",
+   "nguon": "Binh pháp Tôn Tử, Thiên Tác Chiến (thiên thứ 2)",
+   "yNghia": "Trước mỗi dự án, hãy tính kỹ kịch bản xấu nhất; hiểu rõ rủi ro mới nắm chắc được phần lời."
+  },
+  {
+   "ma": "DN098",
+   "nhom": "TU_DUY",
+   "noiDung": "Hầu hết quyết định có lẽ nên được đưa ra khi có khoảng 70% lượng thông tin bạn mong có. Nếu đợi đủ 90%, phần lớn trường hợp là bạn đã chậm.",
+   "tacGia": "Jeff Bezos",
+   "moTaTacGia": "Doanh nhân công nghệ, Mỹ",
+   "nguyenVan": "Most decisions should probably be made with somewhere around 70% of the information you wish you had. If you wait for 90%, in most cases, you're probably being slow.",
+   "nguon": "Thư gửi cổ đông Amazon năm 2016",
+   "yNghia": "Đủ dữ liệu cốt lõi thì quyết, sai thì sửa nhanh; chần chừ mới là cái giá chắc chắn phải trả."
+  },
+  {
+   "ma": "DN099",
+   "nhom": "TU_DUY",
+   "noiDung": "Hãy coi chừng những khoản chi nhỏ; một lỗ rò nhỏ cũng đủ làm chìm con tàu lớn.",
+   "tacGia": "Benjamin Franklin",
+   "moTaTacGia": "Nhà khoa học, nhà văn, Mỹ thế kỷ 18",
+   "nguyenVan": "Beware of little expenses; a small leak will sink a great ship.",
+   "nguon": "Poor Richard's Almanack, 1745; in lại trong The Way to Wealth (1758)",
+   "yNghia": "Rà định kỳ các khoản phí nhỏ lặp lại hằng tháng; cộng dồn cả năm có khi bằng cả một khoản lãi."
+  },
+  {
+   "ma": "DN100",
+   "nhom": "TU_DUY",
+   "noiDung": "Biết đủ là giàu; gắng sức mà làm là người có chí.",
+   "tacGia": "Lão Tử",
+   "moTaTacGia": "Triết gia Đạo gia, Trung Hoa cổ đại",
+   "nguyenVan": "知足者富，強行者有志 (Tri túc giả phú, cường hành giả hữu chí)",
+   "nguon": "Đạo Đức Kinh, Chương 33",
+   "yNghia": "Tham vọng lớn vẫn cần biết điểm dừng về rủi ro; bền chí mới đưa doanh nghiệp đi đường dài."
+  },
+  {
+   "ma": "DN101",
+   "nhom": "TU_DUY",
+   "noiDung": "Nguyên tắc đầu tiên là đừng tự lừa mình, mà chính bạn lại là người dễ bị lừa nhất.",
+   "tacGia": "Richard Feynman",
+   "moTaTacGia": "Nhà vật lý, Nobel Vật lý 1965, Mỹ",
+   "nguyenVan": "The first principle is that you must not fool yourself—and you are the easiest person to fool.",
+   "nguon": "Diễn văn tốt nghiệp \"Cargo Cult Science\", Đại học Caltech, 1974",
+   "yNghia": "Đọc số liệu kinh doanh của chính mình bằng ánh mắt khắt khe như khi thẩm định người khác."
+  },
+  {
+   "ma": "DN102",
+   "nhom": "TU_DUY",
+   "noiDung": "Điều quan trọng bậc nhất, nếu muốn tránh mọi sai lầm ngớ ngẩn, là biết mình giỏi ở đâu và không giỏi ở đâu.",
+   "tacGia": "Charlie Munger",
+   "moTaTacGia": "Nhà đầu tư, cộng sự của Warren Buffett, Mỹ",
+   "nguyenVan": "The single most important thing, if you want to avoid all the stupid errors, is knowing where you're competent and where you aren't.",
+   "nguon": "Buổi trò chuyện với cựu sinh viên tại Caltech, 17/12/2020 (video)",
+   "yNghia": "Chỉ xuống tiền vào lĩnh vực mình thật sự hiểu; ngoài vùng đó, hãy hỏi người trong nghề hoặc đứng ngoài."
+  },
+  {
+   "ma": "DN103",
+   "nhom": "TU_DUY",
+   "noiDung": "Làm khi lành, để dành khi đau.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Kho tàng dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Lúc kinh doanh thuận lợi, hãy trích quỹ dự phòng để vượt qua mùa thấp điểm hay biến cố."
+  },
+  {
+   "ma": "DN104",
+   "nhom": "TU_DUY",
+   "noiDung": "Chìa khóa để đối diện tương lai là biết mình đang đứng ở đâu, dù không thể biết chính xác mình sẽ đi tới đâu.",
+   "tacGia": "Howard Marks",
+   "moTaTacGia": "Nhà đầu tư, chuyên gia về chu kỳ thị trường, Mỹ",
+   "nguyenVan": "The key to dealing with the future lies in knowing where you are, even if you can't know precisely where you're going.",
+   "nguon": "Bản ghi nhớ gửi khách hàng Oaktree \"You Can't Predict. You Can Prepare.\", 20/11/2001",
+   "yNghia": "Không đoán trước được thị trường, nhưng luôn phải nắm rõ tồn kho, công nợ và dòng tiền của mình."
+  },
+  {
+   "ma": "DN105",
+   "nhom": "TU_DUY",
+   "noiDung": "Của cải gom hết về mình thì người tản đi; của cải biết chia ra thì người tụ lại.",
+   "tacGia": "Sách Đại Học",
+   "moTaTacGia": "Kinh điển Nho gia, Trung Hoa cổ đại",
+   "nguyenVan": "財聚則民散，財散則民聚 (Tài tụ tắc dân tán, tài tán tắc dân tụ)",
+   "nguon": "Đại Học, chương 10",
+   "yNghia": "Chia lợi nhuận xứng đáng cho nhân viên và đối tác là cách giữ người giỏi ở lại lâu dài."
+  },
+  {
+   "ma": "DN106",
+   "nhom": "TU_DUY",
+   "noiDung": "Thành công là một người thầy tồi. Nó khiến người thông minh tin rằng mình không thể thua.",
+   "tacGia": "Bill Gates",
+   "moTaTacGia": "Doanh nhân công nghệ, nhà từ thiện, Mỹ",
+   "nguyenVan": "Success is a lousy teacher. It seduces smart people into thinking they can't lose.",
+   "nguon": "Sách The Road Ahead (Con đường phía trước), 1995",
+   "yNghia": "Thắng lớn một thương vụ, hãy rà lại vì sao mình thắng trước khi dồn vốn gấp đôi."
+  },
+  {
+   "ma": "DN107",
+   "nhom": "TU_DUY",
+   "noiDung": "Vốn liếng tăng lên nhờ tiết kiệm, và hao hụt đi vì hoang phí cùng cách làm ăn sai lầm.",
+   "tacGia": "Adam Smith",
+   "moTaTacGia": "Nhà kinh tế học, Scotland thế kỷ 18",
+   "nguyenVan": "Capitals are increased by parsimony, and diminished by prodigality and misconduct.",
+   "nguon": "Sách The Wealth of Nations (Của cải của các dân tộc), 1776, Quyển II, Chương III",
+   "yNghia": "Lời chỉ thành vốn khi giữ lại được; chi tiêu phô trương và dự án thiếu tính toán sẽ bào mòn nó."
+  },
+  {
+   "ma": "DN108",
+   "nhom": "TU_DUY",
+   "noiDung": "Chỉ khi thủy triều rút, ta mới biết ai đang bơi mà không mặc gì.",
+   "tacGia": "Warren Buffett",
+   "moTaTacGia": "Nhà đầu tư huyền thoại, Mỹ",
+   "nguyenVan": "After all, you only find out who is swimming naked when the tide goes out.",
+   "nguon": "Thư gửi cổ đông Berkshire Hathaway năm 2001",
+   "yNghia": "Thời thuận lợi ai trông cũng giỏi; hãy lo sẵn dòng tiền và dự phòng trước khi thị trường đi xuống."
+  },
+  {
+   "ma": "DN109",
+   "nhom": "TU_DUY",
+   "noiDung": "Tin hết vào sách thì chẳng bằng không có sách.",
+   "tacGia": "Mạnh Tử",
+   "moTaTacGia": "Nhà tư tưởng Nho gia, Trung Hoa cổ đại",
+   "nguyenVan": "盡信書，則不如無書 (Tận tín thư, tắc bất như vô thư)",
+   "nguon": "Mạnh Tử, Thiên Tận Tâm hạ",
+   "yNghia": "Công thức làm giàu từ sách hay hội thảo đều cần kiểm chứng với thực tế doanh nghiệp mình."
+  },
+  {
+   "ma": "DN110",
+   "nhom": "TU_DUY",
+   "noiDung": "Không điều gì trong đời quan trọng như bạn tưởng, vào lúc bạn đang nghĩ về nó.",
+   "tacGia": "Daniel Kahneman",
+   "moTaTacGia": "Nhà tâm lý học, Nobel Kinh tế 2002, Israel – Mỹ",
+   "nguyenVan": "Nothing in life is as important as you think it is when you are thinking about it.",
+   "nguon": "Sách Thinking, Fast and Slow (Tư duy nhanh và chậm), 2011, chương 38",
+   "yNghia": "Đang nóng đầu vì một thương vụ, hãy để qua một đêm rồi hẵng xuống tiền."
+  },
+  {
+   "ma": "DN111",
+   "nhom": "TU_DUY",
+   "noiDung": "Không điều gì lớn lao hình thành trong chốc lát, ngay cả chùm nho hay trái vả cũng thế. Muốn có trái vả, phải cần thời gian.",
+   "tacGia": "Epictetus",
+   "moTaTacGia": "Triết gia khắc kỷ, Hy Lạp – La Mã cổ đại",
+   "nguyenVan": "Nothing great is produced suddenly, since not even the grape or the fig is. If you say to me now that you want a fig, I will answer to you that it requires time.",
+   "nguon": "Discourses (Những cuộc đàm luận), Quyển 1, Chương 15 (bản dịch tiếng Anh của George Long)",
+   "yNghia": "Thương hiệu và lòng tin của khách cần thời gian vun trồng; đừng đòi thu hoạch khi mới gieo hạt."
+  },
+  {
+   "ma": "DN112",
+   "nhom": "TU_DUY",
+   "noiDung": "Con đê dài ngàn trượng có thể vỡ chỉ vì một tổ kiến.",
+   "tacGia": "Hàn Phi Tử",
+   "moTaTacGia": "Nhà tư tưởng Pháp gia, Trung Hoa cổ đại",
+   "nguyenVan": "千丈之堤，以螻蟻之穴潰 (Thiên trượng chi đê, dĩ lâu nghị chi huyệt hội)",
+   "nguon": "Hàn Phi Tử, Thiên Dụ Lão",
+   "yNghia": "Một kẽ hở nhỏ trong kiểm soát thu chi hay chất lượng có thể kéo sập cả doanh nghiệp."
+  },
+  {
+   "ma": "DN113",
+   "nhom": "TU_DUY",
+   "noiDung": "Như người xưa đã nói, con người suy nghĩ theo bầy đàn; họ phát cuồng cũng theo bầy đàn, còn tỉnh lại thì chậm chạp, từng người một.",
+   "tacGia": "Charles Mackay",
+   "moTaTacGia": "Nhà văn, nhà báo, Scotland thế kỷ 19",
+   "nguyenVan": "Men, it has been well said, think in herds; it will be seen that they go mad in herds, while they only recover their senses slowly, and one by one.",
+   "nguon": "Lời tựa sách Extraordinary Popular Delusions and the Madness of Crowds, 1841",
+   "yNghia": "Khi cả thị trường đổ xô vào một cơn sốt, hãy chậm lại tự hỏi mình đang theo số đông hay theo con số."
+  },
+  {
+   "ma": "DN114",
+   "nhom": "TU_DUY",
+   "noiDung": "“Đừng bỏ hết trứng vào một giỏ” là sai hoàn toàn. Tôi bảo các bạn: hãy bỏ hết trứng vào một giỏ, rồi trông chừng cái giỏ đó.",
+   "tacGia": "Andrew Carnegie",
+   "moTaTacGia": "Nhà công nghiệp thép, Mỹ gốc Scotland",
+   "nguyenVan": "\"Don't put all your eggs in one basket\" is all wrong. I tell you \"put all your eggs in one basket, and then watch that basket.\"",
+   "nguon": "Bài nói chuyện tại Curry Commercial College, Pittsburgh, 23/6/1885 (in trong The Empire of Business, 1902)",
+   "yNghia": "Dồn vốn và tâm sức vào mảng mình hiểu rõ nhất, rồi theo sát nó mỗi ngày thay vì dàn trải khắp nơi."
+  },
+  {
+   "ma": "DN115",
+   "nhom": "TU_DUY",
+   "noiDung": "Biết thì nói là biết, không biết thì nói là không biết, thế mới thật là biết.",
+   "tacGia": "Khổng Tử",
+   "moTaTacGia": "Nhà tư tưởng, nhà giáo dục, Trung Hoa cổ đại",
+   "nguyenVan": "知之為知之，不知為不知，是知也 (Tri chi vi tri chi, bất tri vi bất tri, thị tri dã)",
+   "nguon": "Luận Ngữ, Thiên Vi Chính (2.17)",
+   "yNghia": "Dám nói “tôi chưa rõ” trong cuộc họp giúp cả đội đi tìm dữ liệu thật thay vì quyết theo cảm tính."
+  },
+  {
+   "ma": "DN116",
+   "nhom": "TU_DUY",
+   "noiDung": "Đời người có hai lúc không nên đầu cơ: khi không đủ tiền để làm thế, và khi đủ tiền.",
+   "tacGia": "Mark Twain",
+   "moTaTacGia": "Nhà văn trào phúng, Mỹ",
+   "nguyenVan": "There are two times in a man's life when he should not speculate: when he can't afford it, and when he can.",
+   "nguon": "Sách Following the Equator (Theo dấu xích đạo), 1897, đề từ Chương 56",
+   "yNghia": "Dư tiền cũng đừng đem vốn kinh doanh đi “đánh quả”; hãy dành nó cho những việc mình hiểu rõ."
+  },
+  {
+   "ma": "DN117",
+   "nhom": "TU_DUY",
+   "noiDung": "Của làm ra để trên gác, của cờ bạc để ngoài sân.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Kho tàng dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Tiền kiếm từ giá trị thật mới giữ được lâu; tiền từ đầu cơ may rủi đến nhanh thì đi cũng nhanh."
+  },
+  {
+   "ma": "DN118",
+   "nhom": "TU_DUY",
+   "noiDung": "Sự dồi dào thông tin sinh ra sự nghèo nàn về khả năng chú ý.",
+   "tacGia": "Herbert Simon",
+   "moTaTacGia": "Nhà khoa học quản trị, Nobel Kinh tế 1978, Mỹ",
+   "nguyenVan": "A wealth of information creates a poverty of attention.",
+   "nguon": "Bài \"Designing Organizations for an Information-Rich World\", 1971, in trong sách Computers, Communications, and the Public Interest",
+   "yNghia": "Chọn vài chỉ số cốt lõi để theo dõi mỗi ngày thay vì bơi giữa hàng chục bản báo cáo."
+  },
+  {
+   "ma": "DN119",
+   "nhom": "TU_DUY",
+   "noiDung": "Lúc yên thì dễ giữ, lúc chưa có điềm báo thì dễ tính; lo liệu từ khi việc chưa xảy ra, sắp đặt từ khi chưa rối loạn.",
+   "tacGia": "Lão Tử",
+   "moTaTacGia": "Triết gia Đạo gia, Trung Hoa cổ đại",
+   "nguyenVan": "其安易持，其未兆易謀……為之於未有，治之於未亂 (Kỳ an dị trì, kỳ vị triệu dị mưu... Vi chi ư vị hữu, trị chi ư vị loạn)",
+   "nguon": "Đạo Đức Kinh, Chương 64",
+   "yNghia": "Hợp đồng chặt, bảo hiểm, quỹ dự phòng nên lo khi đang thuận lợi, đừng đợi sự cố xảy ra."
+  },
+  {
+   "ma": "DN120",
+   "nhom": "TU_DUY",
+   "noiDung": "Trước thử thách gói bí quyết đầu tư vững vàng vào ba từ, chúng tôi mạnh dạn chọn phương châm: “Margin of Safety” – biên độ an toàn.",
+   "tacGia": "Benjamin Graham",
+   "moTaTacGia": "Cha đẻ trường phái đầu tư giá trị, Mỹ",
+   "nguyenVan": "Confronted with a like challenge to distill the secret of sound investment into three words, we venture the motto, MARGIN OF SAFETY.",
+   "nguon": "Sách The Intelligent Investor (Nhà đầu tư thông minh), Chương 20, bản sửa năm 1973",
+   "yNghia": "Khi tính phương án kinh doanh, luôn chừa khoảng dư cho giá vốn, tiến độ và dòng tiền."
+  },
+  {
+   "ma": "DN121",
+   "nhom": "HOP_TAC",
+   "noiDung": "Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi cao.",
+   "tacGia": "Ca dao Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Ca dao Việt Nam",
+   "yNghia": "Doanh nghiệp nhỏ bắt tay nhau thì làm được việc lớn mà một mình khó kham nổi."
+  },
+  {
+   "ma": "DN122",
+   "nhom": "HOP_TAC",
+   "noiDung": "Buôn có bạn, bán có phường.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Làm ăn cần bạn hàng, cần hội nghề để cùng chia sẻ nguồn hàng, khách hàng và thông tin."
+  },
+  {
+   "ma": "DN123",
+   "nhom": "HOP_TAC",
+   "noiDung": "Một lần bất tín, vạn lần bất tin.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Một lần sai hẹn, sai cam kết có thể xoá sạch niềm tin khách hàng gây dựng nhiều năm."
+  },
+  {
+   "ma": "DN124",
+   "nhom": "HOP_TAC",
+   "noiDung": "Mua danh ba vạn, bán danh ba đồng.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Uy tín thương hiệu tốn bao công sức mới có, nhưng chỉ một phút dễ dãi là mất giá."
+  },
+  {
+   "ma": "DN125",
+   "nhom": "HOP_TAC",
+   "noiDung": "Tốt danh hơn lành áo.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Giữ tiếng tốt cho doanh nghiệp quý hơn mọi khoản lời trước mắt."
+  },
+  {
+   "ma": "DN126",
+   "nhom": "HOP_TAC",
+   "noiDung": "Nói lời phải giữ lấy lời, đừng như con bướm đậu rồi lại bay.",
+   "tacGia": "Ca dao Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Ca dao Việt Nam",
+   "yNghia": "Đã hứa với khách, với đối tác thì làm đến cùng, dù phải chịu thiệt một chút."
+  },
+  {
+   "ma": "DN127",
+   "nhom": "HOP_TAC",
+   "noiDung": "Thuận mua vừa bán.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Giao dịch bền lâu khi giá cả sòng phẳng và cả hai bên đều thấy hài lòng."
+  },
+  {
+   "ma": "DN128",
+   "nhom": "HOP_TAC",
+   "noiDung": "Chọn mặt gửi vàng.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Giao việc lớn, gửi vốn liếng cho người đã chứng minh được sự tử tế và năng lực."
+  },
+  {
+   "ma": "DN129",
+   "nhom": "HOP_TAC",
+   "noiDung": "Lá lành đùm lá rách.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Hội viên đang thuận lợi hãy chìa tay với anh em đang gặp khó trong làm ăn."
+  },
+  {
+   "ma": "DN130",
+   "nhom": "HOP_TAC",
+   "noiDung": "Một miếng khi đói bằng một gói khi no.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Giúp đối tác đúng lúc họ khó khăn là ân tình được nhớ lâu hơn mọi món quà lúc thịnh."
+  },
+  {
+   "ma": "DN131",
+   "nhom": "HOP_TAC",
+   "noiDung": "Bầu ơi thương lấy bí cùng, tuy rằng khác giống nhưng chung một giàn.",
+   "tacGia": "Ca dao Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Ca dao Việt Nam",
+   "yNghia": "Khác ngành nghề nhưng chung một mái nhà Hội, hãy ưu tiên dùng hàng của nhau."
+  },
+  {
+   "ma": "DN132",
+   "nhom": "HOP_TAC",
+   "noiDung": "Bán anh em xa, mua láng giềng gần.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Quý trọng bạn hàng, hội viên ở gần, vì họ là người có mặt nhanh nhất khi mình cần."
+  },
+  {
+   "ma": "DN133",
+   "nhom": "HOP_TAC",
+   "noiDung": "Ăn quả nhớ kẻ trồng cây.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Thành công hôm nay có phần của khách hàng, đối tác và những người đi trước dìu dắt."
+  },
+  {
+   "ma": "DN134",
+   "nhom": "HOP_TAC",
+   "noiDung": "Một con ngựa đau, cả tàu bỏ cỏ.",
+   "tacGia": "Tục ngữ Việt Nam",
+   "moTaTacGia": "Văn học dân gian Việt Nam",
+   "nguyenVan": null,
+   "nguon": "Tục ngữ Việt Nam",
+   "yNghia": "Khi một thành viên gặp nạn, cả tập thể cùng lo; đó là tình huynh đệ doanh nhân."
+  },
+  {
+   "ma": "DN135",
+   "nhom": "HOP_TAC",
+   "noiDung": "Người mà không có chữ tín thì chẳng biết làm nên việc gì.",
+   "tacGia": "Khổng Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "人而無信，不知其可也 (Nhân nhi vô tín, bất tri kỳ khả dã)",
+   "nguon": "Luận Ngữ, Thiên Vi Chính (2.22)",
+   "yNghia": "Tài năng, vốn liếng đến đâu mà thiếu chữ tín thì doanh nghiệp cũng khó đi xa."
+  },
+  {
+   "ma": "DN136",
+   "nhom": "HOP_TAC",
+   "noiDung": "Mình muốn đứng vững thì giúp người khác đứng vững; mình muốn thành đạt thì giúp người khác thành đạt.",
+   "tacGia": "Khổng Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "己欲立而立人，己欲達而達人 (Kỷ dục lập nhi lập nhân, kỷ dục đạt nhi đạt nhân)",
+   "nguon": "Luận Ngữ, Thiên Ung Dã (6.30)",
+   "yNghia": "Muốn đi xa, hãy giúp đối tác và hội viên cùng lớn lên với mình."
+  },
+  {
+   "ma": "DN137",
+   "nhom": "HOP_TAC",
+   "noiDung": "Trong bốn biển đều là anh em cả; người quân tử lo gì không có anh em.",
+   "tacGia": "Tử Hạ",
+   "moTaTacGia": "Học trò Khổng Tử, Trung Hoa cổ đại",
+   "nguyenVan": "四海之內，皆兄弟也，君子何患乎無兄弟也 (Tứ hải chi nội, giai huynh đệ dã)",
+   "nguon": "Luận Ngữ, Thiên Nhan Uyên (12.5)",
+   "yNghia": "Sống tử tế, giữ lễ với người thì đi đâu cũng có anh em, bạn hàng giúp đỡ."
+  },
+  {
+   "ma": "DN138",
+   "nhom": "HOP_TAC",
+   "noiDung": "Thiên thời không bằng địa lợi, địa lợi không bằng nhân hòa.",
+   "tacGia": "Mạnh Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "天時不如地利，地利不如人和 (Thiên thời bất như địa lợi, địa lợi bất như nhân hòa)",
+   "nguon": "Mạnh Tử, Thiên Công Tôn Sửu hạ, chương 1",
+   "yNghia": "Thời cơ, mặt bằng tốt đến đâu cũng không bằng một tập thể đồng lòng."
+  },
+  {
+   "ma": "DN139",
+   "nhom": "HOP_TAC",
+   "noiDung": "Hứa dễ dàng thì ắt ít đáng tin; coi việc gì cũng dễ thì ắt gặp nhiều khó khăn.",
+   "tacGia": "Lão Tử",
+   "moTaTacGia": "Nhà tư tưởng, Trung Hoa cổ đại",
+   "nguyenVan": "夫輕諾必寡信，多易必多難 (Phù khinh nặc tất quả tín, đa dị tất đa nan)",
+   "nguon": "Đạo Đức Kinh, chương 63",
+   "yNghia": "Chỉ hứa với khách những gì chắc chắn làm được, đừng gật đầu cho qua chuyện."
+  },
+  {
+   "ma": "DN140",
+   "nhom": "HOP_TAC",
+   "noiDung": "Hai người đồng lòng, sức mạnh chặt đứt cả kim loại; lời nói đồng lòng thơm như hoa lan.",
+   "tacGia": "Kinh Dịch",
+   "moTaTacGia": "Kinh điển Trung Hoa cổ đại",
+   "nguyenVan": "二人同心，其利斷金；同心之言，其臭如蘭 (Nhị nhân đồng tâm, kỳ lợi đoạn kim; đồng tâm chi ngôn, kỳ xú như lan)",
+   "nguon": "Chu Dịch, Hệ Từ thượng truyện, chương 8 (đoạn \"Tử viết\")",
+   "yNghia": "Hai đối tác thật lòng tin nhau thì việc khó mấy cũng tìm được cách vượt qua."
+  },
+  {
+   "ma": "DN141",
+   "nhom": "HOP_TAC",
+   "noiDung": "Trong tín dụng, điều đầu tiên là nhân cách, trước cả tiền bạc. Người tôi không tin thì dù đem mọi trái phiếu trong thiên hạ cũng không vay được tiền của tôi.",
+   "tacGia": "J.P. Morgan",
+   "moTaTacGia": "Nhà ngân hàng, Mỹ",
+   "nguyenVan": "The first thing is character... Before money or anything else. Money cannot buy it... a man I do not trust could not get money from me on all the bonds in Christendom.",
+   "nguon": "Điều trần trước Ủy ban Pujo, Hạ viện Mỹ, 18–19/12/1912",
+   "yNghia": "Tín dụng thật sự của doanh nhân là nhân cách, không phải tài sản đem thế chấp."
+  },
+  {
+   "ma": "DN142",
+   "nhom": "HOP_TAC",
+   "noiDung": "Chúng ta có thể chịu mất tiền, kể cả rất nhiều tiền. Nhưng không thể để mất uy tín, dù chỉ một chút.",
+   "tacGia": "Warren Buffett",
+   "moTaTacGia": "Nhà đầu tư, Mỹ",
+   "nguyenVan": "We can afford to lose money – even a lot of money. But we can't afford to lose reputation – even a shred of reputation.",
+   "nguon": "Thư nội bộ gửi các nhà quản lý Berkshire Hathaway, 26/7/2010",
+   "yNghia": "Khi phải chọn giữa khoản lời trước mắt và danh dự doanh nghiệp, hãy giữ danh dự."
+  },
+  {
+   "ma": "DN143",
+   "nhom": "HOP_TAC",
+   "noiDung": "Thủy tinh, đồ sứ và danh tiếng đều dễ rạn vỡ, mà hàn gắn lại thì chẳng bao giờ lành lặn.",
+   "tacGia": "Benjamin Franklin",
+   "moTaTacGia": "Nhà khoa học, nhà văn, Mỹ",
+   "nguyenVan": "Glass, China, and Reputation, are easily crack'd, and never well mended.",
+   "nguon": "Poor Richard's Almanack (Poor Richard Improved), 1750",
+   "yNghia": "Hãy nâng niu uy tín như món đồ quý dễ vỡ, vì sửa lại bao giờ cũng để vết."
+  },
+  {
+   "ma": "DN144",
+   "nhom": "HOP_TAC",
+   "noiDung": "Hãy tin người, họ sẽ thật lòng với bạn; đối xử với họ cao thượng, họ sẽ tỏ ra cao thượng.",
+   "tacGia": "Ralph Waldo Emerson",
+   "moTaTacGia": "Nhà văn, triết gia, Mỹ",
+   "nguyenVan": "Trust men, and they will be true to you; treat them greatly, and they will show themselves great.",
+   "nguon": "Tiểu luận \"Prudence\", Essays: First Series, 1841",
+   "yNghia": "Đối tác được tin tưởng và tôn trọng thường đáp lại bằng sự tận tâm, sòng phẳng."
+  },
+  {
+   "ma": "DN145",
+   "nhom": "HOP_TAC",
+   "noiDung": "Một mình, ta làm được quá ít; cùng nhau, ta làm được rất nhiều.",
+   "tacGia": "Helen Keller",
+   "moTaTacGia": "Nhà văn khiếm thị, khiếm thính, Mỹ",
+   "nguyenVan": "Alone we can do so little. Together we can do so much.",
+   "nguon": "Bài nói trên sân khấu tạp kỹ đầu thập niên 1920, ghi trong \"Helen and Teacher\" (Joseph P. Lash, 1980)",
+   "yNghia": "Liên kết hội viên thành chuỗi cung ứng giúp mỗi doanh nghiệp nhỏ mạnh lên nhiều lần."
+  },
+  {
+   "ma": "DN146",
+   "nhom": "HOP_TAC",
+   "noiDung": "Sức mạnh của bầy nằm ở mỗi con sói, và sức mạnh của mỗi con sói chính là cả bầy.",
+   "tacGia": "Rudyard Kipling",
+   "moTaTacGia": "Nhà văn, Anh, Nobel Văn học 1907",
+   "nguyenVan": "For the strength of the Pack is the Wolf, and the strength of the Wolf is the Pack.",
+   "nguon": "Bài thơ \"The Law of the Jungle\", The Second Jungle Book, 1895",
+   "yNghia": "Hội mạnh nhờ từng hội viên giỏi, và mỗi hội viên vững hơn nhờ có Hội phía sau."
+  },
+  {
+   "ma": "DN147",
+   "nhom": "HOP_TAC",
+   "noiDung": "Những nhà lãnh đạo hiệu quả nhất không nghĩ \"tôi\", họ nghĩ \"chúng ta\", nghĩ \"đội ngũ\"; trách nhiệm họ gánh, còn công lao thuộc về tập thể.",
+   "tacGia": "Peter Drucker",
+   "moTaTacGia": "Nhà tư tưởng quản trị, Mỹ gốc Áo",
+   "nguyenVan": "They don't think 'I.' They think 'we'; they think 'team.' ... They accept responsibility and don't sidestep it, but 'we' gets the credit.",
+   "nguon": "Managing the Non-Profit Organization, 1990, Phần 1, chương 2",
+   "yNghia": "Người chủ biết chia công cho tập thể sẽ giữ được người giỏi và lòng tin của đội ngũ."
+  },
+  {
+   "ma": "DN148",
+   "nhom": "HOP_TAC",
+   "noiDung": "Quan tâm đến người khác, trong hai tháng bạn kết được nhiều bạn hơn cả hai năm cố khiến người khác quan tâm đến mình.",
+   "tacGia": "Dale Carnegie",
+   "moTaTacGia": "Tác giả sách kỹ năng giao tiếp, Mỹ",
+   "nguyenVan": "You can make more friends in two months by becoming interested in other people than you can in two years by trying to get other people interested in you.",
+   "nguon": "How to Win Friends and Influence People, 1936, Phần 2, chương 1",
+   "yNghia": "Đi sinh hoạt Hội, hãy hỏi han nhu cầu của anh em trước khi giới thiệu sản phẩm mình."
+  },
+  {
+   "ma": "DN149",
+   "nhom": "HOP_TAC",
+   "noiDung": "Không ai sống hạnh phúc nếu chỉ nhìn vào bản thân, biến mọi thứ thành lợi riêng: muốn sống cho mình, hãy sống vì người khác.",
+   "tacGia": "Seneca",
+   "moTaTacGia": "Triết gia khắc kỷ, La Mã cổ đại",
+   "nguyenVan": "Nec potest quisquam beate degere qui se tantum intuetur, qui omnia ad utilitates suas convertit: alteri vivas oportet, si vis tibi vivere.",
+   "nguon": "Thư gửi Lucilius (Epistulae Morales), thư 48, đoạn 2",
+   "yNghia": "Doanh nghiệp chỉ lo lợi riêng khó bền; biết mang lợi cho khách và bạn hàng mới lớn mạnh."
+  }
+ ]
+}

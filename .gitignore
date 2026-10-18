@@ -1,0 +1,37 @@
+# Thu vien & build
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+
+# Bi mat - khong bao gio dua len git
+.env*
+
+# Du lieu that: database, hoi vien, file tai len, sao luu
+*.db
+*.db-journal
+*.sqlite
+*.csv
+*.xlsx
+*.sql
+*.zip
+*.tar.gz
+*.log
+du-lieu/
+tai-len/
+public/tai-len/
+backup*/
+
+# Cong cu AI / cache
+.cache/
+.codex/
+.claude/settings.local.json
+*.bak*
+*.db.*
+# Khong phai ma nguon: ban nen, thiep, tai lieu, anh su kien
+*.rar
+*.7z
+/thiep-1010/
+/soat/
+/tai-lieu/
+/S*YBA*2026/

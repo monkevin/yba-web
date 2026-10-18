@@ -1,0 +1,711 @@
+{
+  "chuDe": "kinh-te-the-gioi",
+  "ten": "Kinh tế thế giới & thương mại quốc tế",
+  "bo": [
+    {
+      "ma": "kinh-te-the-gioi-01",
+      "ten": "Tổ chức kinh tế quốc tế",
+      "moTa": "WTO, IMF, Ngân hàng Thế giới, ADB, APEC, ASEAN và G20: nguồn gốc, trụ sở và vai trò.",
+      "cau": [
+        {
+          "hoi": "Tổ chức Thương mại Thế giới (WTO) chính thức hoạt động từ năm 1995, kế thừa khuôn khổ thương mại đa phương nào trước đó?",
+          "phuongAn": [
+            "Hiệp ước Rome (1957)",
+            "GATT – Hiệp định chung về Thuế quan và Thương mại",
+            "Hiệp định Plaza (1985)",
+            "Hiệp định NAFTA (1994)"
+          ],
+          "dung": 1,
+          "giai": "WTO ra đời ngày 1/1/1995 sau Vòng đàm phán Uruguay, thay thế cơ chế GATT ký năm 1947 và mở rộng luật chơi sang dịch vụ, sở hữu trí tuệ."
+        },
+        {
+          "hoi": "Trụ sở chính của Tổ chức Thương mại Thế giới (WTO) đặt tại thành phố nào?",
+          "phuongAn": ["Geneva, Thụy Sĩ", "New York, Hoa Kỳ", "Brussels, Bỉ", "Paris, Pháp"],
+          "dung": 0,
+          "giai": "WTO ra đời ngày 01/01/1995, đặt trụ sở tại Geneva (Thụy Sĩ). New York là nơi đặt trụ sở chính của Liên Hợp Quốc."
+        },
+        {
+          "hoi": "Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập năm 1967 với bản tuyên bố ký tại thành phố nào?",
+          "phuongAn": ["Jakarta", "Kuala Lumpur", "Bangkok", "Manila"],
+          "dung": 2,
+          "giai": "Tuyên bố Bangkok ngày 8/8/1967 do Indonesia, Malaysia, Philippines, Singapore và Thái Lan ký đã khai sinh ASEAN; Ban Thư ký ASEAN hiện đặt tại Jakarta."
+        },
+        {
+          "hoi": "Ngân hàng Phát triển châu Á (ADB) đặt trụ sở chính tại quốc gia nào?",
+          "phuongAn": ["Nhật Bản", "Singapore", "Thái Lan", "Philippines"],
+          "dung": 3,
+          "giai": "ADB thành lập năm 1966, trụ sở chính đặt tại vùng đô thị Manila, Philippines."
+        },
+        {
+          "hoi": "IMF và Ngân hàng Thế giới (WB) được hình thành từ hội nghị quốc tế nào năm 1944?",
+          "phuongAn": ["Hội nghị Yalta", "Hội nghị Bretton Woods", "Hội nghị Potsdam", "Hội nghị Versailles"],
+          "dung": 1,
+          "giai": "Hội nghị Bretton Woods (Mỹ) tháng 7/1944 đặt nền móng cho IMF và Ngân hàng Tái thiết và Phát triển Quốc tế (IBRD) – tổ chức đầu tiên của WB."
+        },
+        {
+          "hoi": "Chức năng cốt lõi của Quỹ Tiền tệ Quốc tế (IMF) là gì?",
+          "phuongAn": ["Hỗ trợ nước gặp khó khăn về cán cân thanh toán", "Giải quyết tranh chấp thương mại giữa các nước", "Cho vay dài hạn xây dựng hạ tầng ở nước nghèo", "Điều phối sản lượng khai thác dầu mỏ thế giới"],
+          "dung": 0,
+          "giai": "IMF giám sát hệ thống tiền tệ quốc tế và cấp tài chính cho nước gặp khó khăn cán cân thanh toán. Cho vay phát triển hạ tầng là vai trò của WB."
+        },
+        {
+          "hoi": "Nguyên tắc 'Tối huệ quốc' (MFN) của WTO có nghĩa là gì?",
+          "phuongAn": ["Hàng nhập khẩu được đối xử như hàng sản xuất trong nước", "Nước đang phát triển được miễn toàn bộ thuế nhập khẩu", "Mỗi thành viên tự áp hạn ngạch riêng với nước láng giềng", "Ưu đãi dành cho một thành viên phải dành cho mọi thành viên"],
+          "dung": 3,
+          "giai": "MFN: ưu đãi thương mại dành cho một thành viên phải áp dụng cho mọi thành viên WTO. Đối xử với hàng nhập như hàng nội địa là nguyên tắc Đối xử quốc gia."
+        },
+        {
+          "hoi": "Điểm khác biệt cơ bản của Diễn đàn Hợp tác Kinh tế châu Á – Thái Bình Dương (APEC) so với WTO là gì?",
+          "phuongAn": ["Có tòa án riêng xử phạt thành viên vi phạm", "Chỉ gồm các nền kinh tế Đông Nam Á", "Cam kết tự nguyện, không ràng buộc pháp lý", "Các thành viên dùng chung một đồng tiền"],
+          "dung": 2,
+          "giai": "APEC (thành lập 1989) hoạt động theo nguyên tắc đồng thuận, tự nguyện, cam kết không ràng buộc pháp lý; WTO có hiệp định ràng buộc và cơ chế giải quyết tranh chấp."
+        },
+        {
+          "hoi": "Khi mới ra đời năm 1999, nhóm G20 là diễn đàn họp của những ai?",
+          "phuongAn": ["Bộ trưởng Tài chính và Thống đốc Ngân hàng Trung ương", "Bộ trưởng Thương mại các nước xuất khẩu hàng đầu", "Tổng giám đốc các tập đoàn đa quốc gia lớn", "Đại diện các tổ chức phi chính phủ quốc tế"],
+          "dung": 0,
+          "giai": "G20 lập năm 1999 sau khủng hoảng tài chính châu Á, ban đầu dành cho Bộ trưởng Tài chính và Thống đốc NHTW; hội nghị cấp cao G20 bắt đầu từ năm 2008."
+        },
+        {
+          "hoi": "Thành viên nào của Nhóm Ngân hàng Thế giới chuyên đầu tư và cho vay khu vực tư nhân?",
+          "phuongAn": ["Hiệp hội Phát triển Quốc tế (IDA)", "Tổng công ty Tài chính Quốc tế (IFC)", "Cơ quan Bảo lãnh Đầu tư Đa phương (MIGA)", "Trung tâm Quốc tế Giải quyết Tranh chấp Đầu tư (ICSID)"],
+          "dung": 1,
+          "giai": "IFC chuyên đầu tư, cho vay khu vực tư nhân. IDA cho các nước nghèo nhất vay ưu đãi, MIGA bảo lãnh rủi ro phi thương mại, ICSID xử lý tranh chấp đầu tư."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-the-gioi-02",
+      "ten": "Khái niệm kinh tế vĩ mô",
+      "moTa": "GDP, lạm phát, CPI, chính sách tài khóa – tiền tệ và các khái niệm vĩ mô then chốt.",
+      "cau": [
+        {
+          "hoi": "Tổng sản phẩm quốc nội (GDP) đo lường điều gì?",
+          "phuongAn": ["Tổng doanh thu của mọi doanh nghiệp trong nước", "Thu nhập của công dân một nước ở mọi nơi", "Giá trị sản phẩm cuối cùng tạo ra trong lãnh thổ", "Kim ngạch xuất khẩu trừ đi kim ngạch nhập khẩu"],
+          "dung": 2,
+          "giai": "GDP là tổng giá trị thị trường của hàng hóa, dịch vụ cuối cùng được sản xuất trong lãnh thổ một nước trong một thời kỳ, thường là quý hoặc năm."
+        },
+        {
+          "hoi": "Lạm phát là hiện tượng nào trong nền kinh tế?",
+          "phuongAn": ["Mức giá chung tăng liên tục trong một thời gian", "Giá một vài mặt hàng tăng mạnh trong vài ngày", "Sức mua của đồng nội tệ tăng dần theo thời gian", "Sản lượng hàng hóa sản xuất giảm liên tục"],
+          "dung": 0,
+          "giai": "Lạm phát là sự tăng lên liên tục của mức giá chung, làm sức mua của đồng tiền giảm. Giá vài mặt hàng tăng ngắn hạn chưa phải là lạm phát."
+        },
+        {
+          "hoi": "Chỉ số giá tiêu dùng (CPI) phản ánh điều gì?",
+          "phuongAn": ["Biến động giá cổ phiếu trên sàn chứng khoán", "Mức tăng sản lượng công nghiệp hằng tháng", "Tỷ lệ lao động không có việc làm", "Biến động giá của giỏ hàng tiêu dùng tiêu biểu"],
+          "dung": 3,
+          "giai": "CPI đo biến động giá theo thời gian của một giỏ hàng hóa, dịch vụ tiêu dùng đại diện, là thước đo lạm phát được dùng phổ biến nhất."
+        },
+        {
+          "hoi": "Công cụ chủ yếu của chính sách tài khóa là gì?",
+          "phuongAn": ["Lãi suất điều hành và dự trữ bắt buộc", "Thuế và chi tiêu của Chính phủ", "Tỷ giá hối đoái và dự trữ ngoại hối", "Mua bán giấy tờ có giá trên thị trường mở"],
+          "dung": 1,
+          "giai": "Chính sách tài khóa dùng thuế và chi tiêu ngân sách. Lãi suất, dự trữ bắt buộc, nghiệp vụ thị trường mở là công cụ của chính sách tiền tệ."
+        },
+        {
+          "hoi": "'Suy thoái kỹ thuật' thường được hiểu là tình trạng nào?",
+          "phuongAn": ["GDP thực tăng trưởng âm hai quý liên tiếp", "GDP thực tăng trưởng âm trong một tháng", "Lạm phát vượt mức hai con số trong năm", "Thất nghiệp tăng liên tục trong hai quý"],
+          "dung": 0,
+          "giai": "Theo cách hiểu phổ biến, nền kinh tế rơi vào suy thoái kỹ thuật khi GDP thực giảm (tăng trưởng âm) trong hai quý liên tiếp."
+        },
+        {
+          "hoi": "Tổng sản phẩm quốc dân (GNP) khác tổng sản phẩm quốc nội (GDP) chủ yếu ở điểm nào?",
+          "phuongAn": [
+            "Chỉ tính hàng hóa, không tính dịch vụ",
+            "Chỉ tính phần do doanh nghiệp nhà nước tạo ra",
+            "Tính theo công dân sở hữu, dù sản xuất ở đâu",
+            "Chỉ tính giá trị hàng xuất khẩu"
+          ],
+          "dung": 2,
+          "giai": "GDP đo giá trị tạo ra trong lãnh thổ một nước; GNP tính theo quyền sở hữu: cộng thu nhập công dân, doanh nghiệp nước đó tạo ra ở nước ngoài, trừ phần của người nước ngoài."
+        },
+        {
+          "hoi": "GDP thực tế khác GDP danh nghĩa ở điểm nào?",
+          "phuongAn": ["Đã trừ đi khấu hao tài sản cố định", "Được tính theo giá cố định của năm gốc", "Chỉ tính phần do khu vực tư nhân tạo ra", "Được quy đổi sang USD theo tỷ giá thị trường"],
+          "dung": 1,
+          "giai": "GDP thực tế tính theo giá năm gốc nên loại bỏ ảnh hưởng của biến động giá, phản ánh đúng thay đổi sản lượng. GDP danh nghĩa tính theo giá hiện hành."
+        },
+        {
+          "hoi": "'Lạm phát đình trệ' (stagflation) là tình trạng kinh tế như thế nào?",
+          "phuongAn": ["Giá cả giảm liên tục kèm tăng trưởng nhanh", "Lạm phát thấp kèm tỷ lệ thất nghiệp thấp", "Tăng trưởng nóng kèm thiếu hụt lao động", "Lạm phát cao kèm tăng trưởng trì trệ"],
+          "dung": 3,
+          "giai": "Lạm phát đình trệ là lạm phát cao đi cùng tăng trưởng chậm và thất nghiệp cao, như nhiều nước phát triển gặp phải sau các cú sốc dầu mỏ thập niên 1970."
+        },
+        {
+          "hoi": "Đường cong Phillips mô tả mối quan hệ ngắn hạn giữa hai biến số nào?",
+          "phuongAn": ["Lãi suất và tỷ giá hối đoái", "Lạm phát và tỷ lệ thất nghiệp", "Tiết kiệm và đầu tư tư nhân", "Xuất khẩu và nhập khẩu"],
+          "dung": 1,
+          "giai": "Đường cong Phillips cho thấy trong ngắn hạn, lạm phát và thất nghiệp thường có quan hệ nghịch: thất nghiệp giảm thì lạm phát có xu hướng tăng."
+        },
+        {
+          "hoi": "Khi tính GDP theo phương pháp chi tiêu, khoản nào KHÔNG được tính vào chi tiêu Chính phủ (G)?",
+          "phuongAn": ["Trợ cấp thất nghiệp chi trả cho người lao động", "Lương trả cho giáo viên trường công lập", "Chi phí xây dựng đường cao tốc", "Mua sắm thiết bị cho bệnh viện công"],
+          "dung": 0,
+          "giai": "Trợ cấp thất nghiệp là khoản chuyển nhượng, không đổi lấy hàng hóa hay dịch vụ nào nên không tính vào G. Lương, đầu tư công, mua sắm công đều được tính."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-the-gioi-03",
+      "ten": "Incoterms 2020, L/C, C/O và thuế quan",
+      "moTa": "Điều kiện giao hàng Incoterms 2020, thư tín dụng, chứng nhận xuất xứ và thuế quan.",
+      "cau": [
+        {
+          "hoi": "Bộ quy tắc Incoterms về điều kiện giao hàng do tổ chức nào ban hành?",
+          "phuongAn": ["Tổ chức Thương mại Thế giới (WTO)", "Tổ chức Hải quan Thế giới (WCO)", "Diễn đàn Kinh tế Thế giới (WEF)", "Phòng Thương mại Quốc tế (ICC)"],
+          "dung": 3,
+          "giai": "Incoterms do Phòng Thương mại Quốc tế (ICC) ban hành lần đầu năm 1936; phiên bản Incoterms 2020 có hiệu lực từ 01/01/2020."
+        },
+        {
+          "hoi": "Theo Incoterms 2020, điều kiện nào người bán chịu ít nghĩa vụ nhất?",
+          "phuongAn": ["FOB – Giao hàng lên tàu", "EXW – Giao tại xưởng", "CIF – Tiền hàng, bảo hiểm và cước", "DDP – Giao hàng đã nộp thuế"],
+          "dung": 1,
+          "giai": "EXW: người bán chỉ cần đặt hàng sẵn sàng tại cơ sở của mình; người mua lo bốc hàng, vận chuyển, thủ tục. DDP thì ngược lại, người bán chịu nhiều nhất."
+        },
+        {
+          "hoi": "Giấy chứng nhận xuất xứ (C/O) trong xuất nhập khẩu xác nhận điều gì?",
+          "phuongAn": ["Nước hoặc vùng lãnh thổ xuất xứ của hàng hóa","Chất lượng hàng hóa đạt tiêu chuẩn", "Hàng hóa đã được mua bảo hiểm", "Số lượng, trọng lượng thực tế lô hàng"],
+          "dung": 0,
+          "giai": "C/O xác nhận xuất xứ hàng hóa, là căn cứ để hưởng thuế suất ưu đãi theo các hiệp định thương mại tự do và áp dụng các biện pháp thương mại."
+        },
+        {
+          "hoi": "Thư tín dụng (L/C) là cam kết thanh toán của bên nào?",
+          "phuongAn": ["Người xuất khẩu, cam kết giao hàng đúng hạn", "Hãng tàu, cam kết giao hàng tại cảng đích", "Ngân hàng phát hành, theo yêu cầu người mua", "Công ty bảo hiểm, cam kết bồi thường tổn thất"],
+          "dung": 2,
+          "giai": "L/C là cam kết của ngân hàng phát hành (theo yêu cầu người nhập khẩu) sẽ thanh toán cho người bán khi xuất trình bộ chứng từ phù hợp."
+        },
+        {
+          "hoi": "Theo Incoterms 2020, với điều kiện FOB, rủi ro chuyển từ người bán sang người mua khi nào?",
+          "phuongAn": ["Khi hàng được giao cho người chuyên chở đầu tiên", "Khi hàng đã được xếp lên tàu tại cảng bốc", "Khi hàng về đến cảng dỡ ở nước nhập khẩu", "Khi người mua nhận được vận đơn gốc"],
+          "dung": 1,
+          "giai": "Với FOB, rủi ro chuyển sang người mua khi hàng đã được đặt lên con tàu do người mua chỉ định tại cảng bốc hàng quy định."
+        },
+        {
+          "hoi": "Incoterms 2020 đã thay điều kiện DAT của bản 2010 bằng điều kiện nào?",
+          "phuongAn": ["DAP – Giao tại nơi đến", "CPT – Cước phí trả tới", "FCA – Giao cho người chuyên chở", "DPU – Giao tại nơi đến đã dỡ xuống"],
+          "dung": 3,
+          "giai": "Incoterms 2020 đổi DAT (Giao tại bến) thành DPU (Giao tại nơi đến đã dỡ xuống), cho phép nơi giao là bất kỳ địa điểm nào, không chỉ bến bãi."
+        },
+        {
+          "hoi": "Bộ quy tắc UCP 600 của ICC điều chỉnh loại nghiệp vụ thanh toán nào?",
+          "phuongAn": ["Tín dụng chứng từ (L/C)", "Nhờ thu kèm chứng từ", "Bảo lãnh theo yêu cầu", "Chuyển tiền bằng điện (T/T)"],
+          "dung": 0,
+          "giai": "UCP 600 là Quy tắc thực hành thống nhất về tín dụng chứng từ. Nhờ thu áp dụng URC 522, bảo lãnh theo yêu cầu áp dụng URDG 758."
+        },
+        {
+          "hoi": "Thuế chống bán phá giá thường được áp dụng trong trường hợp nào?",
+          "phuongAn": ["Hàng nhập vượt hạn ngạch đã phân bổ trong năm", "Hàng nhập từ nước chưa ký hiệp định thương mại", "Hàng nhập bán phá giá, gây hại sản xuất trong nước", "Doanh nghiệp nội địa bán hàng thấp hơn giá vốn"],
+          "dung": 2,
+          "giai": "Thuế chống bán phá giá áp lên hàng nhập khẩu bán thấp hơn giá thông thường, gây hoặc đe dọa gây thiệt hại đáng kể cho ngành sản xuất trong nước."
+        },
+        {
+          "hoi": "Theo Incoterms 2020, người bán theo điều kiện CIP phải mua bảo hiểm tối thiểu ở mức nào?",
+          "phuongAn": ["Điều kiện C (ICC C), phạm vi bảo hiểm hẹp nhất", "Điều kiện B (ICC B), phạm vi bảo hiểm trung bình", "Không bắt buộc, người mua tự mua bảo hiểm", "Điều kiện A (ICC A), phạm vi bảo hiểm rộng nhất"],
+          "dung": 3,
+          "giai": "Incoterms 2020 nâng yêu cầu với CIP lên mức ICC (A); riêng CIF vẫn giữ mức tối thiểu ICC (C). Số tiền bảo hiểm tối thiểu là 110% giá hợp đồng."
+        },
+        {
+          "hoi": "Cơ chế 'hạn ngạch thuế quan' (tariff-rate quota) đối với hàng nhập khẩu hoạt động như thế nào?",
+          "phuongAn": [
+            "Thuế thấp trong hạn ngạch, cao hơn với phần vượt hạn ngạch",
+            "Cấm hoàn toàn nhập khẩu khi vượt số lượng cho phép",
+            "Miễn thuế cho mọi lô hàng nhập trong năm",
+            "Mỗi doanh nghiệp chỉ được nhập khẩu một lần mỗi năm"
+          ],
+          "dung": 0,
+          "giai": "Lượng hàng trong hạn ngạch hưởng thuế suất thấp; phần vượt vẫn được nhập nhưng chịu thuế suất cao hơn nhiều. Khác với hạn ngạch tuyệt đối là cấm nhập khi đã đủ số lượng."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-the-gioi-04",
+      "ten": "Tiền tệ, tỷ giá và tài chính quốc tế",
+      "moTa": "Tỷ giá, dự trữ ngoại hối, SDR, SWIFT và các nguyên lý của hệ thống tài chính quốc tế.",
+      "cau": [
+        {
+          "hoi": "Giả sử tỷ giá niêm yết USD/VND là 25.000. Cách hiểu nào sau đây là đúng?",
+          "phuongAn": ["1 USD đổi được 25.000 VND", "1 VND đổi được 25.000 USD", "1 USD đổi được 2.500 VND", "Ngân hàng thu phí 25.000 VND mỗi USD"],
+          "dung": 0,
+          "giai": "Trong cặp USD/VND, USD là đồng yết giá, VND là đồng định giá: tỷ giá 25.000 nghĩa là 1 USD đổi được 25.000 VND."
+        },
+        {
+          "hoi": "Khi đồng nội tệ giảm giá so với USD, hàng xuất khẩu thường chịu tác động gì?",
+          "phuongAn": ["Đắt hơn với người mua nước ngoài, khó bán hơn", "Không đổi vì giá bán đã tính bằng nội tệ", "Rẻ hơn với người mua nước ngoài, dễ bán hơn", "Phải chịu thêm thuế xuất khẩu bổ sung"],
+          "dung": 2,
+          "giai": "Nội tệ giảm giá thì cùng một mức giá nội tệ quy ra ít ngoại tệ hơn, hàng xuất khẩu rẻ hơn với khách nước ngoài, tăng sức cạnh tranh."
+        },
+        {
+          "hoi": "Đồng tiền nào chiếm tỷ trọng lớn nhất trong dự trữ ngoại hối của các ngân hàng trung ương?",
+          "phuongAn": ["Đồng euro (EUR)", "Đô la Mỹ (USD)", "Yên Nhật (JPY)", "Nhân dân tệ (CNY)"],
+          "dung": 1,
+          "giai": "Đô la Mỹ từ lâu là đồng tiền dự trữ chủ chốt của thế giới, chiếm tỷ trọng lớn nhất trong dự trữ ngoại hối toàn cầu, vượt xa đồng euro."
+        },
+        {
+          "hoi": "Mạng SWIFT được các ngân hàng trên thế giới sử dụng chủ yếu để làm gì?",
+          "phuongAn": ["Cho vay ngoại tệ các nước đang phát triển", "Xếp hạng tín nhiệm quốc gia và doanh nghiệp", "In và phát hành tiền cho ngân hàng trung ương", "Truyền thông điệp tài chính giữa các ngân hàng"],
+          "dung": 3,
+          "giai": "SWIFT là mạng truyền thông điệp tài chính chuẩn hóa giữa các tổ chức tài chính, dùng cho lệnh chuyển tiền, L/C… SWIFT không trực tiếp giữ hay chuyển tiền."
+        },
+        {
+          "hoi": "Tiền giấy và tiền xu euro chính thức được đưa vào lưu thông từ năm nào?",
+          "phuongAn": ["Năm 1993", "Năm 1999", "Năm 2002", "Năm 2008"],
+          "dung": 2,
+          "giai": "Euro ra đời dưới dạng tiền ghi sổ từ 01/01/1999; tiền mặt euro (giấy và xu) chính thức lưu thông từ 01/01/2002."
+        },
+        {
+          "hoi": "Quyền rút vốn đặc biệt (SDR) là tài sản dự trữ quốc tế do tổ chức nào tạo ra?",
+          "phuongAn": ["Quỹ Tiền tệ Quốc tế (IMF)", "Ngân hàng Thế giới (WB)", "Ngân hàng Thanh toán Quốc tế (BIS)", "Ngân hàng Trung ương châu Âu (ECB)"],
+          "dung": 0,
+          "giai": "SDR do IMF tạo ra năm 1969 để bổ sung dự trữ chính thức cho các thành viên; giá trị SDR được xác định theo một rổ các đồng tiền chủ chốt."
+        },
+        {
+          "hoi": "Lý thuyết ngang giá sức mua (PPP) giải thích tỷ giá dựa trên yếu tố nào?",
+          "phuongAn": ["Chênh lệch lãi suất giữa hai nước", "Quy mô dự trữ vàng của hai nước", "Cán cân thương mại song phương", "Mức giá của cùng giỏ hàng ở hai nước"],
+          "dung": 3,
+          "giai": "PPP cho rằng trong dài hạn, tỷ giá điều chỉnh để cùng một giỏ hàng có giá tương đương ở hai nước. Chênh lệch lãi suất thuộc lý thuyết ngang giá lãi suất."
+        },
+        {
+          "hoi": "Trong cán cân thanh toán quốc tế, tài khoản vãng lai ghi nhận chủ yếu các giao dịch nào?",
+          "phuongAn": [
+            "Dòng vốn đầu tư trực tiếp nước ngoài (FDI)",
+            "Hàng hóa, dịch vụ, thu nhập và chuyển giao vãng lai",
+            "Các khoản vay nợ nước ngoài của Chính phủ",
+            "Thay đổi dự trữ ngoại hối của ngân hàng trung ương"
+          ],
+          "dung": 1,
+          "giai": "Tài khoản vãng lai gồm cán cân hàng hóa, dịch vụ, thu nhập đầu tư và chuyển giao như kiều hối; FDI, vay nợ thuộc tài khoản vốn và tài chính, còn dự trữ được ghi riêng."
+        },
+        {
+          "hoi": "Theo lý thuyết ngang giá lãi suất có phòng ngừa, nếu lãi suất VND cao hơn lãi suất USD thì tỷ giá kỳ hạn USD/VND sẽ thế nào?",
+          "phuongAn": ["Cao hơn tỷ giá giao ngay", "Thấp hơn tỷ giá giao ngay", "Bằng đúng tỷ giá giao ngay", "Không liên quan đến tỷ giá giao ngay"],
+          "dung": 0,
+          "giai": "Tỷ giá kỳ hạn ≈ tỷ giá giao ngay × (1 + lãi suất VND)/(1 + lãi suất USD). Lãi suất VND cao hơn thì tỷ giá kỳ hạn cao hơn giao ngay."
+        },
+        {
+          "hoi": "Theo 'bộ ba bất khả thi', một nước không thể cùng lúc có tỷ giá cố định, tự do lưu chuyển vốn và điều gì?",
+          "phuongAn": ["Cán cân thương mại thặng dư", "Ngân sách nhà nước cân bằng", "Chính sách tiền tệ độc lập", "Tỷ lệ thất nghiệp ở mức thấp"],
+          "dung": 2,
+          "giai": "Bộ ba bất khả thi (Mundell – Fleming): chỉ chọn được tối đa hai trong ba mục tiêu – tỷ giá cố định, tự do dịch chuyển vốn, chính sách tiền tệ độc lập."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-the-gioi-05",
+      "ten": "Các cuộc khủng hoảng kinh tế lịch sử",
+      "moTa": "Từ cơn sốt hoa tulip, Đại suy thoái 1929 đến khủng hoảng châu Á 1997 và tài chính 2008.",
+      "cau": [
+        {
+          "hoi": "Cuộc Đại suy thoái của thế giới bắt đầu sau sự kiện nào năm 1929?",
+          "phuongAn": ["Giá dầu mỏ thế giới tăng đột biến", "Thị trường chứng khoán Phố Wall sụp đổ", "Đồng bảng Anh bị phá giá mạnh", "Hệ thống tỷ giá Bretton Woods tan rã"],
+          "dung": 1,
+          "giai": "Sự sụp đổ của thị trường chứng khoán Phố Wall tháng 10/1929 mở đầu cuộc Đại suy thoái, kéo dài suốt thập niên 1930 và lan ra toàn cầu."
+        },
+        {
+          "hoi": "Cuộc khủng hoảng tài chính châu Á năm 1997 khởi phát từ quốc gia nào?",
+          "phuongAn": ["Philippines", "Singapore", "Nhật Bản", "Thái Lan"],
+          "dung": 3,
+          "giai": "Tháng 7/1997, Thái Lan buộc thả nổi đồng baht, đồng tiền mất giá mạnh và khủng hoảng lan sang Indonesia, Hàn Quốc, Malaysia…"
+        },
+        {
+          "hoi": "Khủng hoảng tài chính toàn cầu năm 2008 bắt nguồn từ thị trường nào tại Mỹ?",
+          "phuongAn": ["Cho vay thế chấp nhà ở dưới chuẩn", "Trái phiếu Chính phủ Mỹ bị vỡ nợ", "Cổ phiếu các công ty Internet", "Hợp đồng tương lai dầu mỏ"],
+          "dung": 0,
+          "giai": "Làn sóng vỡ nợ các khoản vay thế chấp nhà ở dưới chuẩn (subprime) cùng các chứng khoán liên quan đã châm ngòi khủng hoảng 2008."
+        },
+        {
+          "hoi": "Bong bóng 'dot-com' vỡ khoảng năm 2000 gắn với nhóm cổ phiếu ngành nào?",
+          "phuongAn": ["Bất động sản nghỉ dưỡng", "Khai thác dầu khí", "Công nghệ và Internet", "Ngân hàng thương mại"],
+          "dung": 2,
+          "giai": "Cuối thập niên 1990, cổ phiếu công ty Internet tăng phi mã dù nhiều nơi chưa có lợi nhuận; bong bóng vỡ từ năm 2000, chỉ số Nasdaq lao dốc."
+        },
+        {
+          "hoi": "Cú sốc dầu mỏ năm 1973 gắn với lệnh cấm vận dầu của nhóm nước nào?",
+          "phuongAn": ["Các nước Ả Rập xuất khẩu dầu mỏ", "Các nước Mỹ Latinh khai thác dầu", "Các nước khai thác dầu ở Biển Bắc", "Các nước Đông Âu xuất khẩu dầu"],
+          "dung": 0,
+          "giai": "Năm 1973, các nước Ả Rập xuất khẩu dầu mỏ cấm vận dầu với một số nước phương Tây, giá dầu tăng khoảng bốn lần, gây lạm phát đình trệ."
+        },
+        {
+          "hoi": "Khủng hoảng nợ công châu Âu từ cuối năm 2009 bùng phát đầu tiên và nghiêm trọng nhất ở nước nào?",
+          "phuongAn": ["Đức", "Hy Lạp", "Pháp", "Hà Lan"],
+          "dung": 1,
+          "giai": "Hy Lạp là tâm điểm đầu tiên và nặng nề nhất của khủng hoảng nợ công châu Âu, phải nhận nhiều gói cứu trợ từ các nước khu vực đồng euro và IMF."
+        },
+        {
+          "hoi": "Trong ngày 'Thứ Hai Đen tối' 19/10/1987, chỉ số Dow Jones giảm khoảng bao nhiêu?",
+          "phuongAn": ["Khoảng 5%", "Khoảng 10%", "Khoảng 50%", "Khoảng 22%"],
+          "dung": 3,
+          "giai": "Ngày 19/10/1987, Dow Jones mất khoảng 22,6% chỉ trong một phiên – mức giảm theo tỷ lệ trong một ngày lớn nhất lịch sử chỉ số này."
+        },
+        {
+          "hoi": "'Cơn sốt hoa tulip' – một trong những bong bóng đầu cơ sớm nhất được ghi nhận – diễn ra ở nước nào?",
+          "phuongAn": ["Anh", "Pháp", "Hà Lan", "Tây Ban Nha"],
+          "dung": 2,
+          "giai": "Cơn sốt hoa tulip diễn ra ở Hà Lan thập niên 1630: giá củ tulip bị đẩy lên rất cao rồi sụp đổ vào đầu năm 1637."
+        },
+        {
+          "hoi": "Đạo luật Smoot–Hawley ban hành năm 1930 tại Mỹ có nội dung chính là gì?",
+          "phuongAn": ["Cấm ngân hàng thương mại kinh doanh chứng khoán", "Tăng mạnh thuế nhập khẩu với hàng loạt mặt hàng", "Neo cố định đồng đô la Mỹ vào giá vàng", "Lập quỹ bảo hiểm tiền gửi cho người dân"],
+          "dung": 1,
+          "giai": "Smoot–Hawley nâng thuế nhập khẩu với hàng nghìn mặt hàng, khiến nhiều nước trả đũa, thương mại thế giới sụt giảm mạnh trong Đại suy thoái."
+        },
+        {
+          "hoi": "Trong khủng hoảng tài chính châu Á 1997–1998, nước nào không nhận gói cứu trợ của IMF mà áp dụng kiểm soát vốn?",
+          "phuongAn": ["Malaysia", "Indonesia", "Hàn Quốc", "Thái Lan"],
+          "dung": 0,
+          "giai": "Malaysia từ chối chương trình của IMF, năm 1998 áp dụng kiểm soát vốn và neo đồng ringgit với USD. Thái Lan, Indonesia, Hàn Quốc nhận cứu trợ IMF."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-the-gioi-06",
+      "ten": "Đặc điểm các nền kinh tế lớn",
+      "moTa": "Cơ cấu, thế mạnh và mô hình đặc trưng của Mỹ, Trung Quốc, Nhật Bản, Đức, Ấn Độ, Hàn Quốc.",
+      "cau": [
+        {
+          "hoi": "Nền kinh tế nào có quy mô GDP danh nghĩa lớn nhất thế giới?",
+          "phuongAn": ["Trung Quốc", "Nhật Bản", "Hoa Kỳ", "Đức"],
+          "dung": 2,
+          "giai": "Tính theo GDP danh nghĩa quy ra USD, Hoa Kỳ từ lâu là nền kinh tế lớn nhất thế giới."
+        },
+        {
+          "hoi": "Khu vực nào đóng góp tỷ trọng lớn nhất trong GDP của Hoa Kỳ?",
+          "phuongAn": ["Dịch vụ", "Công nghiệp chế tạo", "Nông nghiệp", "Khai khoáng, năng lượng"],
+          "dung": 0,
+          "giai": "Dịch vụ (tài chính, y tế, bán lẻ, công nghệ, bất động sản…) chiếm phần lớn GDP Hoa Kỳ; chế tạo và nông nghiệp chiếm tỷ trọng nhỏ hơn nhiều."
+        },
+        {
+          "hoi": "Nền kinh tế nào thường được gọi là 'công xưởng của thế giới' nhờ quy mô sản xuất chế tạo khổng lồ?",
+          "phuongAn": ["Ấn Độ", "Brazil", "Mexico", "Trung Quốc"],
+          "dung": 3,
+          "giai": "Trung Quốc có quy mô sản xuất chế tạo lớn nhất thế giới, cung cấp lượng lớn hàng hóa cho chuỗi cung ứng toàn cầu nên được gọi là 'công xưởng của thế giới'."
+        },
+        {
+          "hoi": "Quốc gia nào là nền kinh tế lớn nhất Liên minh châu Âu (EU)?",
+          "phuongAn": ["Pháp", "Đức", "Ý", "Tây Ban Nha"],
+          "dung": 1,
+          "giai": "Đức là nền kinh tế lớn nhất EU, nổi bật với công nghiệp ô tô, cơ khí, hóa chất và thế mạnh xuất khẩu."
+        },
+        {
+          "hoi": "'Mục tiêu kép' mà Cục Dự trữ Liên bang Mỹ (Fed) theo đuổi gồm những gì?",
+          "phuongAn": ["Ổn định tỷ giá và tăng dự trữ vàng", "Việc làm tối đa và ổn định giá cả", "Cân bằng ngân sách và giảm nợ công", "Tăng xuất khẩu và giảm nhập siêu"],
+          "dung": 1,
+          "giai": "Fed được giao mục tiêu kép: tối đa hóa việc làm và ổn định giá cả (kiểm soát lạm phát), thực hiện chủ yếu qua điều chỉnh lãi suất."
+        },
+        {
+          "hoi": "Trong nhóm G7, nền kinh tế nào có tỷ lệ dân số từ 65 tuổi trở lên cao nhất?",
+          "phuongAn": ["Nhật Bản", "Hoa Kỳ", "Canada", "Anh"],
+          "dung": 0,
+          "giai": "Nhật Bản có tỷ lệ người cao tuổi cao nhất G7 và thuộc nhóm cao nhất thế giới, kéo theo thiếu hụt lao động và áp lực lớn lên chi phí an sinh."
+        },
+        {
+          "hoi": "'Mittelstand' – trụ cột của nền kinh tế Đức – là cách gọi nhóm doanh nghiệp nào?",
+          "phuongAn": ["Tập đoàn nhà nước lớn trong ngành năng lượng", "Ngân hàng đầu tư hoạt động trên quy mô toàn cầu", "Doanh nghiệp vừa và nhỏ, thường do gia đình sở hữu", "Công ty khởi nghiệp sống nhờ vốn đầu tư mạo hiểm"],
+          "dung": 2,
+          "giai": "Mittelstand là khối doanh nghiệp vừa và nhỏ, thường do gia đình sở hữu qua nhiều thế hệ; nhiều công ty dẫn đầu thế giới ở các thị trường chuyên biệt."
+        },
+        {
+          "hoi": "Ấn Độ nổi bật trên thế giới với thế mạnh xuất khẩu dịch vụ nào?",
+          "phuongAn": ["Vận tải biển container", "Ngân hàng đầu tư quốc tế", "Du lịch nghỉ dưỡng biển", "Công nghệ thông tin, phần mềm"],
+          "dung": 3,
+          "giai": "Ấn Độ là trung tâm hàng đầu về dịch vụ công nghệ thông tin, gia công phần mềm và quy trình kinh doanh, nhờ nguồn kỹ sư đông đảo và nói tiếng Anh."
+        },
+        {
+          "hoi": "Cụm từ 'Kỳ tích sông Hàn' dùng để chỉ giai đoạn tăng trưởng thần kỳ của nền kinh tế nào?",
+          "phuongAn": ["Hàn Quốc", "Đài Loan", "Singapore", "Nhật Bản"],
+          "dung": 0,
+          "giai": "Từ thập niên 1960 đến 1990, Hàn Quốc công nghiệp hóa nhanh, hướng mạnh vào xuất khẩu, từ nền kinh tế thu nhập thấp vươn lên thành nước công nghiệp phát triển."
+        },
+        {
+          "hoi": "Trung Quốc chính thức trở thành thành viên WTO vào năm nào?",
+          "phuongAn": ["Năm 1995", "Năm 2001", "Năm 2007", "Năm 1999"],
+          "dung": 1,
+          "giai": "Trung Quốc gia nhập WTO ngày 11/12/2001, thúc đẩy mạnh xuất khẩu và vai trò của nước này trong chuỗi cung ứng toàn cầu những năm sau đó."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-the-gioi-07",
+      "ten": "Chuỗi cung ứng toàn cầu",
+      "moTa": "Logistics, tồn kho, vận tải biển và các chiến lược dịch chuyển chuỗi cung ứng.",
+      "cau": [
+        {
+          "hoi": "Mục tiêu chính của phương thức sản xuất Just-in-Time (JIT) là gì?",
+          "phuongAn": ["Tích trữ nhiều tồn kho phòng khi thiếu hàng", "Giảm tồn kho, nhận vật tư đúng lúc cần dùng", "Sản xuất hàng loạt rồi mới tìm khách mua", "Thuê ngoài toàn bộ các khâu sản xuất"],
+          "dung": 1,
+          "giai": "JIT chỉ sản xuất, nhận vật tư khi thực sự cần, giúp giảm tồn kho và lãng phí. Đổi lại, chuỗi cung ứng dễ bị gián đoạn nếu nhà cung cấp giao trễ."
+        },
+        {
+          "hoi": "Logistics trong chuỗi cung ứng chủ yếu bao gồm nhóm hoạt động nào?",
+          "phuongAn": ["Thiết kế bộ nhận diện thương hiệu", "Tuyển dụng, đào tạo nhân sự sản xuất", "Vận chuyển, lưu kho và phân phối hàng hóa", "Kiểm toán báo cáo tài chính cuối năm"],
+          "dung": 2,
+          "giai": "Logistics là lập kế hoạch, thực hiện và kiểm soát dòng dịch chuyển, lưu trữ hàng hóa và thông tin từ điểm xuất phát đến nơi tiêu thụ."
+        },
+        {
+          "hoi": "Trong quản lý chuỗi cung ứng, 'tồn kho an toàn' (safety stock) được duy trì nhằm mục đích gì?",
+          "phuongAn": [
+            "Dự phòng nhu cầu tăng đột biến hoặc hàng về trễ",
+            "Trưng bày hàng mẫu để giới thiệu cho khách",
+            "Giữ hàng lỗi chờ trả lại nhà cung cấp",
+            "Giữ hàng đã bán nhưng khách chưa đến nhận"
+          ],
+          "dung": 0,
+          "giai": "Tồn kho an toàn là lượng hàng giữ thêm ngoài nhu cầu dự kiến để tránh đứt hàng khi nhu cầu biến động hay nhà cung cấp giao chậm; đổi lại phải chịu thêm chi phí lưu kho."
+        },
+        {
+          "hoi": "Kênh đào nào nối Địa Trung Hải với Biển Đỏ, là tuyến hàng hải huyết mạch giữa châu Á và châu Âu?",
+          "phuongAn": ["Kênh đào Panama", "Kênh đào Kiel", "Kênh đào Corinth", "Kênh đào Suez"],
+          "dung": 3,
+          "giai": "Kênh đào Suez (Ai Cập) nối Địa Trung Hải với Biển Đỏ, giúp tàu đi Á – Âu không phải vòng qua Mũi Hảo Vọng. Kênh Panama nối Đại Tây Dương với Thái Bình Dương."
+        },
+        {
+          "hoi": "Hiệu ứng 'roi da' (bullwhip effect) trong chuỗi cung ứng là hiện tượng gì?",
+          "phuongAn": ["Giá bán lẻ giảm dần khi hàng đi xa nhà máy", "Cước vận tải tăng đột biến vào mùa cao điểm", "Nhà cung cấp lớn ép giá nhà cung cấp nhỏ", "Biến động đơn hàng phóng đại dần về thượng nguồn"],
+          "dung": 3,
+          "giai": "Nhu cầu cuối chỉ dao động nhẹ nhưng đơn hàng càng lên thượng nguồn (nhà phân phối, nhà máy, nhà cung cấp) càng biến động mạnh, gây thừa – thiếu hàng."
+        },
+        {
+          "hoi": "'Nearshoring' trong chiến lược chuỗi cung ứng có nghĩa là gì?",
+          "phuongAn": ["Dời sản xuất sang nơi rẻ nhất bất kể xa gần", "Dời sản xuất sang nước gần thị trường tiêu thụ", "Đưa toàn bộ sản xuất về lại nước sở tại", "Tăng số nhà cung cấp trong cùng một nước"],
+          "dung": 1,
+          "giai": "Nearshoring là chuyển sản xuất sang nước lân cận thị trường chính để rút ngắn thời gian giao hàng, giảm rủi ro. Đưa sản xuất về nước sở tại là reshoring."
+        },
+        {
+          "hoi": "Chiến lược 'Trung Quốc + 1' (China+1) của nhiều doanh nghiệp đa quốc gia là gì?",
+          "phuongAn": ["Giữ cơ sở ở Trung Quốc, mở thêm cơ sở ở nước khác", "Chuyển toàn bộ nhà máy từ nước khác về Trung Quốc", "Chỉ mua hàng từ một nhà cung cấp tại Trung Quốc", "Đặt một văn phòng đại diện duy nhất tại Trung Quốc"],
+          "dung": 0,
+          "giai": "China+1 là duy trì sản xuất tại Trung Quốc đồng thời đặt thêm cơ sở ở nước khác như Việt Nam, Ấn Độ… để phân tán rủi ro chuỗi cung ứng."
+        },
+        {
+          "hoi": "Chỉ số Hiệu quả Logistics (LPI) xếp hạng các quốc gia do tổ chức nào công bố?",
+          "phuongAn": ["Tổ chức Thương mại Thế giới (WTO)", "Quỹ Tiền tệ Quốc tế (IMF)", "Ngân hàng Thế giới (WB)", "Diễn đàn Kinh tế Thế giới (WEF)"],
+          "dung": 2,
+          "giai": "LPI do Ngân hàng Thế giới công bố từ năm 2007, đánh giá hải quan, hạ tầng, vận chuyển quốc tế, năng lực logistics, truy xuất hàng và tính đúng hạn."
+        },
+        {
+          "hoi": "Mô hình EOQ (lượng đặt hàng kinh tế) xác định cỡ lô đặt hàng bằng cách cân bằng hai loại chi phí nào?",
+          "phuongAn": ["Chi phí nguyên liệu và chi phí nhân công", "Chi phí vận chuyển và thuế nhập khẩu", "Chi phí đặt hàng và chi phí lưu kho", "Chi phí quảng cáo và chi phí bán hàng"],
+          "dung": 2,
+          "giai": "EOQ tìm cỡ lô tối ưu: lô lớn thì ít lần đặt hàng nhưng tốn chi phí lưu kho; lô nhỏ thì ngược lại. Điểm tối ưu là nơi tổng hai chi phí thấp nhất."
+        },
+        {
+          "hoi": "Chỉ số Baltic Dry Index (BDI) phản ánh biến động của yếu tố nào?",
+          "phuongAn": ["Giá cước thuê tàu chở hàng rời khô", "Giá cước container tuyến châu Á – châu Âu", "Giá nhiên liệu dùng cho tàu biển", "Lượng hàng tồn tại các cảng biển lớn"],
+          "dung": 0,
+          "giai": "BDI do Sở Giao dịch Baltic (London) công bố, đo giá cước thuê tàu chở hàng rời khô như quặng sắt, than, ngũ cốc; thường được xem là chỉ báo sớm của thương mại."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-the-gioi-08",
+      "ten": "Dầu mỏ, vàng và nông sản",
+      "moTa": "Thị trường hàng hóa cơ bản: OPEC, dầu chuẩn, vàng, cà phê và hợp đồng tương lai.",
+      "cau": [
+        {
+          "hoi": "OPEC là tên viết tắt của tổ chức nào?",
+          "phuongAn": ["Tổ chức các nước nhập khẩu dầu mỏ", "Tổ chức các nước sản xuất khí đốt", "Tổ chức các nước xuất khẩu nông sản", "Tổ chức các nước xuất khẩu dầu mỏ"],
+          "dung": 3,
+          "giai": "OPEC (Organization of the Petroleum Exporting Countries) là Tổ chức các nước xuất khẩu dầu mỏ, thành lập năm 1960."
+        },
+        {
+          "hoi": "Giá dầu thô chuẩn Brent và WTI trên thị trường quốc tế thường được niêm yết theo đơn vị nào?",
+          "phuongAn": ["USD/thùng", "USD/tấn", "USD/lít", "USD/ounce"],
+          "dung": 0,
+          "giai": "Dầu Brent, WTI được niêm yết theo USD mỗi thùng; 1 thùng dầu (barrel) tương đương khoảng 159 lít."
+        },
+        {
+          "hoi": "Khi thị trường tài chính bất ổn, vàng thường được nhà đầu tư xem là loại tài sản nào?",
+          "phuongAn": ["Tài sản có rủi ro cao nhất", "Tài sản trú ẩn an toàn", "Tài sản trả lãi cố định", "Tài sản khó mua bán nhất"],
+          "dung": 1,
+          "giai": "Vàng giữ giá trị lâu dài và không phụ thuộc khả năng trả nợ của tổ chức nào, nên thường được coi là kênh trú ẩn an toàn khi thị trường biến động."
+        },
+        {
+          "hoi": "Vàng 18K chứa khoảng bao nhiêu phần trăm vàng nguyên chất?",
+          "phuongAn": [
+            "Khoảng 58,5%",
+            "Khoảng 99,9%",
+            "Khoảng 75%",
+            "Khoảng 41,7%"
+          ],
+          "dung": 2,
+          "giai": "Tuổi vàng tính theo thang 24 phần: 18K = 18/24 = 75% vàng (thường gọi vàng 7 tuổi rưỡi); 14K khoảng 58,5%; vàng 24K gần như nguyên chất."
+        },
+        {
+          "hoi": "Giá vàng thế giới được niêm yết theo ounce troy. Một ounce troy xấp xỉ bao nhiêu gram?",
+          "phuongAn": ["28,35 gram", "31,10 gram", "37,50 gram", "3,75 gram"],
+          "dung": 1,
+          "giai": "1 ounce troy ≈ 31,1 gram. 28,35 gram là ounce thông thường; 37,5 gram là 1 lượng (cây) vàng và 3,75 gram là 1 chỉ vàng ở Việt Nam."
+        },
+        {
+          "hoi": "Tên dầu chuẩn Brent được đặt theo một mỏ dầu nằm ở khu vực nào?",
+          "phuongAn": ["Bang Texas, Hoa Kỳ", "Tây Siberia, Nga", "Bán đảo Ả Rập", "Biển Bắc, châu Âu"],
+          "dung": 3,
+          "giai": "Brent là tên một mỏ dầu ở Biển Bắc thuộc vùng biển Anh; giá chuẩn Brent ban đầu dựa trên dầu khai thác từ các mỏ Biển Bắc. WTI là dầu chuẩn của Mỹ."
+        },
+        {
+          "hoi": "Doanh nghiệp xuất khẩu nông sản sử dụng hợp đồng tương lai (futures) chủ yếu nhằm mục đích gì?",
+          "phuongAn": ["Phòng ngừa rủi ro biến động giá", "Được miễn thuế xuất khẩu", "Bảo đảm chất lượng hàng giao", "Được vay vốn lãi suất ưu đãi"],
+          "dung": 0,
+          "giai": "Bán trước bằng hợp đồng tương lai giúp doanh nghiệp khóa mức giá, hạn chế thiệt hại khi giá nông sản giảm; đây là nghiệp vụ phòng ngừa rủi ro (hedging)."
+        },
+        {
+          "hoi": "Chỉ số giá lương thực thế giới (Food Price Index) công bố hằng tháng là của tổ chức nào?",
+          "phuongAn": ["Tổ chức Thương mại Thế giới (WTO)", "Chương trình Lương thực Thế giới (WFP)", "Tổ chức Lương thực và Nông nghiệp LHQ (FAO)", "Ngân hàng Phát triển châu Á (ADB)"],
+          "dung": 2,
+          "giai": "FAO công bố Chỉ số giá lương thực hằng tháng, theo dõi giá quốc tế của ngũ cốc, dầu thực vật, sữa, thịt và đường."
+        },
+        {
+          "hoi": "Giá cà phê Robusta thế giới thường tham chiếu theo sàn giao dịch hàng hóa tại thành phố nào?",
+          "phuongAn": ["London", "New York", "Chicago", "Singapore"],
+          "dung": 0,
+          "giai": "Hợp đồng tương lai Robusta giao dịch chủ yếu trên sàn ICE Futures Europe tại London; cà phê Arabica tham chiếu sàn ICE tại New York."
+        },
+        {
+          "hoi": "Thị trường hàng hóa ở trạng thái 'contango' khi nào?",
+          "phuongAn": ["Giá tương lai thấp hơn giá giao ngay", "Giá tương lai cao hơn giá giao ngay", "Giá giao ngay biến động mạnh trong phiên", "Khối lượng giao dịch giảm nhiều phiên"],
+          "dung": 1,
+          "giai": "Contango là khi giá hợp đồng tương lai cao hơn giá giao ngay, thường do chi phí lưu kho, bảo hiểm, vốn. Trường hợp ngược lại gọi là backwardation."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-the-gioi-09",
+      "ten": "Cung cầu, chi phí cơ hội, lợi thế so sánh",
+      "moTa": "Các nguyên lý kinh tế học căn bản ứng dụng trong ra quyết định kinh doanh hằng ngày.",
+      "cau": [
+        {
+          "hoi": "Theo quy luật cầu, khi giá một mặt hàng tăng và các yếu tố khác không đổi, lượng cầu sẽ thế nào?",
+          "phuongAn": ["Giảm xuống", "Tăng lên", "Không thay đổi", "Tăng rồi giảm"],
+          "dung": 0,
+          "giai": "Quy luật cầu: giá và lượng cầu có quan hệ nghịch chiều. Giá tăng thì người mua mua ít đi, khi các yếu tố khác giữ nguyên."
+        },
+        {
+          "hoi": "Chi phí cơ hội của một quyết định là gì?",
+          "phuongAn": ["Tổng số tiền đã chi cho lựa chọn đó", "Chi phí phát sinh ngoài dự kiến ban đầu", "Khoản lỗ khi thị trường biến động xấu", "Giá trị của phương án tốt nhất bị bỏ qua"],
+          "dung": 3,
+          "giai": "Chi phí cơ hội là giá trị của phương án tốt nhất phải từ bỏ khi chọn một phương án. Ví dụ: dùng mặt bằng để tự kinh doanh thì mất khoản tiền cho thuê."
+        },
+        {
+          "hoi": "Nguồn cung một mặt hàng tăng mạnh trong khi cầu không đổi. Giá cân bằng trên thị trường thường sẽ thế nào?",
+          "phuongAn": ["Tăng lên", "Giảm xuống", "Giữ nguyên", "Tăng rồi giảm"],
+          "dung": 1,
+          "giai": "Cung tăng làm đường cung dịch sang phải; với cầu không đổi, thị trường dư hàng nên giá cân bằng giảm và lượng giao dịch tăng."
+        },
+        {
+          "hoi": "Chi phí chìm (sunk cost) là loại chi phí như thế nào?",
+          "phuongAn": ["Sẽ phát sinh nếu mở rộng sản xuất", "Thay đổi theo sản lượng sản xuất", "Đã chi ra và không thể thu hồi", "Chưa được ghi nhận vào sổ sách"],
+          "dung": 2,
+          "giai": "Chi phí chìm đã phát sinh và không thu hồi được, nên không được để nó chi phối quyết định tương lai; chỉ xét chi phí và lợi ích sắp phát sinh."
+        },
+        {
+          "hoi": "Theo lý thuyết lợi thế so sánh, một quốc gia nên chuyên môn hóa sản xuất mặt hàng nào?",
+          "phuongAn": ["Mặt hàng sản xuất được với số lượng lớn nhất", "Mặt hàng có giá bán cao nhất thế giới", "Mặt hàng có chi phí cơ hội thấp hơn nước khác", "Mọi mặt hàng làm ra rẻ hơn nước khác"],
+          "dung": 2,
+          "giai": "Lợi thế so sánh dựa trên chi phí cơ hội: nước nào có chi phí cơ hội thấp hơn ở mặt hàng nào thì nên chuyên môn hóa mặt hàng đó rồi trao đổi."
+        },
+        {
+          "hoi": "Cầu một mặt hàng co giãn mạnh theo giá (trị tuyệt đối hệ số co giãn lớn hơn 1). Nếu giảm giá bán, tổng doanh thu thường thế nào?",
+          "phuongAn": ["Tăng lên", "Giảm xuống", "Không đổi", "Giảm một nửa"],
+          "dung": 0,
+          "giai": "Cầu co giãn mạnh: giá giảm 1% thì lượng bán tăng hơn 1%, nên tổng doanh thu tăng. Nếu cầu kém co giãn, giảm giá lại làm doanh thu giảm."
+        },
+        {
+          "hoi": "Giá cà phê tăng mạnh, các yếu tố khác không đổi. Cầu về trà – một hàng hóa thay thế – thường sẽ thế nào?",
+          "phuongAn": ["Giảm xuống", "Tăng lên", "Không thay đổi", "Giảm rồi tăng lại"],
+          "dung": 1,
+          "giai": "Với hàng hóa thay thế, giá mặt hàng này tăng khiến người tiêu dùng chuyển sang mặt hàng kia, nên cầu về trà tăng."
+        },
+        {
+          "hoi": "Nhà nước áp giá trần thấp hơn mức giá cân bằng thị trường thường dẫn đến hiện tượng gì?",
+          "phuongAn": ["Dư thừa hàng hóa", "Giá tự điều chỉnh tăng", "Sản lượng cung tăng mạnh", "Thiếu hụt hàng hóa"],
+          "dung": 3,
+          "giai": "Giá trần thấp hơn giá cân bằng làm lượng cầu vượt lượng cung, gây thiếu hụt, xếp hàng chờ mua và dễ phát sinh thị trường ngầm."
+        },
+        {
+          "hoi": "Nước A cần 2 ngày công làm 1 tấn gạo, 4 ngày công làm 1 tấm vải; nước B cần lần lượt 3 và 12 ngày công. A nên chuyên môn hóa gì?",
+          "phuongAn": ["Vải, vì chi phí cơ hội làm vải của A thấp hơn", "Gạo, vì A làm gạo tốn ít ngày công hơn B", "Gạo, vì chi phí cơ hội làm gạo của A thấp hơn", "Không cần giao thương vì A giỏi hơn ở cả hai"],
+          "dung": 0,
+          "giai": "Ở A, làm 1 tấm vải phải bỏ 2 tấn gạo; ở B phải bỏ 4 tấn gạo. Chi phí cơ hội làm vải của A thấp hơn nên A làm vải, B làm gạo."
+        },
+        {
+          "hoi": "Trong thị trường cạnh tranh, doanh nghiệp đang lỗ nhưng giá bán vẫn cao hơn chi phí biến đổi bình quân. Ngắn hạn nên làm gì?",
+          "phuongAn": ["Đóng cửa ngay để chấm dứt khoản lỗ", "Tiếp tục sản xuất để bù đắp một phần định phí", "Tăng giá gấp đôi để hòa vốn ngay", "Hạ giá dưới biến phí để giữ chân khách"],
+          "dung": 1,
+          "giai": "Nếu đóng cửa, doanh nghiệp vẫn phải trả định phí. Khi giá còn cao hơn biến phí bình quân, mỗi sản phẩm bán ra góp phần bù định phí nên lỗ ít hơn."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-the-gioi-10",
+      "ten": "Nhà kinh tế học và học thuyết kinh tế",
+      "moTa": "Adam Smith, Ricardo, Keynes, Schumpeter, Porter… và những ý tưởng định hình kinh tế hiện đại.",
+      "cau": [
+        {
+          "hoi": "Tác phẩm 'Của cải của các dân tộc' (1776), nền móng của kinh tế học hiện đại, là của ai?",
+          "phuongAn": ["David Ricardo", "Thomas Malthus", "Adam Smith", "John Stuart Mill"],
+          "dung": 2,
+          "giai": "Adam Smith xuất bản 'Của cải của các dân tộc' năm 1776, đề cao phân công lao động và cơ chế thị trường, được coi là cha đẻ kinh tế học hiện đại."
+        },
+        {
+          "hoi": "Lý thuyết lợi thế so sánh trong thương mại quốc tế gắn liền với tên tuổi nhà kinh tế học nào?",
+          "phuongAn": ["Adam Smith", "David Ricardo", "John Maynard Keynes", "Milton Friedman"],
+          "dung": 1,
+          "giai": "David Ricardo trình bày lý thuyết lợi thế so sánh năm 1817, phát triển từ lý thuyết lợi thế tuyệt đối của Adam Smith."
+        },
+        {
+          "hoi": "Ai là tác giả 'Lý thuyết tổng quát' (1936), chủ trương Nhà nước tăng chi tiêu để kích cầu khi suy thoái?",
+          "phuongAn": ["John Maynard Keynes", "Friedrich Hayek", "Milton Friedman", "Adam Smith"],
+          "dung": 0,
+          "giai": "John Maynard Keynes viết 'Lý thuyết tổng quát về việc làm, lãi suất và tiền tệ' (1936), đặt nền móng kinh tế học vĩ mô và vai trò can thiệp của Nhà nước."
+        },
+        {
+          "hoi": "Nhà kinh tế học nào nổi tiếng với luận điểm dân số tăng nhanh hơn khả năng tăng sản lượng lương thực?",
+          "phuongAn": [
+            "John Stuart Mill",
+            "Friedrich Hayek",
+            "Paul Samuelson",
+            "Thomas Malthus"
+          ],
+          "dung": 3,
+          "giai": "Trong 'Tiểu luận về nguyên lý dân số' (1798), Thomas Malthus cho rằng dân số tăng theo cấp số nhân còn lương thực chỉ tăng theo cấp số cộng."
+        },
+        {
+          "hoi": "Milton Friedman là đại diện tiêu biểu của trường phái kinh tế nào?",
+          "phuongAn": ["Chủ nghĩa trọng thương", "Chủ nghĩa trọng tiền", "Trường phái Keynes", "Trường phái trọng nông"],
+          "dung": 1,
+          "giai": "Milton Friedman (Nobel Kinh tế 1976) dẫn đầu chủ nghĩa trọng tiền, nhấn mạnh vai trò của lượng cung tiền đối với lạm phát và chu kỳ kinh tế."
+        },
+        {
+          "hoi": "Chủ nghĩa trọng thương (thế kỷ 16–18) cho rằng sự giàu có của quốc gia đến chủ yếu từ đâu?",
+          "phuongAn": ["Nông nghiệp là nguồn gốc duy nhất", "Tự do thương mại hoàn toàn", "Đầu tư công nghệ và con người", "Tích lũy vàng bạc nhờ xuất siêu"],
+          "dung": 3,
+          "giai": "Trọng thương coi vàng bạc là thước đo giàu có, chủ trương xuất khẩu nhiều, hạn chế nhập khẩu. Coi nông nghiệp là gốc là quan điểm của trường phái trọng nông."
+        },
+        {
+          "hoi": "Joseph Schumpeter nổi tiếng với việc đề cao vai trò của nhân tố nào trong tăng trưởng kinh tế?",
+          "phuongAn": ["Chi tiêu công của Chính phủ", "Lượng cung tiền lưu thông", "Đổi mới sáng tạo của doanh nhân", "Tích lũy vàng bạc quốc gia"],
+          "dung": 2,
+          "giai": "Schumpeter coi doanh nhân đổi mới – tạo sản phẩm, quy trình, thị trường mới – là động lực chính thúc đẩy phát triển và chu kỳ kinh tế."
+        },
+        {
+          "hoi": "Mô hình 'Kim cương' giải thích lợi thế cạnh tranh của quốc gia là của học giả nào?",
+          "phuongAn": ["Michael Porter", "Philip Kotler", "Peter Drucker", "Paul Krugman"],
+          "dung": 0,
+          "giai": "Michael Porter đưa ra mô hình Kim cương trong sách 'Lợi thế cạnh tranh của các quốc gia' (1990), gồm điều kiện yếu tố, cầu, ngành hỗ trợ và chiến lược – cạnh tranh."
+        },
+        {
+          "hoi": "Đường cong Laffer mô tả mối quan hệ giữa hai yếu tố nào?",
+          "phuongAn": ["Lãi suất và mức đầu tư tư nhân", "Lạm phát và tỷ lệ thất nghiệp", "Thu nhập và mức bất bình đẳng", "Thuế suất và tổng số thuế thu được"],
+          "dung": 3,
+          "giai": "Đường cong Laffer cho thấy thuế suất quá cao có thể làm giảm tổng thu thuế do triệt tiêu động lực làm việc, đầu tư; tồn tại một mức thuế suất tối ưu."
+        },
+        {
+          "hoi": "Paul Krugman nhận giải Nobel Kinh tế năm 2008 nhờ công trình phân tích về lĩnh vực nào?",
+          "phuongAn": ["Lý thuyết trò chơi và thiết kế cơ chế thị trường", "Mô hình thương mại và vị trí hoạt động kinh tế", "Kinh tế học hành vi và tài chính hành vi", "Định giá quyền chọn trên thị trường tài chính"],
+          "dung": 1,
+          "giai": "Krugman được trao Nobel 2008 cho phân tích mô hình thương mại và vị trí của hoạt động kinh tế, nền tảng của lý thuyết thương mại mới và địa lý kinh tế mới."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1176 @@
+{
+  "chuDe": "phap-ly-doanh-nghiep",
+  "ten": "Pháp lý doanh nghiệp & lao động",
+  "bo": [
+    {
+      "ma": "phap-ly-doanh-nghiep-01",
+      "ten": "Các loại hình doanh nghiệp",
+      "moTa": "Nhận diện 5 loại hình doanh nghiệp và chế độ trách nhiệm theo Luật Doanh nghiệp 2020.",
+      "cau": [
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, loại hình nào sau đây KHÔNG có tư cách pháp nhân?",
+          "phuongAn": [
+            "Công ty cổ phần",
+            "Công ty hợp danh",
+            "Doanh nghiệp tư nhân",
+            "Công ty TNHH một thành viên"
+          ],
+          "dung": 2,
+          "giai": "Doanh nghiệp tư nhân không có tài sản tách bạch với tài sản của chủ nên không có tư cách pháp nhân; công ty TNHH, cổ phần, hợp danh đều có tư cách pháp nhân (Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, cổ đông công ty cổ phần chịu trách nhiệm về các khoản nợ của công ty trong phạm vi nào?",
+          "phuongAn": [
+            "Bằng toàn bộ tài sản của cổ đông",
+            "Trong phạm vi số vốn đã góp vào công ty",
+            "Trong phạm vi toàn bộ vốn điều lệ công ty",
+            "Liên đới cùng các cổ đông sáng lập khác"
+          ],
+          "dung": 1,
+          "giai": "Cổ đông chỉ chịu trách nhiệm về các khoản nợ và nghĩa vụ tài sản khác của doanh nghiệp trong phạm vi số vốn đã góp vào doanh nghiệp (khoản 1 Điều 111 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, công ty hợp danh có được phát hành chứng khoán để huy động vốn không?",
+          "phuongAn": [
+            "Được phát hành cổ phần như công ty cổ phần",
+            "Chỉ được phát hành trái phiếu doanh nghiệp",
+            "Không được phát hành loại chứng khoán nào",
+            "Được, nếu mọi thành viên hợp danh đồng ý"
+          ],
+          "dung": 2,
+          "giai": "Công ty hợp danh không được phát hành bất kỳ loại chứng khoán nào (khoản 3 Điều 177 Luật Doanh nghiệp 2020); doanh nghiệp tư nhân cũng vậy (khoản 2 Điều 188)."
+        },
+        {
+          "hoi": "Chủ doanh nghiệp tư nhân thuê người khác làm Giám đốc điều hành. Theo Luật Doanh nghiệp 2020, ai chịu trách nhiệm về mọi hoạt động kinh doanh của doanh nghiệp?",
+          "phuongAn": [
+            "Chủ doanh nghiệp tư nhân vẫn chịu trách nhiệm",
+            "Giám đốc được thuê chịu toàn bộ trách nhiệm",
+            "Hai bên chia đôi trách nhiệm theo hợp đồng",
+            "Giám đốc chịu trách nhiệm trong phạm vi lương"
+          ],
+          "dung": 0,
+          "giai": "Chủ doanh nghiệp tư nhân có thể thuê người khác làm Giám đốc nhưng vẫn phải chịu trách nhiệm về mọi hoạt động kinh doanh của doanh nghiệp (khoản 2 Điều 190 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, công ty TNHH một thành viên có tư cách pháp nhân kể từ thời điểm nào?",
+          "phuongAn": [
+            "Từ ngày chủ sở hữu góp đủ số vốn điều lệ đã cam kết",
+            "Từ ngày khắc xong và bắt đầu sử dụng con dấu",
+            "Từ ngày xuất hóa đơn bán hàng đầu tiên cho khách",
+            "Từ ngày được cấp giấy chứng nhận đăng ký doanh nghiệp"
+          ],
+          "dung": 3,
+          "giai": "Công ty TNHH một thành viên có tư cách pháp nhân kể từ ngày được cấp Giấy chứng nhận đăng ký doanh nghiệp (khoản 2 Điều 74 Luật Doanh nghiệp 2020); công ty cổ phần, hợp danh cũng vậy."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, thành viên hợp danh của công ty hợp danh chịu trách nhiệm về nghĩa vụ của công ty ra sao?",
+          "phuongAn": [
+            "Bằng toàn bộ tài sản của mình",
+            "Trong phạm vi số vốn đã cam kết góp",
+            "Trong phạm vi số vốn đã góp thực tế",
+            "Không phải chịu trách nhiệm cá nhân"
+          ],
+          "dung": 0,
+          "giai": "Thành viên hợp danh là cá nhân, chịu trách nhiệm bằng toàn bộ tài sản của mình về nghĩa vụ của công ty. Thành viên góp vốn mới chịu trách nhiệm trong phạm vi vốn cam kết góp."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, mỗi cá nhân được quyền thành lập bao nhiêu doanh nghiệp tư nhân?",
+          "phuongAn": [
+            "Không giới hạn số lượng",
+            "Hai doanh nghiệp tư nhân",
+            "Ba doanh nghiệp tư nhân",
+            "Một doanh nghiệp tư nhân"
+          ],
+          "dung": 3,
+          "giai": "Mỗi cá nhân chỉ được quyền thành lập một doanh nghiệp tư nhân (khoản 3 Điều 188 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Mô hình kinh doanh nào sau đây KHÔNG phải là loại hình doanh nghiệp theo Luật Doanh nghiệp 2020?",
+          "phuongAn": [
+            "Công ty hợp danh",
+            "Hộ kinh doanh",
+            "Doanh nghiệp tư nhân",
+            "Công ty TNHH hai thành viên"
+          ],
+          "dung": 1,
+          "giai": "Luật Doanh nghiệp 2020 chỉ quy định công ty TNHH, công ty cổ phần, công ty hợp danh và doanh nghiệp tư nhân. Hộ kinh doanh không phải doanh nghiệp, được điều chỉnh bằng văn bản riêng."
+        },
+        {
+          "hoi": "Công ty TNHH hai thành viên muốn nhận thêm người góp vốn để tổng số thành viên lên 55. Theo Luật Doanh nghiệp 2020, công ty cần làm gì?",
+          "phuongAn": [
+            "Chuyển đổi thành công ty cổ phần",
+            "Chỉ cần đăng ký tăng vốn điều lệ",
+            "Tách thành hai công ty TNHH",
+            "Chuyển đổi thành công ty hợp danh"
+          ],
+          "dung": 0,
+          "giai": "Công ty TNHH hai thành viên trở lên tối đa 50 thành viên. Muốn có trên 50 người góp vốn, công ty phải chuyển đổi sang công ty cổ phần, loại hình không giới hạn số cổ đông."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, doanh nghiệp tư nhân KHÔNG được thực hiện việc nào sau đây?",
+          "phuongAn": [
+            "Cho thuê toàn bộ doanh nghiệp",
+            "Bán doanh nghiệp cho người khác",
+            "Góp vốn thành lập công ty TNHH",
+            "Thuê người khác làm giám đốc"
+          ],
+          "dung": 2,
+          "giai": "Doanh nghiệp tư nhân không được góp vốn thành lập hoặc mua cổ phần, phần vốn góp trong công ty TNHH, công ty cổ phần, công ty hợp danh (khoản 4 Điều 188)."
+        }
+      ]
+    },
+    {
+      "ma": "phap-ly-doanh-nghiep-02",
+      "ten": "Thành lập và đăng ký doanh nghiệp",
+      "moTa": "Những quy định cốt lõi khi đặt tên, lập hồ sơ và đăng ký thành lập doanh nghiệp.",
+      "cau": [
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, mã số doanh nghiệp đồng thời được sử dụng làm mã số nào sau đây?",
+          "phuongAn": [
+            "Mã số thuế của doanh nghiệp",
+            "Số hiệu con dấu doanh nghiệp",
+            "Số tài khoản ngân hàng",
+            "Số giấy phép hoạt động ngành"
+          ],
+          "dung": 0,
+          "giai": "Mỗi doanh nghiệp có một mã số duy nhất, dùng để thực hiện nghĩa vụ thuế và thủ tục hành chính; mã số doanh nghiệp đồng thời là mã số thuế (Điều 29 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, đối tượng nào sau đây KHÔNG được thành lập và quản lý doanh nghiệp tại Việt Nam?",
+          "phuongAn": [
+            "Người nước ngoài có hộ chiếu hợp lệ",
+            "Người chưa thành niên (chưa đủ 18 tuổi)",
+            "Sinh viên đã đủ 18 tuổi",
+            "Người đang làm thuê cho công ty khác"
+          ],
+          "dung": 1,
+          "giai": "Người chưa thành niên, người bị hạn chế hoặc mất năng lực hành vi dân sự thuộc nhóm không được thành lập và quản lý doanh nghiệp (khoản 2 Điều 17 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, tên doanh nghiệp bằng tiếng Việt bao gồm hai thành tố nào?",
+          "phuongAn": [
+            "Tên riêng và ngành nghề chính",
+            "Tên riêng và địa chỉ trụ sở",
+            "Loại hình doanh nghiệp và tên riêng",
+            "Ngành nghề và tên chủ sở hữu"
+          ],
+          "dung": 2,
+          "giai": "Tên doanh nghiệp gồm loại hình doanh nghiệp (ví dụ: Công ty TNHH, Công ty cổ phần) và tên riêng (Điều 37 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, doanh nghiệp có quyền tự do kinh doanh trong những ngành, nghề nào?",
+          "phuongAn": [
+            "Chỉ ngành nghề ghi trong giấy phép",
+            "Chỉ ngành nghề Nhà nước khuyến khích",
+            "Chỉ ngành nghề có trong danh mục ưu đãi",
+            "Ngành, nghề mà luật không cấm"
+          ],
+          "dung": 3,
+          "giai": "Doanh nghiệp được tự do kinh doanh ngành, nghề mà luật không cấm; ngành nghề kinh doanh có điều kiện thì phải đáp ứng đủ điều kiện (Điều 7 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, đơn vị phụ thuộc nào của doanh nghiệp KHÔNG được thực hiện chức năng kinh doanh?",
+          "phuongAn": [
+            "Chi nhánh của doanh nghiệp",
+            "Văn phòng đại diện",
+            "Địa điểm kinh doanh",
+            "Xưởng sản xuất của doanh nghiệp"
+          ],
+          "dung": 1,
+          "giai": "Văn phòng đại diện chỉ đại diện theo ủy quyền và bảo vệ lợi ích của doanh nghiệp, không thực hiện chức năng kinh doanh (Điều 44 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, ai quyết định loại dấu, số lượng, hình thức và nội dung con dấu của doanh nghiệp?",
+          "phuongAn": [
+            "Chính doanh nghiệp tự quyết định",
+            "Cơ quan công an nơi đặt trụ sở",
+            "Cơ quan đăng ký kinh doanh",
+            "Cơ quan thuế quản lý trực tiếp"
+          ],
+          "dung": 0,
+          "giai": "Doanh nghiệp tự quyết định loại dấu, số lượng, hình thức và nội dung dấu; việc quản lý, sử dụng dấu theo Điều lệ hoặc quy chế của doanh nghiệp (Điều 43)."
+        },
+        {
+          "hoi": "Loại giấy tờ nào bắt buộc trong hồ sơ đăng ký công ty TNHH nhưng KHÔNG bắt buộc với hồ sơ đăng ký doanh nghiệp tư nhân?",
+          "phuongAn": [
+            "Giấy đề nghị đăng ký doanh nghiệp",
+            "Bản sao giấy tờ pháp lý của cá nhân",
+            "Giấy xác nhận vốn của ngân hàng",
+            "Điều lệ công ty"
+          ],
+          "dung": 3,
+          "giai": "Hồ sơ doanh nghiệp tư nhân chỉ gồm giấy đề nghị và bản sao giấy tờ pháp lý của chủ doanh nghiệp; công ty TNHH phải có thêm Điều lệ công ty (Điều 19, 21 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, tên doanh nghiệp không được trùng với tên doanh nghiệp đã đăng ký trong phạm vi nào?",
+          "phuongAn": [
+            "Cùng phường, xã nơi đặt trụ sở",
+            "Cùng tỉnh, thành phố nơi đặt trụ sở",
+            "Trên phạm vi toàn quốc",
+            "Chỉ trong cùng ngành, nghề kinh doanh"
+          ],
+          "dung": 2,
+          "giai": "Tên doanh nghiệp được tra cứu trên Hệ thống thông tin quốc gia về đăng ký doanh nghiệp; không được trùng hoặc gây nhầm lẫn với doanh nghiệp đã đăng ký trên toàn quốc."
+        },
+        {
+          "hoi": "Trước khi có giấy chứng nhận đăng ký, A thay mặt công ty dự kiến ký hợp đồng thuê mặt bằng. Sau đó công ty không được thành lập. Ai chịu trách nhiệm thực hiện hợp đồng?",
+          "phuongAn": [
+            "Bên cho thuê tự gánh chịu thiệt hại",
+            "Hợp đồng vô hiệu, không ai chịu trách nhiệm",
+            "Cơ quan đăng ký kinh doanh phải bồi thường",
+            "Người đã ký hợp đồng (A) chịu trách nhiệm"
+          ],
+          "dung": 3,
+          "giai": "Nếu doanh nghiệp không được thành lập, người ký hợp đồng chịu trách nhiệm hoặc những người thành lập liên đới chịu trách nhiệm thực hiện hợp đồng (Điều 18 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, doanh nghiệp tư nhân có được chuyển đổi trực tiếp thành công ty cổ phần không?",
+          "phuongAn": [
+            "Được, nếu đáp ứng đủ điều kiện luật định",
+            "Không, chỉ được chuyển thành công ty TNHH",
+            "Không, phải giải thể rồi thành lập mới",
+            "Chỉ được nếu đã hoạt động trên 5 năm"
+          ],
+          "dung": 0,
+          "giai": "Luật Doanh nghiệp 2020 cho phép doanh nghiệp tư nhân chuyển đổi thành công ty TNHH, công ty cổ phần hoặc công ty hợp danh khi đáp ứng điều kiện (Điều 205)."
+        }
+      ]
+    },
+    {
+      "ma": "phap-ly-doanh-nghiep-03",
+      "ten": "Vốn điều lệ, góp vốn và cổ phần",
+      "moTa": "Thời hạn góp vốn, định giá tài sản góp vốn và quyền của các loại cổ phần theo Luật Doanh nghiệp 2020.",
+      "cau": [
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, thành viên, cổ đông phải góp đủ vốn đã cam kết trong thời hạn bao lâu kể từ ngày được cấp giấy chứng nhận đăng ký doanh nghiệp?",
+          "phuongAn": [
+            "30 ngày",
+            "60 ngày",
+            "90 ngày",
+            "180 ngày"
+          ],
+          "dung": 2,
+          "giai": "Thời hạn góp vốn là 90 ngày kể từ ngày được cấp giấy chứng nhận đăng ký doanh nghiệp, không kể thời gian vận chuyển, nhập khẩu, làm thủ tục chuyển quyền sở hữu tài sản góp vốn."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, loại cổ phần nào công ty cổ phần BẮT BUỘC phải có?",
+          "phuongAn": [
+            "Cổ phần ưu đãi cổ tức",
+            "Cổ phần phổ thông",
+            "Cổ phần ưu đãi biểu quyết",
+            "Cổ phần ưu đãi hoàn lại"
+          ],
+          "dung": 1,
+          "giai": "Công ty cổ phần phải có cổ phần phổ thông; các loại cổ phần ưu đãi là tùy chọn theo Điều lệ (Điều 114 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, vốn điều lệ của công ty cổ phần được hiểu là gì?",
+          "phuongAn": [
+            "Tổng mệnh giá cổ phần đã bán hoặc được đăng ký mua",
+            "Tổng giá trị tài sản mà công ty đang sở hữu",
+            "Tổng doanh thu dự kiến của năm đầu hoạt động",
+            "Tổng số tiền đang có trên tài khoản ngân hàng"
+          ],
+          "dung": 0,
+          "giai": "Vốn điều lệ công ty cổ phần là tổng mệnh giá cổ phần đã bán hoặc đã được đăng ký mua khi thành lập doanh nghiệp (Điều 4 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Luật Doanh nghiệp 2020 quy định mức vốn điều lệ tối thiểu chung khi thành lập công ty như thế nào?",
+          "phuongAn": [
+            "Không quy định mức tối thiểu chung",
+            "Tối thiểu 10 triệu đồng",
+            "Tối thiểu 100 triệu đồng",
+            "Tối thiểu 1 tỷ đồng"
+          ],
+          "dung": 0,
+          "giai": "Luật Doanh nghiệp 2020 không đặt mức vốn tối thiểu chung; chỉ một số ngành nghề kinh doanh có điều kiện mới yêu cầu vốn tối thiểu theo luật chuyên ngành."
+        },
+        {
+          "hoi": "Khi đăng ký thành lập, các cổ đông sáng lập phải cùng nhau đăng ký mua ít nhất bao nhiêu phần trăm tổng số cổ phần phổ thông được quyền chào bán?",
+          "phuongAn": [
+            "10%",
+            "20%",
+            "30%",
+            "51%"
+          ],
+          "dung": 1,
+          "giai": "Các cổ đông sáng lập phải cùng nhau đăng ký mua ít nhất 20% tổng số cổ phần phổ thông được quyền chào bán khi đăng ký doanh nghiệp (Điều 120 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Cổ phần ưu đãi biểu quyết của cổ đông sáng lập có hiệu lực trong bao lâu kể từ ngày công ty được cấp giấy chứng nhận đăng ký doanh nghiệp?",
+          "phuongAn": [
+            "6 tháng",
+            "1 năm",
+            "2 năm",
+            "3 năm"
+          ],
+          "dung": 3,
+          "giai": "Ưu đãi biểu quyết của cổ đông sáng lập có hiệu lực 03 năm; hết thời hạn, cổ phần này chuyển thành cổ phần phổ thông (Điều 116 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Thành viên công ty TNHH hai thành viên muốn chuyển nhượng phần vốn góp cho người ngoài công ty. Theo Luật Doanh nghiệp 2020, trước hết phải làm gì?",
+          "phuongAn": [
+            "Được tự do bán cho bất kỳ ai",
+            "Xin phép cơ quan đăng ký kinh doanh",
+            "Chào bán cho các thành viên còn lại trước",
+            "Phải có ý kiến chấp thuận của cơ quan thuế"
+          ],
+          "dung": 2,
+          "giai": "Phần vốn góp phải được chào bán cho các thành viên còn lại theo tỷ lệ; chỉ được bán cho người ngoài nếu họ không mua hoặc không mua hết (Điều 52 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Cổ đông sở hữu cổ phần ưu đãi cổ tức KHÔNG có quyền nào sau đây (trừ trường hợp luật có quy định riêng)?",
+          "phuongAn": [
+            "Nhận cổ tức theo mức ưu đãi",
+            "Chuyển nhượng cổ phần của mình",
+            "Nhận tài sản còn lại khi giải thể",
+            "Biểu quyết tại Đại hội đồng cổ đông"
+          ],
+          "dung": 3,
+          "giai": "Cổ đông ưu đãi cổ tức không có quyền biểu quyết, dự họp Đại hội đồng cổ đông, đề cử người vào HĐQT và Ban kiểm soát (Điều 117 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Khi thành lập, các cổ đông sáng lập định giá lô máy móc góp vốn 2 tỷ đồng nhưng giá trị thực tế chỉ 1,5 tỷ đồng. Theo Luật Doanh nghiệp 2020, xử lý thế nào?",
+          "phuongAn": [
+            "Công ty tự hạch toán khoản lỗ 500 triệu",
+            "Cổ đông sáng lập liên đới góp thêm 500 triệu",
+            "Nhà nước truy thu 500 triệu tiền phạt",
+            "Giữ nguyên vì các bên đã định giá nhất trí"
+          ],
+          "dung": 1,
+          "giai": "Tài sản góp vốn bị định giá cao hơn thực tế thì các cổ đông sáng lập liên đới góp thêm phần chênh lệch và liên đới chịu trách nhiệm về thiệt hại (Điều 36)."
+        },
+        {
+          "hoi": "Trong 3 năm đầu, cổ đông sáng lập muốn bán cổ phần phổ thông cho người KHÔNG phải cổ đông sáng lập. Theo Luật Doanh nghiệp 2020, điều kiện là gì?",
+          "phuongAn": [
+            "Phải được Đại hội đồng cổ đông chấp thuận",
+            "Chỉ cần thông báo cho HĐQT biết",
+            "Tuyệt đối không được chuyển nhượng",
+            "Phải được cơ quan đăng ký kinh doanh duyệt"
+          ],
+          "dung": 0,
+          "giai": "Trong 03 năm đầu, cổ phần phổ thông của cổ đông sáng lập chỉ được chuyển cho người ngoài nhóm sáng lập nếu Đại hội đồng cổ đông chấp thuận (khoản 3 Điều 120)."
+        }
+      ]
+    },
+    {
+      "ma": "phap-ly-doanh-nghiep-04",
+      "ten": "Quản trị công ty và người đại diện",
+      "moTa": "Vai trò Đại hội đồng cổ đông, Hội đồng quản trị và người đại diện theo pháp luật theo Luật Doanh nghiệp 2020.",
+      "cau": [
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, cơ quan quyết định cao nhất của công ty cổ phần là gì?",
+          "phuongAn": [
+            "Hội đồng quản trị",
+            "Đại hội đồng cổ đông",
+            "Ban kiểm soát",
+            "Giám đốc hoặc Tổng giám đốc"
+          ],
+          "dung": 1,
+          "giai": "Đại hội đồng cổ đông gồm tất cả cổ đông có quyền biểu quyết, là cơ quan quyết định cao nhất của công ty cổ phần (Điều 138 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, cơ quan quyết định cao nhất của công ty TNHH hai thành viên trở lên là gì?",
+          "phuongAn": [
+            "Hội đồng thành viên",
+            "Hội đồng quản trị",
+            "Chủ tịch công ty",
+            "Giám đốc hoặc Tổng giám đốc"
+          ],
+          "dung": 0,
+          "giai": "Hội đồng thành viên gồm tất cả thành viên công ty, là cơ quan quyết định cao nhất của công ty TNHH hai thành viên trở lên (Điều 55 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, Hội đồng quản trị của công ty cổ phần có bao nhiêu thành viên?",
+          "phuongAn": [
+            "Từ 2 đến 7 thành viên",
+            "Từ 3 đến 9 thành viên",
+            "Từ 5 đến 15 thành viên",
+            "Từ 3 đến 11 thành viên"
+          ],
+          "dung": 3,
+          "giai": "Hội đồng quản trị có từ 03 đến 11 thành viên; số lượng cụ thể do Điều lệ công ty quy định (Điều 154 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, công ty TNHH và công ty cổ phần có thể có bao nhiêu người đại diện theo pháp luật?",
+          "phuongAn": [
+            "Chỉ đúng một người duy nhất",
+            "Tối đa hai người",
+            "Một hoặc nhiều người, theo Điều lệ",
+            "Tối đa ba người"
+          ],
+          "dung": 2,
+          "giai": "Công ty TNHH và công ty cổ phần có thể có một hoặc nhiều người đại diện theo pháp luật; Điều lệ quy định số lượng, chức danh, quyền và nghĩa vụ (Điều 12)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, nhiệm kỳ của thành viên Hội đồng quản trị (không phải thành viên độc lập) được quy định thế nào?",
+          "phuongAn": [
+            "Không quá 3 năm, tối đa 2 nhiệm kỳ",
+            "Đúng 4 năm, tối đa 3 nhiệm kỳ",
+            "Không quá 5 năm, tối đa 2 nhiệm kỳ",
+            "Không quá 5 năm, bầu lại không hạn chế"
+          ],
+          "dung": 3,
+          "giai": "Nhiệm kỳ thành viên HĐQT không quá 05 năm và có thể được bầu lại không hạn chế số nhiệm kỳ; riêng thành viên độc lập không quá 02 nhiệm kỳ liên tục (Điều 154)."
+        },
+        {
+          "hoi": "Nếu không được gia hạn, Đại hội đồng cổ đông thường niên phải họp trong thời hạn bao lâu kể từ ngày kết thúc năm tài chính?",
+          "phuongAn": [
+            "2 tháng",
+            "3 tháng",
+            "4 tháng",
+            "5 tháng"
+          ],
+          "dung": 2,
+          "giai": "Đại hội đồng cổ đông họp thường niên trong thời hạn 04 tháng kể từ ngày kết thúc năm tài chính; HĐQT có thể gia hạn nhưng không quá 06 tháng (Điều 139)."
+        },
+        {
+          "hoi": "Nếu Điều lệ không quy định tỷ lệ khác, cổ đông hoặc nhóm cổ đông sở hữu từ bao nhiêu phần trăm cổ phần phổ thông có quyền yêu cầu triệu tập họp Đại hội đồng cổ đông?",
+          "phuongAn": [
+            "Từ 1% trở lên",
+            "Từ 5% trở lên",
+            "Từ 10% trở lên",
+            "Từ 20% trở lên"
+          ],
+          "dung": 1,
+          "giai": "Cổ đông, nhóm cổ đông sở hữu từ 05% tổng số cổ phần phổ thông trở lên có quyền yêu cầu triệu tập họp Đại hội đồng cổ đông trong các trường hợp luật định (Điều 115)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, doanh nghiệp phải bảo đảm điều gì về người đại diện theo pháp luật?",
+          "phuongAn": [
+            "Luôn có ít nhất một người cư trú tại Việt Nam",
+            "Người đại diện phải là cổ đông lớn nhất",
+            "Người đại diện phải có quốc tịch Việt Nam",
+            "Người đại diện phải là Chủ tịch HĐQT"
+          ],
+          "dung": 0,
+          "giai": "Doanh nghiệp phải bảo đảm luôn có ít nhất một người đại diện theo pháp luật cư trú tại Việt Nam (khoản 3 Điều 12 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Nếu Điều lệ không quy định khác, cuộc họp Đại hội đồng cổ đông lần thứ nhất được tiến hành khi cổ đông dự họp đại diện bao nhiêu tổng số phiếu biểu quyết?",
+          "phuongAn": [
+            "Trên 50%",
+            "Từ 33% trở lên",
+            "Từ 65% trở lên",
+            "Từ 75% trở lên"
+          ],
+          "dung": 0,
+          "giai": "Cuộc họp lần thứ nhất được tiến hành khi cổ đông dự họp đại diện trên 50% tổng số phiếu biểu quyết; tỷ lệ cụ thể do Điều lệ quy định (Điều 145 Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Nếu Điều lệ không quy định khác, nghị quyết Đại hội đồng cổ đông về giải thể công ty được thông qua tại cuộc họp khi đạt tỷ lệ tán thành nào?",
+          "phuongAn": [
+            "Trên 50% phiếu của cổ đông dự họp",
+            "Từ 75% tổng số cổ phần của công ty",
+            "Từ 65% phiếu của cổ đông dự họp",
+            "Toàn bộ 100% cổ đông tán thành"
+          ],
+          "dung": 2,
+          "giai": "Nghị quyết về giải thể, tổ chức lại, thay đổi ngành nghề... được thông qua khi cổ đông đại diện từ 65% tổng số phiếu biểu quyết của cổ đông dự họp tán thành (Điều 148)."
+        }
+      ]
+    },
+    {
+      "ma": "phap-ly-doanh-nghiep-05",
+      "ten": "Hợp đồng dân sự và thương mại",
+      "moTa": "Giao kết, hiệu lực, đặt cọc và trách nhiệm vi phạm hợp đồng theo Bộ luật Dân sự 2015.",
+      "cau": [
+        {
+          "hoi": "Theo Bộ luật Dân sự 2015, hợp đồng thông thường (luật không bắt buộc hình thức riêng) có thể được giao kết dưới hình thức nào?",
+          "phuongAn": [
+            "Chỉ bằng văn bản có công chứng",
+            "Chỉ bằng văn bản có chữ ký hai bên",
+            "Chỉ bằng văn bản hoặc thư điện tử",
+            "Lời nói, văn bản hoặc hành vi cụ thể"
+          ],
+          "dung": 3,
+          "giai": "Giao dịch dân sự được thể hiện bằng lời nói, bằng văn bản hoặc bằng hành vi cụ thể, trừ khi luật quy định phải theo hình thức nhất định (Điều 119 Bộ luật Dân sự 2015)."
+        },
+        {
+          "hoi": "Doanh nghiệp A nhận 100 triệu đồng tiền đặt cọc rồi từ chối ký hợp đồng. Nếu không có thỏa thuận khác, theo Bộ luật Dân sự 2015, A phải trả bên đặt cọc bao nhiêu?",
+          "phuongAn": [
+            "100 triệu đồng",
+            "150 triệu đồng",
+            "200 triệu đồng",
+            "300 triệu đồng"
+          ],
+          "dung": 2,
+          "giai": "Bên nhận cọc từ chối giao kết hợp đồng thì phải trả lại tiền cọc và một khoản tiền tương đương giá trị tiền cọc: 100 + 100 = 200 triệu đồng (Điều 328 Bộ luật Dân sự 2015)."
+        },
+        {
+          "hoi": "Theo Bộ luật Dân sự 2015, nếu không có thỏa thuận khác, bên không thực hiện được nghĩa vụ hoàn toàn do sự kiện bất khả kháng thì sao?",
+          "phuongAn": [
+            "Vẫn phải bồi thường toàn bộ thiệt hại",
+            "Phải bồi thường một nửa thiệt hại",
+            "Không phải chịu trách nhiệm dân sự",
+            "Phải chịu phạt gấp đôi mức thỏa thuận"
+          ],
+          "dung": 2,
+          "giai": "Bên có nghĩa vụ không phải chịu trách nhiệm dân sự nếu chứng minh được việc không thực hiện nghĩa vụ hoàn toàn do sự kiện bất khả kháng, trừ khi có thỏa thuận khác (Điều 351)."
+        },
+        {
+          "hoi": "Theo Bộ luật Dân sự 2015, nếu không có thỏa thuận hay luật quy định khác, hợp đồng có hiệu lực từ thời điểm nào?",
+          "phuongAn": [
+            "Thời điểm giao kết hợp đồng",
+            "Khi bên mua thanh toán lần đầu",
+            "Khi hàng hóa đã được giao xong",
+            "Sau 15 ngày kể từ ngày ký"
+          ],
+          "dung": 0,
+          "giai": "Hợp đồng được giao kết hợp pháp có hiệu lực từ thời điểm giao kết, trừ trường hợp có thỏa thuận khác hoặc luật liên quan có quy định khác (Điều 401 Bộ luật Dân sự 2015)."
+        },
+        {
+          "hoi": "Bên được đề nghị im lặng, không trả lời đề nghị giao kết hợp đồng. Theo Bộ luật Dân sự 2015, sự im lặng đó được hiểu thế nào?",
+          "phuongAn": [
+            "Mặc nhiên đồng ý toàn bộ nội dung đề nghị",
+            "Chỉ đồng ý với một phần nội dung đề nghị",
+            "Coi là từ chối và phải bồi thường bên kia",
+            "Không coi là chấp nhận, trừ thỏa thuận, thói quen"
+          ],
+          "dung": 3,
+          "giai": "Sự im lặng của bên được đề nghị không được coi là chấp nhận giao kết hợp đồng, trừ khi có thỏa thuận hoặc thói quen đã xác lập giữa các bên (Điều 393)."
+        },
+        {
+          "hoi": "Công ty A gửi đề nghị giao kết hợp đồng, yêu cầu trả lời trước ngày 10. Đến ngày 15, B mới gửi chấp nhận. Theo Bộ luật Dân sự 2015, chấp nhận này được coi là gì?",
+          "phuongAn": [
+            "Hợp đồng đã được giao kết",
+            "Đề nghị mới của bên B",
+            "Chấp nhận có điều kiện",
+            "Vô hiệu, A được đòi bồi thường"
+          ],
+          "dung": 1,
+          "giai": "Khi đề nghị có ấn định thời hạn trả lời mà bên đề nghị nhận chấp nhận sau khi hết hạn, chấp nhận đó được coi là đề nghị mới của bên chậm trả lời (Điều 394)."
+        },
+        {
+          "hoi": "Theo Bộ luật Dân sự 2015, một bên có quyền hủy bỏ hợp đồng mà không phải bồi thường thiệt hại trong trường hợp nào sau đây?",
+          "phuongAn": [
+            "Bên kia vi phạm nghiêm trọng nghĩa vụ hợp đồng",
+            "Giá thị trường biến động khiến mình bị lỗ",
+            "Mình tìm được đối tác khác chào giá tốt hơn",
+            "Bên kia thay đổi người phụ trách giao dịch"
+          ],
+          "dung": 0,
+          "giai": "Được hủy bỏ hợp đồng, không phải bồi thường khi bên kia vi phạm điều kiện hủy bỏ đã thỏa thuận, vi phạm nghiêm trọng nghĩa vụ hoặc trường hợp luật quy định (Điều 423 Bộ luật Dân sự 2015)."
+        },
+        {
+          "hoi": "Doanh nghiệp ký hợp đồng do bị đối tác lừa dối về chất lượng hàng hóa. Theo Bộ luật Dân sự 2015, doanh nghiệp có quyền gì?",
+          "phuongAn": [
+            "Tự ý giữ tài sản của đối tác",
+            "Không có quyền gì vì đã ký",
+            "Yêu cầu Tòa án tuyên hợp đồng vô hiệu",
+            "Chỉ được nhờ cơ quan thuế xử lý"
+          ],
+          "dung": 2,
+          "giai": "Bên bị lừa dối khi xác lập giao dịch có quyền yêu cầu Tòa án tuyên bố giao dịch dân sự đó vô hiệu (Điều 127 Bộ luật Dân sự 2015)."
+        },
+        {
+          "hoi": "Hợp đồng dân sự có thỏa thuận phạt vi phạm nhưng không thỏa thuận việc vừa chịu phạt vừa bồi thường. Theo Bộ luật Dân sự 2015, bên vi phạm phải chịu gì?",
+          "phuongAn": [
+            "Cả phạt vi phạm và bồi thường thiệt hại",
+            "Chỉ phải chịu phạt vi phạm",
+            "Chỉ phải bồi thường thiệt hại",
+            "Không phải chịu vì thiếu thỏa thuận"
+          ],
+          "dung": 1,
+          "giai": "Chỉ thỏa thuận phạt vi phạm mà không thỏa thuận vừa phạt vừa bồi thường thì bên vi phạm chỉ chịu phạt vi phạm (khoản 3 Điều 418 BLDS 2015). Hợp đồng thương mại có quy định riêng trong Luật Thương mại."
+        },
+        {
+          "hoi": "Hai bên ký hợp đồng tặng cho giả tạo để che giấu một hợp đồng mua bán thật. Theo Bộ luật Dân sự 2015, xử lý thế nào?",
+          "phuongAn": [
+            "Cả hai hợp đồng đều vô hiệu, phải hoàn trả",
+            "Tặng cho có hiệu lực, mua bán bị vô hiệu",
+            "Cả hai hợp đồng đều có hiệu lực pháp luật",
+            "Tặng cho vô hiệu, mua bán vẫn có thể có hiệu lực"
+          ],
+          "dung": 3,
+          "giai": "Giao dịch giả tạo vô hiệu, còn giao dịch bị che giấu vẫn có hiệu lực, trừ khi chính nó cũng vô hiệu theo luật (Điều 124 Bộ luật Dân sự 2015)."
+        }
+      ]
+    },
+    {
+      "ma": "phap-ly-doanh-nghiep-06",
+      "ten": "Hợp đồng lao động",
+      "moTa": "Loại hợp đồng, thử việc, phụ lục và chấm dứt hợp đồng lao động theo Bộ luật Lao động 2019.",
+      "cau": [
+        {
+          "hoi": "Theo Bộ luật Lao động 2019, hợp đồng lao động gồm những loại nào?",
+          "phuongAn": [
+            "Không xác định thời hạn và xác định thời hạn",
+            "Xác định thời hạn và hợp đồng mùa vụ",
+            "Không xác định thời hạn và hợp đồng thời vụ",
+            "Chính thức, thời vụ và khoán việc"
+          ],
+          "dung": 0,
+          "giai": "Bộ luật Lao động 2019 chỉ còn hai loại: hợp đồng không xác định thời hạn và hợp đồng xác định thời hạn; loại hợp đồng mùa vụ đã được bỏ (Điều 20)."
+        },
+        {
+          "hoi": "Theo Bộ luật Lao động 2019, hợp đồng lao động xác định thời hạn có thời hạn tối đa là bao lâu?",
+          "phuongAn": [
+            "12 tháng",
+            "24 tháng",
+            "36 tháng",
+            "60 tháng"
+          ],
+          "dung": 2,
+          "giai": "Hợp đồng lao động xác định thời hạn là hợp đồng mà hai bên xác định thời hạn không quá 36 tháng kể từ thời điểm có hiệu lực (Điều 20 Bộ luật Lao động 2019)."
+        },
+        {
+          "hoi": "Khi giao kết hợp đồng lao động, người sử dụng lao động KHÔNG được làm việc nào sau đây theo Bộ luật Lao động 2019?",
+          "phuongAn": [
+            "Giữ bản chính văn bằng của người lao động",
+            "Yêu cầu cung cấp thông tin sức khỏe",
+            "Thỏa thuận về việc làm thử trước khi ký",
+            "Yêu cầu cung cấp thông tin trình độ"
+          ],
+          "dung": 0,
+          "giai": "Người sử dụng lao động không được giữ bản chính giấy tờ tùy thân, văn bằng, chứng chỉ và không được buộc người lao động đặt cọc bằng tiền hoặc tài sản (Điều 17)."
+        },
+        {
+          "hoi": "Theo Bộ luật Lao động 2019, tiền lương thử việc tối thiểu bằng bao nhiêu phần trăm mức lương của công việc đó?",
+          "phuongAn": [
+            "60%",
+            "70%",
+            "80%",
+            "85%"
+          ],
+          "dung": 3,
+          "giai": "Tiền lương của người lao động trong thời gian thử việc do hai bên thỏa thuận nhưng ít nhất phải bằng 85% mức lương của công việc đó (Điều 26 Bộ luật Lao động 2019)."
+        },
+        {
+          "hoi": "Theo Bộ luật Lao động 2019, thời gian thử việc tối đa đối với công việc của người quản lý doanh nghiệp là bao lâu?",
+          "phuongAn": [
+            "60 ngày",
+            "90 ngày",
+            "120 ngày",
+            "180 ngày"
+          ],
+          "dung": 3,
+          "giai": "Thời gian thử việc không quá 180 ngày với công việc của người quản lý doanh nghiệp; chỉ được thử việc một lần đối với một công việc (Điều 25 Bộ luật Lao động 2019)."
+        },
+        {
+          "hoi": "Trong thời gian thử việc, một bên muốn hủy bỏ thỏa thuận thử việc. Theo Bộ luật Lao động 2019, bên đó phải làm gì?",
+          "phuongAn": [
+            "Báo trước ít nhất 3 ngày làm việc",
+            "Không cần báo trước, không phải bồi thường",
+            "Báo trước 30 ngày và bồi thường",
+            "Phải có ý kiến của công đoàn cơ sở"
+          ],
+          "dung": 1,
+          "giai": "Trong thời gian thử việc, mỗi bên có quyền hủy bỏ hợp đồng thử việc hoặc thỏa thuận thử việc mà không cần báo trước và không phải bồi thường (Điều 27)."
+        },
+        {
+          "hoi": "Hợp đồng lao động xác định thời hạn đã hết, người lao động vẫn làm việc và sau 30 ngày hai bên chưa ký hợp đồng mới. Hợp đồng đã ký trở thành loại nào?",
+          "phuongAn": [
+            "Hợp đồng xác định thời hạn 12 tháng",
+            "Hợp đồng không xác định thời hạn",
+            "Hợp đồng đương nhiên chấm dứt",
+            "Hợp đồng xác định thời hạn 36 tháng"
+          ],
+          "dung": 1,
+          "giai": "Hết 30 ngày kể từ khi hợp đồng hết hạn mà không ký hợp đồng mới, hợp đồng đã giao kết trở thành hợp đồng không xác định thời hạn (Điều 20 Bộ luật Lao động 2019)."
+        },
+        {
+          "hoi": "Theo Bộ luật Lao động 2019, trong trường hợp thông thường, người lao động đơn phương chấm dứt hợp đồng không xác định thời hạn phải báo trước ít nhất bao lâu?",
+          "phuongAn": [
+            "3 ngày làm việc",
+            "30 ngày",
+            "45 ngày",
+            "60 ngày"
+          ],
+          "dung": 2,
+          "giai": "Người lao động có quyền đơn phương chấm dứt hợp đồng nhưng phải báo trước ít nhất 45 ngày với hợp đồng không xác định thời hạn (Điều 35 Bộ luật Lao động 2019)."
+        },
+        {
+          "hoi": "Hai bên muốn kéo dài thời hạn hợp đồng lao động từ 12 tháng lên 24 tháng bằng một phụ lục hợp đồng. Theo Bộ luật Lao động 2019, cách làm này thế nào?",
+          "phuongAn": [
+            "Không được, phụ lục không được sửa thời hạn",
+            "Hợp lệ nếu hai bên cùng ký",
+            "Hợp lệ nếu có công đoàn xác nhận",
+            "Hợp lệ nếu báo cơ quan quản lý lao động"
+          ],
+          "dung": 0,
+          "giai": "Phụ lục hợp đồng lao động được sửa đổi, bổ sung một số điều khoản nhưng không được sửa đổi thời hạn của hợp đồng lao động (Điều 22 Bộ luật Lao động 2019)."
+        },
+        {
+          "hoi": "Công ty đơn phương chấm dứt hợp đồng lao động trái luật và nhận người lao động trở lại. Ngoài lương những ngày nghỉ, công ty phải trả thêm ít nhất bao nhiêu?",
+          "phuongAn": [
+            "Nửa tháng tiền lương theo hợp đồng",
+            "1 tháng tiền lương theo hợp đồng",
+            "2 tháng tiền lương theo hợp đồng",
+            "6 tháng tiền lương theo hợp đồng"
+          ],
+          "dung": 2,
+          "giai": "Ngoài trả lương, đóng bảo hiểm những ngày không được làm việc, công ty phải trả thêm ít nhất 02 tháng tiền lương theo hợp đồng lao động (Điều 41 Bộ luật Lao động 2019)."
+        }
+      ]
+    },
+    {
+      "ma": "phap-ly-doanh-nghiep-07",
+      "ten": "Giờ làm việc, nghỉ ngơi và kỷ luật lao động",
+      "moTa": "Giới hạn giờ làm, chế độ nghỉ và nguyên tắc xử lý kỷ luật lao động theo Bộ luật Lao động 2019.",
+      "cau": [
+        {
+          "hoi": "Theo Bộ luật Lao động 2019, thời giờ làm việc bình thường tối đa được quy định thế nào?",
+          "phuongAn": [
+            "Không quá 8 giờ/ngày và 40 giờ/tuần",
+            "Không quá 8 giờ/ngày và 48 giờ/tuần",
+            "Không quá 10 giờ/ngày và 60 giờ/tuần",
+            "Không quá 9 giờ/ngày và 54 giờ/tuần"
+          ],
+          "dung": 1,
+          "giai": "Thời giờ làm việc bình thường không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần; Nhà nước khuyến khích tuần làm việc 40 giờ (Điều 105)."
+        },
+        {
+          "hoi": "Theo Bộ luật Lao động 2019, mỗi tuần người lao động được nghỉ hằng tuần ít nhất bao lâu?",
+          "phuongAn": [
+            "Ít nhất 12 giờ liên tục",
+            "Ít nhất 16 giờ liên tục",
+            "Ít nhất 20 giờ liên tục",
+            "Ít nhất 24 giờ liên tục"
+          ],
+          "dung": 3,
+          "giai": "Mỗi tuần, người lao động được nghỉ ít nhất 24 giờ liên tục; ngày nghỉ hằng tuần do người sử dụng lao động bố trí và ghi trong nội quy (Điều 111 Bộ luật Lao động 2019)."
+        },
+        {
+          "hoi": "Hình thức nào sau đây KHÔNG phải là hình thức xử lý kỷ luật lao động theo Bộ luật Lao động 2019?",
+          "phuongAn": [
+            "Khiển trách",
+            "Cách chức",
+            "Phạt tiền, trừ lương",
+            "Sa thải"
+          ],
+          "dung": 2,
+          "giai": "Luật chỉ có khiển trách, kéo dài thời hạn nâng lương, cách chức và sa thải; nghiêm cấm phạt tiền, cắt lương thay cho xử lý kỷ luật (Điều 124, 127 Bộ luật Lao động 2019)."
+        },
+        {
+          "hoi": "Theo Bộ luật Lao động 2019, người lao động làm đủ 12 tháng trong điều kiện bình thường được nghỉ hằng năm hưởng nguyên lương bao nhiêu ngày?",
+          "phuongAn": [
+            "8 ngày làm việc",
+            "10 ngày làm việc",
+            "11 ngày làm việc",
+            "12 ngày làm việc"
+          ],
+          "dung": 3,
+          "giai": "Làm đủ 12 tháng trong điều kiện bình thường được nghỉ hằng năm 12 ngày làm việc; cứ đủ 05 năm làm việc cho một người sử dụng lao động được tăng thêm 01 ngày (Điều 113, 114)."
+        },
+        {
+          "hoi": "Theo Bộ luật Lao động 2019, người lao động làm thêm giờ vào ngày thường được trả lương ít nhất bằng bao nhiêu phần trăm tiền lương giờ bình thường?",
+          "phuongAn": [
+            "150%",
+            "200%",
+            "250%",
+            "300%"
+          ],
+          "dung": 0,
+          "giai": "Làm thêm giờ vào ngày thường ít nhất 150%; vào ngày nghỉ hằng tuần ít nhất 200%; vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương ít nhất 300% (Điều 98)."
+        },
+        {
+          "hoi": "Người lao động làm việc ban ngày từ 6 giờ trở lên trong một ngày được nghỉ giữa giờ ít nhất bao lâu theo Bộ luật Lao động 2019?",
+          "phuongAn": [
+            "Ít nhất 15 phút liên tục",
+            "Ít nhất 30 phút liên tục",
+            "Ít nhất 45 phút liên tục",
+            "Ít nhất 60 phút liên tục"
+          ],
+          "dung": 1,
+          "giai": "Làm việc từ 06 giờ trở lên trong ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục; nếu làm việc ban đêm thì ít nhất 45 phút liên tục (Điều 109)."
+        },
+        {
+          "hoi": "Theo Bộ luật Lao động 2019, người lao động kết hôn được nghỉ việc riêng hưởng nguyên lương bao nhiêu ngày?",
+          "phuongAn": [
+            "1 ngày",
+            "2 ngày",
+            "3 ngày",
+            "5 ngày"
+          ],
+          "dung": 2,
+          "giai": "Người lao động kết hôn được nghỉ 03 ngày; con đẻ, con nuôi kết hôn được nghỉ 01 ngày, đều hưởng nguyên lương và phải thông báo cho người sử dụng lao động (Điều 115)."
+        },
+        {
+          "hoi": "Một người lao động có một hành vi vi phạm kỷ luật. Theo Bộ luật Lao động 2019, công ty được áp dụng bao nhiêu hình thức kỷ luật cho hành vi đó?",
+          "phuongAn": [
+            "Chỉ một hình thức kỷ luật",
+            "Tối đa hai hình thức kỷ luật",
+            "Tối đa ba hình thức kỷ luật",
+            "Không giới hạn nếu nội quy cho phép"
+          ],
+          "dung": 0,
+          "giai": "Không được áp dụng nhiều hình thức xử lý kỷ luật lao động đối với một hành vi vi phạm kỷ luật lao động (khoản 3 Điều 122 Bộ luật Lao động 2019)."
+        },
+        {
+          "hoi": "Theo Bộ luật Lao động 2019, thời hiệu xử lý kỷ luật đối với hành vi vi phạm liên quan trực tiếp đến tài chính, tài sản của công ty là bao lâu?",
+          "phuongAn": [
+            "3 tháng kể từ ngày vi phạm",
+            "6 tháng kể từ ngày vi phạm",
+            "12 tháng kể từ ngày vi phạm",
+            "24 tháng kể từ ngày vi phạm"
+          ],
+          "dung": 2,
+          "giai": "Thời hiệu thông thường là 06 tháng; với vi phạm liên quan trực tiếp đến tài chính, tài sản, tiết lộ bí mật công nghệ, kinh doanh thì là 12 tháng (Điều 123)."
+        },
+        {
+          "hoi": "Người lao động tự ý bỏ việc không có lý do chính đáng. Theo Bộ luật Lao động 2019, công ty được sa thải khi họ bỏ việc cộng dồn bao nhiêu ngày trong 30 ngày?",
+          "phuongAn": [
+            "3 ngày",
+            "5 ngày",
+            "7 ngày",
+            "10 ngày"
+          ],
+          "dung": 1,
+          "giai": "Được sa thải khi người lao động tự ý bỏ việc 05 ngày cộng dồn trong 30 ngày hoặc 20 ngày cộng dồn trong 365 ngày mà không có lý do chính đáng (Điều 125)."
+        }
+      ]
+    },
+    {
+      "ma": "phap-ly-doanh-nghiep-08",
+      "ten": "Hóa đơn, chứng từ và hóa đơn điện tử",
+      "moTa": "Nguyên tắc lập, xử lý hóa đơn điện tử và quản lý chứng từ, sổ sách kế toán theo Luật Kế toán 2015.",
+      "cau": [
+        {
+          "hoi": "Theo quy định về hóa đơn điện tử, hóa đơn 'có mã của cơ quan thuế' là loại hóa đơn như thế nào?",
+          "phuongAn": [
+            "Được cơ quan thuế cấp mã trước khi gửi người mua",
+            "Do người mua tự gắn mã sau khi nhận hóa đơn",
+            "Do ngân hàng cấp mã khi khách thanh toán",
+            "Do nhà cung cấp phần mềm hóa đơn tự cấp mã"
+          ],
+          "dung": 0,
+          "giai": "Hóa đơn điện tử có mã của cơ quan thuế là hóa đơn được cơ quan thuế cấp mã trước khi người bán gửi cho người mua; loại không có mã thì người bán gửi thẳng cho người mua."
+        },
+        {
+          "hoi": "Theo Luật Kế toán 2015, đơn vị tiền tệ sử dụng trong kế toán về nguyên tắc là gì?",
+          "phuongAn": [
+            "Đô la Mỹ (USD)",
+            "Đồng Việt Nam (VND)",
+            "Đồng tiền do kế toán trưởng chọn",
+            "Đồng Euro (EUR)"
+          ],
+          "dung": 1,
+          "giai": "Đơn vị tiền tệ trong kế toán là Đồng Việt Nam; chỉ đơn vị thu, chi chủ yếu bằng ngoại tệ mới được chọn ngoại tệ và phải quy đổi khi lập báo cáo tài chính (Điều 10)."
+        },
+        {
+          "hoi": "Theo Luật Kế toán 2015, hành vi nào sau đây bị nghiêm cấm?",
+          "phuongAn": [
+            "Thuê dịch vụ làm kế toán bên ngoài",
+            "Ghi sổ kế toán bằng phần mềm máy tính",
+            "Lưu trữ chứng từ kế toán dạng điện tử",
+            "Lập hai hệ thống sổ kế toán tài chính"
+          ],
+          "dung": 3,
+          "giai": "Luật Kế toán 2015 nghiêm cấm lập hai hệ thống sổ kế toán tài chính trở lên hoặc cung cấp, công bố báo cáo tài chính có số liệu không đồng nhất (Điều 13)."
+        },
+        {
+          "hoi": "Doanh nghiệp xuất hàng hóa để biếu, tặng đối tác. Theo quy định về hóa đơn, doanh nghiệp có phải lập hóa đơn cho lô hàng này không?",
+          "phuongAn": [
+            "Không, vì không thu tiền",
+            "Chỉ lập nếu giá trị trên 20 triệu",
+            "Chỉ lập nếu đối tác yêu cầu",
+            "Có, vẫn phải lập hóa đơn theo quy định"
+          ],
+          "dung": 3,
+          "giai": "Hàng hóa, dịch vụ dùng để cho, biếu, tặng, khuyến mại, quảng cáo, hàng mẫu vẫn thuộc trường hợp người bán phải lập hóa đơn theo quy định về hóa đơn, chứng từ."
+        },
+        {
+          "hoi": "Khi bán hàng hóa trong nước, doanh nghiệp phải lập hóa đơn vào thời điểm nào theo quy định về hóa đơn, chứng từ?",
+          "phuongAn": [
+            "Khi chuyển giao quyền sở hữu, dù đã thu tiền hay chưa",
+            "Chỉ khi người mua đã thanh toán đủ tiền hàng",
+            "Vào cuối tháng, gộp tất cả các lần bán hàng",
+            "Chỉ khi người mua có yêu cầu xuất hóa đơn"
+          ],
+          "dung": 0,
+          "giai": "Thời điểm lập hóa đơn bán hàng hóa là thời điểm chuyển giao quyền sở hữu hoặc quyền sử dụng hàng hóa cho người mua, không phân biệt đã thu được tiền hay chưa."
+        },
+        {
+          "hoi": "Theo Luật Kế toán 2015, chữ ký trên chứng từ kế toán KHÔNG được thể hiện bằng cách nào?",
+          "phuongAn": [
+            "Bút bi mực xanh không phai",
+            "Bút mực đen không phai",
+            "Mực màu đỏ hoặc dấu chữ ký khắc sẵn",
+            "Bút máy mực xanh đen không phai"
+          ],
+          "dung": 2,
+          "giai": "Chữ ký trên chứng từ kế toán phải bằng loại mực không phai; không được ký bằng mực màu đỏ hoặc đóng dấu chữ ký khắc sẵn (Điều 19 Luật Kế toán 2015)."
+        },
+        {
+          "hoi": "Hóa đơn điện tử đã gửi cho người mua bị sai số tiền. Cách xử lý đúng theo quy định về hóa đơn là gì?",
+          "phuongAn": [
+            "Tự xóa hóa đơn trên phần mềm",
+            "Lập hóa đơn điều chỉnh hoặc thay thế",
+            "Gạch sửa trực tiếp trên bản in",
+            "Bỏ qua và bù vào hóa đơn kỳ sau"
+          ],
+          "dung": 1,
+          "giai": "Hóa đơn điện tử đã gửi người mua mà sai về số tiền, thuế suất, mã số thuế... thì người bán lập hóa đơn điều chỉnh hoặc hóa đơn thay thế, không được tự xóa, sửa."
+        },
+        {
+          "hoi": "Hóa đơn bán hàng (khác với hóa đơn giá trị gia tăng) chủ yếu dành cho đối tượng nào?",
+          "phuongAn": [
+            "Người khai thuế GTGT theo phương pháp khấu trừ",
+            "Chỉ dành cho doanh nghiệp nhà nước",
+            "Người khai thuế GTGT theo phương pháp trực tiếp",
+            "Chỉ dành cho hàng hóa nhập khẩu"
+          ],
+          "dung": 2,
+          "giai": "Hóa đơn bán hàng dành cho tổ chức, cá nhân khai, tính thuế GTGT theo phương pháp trực tiếp; người nộp thuế theo phương pháp khấu trừ dùng hóa đơn GTGT."
+        },
+        {
+          "hoi": "Theo Luật Kế toán 2015, chứng từ kế toán được lập bao nhiêu lần cho một nghiệp vụ kinh tế, tài chính phát sinh?",
+          "phuongAn": [
+            "Lập hai lần: một bản nháp và một bản chính",
+            "Chỉ được lập một lần cho một nghiệp vụ",
+            "Lập mỗi khi kế toán ghi vào một loại sổ",
+            "Lập lại mỗi khi có người yêu cầu sao lục"
+          ],
+          "dung": 1,
+          "giai": "Nghiệp vụ kinh tế, tài chính phát sinh phải lập chứng từ kế toán, và chứng từ kế toán chỉ được lập một lần cho một nghiệp vụ kinh tế, tài chính (khoản 1 Điều 18 Luật Kế toán 2015)."
+        },
+        {
+          "hoi": "Theo Luật Kế toán 2015, chứng từ kế toán dùng trực tiếp để ghi sổ và lập báo cáo tài chính phải được lưu trữ tối thiểu bao lâu?",
+          "phuongAn": [
+            "Tối thiểu 3 năm",
+            "Tối thiểu 5 năm",
+            "Tối thiểu 10 năm",
+            "Tối thiểu 20 năm"
+          ],
+          "dung": 2,
+          "giai": "Chứng từ kế toán dùng trực tiếp để ghi sổ, lập báo cáo tài chính, cùng sổ kế toán và báo cáo tài chính năm phải lưu trữ tối thiểu 10 năm (Điều 41 Luật Kế toán 2015)."
+        }
+      ]
+    },
+    {
+      "ma": "phap-ly-doanh-nghiep-09",
+      "ten": "Sở hữu trí tuệ: nhãn hiệu, sáng chế, bản quyền",
+      "moTa": "Thời hạn bảo hộ, nguyên tắc xác lập quyền và chủ sở hữu tài sản trí tuệ theo Luật Sở hữu trí tuệ 2005 (sửa đổi).",
+      "cau": [
+        {
+          "hoi": "Theo Luật Sở hữu trí tuệ 2005 (sửa đổi), giấy chứng nhận đăng ký nhãn hiệu có hiệu lực bao lâu kể từ ngày nộp đơn?",
+          "phuongAn": [
+            "10 năm, được gia hạn nhiều lần",
+            "5 năm, không được gia hạn",
+            "20 năm, không được gia hạn",
+            "Vĩnh viễn kể từ ngày cấp"
+          ],
+          "dung": 0,
+          "giai": "Giấy chứng nhận đăng ký nhãn hiệu có hiệu lực 10 năm kể từ ngày nộp đơn và có thể gia hạn nhiều lần liên tiếp, mỗi lần 10 năm (Điều 93 Luật Sở hữu trí tuệ)."
+        },
+        {
+          "hoi": "Theo Luật Sở hữu trí tuệ 2005 (sửa đổi), quyền tác giả đối với một tác phẩm phát sinh từ khi nào?",
+          "phuongAn": [
+            "Khi được cấp giấy chứng nhận đăng ký",
+            "Khi tác phẩm được đăng báo lần đầu tiên",
+            "Khi tác phẩm được bán ra thị trường",
+            "Khi được sáng tạo và thể hiện dưới dạng vật chất"
+          ],
+          "dung": 3,
+          "giai": "Quyền tác giả phát sinh kể từ khi tác phẩm được sáng tạo và thể hiện dưới một hình thức vật chất nhất định, không phân biệt đã đăng ký hay chưa (Điều 6)."
+        },
+        {
+          "hoi": "Theo Luật Sở hữu trí tuệ 2005 (sửa đổi), bằng độc quyền sáng chế có hiệu lực bao lâu kể từ ngày nộp đơn?",
+          "phuongAn": [
+            "10 năm",
+            "15 năm",
+            "20 năm",
+            "25 năm"
+          ],
+          "dung": 2,
+          "giai": "Bằng độc quyền sáng chế có hiệu lực 20 năm kể từ ngày nộp đơn và không được gia hạn; bằng độc quyền giải pháp hữu ích có hiệu lực 10 năm (Điều 93)."
+        },
+        {
+          "hoi": "Đối tượng nào sau đây KHÔNG thuộc phạm vi bảo hộ quyền tác giả theo Luật Sở hữu trí tuệ 2005 (sửa đổi)?",
+          "phuongAn": [
+            "Tác phẩm kiến trúc",
+            "Tin tức thời sự thuần túy đưa tin",
+            "Tác phẩm nhiếp ảnh",
+            "Bài giảng, bài phát biểu"
+          ],
+          "dung": 1,
+          "giai": "Tin tức thời sự thuần túy đưa tin không thuộc phạm vi bảo hộ quyền tác giả (Điều 15); tác phẩm kiến trúc, nhiếp ảnh, bài giảng đều là loại hình được bảo hộ (Điều 14)."
+        },
+        {
+          "hoi": "Hai công ty cùng nộp đơn đăng ký nhãn hiệu gần giống nhau cho cùng loại sản phẩm. Theo nguyên tắc chung của Luật Sở hữu trí tuệ, văn bằng cấp cho ai?",
+          "phuongAn": [
+            "Đơn hợp lệ có ngày ưu tiên hoặc nộp đơn sớm nhất",
+            "Công ty có ngày thành lập sớm hơn bên kia",
+            "Công ty có doanh thu và quy mô lớn hơn",
+            "Công ty đã quảng cáo nhãn hiệu nhiều hơn"
+          ],
+          "dung": 0,
+          "giai": "Theo nguyên tắc nộp đơn đầu tiên, văn bằng chỉ được cấp cho đơn hợp lệ có ngày ưu tiên hoặc ngày nộp đơn sớm nhất trong các đơn đủ điều kiện (Điều 90)."
+        },
+        {
+          "hoi": "Nhãn hiệu đã được cấp văn bằng bảo hộ tại Việt Nam thì về nguyên tắc được bảo hộ ở đâu?",
+          "phuongAn": [
+            "Tại tất cả các nước thành viên WTO",
+            "Tại các nước thuộc khối ASEAN",
+            "Tại mọi quốc gia trên thế giới",
+            "Chỉ trong lãnh thổ Việt Nam"
+          ],
+          "dung": 3,
+          "giai": "Quyền sở hữu công nghiệp có tính lãnh thổ. Muốn được bảo hộ ở nước ngoài, doanh nghiệp phải nộp đơn tại từng nước hoặc đăng ký quốc tế theo hệ thống Madrid."
+        },
+        {
+          "hoi": "Theo Luật Sở hữu trí tuệ 2005 (sửa đổi), chương trình máy tính (phần mềm) được bảo hộ dưới hình thức nào?",
+          "phuongAn": [
+            "Sáng chế",
+            "Quyền tác giả",
+            "Kiểu dáng công nghiệp",
+            "Nhãn hiệu"
+          ],
+          "dung": 1,
+          "giai": "Chương trình máy tính được bảo hộ quyền tác giả như tác phẩm văn học, dù thể hiện dưới dạng mã nguồn hay mã máy (Điều 22 Luật Sở hữu trí tuệ)."
+        },
+        {
+          "hoi": "Đối tượng nào sau đây được bảo hộ mà KHÔNG cần đăng ký với cơ quan nhà nước?",
+          "phuongAn": [
+            "Sáng chế",
+            "Kiểu dáng công nghiệp",
+            "Bí mật kinh doanh",
+            "Nhãn hiệu thông thường"
+          ],
+          "dung": 2,
+          "giai": "Quyền đối với bí mật kinh doanh được xác lập khi có được hợp pháp và thực hiện bảo mật; sáng chế, kiểu dáng, nhãn hiệu thông thường phải đăng ký (Điều 6)."
+        },
+        {
+          "hoi": "Nhân viên thiết kế logo theo nhiệm vụ công ty giao, hai bên không có thỏa thuận riêng. Theo Luật Sở hữu trí tuệ, ai là chủ sở hữu quyền tác giả?",
+          "phuongAn": [
+            "Công ty đã giao nhiệm vụ",
+            "Nhân viên trực tiếp thiết kế",
+            "Đồng sở hữu, mỗi bên một nửa",
+            "Người đầu tiên nộp đơn đăng ký"
+          ],
+          "dung": 0,
+          "giai": "Tổ chức giao nhiệm vụ sáng tạo cho người thuộc tổ chức mình là chủ sở hữu quyền tác giả, trừ khi có thỏa thuận khác; nhân viên vẫn là tác giả (Điều 39)."
+        },
+        {
+          "hoi": "Một hiệp hội muốn hội viên cùng dùng một nhãn hiệu để phân biệt sản phẩm của hội viên với sản phẩm của người ngoài hiệp hội. Đó là loại nhãn hiệu nào?",
+          "phuongAn": [
+            "Nhãn hiệu chứng nhận",
+            "Nhãn hiệu liên kết",
+            "Nhãn hiệu nổi tiếng",
+            "Nhãn hiệu tập thể"
+          ],
+          "dung": 3,
+          "giai": "Nhãn hiệu tập thể phân biệt hàng hóa, dịch vụ của thành viên tổ chức chủ sở hữu với người ngoài tổ chức; nhãn hiệu chứng nhận dùng để chứng nhận xuất xứ, chất lượng (Điều 4 Luật Sở hữu trí tuệ)."
+        }
+      ]
+    },
+    {
+      "ma": "phap-ly-doanh-nghiep-10",
+      "ten": "Giải quyết tranh chấp kinh doanh",
+      "moTa": "Chọn đúng phương thức: thương lượng, hòa giải, trọng tài hay Tòa án khi phát sinh tranh chấp.",
+      "cau": [
+        {
+          "hoi": "Phương thức giải quyết tranh chấp nào do chính các bên tự bàn bạc với nhau, không có bên thứ ba tham gia?",
+          "phuongAn": [
+            "Hòa giải",
+            "Thương lượng",
+            "Trọng tài",
+            "Tòa án"
+          ],
+          "dung": 1,
+          "giai": "Thương lượng là việc các bên tự trao đổi, thỏa thuận với nhau; hòa giải có hòa giải viên hỗ trợ, còn trọng tài và Tòa án do bên thứ ba ra phán quyết."
+        },
+        {
+          "hoi": "Theo Luật Trọng tài thương mại 2010, tranh chấp được giải quyết bằng trọng tài khi nào?",
+          "phuongAn": [
+            "Khi một bên tự nộp đơn ra trọng tài",
+            "Khi giá trị tranh chấp trên 1 tỷ đồng",
+            "Khi Tòa án chuyển hồ sơ sang",
+            "Khi các bên có thỏa thuận trọng tài"
+          ],
+          "dung": 3,
+          "giai": "Tranh chấp được giải quyết bằng trọng tài nếu các bên có thỏa thuận trọng tài; thỏa thuận có thể lập trước hoặc sau khi xảy ra tranh chấp (Điều 5 Luật Trọng tài thương mại 2010)."
+        },
+        {
+          "hoi": "Phán quyết trọng tài theo Luật Trọng tài thương mại 2010 có đặc điểm gì?",
+          "phuongAn": [
+            "Là chung thẩm, có hiệu lực từ ngày ban hành",
+            "Có thể kháng cáo lên Tòa án cấp trên",
+            "Chỉ có giá trị tham khảo cho các bên",
+            "Phải được Tòa án phúc thẩm xác nhận"
+          ],
+          "dung": 0,
+          "giai": "Phán quyết trọng tài là chung thẩm và có hiệu lực kể từ ngày ban hành; các bên không kháng cáo được, chỉ có thể yêu cầu Tòa án hủy khi có căn cứ luật định (Điều 61)."
+        },
+        {
+          "hoi": "Trong hòa giải thương mại, hòa giải viên có vai trò gì?",
+          "phuongAn": [
+            "Ra phán quyết buộc các bên thi hành",
+            "Đại diện bảo vệ quyền lợi cho một bên",
+            "Hỗ trợ các bên tự đạt được thỏa thuận",
+            "Xác định mức phạt đối với bên vi phạm"
+          ],
+          "dung": 2,
+          "giai": "Hòa giải viên là bên thứ ba trung lập, hỗ trợ các bên tìm giải pháp và tự đi đến thỏa thuận; hòa giải viên không có quyền ra phán quyết buộc các bên thi hành."
+        },
+        {
+          "hoi": "Doanh nghiệp muốn giữ kín thông tin tranh chấp với đối tác. Theo Luật Trọng tài thương mại 2010, trọng tài đáp ứng nhu cầu này nhờ nguyên tắc nào?",
+          "phuongAn": [
+            "Phán quyết được đăng công khai trên mạng",
+            "Mọi phiên họp đều mở cho báo chí đến dự",
+            "Hồ sơ vụ việc được chuyển Tòa án lưu trữ",
+            "Không công khai, trừ khi các bên thỏa thuận khác"
+          ],
+          "dung": 3,
+          "giai": "Trọng tài tiến hành không công khai, trừ trường hợp các bên có thỏa thuận khác (khoản 4 Điều 4 Luật Trọng tài thương mại 2010), giúp bảo mật thông tin kinh doanh."
+        },
+        {
+          "hoi": "Hợp đồng có điều khoản trọng tài hợp lệ, thực hiện được, nhưng một bên lại khởi kiện ra Tòa án. Theo Luật Trọng tài thương mại 2010, Tòa án xử lý thế nào?",
+          "phuongAn": [
+            "Thụ lý và xét xử như bình thường",
+            "Phải từ chối thụ lý vụ tranh chấp",
+            "Thụ lý song song với trọng tài",
+            "Chuyển vụ việc cho hòa giải viên"
+          ],
+          "dung": 1,
+          "giai": "Khi các bên đã có thỏa thuận trọng tài mà một bên khởi kiện, Tòa án phải từ chối thụ lý, trừ khi thỏa thuận trọng tài vô hiệu hoặc không thể thực hiện được (Điều 6)."
+        },
+        {
+          "hoi": "Theo Luật Trọng tài thương mại 2010, thỏa thuận trọng tài phải được xác lập dưới hình thức nào?",
+          "phuongAn": [
+            "Bằng văn bản, kể cả qua thư điện tử",
+            "Bằng lời nói có người làm chứng",
+            "Phải có công chứng mới hợp lệ",
+            "Chỉ cần thể hiện qua hành vi"
+          ],
+          "dung": 0,
+          "giai": "Thỏa thuận trọng tài phải lập bằng văn bản; trao đổi qua thư điện tử, fax, telex... cũng được coi là thỏa thuận bằng văn bản (Điều 16 Luật Trọng tài thương mại 2010)."
+        },
+        {
+          "hoi": "Theo Luật Trọng tài thương mại 2010, nếu các bên không thỏa thuận về số lượng trọng tài viên thì Hội đồng trọng tài gồm bao nhiêu người?",
+          "phuongAn": [
+            "1 trọng tài viên",
+            "3 trọng tài viên",
+            "5 trọng tài viên",
+            "7 trọng tài viên"
+          ],
+          "dung": 1,
+          "giai": "Hội đồng trọng tài gồm một hoặc nhiều trọng tài viên theo thỏa thuận; nếu các bên không thỏa thuận số lượng thì gồm ba trọng tài viên (Điều 39 Luật Trọng tài thương mại 2010)."
+        },
+        {
+          "hoi": "Hợp đồng chính bị tuyên vô hiệu, trong hợp đồng có điều khoản trọng tài. Theo Luật Trọng tài thương mại 2010, điều khoản trọng tài đó ra sao?",
+          "phuongAn": [
+            "Đương nhiên vô hiệu theo hợp đồng",
+            "Chỉ còn hiệu lực nếu Tòa án cho phép",
+            "Không mất hiệu lực vì độc lập với hợp đồng",
+            "Tự chuyển thành thỏa thuận hòa giải"
+          ],
+          "dung": 2,
+          "giai": "Thỏa thuận trọng tài hoàn toàn độc lập với hợp đồng; hợp đồng vô hiệu, bị hủy bỏ hay không thể thực hiện không làm mất hiệu lực thỏa thuận trọng tài (Điều 19)."
+        },
+        {
+          "hoi": "Doanh nghiệp thắng kiện tại một trung tâm trọng tài nước ngoài và muốn thi hành với tài sản của bên thua tại Việt Nam. Bước cần làm là gì?",
+          "phuongAn": [
+            "Yêu cầu Tòa án Việt Nam công nhận và cho thi hành",
+            "Nộp thẳng phán quyết cho cơ quan thi hành án",
+            "Khởi kiện lại toàn bộ vụ việc tại Tòa án",
+            "Đề nghị trọng tài nước ngoài sang cưỡng chế"
+          ],
+          "dung": 0,
+          "giai": "Phán quyết trọng tài nước ngoài phải được Tòa án Việt Nam công nhận và cho thi hành theo Bộ luật Tố tụng dân sự 2015 và Công ước New York 1958 mới được thi hành."
+        }
+      ]
+    }
+  ]
+}

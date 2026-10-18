@@ -1,0 +1,1176 @@
+{
+  "chuDe": "cong-nghe-ai",
+  "ten": "Công nghệ, chuyển đổi số & AI",
+  "bo": [
+    {
+      "ma": "cong-nghe-ai-01",
+      "ten": "Trí tuệ nhân tạo căn bản",
+      "moTa": "Những khái niệm nền tảng về AI, học máy và mô hình ngôn ngữ mà doanh nhân nên nắm.",
+      "cau": [
+        {
+          "hoi": "Cụm từ viết tắt “AI” trong công nghệ có nghĩa đầy đủ là gì?",
+          "phuongAn": [
+            "Automated Internet – internet tự động",
+            "Artificial Intelligence – trí tuệ nhân tạo",
+            "Advanced Integration – tích hợp nâng cao",
+            "Analytical Information – thông tin phân tích"
+          ],
+          "dung": 1,
+          "giai": "AI là Artificial Intelligence – trí tuệ nhân tạo, lĩnh vực giúp máy tính làm những việc cần trí thông minh như hiểu ngôn ngữ, nhận dạng hình ảnh, ra quyết định."
+        },
+        {
+          "hoi": "Học máy (Machine Learning) được hiểu đúng nhất là gì?",
+          "phuongAn": [
+            "Khóa đào tạo giúp nhân viên dùng máy tính thành thạo",
+            "Thiết bị phần cứng giúp máy tính chạy nhanh hơn",
+            "Phần mềm tự động quét và diệt virus theo lịch",
+            "Máy tính tự rút ra quy luật từ dữ liệu mẫu"
+          ],
+          "dung": 3,
+          "giai": "Học máy là nhánh của AI, trong đó hệ thống tự rút ra quy luật từ dữ liệu mẫu để dự đoán hoặc phân loại, thay vì lập trình viên viết sẵn từng quy tắc."
+        },
+        {
+          "hoi": "Công cụ AI có thể tự viết văn bản, tạo hình ảnh hoặc âm thanh mới theo yêu cầu thuộc nhóm nào?",
+          "phuongAn": [
+            "AI tạo sinh (Generative AI)",
+            "AI nhận diện khuôn mặt qua camera",
+            "Robot công nghiệp tự động",
+            "Hệ chuyên gia dựa trên luật"
+          ],
+          "dung": 0,
+          "giai": "AI tạo sinh học từ lượng dữ liệu rất lớn để tạo ra nội dung mới như văn bản, hình ảnh, âm thanh, video theo câu lệnh của người dùng."
+        },
+        {
+          "hoi": "Khi dùng các công cụ AI trò chuyện, “prompt” là gì?",
+          "phuongAn": [
+            "Kết quả mà AI trả về cho người dùng",
+            "Gói cước trả phí hằng tháng để dùng bản nâng cao",
+            "Câu lệnh, yêu cầu người dùng nhập cho AI",
+            "Kho dữ liệu dùng để huấn luyện AI"
+          ],
+          "dung": 2,
+          "giai": "Prompt là câu lệnh hay yêu cầu người dùng đưa cho AI. Prompt càng rõ bối cảnh, mục tiêu và định dạng mong muốn thì kết quả càng sát nhu cầu."
+        },
+        {
+          "hoi": "Hiện tượng “ảo giác” (hallucination) của AI tạo sinh nghĩa là gì?",
+          "phuongAn": [
+            "AI tạo ra hình ảnh giống thật đến khó phân biệt",
+            "AI phản hồi chậm do máy chủ bị quá tải",
+            "AI từ chối trả lời các câu hỏi nhạy cảm, riêng tư",
+            "AI đưa thông tin sai nhưng trình bày rất tự tin"
+          ],
+          "dung": 3,
+          "giai": "AI tạo sinh có thể bịa ra số liệu, trích dẫn hay sự kiện không có thật với giọng văn rất chắc chắn. Vì vậy thông tin quan trọng luôn cần được kiểm chứng lại."
+        },
+        {
+          "hoi": "Trong lĩnh vực AI, “LLM” là viết tắt của thuật ngữ nào?",
+          "phuongAn": [
+            "Large Language Model – mô hình ngôn ngữ lớn",
+            "Low Latency Machine – máy có độ trễ thấp",
+            "Linked Learning Module – mô-đun học liên kết",
+            "Logical Language Method – phương pháp ngôn ngữ"
+          ],
+          "dung": 0,
+          "giai": "LLM là mô hình ngôn ngữ lớn, được huấn luyện trên khối văn bản khổng lồ để hiểu và tạo ngôn ngữ; đây là nền tảng của các trợ lý AI trò chuyện hiện nay."
+        },
+        {
+          "hoi": "Học sâu (Deep Learning) được xây dựng chủ yếu dựa trên cấu trúc nào?",
+          "phuongAn": [
+            "Cây quyết định chỉ có một tầng",
+            "Bảng tính có nhiều công thức lồng nhau",
+            "Mạng nơ-ron nhân tạo gồm nhiều lớp",
+            "Cơ sở dữ liệu quan hệ nhiều bảng"
+          ],
+          "dung": 2,
+          "giai": "Học sâu dùng mạng nơ-ron nhân tạo nhiều lớp, mô phỏng cách các nơ-ron liên kết, rất hiệu quả với dữ liệu phức tạp như hình ảnh, giọng nói, văn bản."
+        },
+        {
+          "hoi": "Phép thử Turing do nhà khoa học Alan Turing đề xuất năm 1950 nhằm đánh giá điều gì?",
+          "phuongAn": [
+            "Tốc độ tính toán tối đa của bộ vi xử lý trong máy tính",
+            "Máy có trò chuyện giống người đến mức khó phân biệt",
+            "Độ an toàn của hệ thống mật mã trước kẻ tấn công",
+            "Khả năng lưu trữ dữ liệu lâu dài của máy tính"
+          ],
+          "dung": 1,
+          "giai": "Phép thử Turing (1950) xem một máy có thể trò chuyện khiến người đối thoại không phân biệt được đó là máy hay người thật hay không."
+        },
+        {
+          "hoi": "Điểm khác biệt cốt lõi của “học có giám sát” so với “học không giám sát” là gì?",
+          "phuongAn": [
+            "Dữ liệu huấn luyện đã được gắn nhãn đáp án sẵn",
+            "Luôn có kỹ sư ngồi theo dõi máy trong lúc học",
+            "Dữ liệu phải được mã hóa trước khi đưa vào học",
+            "Mô hình chỉ học từ văn bản, không học từ hình ảnh"
+          ],
+          "dung": 0,
+          "giai": "Học có giám sát dùng dữ liệu có nhãn (ví dụ email đã đánh dấu thư rác) để học cách dự đoán; học không giám sát tự tìm nhóm, quy luật trong dữ liệu chưa gắn nhãn."
+        },
+        {
+          "hoi": "Khi nói một mô hình ngôn ngữ lớn xử lý được tối đa 100.000 “token” mỗi lần, token ở đây là gì?",
+          "phuongAn": [
+            "Mã xác thực dùng để đăng nhập tài khoản trên web",
+            "Đồng tiền mã hóa dùng để trả phí dịch vụ",
+            "Số lượt người dùng truy cập cùng một lúc",
+            "Đơn vị văn bản nhỏ như từ, mảnh từ, dấu câu"
+          ],
+          "dung": 3,
+          "giai": "Token là đơn vị văn bản mô hình xử lý – có thể là một từ, một phần của từ hay dấu câu. Giới hạn độ dài ngữ cảnh và chi phí dùng API thường tính theo token."
+        }
+      ]
+    },
+    {
+      "ma": "cong-nghe-ai-02",
+      "ten": "Ứng dụng AI trong doanh nghiệp",
+      "moTa": "Đưa AI vào bán hàng, chăm sóc khách, kế toán và vận hành một cách an toàn, hiệu quả.",
+      "cau": [
+        {
+          "hoi": "Doanh nghiệp nhỏ muốn trả lời khách trên fanpage 24/7 mà không tăng nhân sự. Ứng dụng AI phù hợp nhất là gì?",
+          "phuongAn": [
+            "Robot hàn tự động trong dây chuyền sản xuất",
+            "Xe tự hành giao hàng trong nội thành",
+            "Chatbot tự trả lời các câu hỏi thường gặp",
+            "Máy chấm công nhận diện khuôn mặt"
+          ],
+          "dung": 2,
+          "giai": "Chatbot AI trả lời tức thì các câu hỏi lặp lại như giá, địa chỉ, giờ mở cửa suốt ngày đêm, rồi chuyển cho nhân viên khi khách cần tư vấn sâu."
+        },
+        {
+          "hoi": "Trước khi dán hợp đồng của khách hàng vào một công cụ AI công cộng để tóm tắt, việc nên làm là gì?",
+          "phuongAn": [
+            "Che hoặc xóa thông tin mật và dữ liệu cá nhân",
+            "Dịch sang tiếng Anh để AI hiểu chính xác hơn",
+            "Chia nhỏ văn bản để AI xử lý nhanh hơn",
+            "Không cần làm gì vì công cụ AI đã tự bảo mật dữ liệu"
+          ],
+          "dung": 0,
+          "giai": "Dữ liệu nhập vào công cụ AI công cộng có thể được lưu hoặc dùng cải tiến dịch vụ. Cần ẩn thông tin mật, dữ liệu cá nhân để tránh rò rỉ và vi phạm cam kết bảo mật."
+        },
+        {
+          "hoi": "Bài quảng cáo do AI soạn nên được xử lý thế nào trước khi đăng lên kênh chính thức của công ty?",
+          "phuongAn": [
+            "Đăng ngay để tiết kiệm thời gian cho nhân viên",
+            "Nhờ một công cụ AI khác kiểm tra lại là đủ",
+            "Chỉ cần rà lỗi chính tả rồi đăng ngay",
+            "Người phụ trách duyệt, chỉnh sửa rồi mới đăng"
+          ],
+          "dung": 3,
+          "giai": "AI có thể viết sai thông tin, lệch giọng thương hiệu hoặc vi phạm quy định quảng cáo. Người phụ trách phải duyệt vì doanh nghiệp chịu trách nhiệm về bài đăng."
+        },
+        {
+          "hoi": "Mục “Có thể bạn cũng thích” trên các sàn thương mại điện tử dùng AI chủ yếu để làm gì?",
+          "phuongAn": [
+            "Tính thuế tự động cho người bán hàng",
+            "Cá nhân hóa gợi ý theo hành vi mua sắm",
+            "Rút ngắn thời gian giao hàng cho khách",
+            "Tự động thương lượng giá với người bán hàng"
+          ],
+          "dung": 1,
+          "giai": "Hệ thống gợi ý phân tích lịch sử xem, mua và hành vi của những khách tương tự để đề xuất sản phẩm phù hợp từng người, giúp tăng giá trị đơn hàng."
+        },
+        {
+          "hoi": "Ứng dụng AI dự báo nhu cầu (demand forecasting) mang lại lợi ích chính nào cho nhà bán lẻ?",
+          "phuongAn": [
+            "Tuyển được nhân viên bán hàng giỏi hơn đối thủ",
+            "Tối ưu tồn kho, giảm hết hàng và tồn đọng",
+            "Tự động thiết kế bộ nhận diện thương hiệu",
+            "Giảm số thuế phải nộp trong mỗi quý"
+          ],
+          "dung": 1,
+          "giai": "AI dựa trên dữ liệu bán hàng, mùa vụ, khuyến mãi để dự báo lượng hàng cần nhập, giúp giảm cả tình trạng thiếu hàng lẫn vốn bị chôn trong hàng tồn."
+        },
+        {
+          "hoi": "Doanh nghiệp lần đầu ứng dụng AI. Cách triển khai hợp lý nhất theo nguyên tắc quản trị rủi ro là gì?",
+          "phuongAn": [
+            "Mua ngay hệ thống lớn, áp dụng đồng loạt cho toàn công ty",
+            "Chờ đối thủ làm trước rồi sao chép lại",
+            "Giao cho nhân viên trẻ tự tìm hiểu, tự làm",
+            "Thí điểm một bài toán nhỏ, đo hiệu quả rồi mở rộng"
+          ],
+          "dung": 3,
+          "giai": "Thí điểm ở một bài toán cụ thể có chỉ số đo lường giúp kiểm chứng giá trị với chi phí và rủi ro thấp, rút kinh nghiệm trước khi nhân rộng."
+        },
+        {
+          "hoi": "Công nghệ OCR kết hợp AI thường giúp phòng kế toán làm việc gì nhanh hơn?",
+          "phuongAn": [
+            "Đọc và nhập số liệu từ hóa đơn, chứng từ scan",
+            "Tự ký duyệt các khoản chi thay kế toán trưởng",
+            "Tự thương lượng điều khoản với nhà cung cấp",
+            "Tự quyết định mức lương, thưởng cho từng nhân viên"
+          ],
+          "dung": 0,
+          "giai": "OCR (nhận dạng ký tự quang học) chuyển chữ trong ảnh, file scan thành dữ liệu; AI giúp nhận đúng các trường như mã số thuế, số tiền, ngày, giảm nhập liệu tay."
+        },
+        {
+          "hoi": "Nguyên tắc “human-in-the-loop” khi ứng dụng AI trong doanh nghiệp nghĩa là gì?",
+          "phuongAn": [
+            "AI thay thế hoàn toàn con người ở mọi khâu",
+            "Nhân viên phải ngồi cạnh máy chủ để giám sát liên tục",
+            "Con người duyệt ở các bước quyết định quan trọng",
+            "Chỉ người trong công ty mới được phép dùng AI"
+          ],
+          "dung": 2,
+          "giai": "Human-in-the-loop giữ con người trong vòng xử lý: AI đề xuất, con người xem xét và phê duyệt ở những điểm có rủi ro cao, giúp kiểm soát sai sót."
+        },
+        {
+          "hoi": "Kỹ thuật RAG (Retrieval-Augmented Generation) giúp chatbot doanh nghiệp làm được điều gì?",
+          "phuongAn": [
+            "Tăng tốc độ đường truyền internet của công ty",
+            "Tự động dựng video quảng cáo từ hình ảnh",
+            "Mã hóa toàn bộ dữ liệu khách hàng khi lưu trữ",
+            "Tra tài liệu nội bộ rồi dựa vào đó để trả lời"
+          ],
+          "dung": 3,
+          "giai": "RAG cho mô hình tìm các đoạn liên quan trong kho tài liệu của doanh nghiệp (bảng giá, chính sách) rồi mới trả lời, giúp câu trả lời sát thực tế và giảm bịa đặt."
+        },
+        {
+          "hoi": "Chỉ số nào phản ánh tốt nhất hiệu quả của chatbot chăm sóc khách hàng?",
+          "phuongAn": [
+            "Tỷ lệ yêu cầu được giải quyết không cần chuyển người",
+            "Tổng số tin nhắn mà chatbot đã tự động gửi đi mỗi tháng",
+            "Số từ trung bình trong mỗi câu trả lời",
+            "Số giờ chatbot hoạt động trong một ngày"
+          ],
+          "dung": 0,
+          "giai": "Tỷ lệ tự giải quyết cho biết chatbot thật sự xử lý được nhu cầu của khách; số tin nhắn gửi đi hay số giờ hoạt động không nói lên chất lượng phục vụ."
+        }
+      ]
+    },
+    {
+      "ma": "cong-nghe-ai-03",
+      "ten": "An ninh mạng cho doanh nghiệp",
+      "moTa": "Nhận diện lừa đảo, mã độc và các nguyên tắc bảo vệ tài khoản, dữ liệu của công ty.",
+      "cau": [
+        {
+          "hoi": "Hình thức tấn công “phishing” mà doanh nghiệp thường gặp là gì?",
+          "phuongAn": [
+            "Gửi lượng truy cập khổng lồ làm sập máy chủ",
+            "Phá hỏng ổ cứng máy tính bằng virus",
+            "Nghe lén cuộc gọi qua tổng đài điện thoại công ty",
+            "Giả mạo email, tin nhắn để lừa lấy thông tin"
+          ],
+          "dung": 3,
+          "giai": "Phishing là giả danh ngân hàng, đối tác, cơ quan hay lãnh đạo qua email, tin nhắn, đường link giả để lừa nạn nhân cung cấp mật khẩu, mã OTP hoặc chuyển tiền."
+        },
+        {
+          "hoi": "Bật xác thực hai yếu tố (2FA) cho tài khoản công ty mang lại lợi ích gì?",
+          "phuongAn": [
+            "Giúp đăng nhập nhanh hơn, không cần mật khẩu",
+            "Thêm lớp xác minh ngoài mật khẩu, như mã OTP",
+            "Cho phép hai người cùng dùng chung một tài khoản",
+            "Tự động đổi sang mật khẩu mới mỗi tuần"
+          ],
+          "dung": 1,
+          "giai": "Với 2FA, kẻ gian dù biết mật khẩu vẫn cần thêm yếu tố thứ hai như mã trên điện thoại hay khóa bảo mật mới đăng nhập được, giảm mạnh nguy cơ mất tài khoản."
+        },
+        {
+          "hoi": "Cách đặt mật khẩu nào an toàn nhất cho tài khoản quản trị của doanh nghiệp?",
+          "phuongAn": [
+            "Tên công ty viết liền kèm năm thành lập",
+            "Một mật khẩu thật mạnh dùng chung cho mọi tài khoản",
+            "Cụm từ dài, ngẫu nhiên, riêng cho từng tài khoản",
+            "Ngày sinh giám đốc kèm ký tự @ ở cuối"
+          ],
+          "dung": 2,
+          "giai": "Mật khẩu dài, khó đoán và không dùng lại giúp một vụ lộ ở dịch vụ này không kéo theo các tài khoản khác. Nên dùng trình quản lý mật khẩu để lưu trữ."
+        },
+        {
+          "hoi": "Ransomware là loại mã độc hoạt động như thế nào?",
+          "phuongAn": [
+            "Mã hóa dữ liệu của nạn nhân rồi đòi tiền chuộc",
+            "Hiện liên tục cửa sổ quảng cáo khi lướt web",
+            "Theo dõi vị trí điện thoại của người dùng",
+            "Tự sao chép dữ liệu công ty lên máy chủ của đối thủ"
+          ],
+          "dung": 0,
+          "giai": "Ransomware khóa hoặc mã hóa tệp tin, máy chủ rồi yêu cầu trả tiền để giải mã. Sao lưu định kỳ, lưu tách biệt khỏi mạng là cách phòng vệ rất quan trọng."
+        },
+        {
+          "hoi": "Quy tắc sao lưu “3-2-1” được khuyến nghị rộng rãi có nội dung là gì?",
+          "phuongAn": [
+            "3 bản sao, trên 2 loại lưu trữ, 1 bản đặt nơi khác",
+            "Sao lưu 3 lần mỗi ngày, 2 lần mỗi tuần, 1 lần mỗi tháng",
+            "3 người giữ mật khẩu, 2 máy chủ, 1 két sắt lưu ổ cứng",
+            "3 ổ cứng, 2 máy tính và 1 USB đặt tại văn phòng"
+          ],
+          "dung": 0,
+          "giai": "Giữ ít nhất 3 bản dữ liệu, trên 2 loại phương tiện khác nhau, trong đó 1 bản ở ngoài nơi làm việc (ví dụ trên đám mây) để còn khôi phục khi gặp sự cố hay mã độc."
+        },
+        {
+          "hoi": "Kế toán nhận email của “giám đốc” yêu cầu chuyển khoản gấp sang một tài khoản mới. Cách xử lý đúng nhất là gì?",
+          "phuongAn": [
+            "Chuyển ngay vì đây là yêu cầu của giám đốc",
+            "Trả lời email đó để hỏi lại cho chắc chắn",
+            "Gọi số điện thoại đã biết của giám đốc để xác minh",
+            "Chuyển trước một nửa số tiền, xác minh phần còn lại sau"
+          ],
+          "dung": 2,
+          "giai": "Đây là dấu hiệu lừa đảo giả mạo lãnh đạo. Trả lời email giả vẫn rơi vào tay kẻ gian; phải xác minh qua kênh độc lập như số điện thoại đã lưu từ trước."
+        },
+        {
+          "hoi": "Nguyên tắc “quyền tối thiểu” (least privilege) trong quản trị hệ thống nghĩa là gì?",
+          "phuongAn": [
+            "Giới hạn số lượng nhân viên được dùng máy tính",
+            "Mỗi người chỉ được cấp đúng quyền cần cho công việc",
+            "Chỉ giám đốc mới được biết mọi mật khẩu",
+            "Cấp quyền cao nhất cho mọi người để làm việc nhanh hơn"
+          ],
+          "dung": 1,
+          "giai": "Cấp quyền vừa đủ cho từng vị trí giúp hạn chế thiệt hại khi tài khoản bị chiếm hoặc nhân viên thao tác nhầm, đồng thời dễ kiểm soát trách nhiệm."
+        },
+        {
+          "hoi": "Biểu tượng ổ khóa và địa chỉ bắt đầu bằng “https” trên trình duyệt cho biết điều gì?",
+          "phuongAn": [
+            "Website chắc chắn không phải trang lừa đảo",
+            "Website đã được cơ quan nhà nước cấp giấy phép hoạt động",
+            "Website không chứa bất kỳ mã độc nào",
+            "Kết nối giữa trình duyệt và website được mã hóa"
+          ],
+          "dung": 3,
+          "giai": "HTTPS chỉ bảo đảm dữ liệu truyền đi được mã hóa. Trang lừa đảo vẫn có thể dùng HTTPS, nên cần kiểm tra kỹ tên miền trước khi nhập thông tin."
+        },
+        {
+          "hoi": "Mô hình bảo mật “Zero Trust” dựa trên nguyên tắc cốt lõi nào?",
+          "phuongAn": [
+            "Tin tưởng mọi thiết bị đã kết nối mạng nội bộ",
+            "Không cần mật khẩu nếu dùng máy của công ty",
+            "Không mặc định tin ai, luôn xác minh mọi truy cập",
+            "Chỉ cần bảo vệ vòng ngoài bằng tường lửa thật mạnh"
+          ],
+          "dung": 2,
+          "giai": "Zero Trust coi mọi truy cập đều có thể nguy hiểm, kể cả từ bên trong. Mỗi yêu cầu phải được xác thực, kiểm tra quyền và thiết bị trước khi cho phép."
+        },
+        {
+          "hoi": "Lỗ hổng “zero-day” là loại lỗ hổng như thế nào?",
+          "phuongAn": [
+            "Lỗ hổng đã được vá ngay từ ngày phát hành",
+            "Lỗ hổng bị khai thác khi nhà sản xuất chưa có bản vá",
+            "Lỗi phần mềm chỉ xuất hiện vào ngày đầu tháng",
+            "Lỗ hổng không gây thiệt hại gì trong ngày đầu phát hiện"
+          ],
+          "dung": 1,
+          "giai": "Zero-day là lỗ hổng mà nhà phát triển chưa biết hoặc chưa có bản vá khi kẻ tấn công đã khai thác, nên rất nguy hiểm. Khi bản vá được phát hành cần cập nhật ngay."
+        }
+      ]
+    },
+    {
+      "ma": "cong-nghe-ai-04",
+      "ten": "Dữ liệu và quản trị dữ liệu",
+      "moTa": "Thu thập, làm sạch, bảo vệ và khai thác dữ liệu để ra quyết định kinh doanh.",
+      "cau": [
+        {
+          "hoi": "Trong quản trị, “dashboard” là công cụ dùng để làm gì?",
+          "phuongAn": [
+            "Hiển thị trực quan các chỉ số kinh doanh chính",
+            "Lưu trữ toàn bộ hợp đồng giấy của công ty dưới dạng số",
+            "Soạn thảo và gửi email hàng loạt cho khách",
+            "Chấm công và tính lương cho nhân viên"
+          ],
+          "dung": 0,
+          "giai": "Dashboard (bảng điều khiển) tổng hợp số liệu quan trọng như doanh thu, đơn hàng, tồn kho bằng biểu đồ, giúp lãnh đạo nắm tình hình nhanh và ra quyết định kịp thời."
+        },
+        {
+          "hoi": "Dấu hiệu nào cho thấy dữ liệu khách hàng trong hệ thống đang bị “bẩn”?",
+          "phuongAn": [
+            "Dữ liệu được sao lưu mỗi ngày lên đám mây",
+            "Mỗi khách hàng có một mã riêng không bao giờ trùng lặp",
+            "Khách bị trùng, sai số điện thoại, thiếu thông tin",
+            "Dữ liệu được phân quyền theo từng bộ phận"
+          ],
+          "dung": 2,
+          "giai": "Dữ liệu bẩn là dữ liệu trùng lặp, sai, thiếu hoặc không nhất quán. Nó làm sai báo cáo, lãng phí chi phí chăm sóc khách và khiến phân tích, AI cho kết quả lệch."
+        },
+        {
+          "hoi": "Thông tin nào sau đây là dữ liệu cá nhân mà doanh nghiệp phải bảo vệ?",
+          "phuongAn": [
+            "Tổng doanh thu theo từng quý của công ty",
+            "Họ tên kèm số điện thoại của một khách hàng",
+            "Bảng giá sản phẩm đăng công khai trên website",
+            "Số lượt khách ghé cửa hàng mỗi ngày, không ghi tên"
+          ],
+          "dung": 1,
+          "giai": "Dữ liệu cá nhân là thông tin gắn với hoặc giúp xác định một con người cụ thể như họ tên, số điện thoại, hình ảnh. Số liệu của công ty hay số đếm không gắn với ai thì không thuộc loại này."
+        },
+        {
+          "hoi": "Nguyên tắc “tối thiểu hóa dữ liệu” khi thu thập thông tin khách hàng nghĩa là gì?",
+          "phuongAn": [
+            "Nén dữ liệu lại để dung lượng lưu trữ nhỏ nhất có thể",
+            "Thu thập càng nhiều càng tốt để dùng dần",
+            "Xóa hết dữ liệu khách hàng sau mỗi tháng",
+            "Chỉ thu thập dữ liệu cần cho mục đích đã thông báo"
+          ],
+          "dung": 3,
+          "giai": "Chỉ thu thập đúng và đủ dữ liệu phục vụ mục đích đã nêu với khách. Càng giữ ít dữ liệu không cần thiết, rủi ro rò rỉ và trách nhiệm pháp lý càng giảm."
+        },
+        {
+          "hoi": "Theo Luật Bảo vệ dữ liệu cá nhân 2025, việc xử lý dữ liệu cá nhân của khách hàng về nguyên tắc phải dựa trên điều gì?",
+          "phuongAn": [
+            "Nhu cầu tiếp thị, bán hàng của doanh nghiệp",
+            "Quyết định nội bộ của ban giám đốc công ty",
+            "Sự đồng ý của chủ thể dữ liệu, trừ khi luật quy định",
+            "Đề nghị của đối tác đang muốn mua lại dữ liệu"
+          ],
+          "dung": 2,
+          "giai": "Luật Bảo vệ dữ liệu cá nhân 2025 lấy sự đồng ý của chủ thể dữ liệu làm căn cứ chính để xử lý; chỉ những trường hợp luật quy định mới được xử lý mà không cần sự đồng ý."
+        },
+        {
+          "hoi": "Loại dữ liệu nào sau đây là dữ liệu phi cấu trúc?",
+          "phuongAn": [
+            "Bảng Excel danh sách đơn hàng chia theo từng cột",
+            "File ghi âm các cuộc gọi tư vấn khách hàng",
+            "Bảng lương có mã nhân viên và số tiền",
+            "Cơ sở dữ liệu tồn kho theo mã hàng hóa"
+          ],
+          "dung": 1,
+          "giai": "Dữ liệu phi cấu trúc không nằm sẵn trong hàng, cột như ghi âm, video, hình ảnh, email. Muốn phân tích thường phải xử lý thêm, ví dụ chuyển giọng nói thành văn bản."
+        },
+        {
+          "hoi": "Dữ liệu lớn (Big Data) thường được mô tả qua ba đặc trưng “3V” nào?",
+          "phuongAn": [
+            "Tầm nhìn, Phiên bản, Hiển thị",
+            "Tốc độ, Vị trí, Phiên bản",
+            "Khối lượng, Tầm nhìn, Vị trí",
+            "Khối lượng, Tốc độ, Đa dạng"
+          ],
+          "dung": 3,
+          "giai": "Mô hình 3V gồm Volume (khối lượng lớn), Velocity (tốc độ phát sinh nhanh) và Variety (đa dạng định dạng). Về sau có thêm Veracity, Value thành mô hình 5V."
+        },
+        {
+          "hoi": "Xây dựng “nguồn dữ liệu duy nhất đáng tin cậy” (single source of truth) giúp doanh nghiệp điều gì?",
+          "phuongAn": [
+            "Mọi bộ phận dùng chung một bộ số liệu thống nhất",
+            "Chỉ một người duy nhất được quyền xem toàn bộ dữ liệu",
+            "Không cần sao lưu dữ liệu định kỳ nữa",
+            "Mỗi phòng tự giữ một file số liệu riêng"
+          ],
+          "dung": 0,
+          "giai": "Khi dữ liệu gốc được quản lý tập trung ở một nơi, các phòng ban không còn tranh cãi số của ai đúng, báo cáo nhất quán và việc ra quyết định nhanh hơn."
+        },
+        {
+          "hoi": "Kho dữ liệu (Data Warehouse) khác cơ sở dữ liệu giao dịch hằng ngày ở điểm chính nào?",
+          "phuongAn": [
+            "Chỉ lưu dữ liệu phát sinh trong ngày gần nhất",
+            "Tổng hợp nhiều nguồn, tối ưu cho phân tích, báo cáo",
+            "Dùng để ghi nhận từng đơn hàng ngay khi vừa phát sinh",
+            "Là nhà kho vật lý có gắn cảm biến thông minh"
+          ],
+          "dung": 1,
+          "giai": "Cơ sở dữ liệu giao dịch tối ưu cho ghi nhận nhanh từng nghiệp vụ; kho dữ liệu gom dữ liệu lịch sử từ nhiều hệ thống, tổ chức lại để truy vấn, phân tích, báo cáo."
+        },
+        {
+          "hoi": "Quy trình ETL để đưa dữ liệu vào kho dữ liệu gồm ba bước nào?",
+          "phuongAn": [
+            "Mã hóa – Kiểm thử – Khóa quyền truy cập",
+            "Xuất file – Tải lên – Chia sẻ",
+            "Trích xuất – Biến đổi – Nạp dữ liệu",
+            "Đánh giá – Theo dõi – Lưu trữ"
+          ],
+          "dung": 2,
+          "giai": "ETL là Extract – Transform – Load: lấy dữ liệu từ các nguồn, làm sạch và chuẩn hóa, rồi nạp vào kho dữ liệu phục vụ phân tích."
+        }
+      ]
+    },
+    {
+      "ma": "cong-nghe-ai-05",
+      "ten": "Điện toán đám mây: SaaS, PaaS, IaaS",
+      "moTa": "Hiểu các mô hình dịch vụ đám mây để chọn đúng giải pháp và kiểm soát rủi ro.",
+      "cau": [
+        {
+          "hoi": "Điện toán đám mây (cloud computing) được hiểu đúng nhất là gì?",
+          "phuongAn": [
+            "Hệ thống dự báo thời tiết dựa trên dữ liệu vệ tinh",
+            "Thuê máy chủ, phần mềm qua internet theo nhu cầu",
+            "Mạng wifi tốc độ cao phủ sóng toàn bộ văn phòng",
+            "Mua máy chủ riêng đặt tại phòng kỹ thuật công ty"
+          ],
+          "dung": 1,
+          "giai": "Điện toán đám mây cung cấp máy chủ, lưu trữ, phần mềm qua internet; doanh nghiệp dùng bao nhiêu trả bấy nhiêu, không phải tự mua sắm và vận hành hạ tầng."
+        },
+        {
+          "hoi": "SaaS là viết tắt của cụm từ nào?",
+          "phuongAn": [
+            "Software as a Service – phần mềm dạng dịch vụ",
+            "System and Application Security – bảo mật hệ thống",
+            "Storage as a Server – lưu trữ dạng máy chủ",
+            "Software and Accounting System – hệ thống kế toán"
+          ],
+          "dung": 0,
+          "giai": "SaaS là phần mềm cung cấp dưới dạng dịch vụ: người dùng truy cập qua trình duyệt hoặc ứng dụng, trả phí thuê bao, không phải cài đặt hay bảo trì máy chủ."
+        },
+        {
+          "hoi": "Trường hợp nào sau đây là ví dụ điển hình của mô hình SaaS?",
+          "phuongAn": [
+            "Mua máy chủ đặt tại văn phòng để chạy phần mềm",
+            "Mua bản quyền vĩnh viễn, cài phần mềm lên từng máy",
+            "Thuê máy chủ ảo rồi tự cài hệ điều hành, phần mềm",
+            "Thuê email, lưu trữ tài liệu trực tuyến theo tháng"
+          ],
+          "dung": 3,
+          "giai": "Email và lưu trữ tài liệu trực tuyến thuê theo tháng là SaaS: nhà cung cấp lo toàn bộ hạ tầng, phần mềm, cập nhật. Thuê máy chủ ảo để tự cài đặt là IaaS."
+        },
+        {
+          "hoi": "Lợi ích nổi bật nhất của điện toán đám mây với doanh nghiệp vừa và nhỏ là gì?",
+          "phuongAn": [
+            "Không bao giờ cần đến kết nối internet ổn định",
+            "Dữ liệu tuyệt đối không thể bị mất",
+            "Giảm đầu tư ban đầu, trả theo mức sử dụng",
+            "Không phải trả bất kỳ khoản phí nào"
+          ],
+          "dung": 2,
+          "giai": "Doanh nghiệp không phải bỏ vốn lớn mua máy chủ, có thể tăng giảm quy mô linh hoạt và trả phí theo mức dùng. Tuy vậy vẫn cần internet ổn định và sao lưu dữ liệu."
+        },
+        {
+          "hoi": "Mô hình IaaS (Infrastructure as a Service) cung cấp cho khách hàng chủ yếu thứ gì?",
+          "phuongAn": [
+            "Hạ tầng như máy chủ ảo, lưu trữ, mạng",
+            "Ứng dụng hoàn chỉnh đăng nhập là dùng ngay",
+            "Dịch vụ tư vấn chiến lược chuyển đổi số",
+            "Thiết bị phần cứng giao tận văn phòng"
+          ],
+          "dung": 0,
+          "giai": "IaaS cho thuê hạ tầng ảo hóa gồm máy chủ, lưu trữ, mạng. Khách hàng tự cài và quản lý hệ điều hành, phần mềm, dữ liệu phía trên."
+        },
+        {
+          "hoi": "Mô hình PaaS (Platform as a Service) phù hợp nhất với đối tượng nào?",
+          "phuongAn": [
+            "Nhân viên văn phòng cần soạn thảo văn bản",
+            "Kế toán cần phần mềm hoàn chỉnh đăng nhập là dùng ngay",
+            "Bộ phận kho cần máy quét mã vạch hàng hóa",
+            "Lập trình viên cần nền tảng để phát triển ứng dụng"
+          ],
+          "dung": 3,
+          "giai": "PaaS cung cấp sẵn nền tảng gồm môi trường chạy, cơ sở dữ liệu, công cụ để lập trình viên tập trung viết và triển khai ứng dụng, không lo quản trị máy chủ."
+        },
+        {
+          "hoi": "Mô hình “trách nhiệm chia sẻ” (shared responsibility) khi dùng đám mây nghĩa là gì?",
+          "phuongAn": [
+            "Nhà cung cấp chịu toàn bộ mọi rủi ro bảo mật của khách hàng",
+            "Nhà cung cấp lo hạ tầng, khách tự lo tài khoản, dữ liệu",
+            "Khách tự bảo trì máy chủ vật lý của nhà cung cấp",
+            "Nhiều công ty dùng chung một tài khoản đám mây"
+          ],
+          "dung": 1,
+          "giai": "Nhà cung cấp bảo vệ hạ tầng đám mây; doanh nghiệp vẫn chịu trách nhiệm quản lý tài khoản, phân quyền, cấu hình và dữ liệu của mình. Để lộ mật khẩu vẫn thuộc trách nhiệm phía khách."
+        },
+        {
+          "hoi": "Mô hình “đám mây lai” (hybrid cloud) là gì?",
+          "phuongAn": [
+            "Dùng song song hai nhà mạng internet khác nhau",
+            "Đám mây chỉ hoạt động trong giờ hành chính",
+            "Kết hợp đám mây công cộng với hạ tầng riêng",
+            "Trung tâm dữ liệu dùng cả điện lưới và điện mặt trời"
+          ],
+          "dung": 2,
+          "giai": "Đám mây lai kết hợp đám mây công cộng với đám mây riêng hoặc máy chủ tại chỗ, cho phép giữ dữ liệu nhạy cảm nội bộ và tận dụng đám mây cho phần còn lại."
+        },
+        {
+          "hoi": "Cam kết SLA 99,9% thời gian hoạt động cho phép dịch vụ ngừng tối đa khoảng bao lâu trong một tháng 30 ngày?",
+          "phuongAn": [
+            "Khoảng 4 phút",
+            "Khoảng 9 giờ",
+            "Khoảng 3 ngày",
+            "Khoảng 43 phút"
+          ],
+          "dung": 3,
+          "giai": "0,1% của 30 ngày = 0,001 × 43.200 phút ≈ 43 phút. Mức 99,9% tính theo năm tương đương khoảng 8,8 giờ, nên cần đọc kỹ SLA tính theo tháng hay theo năm."
+        },
+        {
+          "hoi": "Rủi ro “vendor lock-in” khi dùng dịch vụ đám mây là gì?",
+          "phuongAn": [
+            "Khó chuyển nhà cung cấp vì phụ thuộc công nghệ, dữ liệu",
+            "Nhà cung cấp khóa tài khoản khi khách chậm thanh toán phí",
+            "Dữ liệu bị khóa không cho nhân viên truy cập",
+            "Máy chủ bị khóa vật lý trong trung tâm dữ liệu"
+          ],
+          "dung": 0,
+          "giai": "Vendor lock-in là tình trạng phụ thuộc vào công nghệ, định dạng dữ liệu riêng của một nhà cung cấp, khiến việc chuyển đi rất tốn kém. Nên hỏi trước cách xuất dữ liệu."
+        }
+      ]
+    },
+    {
+      "ma": "cong-nghe-ai-06",
+      "ten": "Phần mềm quản trị: ERP, CRM, HRM",
+      "moTa": "Chọn, triển khai và vận hành phần mềm quản trị để doanh nghiệp chạy bằng dữ liệu.",
+      "cau": [
+        {
+          "hoi": "CRM là viết tắt của cụm từ nào?",
+          "phuongAn": [
+            "Cost Reduction Method – phương pháp cắt giảm chi phí",
+            "Central Resource Monitor – giám sát tài nguyên",
+            "Customer Relationship Management – quản trị quan hệ khách hàng",
+            "Corporate Resource Management – quản trị nguồn lực doanh nghiệp"
+          ],
+          "dung": 2,
+          "giai": "CRM là quản trị quan hệ khách hàng: phần mềm lưu thông tin, lịch sử giao dịch, chăm sóc khách, giúp bán hàng và giữ chân khách hiệu quả hơn."
+        },
+        {
+          "hoi": "Phần mềm ERP trong doanh nghiệp có đặc điểm chính nào?",
+          "phuongAn": [
+            "Chỉ dùng để chấm công và tính lương",
+            "Chỉ dùng để thiết kế và quản lý website",
+            "Chuyên quét và ngăn chặn virus trên máy tính công ty",
+            "Tích hợp nhiều phân hệ: tài chính, kho, mua, bán"
+          ],
+          "dung": 3,
+          "giai": "ERP (hoạch định nguồn lực doanh nghiệp) kết nối các phân hệ tài chính, kế toán, kho, mua hàng, bán hàng, sản xuất trên một cơ sở dữ liệu chung."
+        },
+        {
+          "hoi": "Phần mềm HRM hỗ trợ chủ yếu cho mảng công việc nào?",
+          "phuongAn": [
+            "Nhân sự: hồ sơ, chấm công, lương, đánh giá",
+            "Kho vận: nhập, xuất, kiểm kê hàng hóa",
+            "Marketing: quảng cáo, nội dung, mạng xã hội",
+            "Tài chính: vay vốn, đầu tư, dòng tiền"
+          ],
+          "dung": 0,
+          "giai": "HRM (Human Resource Management) quản lý vòng đời nhân sự từ tuyển dụng, hồ sơ, chấm công, tính lương đến đánh giá và đào tạo."
+        },
+        {
+          "hoi": "Lợi ích lớn nhất khi chuyển từ sổ tay, file Excel rời rạc sang CRM là gì?",
+          "phuongAn": [
+            "Không cần duy trì đội ngũ bán hàng nữa",
+            "Dữ liệu khách tập trung, không mất khi nhân viên nghỉ",
+            "Số lượng khách mới tự động tăng gấp đôi",
+            "Không cần gọi điện chăm sóc khách hàng cũ thường xuyên nữa"
+          ],
+          "dung": 1,
+          "giai": "CRM giữ thông tin và lịch sử tương tác khách hàng như tài sản của công ty, giúp bàn giao khi nhân sự thay đổi và theo dõi hiệu quả bán hàng minh bạch."
+        },
+        {
+          "hoi": "“Pipeline bán hàng” trong phần mềm CRM thể hiện điều gì?",
+          "phuongAn": [
+            "Đường ống dẫn hàng từ kho đến cửa hàng",
+            "Danh sách nhà cung cấp theo thứ tự ưu tiên",
+            "Lịch giao hàng hằng ngày của đội vận chuyển nội thành",
+            "Các giai đoạn cơ hội bán, từ tiếp cận đến chốt đơn"
+          ],
+          "dung": 3,
+          "giai": "Pipeline chia cơ hội bán hàng theo giai đoạn như tiếp cận, tư vấn, báo giá, đàm phán, chốt. Nhờ đó quản lý thấy nút thắt và dự báo được doanh thu."
+        },
+        {
+          "hoi": "Trước khi chọn mua phần mềm ERP, bước nên làm đầu tiên là gì?",
+          "phuongAn": [
+            "Chọn gói có nhiều tính năng nhất trên thị trường",
+            "Rà soát, chuẩn hóa quy trình và xác định nhu cầu",
+            "Chọn đúng phần mềm mà đối thủ cạnh tranh đang dùng",
+            "Nhập ngay toàn bộ dữ liệu cũ vào hệ thống"
+          ],
+          "dung": 1,
+          "giai": "Phần mềm chỉ số hóa quy trình. Nếu quy trình còn lộn xộn và nhu cầu chưa rõ, doanh nghiệp dễ chọn sai, tùy biến tốn kém và triển khai thất bại."
+        },
+        {
+          "hoi": "Trong dự án triển khai phần mềm, thời điểm “go-live” là gì?",
+          "phuongAn": [
+            "Ngày ký hợp đồng với nhà cung cấp phần mềm",
+            "Buổi giới thiệu sản phẩm phát trực tuyến",
+            "Lúc hệ thống chính thức đưa vào vận hành thực tế",
+            "Ngày kết thúc thời gian bảo hành của phần mềm mới"
+          ],
+          "dung": 2,
+          "giai": "Go-live là mốc hệ thống mới chính thức chạy với dữ liệu và nghiệp vụ thật, sau các giai đoạn cấu hình, nhập dữ liệu, kiểm thử và đào tạo người dùng."
+        },
+        {
+          "hoi": "Đội sale ngại nhập liệu vào CRM, vẫn ghi sổ riêng. Cách làm hiệu quả và bền vững nhất là gì?",
+          "phuongAn": [
+            "Dùng số liệu CRM để giao việc, họp và tính thưởng",
+            "Bỏ CRM, quay lại Excel cho nhân viên thoải mái",
+            "Thuê người nhập liệu thay cho cả đội sale",
+            "Phạt tiền nặng mỗi lần quên nhập, không giải thích"
+          ],
+          "dung": 0,
+          "giai": "Khi lãnh đạo dùng chính dữ liệu CRM để điều hành, giao chỉ tiêu và tính thưởng, việc nhập liệu trở thành một phần công việc; kèm theo là đào tạo và đơn giản hóa thao tác."
+        },
+        {
+          "hoi": "Phương pháp “chạy song song” (parallel run) khi chuyển sang hệ thống ERP mới là gì?",
+          "phuongAn": [
+            "Hai nhà cung cấp cùng triển khai để so sánh",
+            "Dùng cả hệ cũ và mới một thời gian để đối chiếu",
+            "Triển khai cùng lúc cho tất cả chi nhánh",
+            "Cho nhân viên làm thêm ca đôi để nhập liệu nhanh hơn"
+          ],
+          "dung": 1,
+          "giai": "Chạy song song giúp so sánh kết quả giữa hệ cũ và mới, phát hiện sai lệch trước khi bỏ hệ cũ. Đổi lại, doanh nghiệp tốn công gấp đôi trong giai đoạn chuyển tiếp."
+        },
+        {
+          "hoi": "Khi so sánh các phần mềm quản trị, “tổng chi phí sở hữu” (TCO) cần tính những khoản nào?",
+          "phuongAn": [
+            "Chỉ giá mua bản quyền phần mềm ở thời điểm ban đầu",
+            "Chỉ phí thuê bao phải trả hằng tháng cho nhà cung cấp",
+            "Chỉ chi phí mua phần cứng và máy chủ để cài đặt",
+            "Bản quyền, triển khai, đào tạo, bảo trì, nâng cấp"
+          ],
+          "dung": 3,
+          "giai": "TCO gồm mọi chi phí trong vòng đời phần mềm: bản quyền hoặc thuê bao, triển khai, tùy biến, chuyển dữ liệu, đào tạo, hạ tầng, bảo trì, nâng cấp. Giá mua chỉ là một phần."
+        }
+      ]
+    },
+    {
+      "ma": "cong-nghe-ai-07",
+      "ten": "Thương mại điện tử",
+      "moTa": "Mô hình, kênh bán và các chỉ số cốt lõi khi kinh doanh trực tuyến.",
+      "cau": [
+        {
+          "hoi": "Mô hình thương mại điện tử B2C là gì?",
+          "phuongAn": [
+            "Doanh nghiệp bán sỉ cho doanh nghiệp, đại lý khác",
+            "Người tiêu dùng bán lại hàng cho nhau",
+            "Doanh nghiệp bán cho cơ quan nhà nước",
+            "Doanh nghiệp bán cho người tiêu dùng cá nhân"
+          ],
+          "dung": 3,
+          "giai": "B2C (Business to Consumer) là doanh nghiệp bán trực tiếp cho người tiêu dùng. B2B là giữa các doanh nghiệp, C2C giữa người tiêu dùng, B2G là bán cho khu vực nhà nước."
+        },
+        {
+          "hoi": "“Tỷ lệ chuyển đổi” (conversion rate) của website bán hàng là gì?",
+          "phuongAn": [
+            "Tỷ giá quy đổi giữa tiền đồng và ngoại tệ khi bán ra quốc tế",
+            "Tỷ lệ người truy cập mua hàng hoặc làm hành động mong muốn",
+            "Tỷ lệ khách chuyển sang mua hàng của đối thủ",
+            "Tỷ lệ đơn hàng bị đổi trả sau khi đã giao"
+          ],
+          "dung": 1,
+          "giai": "Tỷ lệ chuyển đổi = số người hoàn thành mục tiêu (mua hàng, để lại số điện thoại…) chia cho tổng lượt truy cập. Đây là chỉ số then chốt đo hiệu quả website."
+        },
+        {
+          "hoi": "Hình thức “COD” phổ biến trong giao hàng thương mại điện tử là gì?",
+          "phuongAn": [
+            "Giao hàng rồi thu tiền tại nơi nhận",
+            "Mã giảm giá áp dụng cho đơn hàng đầu",
+            "Khách tự đến kho để nhận hàng",
+            "Thanh toán trước toàn bộ bằng thẻ"
+          ],
+          "dung": 0,
+          "giai": "COD (Cash on Delivery) là người mua trả tiền khi nhận hàng. Hình thức này tạo niềm tin cho khách nhưng người bán chịu rủi ro hoàn hàng và cần đối soát tiền thu hộ."
+        },
+        {
+          "hoi": "Chiến lược bán hàng “omnichannel” (đa kênh hợp nhất) nghĩa là gì?",
+          "phuongAn": [
+            "Chỉ bán trên một sàn thương mại điện tử lớn nhất",
+            "Mở thật nhiều kênh, mỗi kênh quản lý độc lập",
+            "Kết nối liền mạch các kênh online và offline",
+            "Chỉ bán tại cửa hàng, không bán trên mạng"
+          ],
+          "dung": 2,
+          "giai": "Omnichannel đồng bộ tồn kho, giá, khuyến mãi và thông tin khách trên mọi kênh, để khách có thể xem online, mua tại cửa hàng hay ngược lại một cách liền mạch."
+        },
+        {
+          "hoi": "Website có nhiều khách thêm hàng vào giỏ nhưng bỏ đi trước khi thanh toán. Nguyên nhân nên kiểm tra trước tiên là gì?",
+          "phuongAn": [
+            "Số bài đăng trên fanpage của công ty còn ít",
+            "Phí giao hàng cao, bước thanh toán rườm rà",
+            "Website chưa có trang tuyển dụng nhân sự",
+            "Nhân viên kho đóng gói hàng còn chậm"
+          ],
+          "dung": 1,
+          "giai": "Bỏ giỏ hàng thường do phí phát sinh bất ngờ, bắt tạo tài khoản, quá nhiều bước hoặc thiếu phương thức thanh toán quen thuộc. Khâu đóng gói diễn ra sau khi đã có đơn."
+        },
+        {
+          "hoi": "Trong quản lý bán hàng trực tuyến, “SKU” là gì?",
+          "phuongAn": [
+            "Mã quản lý riêng cho từng mẫu, màu, cỡ sản phẩm",
+            "Số lượt khách truy cập website mỗi ngày",
+            "Điểm đánh giá sao trung bình của sản phẩm",
+            "Mã giảm giá áp dụng cho đơn hàng"
+          ],
+          "dung": 0,
+          "giai": "SKU (Stock Keeping Unit) là mã đơn vị lưu kho: một mẫu áo có 3 màu, 4 cỡ sẽ có 12 SKU, giúp theo dõi tồn kho và doanh số từng biến thể chính xác."
+        },
+        {
+          "hoi": "Mô hình “dropshipping” trong thương mại điện tử hoạt động như thế nào?",
+          "phuongAn": [
+            "Người bán giảm giá sâu để xả hàng tồn kho",
+            "Người bán nhập hàng số lượng lớn về kho riêng để bán",
+            "Người mua đặt trước, nhận hàng sau vài tháng",
+            "Không giữ kho, nhà cung cấp giao thẳng cho khách"
+          ],
+          "dung": 3,
+          "giai": "Với dropshipping, người bán nhận đơn rồi chuyển cho nhà cung cấp giao trực tiếp cho khách. Vốn ban đầu thấp nhưng khó kiểm soát chất lượng và thời gian giao."
+        },
+        {
+          "hoi": "Trong tiếp thị liên kết (affiliate marketing), người giới thiệu thường được trả hoa hồng khi nào?",
+          "phuongAn": [
+            "Khi đăng ký làm cộng tác viên thành công",
+            "Khi bài viết giới thiệu của họ đạt nhiều lượt thích",
+            "Khi mang về đơn hàng hoặc hành động đã thỏa thuận",
+            "Khi ký hợp đồng lao động với doanh nghiệp"
+          ],
+          "dung": 2,
+          "giai": "Affiliate trả hoa hồng dựa trên kết quả như đơn hàng, lượt đăng ký phát sinh từ đường link hoặc mã giới thiệu riêng, nên doanh nghiệp chỉ trả tiền khi có kết quả."
+        },
+        {
+          "hoi": "Giá trị đơn hàng trung bình (AOV) được tính theo công thức nào?",
+          "phuongAn": [
+            "Tổng doanh thu chia cho tổng số đơn hàng",
+            "Tổng số đơn hàng chia cho số lượt truy cập",
+            "Tổng doanh thu trừ đi chi phí quảng cáo",
+            "Tổng lợi nhuận chia cho số khách hàng mới"
+          ],
+          "dung": 0,
+          "giai": "AOV = doanh thu ÷ số đơn hàng trong cùng kỳ. Tăng AOV bằng bán kèm, combo hay miễn phí giao hàng từ một mức giá giúp tăng doanh thu mà không cần thêm khách."
+        },
+        {
+          "hoi": "Mô hình sàn thương mại điện tử (marketplace) khác website bán hàng riêng của doanh nghiệp ở điểm cốt lõi nào?",
+          "phuongAn": [
+            "Chỉ bán hàng cho khách doanh nghiệp",
+            "Không cần thanh toán trực tuyến",
+            "Nhiều người bán cùng bán trên một nền tảng chung",
+            "Chỉ bán sản phẩm số như phần mềm, sách điện tử"
+          ],
+          "dung": 2,
+          "giai": "Sàn là nền tảng trung gian tập hợp nhiều người bán và thu phí hoa hồng, quảng cáo; website riêng chỉ bán hàng của một doanh nghiệp nhưng chủ động hơn về dữ liệu khách và thương hiệu."
+        }
+      ]
+    },
+    {
+      "ma": "cong-nghe-ai-08",
+      "ten": "Thanh toán số",
+      "moTa": "Các hình thức thanh toán không tiền mặt và cách vận hành an toàn cho người bán.",
+      "cau": [
+        {
+          "hoi": "VietQR được biết đến là gì?",
+          "phuongAn": [
+            "Chuẩn mã QR chung để chuyển khoản liên ngân hàng",
+            "Ứng dụng ví điện tử riêng do một ngân hàng phát hành",
+            "Mã vạch dán trên sản phẩm để chống hàng giả",
+            "Loại thẻ tín dụng quốc tế phát hành tại Việt Nam"
+          ],
+          "dung": 0,
+          "giai": "VietQR là chuẩn mã QR thống nhất cho chuyển khoản, thanh toán giữa các ngân hàng tại Việt Nam, giúp khách quét một mã là chuyển đúng tài khoản, có thể kèm sẵn số tiền."
+        },
+        {
+          "hoi": "Mã OTP dùng khi giao dịch ngân hàng trực tuyến là gì?",
+          "phuongAn": [
+            "Mã số định danh cố định của tài khoản",
+            "Mật khẩu đăng nhập được đặt một lần và dùng mãi",
+            "Mật khẩu dùng một lần để xác thực giao dịch",
+            "Mã khuyến mãi ngân hàng gửi cho khách"
+          ],
+          "dung": 2,
+          "giai": "OTP (One-Time Password) là mã chỉ dùng một lần, có hiệu lực ngắn, để xác nhận chính chủ thực hiện giao dịch. Tuyệt đối không cung cấp OTP cho bất kỳ ai."
+        },
+        {
+          "hoi": "Có người gọi điện tự xưng nhân viên ngân hàng, đề nghị đọc mã OTP để “cập nhật thông tin”. Bạn nên làm gì?",
+          "phuongAn": [
+            "Đọc mã OTP nếu người gọi nói đúng họ tên, số tài khoản",
+            "Đọc mã OTP rồi đổi mật khẩu ngay sau đó",
+            "Nhắn mã OTP qua tin nhắn thay vì đọc trực tiếp",
+            "Không cung cấp, gọi tổng đài chính thức để xác minh"
+          ],
+          "dung": 3,
+          "giai": "Ngân hàng không yêu cầu khách cung cấp OTP hay mật khẩu. Hãy từ chối, cúp máy và tự gọi số tổng đài in trên thẻ hoặc website chính thức để kiểm tra."
+        },
+        {
+          "hoi": "Ví điện tử được hiểu đúng nhất là gì?",
+          "phuongAn": [
+            "Chiếc ví da có gắn chip định vị chống mất",
+            "Tài khoản điện tử chứa tiền để thanh toán trực tuyến",
+            "Thẻ ghi nợ nội địa do ngân hàng phát hành",
+            "Ứng dụng ghi chép chi tiêu cá nhân, không liên kết tiền"
+          ],
+          "dung": 1,
+          "giai": "Ví điện tử là tài khoản điện tử chứa giá trị tiền được nạp từ tài khoản ngân hàng, dùng để thanh toán, chuyển tiền nhanh qua điện thoại hoặc trực tuyến."
+        },
+        {
+          "hoi": "Thanh toán không tiếp xúc bằng cách chạm thẻ hoặc điện thoại vào máy POS dựa trên công nghệ nào?",
+          "phuongAn": [
+            "GPS – hệ thống định vị toàn cầu",
+            "Hồng ngoại như điều khiển tivi",
+            "NFC – giao tiếp trường gần",
+            "Sóng radio FM tầm xa"
+          ],
+          "dung": 2,
+          "giai": "NFC (Near Field Communication) truyền dữ liệu trong khoảng cách vài cm, cho phép chạm thẻ hoặc điện thoại để thanh toán nhanh mà vẫn khó bị đọc trộm từ xa."
+        },
+        {
+          "hoi": "Trên website bán hàng, “cổng thanh toán” (payment gateway) có vai trò gì?",
+          "phuongAn": [
+            "Cổng ra vào có quẹt thẻ nhân viên tại kho hàng",
+            "Trang hiển thị bảng giá và chương trình khuyến mãi",
+            "Phần mềm tự động tính thuế cho từng đơn hàng",
+            "Xử lý thanh toán thẻ, ví, ngân hàng cho đơn online"
+          ],
+          "dung": 3,
+          "giai": "Cổng thanh toán là trung gian kết nối website với ngân hàng, tổ chức thẻ, ví điện tử để xử lý, xác thực giao dịch và báo kết quả cho người bán."
+        },
+        {
+          "hoi": "Hình thức “Mua trước, trả sau” (BNPL) cho phép người mua làm gì?",
+          "phuongAn": [
+            "Nhận hàng trước, trả sau hoặc chia nhỏ theo kỳ",
+            "Đặt cọc toàn bộ tiền rồi nhận hàng sau vài tháng",
+            "Mua hàng bằng điểm thưởng thay cho tiền",
+            "Trả tiền bằng cách đổi lại hàng hóa khác"
+          ],
+          "dung": 0,
+          "giai": "BNPL (Buy Now, Pay Later) cho khách nhận hàng ngay rồi thanh toán sau hoặc chia thành nhiều kỳ, thường qua đơn vị tài chính trung gian, giúp tăng tỷ lệ chốt đơn."
+        },
+        {
+          "hoi": "Cuối ngày, cửa hàng đối chiếu giao dịch trên phần mềm bán hàng với sao kê ngân hàng, ví điện tử. Việc này gọi là gì?",
+          "phuongAn": [
+            "Kiểm kê hàng hóa",
+            "Đối soát giao dịch",
+            "Quyết toán thuế",
+            "Khóa sổ kế toán năm"
+          ],
+          "dung": 1,
+          "giai": "Đối soát là so khớp từng giao dịch giữa hệ thống bán hàng và dữ liệu ngân hàng, ví, đơn vị thu hộ để kịp thời phát hiện tiền chưa về, giao dịch lỗi hoặc gian lận."
+        },
+        {
+          "hoi": "Trong thanh toán thẻ, “chargeback” là tình huống nào?",
+          "phuongAn": [
+            "Người bán chủ động hoàn tiền khi khách đổi trả hàng",
+            "Ngân hàng tính thêm phí khi thanh toán quốc tế",
+            "Khách được hoàn tiền từ chương trình tích điểm",
+            "Chủ thẻ khiếu nại qua ngân hàng để đòi lại tiền"
+          ],
+          "dung": 3,
+          "giai": "Chargeback là khi chủ thẻ khiếu nại giao dịch với ngân hàng phát hành và tiền có thể bị trích ngược từ người bán. Người bán cần lưu chứng từ giao hàng để chứng minh."
+        },
+        {
+          "hoi": "Kỹ thuật “token hóa” (tokenization) trong thanh toán thẻ nhằm mục đích chính nào?",
+          "phuongAn": [
+            "Đổi tiền thật sang tiền mã hóa khi thanh toán",
+            "Thay số thẻ thật bằng mã đại diện, giảm rủi ro lộ thẻ",
+            "Tặng điểm thưởng cho mỗi lần quẹt thẻ",
+            "Rút ngắn thời gian tiền về tài khoản của người bán hàng"
+          ],
+          "dung": 1,
+          "giai": "Token hóa thay số thẻ thật bằng một mã đại diện vô nghĩa với kẻ gian. Người bán và ví trên điện thoại chỉ lưu token nên nếu bị lộ cũng khó bị lợi dụng."
+        }
+      ]
+    },
+    {
+      "ma": "cong-nghe-ai-09",
+      "ten": "Lộ trình chuyển đổi số",
+      "moTa": "Từ số hóa đến chuyển đổi số: bắt đầu từ đâu, đo lường thế nào và dẫn dắt con người ra sao.",
+      "cau": [
+        {
+          "hoi": "Bản chất của chuyển đổi số trong doanh nghiệp là gì?",
+          "phuongAn": [
+            "Mua sắm thật nhiều máy tính và phần mềm mới",
+            "Thay đổi cách vận hành dựa trên công nghệ số và dữ liệu",
+            "Lập website, fanpage và chạy quảng cáo trên mạng",
+            "Scan toàn bộ hồ sơ giấy thành file PDF để lưu trữ lâu dài"
+          ],
+          "dung": 1,
+          "giai": "Chuyển đổi số là thay đổi mô hình vận hành, cách phục vụ khách và ra quyết định dựa trên dữ liệu, công nghệ. Mua phần mềm hay làm website chỉ là công cụ."
+        },
+        {
+          "hoi": "Theo kinh nghiệm phổ biến, yếu tố quyết định hàng đầu cho thành công của chuyển đổi số là gì?",
+          "phuongAn": [
+            "Mua phần mềm đắt tiền nhất trên thị trường",
+            "Thuê trọn gói đơn vị bên ngoài làm toàn bộ",
+            "Có đội ngũ công nghệ đông nhất trong ngành",
+            "Quyết tâm và sự dẫn dắt của người đứng đầu"
+          ],
+          "dung": 3,
+          "giai": "Chuyển đổi số là thay đổi cách làm việc của cả tổ chức nên cần người đứng đầu cam kết, phân bổ nguồn lực và dẫn dắt con người. Công nghệ chỉ là phương tiện."
+        },
+        {
+          "hoi": "Bước khởi đầu hợp lý nhất trong lộ trình chuyển đổi số của doanh nghiệp là gì?",
+          "phuongAn": [
+            "Mua ngay phần mềm đang được quảng cáo nhiều",
+            "Tuyển giám đốc công nghệ trước, các việc khác tính sau",
+            "Đánh giá hiện trạng và xác định mục tiêu kinh doanh",
+            "Để mọi phòng ban tự chọn phần mềm riêng"
+          ],
+          "dung": 2,
+          "giai": "Cần biết doanh nghiệp đang ở đâu (quy trình, dữ liệu, con người, công nghệ) và muốn giải quyết vấn đề kinh doanh nào, rồi mới chọn giải pháp và thứ tự ưu tiên."
+        },
+        {
+          "hoi": "Việc scan hóa đơn, hợp đồng giấy thành file điện tử để lưu trữ thuộc cấp độ nào?",
+          "phuongAn": [
+            "Số hóa dữ liệu (digitization)",
+            "Chuyển đổi mô hình kinh doanh",
+            "Tự động hóa ra quyết định bằng AI",
+            "Tái cấu trúc toàn bộ tổ chức"
+          ],
+          "dung": 0,
+          "giai": "Chuyển thông tin từ dạng vật lý sang dạng số là số hóa dữ liệu (digitization) – bước nền tảng. Chuyển đổi số đòi hỏi thay đổi cả quy trình và mô hình kinh doanh."
+        },
+        {
+          "hoi": "Trong lộ trình chuyển đổi số, “quick win” là gì?",
+          "phuongAn": [
+            "Dự án lớn nhất, đầu tư nhiều nhất trong năm",
+            "Chiến thắng nhanh trước đối thủ trong một cuộc đấu thầu",
+            "Cắt giảm nhân sự thật nhanh để tiết kiệm chi phí",
+            "Việc nhỏ, làm nhanh, sớm thấy hiệu quả để tạo động lực"
+          ],
+          "dung": 3,
+          "giai": "Quick win là việc dễ làm, chi phí thấp nhưng tạo kết quả thấy rõ trong thời gian ngắn, giúp nhân viên tin vào lợi ích và tạo đà cho các giai đoạn lớn hơn."
+        },
+        {
+          "hoi": "Công nghệ RPA (tự động hóa quy trình bằng robot phần mềm) phù hợp nhất với loại công việc nào?",
+          "phuongAn": [
+            "Đàm phán hợp đồng với đối tác chiến lược",
+            "Xây dựng tầm nhìn, chiến lược dài hạn",
+            "Việc lặp lại, theo quy tắc rõ ràng trên máy tính",
+            "Tư vấn cảm xúc cho khách hàng khó tính"
+          ],
+          "dung": 2,
+          "giai": "RPA mô phỏng thao tác người dùng trên máy tính như sao chép số liệu, nhập đơn, đối chiếu chứng từ; hiệu quả nhất với việc khối lượng lớn, lặp lại và ít ngoại lệ."
+        },
+        {
+          "hoi": "Mỗi phòng ban tự mua một phần mềm riêng, dữ liệu không liên thông với nhau. Hệ quả chính là gì?",
+          "phuongAn": [
+            "Dữ liệu bị cát cứ, số liệu vênh, tốn công nhập lại",
+            "Bảo mật tốt hơn vì dữ liệu được chia nhỏ ra nhiều nơi",
+            "Tiết kiệm chi phí vì mỗi phòng tự quyết",
+            "Báo cáo tổng hợp nhanh và chính xác hơn"
+          ],
+          "dung": 0,
+          "giai": "Hệ thống rời rạc tạo các “ốc đảo dữ liệu”: cùng một khách, một đơn hàng nhưng mỗi nơi một số, phải nhập lại nhiều lần. Cần kiến trúc tổng thể và tích hợp dữ liệu."
+        },
+        {
+          "hoi": "Hiệu quả của một dự án chuyển đổi số nên được đo bằng chỉ số nào?",
+          "phuongAn": [
+            "Số lượng phần mềm công ty đã mua trong năm",
+            "Chi phí, thời gian xử lý, mức hài lòng của khách",
+            "Tổng số tiền đã chi cho công nghệ thông tin trong năm",
+            "Số máy tính, thiết bị được trang bị mới"
+          ],
+          "dung": 1,
+          "giai": "Chuyển đổi số phải phục vụ mục tiêu kinh doanh, nên đo bằng kết quả như giảm chi phí, rút ngắn thời gian xử lý, tăng doanh thu, tăng hài lòng khách."
+        },
+        {
+          "hoi": "Chuyển quy trình xin nghỉ phép từ đơn giấy sang phần mềm có luồng duyệt tự động là ví dụ của cấp độ nào?",
+          "phuongAn": [
+            "Số hóa dữ liệu (digitization)",
+            "Chuyển đổi mô hình kinh doanh",
+            "Số hóa quy trình (digitalization)",
+            "Tự động hóa bằng robot vật lý trong xưởng"
+          ],
+          "dung": 2,
+          "giai": "Digitalization là dùng công nghệ số để thay đổi, tự động hóa quy trình nghiệp vụ. Nó cao hơn việc chỉ scan giấy tờ và là nền cho chuyển đổi số toàn diện."
+        },
+        {
+          "hoi": "Mô hình quản trị thay đổi ADKAR, thường dùng khi triển khai chuyển đổi số, gồm 5 bước theo thứ tự nào?",
+          "phuongAn": [
+            "Nhận thức – Mong muốn – Kiến thức – Năng lực – Củng cố",
+            "Kế hoạch – Thực hiện – Kiểm tra – Hành động – Cải tiến",
+            "Phân tích – Thiết kế – Triển khai – Kiểm thử – Duy trì",
+            "Nhận thức – Hành động – Kiến thức – Đánh giá – Nhân rộng"
+          ],
+          "dung": 0,
+          "giai": "ADKAR gồm Awareness (nhận thức), Desire (mong muốn), Knowledge (kiến thức), Ability (năng lực), Reinforcement (củng cố): thay đổi tổ chức bắt đầu từ từng cá nhân."
+        }
+      ]
+    },
+    {
+      "ma": "cong-nghe-ai-10",
+      "ten": "Công nghệ mới: blockchain, IoT, 5G",
+      "moTa": "Hiểu đúng các công nghệ nền tảng mới và cách chúng tạo giá trị cho sản xuất, kinh doanh.",
+      "cau": [
+        {
+          "hoi": "IoT là viết tắt của cụm từ nào?",
+          "phuongAn": [
+            "Integration of Technology – tích hợp công nghệ",
+            "Input Output Terminal – thiết bị đầu cuối",
+            "Internet of Things – Internet vạn vật",
+            "Internal Online Transfer – chuyển khoản nội bộ"
+          ],
+          "dung": 2,
+          "giai": "IoT (Internet of Things) là mạng lưới thiết bị gắn cảm biến, phần mềm và có kết nối để thu thập, trao đổi dữ liệu như camera, cảm biến, đồng hồ điện thông minh."
+        },
+        {
+          "hoi": "Ví dụ nào sau đây là ứng dụng IoT trong doanh nghiệp?",
+          "phuongAn": [
+            "Cảm biến kho lạnh tự gửi cảnh báo nhiệt độ",
+            "Phần mềm kế toán cài đặt trên máy tính văn phòng",
+            "Chiến dịch gửi email marketing hàng loạt cho khách",
+            "File Excel theo dõi tồn kho cập nhật thủ công"
+          ],
+          "dung": 0,
+          "giai": "Cảm biến kết nối mạng đo nhiệt độ liên tục và tự cảnh báo khi vượt ngưỡng là IoT điển hình, giúp bảo quản hàng hóa mà không cần người kiểm tra thủ công."
+        },
+        {
+          "hoi": "Ưu điểm nổi bật của mạng di động 5G so với 4G là gì?",
+          "phuongAn": [
+            "Phủ sóng xa hơn mà chỉ cần ít trạm phát sóng hơn",
+            "Tốc độ cao, độ trễ thấp, kết nối nhiều thiết bị",
+            "Không cần thẻ SIM hay tài khoản thuê bao",
+            "Miễn phí dữ liệu di động cho mọi thuê bao"
+          ],
+          "dung": 1,
+          "giai": "5G có tốc độ cao, độ trễ rất thấp và hỗ trợ mật độ thiết bị kết nối lớn, phù hợp nhà máy thông minh, IoT. Sóng tần số cao của 5G lại thường phủ gần hơn, cần nhiều trạm."
+        },
+        {
+          "hoi": "Blockchain được hiểu đúng nhất là gì?",
+          "phuongAn": [
+            "Ứng dụng đầu tư tiền ảo cài trên điện thoại di động",
+            "Máy chủ trung tâm lưu dữ liệu của ngân hàng",
+            "Phần mềm chặn các trang web độc hại",
+            "Sổ cái phân tán, dữ liệu rất khó bị sửa lén"
+          ],
+          "dung": 3,
+          "giai": "Blockchain là công nghệ sổ cái phân tán: dữ liệu được ghi thành các khối nối tiếp, lưu trên nhiều máy và rất khó sửa lén. Tiền mã hóa chỉ là một ứng dụng của nó."
+        },
+        {
+          "hoi": "Ứng dụng blockchain nào được quan tâm nhiều trong ngành nông sản, thực phẩm?",
+          "phuongAn": [
+            "Truy xuất nguồn gốc sản phẩm minh bạch",
+            "Tăng năng suất cây trồng trên mỗi hecta",
+            "Giữ thực phẩm tươi lâu hơn trong kho",
+            "Giảm giá thành phân bón nhập khẩu"
+          ],
+          "dung": 0,
+          "giai": "Blockchain ghi lại hành trình sản phẩm từ vùng trồng, chế biến đến phân phối một cách khó sửa đổi, giúp người mua quét mã để kiểm tra nguồn gốc."
+        },
+        {
+          "hoi": "“Hợp đồng thông minh” (smart contract) là gì?",
+          "phuongAn": [
+            "Hợp đồng giấy được scan rồi ký bằng chữ ký số",
+            "Hợp đồng do AI soạn thảo tự động theo mẫu",
+            "Mã chạy trên blockchain, tự thực thi khi đủ điều kiện",
+            "Hợp đồng điện tử lưu trên đám mây, có đặt mật khẩu mở"
+          ],
+          "dung": 2,
+          "giai": "Smart contract là đoạn mã chạy trên blockchain, tự động thực hiện điều khoản (như chuyển tiền, cấp quyền) khi các điều kiện được lập trình sẵn được đáp ứng."
+        },
+        {
+          "hoi": "Điện toán biên (edge computing) có đặc điểm chính nào?",
+          "phuongAn": [
+            "Chỉ dùng các máy chủ đặt tại những thành phố ven biển",
+            "Gửi toàn bộ dữ liệu về trung tâm để xử lý",
+            "Chỉ hoạt động khi bị mất kết nối internet",
+            "Xử lý dữ liệu ngay gần nơi phát sinh, giảm độ trễ"
+          ],
+          "dung": 3,
+          "giai": "Edge computing xử lý dữ liệu ngay tại thiết bị hoặc gần nguồn phát sinh (nhà máy, cửa hàng) thay vì gửi hết về đám mây, giúp phản hồi nhanh và giảm băng thông."
+        },
+        {
+          "hoi": "“Bản sao số” (digital twin) trong sản xuất là gì?",
+          "phuongAn": [
+            "Bản scan hồ sơ kỹ thuật của máy móc",
+            "Mô hình số mô phỏng máy móc theo dữ liệu thực",
+            "Tài khoản dự phòng của hệ thống quản trị",
+            "Bản sao lưu dữ liệu sản xuất đặt tại chi nhánh khác"
+          ],
+          "dung": 1,
+          "giai": "Digital twin là bản mô phỏng số của thiết bị, dây chuyền, cập nhật dữ liệu thực từ cảm biến, giúp theo dõi, dự đoán hỏng hóc và thử thay đổi trước khi làm thật."
+        },
+        {
+          "hoi": "Đặc tính kỹ thuật nào giúp dữ liệu đã ghi trên blockchain rất khó bị sửa lén?",
+          "phuongAn": [
+            "Mỗi khối chứa mã băm khối trước, nhiều nút xác nhận",
+            "Dữ liệu lưu trên một máy chủ bảo mật duy nhất",
+            "Chỉ quản trị viên hệ thống mới có quyền sửa dữ liệu gốc",
+            "Dữ liệu tự động xóa sau một thời gian ngắn"
+          ],
+          "dung": 0,
+          "giai": "Mỗi khối chứa mã băm của khối trước; sửa một khối làm sai lệch mọi khối sau và bị các nút khác trong mạng phát hiện, trừ khi kiểm soát phần lớn mạng lưới."
+        },
+        {
+          "hoi": "Kỹ thuật “network slicing” (cắt lát mạng) của 5G cho phép làm gì?",
+          "phuongAn": [
+            "Cắt giảm băng thông của thuê bao vào giờ cao điểm trong ngày",
+            "Chia sẻ một thẻ SIM cho nhiều điện thoại",
+            "Tự ngắt mạng khi phát hiện bị tấn công",
+            "Chia một hạ tầng thành nhiều mạng ảo cho từng nhu cầu"
+          ],
+          "dung": 3,
+          "giai": "Network slicing tạo nhiều mạng logic trên cùng hạ tầng 5G, mỗi lát có tốc độ, độ trễ, độ ổn định riêng, ví dụ một lát cho nhà máy, một lát cho người dùng phổ thông."
+        }
+      ]
+    }
+  ]
+}

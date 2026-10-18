@@ -1,0 +1,81 @@
+/* ---------------------------------------------------------------
+   Lá bài mỗi ngày — lật HAI MẶT thật bằng CSS 3D (khác `nn-lat-the` chỉ là
+   hiệu ứng hiện ra). Hai mặt xếp chồng cùng một ô lưới nên khung cao theo
+   mặt dài hơn. Bật "giảm chuyển động" thì lật tức thì, không mất nội dung.
+   --------------------------------------------------------------- */
+
+.nn-lb-canh {
+  perspective: 1400px;
+}
+
+.nn-lb-the {
+  display: grid;
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.nn-lb-the.nn-lb-da-lat {
+  transform: rotateY(180deg);
+}
+
+.nn-lb-mat {
+  grid-area: 1 / 1;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.nn-lb-mat-truoc {
+  transform: rotateY(180deg);
+}
+
+/* Hoa văn mặt lưng: đỏ son, sọc vàng mảnh */
+.nn-lb-lung {
+  background:
+    repeating-linear-gradient(
+      45deg,
+      rgba(227, 185, 74, 0.14) 0 2px,
+      transparent 2px 11px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(227, 185, 74, 0.1) 0 2px,
+      transparent 2px 11px
+    ),
+    linear-gradient(145deg, #9c0f22 0%, #7c0717 55%, #560510 100%);
+}
+
+/* Lá đang chờ máy chủ: nhấc lên nhè nhẹ */
+@keyframes nn-lb-nhac {
+  0%,
+  100% {
+    transform: translateY(-6px) rotate(-1.5deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(1.5deg);
+  }
+}
+.nn-lb-nhac {
+  animation: nn-lb-nhac 0.9s ease-in-out infinite;
+}
+
+/* Lá úp mời chọn: lần lượt nhún */
+@keyframes nn-lb-moi {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+.nn-lb-moi {
+  animation: nn-lb-moi 2.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nn-lb-the {
+    transition: none !important;
+  }
+  .nn-lb-nhac,
+  .nn-lb-moi {
+    animation: none !important;
+  }
+}

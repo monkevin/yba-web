@@ -1,0 +1,118 @@
+{
+  "ma": "kinh-te-2026-09",
+  "ten": "Kinh tế Việt Nam 2026 — 10 con số nên nhớ",
+  "moTa": "Số liệu chốt đầu tháng 9/2026 — nguồn: Cục Thống kê, VnEconomy, VietnamPlus, VietNamNet.",
+  "nguon": "Cục Thống kê, VnEconomy, VietnamPlus, VietNamNet (9/2026)",
+  "cau": [
+    {
+      "hoi": "GDP Việt Nam 6 tháng đầu năm 2026 tăng bao nhiêu so với cùng kỳ?",
+      "phuongAn": [
+        "6,18%",
+        "7,18%",
+        "8,18%",
+        "9,18%"
+      ],
+      "dung": 2,
+      "giai": "8,18% — mức cao nhất trong hơn một thập kỷ, IMF nâng dự báo cả năm lên 8,2%."
+    },
+    {
+      "hoi": "8 tháng đầu 2026, cán cân thương mại hàng hoá của Việt Nam ở trạng thái nào?",
+      "phuongAn": [
+        "Xuất siêu khoảng 20 tỷ USD",
+        "Cân bằng",
+        "Nhập siêu khoảng 20 tỷ USD",
+        "Xuất siêu khoảng 5 tỷ USD"
+      ],
+      "dung": 2,
+      "giai": "Nhập siêu 20,46 tỷ USD. Nhập khẩu tăng 35,3% trong khi xuất khẩu chỉ tăng 22,4%. Ai làm sản xuất nên khoá giá nguyên phụ liệu sớm."
+    },
+    {
+      "hoi": "Tổng kim ngạch xuất nhập khẩu 8 tháng đầu 2026 đạt bao nhiêu?",
+      "phuongAn": [
+        "520 tỷ USD",
+        "640 tỷ USD",
+        "770 tỷ USD",
+        "890 tỷ USD"
+      ],
+      "dung": 2,
+      "giai": "770,14 tỷ USD, tăng 28,7% — cao nhất từ trước đến nay cho một kỳ 8 tháng."
+    },
+    {
+      "hoi": "Vốn FDI đăng ký vào Việt Nam 8 tháng đầu 2026 tăng bao nhiêu phần trăm?",
+      "phuongAn": [
+        "12,0%",
+        "28,5%",
+        "41,2%",
+        "55,4%"
+      ],
+      "dung": 3,
+      "giai": "40,63 tỷ USD, tăng 55,4%. Dòng vốn này kéo theo nhu cầu nhà xưởng, nhân sự quản lý và dịch vụ đi kèm."
+    },
+    {
+      "hoi": "Vốn FDI thực hiện (đã giải ngân) 8 tháng đầu 2026 là bao nhiêu?",
+      "phuongAn": [
+        "9,4 tỷ USD",
+        "13,1 tỷ USD",
+        "17,25 tỷ USD",
+        "22,8 tỷ USD"
+      ],
+      "dung": 2,
+      "giai": "17,25 tỷ USD, cao nhất 5 năm. Khoảng cách giữa đăng ký (40,63) và thực hiện (17,25) chính là độ trễ giải ngân — đừng đọc tin FDI như tiền đã vào nền kinh tế."
+    },
+    {
+      "hoi": "Đầu tháng 9/2026, giá vàng miếng SJC bán ra quanh mức nào?",
+      "phuongAn": [
+        "96 triệu đồng/lượng",
+        "118 triệu đồng/lượng",
+        "146 triệu đồng/lượng",
+        "172 triệu đồng/lượng"
+      ],
+      "dung": 2,
+      "giai": "143,6 – 146,6 triệu đồng/lượng. Vàng đang hút một lượng lớn vốn nhàn rỗi ra khỏi sản xuất kinh doanh."
+    },
+    {
+      "hoi": "Cùng thời điểm, giá vàng thế giới giao ngay quanh mức nào?",
+      "phuongAn": [
+        "2.650 USD/ounce",
+        "3.280 USD/ounce",
+        "4.395 USD/ounce",
+        "5.100 USD/ounce"
+      ],
+      "dung": 2,
+      "giai": "Khoảng 4.395 USD/ounce. Chênh lệch giá vàng trong nước và thế giới luôn là chỉ báo đáng theo dõi về dòng vốn."
+    },
+    {
+      "hoi": "Tỷ giá USD/VND trên thị trường tự do đầu tháng 9/2026 quanh mức nào?",
+      "phuongAn": [
+        "23.500 đồng",
+        "24.600 đồng",
+        "25.850 đồng",
+        "27.200 đồng"
+      ],
+      "dung": 2,
+      "giai": "25.820 – 25.860 đồng/USD. Mỗi 1% trượt giá ăn thẳng vào biên lợi nhuận của doanh nghiệp nhập nguyên liệu."
+    },
+    {
+      "hoi": "CPI bình quân quý 1/2026 tăng bao nhiêu so với cùng kỳ?",
+      "phuongAn": [
+        "2,10%",
+        "3,51%",
+        "4,80%",
+        "6,25%"
+      ],
+      "dung": 1,
+      "giai": "3,51% — nhưng lạm phát cơ bản là 3,63%, cao hơn CPI chung. Áp lực giá nằm ở phần lõi chứ không chỉ ở xăng dầu."
+    },
+    {
+      "hoi": "Lượng khách quốc tế đến Việt Nam trong quý 1/2026 là bao nhiêu?",
+      "phuongAn": [
+        "4,2 triệu lượt",
+        "5,5 triệu lượt",
+        "6,76 triệu lượt",
+        "8,3 triệu lượt"
+      ],
+      "dung": 2,
+      "giai": "6,76 triệu lượt, tăng 12,4% và là quý 1 cao nhất từ trước đến nay."
+    }
+  ]
+}

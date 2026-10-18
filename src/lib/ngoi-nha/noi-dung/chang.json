@@ -1,0 +1,233 @@
+[
+  {
+    "so": 1,
+    "ma": "BIET",
+    "ten": "BIẾT",
+    "tieuDe": "Biết Hội – Biết nhà",
+    "moTa": "Hiểu Hội Doanh nhân trẻ TP.HCM qua các thời kỳ và Chi hội Chợ Lớn: lịch sử, bản sắc, giá trị cốt lõi.",
+    "vonChinh": "TT",
+    "tram": [
+      {
+        "so": 1,
+        "ten": "Hội Doanh nhân trẻ TP.HCM",
+        "the": {
+          "ten": "Thẻ YBA HCM",
+          "noiDung": "Thành lập tháng 9/1994 với 30 thành viên sáng lập; từ 01/7/2025 hợp nhất cùng Bình Dương và Bà Rịa – Vũng Tàu, hệ thống 12 Chi hội."
+        }
+      },
+      {
+        "so": 2,
+        "ten": "Chi hội Chợ Lớn là ai",
+        "the": {
+          "ten": "Thẻ Chợ Lớn",
+          "noiDung": "Địa bàn Quận 5 · 6 · 8 · 10 · 11 · Bình Tân · Bình Chánh (địa bàn cũ). Bản sắc xuyên suốt: Tình Huynh Đệ."
+        }
+      },
+      {
+        "so": 3,
+        "ten": "Hội qua các thời kỳ",
+        "the": {
+          "ten": "Thẻ 32 năm YBA HCM",
+          "noiDung": "16/9/1994 thành lập · 2024 tròn 30 năm “Tiên phong – Kiến tạo” · 21/8/2026 Đại hội lần thứ I, Khóa I (2026 – 2029)."
+        }
+      },
+      {
+        "so": 4,
+        "ten": "Bản sắc & giá trị",
+        "the": {
+          "ten": "Thẻ 4B – 4V",
+          "noiDung": "4B: Biết – Bạn – Bàn – Bán. 4V: Vốn cá nhân – Vốn tri thức – Vốn xã hội – Vốn tài sản."
+        }
+      },
+      {
+        "so": 5,
+        "ten": "THỬ THÁCH: Dòng thời gian",
+        "thuThach": true,
+        "the": {
+          "ten": "Thẻ Dấu mốc",
+          "noiDung": "10/01/2024 ra mắt Ban Chủ nhiệm Nhiệm kỳ XII tại Year End Party “Tình Huynh Đệ”."
+        }
+      }
+    ]
+  },
+  {
+    "so": 2,
+    "ma": "BAN_BE",
+    "ten": "BẠN",
+    "tieuDe": "Làm bạn – Hiểu người",
+    "moTa": "Biết bộ máy, các kênh sinh hoạt, những thế hệ đi trước và cách hiểu động lực của người đồng hành.",
+    "vonChinh": "XH",
+    "tram": [
+      {
+        "so": 1,
+        "ten": "Bộ máy Chi hội",
+        "the": {
+          "ten": "Thẻ Ban Chủ nhiệm",
+          "noiDung": "Mô hình Nhiệm kỳ XII: Chủ nhiệm – Ban Thường trực – 08 Ban chuyên môn, có Ban Cố vấn đồng hành."
+        }
+      },
+      {
+        "so": 2,
+        "ten": "Những kênh sinh hoạt",
+        "the": {
+          "ten": "Thẻ Coffee Connect",
+          "noiDung": "04 buổi mỗi tháng – “cửa ngõ” đầu tiên để khách mời tìm hiểu Chi hội."
+        }
+      },
+      {
+        "so": 3,
+        "ten": "Văn hoá – Thể thao – Gia đình",
+        "the": {
+          "ten": "Thẻ Pickleball",
+          "noiDung": "Chợ Lớn là hạt nhân sáng lập CLB Pickleball YBA HCM – CLB thứ 10 trực thuộc Hội, ra mắt 09/11/2024."
+        }
+      },
+      {
+        "so": 4,
+        "ten": "Những người đi trước",
+        "the": {
+          "ten": "Thẻ Các thế hệ Chủ nhiệm",
+          "noiDung": "NK VIII Lâm Ngọc Minh · NK IX Lê Minh Tiến · NK X Lê Anh Tú · NK XI Nguyễn Tấn Lực · NK XII Đặng Viên Khang."
+        }
+      },
+      {
+        "so": 5,
+        "ten": "THỬ THÁCH: Hiểu người đồng hành",
+        "thuThach": true,
+        "the": {
+          "ten": "Thẻ 5 chữ",
+          "noiDung": "Năm loại “lương” trong tổ chức tự nguyện: Lợi – Trí – Danh – Tình – Nghĩa."
+        }
+      }
+    ]
+  },
+  {
+    "so": 3,
+    "ma": "BAN_VIEC",
+    "ten": "BÀN",
+    "tieuDe": "Bàn việc – Nâng tầm",
+    "moTa": "Các chuỗi tri thức làm nên thương hiệu Chợ Lớn và những nguyên tắc dẫn dắt trong một tổ chức tự nguyện.",
+    "vonChinh": "CN",
+    "tram": [
+      {
+        "so": 1,
+        "ten": "Coffee Share & Business & Library",
+        "the": {
+          "ten": "Thẻ Coffee Share",
+          "noiDung": "Chuỗi “Nâng tầm phong cách doanh nhân” – sản phẩm đào tạo mang thương hiệu riêng của Chợ Lớn, 06 số."
+        }
+      },
+      {
+        "so": 2,
+        "ten": "Học để vươn tầm",
+        "the": {
+          "ten": "Thẻ Connect Beyond",
+          "noiDung": "Chuỗi kết nối vượt biên giới: 03 số, quy tụ diễn giả tầm quốc gia và quốc tế."
+        }
+      },
+      {
+        "so": 3,
+        "ten": "Kiến tạo đội ngũ",
+        "the": {
+          "ten": "Thẻ 4 Đúng",
+          "noiDung": "Đúng người – Đúng vai trò – Đúng cách – Đúng nhịp."
+        }
+      },
+      {
+        "so": 4,
+        "ten": "THỬ THÁCH: Lãnh đạo của những lãnh đạo",
+        "thuThach": true,
+        "the": {
+          "ten": "Thẻ Uy tín",
+          "noiDung": "Trong hội, chức vụ cho quyền được thử – uy tín mới cho quyền được theo."
+        }
+      }
+    ]
+  },
+  {
+    "so": 4,
+    "ma": "BAN_HANG",
+    "ten": "BÁN",
+    "tieuDe": "Giao thương – Giữ chữ tín",
+    "moTa": "Biến kết nối thành giao thương có ghi nhận: các hành trình xúc tiến, đối tác quốc tế, vốn xã hội và sàn giao thương.",
+    "vonChinh": "TS",
+    "tram": [
+      {
+        "so": 1,
+        "ten": "Vươn Tầm Kết Nối",
+        "the": {
+          "ten": "Thẻ Caravan",
+          "noiDung": "Chuỗi caravan xúc tiến thương mại liên vùng, gắn giao thương với công trình cộng đồng."
+        }
+      },
+      {
+        "so": 2,
+        "ten": "Kết nối quốc tế",
+        "the": {
+          "ten": "Thẻ MOU",
+          "noiDung": "11/11/2025 ký MOU giữa Chi hội Chợ Lớn và HANOISME tại Vietnam Pavilion, Singapore."
+        }
+      },
+      {
+        "so": 3,
+        "ten": "Vốn xã hội & chữ tín",
+        "the": {
+          "ten": "Thẻ Thang sáu nấc",
+          "noiDung": "Biết tên → Biết việc → Biết năng lực → Dám giới thiệu → Dám cùng làm ăn → Dám góp vốn."
+        }
+      },
+      {
+        "so": 4,
+        "ten": "THỬ THÁCH: Sàn giao thương Chợ Lớn",
+        "thuThach": true,
+        "the": {
+          "ten": "Thẻ Giao thương",
+          "noiDung": "Giá trị giao thương có ghi nhận giữa hội viên 6 tháng đầu 2026 đạt khoảng 6 tỷ đồng."
+        }
+      }
+    ]
+  },
+  {
+    "so": 5,
+    "ma": "VUON_TAM",
+    "ten": "VƯƠN TẦM",
+    "tieuDe": "Cho đi – Để lại dấu ấn",
+    "moTa": "Trách nhiệm cộng đồng, vai trò của Chợ Lớn trong ONE YBA và bài học để kế thừa.",
+    "vonChinh": "CAN_BANG",
+    "tram": [
+      {
+        "so": 1,
+        "ten": "Nhịp Cầu Doanh Nhân",
+        "the": {
+          "ten": "Thẻ Nhịp Cầu",
+          "noiDung": "Cần Thảo (An Giang) · Hữu Duyên (Vĩnh Long) · An Hòa (An Giang) · A Dơi (Quảng Trị)."
+        }
+      },
+      {
+        "so": 2,
+        "ten": "Lan toả cộng đồng",
+        "the": {
+          "ten": "Thẻ Thư viện Container",
+          "noiDung": "03 thư viện container: Nhà Bè, Đồng Tháp, Bình Chánh."
+        }
+      },
+      {
+        "so": 3,
+        "ten": "Chợ Lớn trong ONE YBA",
+        "the": {
+          "ten": "Thẻ ONE YBA",
+          "noiDung": "Họp mặt hội viên ONE YBA 2026 “Kết tâm – Vươn tầm”: hơn 2.500 doanh nhân, Chợ Lớn tiên phong gói Kim cương."
+        }
+      },
+      {
+        "so": 4,
+        "ten": "THỬ THÁCH: Kế thừa & Vươn tầm",
+        "thuThach": true,
+        "the": {
+          "ten": "Thẻ Ngọn lửa",
+          "noiDung": "Chợ Lớn không chỉ là một chi hội – mà là một ngọn lửa của tình huynh đệ, tinh thần tiên phong và khát vọng tạo giá trị thật."
+        }
+      }
+    ]
+  }
+]

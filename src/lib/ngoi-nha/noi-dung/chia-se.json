@@ -1,0 +1,169 @@
+[
+  {
+    "ma": "cs01",
+    "hoi": "Giữa Coffee Share và Connect Beyond, bạn đã biết đến chương trình nào?",
+    "luaChon": [
+      "Cả hai",
+      "Coffee Share",
+      "Connect Beyond",
+      "Chưa biết chương trình nào"
+    ]
+  },
+  {
+    "ma": "cs02",
+    "hoi": "Trong năm chữ Nhân – Nghĩa – Lễ – Trí – Tín, bạn đề cao phẩm chất nào nhất?",
+    "luaChon": [
+      "Nhân",
+      "Nghĩa",
+      "Lễ",
+      "Trí",
+      "Tín"
+    ]
+  },
+  {
+    "ma": "cs03",
+    "hoi": "Trong 4 loại vốn, bạn đang quan tâm nhất loại nào?",
+    "luaChon": [
+      "Vốn cá nhân",
+      "Vốn tri thức",
+      "Vốn xã hội",
+      "Vốn tài sản"
+    ]
+  },
+  {
+    "ma": "cs04",
+    "hoi": "Bạn đặc biệt quan tâm chủ đề nào trong năm nay?",
+    "luaChon": [
+      "AI & chuyển đổi số",
+      "Thuế & pháp lý",
+      "Nhân sự",
+      "Quản trị doanh nghiệp",
+      "Vốn & tài chính"
+    ]
+  },
+  {
+    "ma": "cs05",
+    "hoi": "Bạn có lợi thế nhất ở mảng nào?",
+    "luaChon": [
+      "Nhân sự",
+      "Điều hành",
+      "Quản trị tài chính",
+      "Bán hàng & marketing",
+      "Sản xuất & vận hành"
+    ]
+  },
+  {
+    "ma": "cs06",
+    "hoi": "Điều bạn mong đợi nhất khi sinh hoạt trong Chi hội?",
+    "luaChon": [
+      "Kết nối bạn bè",
+      "Cơ hội giao thương",
+      "Học hỏi kinh nghiệm",
+      "Đóng góp cộng đồng"
+    ]
+  },
+  {
+    "ma": "cs07",
+    "hoi": "Bạn muốn Chi hội tổ chức thêm hoạt động nào?",
+    "luaChon": [
+      "Thăm doanh nghiệp hội viên",
+      "Toạ đàm chuyên môn",
+      "Thể thao – gia đình",
+      "Caravan giao thương",
+      "Thiện nguyện"
+    ]
+  },
+  {
+    "ma": "cs08",
+    "hoi": "Bạn sẵn sàng giúp một hội viên khác điều gì trong 5 phút?",
+    "luaChon": [
+      "Giới thiệu một mối quan hệ",
+      "Tư vấn chuyên môn",
+      "Dùng thử sản phẩm",
+      "Góp ý thẳng thắn"
+    ]
+  },
+  {
+    "ma": "cs09",
+    "hoi": "Doanh nghiệp của bạn đang ở giai đoạn nào?",
+    "luaChon": [
+      "Khởi sự (dưới 3 năm)",
+      "Tăng trưởng",
+      "Ổn định",
+      "Chuyển giao / mở rộng"
+    ]
+  },
+  {
+    "ma": "cs10",
+    "hoi": "Bạn thích học qua hình thức nào nhất?",
+    "luaChon": [
+      "Nghe chia sẻ thực chiến",
+      "Đọc sách",
+      "Đi thăm doanh nghiệp",
+      "Trao đổi nhóm nhỏ"
+    ]
+  },
+  {
+    "ma": "cs11",
+    "hoi": "Khung giờ nào tiện nhất để bạn đi sinh hoạt Chi hội?",
+    "luaChon": [
+      "Sáng sớm (Coffee Connect)",
+      "Buổi trưa",
+      "Chiều tối",
+      "Cuối tuần"
+    ]
+  },
+  {
+    "ma": "cs12",
+    "hoi": "Bạn thường biết tin hoạt động của Chi hội qua kênh nào?",
+    "luaChon": [
+      "Nhóm Zalo",
+      "Fanpage",
+      "Website ybacholon.vn",
+      "Bạn bè kể lại"
+    ]
+  },
+  {
+    "ma": "cs13",
+    "hoi": "Vì sao bạn vào YBA Chợ Lớn?",
+    "luaChon": [
+      "Vì tên hay, nghe là thích",
+      "Vì có người quen rủ",
+      "Vì nghe nói đến Tình Huynh Đệ",
+      "Vì nghe nói toàn doanh nghiệp lớn",
+      "Vì muốn thử một sân chơi mới"
+    ]
+  },
+  {
+    "ma": "cs14",
+    "hoi": "Vào YBA Chợ Lớn, bạn tìm kiếm điều gì nhất?",
+    "luaChon": [
+      "Giao thương thật",
+      "Học hỏi, nâng tầm kiến thức",
+      "Những người bạn thực sự",
+      "Mở rộng mối quan hệ",
+      "Cơ hội đóng góp cho cộng đồng"
+    ]
+  },
+  {
+    "ma": "cs15",
+    "hoi": "Điều gì ở Chi hội khiến bạn tự hào nhất?",
+    "luaChon": [
+      "Tình Huynh Đệ",
+      "Các chương trình Nhịp Cầu Doanh Nhân",
+      "Tinh thần tiên phong, dấn thân",
+      "Sức mạnh giao thương giữa hội viên"
+    ]
+  },
+  {
+    "ma": "cs16",
+    "hoi": "Bạn muốn góp sức cho Chi hội bằng cách nào?",
+    "luaChon": [
+      "Tham gia Ban Tổ chức chương trình",
+      "Chia sẻ kinh nghiệm ở Coffee Share",
+      "Tài trợ, ủng hộ hiện vật",
+      "Giới thiệu hội viên mới",
+      "Kết nối đối tác cho hội viên"
+    ]
+  }
+]

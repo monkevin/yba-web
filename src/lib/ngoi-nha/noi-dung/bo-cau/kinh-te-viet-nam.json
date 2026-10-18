@@ -1,0 +1,726 @@
+{
+  "chuDe": "kinh-te-viet-nam",
+  "ten": "Kinh tế Việt Nam",
+  "bo": [
+    {
+      "ma": "kinh-te-viet-nam-01",
+      "ten": "Đổi Mới 1986 và các chặng phát triển",
+      "moTa": "Những mốc chuyển mình của kinh tế Việt Nam từ năm 1986 đến khi hội nhập sâu rộng.",
+      "cau": [
+        {
+          "hoi": "Công cuộc Đổi Mới kinh tế ở Việt Nam chính thức được khởi xướng vào năm nào?",
+          "phuongAn": ["1975", "1986", "1995", "2007"],
+          "dung": 1,
+          "giai": "Đổi Mới được khởi xướng tháng 12/1986, mở đầu quá trình chuyển sang kinh tế thị trường và mở cửa hội nhập."
+        },
+        {
+          "hoi": "Đổi Mới đưa nền kinh tế Việt Nam chuyển từ cơ chế nào sang cơ chế thị trường?",
+          "phuongAn": ["Kế hoạch hóa tập trung, quan liêu bao cấp", "Kinh tế tự cung tự cấp của làng xã", "Kinh tế thị trường tự do không điều tiết", "Kinh tế dựa hoàn toàn vào viện trợ"],
+          "dung": 0,
+          "giai": "Trước 1986, kinh tế vận hành theo cơ chế kế hoạch hóa tập trung, bao cấp; Đổi Mới chuyển sang kinh tế thị trường nhiều thành phần."
+        },
+        {
+          "hoi": "Việt Nam chính thức trở thành thành viên Hiệp hội các quốc gia Đông Nam Á (ASEAN) vào năm nào?",
+          "phuongAn": ["1986", "1991", "1995", "2000"],
+          "dung": 2,
+          "giai": "Ngày 28/7/1995, Việt Nam gia nhập ASEAN, bước đi quan trọng mở đường cho hội nhập kinh tế khu vực."
+        },
+        {
+          "hoi": "Việt Nam chính thức trở thành thành viên Tổ chức Thương mại Thế giới (WTO) vào năm nào?",
+          "phuongAn": ["1995", "2000", "2003", "2007"],
+          "dung": 3,
+          "giai": "Ngày 11/1/2007, Việt Nam chính thức là thành viên thứ 150 của WTO, mở rộng tiếp cận thị trường toàn cầu theo luật chơi chung."
+        },
+        {
+          "hoi": "Cơ chế “Khoán 10” năm 1988 trong nông nghiệp có điểm đột phá nào?",
+          "phuongAn": ["Tập trung toàn bộ ruộng đất vào hợp tác xã", "Công nhận hộ nông dân là đơn vị kinh tế tự chủ", "Nhà nước thu mua toàn bộ nông sản giá cố định", "Cấm lưu thông nông sản giữa các địa phương"],
+          "dung": 1,
+          "giai": "Khoán 10 giao ruộng đất cho hộ nông dân sử dụng lâu dài, công nhận hộ là đơn vị kinh tế tự chủ, tạo động lực tăng mạnh sản lượng lúa."
+        },
+        {
+          "hoi": "Hoa Kỳ dỡ bỏ lệnh cấm vận thương mại đối với Việt Nam vào năm nào?",
+          "phuongAn": ["1986", "1989", "1991", "1994"],
+          "dung": 3,
+          "giai": "Tháng 2/1994, Hoa Kỳ dỡ bỏ lệnh cấm vận thương mại, tạo điều kiện cho doanh nghiệp hai nước giao thương và đầu tư."
+        },
+        {
+          "hoi": "Hiệp định Thương mại song phương Việt Nam – Hoa Kỳ (BTA) có hiệu lực vào năm nào?",
+          "phuongAn": ["1995", "1998", "2001", "2007"],
+          "dung": 2,
+          "giai": "BTA ký năm 2000 và có hiệu lực cuối năm 2001, giúp hàng Việt Nam được hưởng thuế suất thông thường, xuất khẩu sang Mỹ tăng vọt."
+        },
+        {
+          "hoi": "Luật Doanh nghiệp 1999 (hiệu lực từ năm 2000) được ghi nhận có tác động nổi bật nào?",
+          "phuongAn": ["Tạo làn sóng thành lập doanh nghiệp tư nhân", "Quốc hữu hóa các công ty cổ phần lớn", "Buộc hộ kinh doanh chuyển thành hợp tác xã", "Hạn chế doanh nghiệp có vốn nước ngoài"],
+          "dung": 0,
+          "giai": "Luật Doanh nghiệp 1999 chuyển từ cơ chế “xin – cho” sang đăng ký kinh doanh, giúp số doanh nghiệp tư nhân thành lập mới tăng mạnh."
+        },
+        {
+          "hoi": "Năm 1986, khi bắt đầu Đổi Mới, lạm phát ở Việt Nam ở mức nào?",
+          "phuongAn": ["Một con số, dưới 10%", "Phi mã, ở mức ba con số", "Hai con số, khoảng 20–30%", "Giảm phát, mặt bằng giá đi xuống"],
+          "dung": 1,
+          "giai": "Năm 1986, lạm phát lên tới hơn 700%. Nhờ cải cách giá cả, lãi suất cuối thập niên 1980 và đầu 1990, lạm phát dần được kiềm chế."
+        },
+        {
+          "hoi": "Việt Nam chính thức trở thành thành viên Diễn đàn Hợp tác Kinh tế châu Á – Thái Bình Dương (APEC) vào năm nào?",
+          "phuongAn": ["1989", "1993", "1995", "1998"],
+          "dung": 3,
+          "giai": "Tháng 11/1998, Việt Nam gia nhập APEC, diễn đàn chiếm khoảng một nửa thương mại thế giới; sau đó Việt Nam đăng cai Năm APEC 2006 và 2017."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-viet-nam-02",
+      "ten": "Xuất khẩu chủ lực và mặt hàng thế mạnh",
+      "moTa": "Những mặt hàng làm nên vị thế xuất khẩu Việt Nam và điều kiện giao hàng doanh nghiệp cần nắm.",
+      "cau": [
+        {
+          "hoi": "Việt Nam nhiều năm liền giữ vị trí nào trong xuất khẩu cà phê thế giới?",
+          "phuongAn": ["Lớn nhất thế giới", "Thứ ba, sau Brazil và Colombia", "Thứ hai, chỉ sau Brazil", "Thứ năm, sau các nước châu Phi"],
+          "dung": 2,
+          "giai": "Việt Nam nhiều năm là nước sản xuất và xuất khẩu cà phê lớn thứ hai thế giới, chỉ sau Brazil."
+        },
+        {
+          "hoi": "Loại cà phê chiếm phần lớn sản lượng và xuất khẩu của Việt Nam là loại nào?",
+          "phuongAn": ["Robusta (cà phê vối)", "Arabica (cà phê chè)", "Liberica (cà phê mít)", "Geisha (cà phê đặc sản)"],
+          "dung": 0,
+          "giai": "Cà phê vối Robusta, trồng nhiều ở Tây Nguyên, chiếm phần lớn sản lượng; Việt Nam là nguồn cung Robusta hàng đầu thế giới."
+        },
+        {
+          "hoi": "Việt Nam nhiều năm là nước xuất khẩu lớn nhất thế giới đối với mặt hàng nào sau đây?",
+          "phuongAn": ["Ca cao", "Đường mía", "Dầu cọ", "Hạt tiêu"],
+          "dung": 3,
+          "giai": "Việt Nam dẫn đầu thế giới về xuất khẩu hạt tiêu suốt hơn hai thập niên; hạt điều nhân cũng là mặt hàng Việt Nam giữ vị trí số một."
+        },
+        {
+          "hoi": "Nhóm hàng nào dẫn đầu kim ngạch xuất khẩu của Việt Nam trong thập niên gần đây?",
+          "phuongAn": ["Dầu thô và các loại khoáng sản thô", "Điện tử, máy tính, điện thoại và linh kiện", "Gạo, cà phê và các loại nông sản", "Gỗ, đồ nội thất và sản phẩm từ gỗ"],
+          "dung": 1,
+          "giai": "Nhóm điện thoại, máy tính, sản phẩm điện tử và linh kiện có kim ngạch xuất khẩu lớn nhất, chủ yếu do khu vực có vốn FDI đóng góp."
+        },
+        {
+          "hoi": "Trong bộ chứng từ xuất khẩu, phiếu đóng gói (packing list) chủ yếu thể hiện thông tin gì?",
+          "phuongAn": [
+            "Giá trị lô hàng và điều kiện thanh toán",
+            "Nước xuất xứ của hàng hóa",
+            "Quy cách đóng gói, số kiện, trọng lượng từng kiện",
+            "Cam kết thanh toán của ngân hàng bên mua"
+          ],
+          "dung": 2,
+          "giai": "Packing list liệt kê cách đóng gói, số kiện, kích thước, trọng lượng tịnh và cả bì, giúp kiểm hóa và xếp hàng; giá trị lô hàng nằm trên hóa đơn thương mại, xuất xứ trên C/O."
+        },
+        {
+          "hoi": "So với điều kiện CFR, người bán theo điều kiện CIF phải lo thêm việc gì?",
+          "phuongAn": ["Mua bảo hiểm cho hàng hóa", "Làm thủ tục nhập khẩu tại nước đến", "Dỡ hàng và giao tận kho người mua", "Nộp thuế nhập khẩu tại nước đến"],
+          "dung": 0,
+          "giai": "CIF = CFR + bảo hiểm: người bán trả cước đến cảng đích và mua bảo hiểm cho hàng; rủi ro vẫn chuyển khi hàng lên tàu ở cảng đi."
+        },
+        {
+          "hoi": "Trong ngành may xuất khẩu, phương thức CMT nghĩa là doanh nghiệp làm gì?",
+          "phuongAn": ["Tự mua nguyên liệu và bán thành phẩm", "Tự thiết kế và bán dưới thương hiệu riêng", "Nhận ký gửi hàng tại cửa hàng bán lẻ", "Cắt, may, hoàn thiện theo nguyên liệu khách giao"],
+          "dung": 3,
+          "giai": "CMT (Cut – Make – Trim) là gia công: khách cung cấp nguyên phụ liệu, doanh nghiệp chỉ cắt, may, hoàn thiện và nhận phí gia công."
+        },
+        {
+          "hoi": "Chương trình Thương hiệu quốc gia Việt Nam có tên tiếng Anh là gì?",
+          "phuongAn": ["Made by Vietnam", "Vietnam Value", "Vietnam Excellence", "Proud of Vietnam"],
+          "dung": 1,
+          "giai": "Vietnam Value là chương trình xúc tiến thương mại dài hạn của Nhà nước, xét chọn doanh nghiệp có sản phẩm đạt tiêu chí để nâng uy tín hàng Việt."
+        },
+        {
+          "hoi": "Kim ngạch xuất khẩu hàng hóa của Việt Nam lần đầu vượt mốc 100 tỷ USD vào năm nào?",
+          "phuongAn": ["2007", "2010", "2012", "2015"],
+          "dung": 2,
+          "giai": "Năm 2012, xuất khẩu Việt Nam đạt khoảng 114,5 tỷ USD, lần đầu vượt 100 tỷ USD, sau khi năm 2011 đạt gần 97 tỷ USD."
+        },
+        {
+          "hoi": "Trong ngành may xuất khẩu, phương thức ODM nghĩa là doanh nghiệp Việt Nam làm gì?",
+          "phuongAn": ["Chỉ cắt, may theo mẫu và nguyên liệu khách giao", "Tự thiết kế, sản xuất, bán dưới thương hiệu của khách", "Tự thiết kế, sản xuất và bán dưới thương hiệu riêng", "Chỉ nhận ủy thác làm thủ tục xuất khẩu cho khách"],
+          "dung": 1,
+          "giai": "ODM: doanh nghiệp tự thiết kế và sản xuất, khách mua rồi gắn nhãn của họ. CMT là gia công thuần, còn OBM là bán thương hiệu riêng."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-viet-nam-03",
+      "ten": "Nông nghiệp, thủy sản và an ninh lương thực",
+      "moTa": "Vựa lúa, con tôm và những chuẩn mực giúp nông sản Việt Nam vươn ra thị trường thế giới.",
+      "cau": [
+        {
+          "hoi": "Vùng nào là vựa lúa lớn nhất, đóng góp phần lớn lượng gạo xuất khẩu của Việt Nam?",
+          "phuongAn": ["Đồng bằng sông Cửu Long", "Đồng bằng sông Hồng", "Tây Nguyên", "Duyên hải Nam Trung Bộ"],
+          "dung": 0,
+          "giai": "Đồng bằng sông Cửu Long chiếm hơn một nửa sản lượng lúa và phần lớn lượng gạo xuất khẩu của cả nước."
+        },
+        {
+          "hoi": "Hai loài tôm nuôi xuất khẩu chủ lực của Việt Nam là gì?",
+          "phuongAn": ["Tôm hùm bông và tôm hùm xanh", "Tôm càng xanh và tôm đất", "Tôm thẻ chân trắng và tôm sú", "Tôm tít và tôm he Nhật Bản"],
+          "dung": 2,
+          "giai": "Tôm thẻ chân trắng chiếm phần lớn sản lượng nuôi, tôm sú có giá trị cao; hai loài này tạo nên phần lớn kim ngạch xuất khẩu tôm."
+        },
+        {
+          "hoi": "Cùng với Việt Nam, hai nước nào thường dẫn đầu thế giới về xuất khẩu gạo?",
+          "phuongAn": ["Trung Quốc và Nhật Bản", "Indonesia và Philippines", "Brazil và Argentina", "Ấn Độ và Thái Lan"],
+          "dung": 3,
+          "giai": "Ấn Độ, Thái Lan và Việt Nam nhiều năm là ba nước xuất khẩu gạo lớn nhất thế giới; Indonesia, Philippines lại là nước nhập khẩu lớn."
+        },
+        {
+          "hoi": "VietGAP là tên gọi của tiêu chuẩn nào trong nông nghiệp?",
+          "phuongAn": ["Chứng nhận xuất xứ hàng hóa được ưu đãi", "Thực hành sản xuất nông nghiệp tốt ở Việt Nam", "Tiêu chuẩn quản lý môi trường của doanh nghiệp", "Nhãn hiệu tập thể của các hợp tác xã"],
+          "dung": 1,
+          "giai": "VietGAP (Vietnamese Good Agricultural Practices) là quy trình thực hành sản xuất nông nghiệp tốt, bảo đảm an toàn và truy xuất nguồn gốc."
+        },
+        {
+          "hoi": "Giống gạo ST25 lần đầu được vinh danh “Gạo ngon nhất thế giới” vào năm nào?",
+          "phuongAn": ["2011", "2015", "2019", "2021"],
+          "dung": 2,
+          "giai": "Tại cuộc thi Gạo ngon nhất thế giới tổ chức ở Philippines tháng 11/2019, ST25 đoạt giải nhất, nâng tầm thương hiệu gạo Việt."
+        },
+        {
+          "hoi": "Cảnh báo “thẻ vàng IUU” của Ủy ban châu Âu đối với Việt Nam liên quan đến lĩnh vực nào?",
+          "phuongAn": ["Khai thác hải sản bất hợp pháp, không báo cáo", "Dư lượng thuốc bảo vệ thực vật trên rau quả", "Gian lận xuất xứ đối với hàng dệt may", "Chất lượng gạo xuất khẩu sang châu Âu"],
+          "dung": 0,
+          "giai": "IUU là khai thác thủy sản bất hợp pháp, không báo cáo và không theo quy định. Ủy ban châu Âu đưa ra thẻ vàng với hải sản khai thác của Việt Nam từ năm 2017."
+        },
+        {
+          "hoi": "Mô hình luân canh “lúa – tôm” ở Đồng bằng sông Cửu Long chủ yếu giúp thích ứng với vấn đề gì?",
+          "phuongAn": ["Thiếu lao động ở nông thôn", "Giá phân bón tăng cao", "Sâu bệnh trên cây ăn trái", "Xâm nhập mặn theo mùa"],
+          "dung": 3,
+          "giai": "Mùa khô nước mặn xâm nhập thì nuôi tôm, mùa mưa nước ngọt về thì trồng lúa; mô hình tận dụng tự nhiên và giảm thiệt hại do mặn."
+        },
+        {
+          "hoi": "Chương trình OCOP trong phát triển kinh tế nông thôn có nghĩa là gì?",
+          "phuongAn": ["Mỗi hộ một trang trại", "Mỗi tỉnh một thương hiệu", "Mỗi xã một sản phẩm", "Mỗi làng một hợp tác xã"],
+          "dung": 2,
+          "giai": "OCOP (One Commune One Product) – Mỗi xã một sản phẩm – phát triển sản phẩm đặc trưng của địa phương, được đánh giá và phân hạng theo sao."
+        },
+        {
+          "hoi": "Sau Đổi Mới, Việt Nam bắt đầu xuất khẩu gạo với khối lượng lớn từ năm nào?",
+          "phuongAn": ["1986", "1989", "1995", "2000"],
+          "dung": 1,
+          "giai": "Từ chỗ phải nhập khẩu lương thực, năm 1989 Việt Nam xuất khẩu khoảng 1,4 triệu tấn gạo và từ đó luôn thuộc nhóm xuất khẩu hàng đầu."
+        },
+        {
+          "hoi": "Sản phẩm nào được bảo hộ chỉ dẫn địa lý đầu tiên của Việt Nam (số đăng bạ 00001)?",
+          "phuongAn": ["Nước mắm Phú Quốc", "Cà phê Buôn Ma Thuột", "Vải thiều Thanh Hà", "Thanh long Bình Thuận"],
+          "dung": 0,
+          "giai": "Chỉ dẫn địa lý “Phú Quốc” cho sản phẩm nước mắm được bảo hộ năm 2001 với số đăng bạ 00001, mở đầu việc bảo hộ đặc sản vùng miền."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-viet-nam-04",
+      "ten": "Công nghiệp chế biến và đầu tư nước ngoài (FDI)",
+      "moTa": "Dòng vốn đầu tư trực tiếp nước ngoài, khu chế xuất và những khái niệm doanh nghiệp cần biết.",
+      "cau": [
+        {
+          "hoi": "FDI là viết tắt của hình thức nào?",
+          "phuongAn": ["Hỗ trợ phát triển chính thức từ nước ngoài", "Đầu tư trực tiếp nước ngoài", "Đầu tư gián tiếp qua mua cổ phiếu", "Vay thương mại từ ngân hàng quốc tế"],
+          "dung": 1,
+          "giai": "FDI (Foreign Direct Investment): nhà đầu tư nước ngoài bỏ vốn và trực tiếp tham gia quản lý hoạt động kinh doanh tại Việt Nam."
+        },
+        {
+          "hoi": "Luật Đầu tư nước ngoài tại Việt Nam, đạo luật đầu tiên mở cửa đón vốn FDI, được Quốc hội thông qua năm nào?",
+          "phuongAn": ["1980", "1984", "1987", "1990"],
+          "dung": 2,
+          "giai": "Luật Đầu tư nước ngoài tại Việt Nam được thông qua ngày 29/12/1987, tạo khung pháp lý đầu tiên để thu hút vốn FDI."
+        },
+        {
+          "hoi": "Khu chế xuất đầu tiên của Việt Nam, thành lập năm 1991 tại TP.HCM, là khu nào?",
+          "phuongAn": ["Khu chế xuất Tân Thuận", "Khu chế xuất Linh Trung", "Khu công nghệ cao TP.HCM", "Khu công nghiệp Tân Tạo"],
+          "dung": 0,
+          "giai": "Khu chế xuất Tân Thuận được thành lập năm 1991, là khu chế xuất đầu tiên của cả nước và mô hình mẫu cho các khu công nghiệp sau này."
+        },
+        {
+          "hoi": "“Công nghiệp hỗ trợ” là ngành sản xuất những gì?",
+          "phuongAn": ["Dịch vụ tư vấn, kế toán thuê ngoài cho nhà máy", "Thiết bị văn phòng cho doanh nghiệp", "Nguyên vật liệu, linh kiện, phụ tùng cho sản xuất", "Sản phẩm tiêu dùng cuối cùng để bán lẻ"],
+          "dung": 2,
+          "giai": "Công nghiệp hỗ trợ cung cấp nguyên vật liệu, linh kiện, phụ tùng cho sản xuất thành phẩm; phát triển ngành này giúp tăng tỷ lệ nội địa hóa."
+        },
+        {
+          "hoi": "Tính lũy kế, ngành nào thu hút nhiều vốn FDI đăng ký nhất tại Việt Nam?",
+          "phuongAn": ["Kinh doanh bất động sản", "Công nghiệp chế biến, chế tạo", "Sản xuất và phân phối điện", "Nông, lâm nghiệp và thủy sản"],
+          "dung": 1,
+          "giai": "Công nghiệp chế biến, chế tạo luôn chiếm tỷ trọng lớn nhất trong tổng vốn FDI đăng ký lũy kế, bỏ xa bất động sản đứng thứ hai."
+        },
+        {
+          "hoi": "Khu vực kinh tế nào đóng góp tỷ trọng lớn nhất trong kim ngạch xuất khẩu hàng hóa của Việt Nam?",
+          "phuongAn": ["Khu vực doanh nghiệp nhà nước", "Khu vực hộ kinh doanh cá thể", "Khu vực doanh nghiệp tư nhân trong nước", "Khu vực có vốn đầu tư nước ngoài"],
+          "dung": 3,
+          "giai": "Nhiều năm qua, doanh nghiệp có vốn đầu tư nước ngoài chiếm khoảng 70% kim ngạch xuất khẩu, nhất là ở nhóm điện tử, máy móc."
+        },
+        {
+          "hoi": "Hợp đồng BCC trong đầu tư có đặc điểm cốt lõi nào?",
+          "phuongAn": ["Hợp tác kinh doanh, không lập tổ chức kinh tế mới", "Bắt buộc thành lập công ty liên doanh mới", "Nhà đầu tư mua lại toàn bộ doanh nghiệp", "Nhà nước góp vốn chi phối vào dự án"],
+          "dung": 0,
+          "giai": "BCC (hợp đồng hợp tác kinh doanh) là thỏa thuận cùng góp vốn, chia lợi nhuận hoặc sản phẩm mà không thành lập pháp nhân mới."
+        },
+        {
+          "hoi": "Hành vi “chuyển giá” mà cơ quan thuế thường giám sát ở doanh nghiệp đa quốc gia là gì?",
+          "phuongAn": ["Đổi giá bán lẻ theo mùa để kích cầu", "Chuyển đồng tiền thanh toán sang USD", "Định giá giao dịch nội bộ lệch để giảm thuế", "Giảm giá cho khách hàng mua số lượng lớn"],
+          "dung": 2,
+          "giai": "Chuyển giá là định giá bất hợp lý giao dịch giữa các công ty liên kết, như nâng giá đầu vào từ công ty mẹ, để dồn lợi nhuận về nơi thuế thấp."
+        },
+        {
+          "hoi": "Trong đầu tư trực tiếp nước ngoài, hình thức “đầu tư mới” (greenfield) là gì?",
+          "phuongAn": [
+            "Mua lại cổ phần của một doanh nghiệp đang hoạt động",
+            "Lập doanh nghiệp, xây nhà máy mới hoàn toàn từ đầu",
+            "Mua trái phiếu Chính phủ để hưởng lãi",
+            "Mua chứng chỉ quỹ đầu tư chứng khoán niêm yết"
+          ],
+          "dung": 1,
+          "giai": "Greenfield là tự xây dựng cơ sở mới; ngược lại, M&A là mua lại hoặc sáp nhập doanh nghiệp sẵn có. Mua trái phiếu, chứng chỉ quỹ là đầu tư gián tiếp."
+        },
+        {
+          "hoi": "Điểm khác biệt cốt lõi của khu chế xuất so với khu công nghiệp thông thường là gì?",
+          "phuongAn": ["Chỉ dành cho doanh nghiệp nhà nước", "Không phải tuân thủ luật lao động Việt Nam", "Được miễn mọi loại thuế vô thời hạn", "Chuyên sản xuất hàng xuất khẩu, là khu phi thuế quan"],
+          "dung": 3,
+          "giai": "Khu chế xuất chuyên sản xuất hàng xuất khẩu, áp dụng quy định như khu phi thuế quan; hàng mua bán với nội địa được coi như xuất nhập khẩu."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-viet-nam-05",
+      "ten": "Các hiệp định thương mại tự do",
+      "moTa": "CPTPP, EVFTA, RCEP… và cách doanh nghiệp tận dụng ưu đãi thuế quan từ các FTA.",
+      "cau": [
+        {
+          "hoi": "CPTPP là tên viết tắt của hiệp định nào?",
+          "phuongAn": ["Hiệp định Thương mại hàng hóa ASEAN", "Hiệp định Đối tác Kinh tế Toàn diện Khu vực", "Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương", "Hiệp định Thương mại tự do Việt Nam – EU"],
+          "dung": 2,
+          "giai": "CPTPP là FTA thế hệ mới với các nước hai bờ Thái Bình Dương, có hiệu lực với Việt Nam từ ngày 14/01/2019."
+        },
+        {
+          "hoi": "EVFTA là hiệp định thương mại tự do giữa Việt Nam và đối tác nào?",
+          "phuongAn": ["Liên minh châu Âu (EU)", "Liên minh Kinh tế Á – Âu", "Hiệp hội Thương mại tự do châu Âu", "Vương quốc Anh"],
+          "dung": 0,
+          "giai": "EVFTA (EU – Vietnam Free Trade Agreement) ký với Liên minh châu Âu, xóa bỏ gần 99% dòng thuế giữa hai bên theo lộ trình."
+        },
+        {
+          "hoi": "Giấy chứng nhận xuất xứ ưu đãi (C/O) giúp hàng xuất khẩu của doanh nghiệp điều gì?",
+          "phuongAn": ["Được miễn kiểm tra chất lượng hàng hóa", "Được hoàn thuế giá trị gia tăng nhanh hơn", "Được bảo hiểm rủi ro trong vận chuyển", "Được hưởng thuế nhập khẩu ưu đãi theo FTA"],
+          "dung": 3,
+          "giai": "C/O ưu đãi chứng minh hàng đáp ứng quy tắc xuất xứ, giúp người nhập khẩu được hưởng thuế suất ưu đãi theo FTA, tăng sức cạnh tranh về giá."
+        },
+        {
+          "hoi": "UKVFTA là hiệp định thương mại tự do giữa Việt Nam và nước nào?",
+          "phuongAn": ["Úc", "Vương quốc Anh", "Hoa Kỳ", "Canada"],
+          "dung": 1,
+          "giai": "UKVFTA được ký cuối năm 2020, giúp duy trì các ưu đãi tương tự EVFTA trong thương mại Việt – Anh sau khi Anh rời EU."
+        },
+        {
+          "hoi": "Hiệp định EVFTA chính thức có hiệu lực từ ngày nào?",
+          "phuongAn": ["01/01/2019", "14/01/2019", "01/08/2020", "01/01/2022"],
+          "dung": 2,
+          "giai": "EVFTA có hiệu lực từ 01/8/2020. Ngay khi có hiệu lực, EU xóa bỏ thuế nhập khẩu với khoảng 85,6% dòng thuế hàng hóa Việt Nam."
+        },
+        {
+          "hoi": "Ngoài 10 nước ASEAN, 5 đối tác cùng ký Hiệp định RCEP năm 2020 là những nước nào?",
+          "phuongAn": ["Trung Quốc, Nhật Bản, Hàn Quốc, Úc, New Zealand", "Hoa Kỳ, Canada, Mexico, Chile, Peru", "Ấn Độ, Nhật Bản, Hàn Quốc, Úc, Canada", "Trung Quốc, Ấn Độ, Nga, Úc, Hoa Kỳ"],
+          "dung": 0,
+          "giai": "RCEP được ký năm 2020 giữa 10 nước ASEAN với Trung Quốc, Nhật Bản, Hàn Quốc, Úc, New Zealand; có hiệu lực với Việt Nam từ 01/01/2022."
+        },
+        {
+          "hoi": "C/O mẫu D được dùng để hưởng ưu đãi thuế quan theo hiệp định nào?",
+          "phuongAn": ["Hiệp định EVFTA với Liên minh châu Âu", "Hiệp định CPTPP", "Hiệp định VJEPA với Nhật Bản", "Hiệp định Thương mại hàng hóa ASEAN (ATIGA)"],
+          "dung": 3,
+          "giai": "C/O mẫu D dùng cho hàng hóa trao đổi giữa các nước ASEAN theo ATIGA; mẫu E dùng cho ASEAN – Trung Quốc, mẫu AK cho ASEAN – Hàn Quốc."
+        },
+        {
+          "hoi": "Quy tắc xuất xứ “từ sợi trở đi” (yarn forward) trong CPTPP gắn chặt nhất với ngành nào?",
+          "phuongAn": ["Điện tử và linh kiện", "Dệt may", "Thủy sản chế biến", "Gỗ và nội thất"],
+          "dung": 1,
+          "giai": "Theo quy tắc từ sợi trở đi, hàng dệt may phải dùng sợi, vải có xuất xứ nội khối CPTPP (trừ một số ngoại lệ) mới được hưởng ưu đãi thuế."
+        },
+        {
+          "hoi": "Hiệp định thương mại tự do song phương đầu tiên mà Việt Nam ký kết là với đối tác nào?",
+          "phuongAn": ["Hàn Quốc", "Chile", "Nhật Bản", "Liên minh Kinh tế Á – Âu"],
+          "dung": 2,
+          "giai": "Hiệp định Đối tác kinh tế Việt Nam – Nhật Bản (VJEPA) ký năm 2008 là FTA song phương đầu tiên; FTA với Chile ký năm 2011, với Hàn Quốc và Liên minh Kinh tế Á – Âu ký năm 2015."
+        },
+        {
+          "hoi": "Quy định “cộng gộp xuất xứ” trong các FTA cho phép doanh nghiệp làm gì?",
+          "phuongAn": ["Tính nguyên liệu từ nước thành viên như nguyên liệu nội địa", "Cộng dồn nhiều lô hàng nhỏ để được giảm thuế", "Gộp nhiều C/O thành một bộ hồ sơ duy nhất", "Cộng thuế đã nộp ở nhiều nước để khấu trừ"],
+          "dung": 0,
+          "giai": "Cộng gộp xuất xứ cho phép coi nguyên liệu có xuất xứ từ các nước thành viên như nguyên liệu của nước sản xuất khi xét tiêu chí xuất xứ ưu đãi."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-viet-nam-06",
+      "ten": "Ngân hàng Nhà nước và chính sách tiền tệ",
+      "moTa": "Những khái niệm cốt lõi về lãi suất, lạm phát, tỷ giá mà chủ doanh nghiệp nên hiểu.",
+      "cau": [
+        {
+          "hoi": "Cơ quan nào là ngân hàng trung ương, trực tiếp điều hành chính sách tiền tệ ở Việt Nam?",
+          "phuongAn": ["Bộ Tài chính", "Ngân hàng Nhà nước Việt Nam", "Kho bạc Nhà nước", "Ủy ban Chứng khoán Nhà nước"],
+          "dung": 1,
+          "giai": "Ngân hàng Nhà nước Việt Nam (NHNN) là ngân hàng trung ương, điều hành chính sách tiền tệ qua lãi suất, tỷ giá, dự trữ bắt buộc, thị trường mở."
+        },
+        {
+          "hoi": "Vai trò “người cho vay cuối cùng” (lender of last resort) của ngân hàng trung ương nghĩa là gì?",
+          "phuongAn": [
+            "Cho doanh nghiệp vay khi ngân hàng thương mại từ chối",
+            "Mua lại toàn bộ nợ xấu của các ngân hàng",
+            "Cho Chính phủ vay để bù đắp bội chi ngân sách",
+            "Cấp vốn khẩn cấp cho tổ chức tín dụng thiếu thanh khoản"
+          ],
+          "dung": 3,
+          "giai": "Khi tổ chức tín dụng thiếu thanh khoản tạm thời, ngân hàng trung ương cấp vốn khẩn cấp để ngăn nguy cơ rút tiền hàng loạt và đổ vỡ lan truyền trong hệ thống."
+        },
+        {
+          "hoi": "Tiền gửi có lãi suất danh nghĩa 7%/năm, trong khi lạm phát là 4%/năm. Lãi suất thực xấp xỉ bao nhiêu?",
+          "phuongAn": [
+            "Khoảng 3%/năm",
+            "Khoảng 11%/năm",
+            "Khoảng 7%/năm",
+            "Khoảng 1,75%/năm"
+          ],
+          "dung": 0,
+          "giai": "Lãi suất thực ≈ lãi suất danh nghĩa − tỷ lệ lạm phát = 7% − 4% = 3%. Đây là phần tăng sức mua thật của khoản tiền gửi sau khi trừ trượt giá."
+        },
+        {
+          "hoi": "Khi lạm phát tăng cao, ngân hàng trung ương thường chọn biện pháp nào?",
+          "phuongAn": ["Giảm lãi suất để kích thích vay vốn", "Hạ tỷ lệ dự trữ bắt buộc", "Tăng lãi suất, thắt chặt tiền tệ", "Mua mạnh giấy tờ có giá để bơm tiền"],
+          "dung": 2,
+          "giai": "Tăng lãi suất điều hành và thắt chặt cung tiền làm chi phí vay đắt hơn, giảm tổng cầu, từ đó kiềm chế đà tăng giá."
+        },
+        {
+          "hoi": "“Dự trữ bắt buộc” trong hệ thống ngân hàng là gì?",
+          "phuongAn": ["Số tiền doanh nghiệp phải gửi ngân hàng", "Phần tiền gửi mà tổ chức tín dụng phải gửi tại NHNN", "Lượng vàng Nhà nước cất giữ trong kho bạc", "Quỹ dự phòng rủi ro trích từ lợi nhuận"],
+          "dung": 1,
+          "giai": "Dự trữ bắt buộc là tỷ lệ trên tiền gửi huy động mà tổ chức tín dụng phải gửi tại NHNN; tăng tỷ lệ này làm giảm lượng tiền có thể cho vay."
+        },
+        {
+          "hoi": "Nghiệp vụ thị trường mở (OMO) của ngân hàng trung ương là hoạt động gì?",
+          "phuongAn": ["Mở thêm chi nhánh ngân hàng ở các tỉnh", "Cho phép ngân hàng nước ngoài hoạt động", "Công bố công khai lãi suất cho vay", "Mua bán giấy tờ có giá ngắn hạn với các ngân hàng"],
+          "dung": 3,
+          "giai": "Qua thị trường mở, NHNN mua giấy tờ có giá để bơm tiền hoặc bán ra để hút tiền về, điều tiết thanh khoản của hệ thống ngân hàng."
+        },
+        {
+          "hoi": "Lãi suất tái cấp vốn là lãi suất gì?",
+          "phuongAn": ["Lãi suất NHNN áp dụng khi cho tổ chức tín dụng vay", "Lãi suất ngân hàng trả cho người gửi tiết kiệm", "Lãi suất doanh nghiệp vay để mua tài sản", "Lãi suất các doanh nghiệp cho nhau vay"],
+          "dung": 0,
+          "giai": "Tái cấp vốn là hình thức NHNN cấp tín dụng cho tổ chức tín dụng; lãi suất tái cấp vốn là một lãi suất điều hành, định hướng mặt bằng lãi suất."
+        },
+        {
+          "hoi": "Lãi suất liên ngân hàng là loại lãi suất nào?",
+          "phuongAn": [
+            "Lãi suất ngân hàng cho doanh nghiệp vay dài hạn",
+            "Lãi suất tiền gửi tiết kiệm của người dân",
+            "Lãi suất các tổ chức tín dụng vay mượn lẫn nhau",
+            "Lãi suất Chính phủ trả cho trái phiếu 10 năm"
+          ],
+          "dung": 2,
+          "giai": "Trên thị trường liên ngân hàng, các tổ chức tín dụng cho nhau vay ngắn hạn, phổ biến nhất là kỳ hạn qua đêm; lãi suất này phản ánh nhanh mức dư thừa hay căng thẳng thanh khoản."
+        },
+        {
+          "hoi": "Tình trạng “đô la hóa” trong một nền kinh tế được hiểu là gì?",
+          "phuongAn": [
+            "Nhà nước neo cố định tỷ giá nội tệ với USD",
+            "Dùng ngoại tệ thay nội tệ để giao dịch, định giá và cất giữ",
+            "Ngân hàng trung ương tăng dự trữ ngoại hối bằng USD",
+            "Doanh nghiệp xuất khẩu thu tiền hàng bằng USD"
+          ],
+          "dung": 1,
+          "giai": "Đô la hóa làm suy giảm hiệu lực chính sách tiền tệ và vai trò của đồng nội tệ; vì vậy Việt Nam hạn chế sử dụng ngoại hối trong giao dịch, niêm yết giá trên lãnh thổ."
+        },
+        {
+          "hoi": "Từ đầu năm 2016, NHNN điều hành tỷ giá VND/USD theo cơ chế nào?",
+          "phuongAn": ["Cố định tuyệt đối, không thay đổi", "Thả nổi hoàn toàn theo thị trường", "Gắn cố định với giá vàng trong nước", "Tỷ giá trung tâm công bố hằng ngày, có biên độ"],
+          "dung": 3,
+          "giai": "Từ năm 2016, NHNN công bố tỷ giá trung tâm hằng ngày, tham chiếu thị trường và rổ ngoại tệ; ngân hàng giao dịch trong biên độ cho phép."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-viet-nam-07",
+      "ten": "Thị trường chứng khoán Việt Nam",
+      "moTa": "Lịch sử, các sàn giao dịch, chỉ số và thuật ngữ đầu tư chứng khoán cơ bản.",
+      "cau": [
+        {
+          "hoi": "Thị trường chứng khoán Việt Nam có phiên giao dịch đầu tiên vào năm nào?",
+          "phuongAn": ["1996", "2000", "2005", "2007"],
+          "dung": 1,
+          "giai": "Trung tâm Giao dịch Chứng khoán TP.HCM, nay là Sở Giao dịch Chứng khoán TP.HCM (HOSE), tổ chức phiên giao dịch đầu tiên ngày 28/7/2000."
+        },
+        {
+          "hoi": "Chỉ số VN-Index phản ánh biến động giá cổ phiếu niêm yết trên sàn nào?",
+          "phuongAn": ["Sở Giao dịch Chứng khoán Hà Nội", "Thị trường UPCoM", "Sở Giao dịch Chứng khoán TP.HCM", "Thị trường chứng khoán phái sinh"],
+          "dung": 2,
+          "giai": "VN-Index tính theo cổ phiếu niêm yết trên HOSE; còn HNX-Index là chỉ số của Sở Giao dịch Chứng khoán Hà Nội."
+        },
+        {
+          "hoi": "Giao dịch ký quỹ (margin) trên thị trường chứng khoán nghĩa là gì?",
+          "phuongAn": [
+            "Vay tiền công ty chứng khoán để mua thêm chứng khoán",
+            "Gửi tiết kiệm có kỳ hạn tại công ty chứng khoán",
+            "Chỉ mua cổ phiếu bằng tiền của chính mình",
+            "Đặt cọc để mua trái phiếu phát hành lần đầu"
+          ],
+          "dung": 0,
+          "giai": "Ký quỹ giúp nhà đầu tư mua nhiều hơn số tiền mình có, dùng chính chứng khoán làm tài sản bảo đảm; khi giá giảm mạnh có thể bị yêu cầu nộp thêm tiền hoặc bị bán giải chấp."
+        },
+        {
+          "hoi": "Cổ tức mà công ty cổ phần chi trả cho cổ đông được lấy từ nguồn nào?",
+          "phuongAn": ["Vốn điều lệ góp ban đầu", "Khoản vay ngân hàng của công ty", "Doanh thu bán hàng trong kỳ", "Lợi nhuận sau thuế của công ty"],
+          "dung": 3,
+          "giai": "Cổ tức được chia từ lợi nhuận sau thuế sau khi công ty đã hoàn thành nghĩa vụ tài chính; không được lấy vốn góp để chia cho cổ đông."
+        },
+        {
+          "hoi": "Sàn UPCoM chủ yếu dành cho giao dịch loại chứng khoán nào?",
+          "phuongAn": ["Cổ phiếu của công ty nước ngoài", "Chứng chỉ quỹ mở giao dịch hằng ngày", "Cổ phiếu công ty đại chúng chưa niêm yết", "Cổ phiếu có vốn hóa lớn nhất thị trường"],
+          "dung": 2,
+          "giai": "UPCoM (Unlisted Public Company Market) là nơi giao dịch cổ phiếu của công ty đại chúng chưa niêm yết, do Sở Giao dịch Chứng khoán Hà Nội vận hành."
+        },
+        {
+          "hoi": "Rổ chỉ số VN30 gồm những cổ phiếu nào?",
+          "phuongAn": ["30 cổ phiếu vốn hóa lớn, thanh khoản cao trên HOSE", "30 cổ phiếu có thị giá thấp nhất trên HOSE", "30 doanh nghiệp nhà nước lớn nhất cả nước", "30 cổ phiếu tăng giá mạnh nhất trong năm"],
+          "dung": 0,
+          "giai": "VN30 gồm 30 cổ phiếu có vốn hóa và thanh khoản hàng đầu trên HOSE; thành phần rổ được xem xét định kỳ để thay mã không còn đạt tiêu chí."
+        },
+        {
+          "hoi": "Chu kỳ thanh toán “T+2” trong giao dịch chứng khoán có nghĩa là gì?",
+          "phuongAn": ["Mỗi ngày chỉ được mua bán tối đa 2 lần", "Tiền, chứng khoán về tài khoản sau 2 ngày làm việc", "Phải nắm giữ cổ phiếu tối thiểu 2 tuần", "Phí giao dịch được thu sau 2 tháng"],
+          "dung": 1,
+          "giai": "T là ngày khớp lệnh; T+2 nghĩa là việc thanh toán tiền và chuyển giao chứng khoán hoàn tất sau 2 ngày làm việc kể từ ngày giao dịch."
+        },
+        {
+          "hoi": "Chỉ số P/E của một cổ phiếu được tính như thế nào?",
+          "phuongAn": ["Lợi nhuận chia cho vốn chủ sở hữu", "Giá trị sổ sách chia cho số cổ phiếu", "Cổ tức chia cho giá cổ phiếu", "Giá cổ phiếu chia cho lợi nhuận mỗi cổ phiếu"],
+          "dung": 3,
+          "giai": "P/E = Giá thị trường / EPS (lợi nhuận trên mỗi cổ phiếu), cho biết nhà đầu tư đang trả bao nhiêu đồng cho một đồng lợi nhuận."
+        },
+        {
+          "hoi": "Giá trị vốn hóa thị trường của một công ty niêm yết được tính như thế nào?",
+          "phuongAn": [
+            "Vốn điều lệ cộng lợi nhuận giữ lại",
+            "Thị giá cổ phiếu nhân số cổ phiếu đang lưu hành",
+            "Mệnh giá nhân số cổ phiếu đã phát hành",
+            "Tổng tài sản trừ nợ phải trả"
+          ],
+          "dung": 1,
+          "giai": "Vốn hóa = thị giá × số cổ phiếu đang lưu hành, phản ánh giá thị trường đang định cho doanh nghiệp. Tổng tài sản trừ nợ phải trả là giá trị sổ sách của vốn chủ sở hữu."
+        },
+        {
+          "hoi": "Thị trường chứng khoán phái sinh Việt Nam vận hành năm 2017 với sản phẩm đầu tiên nào?",
+          "phuongAn": ["Hợp đồng tương lai chỉ số VN30", "Quyền chọn bán cổ phiếu riêng lẻ", "Hợp đồng tương lai giá vàng", "Chứng quyền có bảo đảm"],
+          "dung": 0,
+          "giai": "Ngày 10/8/2017, thị trường phái sinh khai trương tại Sở Giao dịch Chứng khoán Hà Nội với sản phẩm hợp đồng tương lai chỉ số VN30."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-viet-nam-08",
+      "ten": "Du lịch và dịch vụ",
+      "moTa": "Di sản làm nên sức hút du lịch Việt Nam và các chỉ số kinh doanh dịch vụ lưu trú.",
+      "cau": [
+        {
+          "hoi": "Vịnh Hạ Long được UNESCO công nhận là Di sản thiên nhiên thế giới lần đầu vào năm nào?",
+          "phuongAn": ["1986", "1994", "2005", "2014"],
+          "dung": 1,
+          "giai": "Năm 1994, Vịnh Hạ Long được UNESCO ghi danh lần đầu nhờ giá trị thẩm mỹ đặc biệt, trở thành biểu tượng du lịch của Việt Nam."
+        },
+        {
+          "hoi": "Đô thị cổ nào của Việt Nam được UNESCO công nhận Di sản văn hóa thế giới năm 1999?",
+          "phuongAn": ["Cố đô Huế", "Hoàng thành Thăng Long", "Thành nhà Hồ", "Đô thị cổ Hội An"],
+          "dung": 3,
+          "giai": "Hội An được ghi danh năm 1999, cùng năm với Khu đền tháp Mỹ Sơn; phố cổ là điểm đến thu hút khách quốc tế hàng đầu miền Trung."
+        },
+        {
+          "hoi": "Vì sao du lịch quốc tế thường được gọi là ngành “xuất khẩu tại chỗ”?",
+          "phuongAn": ["Thu ngoại tệ khi khách nước ngoài chi tiêu tại Việt Nam", "Doanh nghiệp du lịch được miễn thuế xuất khẩu", "Khách mua hàng mang về nước phải khai hải quan", "Hướng dẫn viên được cử sang làm việc ở nước ngoài"],
+          "dung": 0,
+          "giai": "Khách quốc tế trả tiền lưu trú, ăn uống, mua sắm ngay tại Việt Nam, mang lại ngoại tệ như xuất khẩu mà không phải đưa hàng ra nước ngoài."
+        },
+        {
+          "hoi": "Hang Sơn Đoòng, được giới thiệu là hang động tự nhiên lớn nhất thế giới, nằm trong khu di sản nào?",
+          "phuongAn": ["Vịnh Hạ Long", "Quần thể danh thắng Tràng An", "Vườn quốc gia Phong Nha – Kẻ Bàng", "Cao nguyên đá Đồng Văn"],
+          "dung": 2,
+          "giai": "Sơn Đoòng thuộc Vườn quốc gia Phong Nha – Kẻ Bàng, Di sản thiên nhiên thế giới; hang được biết đến rộng rãi sau đợt khảo sát năm 2009."
+        },
+        {
+          "hoi": "Loại hình du lịch MICE gồm những hoạt động nào?",
+          "phuongAn": ["Nghỉ dưỡng, chăm sóc sức khỏe, spa, ẩm thực", "Hội họp, khen thưởng, hội nghị, triển lãm", "Mạo hiểm, leo núi, lặn biển, cắm trại", "Lễ hội, làng nghề và văn hóa bản địa"],
+          "dung": 1,
+          "giai": "MICE: Meetings (hội họp), Incentives (khen thưởng), Conferences (hội nghị), Exhibitions (triển lãm); nhóm khách này thường chi tiêu cao."
+        },
+        {
+          "hoi": "Quần thể danh thắng Tràng An được UNESCO công nhận là loại di sản thế giới nào?",
+          "phuongAn": ["Di sản văn hóa phi vật thể", "Di sản thiên nhiên thế giới", "Di sản tư liệu thế giới", "Di sản hỗn hợp văn hóa và thiên nhiên"],
+          "dung": 3,
+          "giai": "Năm 2014, Tràng An trở thành di sản thế giới hỗn hợp (văn hóa và thiên nhiên) đầu tiên của Việt Nam và Đông Nam Á."
+        },
+        {
+          "hoi": "OTA trong kinh doanh du lịch, khách sạn là gì?",
+          "phuongAn": ["Đại lý du lịch trực tuyến bán phòng, vé, tour", "Tổ chức đánh giá và xếp hạng sao khách sạn", "Hiệp hội các doanh nghiệp lữ hành quốc tế", "Phần mềm quản lý kho vật tư của khách sạn"],
+          "dung": 0,
+          "giai": "OTA (Online Travel Agency) là nền tảng bán phòng, vé, tour qua mạng và thu hoa hồng từ cơ sở lưu trú, nay là kênh bán hàng rất quan trọng."
+        },
+        {
+          "hoi": "Chỉ số RevPAR trong kinh doanh khách sạn được tính như thế nào?",
+          "phuongAn": ["Tổng doanh thu chia cho số nhân viên", "Số phòng bán được chia cho tổng số phòng", "Doanh thu phòng chia cho tổng số phòng sẵn có", "Lợi nhuận chia cho số lượt khách lưu trú"],
+          "dung": 2,
+          "giai": "RevPAR = doanh thu phòng / tổng số phòng sẵn có, hay giá phòng bình quân × công suất phòng; phản ánh cả giá bán và tỷ lệ lấp đầy."
+        },
+        {
+          "hoi": "Lượng khách quốc tế đến Việt Nam lần đầu vượt mốc 10 triệu lượt trong một năm vào năm nào?",
+          "phuongAn": ["2010", "2016", "2019", "2022"],
+          "dung": 1,
+          "giai": "Năm 2016, Việt Nam đón hơn 10 triệu lượt khách quốc tế, lần đầu vượt mốc này; đến năm 2019 con số đạt khoảng 18 triệu lượt."
+        },
+        {
+          "hoi": "Theo Đề án phát triển kinh tế ban đêm năm 2020, “kinh tế ban đêm” diễn ra trong khung giờ nào?",
+          "phuongAn": ["Từ 20 giờ đến 24 giờ", "Từ 22 giờ đến 4 giờ sáng", "Từ 17 giờ đến 23 giờ", "Từ 18 giờ đến 6 giờ sáng hôm sau"],
+          "dung": 3,
+          "giai": "Đề án phát triển kinh tế ban đêm (Quyết định 1129/QĐ-TTg năm 2020) xác định khung giờ từ 18 giờ hôm trước đến 6 giờ sáng hôm sau."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-viet-nam-09",
+      "ten": "Hạ tầng, cảng biển và logistics",
+      "moTa": "Cảng biển, sân bay, đường sắt và thuật ngữ vận tải mà chủ hàng xuất nhập khẩu cần nắm.",
+      "cau": [
+        {
+          "hoi": "Cảng biển nào là cửa ngõ xuất nhập khẩu đường biển chủ lực của miền Bắc, có khu bến nước sâu Lạch Huyện?",
+          "phuongAn": [
+            "Cảng Đà Nẵng",
+            "Cảng Quy Nhơn",
+            "Cảng Hải Phòng",
+            "Cảng Cần Thơ"
+          ],
+          "dung": 2,
+          "giai": "Cảng Hải Phòng, với khu bến Lạch Huyện đón được tàu container cỡ lớn, là cửa ngõ biển quan trọng nhất miền Bắc; phía Nam có cụm cảng Cái Mép – Thị Vải."
+        },
+        {
+          "hoi": "Đơn vị TEU thường dùng trong vận tải biển để đo gì?",
+          "phuongAn": ["Sức chứa tương đương một container 20 feet", "Trọng tải toàn phần của tàu tính bằng tấn", "Chiều dài cầu cảng tính bằng mét", "Tốc độ tàu tính bằng hải lý mỗi giờ"],
+          "dung": 0,
+          "giai": "TEU (Twenty-foot Equivalent Unit) là đơn vị quy đổi tương đương một container 20 feet; một container 40 feet được tính là 2 TEU."
+        },
+        {
+          "hoi": "Cảng hàng không quốc tế Long Thành được xây dựng chủ yếu nhằm mục tiêu nào?",
+          "phuongAn": ["Thay thế toàn bộ các sân bay miền Trung", "Chỉ phục vụ các chuyến bay nội địa", "Chỉ khai thác các chuyến bay chở hàng", "Giảm tải Tân Sơn Nhất, làm cửa ngõ quốc tế phía Nam"],
+          "dung": 3,
+          "giai": "Long Thành được quy hoạch là cảng hàng không quốc tế lớn, chia sẻ tải với Tân Sơn Nhất đang quá tải và thúc đẩy logistics hàng không phía Nam."
+        },
+        {
+          "hoi": "Tuyến metro số 1 của TP.HCM chạy giữa hai điểm nào?",
+          "phuongAn": ["Bến Thành – Tham Lương", "Bến Thành – Suối Tiên", "Tân Sơn Nhất – Thủ Thiêm", "Chợ Lớn – Bình Tây"],
+          "dung": 1,
+          "giai": "Tuyến metro số 1 Bến Thành – Suối Tiên dài khoảng 19,7 km, là tuyến đường sắt đô thị đầu tiên của TP.HCM, nối trung tâm với phía Đông."
+        },
+        {
+          "hoi": "Cụm cảng Cái Mép – Thị Vải có lợi thế nổi bật nào so với nhiều cảng khác?",
+          "phuongAn": ["Là cảng sông lớn nhất nằm trong khu nội thành", "Chuyên phục vụ tàu khách du lịch ven biển", "Cảng nước sâu đón tàu mẹ đi thẳng châu Âu, châu Mỹ", "Chỉ tiếp nhận hàng rời như than, quặng, xi măng"],
+          "dung": 2,
+          "giai": "Cái Mép – Thị Vải là cụm cảng nước sâu, tiếp nhận tàu container cỡ lớn chạy thẳng tuyến châu Âu, châu Mỹ, không cần trung chuyển qua nước khác."
+        },
+        {
+          "hoi": "ICD trong ngành logistics là gì?",
+          "phuongAn": ["Cảng cạn, điểm thông quan hàng container nội địa", "Cảng trung chuyển quốc tế ngoài khơi", "Kho ngoại quan dành riêng cho hàng lạnh", "Trạm cân kiểm tra tải trọng xe tải"],
+          "dung": 0,
+          "giai": "ICD (Inland Container Depot) là cảng cạn nằm sâu trong nội địa, có chức năng tập kết, lưu container và làm thủ tục hải quan như một cảng."
+        },
+        {
+          "hoi": "Hình thức đầu tư BOT trong xây dựng hạ tầng có nghĩa là gì?",
+          "phuongAn": ["Mua – Vận hành – Chuyển nhượng", "Xây dựng – Sở hữu – Kinh doanh", "Thiết kế – Xây dựng – Bàn giao ngay", "Xây dựng – Kinh doanh – Chuyển giao"],
+          "dung": 3,
+          "giai": "BOT (Build – Operate – Transfer): nhà đầu tư xây công trình, được khai thác thu phí trong thời hạn nhất định rồi chuyển giao lại cho Nhà nước."
+        },
+        {
+          "hoi": "Doanh nghiệp 3PL trong chuỗi cung ứng là doanh nghiệp như thế nào?",
+          "phuongAn": ["Doanh nghiệp tự vận hành toàn bộ đội xe riêng", "Bên thứ ba nhận thuê ngoài dịch vụ logistics", "Doanh nghiệp chỉ sản xuất bao bì đóng gói", "Hãng tàu khai thác từ ba tuyến quốc tế trở lên"],
+          "dung": 1,
+          "giai": "3PL (Third Party Logistics) là bên thứ ba cung cấp trọn gói hoặc một phần dịch vụ vận tải, kho bãi, phân phối cho chủ hàng thuê ngoài."
+        },
+        {
+          "hoi": "Tuyến đường sắt Bắc – Nam hiện hữu của Việt Nam sử dụng khổ ray nào?",
+          "phuongAn": ["1.435 mm (khổ tiêu chuẩn)", "1.520 mm (khổ rộng)", "1.000 mm (khổ mét)", "762 mm (khổ hẹp)"],
+          "dung": 2,
+          "giai": "Đường sắt Bắc – Nam dài khoảng 1.726 km dùng khổ mét 1.000 mm, hạn chế tốc độ và năng lực vận tải so với khổ tiêu chuẩn 1.435 mm."
+        },
+        {
+          "hoi": "Trong vận tải container, phí DEM (demurrage) là loại phí gì?",
+          "phuongAn": ["Phí lưu container quá hạn miễn phí tại bãi cảng", "Phí giữ container quá hạn ngoài cảng, tại kho chủ hàng", "Phí vệ sinh container sau khi dỡ hàng", "Phí nâng hạ container tại cảng đi"],
+          "dung": 0,
+          "giai": "DEM tính khi container nằm trong cảng quá thời gian miễn phí; còn DET (detention) tính khi chủ hàng giữ container ngoài cảng quá hạn."
+        }
+      ]
+    },
+    {
+      "ma": "kinh-te-viet-nam-10",
+      "ten": "Khu vực kinh tế và loại hình sở hữu",
+      "moTa": "Khu vực kinh tế theo sở hữu và đặc điểm pháp lý của các loại hình doanh nghiệp.",
+      "cau": [
+        {
+          "hoi": "Trong thống kê, nền kinh tế Việt Nam thường được chia theo sở hữu thành ba khu vực nào?",
+          "phuongAn": ["Nhà nước, ngoài Nhà nước, có vốn đầu tư nước ngoài", "Nông nghiệp, công nghiệp – xây dựng và dịch vụ", "Doanh nghiệp lớn, doanh nghiệp vừa và nhỏ", "Kinh tế thành thị, nông thôn và miền núi"],
+          "dung": 0,
+          "giai": "Cơ quan thống kê phân chia theo sở hữu: khu vực kinh tế Nhà nước, khu vực ngoài Nhà nước và khu vực có vốn đầu tư trực tiếp nước ngoài."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, công ty TNHH một thành viên do ai làm chủ sở hữu?",
+          "phuongAn": ["Tối thiểu hai tổ chức", "Từ hai đến năm mươi cá nhân", "Một tổ chức hoặc một cá nhân", "Tối thiểu ba cổ đông sáng lập"],
+          "dung": 2,
+          "giai": "Công ty TNHH một thành viên do một tổ chức hoặc một cá nhân làm chủ sở hữu, chịu trách nhiệm trong phạm vi vốn điều lệ (Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Chủ doanh nghiệp tư nhân chịu trách nhiệm về hoạt động của doanh nghiệp như thế nào?",
+          "phuongAn": ["Trong phạm vi vốn đã đăng ký", "Bằng toàn bộ tài sản của mình", "Trong phạm vi số vốn thực góp", "Không phải chịu trách nhiệm cá nhân"],
+          "dung": 1,
+          "giai": "Doanh nghiệp tư nhân do một cá nhân làm chủ và chịu trách nhiệm bằng toàn bộ tài sản của mình về mọi hoạt động của doanh nghiệp (Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Loại hình doanh nghiệp nào được phát hành cổ phần để huy động vốn?",
+          "phuongAn": ["Doanh nghiệp tư nhân", "Công ty hợp danh", "Công ty TNHH một thành viên", "Công ty cổ phần"],
+          "dung": 3,
+          "giai": "Công ty cổ phần được phát hành cổ phần các loại; công ty TNHH chỉ phát hành cổ phần khi chuyển đổi thành công ty cổ phần (Luật Doanh nghiệp 2020)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, công ty cổ phần phải có tối thiểu bao nhiêu cổ đông?",
+          "phuongAn": ["1", "2", "3", "7"],
+          "dung": 2,
+          "giai": "Công ty cổ phần có số lượng cổ đông tối thiểu là 3 và không hạn chế số lượng tối đa; cổ đông có thể là tổ chức hoặc cá nhân."
+        },
+        {
+          "hoi": "Trong thống kê cơ cấu kinh tế theo ngành, “khu vực III” chỉ nhóm ngành nào?",
+          "phuongAn": [
+            "Nông, lâm nghiệp và thủy sản",
+            "Dịch vụ",
+            "Công nghiệp và xây dựng",
+            "Khai khoáng và năng lượng"
+          ],
+          "dung": 1,
+          "giai": "Cơ cấu theo ngành chia nền kinh tế thành khu vực I (nông, lâm nghiệp, thủy sản), khu vực II (công nghiệp, xây dựng) và khu vực III (dịch vụ)."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, công ty hợp danh phải có ít nhất bao nhiêu thành viên hợp danh?",
+          "phuongAn": ["1 thành viên", "2 thành viên", "3 thành viên", "5 thành viên"],
+          "dung": 1,
+          "giai": "Công ty hợp danh phải có ít nhất 2 thành viên hợp danh là chủ sở hữu chung, kinh doanh dưới một tên chung; ngoài ra có thể có thành viên góp vốn."
+        },
+        {
+          "hoi": "“Khu vực kinh tế phi chính thức” thường được hiểu là gì?",
+          "phuongAn": ["Doanh nghiệp nhà nước chưa cổ phần hóa", "Doanh nghiệp FDI hoạt động trong khu chế xuất", "Hoạt động kinh doanh không đăng ký, khó thống kê đầy đủ", "Các quỹ đầu tư nước ngoài chưa được cấp phép"],
+          "dung": 2,
+          "giai": "Khu vực phi chính thức gồm các hoạt động sản xuất, kinh doanh nhỏ lẻ không đăng ký, khó được thống kê và quản lý đầy đủ, như bán hàng rong."
+        },
+        {
+          "hoi": "Theo Luật Doanh nghiệp 2020, doanh nghiệp xã hội phải dùng ít nhất bao nhiêu phần trăm tổng lợi nhuận sau thuế hằng năm để tái đầu tư cho mục tiêu xã hội, môi trường?",
+          "phuongAn": ["51%", "30%", "75%", "100%"],
+          "dung": 0,
+          "giai": "Doanh nghiệp xã hội hoạt động nhằm giải quyết vấn đề xã hội, môi trường vì lợi ích cộng đồng và phải dùng ít nhất 51% tổng lợi nhuận sau thuế hằng năm để tái đầu tư thực hiện mục tiêu đã đăng ký (Điều 10)."
+        },
+        {
+          "hoi": "Luật Doanh nghiệp sửa đổi năm 2025 bổ sung yêu cầu doanh nghiệp lưu giữ, cung cấp thông tin về đối tượng nào?",
+          "phuongAn": ["Người lao động nước ngoài", "Nhà cung cấp chiến lược", "Khách hàng có doanh thu lớn", "Chủ sở hữu hưởng lợi"],
+          "dung": 3,
+          "giai": "Luật sửa đổi 2025 (hiệu lực 1/7/2025) bổ sung quy định về chủ sở hữu hưởng lợi – cá nhân thực tế sở hữu hoặc chi phối doanh nghiệp – để minh bạch, phòng chống rửa tiền."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+ "loiNhan": [
+  {
+   "ma": "LN01",
+   "noiDung": "Có những hội viên sinh hoạt cùng bạn cả năm mà chưa một lần ngồi riêng uống ly cà phê. Hôm nay, hãy chủ động hẹn một người.",
+   "goiY": "Nhắn hẹn cà phê với một hội viên bạn chưa từng trò chuyện riêng.",
+   "chuDe": "ket-noi"
+  },
+  {
+   "ma": "LN02",
+   "noiDung": "Trước khi tìm nhà cung cấp bên ngoài, hãy hỏi trong hội. Hội viên dùng hàng hội viên là cách thiết thực nhất để cùng nhau lớn lên.",
+   "goiY": "Chọn một khoản chi sắp tới và tìm xem hội viên nào cung cấp được.",
+   "chuDe": "kinh-doanh"
+  },
+  {
+   "ma": "LN03",
+   "noiDung": "Doanh nghiệp cần một người chủ khoẻ mạnh, không phải một người chủ kiệt sức. Giữ sức khoẻ cũng là giữ tài sản lớn nhất của công ty.",
+   "goiY": "Dành ít nhất ba mươi phút đi bộ trong ngày hôm nay.",
+   "chuDe": "suc-khoe"
+  },
+  {
+   "ma": "LN04",
+   "noiDung": "Mỗi ngày học thêm một điều nhỏ, một năm sau bạn sẽ là một người chủ khác hẳn hôm nay.",
+   "goiY": "Đọc mười trang sách về quản trị hoặc kinh doanh.",
+   "chuDe": "hoc-hoi"
+  },
+  {
+   "ma": "LN05",
+   "noiDung": "Thành công ngoài thương trường sẽ trọn vẹn hơn khi có người thân cùng chia vui. Đừng để gia đình chỉ nhận phần mệt mỏi của bạn.",
+   "goiY": "Về nhà sớm và ăn tối cùng gia đình.",
+   "chuDe": "gia-dinh"
+  },
+  {
+   "ma": "LN06",
+   "noiDung": "Công ty lớn lên nhờ những người âm thầm làm việc mỗi ngày. Một lời cảm ơn cụ thể có sức nặng hơn một buổi họp dài.",
+   "goiY": "Cảm ơn trực tiếp một nhân viên vì một việc cụ thể họ đã làm tốt.",
+   "chuDe": "tri-an"
+  },
+  {
+   "ma": "LN07",
+   "noiDung": "Tình huynh đệ không đến từ những buổi lễ lớn, mà từ một cuộc gọi hỏi thăm đúng lúc anh em đang gặp khó.",
+   "goiY": "Gọi hỏi thăm một hội viên đã lâu bạn chưa liên lạc.",
+   "chuDe": "ket-noi"
+  },
+  {
+   "ma": "LN08",
+   "noiDung": "Chữ tín mất một lần thì mười lần sau cũng khó lấy lại. Hứa ít, làm đủ, giao đúng hẹn.",
+   "goiY": "Kiểm tra lại các cam kết với khách trong tuần này xem đã đúng hẹn chưa.",
+   "chuDe": "kinh-doanh"
+  },
+  {
+   "ma": "LN09",
+   "noiDung": "Thức khuya làm nốt việc không giúp bạn giỏi hơn, chỉ khiến ngày mai nặng nề hơn. Ngủ đủ cũng là một phần của công việc.",
+   "goiY": "Đi ngủ trước 23 giờ tối nay.",
+   "chuDe": "suc-khoe"
+  },
+  {
+   "ma": "LN10",
+   "noiDung": "Kinh nghiệm quý nhất thường nằm trong những lần vấp ngã. Chia sẻ thất bại của mình có thể giúp anh em tránh được một cú ngã.",
+   "goiY": "Kể cho anh em nghe một bài học bạn từng trả giá đắt.",
+   "chuDe": "hoc-hoi"
+  },
+  {
+   "ma": "LN11",
+   "noiDung": "Con không nhớ bạn đã ký bao nhiêu hợp đồng, mà nhớ bao nhiêu buổi tối bạn đã ngồi bên con.",
+   "goiY": "Dành ba mươi phút chơi hoặc trò chuyện riêng với con.",
+   "chuDe": "gia-dinh"
+  },
+  {
+   "ma": "LN12",
+   "noiDung": "Ai cũng từng có một người thầy hay một người sếp cũ dạy những bước đầu làm nghề. Thành công hôm nay của bạn có một phần công của họ.",
+   "goiY": "Gửi vài dòng hỏi thăm người thầy hoặc người sếp đầu tiên của bạn.",
+   "chuDe": "tri-an"
+  },
+  {
+   "ma": "LN13",
+   "noiDung": "Một lời giới thiệu đúng người, đúng lúc có thể mở ra cả một hợp đồng cho anh em. Biết đâu bạn đang giữ sẵn một mối như thế.",
+   "goiY": "Giới thiệu một khách hàng hoặc đối tác phù hợp cho một hội viên.",
+   "chuDe": "ket-noi"
+  },
+  {
+   "ma": "LN14",
+   "noiDung": "Khi dùng sản phẩm của anh em, hãy góp ý thật lòng. Nói thẳng mà tế nhị là cách giúp doanh nghiệp của nhau tiến bộ.",
+   "goiY": "Gửi nhận xét chân thành cho một hội viên có sản phẩm bạn đã dùng.",
+   "chuDe": "kinh-doanh"
+  },
+  {
+   "ma": "LN15",
+   "noiDung": "Uống đủ nước, ăn đúng bữa nghe thì đơn giản, nhưng lại là việc người bận rộn hay bỏ quên nhất.",
+   "goiY": "Đặt nhắc uống nước mỗi hai giờ trong ngày.",
+   "chuDe": "suc-khoe"
+  },
+  {
+   "ma": "LN16",
+   "noiDung": "Hãy lắng nghe nhân viên trẻ. Họ nhìn khách hàng và công nghệ theo những cách bạn có thể chưa để ý tới.",
+   "goiY": "Hỏi một nhân viên trẻ: công ty mình nên thay đổi điều gì?",
+   "chuDe": "hoc-hoi"
+  },
+  {
+   "ma": "LN17",
+   "noiDung": "Người bạn đời là cộng sự thầm lặng nhất của bạn. Đừng để những gì người ấy gánh vác trở thành điều hiển nhiên.",
+   "goiY": "Nói lời cảm ơn người bạn đời vì một điều cụ thể.",
+   "chuDe": "gia-dinh"
+  },
+  {
+   "ma": "LN18",
+   "noiDung": "Chân thành chúc mừng thành công của anh em cũng là cách vun đắp tình thân lâu dài.",
+   "goiY": "Gửi lời chúc mừng một hội viên vừa có tin vui.",
+   "chuDe": "ket-noi"
+  },
+  {
+   "ma": "LN19",
+   "noiDung": "Nhà cung cấp cho bạn gối đầu khi vốn còn mỏng là người đã tin bạn từ những ngày chưa ai biết tên. Ân tình ấy đáng được nhớ.",
+   "goiY": "Gọi cảm ơn một nhà cung cấp đã đồng hành cùng bạn nhiều năm.",
+   "chuDe": "tri-an"
+  },
+  {
+   "ma": "LN20",
+   "noiDung": "Hội mạnh khi mỗi người biết rõ anh em mình đang làm gì. Hiểu nghề của nhau là bước đầu để giúp được nhau.",
+   "goiY": "Đọc hồ sơ doanh nghiệp của ba hội viên bạn chưa hiểu rõ.",
+   "chuDe": "ket-noi"
+  },
+  {
+   "ma": "LN21",
+   "noiDung": "Đừng chỉ nhìn doanh thu hôm nay. Hãy tự hỏi: khách hàng có muốn quay lại với mình lần nữa không?",
+   "goiY": "Gọi cho một khách hàng cũ để hỏi họ còn hài lòng không.",
+   "chuDe": "kinh-doanh"
+  },
+  {
+   "ma": "LN22",
+   "noiDung": "Đã bao lâu rồi bạn chưa khám sức khoẻ định kỳ? Đừng đợi cơ thể lên tiếng mới bắt đầu lắng nghe.",
+   "goiY": "Đặt lịch khám sức khoẻ tổng quát trong tháng này.",
+   "chuDe": "suc-khoe"
+  },
+  {
+   "ma": "LN23",
+   "noiDung": "Đối thủ giỏi là người thầy không thu học phí. Thay vì khó chịu, hãy xem họ đang làm tốt điều gì mà bạn chưa làm.",
+   "goiY": "Ghi ra một điều đối thủ làm tốt hơn bạn và cách bạn học theo.",
+   "chuDe": "hoc-hoi"
+  },
+  {
+   "ma": "LN24",
+   "noiDung": "Ba mẹ mỗi ngày một lớn tuổi, còn lịch làm việc thì chẳng bao giờ trống. Hãy chủ động dành một chỗ cho ba mẹ.",
+   "goiY": "Gọi điện hỏi thăm ba mẹ, dù chỉ năm phút.",
+   "chuDe": "gia-dinh"
+  },
+  {
+   "ma": "LN25",
+   "noiDung": "Ghé thăm cửa hàng, văn phòng hay xưởng của một hội viên. Nhìn tận nơi anh em làm nghề, bạn sẽ giới thiệu họ cho người khác chính xác hơn.",
+   "goiY": "Hẹn lịch ghé thăm nơi làm việc của một hội viên trong tuần này.",
+   "chuDe": "ket-noi"
+  },
+  {
+   "ma": "LN26",
+   "noiDung": "Hội có được hôm nay là nhờ công sức của những thế hệ anh chị đi trước. Tiếp nối cho tốt là cách tri ân đẹp nhất.",
+   "goiY": null,
+   "chuDe": "tri-an"
+  },
+  {
+   "ma": "LN27",
+   "noiDung": "Hội viên mới thường còn ngại ở những buổi đầu. Một cái bắt tay và một lời giới thiệu của bạn có thể giúp họ sớm thấy mình là người nhà.",
+   "goiY": "Đăng ký buổi sinh hoạt tới và chủ động làm quen một hội viên mới.",
+   "chuDe": "ket-noi"
+  },
+  {
+   "ma": "LN28",
+   "noiDung": "Dòng tiền là hơi thở của doanh nghiệp. Dành mười lăm phút xem lại thu chi, tối nay bạn sẽ ngủ ngon hơn.",
+   "goiY": "Xem lại công nợ phải thu và các khoản sắp đến hạn.",
+   "chuDe": "kinh-doanh"
+  },
+  {
+   "ma": "LN29",
+   "noiDung": "Đầu óc có thảnh thơi thì quyết định mới sáng suốt. Trước một cuộc họp căng thẳng, hãy dành vài phút hít thở thật chậm.",
+   "goiY": "Tắt điện thoại, ngồi yên và hít thở sâu trong năm phút.",
+   "chuDe": "suc-khoe"
+  },
+  {
+   "ma": "LN30",
+   "noiDung": "Thị trường thay đổi từng ngày. Thử một cách làm mới hôm nay để thấy việc cũ có thể làm nhanh và gọn hơn thế nào.",
+   "goiY": "Dành hai mươi phút thử một công cụ số cho việc quản lý.",
+   "chuDe": "hoc-hoi"
+  },
+  {
+   "ma": "LN31",
+   "noiDung": "Khi về đến nhà, hãy để công việc lại ngoài cửa. Gia đình cần bạn có mặt trọn vẹn, không chỉ có mặt cho đủ.",
+   "goiY": "Tắt thông báo công việc sau 21 giờ tối nay.",
+   "chuDe": "gia-dinh"
+  },
+  {
+   "ma": "LN32",
+   "noiDung": "Mỗi buổi sinh hoạt thành công đều có người lặng lẽ chuẩn bị phía sau. Đừng quên dành cho họ một lời cảm ơn.",
+   "goiY": "Nhắn lời cảm ơn đến một người trong ban tổ chức hoặc văn phòng hội.",
+   "chuDe": "tri-an"
+  },
+  {
+   "ma": "LN33",
+   "noiDung": "Kỷ niệm gia đình không tự nhiên mà có. Hãy lên lịch cho người thân nghiêm túc như khi bạn hẹn một khách hàng quan trọng.",
+   "goiY": "Chọn một ngày trong tháng tới cho chuyến đi chơi ngắn cùng gia đình.",
+   "chuDe": "gia-dinh"
+  },
+  {
+   "ma": "LN34",
+   "noiDung": "Một quyết định lớn nên có thêm một góc nhìn. Trong hội luôn có người đã từng đi qua con đường bạn sắp bước tới.",
+   "goiY": "Hỏi ý kiến một hội viên có kinh nghiệm về việc bạn đang cân nhắc.",
+   "chuDe": "kinh-doanh"
+  },
+  {
+   "ma": "LN35",
+   "noiDung": "Rủ anh em trong hội cùng chơi một môn thể thao: vừa khoẻ người, vừa gắn bó, lại có thêm chuyện để hàn huyên.",
+   "goiY": "Rủ một hội viên cùng chơi thể thao vào cuối tuần này.",
+   "chuDe": "suc-khoe"
+  },
+  {
+   "ma": "LN36",
+   "noiDung": "Cuối ngày, hãy tự hỏi: hôm nay mình đã làm tốt điều gì, và ngày mai điều gì cần làm tốt hơn?",
+   "goiY": "Viết ba dòng nhìn lại ngày hôm nay trước khi đi ngủ.",
+   "chuDe": "hoc-hoi"
+  },
+  {
+   "ma": "LN37",
+   "noiDung": "Được anh em giới thiệu một mối khách hay gỡ giúp một việc khó, hãy cảm ơn cho rõ ràng. Ghi nhận đúng người khiến cả hội muốn giúp nhau hơn.",
+   "goiY": "Nói lời cảm ơn công khai với một hội viên từng giúp bạn gần đây.",
+   "chuDe": "tri-an"
+  },
+  {
+   "ma": "LN38",
+   "noiDung": "Muốn hiểu sâu một việc, hãy thử dạy lại cho người khác. Khi kèm một người mới, bạn cũng đang tự sắp xếp lại kinh nghiệm của mình.",
+   "goiY": "Chọn một việc bạn làm giỏi và hướng dẫn lại cho một người trong đội.",
+   "chuDe": "hoc-hoi"
+  },
+  {
+   "ma": "LN39",
+   "noiDung": "Giữa rất nhiều lựa chọn, có những khách hàng vẫn chọn bạn suốt nhiều năm. Sự gắn bó ấy xứng đáng được bạn trân trọng và nói ra thành lời.",
+   "goiY": "Gửi lời cảm ơn riêng đến một khách hàng đã gắn bó lâu năm.",
+   "chuDe": "tri-an"
+  },
+  {
+   "ma": "LN40",
+   "noiDung": "Sản phẩm tốt vẫn cần được kể ra. Hãy để anh em trong hội biết rõ bạn làm gì, giỏi điều gì và giúp được ai.",
+   "goiY": "Cập nhật hồ sơ doanh nghiệp của bạn cho đầy đủ và dễ hiểu.",
+   "chuDe": "kinh-doanh"
+  }
+ ]
+}

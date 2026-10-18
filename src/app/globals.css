@@ -1,0 +1,451 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------
+   Bộ nhận diện Hội Doanh nhân trẻ TP.HCM — Chi hội Chợ Lớn.
+   Navy #2e4082 lấy đúng từ Profile Chi hội nhiệm kỳ XII; đỏ #c8102e
+   lấy từ ngôi sao trên logo. Xem thêm skill `brand-yba`.
+   Tỉ lệ: 60 trắng / 30 navy / 10 đỏ. Đỏ là điểm nhấn, không phải nền.
+   --------------------------------------------------------------- */
+@theme {
+  --color-navy-50: #f3f5fb;
+  --color-navy-100: #e0e5f3;
+  --color-navy-200: #c2cbe8;
+  --color-navy-300: #96a5d5;
+  --color-navy-400: #6478b8;
+  --color-navy-500: #42559b;
+  --color-navy-600: #2e4082;
+  --color-navy-700: #253568;
+  --color-navy-800: #1b274d;
+  --color-navy-900: #121b36;
+  /* Navy sâu nhất — dùng cho dải nền đè lên ảnh và nền xem ảnh phóng to */
+  --color-navy-950: #0a0f20;
+
+  --color-do-50: #fef2f3;
+  --color-do-100: #fde0e2;
+  --color-do-200: #fbc4c8;
+  --color-do-300: #f79aa1;
+  --color-do-400: #ef6a74;
+  --color-do-500: #e23a47;
+  --color-do-600: #c8102e;
+  --color-do-700: #a50d26;
+  --color-do-800: #7f0a1d;
+  --color-do-900: #5c0714;
+
+  /* ── Đỏ son — tông "máu lửa" của Chợ Lớn ──────────────────────
+     Lấy từ Chinese Chamber of Commerce (chinesechamber.com): đỏ huyết
+     dụ #7c0717 làm nền sân khấu, đỏ tươi #e62039 làm điểm nhấn. Đây
+     cũng đúng sắc đỏ của khu Chợ Lớn — đỏ sẫm ngả nâu chứ không phải
+     đỏ cam.
+
+     Navy VẪN là màu nền tảng của Hội (đúng nhận diện YBA). Đỏ son chỉ
+     dùng cho các DẢI NỀN TỐI lớn — đầu trang, dải kêu gọi, chân trang
+     — nơi cần cảm giác nóng và gắn kết. Đừng đổ đỏ son ra nền trắng
+     của nội dung, chữ sẽ khó đọc và mất chất trang trọng. */
+  --color-son-50: #fdf3f3;
+  --color-son-100: #fbe3e5;
+  --color-son-200: #f7c9cd;
+  --color-son-300: #ef9aa2;
+  --color-son-400: #e35f6c;
+  --color-son-500: #e62039;
+  --color-son-600: #c5142c;
+  --color-son-700: #9c0f22;
+  --color-son-800: #7c0717;
+  --color-son-900: #560510;
+  --color-son-950: #2d0208;
+
+  /* Kem ngà — nền mềm cho khối nội dung nằm giữa hai dải tối */
+  --color-nga-50: #faf7f3;
+  --color-nga-100: #f2ece3;
+  --color-nga-200: #e2dace;
+
+  /* Chỉ dùng cho hạng nhất ở trang /vinh-danh */
+  --color-vang-400: #e3b94a;
+  --color-vang-500: #d4a017;
+  --color-vang-600: #ad8010;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: #ffffff;
+  color: #1b274d;
+  /* Be Vietnam Pro — bộ chữ vẽ riêng cho tiếng Việt, dấu đặt cân và rõ.
+     Nạp ở src/app/layout.tsx qua next/font. */
+  font-family: var(--font-noi-dung), ui-sans-serif, system-ui, "Segoe UI",
+    Roboto, Arial, sans-serif;
+}
+
+/* ── Chữ tiêu đề ──────────────────────────────────────────────────
+   Playfair Display cho các tiêu đề LỚN (h1, h2 ở đầu trang và đầu mục).
+   Tiêu đề nhỏ trong thẻ vẫn dùng chữ nội dung — trộn hai bộ chữ ở cỡ
+   nhỏ trông rối, chỉ dùng chữ có chân ở chỗ thật sự cần trang trọng. */
+.chu-tieu-de,
+.section-title,
+h1,
+h2 {
+  font-family: var(--font-tieu-de), Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+/* Tiêu đề nhỏ (h3 trở xuống) và mọi thứ trong thẻ giữ chữ nội dung */
+h3,
+h4,
+h5,
+h6,
+.card h2,
+.tile h2,
+.card h1 {
+  font-family: var(--font-noi-dung), ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: normal;
+}
+
+@layer components {
+  /* ── Form & nút bấm (dùng chung cả khu nội bộ lẫn khu công khai) ── */
+  .inp {
+    @apply w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-800 outline-none focus:ring-2 focus:ring-navy-500;
+  }
+
+  .lbl {
+    @apply block text-sm font-medium text-slate-700 mb-1;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium transition disabled:opacity-60 bg-navy-600 text-white hover:bg-navy-700;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium transition disabled:opacity-60 border border-slate-300 bg-white text-slate-700 hover:bg-slate-50;
+  }
+
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium transition disabled:opacity-60 bg-do-600 text-white hover:bg-do-700;
+  }
+
+  .card {
+    @apply rounded-xl bg-white ring-1 ring-navy-100 shadow-sm;
+  }
+
+  /* ── Riêng khu công khai ─────────────────────────────────────── */
+
+  /* Khối nội dung chuẩn của trang công khai */
+  .wrap {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
+  }
+
+  /* Nút hành động chính, to hơn nút trong app nội bộ */
+  .btn-cta {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-do-600 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-do-700;
+  }
+
+  .btn-cta-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/40 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10;
+  }
+
+  /* Tiêu đề khối trên trang công khai: gạch đỏ ngắn phía trên */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.18em] text-do-600;
+  }
+
+  .section-title {
+    @apply mt-2 text-2xl font-bold tracking-tight text-navy-800 sm:text-3xl;
+  }
+
+  /* Thẻ nội dung có hiệu ứng nhấc lên khi rê chuột */
+  .tile {
+    @apply block overflow-hidden rounded-2xl bg-white ring-1 ring-navy-100 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg hover:ring-navy-200;
+  }
+
+  /* Nhãn nhỏ: ngành nghề, khu vực, loại tin */
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full bg-navy-50 px-2.5 py-1 text-xs font-medium text-navy-700 ring-1 ring-navy-100;
+  }
+
+  .chip-do {
+    @apply inline-flex items-center gap-1 rounded-full bg-do-50 px-2.5 py-1 text-xs font-medium text-do-700 ring-1 ring-do-100;
+  }
+}
+
+/* ═════════════════════════════════════════════════════════════════
+   HIỆU ỨNG "CÔNG NGHỆ"
+   Lấy cảm hứng từ y-n10.com. Trang đó dựng bằng WebGL viết riêng —
+   nặng và không ai bảo trì nổi. Ở đây mọi thứ làm bằng CSS thuần và
+   một lớp canvas 2D nhỏ, nên máy yếu và điện thoại vẫn mượt.
+
+   NGUYÊN TẮC: tất cả đều nằm trong `@media (prefers-reduced-motion:
+   no-preference)` hoặc tự tắt khi người dùng bật "giảm chuyển động".
+   Hiệu ứng là lớp trang trí — tắt hết đi thì trang vẫn phải đọc được.
+   ═════════════════════════════════════════════════════════════════ */
+
+/* ── Dải nền tối tông đỏ son ──────────────────────────────────────
+   Dùng thay cho `bg-navy-800` ở những khối muốn "nóng": đầu trang,
+   dải kêu gọi hành động, chân trang. Navy vẫn nằm dưới đáy chuyển
+   sắc nên không mất chất YBA. */
+.san-do {
+  background-color: #2d0208;
+  background-image:
+    radial-gradient(120% 100% at 15% 0%, #9c0f22 0%, transparent 55%),
+    radial-gradient(90% 90% at 90% 100%, #1b274d 0%, transparent 60%),
+    linear-gradient(160deg, #7c0717 0%, #560510 45%, #2d0208 100%);
+}
+
+/* ── Lưới kỹ thuật mảnh phủ lên nền tối ──────────────────────────
+   Gợi cảm giác bản vẽ kỹ thuật / màn hình dữ liệu. Rất nhạt, chỉ để
+   nền không bị "phẳng lì". Dùng làm LỚP PHỦ RIÊNG (div absolute
+   inset-0 rỗng) thì có thêm mặt nạ mờ dần ra rìa. */
+.luoi-ky-thuat {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+  background-size: 56px 56px;
+  /* Mờ dần ra rìa để lưới không cắt ngang khối một cách thô */
+  mask-image: radial-gradient(80% 70% at 50% 40%, #000 25%, transparent 100%);
+}
+
+/* Khi hai lớp nằm trên CÙNG một phần tử thì phải gộp tay như dưới —
+   vì cả hai cùng khai `background-image`, lớp khai sau sẽ ĐÈ MẤT lớp
+   trước: nền đỏ biến mất, cả khối thành trắng bệch, chữ trắng trên
+   nền trắng không đọc nổi (lỗi đã xảy ra thật trên 20 trang, 07/08).
+   Và phải TẮT mặt nạ: mặt nạ đặt trên chính phần tử sẽ làm mờ cả CHỮ
+   bên trong chứ không riêng gì lưới. */
+.san-do.luoi-ky-thuat {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    radial-gradient(120% 100% at 15% 0%, #9c0f22 0%, transparent 55%),
+    radial-gradient(90% 90% at 90% 100%, #1b274d 0%, transparent 60%),
+    linear-gradient(160deg, #7c0717 0%, #560510 45%, #2d0208 100%);
+  background-size:
+    56px 56px,
+    56px 56px,
+    auto,
+    auto,
+    auto;
+  mask-image: none;
+}
+
+/* ── Thẻ có vệt sáng đi theo con trỏ ─────────────────────────────
+   Toạ độ chuột do `TheSang` ghi vào hai biến --x/--y. Không có
+   JavaScript thì hai biến không tồn tại, vệt sáng nằm im ở giữa —
+   vẫn đẹp, không vỡ. */
+.the-sang {
+  position: relative;
+  isolation: isolate;
+}
+.the-sang::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  background: radial-gradient(
+    22rem circle at var(--x, 50%) var(--y, 50%),
+    rgba(230, 32, 57, 0.16),
+    transparent 42%
+  );
+}
+.the-sang:hover::before,
+.the-sang:focus-within::before {
+  opacity: 1;
+}
+/* Nội dung phải nổi lên trên vệt sáng */
+.the-sang > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Viền phát sáng chạy vòng quanh ──────────────────────────────
+   Dùng cho khối quan trọng nhất của một trang, đừng dùng tràn lan. */
+@property --goc-vien {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.vien-chay {
+  position: relative;
+}
+.vien-chay::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--goc-vien),
+    transparent 0deg,
+    #e62039 40deg,
+    #d4a017 70deg,
+    transparent 130deg,
+    transparent 360deg
+  );
+}
+@media (prefers-reduced-motion: no-preference) {
+  .vien-chay::after {
+    animation: quay-vien 6s linear infinite;
+  }
+}
+@keyframes quay-vien {
+  to {
+    --goc-vien: 360deg;
+  }
+}
+
+/* ── Nhịp thở: khối sáng lên rồi dịu đi ─────────────────────────── */
+@media (prefers-reduced-motion: no-preference) {
+  .tho-sang {
+    animation: tho-sang 5s ease-in-out infinite;
+  }
+}
+@keyframes tho-sang {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.06);
+  }
+}
+
+/* ── Vệt loé quét ngang ──────────────────────────────────────────
+   Dán lên ảnh hoặc huy hiệu để nó "sáng lên" như kim loại bóng. */
+.quet-sang {
+  position: relative;
+  overflow: hidden;
+}
+.quet-sang::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    115deg,
+    transparent 40%,
+    rgba(255, 255, 255, 0.28) 50%,
+    transparent 60%
+  );
+  transform: translateX(-120%);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .quet-sang::after {
+    animation: quet-sang 5.5s ease-in-out infinite;
+  }
+}
+@keyframes quet-sang {
+  0%,
+  62% {
+    transform: translateX(-120%);
+  }
+  85%,
+  100% {
+    transform: translateX(120%);
+  }
+}
+
+/* ── Vòng nét đứt quay chậm quanh KV ────────────────────────────── */
+@media (prefers-reduced-motion: no-preference) {
+  .vong-quay {
+    animation: vong-quay 34s linear infinite;
+  }
+}
+@keyframes vong-quay {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ── Khi IN thì ép hiện mọi khối có hiệu ứng hiện dần ────────────
+   Bấm Ctrl+P từ tab đang mở: document.hidden vẫn là false nên lưới an
+   toàn trong HienDan.tsx không kích hoạt, các khối dưới màn hình chưa
+   từng cuộn tới sẽ in ra thành khoảng trắng. Bản in phải luôn đủ chữ. */
+@media print {
+  .hien-dan {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* ── Thanh tiến trình cuộn ────────────────────────────────────────
+   Trình duyệt đời mới tự chạy được bằng CSS, không tốn JavaScript.
+   `ThanhCuon.tsx` kiểm tra chỗ này và chỉ nhảy vào khi trình duyệt
+   chưa hỗ trợ. */
+@supports (animation-timeline: scroll()) {
+  .thanh-cuon {
+    transform: scaleX(0);
+    animation: keo-thanh-cuon linear;
+    animation-timeline: scroll();
+  }
+}
+@keyframes keo-thanh-cuon {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* ── Chữ tô bằng chuyển sắc đỏ → vàng ───────────────────────────── */
+.chu-lua {
+  background: linear-gradient(100deg, #ffffff 0%, #f7c9cd 35%, #e3b94a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Giữ tỉ lệ khung ảnh khi ảnh chưa tải xong, tránh nhảy bố cục */
+.ratio-3-2 {
+  aspect-ratio: 3 / 2;
+}
+.ratio-16-9 {
+  aspect-ratio: 16 / 9;
+}
+
+/* ── Thân bài viết ────────────────────────────────────────────────
+   Nội dung bài nhập từ web cũ là HTML (đoạn văn, danh sách, ảnh trong
+   bài). Nó đi qua `locHtmlBaiViet` nên chỉ còn vài thẻ, đặt kiểu chữ
+   ở đây thay vì rắc class vào từng thẻ. */
+.bai-viet > * + * { margin-top: 1rem; }
+.bai-viet p { line-height: 1.75; }
+.bai-viet h2 {
+  margin-top: 2rem;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #1b274d;
+}
+.bai-viet h3 {
+  margin-top: 1.75rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1b274d;
+}
+.bai-viet h4 { margin-top: 1.5rem; font-weight: 700; color: #1b274d; }
+.bai-viet ul,
+.bai-viet ol { padding-left: 1.4rem; }
+.bai-viet ul { list-style: disc; }
+.bai-viet ol { list-style: decimal; }
+.bai-viet li { margin-top: 0.35rem; line-height: 1.7; }
+.bai-viet li::marker { color: #c8102e; }
+.bai-viet strong, .bai-viet b { font-weight: 600; color: #1b274d; }
+.bai-viet a { color: #2e4082; text-decoration: underline; text-underline-offset: 2px; }
+.bai-viet a:hover { color: #c8102e; }
+.bai-viet img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  margin-top: 1.5rem;
+}
+.bai-viet figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #64748b;
+  text-align: center;
+}
+.bai-viet blockquote {
+  border-left: 4px solid #c8102e;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #475569;
+}

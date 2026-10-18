@@ -1,0 +1,1760 @@
+// Website YBA Chợ Lớn — vừa là trang giới thiệu công khai của Chi hội, vừa là
+// sàn xúc tiến thương mại + chợ nhu cầu mua/bán của hội viên.
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// PHẦN 1 — Hội viên, tài khoản, hội phí (kế thừa từ xtm-app)
+// ═══════════════════════════════════════════════════════════════════
+
+/// Tài khoản đăng nhập. Mỗi hội viên có tối đa một tài khoản (memberId).
+model User {
+  id                String    @id @default(cuid())
+  username          String    @unique
+  name              String
+  passwordHash      String
+  /// Đổi mật khẩu lúc nào — phiên đăng nhập cũ hơn mốc này bị vô hiệu
+  passwordChangedAt DateTime?
+  /// ADMIN = cấp lãnh đạo (mặc định toàn quyền) | STAFF = Ban Điều hành
+  /// (quyền theo `permissions`) | MEMBER = hội viên
+  role              String    @default("MEMBER")
+  /// Nhãn chức vụ hiển thị của tài khoản cấp lãnh đạo (Khang chốt 24/09):
+  /// CHU_TICH / PHO_CHU_TICH / THU_KY (đều role ADMIN, null = "Admin"),
+  /// BDH cho role STAFF. Xem VAI_TRO_CHON trong `src/lib/quyen.ts`.
+  chucVu            String?
+  /// Chuỗi JSON mảng mã quyền, ví dụ ["noi_dung.viet","su_kien.quan_ly"].
+  /// role STAFF: chỉ có đúng các quyền này. role ADMIN: ĐỂ TRỐNG = toàn
+  /// quyền, CÓ danh sách = giới hạn theo danh sách ("muốn xem ít thôi").
+  permissions       String?
+  active            Boolean   @default(true)
+  memberId          String?   @unique
+  member            Member?   @relation(fields: [memberId], references: [id], onDelete: SetNull)
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  dealsCreated   Deal[]        @relation("dealCreatedBy")
+  dealsConfirmed Deal[]        @relation("dealConfirmedBy")
+  dealsReviewed  Deal[]        @relation("dealReviewedBy")
+  logs           ActivityLog[]
+  postsWritten   Post[]
+
+  @@index([role])
+}
+
+/// Nhóm / chi hội — dùng để chia hội viên thành các cụm sinh hoạt.
+model Chapter {
+  id      String   @id @default(cuid())
+  code    String   @unique
+  name    String
+  note    String?
+  members Member[]
+}
+
+/// Ngành nghề — dùng chung cho hồ sơ doanh nghiệp và tin đăng mua/bán.
+model Category {
+  id     String  @id @default(cuid())
+  /// Mã ngành theo danh mục chuẩn của YBA, ví dụ "16" — dùng để khớp dữ liệu
+  /// nhập từ Google Sheet danh sách hội viên (ô ghi "16. Xây dựng – Tư vấn...")
+  code   String? @unique
+  slug   String  @unique
+  name   String
+  /// Biểu tượng emoji hiển thị trên thẻ danh mục
+  icon   String?
+  order  Int     @default(0)
+  active Boolean @default(true)
+
+  members  Member[]
+  listings Listing[]
+}
+
+/// Hội viên — đồng thời là hồ sơ doanh nghiệp hiển thị công khai.
+model Member {
+  id         String    @id @default(cuid())
+  /// Mã hội viên, ví dụ HV0001
+  code       String    @unique
+  /// Đường dẫn thân thiện của hồ sơ, ví dụ /doanh-nghiep/mon-amie
+  slug       String    @unique
+  name       String
+  /// Xưng hô: "Anh" / "Chị"
+  salutation String?
+  company    String
+  /// Chức vụ tại doanh nghiệp, ví dụ "Tổng Giám đốc"
+  position   String?
+  /// Chức vụ trong Hội, ví dụ "Chủ nhiệm Chi hội Chợ Lớn"
+  hoiRole    String?
+  /// Hạng hội viên: "Hội viên" | "Hội viên vàng" | "Ban chủ nhiệm" | "Ban cố vấn" | ...
+  memberType String?
+  industry   String?
+  phone      String?
+  email      String?
+  address    String?
+  /// Quận / phường
+  district   String?
+  website    String?
+  /// Ngày sinh người đại diện
+  birthday   DateTime?
+  /// Số lượng nhân viên (chuỗi, ví dụ "50", "10-20")
+  headcount  String?
+  /// Sản phẩm / dịch vụ đang cung cấp (để hội viên khác tìm nguồn mua)
+  offering   String?
+  /// Dịch vụ cung cấp — mỗi dòng một dịch vụ. Tách khỏi `offering` để hồ sơ
+  /// liệt kê riêng "sản phẩm" và "dịch vụ" thay vì gộp một đoạn văn.
+  services   String?
+  /// Lịch sử hình thành & phát triển — mỗi dòng một mốc, dạng "2005 | Thành lập"
+  history    String?
+  /// Nhu cầu đang tìm mua
+  needing    String?
+
+  // ── Ba câu "LinkedIn nội bộ" hội viên tự khai trên Zalo Mini App ──
+  /// "Tôi có thể giúp gì?" — năng lực sẵn sàng hỗ trợ hội viên khác, mỗi
+  /// dòng một ý. Khác `offering` (danh mục sản phẩm bán): đây là lời mời
+  /// giúp đỡ, ví dụ "Tư vấn miễn phí về thủ tục xuất khẩu".
+  toiGiupGi     String?
+  /// "Tôi đang cần gì?" — mỗi dòng một ý. Khác `needing` (nhu cầu mua hàng):
+  /// rộng hơn, gồm cả tìm nhân sự, tìm vốn, tìm mặt bằng.
+  toiCanGi      String?
+  /// "Tôi muốn gặp ai?" — mô tả kiểu đối tác muốn kết nối, ví dụ
+  /// "CEO ngành logistics", "chủ chuỗi F&B tại Quận 5".
+  toiMuonGap    String?
+  /// Lần cuối hội viên tự cập nhật ba câu trên qua Mini App
+  tagCapNhatLuc DateTime?
+  chapterId     String?
+  chapter       Chapter?  @relation(fields: [chapterId], references: [id], onDelete: SetNull)
+  categoryId    String?
+  category      Category? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+
+  // ── Hồ sơ doanh nghiệp công khai ──────────────────────────────
+  /// Ảnh chân dung người hội viên
+  avatar             String?
+  /// Logo doanh nghiệp
+  logo               String?
+  /// Ảnh bìa hồ sơ (tỉ lệ 3:1)
+  coverImage         String?
+  /// Một câu giới thiệu ngắn, hiện trên thẻ danh bạ
+  intro              String?
+  /// Giới thiệu dài về doanh nghiệp (xuống dòng bằng ký tự newline)
+  description        String?
+  /// Năng lực, chứng nhận, giải thưởng — mỗi dòng một ý
+  capabilities       String?
+  foundedYear        Int?
+  taxCode            String?
+  facebook           String?
+  zalo               String?
+  linkedin           String?
+  youtube            String?
+  videoUrl           String?
+  /// Thư viện ảnh — chuỗi JSON mảng đường dẫn ảnh
+  gallery            String?
+  /// Bài báo viết về doanh nghiệp — chuỗi JSON mảng
+  /// [{ "title": "...", "url": "https://...", "source": "Tuổi Trẻ" }]
+  pressLinks         String?
+  /// Hội viên có thể tự ẩn hồ sơ khỏi phần công khai
+  publicVisible      Boolean @default(true)
+  /// NHAP | CHO_DUYET | DA_DUYET — hồ sơ hội viên tự sửa phải được ban chủ nhiệm duyệt
+  profileStatus      String  @default("DA_DUYET")
+  /// Được chọn hiển thị ở khối "Doanh nghiệp tiêu biểu" trang chủ
+  featured           Boolean @default(false)
+  /// Nhà tài trợ chiến lược của Chi hội — ưu đãi của họ luôn xếp trên đầu,
+  /// kèm huy hiệu riêng. KHÁC `featured` (doanh nghiệp tiêu biểu trang chủ):
+  /// đây là ghi nhận đóng góp tài chính, Ban Chủ nhiệm bật tay ở /quan-tri/ho-so.
+  nhaTaiTroChienLuoc Boolean @default(false)
+  /// Thứ tự sắp xếp thủ công trong danh bạ (số nhỏ lên trước)
+  sortOrder          Int     @default(0)
+
+  // ── Thứ tự ưu tiên hiển thị ───────────────────────────────────
+  /// HOAT_DONG | ROI_HOI — CHỈ Ban Chủ nhiệm đánh dấu tay khi ai đó thật sự rời
+  /// Chi hội. Chưa đóng hội phí KHÔNG phải là rời hội: hồ sơ vẫn hiển thị bình
+  /// thường, chỉ xếp sau người đã đóng (xem `src/lib/xep-hang.ts`).
+  trangThai      String  @default("HOAT_DONG")
+  /// Cấp bậc trong Hội, số NHỎ lên trước: 0 Chủ nhiệm · 1 Phó Chủ nhiệm ·
+  /// 2 Trưởng ban / Ban Chấp hành · 3 Sáng lập viên, Hội viên vàng ·
+  /// 5 Hội viên · 6 Hội viên liên kết. Tính lại bằng `npm run xep-hang`.
+  capBac         Int     @default(5)
+  /// Doanh nghiệp quy mô lớn — được ưu tiên hiện lên trên
+  doanhNghiepLon Boolean @default(false)
+
+  /// Chuỗi đã chuẩn hoá (bỏ dấu, viết thường) để tìm kiếm tiếng Việt không phân biệt dấu/hoa-thường
+  searchText  String   @default("")
+  joinedAt    DateTime @default(now())
+  active      Boolean  @default(true)
+  /// Được miễn hội phí
+  feeExempt   Boolean  @default(false)
+  /// Năm đóng hội phí gần nhất (0 = chưa đóng lần nào). Ghi sẵn ở đây thay vì
+  /// đếm bảng FeePayment mỗi lần, để danh bạ và chợ nhu cầu xếp được hội viên
+  /// đã đóng phí lên trên bằng orderBy. Đồng bộ qua `src/lib/hoi-phi.ts`.
+  feePaidYear Int      @default(0)
+  note        String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  user            User?
+  dealsAsSeller   Deal[]            @relation("dealSeller")
+  dealsAsBuyer    Deal[]            @relation("dealBuyer")
+  dealsAsReferrer Deal[]            @relation("dealReferrer")
+  feePayments     FeePayment[]
+  diemHoatDong    DiemHoatDong[]
+  hotDeal         HotDeal[]
+  products        Product[]
+  listings        Listing[]
+  listingContacts ListingContact[]
+  awards          Award[]
+  chanDung        ChanDung?
+  lichHen         LichHen[]
+  thamDoanhNghiep ThamDoanhNghiep[]
+  dangKyTham      DangKyTham[]
+  dangKyTaiTro    DangKyTaiTro[]
+  taiTroSuKien    TaiTroSuKien[]
+  banToChuc       BanToChuc[]
+  nguoiThamDu     NguoiThamDu[]
+  dangKyHoatDong  DangKyHoatDong[]
+  cauHoiAI        CauHoiAI[]
+  phienMiniApp    PhienMiniApp[]
+  uuDai           UuDai[]
+  uuDaiLeads      UuDaiLead[]       @relation("leadCuaHoiVien")
+  thamDuSuKien    ThamDuSuKien[]
+  bangTin         BangTin[]
+  quanTamBangTin  BangTinQuanTam[]  @relation("quanTamBangTin")
+  loiChucDaGui    LoiChuc[]         @relation("loiChucDaGui")
+  loiChucDaNhan   LoiChuc[]         @relation("loiChucDaNhan")
+
+  @@index([company])
+  @@index([chapterId])
+  @@index([categoryId])
+  @@index([active])
+  @@index([memberType])
+  @@index([featured])
+  @@index([feePaidYear])
+  @@index([trangThai])
+  @@index([capBac])
+}
+
+/// Kết quả bộ công cụ "Chân dung doanh nhân" của một hội viên.
+/// Tách khỏi Member vì đây là thông tin về CON NGƯỜI hội viên (riêng tư, chỉ
+/// mình họ xem), còn Member là hồ sơ DOANH NGHIỆP hiển thị công khai.
+model ChanDung {
+  id       String @id @default(cuid())
+  memberId String @unique
+  member   Member @relation(fields: [memberId], references: [id], onDelete: Cascade)
+
+  /// Ngày sinh — dùng chung cho thần số học và tử vi
+  birthDate   DateTime?
+  /// Giờ sinh 0–23 (null = không rõ) — bắt buộc để an sao lá số tử vi
+  birthHour   Int?
+  noiSinh     String?
+  /// Họ tên khai sinh — dùng cho các chỉ số thần số học theo tên
+  hoTen       String?
+  /// Nhóm tính cách: lua | gio | dat | nuoc
+  tinhCach    String?
+  /// Khí chất doanh nhân: ung | ho | xa | holy | long
+  khiChat     String?
+  /// Chuỗi JSON phần trăm 5 khí chất, ví dụ {"ung":40,"ho":20,...}
+  khiChatTyLe String?
+
+  updatedAt DateTime @updatedAt
+  createdAt DateTime @default(now())
+}
+
+/// Sản phẩm / dịch vụ tiêu biểu của một doanh nghiệp hội viên.
+model Product {
+  id        String   @id @default(cuid())
+  memberId  String
+  member    Member   @relation(fields: [memberId], references: [id], onDelete: Cascade)
+  name      String
+  summary   String?
+  /// Giá ghi bằng chữ, ví dụ "Từ 3.500.000 ₫" hoặc "Liên hệ"
+  priceText String?
+  image     String?
+  order     Int      @default(0)
+  createdAt DateTime @default(now())
+
+  @@index([memberId])
+}
+
+/// Một lần đóng hội phí của một hội viên cho một năm.
+model FeePayment {
+  id        String    @id @default(cuid())
+  memberId  String
+  member    Member    @relation(fields: [memberId], references: [id], onDelete: Cascade)
+  year      Int
+  /// Số tiền đã đóng (VND); 0 nếu chỉ đánh dấu đã đóng mà không rõ số
+  amount    Float     @default(0)
+  /// Ghi chú, ví dụ "CK 19/01/2018"
+  note      String?
+  paidAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  @@unique([memberId, year])
+  @@index([year])
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// PHẦN 2 — Xúc tiến thương mại
+// ═══════════════════════════════════════════════════════════════════
+
+/// Một giao dịch giao thương. Đối tác có thể là hội viên cùng chi hội, hội viên
+/// chi hội khác, hoặc doanh nghiệp thuộc hội bạn (khi đó ghi thêm externalOrg).
+model Deal {
+  id          String   @id @default(cuid())
+  /// Mã giao dịch, ví dụ GT2026-0001
+  code        String   @unique
+  sellerId    String
+  seller      Member   @relation("dealSeller", fields: [sellerId], references: [id])
+  buyerId     String
+  buyer       Member   @relation("dealBuyer", fields: [buyerId], references: [id])
+  /// Hội viên đứng ra kết nối (nếu có) — dùng để tính điểm giới thiệu
+  referrerId  String?
+  referrer    Member?  @relation("dealReferrer", fields: [referrerId], references: [id], onDelete: SetNull)
+  /// Giá trị đơn, đơn vị VND
+  amount      Float
+  dealDate    DateTime
+  description String?
+  /// CHO_DOI_TAC | CHO_DUYET | DA_DUYET | TU_CHOI | HUY
+  status      String   @default("CHO_DOI_TAC")
+
+  /// Phạm vi giao thương — cơ sở để tách chỉ số ở trang /xuc-tien-thuong-mai:
+  /// NOI_CHI_HOI (trong YBA Chợ Lớn) | LIEN_CHI_HOI (với chi hội khác của YBA
+  /// HCM) | LIEN_HOI (với hội / hiệp hội bạn) | NGOAI_HOI (doanh nghiệp ngoài)
+  partnerScope    String  @default("NOI_CHI_HOI")
+  /// Tên doanh nghiệp đối tác khi đối tác không phải hội viên trong hệ thống
+  externalPartner String?
+  /// Tên chi hội / hội của đối tác, ví dụ "YBA Sài Gòn", "Hội DN Bình Dương"
+  externalOrg     String?
+
+  createdByUserId String
+  createdBy       User   @relation("dealCreatedBy", fields: [createdByUserId], references: [id])
+  /// Bên đã khai báo đơn: SELLER | BUYER | ADMIN
+  createdSide     String
+
+  confirmedAt       DateTime?
+  confirmedByUserId String?
+  confirmedBy       User?     @relation("dealConfirmedBy", fields: [confirmedByUserId], references: [id], onDelete: SetNull)
+
+  reviewedAt       DateTime?
+  reviewedByUserId String?
+  reviewedBy       User?     @relation("dealReviewedBy", fields: [reviewedByUserId], references: [id], onDelete: SetNull)
+  rejectReason     String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  logs ActivityLog[]
+
+  @@index([status])
+  @@index([dealDate])
+  @@index([sellerId])
+  @@index([buyerId])
+  @@index([referrerId])
+  @@index([partnerScope])
+}
+
+/// Nhật ký thao tác trên giao dịch (ai khai, ai xác nhận, ai duyệt).
+model ActivityLog {
+  id        String   @id @default(cuid())
+  dealId    String?
+  deal      Deal?    @relation(fields: [dealId], references: [id], onDelete: Cascade)
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  action    String
+  detail    String?
+  createdAt DateTime @default(now())
+
+  @@index([dealId])
+  @@index([createdAt])
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// PHẦN 3 — Chợ nhu cầu mua / bán
+// ═══════════════════════════════════════════════════════════════════
+
+/// Một tin nhu cầu do hội viên chủ động đăng.
+model Listing {
+  id          String    @id @default(cuid())
+  /// CAN_MUA | CAN_BAN
+  type        String
+  title       String
+  slug        String    @unique
+  /// Tóm tắt hiện trên thẻ danh sách
+  summary     String?
+  description String
+  categoryId  String?
+  category    Category? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  /// Chuỗi JSON mảng đường dẫn ảnh
+  images      String?
+  /// Giá ghi bằng chữ, ví dụ "Thoả thuận", "50.000 ₫/kg"
+  priceText   String?
+  /// Số lượng ghi bằng chữ, ví dụ "2 container/tháng"
+  quantity    String?
+  /// Khu vực, ví dụ "Quận 6, TP.HCM"
+  location    String?
+
+  // ── Phần khai thêm khi đăng từ Zalo Mini App ──────────────────
+  /// Ngân sách dự kiến ghi bằng chữ, ví dụ "1,2 – 1,8 tỷ". Để chữ chứ không
+  /// để số vì nhiều nhu cầu chỉ có khoảng, hoặc "theo báo giá".
+  nganSach  String?
+  /// Hạn nhận báo giá / phản hồi
+  hanBaoGia DateTime?
+  /// Yêu cầu chi tiết — mỗi dòng một ý, hiện thành danh sách gạch đầu dòng
+  yeuCau    String?
+  /// Điều kiện hợp tác đã chọn — chuỗi JSON mảng mã, ví dụ
+  /// ["CO_HOP_DONG","CO_TAM_UNG"]. Xem DIEU_KIEN trong src/lib/listing.ts
+  dieuKien  String?
+
+  memberId String
+  member   Member @relation(fields: [memberId], references: [id], onDelete: Cascade)
+
+  /// CHO_DUYET | DANG_HIEN | HET_HAN | AN | TU_CHOI
+  status       String    @default("CHO_DUYET")
+  rejectReason String?
+  /// Ban chủ nhiệm ghim tin lên đầu chợ
+  pinned       Boolean   @default(false)
+  expiresAt    DateTime?
+  views        Int       @default(0)
+  searchText   String    @default("")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  contacts ListingContact[]
+
+  @@index([type])
+  @@index([status])
+  @@index([categoryId])
+  @@index([memberId])
+  @@index([createdAt])
+}
+
+/// Một lượt "Tôi quan tâm" tới tin đăng — dùng để đo hiệu quả của chợ.
+model ListingContact {
+  id         String   @id @default(cuid())
+  listingId  String
+  listing    Listing  @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  /// Người quan tâm nếu là hội viên đã đăng nhập
+  memberId   String?
+  member     Member?  @relation(fields: [memberId], references: [id], onDelete: SetNull)
+  /// Thông tin người quan tâm ngoài hội (khi mở form cho khách)
+  guestName  String?
+  guestPhone String?
+  guestEmail String?
+  message    String?
+  /// Chủ tin đã xem lượt quan tâm này chưa
+  seen       Boolean  @default(false)
+  createdAt  DateTime @default(now())
+
+  @@index([listingId])
+  @@index([memberId])
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// PHẦN 4 — Nội dung: tin tức, sự kiện, ban chấp hành, vinh danh
+// ═══════════════════════════════════════════════════════════════════
+
+/// Tin tức / bản tin / thông báo của Chi hội.
+model Post {
+  id          String    @id @default(cuid())
+  slug        String    @unique
+  title       String
+  /// TIN_TUC | BAN_TIN | THONG_BAO
+  type        String    @default("TIN_TUC")
+  excerpt     String?
+  content     String
+  coverImage  String?
+  published   Boolean   @default(false)
+  featured    Boolean   @default(false)
+  publishedAt DateTime?
+  views       Int       @default(0)
+  searchText  String    @default("")
+
+  /// Chuyên mục theo cách phân loại của bản tin cũ: Tin tức, Kinh tế – Thị
+  /// trường, Chân dung hội viên, Dự án, Kết nối – Hợp tác, Kinh nghiệm thực
+  /// chiến, Công nghệ. Để trống thì bài chỉ xếp theo `type`.
+  chuyenMuc  String?
+  /// Bài lấy lại từ đâu, ví dụ "Hội Doanh nhân trẻ TP.HCM". Có giá trị thì
+  /// trang bài hiện dòng ghi nguồn để không nhầm là hoạt động của Chi hội.
+  nguon      String?
+  /// Slug sự kiện tương ứng, để bài và sự kiện dẫn qua lại lẫn nhau
+  suKienSlug String?
+
+  authorUserId String?
+  author       User?   @relation(fields: [authorUserId], references: [id], onDelete: SetNull)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([type])
+  @@index([published])
+  @@index([publishedAt])
+}
+
+/// Sự kiện, chương trình của Chi hội (Coffee Share, Business & Library, ...).
+model Event {
+  id            String    @id @default(cuid())
+  slug          String    @unique
+  title         String
+  summary       String?
+  content       String?
+  coverImage    String?
+  /// Chuỗi JSON mảng đường dẫn ảnh cho album sau sự kiện
+  gallery       String?
+  startAt       DateTime
+  endAt         DateTime?
+  location      String?
+  /// Chương trình định kỳ, ví dụ "Coffee Share" — để nhóm các kỳ với nhau
+  seriesName    String?
+  /// Mảng hoạt động của Chi hội, ví dụ "Xúc tiến thương mại", "Trách nhiệm cộng
+  /// đồng" — dùng để lọc ở trang /su-kien
+  activityGroup String?
+  /// Cho phép đăng ký tham dự trên web
+  allowSignup   Boolean   @default(false)
+  capacity      Int?
+  published     Boolean   @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  registrations EventRegistration[]
+  banToChuc     BanToChuc[]
+  nguoiThamDu   NguoiThamDu[]
+  taiTro        TaiTroSuKien[]
+  thamDu        ThamDuSuKien[]
+  /// Tổng kinh phí tổ chức (VND) — thư ký nhập theo file mẫu
+  tongKinhPhi   Float               @default(0)
+  /// Ý nghĩa / mục tiêu chương trình
+  yNghia        String?
+
+  @@index([startAt])
+  @@index([published])
+  @@index([seriesName])
+  @@index([activityGroup])
+}
+
+/// Video trên kênh YouTube của Chi hội — hiện ở trang /video và trang chủ.
+/// Chỉ lưu mã video, phần phát vẫn do YouTube đảm nhiệm (nhúng iframe).
+model Video {
+  id          String    @id @default(cuid())
+  /// Mã video YouTube, 11 ký tự — phần sau "watch?v="
+  youtubeId   String    @unique
+  title       String
+  summary     String?
+  publishedAt DateTime?
+  /// Ghim lên đầu trang video và hiện ở trang chủ
+  featured    Boolean   @default(false)
+  published   Boolean   @default(true)
+  order       Int       @default(0)
+  createdAt   DateTime  @default(now())
+
+  @@index([published])
+  @@index([publishedAt])
+}
+
+/// Một dòng trong "Lịch hoạt động sắp tới" của Chi hội — thứ Ban Chủ nhiệm
+/// công bố trước cho hội viên biết mà thu xếp lịch. Tách khỏi `Event` vì nhiều
+/// mục là sự kiện của Hội cấp trên hoặc đối tác, Chi hội chỉ tham dự.
+model LichHoatDong {
+  id        String    @id @default(cuid())
+  /// Đường dẫn trang chi tiết: /lich-hoat-dong/giai-pickleball-2026
+  slug      String?   @unique
+  tieuDe    String
+  moTa      String?
+  /// Nội dung chi tiết chương trình do Ban Chủ nhiệm soạn (xuống dòng bằng \n)
+  noiDung   String?
+  /// Ý nghĩa / mục tiêu của chương trình
+  yNghia    String?
+  anhBia    String?
+  /// Ai đứng ra tổ chức, ghi tự do
+  banToChuc String?
+  /// Thông tin liên hệ đăng ký (người phụ trách)
+  lienHe    String?
+  /// Ngày bắt đầu; `denNgay` để trống nếu diễn ra trong một ngày
+  tuNgay    DateTime
+  denNgay   DateTime?
+  diaDiem   String?
+  /// Ghi chú thời gian dạng chữ, ví dụ "18h00 – 21h00"
+  gioText   String?
+  /// Chương trình của ai: CHI_HOI | HOI | DOI_TAC
+  nguon     String    @default("CHI_HOI")
+  /// Làm nổi bật (in đỏ trên lịch)
+  noiBat    Boolean   @default(false)
+  /// Liên kết sang trang chi tiết nếu có (sự kiện trên web hoặc link ngoài)
+  lienKet   String?
+  order     Int       @default(0)
+  published Boolean   @default(true)
+
+  /// Cho phép đăng ký tham gia / tài trợ ngay trên web
+  choDangKy    Boolean   @default(true)
+  soLuongToiDa Int?
+  hanDangKy    DateTime?
+  /// Hiện danh sách người đã đăng ký (đã duyệt) trên trang chi tiết
+  hienDanhSach Boolean   @default(true)
+
+  dangKy DangKyHoatDong[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([tuNgay])
+  @@index([published])
+}
+
+/// Một lượt đăng ký THAM GIA hoặc TÀI TRỢ cho một hoạt động trong lịch.
+/// Hội viên đăng nhập thì thông tin điền sẵn; khách vãng lai khai đầy đủ.
+/// Ban Tổ chức duyệt rồi mới hiện tên lên website.
+model DangKyHoatDong {
+  id       String       @id @default(cuid())
+  lichId   String
+  lich     LichHoatDong @relation(fields: [lichId], references: [id], onDelete: Cascade)
+  /// Hội viên đăng ký (nếu đã đăng nhập)
+  memberId String?
+  member   Member?      @relation(fields: [memberId], references: [id], onDelete: SetNull)
+
+  name    String
+  phone   String
+  email   String?
+  company String?
+  chucVu  String?
+
+  /// THAM_GIA | TAI_TRO
+  loai    String @default("THAM_GIA")
+  soNguoi Int    @default(1)
+  /// Các phiên đăng ký (sự kiện nhiều phiên như 10/10), nối bằng dấu phẩy
+  phien String?
+
+  /// Khi loai = TAI_TRO
+  mucTaiTro String?
+  soTien    Float   @default(0)
+  hienVat   String?
+
+  ghiChu    String?
+  /// CHO_DUYET | DA_DUYET | TU_CHOI
+  status    String  @default("CHO_DUYET")
+  /// Ban Tổ chức tự thêm (không phải khách tự đăng ký)
+  doBTCThem Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([lichId])
+  @@index([memberId])
+  @@index([status])
+}
+
+/// Một lượt tài trợ cho một sự kiện cụ thể của Chi hội.
+/// Đây là số liệu ĐÃ XẢY RA (khác `DangKyTaiTro` là đăng ký gửi từ web) — dùng
+/// để vinh danh nhà tài trợ và chấm điểm đóng góp của hội viên.
+model TaiTroSuKien {
+  id        String  @id @default(cuid())
+  /// Tên sự kiện ghi theo file của thư ký
+  suKien    String
+  /// Gắn với sự kiện trong hệ thống nếu khớp được
+  eventId   String?
+  event     Event?  @relation(fields: [eventId], references: [id], onDelete: SetNull)
+  /// Nhà tài trợ; gắn với hội viên nếu khớp được tên doanh nghiệp
+  nhaTaiTro String
+  memberId  String?
+  member    Member? @relation(fields: [memberId], references: [id], onDelete: SetNull)
+
+  /// Kim cương | Vàng | Bạc | Đồng | Đồng hành
+  mucTaiTro String?
+  /// Giá trị quy đổi (VND)
+  giaTri    Float   @default(0)
+  /// Hiện kim (VND) và mô tả hiện vật — thư ký ghi rõ để quyết toán
+  hienKim   Float   @default(0)
+  hienVat   String?
+  /// Hoàn tất | Cam kết | Còn thiếu
+  trangThai String  @default("Hoàn tất")
+  ghiChu    String?
+
+  createdAt DateTime @default(now())
+
+  @@index([suKien])
+  @@index([memberId])
+  @@index([eventId])
+}
+
+/// Thành viên ban tổ chức một sự kiện — nguồn để chấm điểm cống hiến.
+model BanToChuc {
+  id       String  @id @default(cuid())
+  eventId  String
+  event    Event   @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  memberId String?
+  member   Member? @relation(fields: [memberId], references: [id], onDelete: SetNull)
+  hoTen    String
+  /// TRUONG_BAN | PHO_BAN | BAN_CHI_DAO | THANH_VIEN
+  vaiTro   String  @default("THANH_VIEN")
+  ghiChu   String?
+
+  @@index([eventId])
+  @@index([memberId])
+}
+
+/// Người tham dự một sự kiện — nguồn để chấm điểm tham gia của hội viên.
+model NguoiThamDu {
+  id          String  @id @default(cuid())
+  eventId     String
+  event       Event   @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  memberId    String?
+  member      Member? @relation(fields: [memberId], references: [id], onDelete: SetNull)
+  hoTen       String
+  donVi       String?
+  soDienThoai String?
+  ghiChu      String?
+
+  @@index([eventId])
+  @@index([memberId])
+}
+
+/// Một lượt đăng ký tham dự sự kiện.
+model EventRegistration {
+  id        String   @id @default(cuid())
+  eventId   String
+  event     Event    @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  name      String
+  phone     String
+  email     String?
+  company   String?
+  note      String?
+  /// CHO_XAC_NHAN | DA_XAC_NHAN | HUY
+  status    String   @default("CHO_XAC_NHAN")
+  createdAt DateTime @default(now())
+
+  @@index([eventId])
+}
+
+/// Thành viên Ban chủ nhiệm / Ban cố vấn / các ban chuyên môn — hiện ở trang
+/// /ban-chap-hanh. Tách riêng khỏi Member vì có người thuộc Hội cấp trên.
+model Leader {
+  id       String  @id @default(cuid())
+  /// Đường dẫn trang giới thiệu riêng, ví dụ /ban-chap-hanh/dang-vien-khang
+  slug     String? @unique
+  name     String
+  /// Chức danh chính, ví dụ "Chủ nhiệm Chi hội"
+  title    String
+  /// Chức vụ tại doanh nghiệp
+  position String?
+  company  String?
+  photo    String?
+  /// Đôi nét giới thiệu, hiện ở trang riêng của từng người
+  bio      String?
+  /// Nhận đặt lịch gặp qua website hay không
+  nhanHen  Boolean @default(true)
+
+  lichHen    LichHen[]
+  /// Nhóm hiển thị: BAN_CHU_NHIEM | BAN_CO_VAN | BAN_HOI_VIEN | BAN_TRUYEN_THONG | BAN_DAO_TAO | BAN_XTTM | BAN_SU_KIEN
+  group      String
+  /// Nhiệm kỳ, ví dụ "XII (2024-2027)"
+  term       String?
+  order      Int       @default(0)
+  active     Boolean   @default(true)
+  /// Liên kết tới hồ sơ doanh nghiệp nếu người này cũng là hội viên
+  memberSlug String?
+
+  @@index([group])
+  @@index([active])
+}
+
+/// Một kỳ vinh danh, ví dụ "Quý III/2026" hoặc "Năm 2026".
+model AwardPeriod {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  name      String
+  /// Khoảng thời gian dùng để đối chiếu số liệu giao thương
+  from      DateTime
+  to        DateTime
+  note      String?
+  published Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  awards Award[]
+
+  @@index([published])
+}
+
+/// Một hội viên được vinh danh ở một hạng mục trong một kỳ.
+model Award {
+  id       String      @id @default(cuid())
+  periodId String
+  period   AwardPeriod @relation(fields: [periodId], references: [id], onDelete: Cascade)
+  memberId String
+  member   Member      @relation(fields: [memberId], references: [id], onDelete: Cascade)
+  /// Hạng mục, ví dụ "Doanh số giao thương cao nhất", "Kết nối nhiều nhất"
+  category String
+  /// Thứ hạng trong hạng mục (1, 2, 3...); 0 nếu không xếp hạng
+  rank     Int         @default(0)
+  /// Số liệu kèm theo hiển thị dưới tên, ví dụ "1,25 tỷ ₫ · 8 giao dịch"
+  metric   String?
+  note     String?
+
+  @@index([periodId])
+  @@index([memberId])
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// PHẦN 5 — Biểu mẫu từ web & cấu hình
+// ═══════════════════════════════════════════════════════════════════
+
+/// Hồ sơ đăng ký hội viên nộp từ trang /dang-ky-hoi-vien.
+model MembershipApplication {
+  id          String   @id @default(cuid())
+  name        String
+  phone       String
+  email       String?
+  company     String
+  position    String?
+  industry    String?
+  address     String?
+  website     String?
+  /// Người trong hội giới thiệu
+  referrer    String?
+  note        String?
+  /// MOI | DANG_XU_LY | DA_DUYET | TU_CHOI
+  status      String   @default("MOI")
+  handledNote String?
+  createdAt   DateTime @default(now())
+
+  @@index([status])
+}
+
+/// Người ngoài làm bộ trắc nghiệm "WHO AM I?" ở khu công khai.
+/// Đây vừa là công cụ tặng khách, vừa là nguồn dữ liệu khách quan tâm cho Chi
+/// hội — nên bắt buộc điền thông tin liên hệ trước khi xem kết quả.
+model KhachTest {
+  id         String    @id @default(cuid())
+  name       String
+  phone      String
+  email      String?
+  ngheNghiep String?
+  congTy     String?
+  nganhNghe  String?
+  birthDate  DateTime?
+  /// Giờ sinh 0–23 (null = không rõ) — để an sao lá số tử vi
+  birthHour  Int?
+  noiSinh    String?
+
+  /// Kết quả các bài đã làm
+  soChuDao    Int?
+  conGiap     String?
+  menh        String?
+  tinhCach    String?
+  khiChat     String?
+  khiChatTyLe String?
+
+  /// Ban Chủ nhiệm đã liên hệ lại chưa
+  daXuLy    Boolean  @default(false)
+  ghiChu    String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([createdAt])
+  @@index([daXuLy])
+  @@index([phone])
+}
+
+/// Đề nghị gặp Ban Chủ nhiệm — hội viên hoặc khách đều đặt được.
+model LichHen {
+  id       String  @id @default(cuid())
+  leaderId String?
+  leader   Leader? @relation(fields: [leaderId], references: [id], onDelete: SetNull)
+  /// Hội viên đặt lịch (nếu đã đăng nhập)
+  memberId String?
+  member   Member? @relation(fields: [memberId], references: [id], onDelete: SetNull)
+
+  name     String
+  phone    String
+  email    String?
+  company  String?
+  chuDe    String
+  noiDung  String?
+  /// Ngày mong muốn gặp
+  ngayHen  DateTime?
+  /// Buổi mong muốn: SANG | CHIEU | TOI
+  buoi     String?
+  /// TRUC_TIEP | ONLINE
+  hinhThuc String    @default("TRUC_TIEP")
+
+  /// MOI | DA_XAC_NHAN | DA_GAP | TU_CHOI
+  status    String   @default("MOI")
+  ghiChu    String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status])
+  @@index([leaderId])
+  @@index([createdAt])
+}
+
+/// Chuyến đi thăm doanh nghiệp hội viên.
+/// Hội viên chủ nhà đề xuất → Ban Chủ nhiệm duyệt và mở đăng ký → hội viên khác
+/// đăng ký tham gia → Ban Chủ nhiệm chốt danh sách và tổ chức.
+model ThamDoanhNghiep {
+  id       String @id @default(cuid())
+  slug     String @unique
+  memberId String
+  member   Member @relation(fields: [memberId], references: [id], onDelete: Cascade)
+
+  tieuDe       String
+  gioiThieu    String?
+  /// Nội dung chủ nhà muốn chia sẻ với đoàn
+  noiDungTham  String?
+  diaChi       String?
+  /// Ngày chủ nhà mong muốn đón đoàn
+  ngayMongMuon DateTime?
+  /// Ngày Ban Chủ nhiệm chốt tổ chức
+  ngayToChuc   DateTime?
+  soLuongToiDa Int?
+  anhBia       String?
+
+  /// DE_XUAT | DA_DUYET (đang mở đăng ký) | DA_DONG | DA_TO_CHUC | TU_CHOI
+  status    String   @default("DE_XUAT")
+  ghiChuBCN String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  dangKy DangKyTham[]
+
+  @@index([status])
+  @@index([memberId])
+}
+
+/// Một lượt đăng ký tham gia chuyến đi thăm doanh nghiệp.
+model DangKyTham {
+  id       String          @id @default(cuid())
+  thamId   String
+  tham     ThamDoanhNghiep @relation(fields: [thamId], references: [id], onDelete: Cascade)
+  memberId String?
+  member   Member?         @relation(fields: [memberId], references: [id], onDelete: SetNull)
+
+  name    String
+  phone   String
+  company String?
+  soNguoi Int     @default(1)
+  ghiChu  String?
+  /// CHO_XAC_NHAN | DA_XAC_NHAN | HUY
+  status  String  @default("CHO_XAC_NHAN")
+
+  createdAt DateTime @default(now())
+
+  @@index([thamId])
+  @@index([memberId])
+}
+
+/// Chương trình / dự án đang kêu gọi tài trợ, ví dụ "Nhịp Cầu Doanh Nhân".
+model DuAnTaiTro {
+  id      String  @id @default(cuid())
+  slug    String  @unique
+  ten     String
+  tomTat  String?
+  moTa    String?
+  anh     String?
+  /// Số tiền cần huy động (VND); 0 = không đặt mục tiêu cụ thể
+  mucTieu Float   @default(0)
+  /// Số đã huy động được, Ban Chủ nhiệm tự cập nhật
+  daGop   Float   @default(0)
+  order   Int     @default(0)
+  active  Boolean @default(true)
+
+  goi       GoiTaiTro[]
+  dangKy    DangKyTaiTro[]
+  createdAt DateTime       @default(now())
+
+  @@index([active])
+}
+
+/// Một gói tài trợ, ví dụ "Gói Kim cương — 100 triệu".
+model GoiTaiTro {
+  id       String      @id @default(cuid())
+  duAnId   String?
+  duAn     DuAnTaiTro? @relation(fields: [duAnId], references: [id], onDelete: Cascade)
+  ten      String
+  soTien   Float
+  /// Quyền lợi nhà tài trợ — mỗi dòng một ý
+  quyenLoi String?
+  /// Gói được làm nổi bật trên trang
+  noiBat   Boolean     @default(false)
+  order    Int         @default(0)
+  active   Boolean     @default(true)
+
+  dangKy DangKyTaiTro[]
+
+  @@index([duAnId])
+}
+
+/// Một lượt đăng ký tài trợ gửi từ website.
+model DangKyTaiTro {
+  id       String      @id @default(cuid())
+  duAnId   String?
+  duAn     DuAnTaiTro? @relation(fields: [duAnId], references: [id], onDelete: SetNull)
+  goiId    String?
+  goi      GoiTaiTro?  @relation(fields: [goiId], references: [id], onDelete: SetNull)
+  memberId String?
+  member   Member?     @relation(fields: [memberId], references: [id], onDelete: SetNull)
+
+  name    String
+  phone   String
+  email   String?
+  company String?
+  /// Số tiền cam kết (VND) — có thể khác gói khi nhà tài trợ tự đề xuất
+  soTien  Float   @default(0)
+  loiNhan String?
+
+  /// MOI | DA_LIEN_HE | DA_NHAN | HUY
+  status    String   @default("MOI")
+  ghiChu    String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status])
+  @@index([duAnId])
+  @@index([createdAt])
+}
+
+/// Tin nhắn từ trang /lien-he.
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  phone     String?
+  email     String?
+  subject   String?
+  message   String
+  handled   Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@index([handled])
+}
+
+/// Trang tĩnh sửa được từ quản trị (Giới thiệu, Quyền lợi hội viên, Điều lệ...).
+model Page {
+  id         String   @id @default(cuid())
+  slug       String   @unique
+  title      String
+  /// Mô tả ngắn cho SEO
+  metaDesc   String?
+  content    String
+  coverImage String?
+  updatedAt  DateTime @updatedAt
+}
+
+/// Cấu hình chung của website (banner trang chủ, thông tin liên hệ, mạng xã hội).
+model SiteSetting {
+  key       String   @id
+  value     String
+  updatedAt DateTime @updatedAt
+}
+
+/// Một lượt hỏi trợ lý AI trên website. Lưu lại để Ban Chủ nhiệm biết người
+/// xem đang quan tâm điều gì, và để chặn lạm dụng (một máy hỏi quá nhiều).
+model CauHoiAI {
+  id       String  @id @default(cuid())
+  cauHoi   String
+  traLoi   String
+  /// Băm của địa chỉ IP — chỉ để đếm số lượt, không lưu IP thật
+  dauMay   String
+  /// Hội viên đang đăng nhập, nếu có
+  memberId String?
+  member   Member? @relation(fields: [memberId], references: [id], onDelete: SetNull)
+  /// Số nguồn dữ liệu đã tra để trả lời, dùng khi soát chất lượng
+  soNguon  Int     @default(0)
+  /// Người xem bấm hữu ích / không hữu ích
+  danhGia  String?
+
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([dauMay])
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// PHẦN 6 — Zalo Mini App (miniapp-ybacholon)
+// ═══════════════════════════════════════════════════════════════════
+
+/// Phiên đăng nhập của hội viên trên Zalo Mini App.
+///
+/// Mini App KHÔNG dùng cookie phiên như web (chạy trong webview Zalo, khác
+/// domain) — thay vào đó giữ một token bí mật trong bộ nhớ máy và gửi kèm
+/// mỗi lần gọi API qua header `x-yba-phien`.
+///
+/// Danh tính lấy từ API getPhoneNumber chính chủ của Zalo: người dùng bấm
+/// "Cho phép" → Zalo trả token → server đổi token thành SĐT đã xác thực →
+/// đối chiếu `Member.phone`. Không cần OTP, không tự khai SĐT được.
+model PhienMiniApp {
+  id         String  @id @default(cuid())
+  /// Token ngẫu nhiên gửi về máy, băm SHA-256 trước khi lưu
+  tokenHash  String  @unique
+  /// SĐT đã chuẩn hoá về dạng 0xxxxxxxxx
+  phone      String
+  /// ID người dùng trên Zalo — một hội viên có thể mở app từ nhiều máy
+  zaloUserId String?
+  /// Hội viên khớp được; null = SĐT chưa có trong danh sách hội viên
+  memberId   String?
+  member     Member? @relation(fields: [memberId], references: [id], onDelete: Cascade)
+
+  lanCuoi   DateTime @default(now())
+  createdAt DateTime @default(now())
+  /// Hết hạn sau 90 ngày kể từ lần dùng gần nhất
+  expiresAt DateTime
+
+  @@index([phone])
+  @@index([memberId])
+  @@index([expiresAt])
+}
+
+/// Ưu đãi doanh nghiệp hội viên dành riêng cho hội viên Chi hội.
+///
+/// Khác `Listing` (chợ nhu cầu mua–bán, là giao dịch một lần): ưu đãi là
+/// CHÍNH SÁCH dài hạn doanh nghiệp cam kết với cả Chi hội — "giảm 20% cho
+/// hội viên", "tư vấn miễn phí 30 phút". Đây là quyền lợi hội viên, nên
+/// chỉ hiện cho người đã xác thực là hội viên.
+model UuDai {
+  id       String @id @default(cuid())
+  slug     String @unique
+  memberId String
+  member   Member @relation(fields: [memberId], references: [id], onDelete: Cascade)
+
+  title    String
+  /// Mức ưu đãi ghi bằng chữ, ví dụ "Giảm 20%", "Tặng phòng VIP", "Miễn phí 30 phút"
+  mucUuDai String
+  summary  String?
+  /// Điều kiện áp dụng — mỗi dòng một ý
+  dieuKien String?
+  /// Chuỗi JSON mảng đường dẫn ảnh
+  images   String?
+
+  /// DANG_HIEN | AN | HET_HAN
+  status     String    @default("DANG_HIEN")
+  /// Ban Chủ nhiệm ghim lên đầu
+  pinned     Boolean   @default(false)
+  startAt    DateTime?
+  expiresAt  DateTime?
+  views      Int       @default(0)
+  searchText String    @default("")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  leads UuDaiLead[]
+
+  @@index([memberId])
+  @@index([status])
+  @@index([pinned])
+}
+
+/// Một hội viên bấm quan tâm / nhận ưu đãi. Đây là "lead" mà Chi hội trả về
+/// cho doanh nghiệp — bằng chứng cụ thể rằng sinh hoạt Hội ra đơn hàng.
+model UuDaiLead {
+  id       String @id @default(cuid())
+  uuDaiId  String
+  uuDai    UuDai  @relation(fields: [uuDaiId], references: [id], onDelete: Cascade)
+  /// Hội viên quan tâm
+  memberId String
+  member   Member @relation("leadCuaHoiVien", fields: [memberId], references: [id], onDelete: Cascade)
+
+  /// QUAN_TAM | NHAN_UU_DAI | LIEN_HE — ba mức độ theo ba nút trong app
+  hanhDong String  @default("QUAN_TAM")
+  ghiChu   String?
+  /// Chủ ưu đãi đã xem lead này chưa
+  seen     Boolean @default(false)
+
+  createdAt DateTime @default(now())
+
+  @@unique([uuDaiId, memberId, hanhDong])
+  @@index([uuDaiId])
+  @@index([memberId])
+}
+
+/// Hội viên đăng ký tham dự + check-in sự kiện qua Zalo Mini App.
+///
+/// Khác `EventRegistration` (khách vãng lai đăng ký trên web, chỉ có tên +
+/// SĐT tự khai) và `NguoiThamDu` (Ban Tổ chức nhập tay sau sự kiện): bảng
+/// này gắn thẳng vào `Member` vì danh tính đã được Zalo xác thực, nên dùng
+/// làm căn cứ tính điểm hoạt động và thống kê tham dự cuối năm.
+model ThamDuSuKien {
+  id       String @id @default(cuid())
+  eventId  String
+  event    Event  @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  memberId String
+  member   Member @relation(fields: [memberId], references: [id], onDelete: Cascade)
+
+  /// DANG_KY = đã ghi danh, chưa tới | DA_CHECKIN = đã quét QR tại sự kiện |
+  /// HUY = hội viên tự huỷ đăng ký
+  trangThai String  @default("DANG_KY")
+  /// Hội viên tự ghi chú, ví dụ "đi cùng 1 khách mời"
+  ghiChu    String?
+  soNguoi   Int     @default(1)
+
+  checkinAt  DateTime?
+  /// Mã hội viên của người trong Ban Tổ chức đã quét
+  checkinBoi String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([eventId, memberId])
+  @@index([eventId])
+  @@index([memberId])
+  @@index([trangThai])
+}
+
+/// Bảng tin nội bộ của Chi hội — newsfeed do HỘI VIÊN đăng, khác `Post`
+/// (bản tin do Ban Truyền thông biên tập).
+///
+/// Anh Khang chốt: "ưu tiên nội dung từ hội viên, chứ không biến thành trang
+/// tin". Đây là chỗ hội viên khoe tin vui, mời tham gia chương trình của
+/// công ty mình, báo tuyển dụng — những thứ không đủ trang trọng để lên
+/// bản tin chính thức nhưng lại là chất keo gắn kết cộng đồng.
+model BangTin {
+  id       String @id @default(cuid())
+  memberId String
+  member   Member @relation(fields: [memberId], references: [id], onDelete: Cascade)
+
+  /// TIN_VUI | KHAI_TRUONG | TUYEN_DUNG | CHUONG_TRINH | DAU_TU | THIEN_NGUYEN | KHAC
+  loai      String    @default("KHAC")
+  tieuDe    String
+  noiDung   String
+  /// Chuỗi JSON mảng đường dẫn ảnh
+  images    String?
+  /// Đường dẫn đăng ký / tìm hiểu thêm, dùng cho loại CHUONG_TRINH
+  lienKet   String?
+  /// Hạn đăng ký với tin loại CHUONG_TRINH
+  hanDangKy DateTime?
+
+  /// DANG_HIEN | AN — Ban Chủ nhiệm ẩn tin không phù hợp (hậu kiểm, đăng là
+  /// hiện ngay, cùng nguyên tắc với chợ nhu cầu)
+  status     String  @default("DANG_HIEN")
+  pinned     Boolean @default(false)
+  views      Int     @default(0)
+  searchText String  @default("")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  quanTam BangTinQuanTam[]
+
+  @@index([memberId])
+  @@index([status])
+  @@index([loai])
+  @@index([createdAt])
+}
+
+/// Hội viên bấm quan tâm / đăng ký tham gia chương trình trên bảng tin (mục 15).
+/// Lời chúc sinh nhật hội viên gửi cho nhau trong Mini App.
+/// Mỗi người chỉ chúc một người MỘT LẦN mỗi năm — khoá `@@unique` canh việc đó,
+/// đừng bỏ ra nếu không muốn bảng tin đầy lời chúc trùng.
+model LoiChuc {
+  id     String @id @default(cuid())
+  /// Người gửi lời chúc
+  guiId  String
+  gui    Member @relation("loiChucDaGui", fields: [guiId], references: [id], onDelete: Cascade)
+  /// Người có sinh nhật
+  nhanId String
+  nhan   Member @relation("loiChucDaNhan", fields: [nhanId], references: [id], onDelete: Cascade)
+
+  /// Năm dương lịch của lần chúc — để sang năm chúc lại được
+  nam       Int
+  noiDung   String?
+  createdAt DateTime @default(now())
+
+  @@unique([guiId, nhanId, nam])
+  @@index([nhanId, nam])
+}
+
+model BangTinQuanTam {
+  id        String  @id @default(cuid())
+  bangTinId String
+  bangTin   BangTin @relation(fields: [bangTinId], references: [id], onDelete: Cascade)
+  memberId  String
+  member    Member  @relation("quanTamBangTin", fields: [memberId], references: [id], onDelete: Cascade)
+
+  ghiChu    String?
+  createdAt DateTime @default(now())
+
+  @@unique([bangTinId, memberId])
+  @@index([bangTinId])
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// PHẦN 7 — Game "Ngôi nhà Chợ Lớn" (onboarding hội viên)
+//
+// Chỉ thêm bảng mới, KHÔNG có khoá ngoại tới bảng cũ: userId / memberId lưu
+// dạng chuỗi để game không bao giờ chặn việc xoá tài khoản, xoá hội viên.
+// Luật chơi, nội dung câu hỏi, cách chấm điểm: src/lib/ngoi-nha/ (xem AGENTS.md).
+// Chơi lúc chưa có mùa giải thì muaId = "CHOI_THU" và không ghi sổ cái.
+// ═══════════════════════════════════════════════════════════════════
+
+/// Mùa giải. Điểm, vốn, bảng xếp hạng, số lượt tính điểm đều tính theo mùa.
+model NnMua {
+  id         String   @id @default(cuid())
+  ten        String
+  batDau     DateTime
+  ketThuc    DateTime
+  /// SAP_MO | DANG_MO | DA_DONG — chỉ một mùa DANG_MO tại một thời điểm
+  trangThai  String   @default("SAP_MO")
+  /// Chuỗi JSON cơ cấu phần thưởng: [{ hangMuc, dieuKien, qua, soLuong, nhaDongHanh }]
+  phanThuong String?
+  ghiChu     String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([trangThai])
+}
+
+/// Thông tin người chơi không theo mùa.
+model NnNguoiChoi {
+  id            String   @id @default(cuid())
+  userId        String   @unique
+  daXemHuongDan Boolean  @default(false)
+  /// Ban soạn đề / Ban vận hành game: vẫn chơi, vẫn nhận quà hoàn thành nhưng
+  /// không lên bảng xếp hạng
+  anXepHang     Boolean  @default(false)
+  /// Thành tích Đấu trường 1-1
+  tranThang     Int      @default(0)
+  tranThua      Int      @default(0)
+  tranHoa       Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+/// Đấu trường 1-1: A thách B, hai người chơi CÙNG một bộ 10 câu, không cần
+/// online cùng lúc. Đúng nhiều hơn thắng; hoà điểm thì ai nhanh hơn thắng.
+model NnTranDau {
+  id          String    @id @default(cuid())
+  thachId     String
+  doiThuId    String
+  /// JSON đề bài như NnLuot.deBai — kèm thứ tự xáo, đáp án chỉ ở máy chủ
+  deBai       String
+  thachDung   Int?
+  thachMs     Int?
+  doiThuDung  Int?
+  doiThuMs    Int?
+  /// CHO_THACH (người thách chưa chơi) | CHO_DOI_THU | XONG | HUY (Ban huỷ trận treo)
+  trangThai   String    @default("CHO_THACH")
+  thangId     String?
+  createdAt   DateTime  @default(now())
+  xongLuc     DateTime?
+  /// Giờ MÁY CHỦ lúc từng bên mở đề lần đầu — chấm thời gian theo đây, không
+  /// tin giờ trình duyệt khai (tải lại trang giữa trận cũng không reset)
+  thachMoLuc  DateTime?
+  doiThuMoLuc DateTime?
+
+  @@index([doiThuId, trangThai])
+  @@index([thachId, trangThai])
+}
+
+/// Đấu trí sự kiện: Ban Điều hành mở một phiên tại buổi sinh hoạt, hội viên có
+/// mặt chơi trên điện thoại, bảng xếp hạng chiếu lên màn hình sân khấu.
+/// Lượt chơi của từng người là NnLuot với tramMa = "DAU:<id>".
+model NnDauTri {
+  id         String    @id @default(cuid())
+  ten        String
+  moTa       String?
+  /// Mã bộ câu hỏi: tệp trong noi-dung/dau-tri/ hoặc "NGAN_HANG" (rút từ 22 trạm)
+  boCau      String
+  /// JSON đề bài đã rút sẵn — mọi người chơi cùng bộ câu, cùng thứ tự
+  deBai      String
+  giayMoiCau Int       @default(20)
+  /// Mã ngắn để hội viên nhập tham gia, ví dụ "CL2026"
+  maThamGia  String    @unique
+  /// SAP_MO | DANG_MO | DA_DONG
+  trangThai  String    @default("SAP_MO")
+  createdAt  DateTime  @default(now())
+  moLuc      DateTime?
+  dongLuc    DateTime?
+
+  @@index([trangThai])
+}
+
+/// Tiến độ một người ở một trạm trong một mùa.
+model NnTienDo {
+  id             String    @id @default(cuid())
+  userId         String
+  muaId          String
+  /// Mã trạm, ví dụ "2.4"
+  tramMa         String
+  /// Số sao cao nhất (0 – 3), tính cả lượt luyện tập
+  sao            Int       @default(0)
+  daQua          Boolean   @default(false)
+  quaLuc         DateTime?
+  /// Điểm cao nhất trong các lượt TÍNH ĐIỂM (đã nhân đôi với Trạm Thử thách)
+  diemTot        Int       @default(0)
+  soDungTot      Int       @default(0)
+  /// Số lượt tính điểm đã dùng (tối đa 3 mỗi mùa)
+  soLuotTinhDiem Int       @default(0)
+  /// Vốn cao nhất từng ghi nhận ở trạm này, JSON {"CN":0,"TT":3,"XH":1,"TS":0}
+  vonTot         String    @default("{}")
+  /// Thẻ Cơ hội đã rút ở trạm này (mỗi trạm một lần mỗi mùa) và lựa chọn gốc
+  theCoHoi       String?
+  theCoHoiChon   Int?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  @@unique([userId, muaId, tramMa])
+  @@index([muaId])
+}
+
+/// Một lượt chơi: 10 câu của một trạm, hoặc 5 câu thử thách hằng ngày.
+model NnLuot {
+  id         String    @id @default(cuid())
+  userId     String
+  muaId      String
+  /// Mã trạm "2.4", hoặc "NGAY" với thử thách hằng ngày
+  tramMa     String
+  /// Ngày của thử thách hằng ngày (yyyy-mm-dd, giờ Việt Nam, sang ngày lúc 6:00)
+  ngay       String?
+  /// TINH_DIEM | LUYEN_TAP | THU_THACH_NGAY
+  cheDo      String
+  /// JSON [{ "id": "1.3.02", "tt": [2,0,3,1] }] — thứ tự câu và phương án đã xáo
+  deBai      String
+  /// Câu đang ở (tính từ 0)
+  viTri      Int       @default(0)
+  /// Lúc câu hiện tại được mở; null = chưa mở (người chơi đang xem giải thích)
+  cauMoLuc   DateTime?
+  /// Giây cộng thêm cho câu đang mở (quyền Thêm giờ)
+  giayThem   Int       @default(0)
+  /// JSON mảng quyền trợ giúp đã dùng trong lượt: "5050" | "HOI" | "GIO"
+  troGiup    String    @default("[]")
+  diem       Int       @default(0)
+  soDung     Int       @default(0)
+  chuoi      Int       @default(0)
+  chuoiNhanh Int       @default(0)
+  /// Đạt "Tia chớp": 10 câu đúng liên tiếp, mỗi câu dưới 5 giây
+  tiaChop    Boolean   @default(false)
+  sao        Int       @default(0)
+  /// DANG_CHOI | XONG | BO
+  trangThai  String    @default("DANG_CHOI")
+  /// JSON kết quả lúc kết thúc lượt — để mở lại màn kết quả mà không cộng điểm lần hai
+  ketQua     String?
+  createdAt  DateTime  @default(now())
+  xongLuc    DateTime?
+
+  @@unique([userId, ngay])
+  @@index([userId, muaId, tramMa])
+  @@index([muaId, trangThai])
+}
+
+/// Từng câu trả lời — nguồn cho quyền "Hỏi Huynh đệ" và thống kê câu khó.
+model NnTraLoi {
+  id         String   @id @default(cuid())
+  luotId     String
+  userId     String
+  cauId      String
+  /// Phương án đã chọn theo thứ tự GỐC (0 = đáp án đúng). Đúng/Sai: 1 = chọn
+  /// Đúng, 0 = chọn Sai. Hết giờ: -1. Câu sắp xếp, ghép cặp: null
+  luaChon    Int?
+  dung       Boolean
+  /// Số vị trí / cặp đúng của câu sắp xếp, ghép cặp
+  motPhan    Int      @default(0)
+  diem       Int      @default(0)
+  thoiGianMs Int      @default(0)
+  createdAt  DateTime @default(now())
+
+  @@unique([luotId, cauId])
+  @@index([cauId])
+  @@index([userId])
+}
+
+/// Sổ cái điểm và vốn — bảng xếp hạng cộng dồn từ đây, không lưu tổng sẵn.
+model NnSoCai {
+  id        String   @id @default(cuid())
+  userId    String
+  muaId     String
+  /// TRAM | THU_THACH_NGAY | NHIEM_VU | HUY_HIEU | THE_CO_HOI
+  loai      String
+  /// Nguồn cụ thể, ví dụ "tram:1.3", "nv:<id>", "hh:HOAN_HAO", "ngay:2026-09-15"
+  nguon     String
+  diem      Int      @default(0)
+  vonCN     Int      @default(0)
+  vonTT     Int      @default(0)
+  vonXH     Int      @default(0)
+  vonTS     Int      @default(0)
+  ghiChu    String?
+  createdAt DateTime @default(now())
+
+  @@index([muaId, userId])
+  @@index([muaId, createdAt])
+}
+
+/// Nhiệm vụ Huynh đệ — việc làm thật ngoài đời, chờ hoặc đã xác nhận.
+model NnNhiemVu {
+  id               String    @id @default(cuid())
+  userId           String
+  memberId         String?
+  muaId            String
+  /// Mã nhiệm vụ NV01 … NV16 (src/lib/ngoi-nha/noi-dung/nhiem-vu.json)
+  maNv             String
+  /// CHO_XAC_NHAN | DA_XAC_NHAN | TU_CHOI
+  trangThai        String    @default("CHO_XAC_NHAN")
+  /// TU_DONG (hệ thống đọc dữ liệu web) | HOI_VIEN (hội viên liên quan bấm xác
+  /// nhận) | BAN_DUYET (Ban phụ trách duyệt)
+  cach             String
+  /// Khoá chống ghi trùng với nhiệm vụ tự động, ví dụ "checkin:<id>", "deal-ban:<id>"
+  khoa             String?
+  moTa             String?
+  anh              String?
+  /// Hội viên liên quan — người được giới thiệu / người nhận khách, sẽ bấm xác nhận
+  lienQuanMemberId String?
+  ngayLam          DateTime  @default(now())
+  xuLyBoi          String?
+  xuLyLuc          DateTime?
+  lyDo             String?
+  diem             Int       @default(0)
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+
+  @@unique([userId, muaId, khoa])
+  @@index([muaId, trangThai])
+  @@index([lienQuanMemberId, trangThai])
+  @@index([userId, muaId, maNv])
+}
+
+/// Huy hiệu đã đạt trong mùa.
+model NnHuyHieu {
+  id        String   @id @default(cuid())
+  userId    String
+  muaId     String
+  ma        String
+  createdAt DateTime @default(now())
+
+  @@unique([userId, muaId, ma])
+  @@index([muaId])
+}
+
+/// Quà đã trao: áo thun hoàn thành, quà nửa hành trình, giải xếp hạng.
+model NnTraoQua {
+  id        String   @id @default(cuid())
+  userId    String
+  muaId     String
+  /// NUA_HANH_TRINH | HOAN_THANH | GIAI
+  loai      String
+  ghiChu    String?
+  traoBoi   String?
+  createdAt DateTime @default(now())
+
+  @@unique([userId, muaId, loai])
+  @@index([muaId])
+}
+
+/// Câu trả lời "chia sẻ về mình" trong game (không có đúng / sai). Mỗi người
+/// một câu trả lời cho mỗi câu; trả lời lại thì ghi đè. Tổng hợp cho Ban Điều
+/// hành biết hội viên quan tâm gì.
+model NnChiaSe {
+  id        String   @id @default(cuid())
+  userId    String
+  memberId  String?
+  /// Mã câu chia sẻ trong noi-dung/chia-se.json, hoặc "bcn" (ấn tượng thành viên Ban Chủ nhiệm)
+  maCau     String
+  luaChon   String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, maCau])
+  @@index([maCau])
+}
+
+/// Khách mời của Lễ chuyển giao 10/10/2026 — mỗi khách một MÃ THƯ MỜI riêng
+/// (link /1010/moi/<ma> gửi qua Zalo hoặc in trên thiệp). Khách tự xác nhận
+/// trên web; BTC gán bàn và check-in tại cửa ở /quan-tri/khach-moi-1010.
+/// Đây là danh sách do BTC chủ động mời — khác với DangKyHoatDong (người lạ
+/// tự đăng ký xin tham dự, phải duyệt).
+/// BẢNG ĐIỂM HOẠT ĐỘNG hội viên (Chủ tịch chốt 24/09/2026, tính từ mốc
+/// 10.10.2026): thư ký / Ban Điều hành cộng điểm tay khi hội viên có cống
+/// hiến (tài trợ — 1 triệu = 1 điểm, giới thiệu hội viên mới, tham gia…).
+/// Mỗi lần cộng là MỘT dòng sổ, có lý do + người xác nhận để dò lại —
+/// tổng điểm luôn tính từ sổ, không lưu sẵn. Xem /bang-hoat-dong.
+model DiemHoatDong {
+  id          String   @id @default(cuid())
+  memberId    String
+  member      Member   @relation(fields: [memberId], references: [id], onDelete: Cascade)
+  /// Điểm cộng (âm = điều chỉnh sửa sai)
+  diem        Int
+  /// TAI_TRO / DONG_GOP / GIOI_THIEU / THAM_GIA / KHAC
+  loai        String   @default("KHAC")
+  /// Ghi chú để dò lại, ví dụ "Tài trợ Kim cương chương trình 10/10"
+  lyDo        String
+  /// Ai xác nhận (userId + tên hiển thị lúc cộng — giữ nguyên khi đổi tên)
+  nguoiCongId  String
+  nguoiCongTen String
+  /// Khoá nguồn của dòng điểm TỰ ĐỘNG (check-in bằng mã QR, 01/10/2026):
+  /// "ci1010:<memberId>:<PHIÊN>" = có mặt một phiên Lễ chuyển giao 10/10,
+  /// "cisk:<eventId>:<memberId>" = quét thẻ ở sự kiện thường (Mini App).
+  /// null = thư ký cộng tay. Mỗi khoá chỉ MỘT dòng — máy tự giữ đúng một
+  /// dòng qua src/lib/diem-tu-dong.ts (cố ý KHÔNG đặt @unique: máy chủ chạy
+  /// `prisma db push` không kèm --accept-data-loss, thêm ràng buộc unique
+  /// vào bảng đang có là db push dừng và web không khởi động được).
+  nguon       String?
+  createdAt   DateTime @default(now())
+
+  @@index([memberId])
+  @@index([createdAt])
+  @@index([nguon])
+}
+
+/// HOT DEAL hội viên (Chủ tịch chốt 24/09/2026) — CHỈ hội viên đăng nhập
+/// xem (/uu-dai, PROTECTED). Ưu đãi DOANH NGHIỆP dùng bảng UuDai có sẵn
+/// (chung với Zalo Mini App); bảng này cho hai loại còn lại:
+/// CA_NHAN — đồ cá nhân bán giá ưu tiên hội viên (vd đồng hồ 20tr bán
+/// 2tr; người bán có quyền bán hay không), và DAU_GIA — đấu giá thiện
+/// nguyện tiền về quỹ NCDN (chỉ BTC tạo, chốt theo giờ kết thúc, không
+/// gia hạn). Đăng là hiện ngay; chủ deal hoặc người có quyền kiểm soát
+/// chợ (TIN_DANG_DUYET) ẩn/xoá được.
+model HotDeal {
+  id           String    @id @default(cuid())
+  loai         String // CA_NHAN | DAU_GIA
+  /// Hội viên đăng (null khi BTC đăng hộ chưa gắn hồ sơ)
+  memberId     String?
+  member       Member?   @relation(fields: [memberId], references: [id], onDelete: SetNull)
+  tenNguoiDang String
+  tieuDe       String
+  moTa         String?
+  giaGoc       Float?
+  /// Giá ưu tiên hội viên (loại CA_NHAN)
+  giaHV        Float?
+  lienHe       String?
+  denNgay      DateTime?
+  /// Đấu giá: giá khởi điểm + bước giá tối thiểu
+  giaKhoiDiem  Float?
+  buocGia      Float?
+  /// Mục đích phiên đấu giá (Chủ tịch chốt 25/09): THIEN_NGUYEN (ghi dự
+  /// án ở mucDichGhiChu) | QUY_CHI_HOI | CA_NHAN (khai % trích lại cho
+  /// Chi hội ở trichPhanTram — hiện công khai cho minh bạch)
+  mucDich        String?
+  mucDichGhiChu  String?
+  trichPhanTram  Float?
+  /// Gắn phiên vào một sự kiện của Chi hội (slug LichHoatDong)
+  suKienSlug     String?
+  /// Hiện trên trang công khai /dau-gia — ai cũng xem được, nhưng chỉ
+  /// hội viên đăng nhập mới trả giá (đặc quyền hội viên)
+  congKhai       Boolean   @default(false)
+  an           Boolean   @default(false)
+  nguoiTaoId   String
+  createdAt    DateTime  @default(now())
+
+  quanTam HdQuanTam[]
+  traGia  HdTraGia[]
+
+  @@index([loai, an, createdAt])
+}
+
+/// Hội viên bấm "Tôi quan tâm" một Hot Deal — đếm mức hưởng ứng
+model HdQuanTam {
+  id        String   @id @default(cuid())
+  dealId    String
+  deal      HotDeal  @relation(fields: [dealId], references: [id], onDelete: Cascade)
+  userId    String
+  tenHien   String
+  createdAt DateTime @default(now())
+
+  @@unique([dealId, userId])
+}
+
+/// Lượt trả giá trong phiên đấu giá thiện nguyện
+model HdTraGia {
+  id        String   @id @default(cuid())
+  dealId    String
+  deal      HotDeal  @relation(fields: [dealId], references: [id], onDelete: Cascade)
+  userId    String
+  tenHien   String
+  soTien    Float
+  createdAt DateTime @default(now())
+
+  @@index([dealId, soTien])
+}
+
+/// LỊCH SỬ CHECK-IN 10/10 (Chủ tịch đặt 07/10/2026): mỗi lần quét / bấm là
+/// MỘT dòng. Cột checkin*Luc trên KhachMoi1010 chỉ giữ lần MỚI NHẤT của từng
+/// phiên; bảng này giữ đủ mọi lần (kể cả lượt trước ngày lễ và lượt huỷ —
+/// cach = "HUY"). Không khoá ngoại để `db push` trên máy chủ chỉ thêm bảng.
+model LuotCheckin1010 {
+  id      String   @id @default(cuid())
+  khachId String
+  /// TOA_DAM | LE | GALA
+  phien   String
+  luc     DateTime @default(now())
+  /// TU | THIEP | LE_TAN | QUET | QUET_THE | HUY
+  cach    String
+  /// Người bấm (lễ tân / BTC) — trống khi khách tự quét
+  nguoi   String?
+
+  @@index([khachId])
+  @@index([luc])
+}
+
+model KhachMoi1010 {
+  id  String @id @default(cuid())
+  /// Mã in trên thiệp, dạng CL-XXXXX — cũng là chìa khoá mở thư mời riêng
+  ma  String @unique
+  ten String
+  /// Anh / Chị / Ông / Bà — để thư mời xưng hô cho đúng
+  danhXung String?
+  chucDanh String?
+  donVi    String?
+  phone    String?
+  email    String?
+  /// HOI_VIEN | LANH_DAO | TAI_TRO | KHACH_MOI — để lọc và xếp bàn
+  nhom String @default("KHACH_MOI")
+
+  /// CHO_PHAN_HOI | XAC_NHAN | VANG
+  trangThai     String    @default("CHO_PHAN_HOI")
+  xacNhanLuc    DateTime?
+  soKhachDiCung Int       @default(0)
+  /// Các phiên khách chọn, nối bằng dấu phẩy: TOA_DAM,CHUYEN_GIAO,GALA
+  phien String?
+  /// SUẤT MỜI — các phiên khách ĐƯỢC BTC mời (Chủ tịch chốt 25/09, dùng
+  /// cho khách tự đăng ký được duyệt): null = mời đủ 3 phiên (khách gốc);
+  /// có giá trị thì trang xác nhận HIỆN nhưng KHOÁ các phiên ngoài suất
+  /// (vd đăng ký phiên 1-2 miễn phí thì Gala khoá), server cũng chặn lại.
+  phienDuocMoi String?
+  /// Khách đánh dấu quan tâm tài trợ / đồng hành — BTC chủ động liên hệ
+  quanTamTaiTro Boolean @default(false)
+  /// Khách muốn đóng góp quỹ thiện nguyện Nhịp Cầu Doanh Nhân (thay quà mừng)
+  dongGopQuy Boolean @default(false)
+  /// Chi tiết khách ghi thêm về tài trợ / mức đóng góp dự kiến
+  dongHanhGhiChu String?
+  /// Số tiền (VNĐ) khách cam kết đóng góp quỹ Nhịp Cầu Doanh Nhân
+  dongGopSoTien Float @default(0)
+  /// Admin duyệt cho hiện tên + số tiền lên bảng vàng công khai của landing
+  quyCongKhai Boolean @default(false)
+  /// Số thứ tự thư trong Excel BTC ("001"…) — cũng là tên file thiệp JPG
+  /// trong thư mục riêng tư thiep-1010/ (phục vụ qua API theo mã CL)
+  soThu String?
+  /// Ghi chú khách để lại khi xác nhận (ăn chay, đi cùng ai…)
+  ghiChu String?
+  /// Ghi chú nội bộ của BTC — khách không thấy
+  ghiChuBTC String?
+
+  /// Số / tên bàn do BTC xếp — khách thấy trên thư mời sau khi xác nhận
+  ban        String?
+  /// BỐC THĂM TRÚNG THƯỞNG tại sự kiện (Chủ tịch đặt 04/10): quay ngẫu
+  /// nhiên TRONG SỐ KHÁCH ĐÃ CHECK-IN, mỗi khách trúng tối đa một giải
+  trungGiai String?
+  trungLuc  DateTime?
+
+  /// BA lần check-in tách riêng từng phiên (Chủ tịch chốt sáng 25/09):
+  /// checkinLuc = Tọa đàm (giữ tên cột cũ để không mất dữ liệu),
+  /// checkinLeLuc = Lễ chuyển giao, checkinGalaLuc = Gala — khách về rồi
+  /// quay lại vẫn đếm đúng từng phiên.
+  checkinLuc     DateTime?
+  checkinLeLuc   DateTime?
+  checkinGalaLuc DateTime?
+
+  /// Ẩn khách này khỏi danh sách công khai trên landing (khách đã xác nhận
+  /// + nhà tài trợ đều hiện mặc định — Chủ nhiệm chốt 24/09 để tạo háo hức;
+  /// khách nhạy cảm thì BTC bấm ẩn từng người)
+  anKhoiDanhSach Boolean @default(false)
+
+  /// Hồ sơ HỘI VIÊN Chợ Lớn của khách này (nếu khách là hội viên) — để
+  /// check-in tự cộng điểm hoạt động + ghi tham dự (Chủ tịch đặt hàng
+  /// 01/10/2026). Máy tự ghép theo SĐT / tên (src/lib/checkin-1010.ts), BTC
+  /// sửa tay ở /quan-tri/khach-moi-1010. Chuỗi thường, cố ý KHÔNG khoá
+  /// ngoại: thêm cột kiểu này `db push` trên máy chủ không phải dựng lại bảng.
+  memberId String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([trangThai])
+  @@index([ten])
+  @@index([memberId])
+}

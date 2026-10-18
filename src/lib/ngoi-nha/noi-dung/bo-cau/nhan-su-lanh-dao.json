@@ -1,0 +1,1176 @@
+{
+  "chuDe": "nhan-su-lanh-dao",
+  "ten": "Nhân sự & lãnh đạo",
+  "bo": [
+    {
+      "ma": "nhan-su-lanh-dao-01",
+      "ten": "Tuyển dụng và phỏng vấn theo STAR",
+      "moTa": "Kỹ thuật phỏng vấn hành vi STAR, mô tả công việc và cách chọn đúng người ngay từ vòng phỏng vấn.",
+      "cau": [
+        {
+          "hoi": "Kỹ thuật phỏng vấn STAR là viết tắt của bốn yếu tố nào?",
+          "phuongAn": [
+            "Skill – Talent – Attitude – Reward",
+            "Situation – Task – Action – Result",
+            "Strategy – Target – Analysis – Review",
+            "Standard – Time – Ability – Responsibility"
+          ],
+          "dung": 1,
+          "giai": "STAR gồm Situation (tình huống), Task (nhiệm vụ), Action (hành động), Result (kết quả), giúp ứng viên kể lại một trải nghiệm thật có cấu trúc."
+        },
+        {
+          "hoi": "Phỏng vấn hành vi theo STAR chủ yếu dựa trên giả định nào?",
+          "phuongAn": [
+            "Ứng viên nói năng lưu loát thì chắc chắn làm việc hiệu quả hơn",
+            "Bằng cấp càng cao càng phản ánh chính xác năng lực thực tế",
+            "Câu hỏi giả định đo năng lực tốt hơn trải nghiệm thật",
+            "Hành vi trong quá khứ là chỉ báo tốt cho hành vi tương lai"
+          ],
+          "dung": 3,
+          "giai": "Cách một người đã thực sự xử lý tình huống trong quá khứ là căn cứ đáng tin để dự báo cách họ sẽ hành xử trong công việc sắp tới."
+        },
+        {
+          "hoi": "Câu hỏi nào dưới đây là câu hỏi phỏng vấn hành vi đúng kiểu STAR?",
+          "phuongAn": [
+            "\"Hãy kể về một lần anh/chị đã xử lý khách hàng khó tính.\"",
+            "\"Nếu gặp khách hàng khó tính, anh/chị sẽ xử lý thế nào?\"",
+            "\"Anh/chị có phải là người chịu được áp lực cao không?\"",
+            "\"Điểm mạnh lớn nhất của anh/chị trong bán hàng là gì?\""
+          ],
+          "dung": 0,
+          "giai": "Câu hỏi hành vi yêu cầu kể một sự việc có thật đã xảy ra. Câu \"Nếu… sẽ làm gì\" là câu hỏi giả định, ứng viên dễ trả lời theo lý thuyết."
+        },
+        {
+          "hoi": "Trước khi đăng tin tuyển dụng, tài liệu nào nên được chuẩn bị đầu tiên?",
+          "phuongAn": [
+            "Bộ câu hỏi phỏng vấn chi tiết dành cho vòng cuối cùng",
+            "Hợp đồng lao động mẫu cho người trúng tuyển",
+            "Mô tả công việc và tiêu chuẩn năng lực của vị trí",
+            "Kế hoạch hội nhập 30 ngày cho nhân viên mới"
+          ],
+          "dung": 2,
+          "giai": "Mô tả công việc và tiêu chuẩn năng lực là nền tảng: từ đó mới viết tin tuyển dụng, chọn câu hỏi phỏng vấn và tiêu chí chấm điểm thống nhất."
+        },
+        {
+          "hoi": "Ứng viên kể: \"Dự án bị trễ nên cả nhóm tăng ca và đã hoàn thành.\" Theo STAR, người phỏng vấn cần hỏi thêm phần nào nhất?",
+          "phuongAn": [
+            "Tình huống: dự án đó thuộc lĩnh vực kinh doanh nào",
+            "Kết quả: công ty có thưởng cho cả nhóm không",
+            "Hành động: cá nhân ứng viên đã trực tiếp làm gì",
+            "Nhiệm vụ: ai là trưởng nhóm của dự án đó"
+          ],
+          "dung": 2,
+          "giai": "Câu trả lời dùng \"cả nhóm\" nên chưa rõ vai trò cá nhân. Phần Action phải làm rõ chính ứng viên đã làm gì, vì đó là điều cần đánh giá."
+        },
+        {
+          "hoi": "Phỏng vấn có cấu trúc (structured interview) khác phỏng vấn tự do ở điểm cốt lõi nào?",
+          "phuongAn": [
+            "Mọi ứng viên được hỏi cùng bộ câu hỏi, chấm cùng thang điểm",
+            "Người phỏng vấn được tự do hỏi theo cảm hứng để hiểu ứng viên",
+            "Chỉ có một người phỏng vấn duy nhất cho mọi ứng viên",
+            "Ứng viên được gửi trước câu hỏi để chuẩn bị kỹ"
+          ],
+          "dung": 0,
+          "giai": "Phỏng vấn có cấu trúc dùng câu hỏi và thang chấm thống nhất cho mọi ứng viên, giúp so sánh công bằng và giảm cảm tính của người phỏng vấn."
+        },
+        {
+          "hoi": "\"Hiệu ứng hào quang\" (halo effect) trong phỏng vấn tuyển dụng là gì?",
+          "phuongAn": [
+            "Ứng viên cố tình phóng đại thành tích để gây ấn tượng",
+            "Người phỏng vấn ưu ái ứng viên có nét giống với bản thân mình",
+            "Ứng viên bị so sánh với người vừa phỏng vấn ngay trước",
+            "Một điểm nổi bật khiến các mặt khác cũng được chấm cao"
+          ],
+          "dung": 3,
+          "giai": "Hiệu ứng hào quang là thiên kiến để một điểm nổi bật (ngoại hình, trường danh tiếng…) lan sang đánh giá chung. Chấm riêng từng tiêu chí giúp hạn chế."
+        },
+        {
+          "hoi": "Ở phần \"Result\" của STAR, câu trả lời nào cho thấy chất lượng tốt nhất?",
+          "phuongAn": [
+            "\"Sau đó mọi việc đều ổn thoả và dự án tiếp tục như bình thường.\"",
+            "\"Doanh số khu vực tăng 20% sau 3 tháng và tôi rút ra bài học.\"",
+            "\"Sếp và đồng nghiệp đều khen tôi đã làm rất tốt trong dự án đó.\"",
+            "\"Tôi nghĩ khách hàng khá hài lòng vì không thấy ai phàn nàn thêm.\""
+          ],
+          "dung": 1,
+          "giai": "Kết quả tốt cần đo lường được và kèm bài học rút ra. Lời khen chung chung hay cảm nhận chủ quan khó kiểm chứng."
+        },
+        {
+          "hoi": "Ứng viên liên tục trả lời câu hỏi hành vi bằng \"Thường thì tôi sẽ…\". Người phỏng vấn nên làm gì?",
+          "phuongAn": [
+            "Đề nghị ứng viên kể một trường hợp cụ thể đã thật sự xảy ra",
+            "Ghi nhận là đủ vì câu trả lời đã thể hiện thói quen làm việc",
+            "Chuyển sang hỏi câu giả định cho hợp với cách trả lời",
+            "Dừng phần này vì ứng viên không có kinh nghiệm liên quan"
+          ],
+          "dung": 0,
+          "giai": "\"Thường thì tôi sẽ…\" là trả lời chung chung, chưa phải bằng chứng hành vi. Cần hỏi gợi mở để ứng viên kể một sự việc cụ thể với đủ S-T-A-R."
+        },
+        {
+          "hoi": "Nhiều người cùng phỏng vấn một ứng viên. Cách nào giúp giảm thiên kiến hiệu quả nhất khi chấm điểm?",
+          "phuongAn": [
+            "Cả hội đồng thảo luận ngay rồi thống nhất một điểm chung",
+            "Người có chức vụ cao nhất cho điểm trước để mọi người làm chuẩn",
+            "Mỗi người chấm độc lập theo thang chung rồi mới thảo luận",
+            "Chỉ ghi nhận xét chung, không chấm điểm để tránh máy móc"
+          ],
+          "dung": 2,
+          "giai": "Chấm độc lập trước giúp tránh tâm lý đám đông và áp lực từ cấp trên; sau đó hội đồng mới đối chiếu và thảo luận các điểm chênh lệch."
+        }
+      ]
+    },
+    {
+      "ma": "nhan-su-lanh-dao-02",
+      "ten": "Đào tạo và phát triển theo mô hình 70-20-10",
+      "moTa": "Mô hình 70-20-10, cách đo hiệu quả đào tạo và các công cụ phát triển năng lực nhân viên.",
+      "cau": [
+        {
+          "hoi": "Trong mô hình 70-20-10, con số 70% chỉ nguồn học tập nào?",
+          "phuongAn": [
+            "Học qua các khoá đào tạo chính thức trên lớp và trực tuyến",
+            "Học qua kèm cặp, góp ý và phản hồi từ người khác",
+            "Học qua trải nghiệm và thực hành công việc hằng ngày",
+            "Học qua đọc sách và tự nghiên cứu tài liệu"
+          ],
+          "dung": 2,
+          "giai": "Mô hình 70-20-10: khoảng 70% học qua trải nghiệm công việc, 20% qua tương tác (kèm cặp, phản hồi), 10% qua đào tạo chính thức."
+        },
+        {
+          "hoi": "Theo mô hình 70-20-10, phần 20% đến chủ yếu từ hoạt động nào?",
+          "phuongAn": [
+            "Tham gia các hội thảo chuyên ngành do bên ngoài tổ chức",
+            "Được kèm cặp, cố vấn và nhận phản hồi từ người khác",
+            "Luân chuyển qua nhiều vị trí công việc khác nhau",
+            "Học các khoá trực tuyến có cấp chứng chỉ"
+          ],
+          "dung": 1,
+          "giai": "20% là học qua quan hệ với người khác: coaching, mentoring, quan sát và nhận phản hồi từ cấp trên, đồng nghiệp. Luân chuyển công việc thuộc nhóm 70%."
+        },
+        {
+          "hoi": "Hoạt động nào thuộc nhóm 10% trong mô hình 70-20-10?",
+          "phuongAn": [
+            "Nhận một dự án mới hơi vượt quá năng lực hiện tại",
+            "Được trưởng phòng góp ý sau buổi thuyết trình",
+            "Làm thay vị trí đồng nghiệp đang nghỉ phép",
+            "Tham gia khoá học kỹ năng đàm phán có giảng viên"
+          ],
+          "dung": 3,
+          "giai": "Nhóm 10% là đào tạo chính thức có cấu trúc: khoá học, lớp tập huấn, e-learning. Dự án mới, làm thay thuộc 70%; được góp ý thuộc 20%."
+        },
+        {
+          "hoi": "\"Mentoring\" (cố vấn) trong phát triển nhân viên thường được hiểu là gì?",
+          "phuongAn": [
+            "Người đi trước định hướng sự phát triển lâu dài cho người đi sau",
+            "Bộ phận nhân sự kiểm tra việc tuân thủ nội quy của nhân viên",
+            "Nhân viên tự học qua tài liệu nội bộ, không cần ai hỗ trợ",
+            "Công ty thuê chuyên gia bên ngoài làm thay các việc khó"
+          ],
+          "dung": 0,
+          "giai": "Mentoring là quan hệ cố vấn: người giàu kinh nghiệm chia sẻ, định hướng nghề nghiệp lâu dài cho người ít kinh nghiệm hơn."
+        },
+        {
+          "hoi": "Mô hình 4 cấp độ đánh giá hiệu quả đào tạo nổi tiếng mang tên nhà nghiên cứu nào?",
+          "phuongAn": [
+            "Donald Kirkpatrick",
+            "Abraham Maslow",
+            "Peter Drucker",
+            "Frederick Herzberg"
+          ],
+          "dung": 0,
+          "giai": "Mô hình Kirkpatrick đánh giá đào tạo qua 4 cấp: Phản ứng (Reaction), Học tập (Learning), Hành vi (Behavior), Kết quả (Results)."
+        },
+        {
+          "hoi": "Theo mô hình Kirkpatrick, cấp độ 3 \"Hành vi\" đo lường điều gì?",
+          "phuongAn": [
+            "Học viên có hài lòng với giảng viên và khoá học không",
+            "Học viên có đạt điểm bài kiểm tra cuối khoá không",
+            "Học viên có áp dụng điều đã học vào công việc thực tế không",
+            "Doanh nghiệp có tăng doanh thu và lợi nhuận nhờ khoá học không"
+          ],
+          "dung": 2,
+          "giai": "Cấp 1 đo sự hài lòng, cấp 2 đo kiến thức tiếp thu, cấp 3 đo thay đổi hành vi khi làm việc, cấp 4 đo kết quả kinh doanh."
+        },
+        {
+          "hoi": "Theo tinh thần 70-20-10, cách nào giúp nhân viên áp dụng kiến thức sau khoá học vào việc thật hiệu quả nhất?",
+          "phuongAn": [
+            "Cho nhân viên học tiếp một khoá nâng cao cùng chủ đề",
+            "Giao việc thật để áp dụng ngay, có quản lý kèm cặp và phản hồi",
+            "Yêu cầu nhân viên viết báo cáo tóm tắt đầy đủ nội dung khoá học",
+            "Tổ chức thi trắc nghiệm lại sau một tháng để kiểm tra"
+          ],
+          "dung": 1,
+          "giai": "Đào tạo chính thức (10%) chỉ phát huy khi được nối với trải nghiệm thực tế (70%) và kèm cặp, phản hồi (20%)."
+        },
+        {
+          "hoi": "Trong phát triển nhân sự, IDP là viết tắt của công cụ nào?",
+          "phuongAn": [
+            "Chỉ số hiệu suất nội bộ (Internal Delivery Performance)",
+            "Quy trình kỷ luật nội bộ (Internal Disciplinary Process)",
+            "Chính sách phân bổ thưởng (Incentive Distribution Policy)",
+            "Kế hoạch phát triển cá nhân (Individual Development Plan)"
+          ],
+          "dung": 3,
+          "giai": "IDP là kế hoạch phát triển riêng cho từng nhân viên: năng lực cần nâng, hoạt động học tập, thời hạn và người hỗ trợ."
+        },
+        {
+          "hoi": "Cách hiểu nào về các tỷ lệ trong mô hình 70-20-10 là ĐÚNG?",
+          "phuongAn": [
+            "Là tỷ lệ bắt buộc để chia ngân sách đào tạo chính xác",
+            "Là định hướng tham khảo, không phải công thức cứng",
+            "Cho phép bỏ hẳn đào tạo chính thức vì chỉ chiếm 10%",
+            "Nghĩa là 70% giờ làm việc phải dành cho việc học"
+          ],
+          "dung": 1,
+          "giai": "70-20-10 thường được gắn với các nghiên cứu về cách nhà quản lý học hỏi tại Trung tâm Lãnh đạo Sáng tạo (CCL). Các tỷ lệ chỉ mang tính định hướng, không cố định."
+        },
+        {
+          "hoi": "Theo Kirkpatrick, vì sao chỉ đánh giá cấp 1 (mức hài lòng của học viên) là CHƯA ĐỦ để kết luận khoá học hiệu quả?",
+          "phuongAn": [
+            "Phiếu hài lòng luôn bị học viên chấm thấp hơn so với thực tế",
+            "Cấp 1 chỉ dùng được cho các khoá học trực tuyến",
+            "Cấp 1 chỉ đo chi phí tổ chức, không đo học viên",
+            "Hài lòng chưa chắc đã học được và áp dụng vào công việc"
+          ],
+          "dung": 3,
+          "giai": "Hài lòng (cấp 1) là cần nhưng chưa đủ. Hiệu quả thật phải xét tiếp kiến thức (cấp 2), thay đổi hành vi (cấp 3) và kết quả kinh doanh (cấp 4)."
+        }
+      ]
+    },
+    {
+      "ma": "nhan-su-lanh-dao-03",
+      "ten": "Đánh giá hiệu suất nhân viên",
+      "moTa": "Mục tiêu SMART, KPI, OKR, đánh giá 360 độ và các lỗi thường gặp khi chấm điểm nhân viên.",
+      "cau": [
+        {
+          "hoi": "Ma trận 9 ô (9-box grid) dùng trong đánh giá, quy hoạch nhân tài xếp nhân viên theo hai trục nào?",
+          "phuongAn": [
+            "Hiệu suất hiện tại và tiềm năng phát triển",
+            "Thâm niên và mức lương đang hưởng",
+            "Bằng cấp và số năm kinh nghiệm",
+            "Mức độ quan trọng và khẩn cấp của công việc"
+          ],
+          "dung": 0,
+          "giai": "Ma trận 9 ô kết hợp 3 mức hiệu suất với 3 mức tiềm năng, giúp xác định nhân tài cần giữ, người cần kèm cặp thêm và xây dựng kế hoạch kế nhiệm."
+        },
+        {
+          "hoi": "Nhân viên có hai KPI: doanh số (trọng số 60%) đạt 100%, khách hàng mới (trọng số 40%) đạt 50%. Điểm hoàn thành tổng là bao nhiêu?",
+          "phuongAn": [
+            "75%",
+            "150%",
+            "80%",
+            "90%"
+          ],
+          "dung": 2,
+          "giai": "Điểm tổng = 60% × 100% + 40% × 50% = 60% + 20% = 80%. Con số 75% là trung bình cộng, bỏ qua trọng số; trọng số giúp KPI quan trọng hơn ảnh hưởng nhiều hơn."
+        },
+        {
+          "hoi": "Kế hoạch cải thiện hiệu suất (PIP – Performance Improvement Plan) thường được áp dụng khi nào?",
+          "phuongAn": [
+            "Khi nhân viên vừa được thăng chức",
+            "Khi nhân viên nhiều lần chưa đạt yêu cầu công việc",
+            "Khi doanh nghiệp tuyển thêm nhân sự mới",
+            "Khi nhân viên đạt thành tích vượt trội"
+          ],
+          "dung": 1,
+          "giai": "PIP nêu rõ điểm chưa đạt, mục tiêu cần cải thiện, hỗ trợ đi kèm và thời hạn đánh giá lại, giúp nhân viên có cơ hội tiến bộ và quản lý có căn cứ ra quyết định."
+        },
+        {
+          "hoi": "Đánh giá 360 độ là phương pháp thu thập nhận xét về một nhân viên từ những ai?",
+          "phuongAn": [
+            "Chỉ từ người quản lý trực tiếp đang phụ trách nhân viên đó",
+            "Chỉ từ bản tự đánh giá của chính nhân viên",
+            "Bộ phận nhân sự dựa trên dữ liệu chấm công",
+            "Cấp trên, đồng nghiệp, cấp dưới và có thể cả khách hàng"
+          ],
+          "dung": 3,
+          "giai": "Đánh giá 360 độ tổng hợp nhận xét từ nhiều phía quanh nhân viên (cấp trên, ngang cấp, cấp dưới, khách hàng, tự đánh giá) để có góc nhìn toàn diện."
+        },
+        {
+          "hoi": "Phương pháp Quản trị theo mục tiêu (MBO) – nền tảng của nhiều hệ thống đánh giá hiệu suất – được phổ biến bởi ai?",
+          "phuongAn": [
+            "Frederick Taylor",
+            "Henri Fayol",
+            "Elton Mayo",
+            "Peter Drucker"
+          ],
+          "dung": 3,
+          "giai": "Peter Drucker giới thiệu MBO trong sách The Practice of Management (1954): cấp trên và nhân viên cùng thống nhất mục tiêu, sau đó đánh giá dựa trên mức độ hoàn thành."
+        },
+        {
+          "hoi": "\"Lỗi gần đây\" (recency bias) khi đánh giá hiệu suất cuối năm là gì?",
+          "phuongAn": [
+            "Chấm điểm chủ yếu dựa vào sự việc vài tuần gần kỳ đánh giá",
+            "Chấm cao nhân viên có tính cách giống với người đánh giá",
+            "Chấm cao nhân viên mới vì họ vẫn đang học việc",
+            "Chấm theo kết quả năm trước mà không xét năm nay"
+          ],
+          "dung": 0,
+          "giai": "Recency bias khiến người đánh giá bị chi phối bởi sự việc gần nhất. Ghi chép sự việc định kỳ suốt năm giúp đánh giá công bằng hơn."
+        },
+        {
+          "hoi": "Quản lý chấm gần như mọi nhân viên ở mức \"đạt – trung bình\" để tránh va chạm. Đây là lỗi đánh giá nào?",
+          "phuongAn": [
+            "Lỗi dễ dãi, chấm quá rộng tay (leniency)",
+            "Lỗi hào quang (halo effect)",
+            "Lỗi xu hướng trung tâm (central tendency)",
+            "Lỗi tương phản giữa các nhân viên (contrast effect)"
+          ],
+          "dung": 2,
+          "giai": "Xu hướng trung tâm là né chấm quá cao hay quá thấp, dồn mọi người về mức giữa, khiến không phân biệt được người giỏi và người yếu."
+        },
+        {
+          "hoi": "Khi thiết lập KPI cho nhân viên, nguyên tắc nào quan trọng nhất?",
+          "phuongAn": [
+            "KPI càng nhiều càng tốt để bao quát hết mọi đầu việc",
+            "KPI phải gắn với mục tiêu của bộ phận và doanh nghiệp",
+            "KPI nên giữ nguyên nhiều năm để nhân viên quen",
+            "KPI do nhân viên tự chọn, quản lý không cần xem duyệt"
+          ],
+          "dung": 1,
+          "giai": "KPI chỉ có giá trị khi cụ thể hoá mục tiêu chung. KPI quá nhiều làm loãng trọng tâm; KPI không gắn chiến lược dễ khiến nhân viên làm sai hướng."
+        },
+        {
+          "hoi": "Thang đánh giá dựa trên hành vi (BARS) khác thang chấm điểm thông thường ở điểm nào?",
+          "phuongAn": [
+            "Chỉ dùng cho vị trí quản lý cấp cao",
+            "Chấm hoàn toàn theo cảm nhận của quản lý",
+            "Mỗi mức điểm gắn với mô tả hành vi cụ thể",
+            "Chỉ đánh giá dựa trên doanh số đạt được"
+          ],
+          "dung": 2,
+          "giai": "BARS (Behaviorally Anchored Rating Scale) mô tả hành vi mẫu cho từng mức điểm, giúp người chấm bám vào hành vi quan sát được và giảm chênh lệch cảm tính giữa các quản lý."
+        },
+        {
+          "hoi": "Phương pháp xếp hạng bắt buộc (forced distribution) có nhược điểm lớn nhất là gì?",
+          "phuongAn": [
+            "Nhóm toàn người giỏi vẫn buộc có người bị xếp loại kém",
+            "Tốn rất nhiều thời gian vì phải phỏng vấn riêng từng nhân viên",
+            "Không giúp quản lý phân biệt người giỏi và người yếu",
+            "Chỉ áp dụng được cho doanh nghiệp dưới 10 nhân viên"
+          ],
+          "dung": 0,
+          "giai": "Xếp hạng bắt buộc ép tỷ lệ cố định cho từng loại, nên dù cả nhóm làm tốt vẫn phải có người bị xếp kém, dễ gây cạnh tranh tiêu cực và mất đoàn kết."
+        }
+      ]
+    },
+    {
+      "ma": "nhan-su-lanh-dao-04",
+      "ten": "Lương, thưởng và đãi ngộ",
+      "moTa": "Hệ thống lương 3P, đãi ngộ tài chính và phi tài chính, thuyết công bằng và nguyên tắc thưởng.",
+      "cau": [
+        {
+          "hoi": "Trong quản trị đãi ngộ, yếu tố nào thuộc nhóm \"đãi ngộ phi tài chính\"?",
+          "phuongAn": [
+            "Tiền thưởng khi hoàn thành vượt chỉ tiêu doanh số quý",
+            "Phụ cấp xăng xe và điện thoại hằng tháng",
+            "Tiền hoa hồng trên mỗi hợp đồng ký được",
+            "Cơ hội thăng tiến và sự ghi nhận trong công việc"
+          ],
+          "dung": 3,
+          "giai": "Đãi ngộ phi tài chính là giá trị không trả bằng tiền: sự ghi nhận, cơ hội phát triển, môi trường làm việc. Thưởng, phụ cấp, hoa hồng là đãi ngộ tài chính."
+        },
+        {
+          "hoi": "Hệ thống trả lương 3P xác định thu nhập dựa trên ba yếu tố nào?",
+          "phuongAn": [
+            "Vị trí công việc, năng lực cá nhân và kết quả công việc",
+            "Giá bán, sản phẩm và địa điểm kinh doanh",
+            "Thâm niên, bằng cấp và các mối quan hệ cá nhân trong công ty",
+            "Lợi nhuận, doanh thu và dòng tiền của công ty"
+          ],
+          "dung": 0,
+          "giai": "3P gồm Position (trả theo giá trị vị trí), Person (trả theo năng lực cá nhân) và Performance (trả theo kết quả, hiệu suất công việc)."
+        },
+        {
+          "hoi": "\"Lương cứng\" trong cơ cấu thu nhập của nhân viên thường được hiểu là gì?",
+          "phuongAn": [
+            "Khoản thưởng cuối năm tính theo kết quả kinh doanh",
+            "Khoản tiền nhận thêm khi làm việc ngoài giờ quy định",
+            "Khoản lương cố định, không thay đổi theo doanh số tháng",
+            "Khoản phụ cấp chỉ dành riêng cho cấp quản lý trở lên"
+          ],
+          "dung": 2,
+          "giai": "Lương cứng là phần cố định theo hợp đồng, tạo sự ổn định cho nhân viên; phần biến đổi như thưởng, hoa hồng mới gắn trực tiếp với kết quả."
+        },
+        {
+          "hoi": "Theo Bộ luật Lao động 2019, lao động nam và nữ làm công việc có giá trị như nhau được trả lương thế nào?",
+          "phuongAn": [
+            "Lao động nam được trả cao hơn vì làm việc nặng hơn",
+            "Được trả lương bình đẳng, không phân biệt giới tính",
+            "Doanh nghiệp tự quyết, luật không có quy định",
+            "Lao động nữ được trả cao hơn để hỗ trợ thai sản"
+          ],
+          "dung": 1,
+          "giai": "Khoản 3 Điều 90 Bộ luật Lao động 2019: người sử dụng lao động phải trả lương bình đẳng, không phân biệt giới tính với người làm công việc có giá trị như nhau."
+        },
+        {
+          "hoi": "Theo Bộ luật Lao động 2019, việc thưởng cho người lao động (như thưởng Tết) được quy định thế nào?",
+          "phuongAn": [
+            "Bắt buộc thưởng ít nhất một tháng lương mỗi năm",
+            "Do doanh nghiệp quyết định theo quy chế thưởng của mình",
+            "Chỉ bắt buộc với doanh nghiệp từ 50 lao động trở lên",
+            "Bắt buộc thưởng bằng tiền mặt vào dịp Tết Nguyên đán hằng năm"
+          ],
+          "dung": 1,
+          "giai": "Điều 104 Bộ luật Lao động 2019: thưởng căn cứ kết quả kinh doanh và mức hoàn thành công việc; quy chế thưởng do người sử dụng lao động quyết định, công bố công khai."
+        },
+        {
+          "hoi": "\"Phúc lợi linh hoạt\" (cafeteria benefits) trong đãi ngộ nhân viên là gì?",
+          "phuongAn": [
+            "Công ty đổi phúc lợi hằng tháng tuỳ tình hình kinh doanh",
+            "Phúc lợi chỉ áp dụng cho nhân viên làm việc từ xa",
+            "Nhân viên nhận tiền mặt thay cho bảo hiểm bắt buộc",
+            "Nhân viên tự chọn gói phúc lợi phù hợp trong một hạn mức"
+          ],
+          "dung": 3,
+          "giai": "Phúc lợi linh hoạt cho nhân viên chọn trong danh mục (khám sức khoẻ, học tập, du lịch…) trong một hạn mức, phù hợp nhu cầu từng người."
+        },
+        {
+          "hoi": "Doanh nghiệp tham khảo khảo sát lương thị trường chủ yếu để làm gì?",
+          "phuongAn": [
+            "Đặt mức lương cạnh tranh để thu hút và giữ người phù hợp",
+            "Xác định mức lương tối thiểu vùng theo quy định nhà nước",
+            "Tính chính xác thuế thu nhập cá nhân phải nộp",
+            "Thay thế hoàn toàn việc đánh giá hiệu suất nội bộ hằng năm"
+          ],
+          "dung": 0,
+          "giai": "Khảo sát lương cho biết mặt bằng thu nhập của vị trí tương đương trên thị trường, giúp định vị lương đủ cạnh tranh mà vẫn kiểm soát chi phí."
+        },
+        {
+          "hoi": "\"Công bằng nội bộ\" khi xây dựng thang lương nghĩa là gì?",
+          "phuongAn": [
+            "Mọi nhân viên trong công ty đều nhận mức lương như nhau",
+            "Lương luôn được trả cao hơn so với các đối thủ cạnh tranh",
+            "Vị trí có giá trị cao hơn được trả lương tương xứng cao hơn",
+            "Nhân viên được tự đề xuất mức lương mình muốn"
+          ],
+          "dung": 2,
+          "giai": "Công bằng nội bộ là trả lương tương xứng giá trị công việc so với các vị trí khác trong công ty; khác với cạnh tranh bên ngoài là so với thị trường."
+        },
+        {
+          "hoi": "Theo thuyết công bằng của J. Stacy Adams, nhân viên đánh giá sự công bằng trong đãi ngộ bằng cách nào?",
+          "phuongAn": [
+            "So mức lương hiện tại của mình với mức lương của năm trước",
+            "So thu nhập của mình với chi phí sinh hoạt hằng tháng",
+            "So mức thưởng với mục tiêu công ty đặt ra",
+            "So tỷ lệ đóng góp – nhận về của mình với của người khác"
+          ],
+          "dung": 3,
+          "giai": "Thuyết công bằng (Adams): nhân viên so tỷ lệ đầu vào (công sức, kỹ năng) trên đầu ra (lương, ghi nhận) của mình với người khác; thấy thiệt sẽ giảm động lực."
+        },
+        {
+          "hoi": "Doanh nghiệp muốn thưởng để cả đội hợp tác thay vì cạnh tranh nội bộ. Cơ chế nào phù hợp nhất?",
+          "phuongAn": [
+            "Chỉ thưởng cho người đứng đầu bảng xếp hạng doanh số",
+            "Thưởng theo kết quả chung của nhóm, có xét đóng góp từng người",
+            "Thưởng đều cho tất cả mọi người bất kể kết quả để giữ hoà khí",
+            "Tăng hoa hồng cá nhân thật cao và bỏ hẳn các chỉ tiêu nhóm"
+          ],
+          "dung": 1,
+          "giai": "Thưởng theo kết quả nhóm tạo động lực hỗ trợ nhau; xét thêm đóng góp cá nhân để tránh \"ăn theo\". Chỉ thưởng người đứng đầu dễ gây cạnh tranh tiêu cực."
+        }
+      ]
+    },
+    {
+      "ma": "nhan-su-lanh-dao-05",
+      "ten": "Thuyết động lực Maslow, Herzberg, McGregor",
+      "moTa": "Tháp nhu cầu Maslow, thuyết hai yếu tố Herzberg và thuyết X – Y của McGregor trong quản lý con người.",
+      "cau": [
+        {
+          "hoi": "Theo tháp nhu cầu Maslow, tầng thấp nhất là nhu cầu gì?",
+          "phuongAn": [
+            "Nhu cầu được tôn trọng, công nhận bởi người xung quanh",
+            "Nhu cầu sinh học cơ bản như ăn, uống, nghỉ ngơi",
+            "Nhu cầu an toàn như việc làm ổn định, nơi ở an ninh",
+            "Nhu cầu tự khẳng định, phát huy tối đa tiềm năng"
+          ],
+          "dung": 1,
+          "giai": "Tháp Maslow 5 tầng từ thấp lên cao: sinh học – an toàn – xã hội (thuộc về) – được tôn trọng – tự khẳng định (tự thể hiện)."
+        },
+        {
+          "hoi": "Thuyết hai yếu tố của Herzberg chia các yếu tố tại nơi làm việc thành hai nhóm nào?",
+          "phuongAn": [
+            "Yếu tố duy trì và yếu tố thúc đẩy (động viên)",
+            "Yếu tố nội bộ doanh nghiệp và yếu tố thị trường",
+            "Yếu tố tài chính và yếu tố pháp lý",
+            "Yếu tố cá nhân và yếu tố gia đình, xã hội"
+          ],
+          "dung": 0,
+          "giai": "Herzberg chia thành yếu tố duy trì (hygiene: lương, điều kiện làm việc…) giúp tránh bất mãn và yếu tố thúc đẩy (thành tựu, ghi nhận…) tạo động lực."
+        },
+        {
+          "hoi": "Theo McGregor, nhà quản lý theo \"Thuyết X\" tin rằng nhân viên thường như thế nào?",
+          "phuongAn": [
+            "Tự giác, chủ động và muốn nhận thêm trách nhiệm",
+            "Làm việc vì đam mê, không quan tâm đến thu nhập",
+            "Luôn sáng tạo khi được tự do quyết định công việc",
+            "Ngại làm việc, cần được kiểm soát và giám sát chặt"
+          ],
+          "dung": 3,
+          "giai": "Thuyết X giả định con người ngại làm, né trách nhiệm nên cần kiểm soát, thưởng phạt. Thuyết Y ngược lại: con người tự giác khi được tin tưởng."
+        },
+        {
+          "hoi": "Theo Maslow, nhân viên luôn lo sợ bị mất việc bất cứ lúc nào là đang chưa được thoả mãn nhu cầu nào?",
+          "phuongAn": [
+            "Nhu cầu được tôn trọng, ghi nhận",
+            "Nhu cầu tự khẳng định bản thân",
+            "Nhu cầu an toàn, ổn định",
+            "Nhu cầu giao lưu, thuộc về tập thể"
+          ],
+          "dung": 2,
+          "giai": "Nhu cầu an toàn gồm sự ổn định công việc, thu nhập, môi trường không bị đe doạ. Khi tầng này lung lay, khó thúc đẩy nhân viên bằng nhu cầu cao hơn."
+        },
+        {
+          "hoi": "Theo Herzberg, yếu tố nào thuộc nhóm \"yếu tố duy trì\" (hygiene factors)?",
+          "phuongAn": [
+            "Sự thừa nhận thành tích đạt được",
+            "Bản chất công việc thú vị, có ý nghĩa",
+            "Chính sách công ty và điều kiện làm việc",
+            "Cơ hội học hỏi, phát triển và thăng tiến"
+          ],
+          "dung": 2,
+          "giai": "Yếu tố duy trì gồm chính sách, điều kiện làm việc, lương, sự giám sát, quan hệ đồng nghiệp. Thành tích, ghi nhận, công việc, thăng tiến là yếu tố thúc đẩy."
+        },
+        {
+          "hoi": "Theo Herzberg, nếu công ty tăng lương nhưng công việc vẫn nhàm chán, không được ghi nhận, kết quả thường là gì?",
+          "phuongAn": [
+            "Nhân viên có động lực làm việc mạnh mẽ và bền lâu hơn",
+            "Nhân viên bớt bất mãn nhưng chưa chắc có thêm động lực",
+            "Nhân viên bất mãn nhiều hơn trước khi tăng lương",
+            "Nhân viên chủ động xin nhận thêm nhiều trách nhiệm mới"
+          ],
+          "dung": 1,
+          "giai": "Với Herzberg, lương là yếu tố duy trì: làm tốt giúp giảm bất mãn, còn động lực thật đến từ ghi nhận, trách nhiệm, công việc có ý nghĩa."
+        },
+        {
+          "hoi": "Nhà quản lý theo \"Thuyết Y\" của McGregor có xu hướng làm gì?",
+          "phuongAn": [
+            "Giao quyền, để nhân viên cùng đặt mục tiêu và tự chủ",
+            "Lắp camera, chấm công chặt và phạt khi đi trễ",
+            "Giao việc chi tiết từng bước và kiểm tra liên tục hằng ngày",
+            "Chỉ dùng tiền thưởng và hình phạt để thúc đẩy"
+          ],
+          "dung": 0,
+          "giai": "Thuyết Y tin nhân viên tự giác và sáng tạo khi có điều kiện, nên quản lý bằng trao quyền, sự tham gia và tin tưởng thay vì kiểm soát chặt."
+        },
+        {
+          "hoi": "Hoạt động gắn kết, xây dựng tinh thần đồng đội trong công ty đáp ứng chủ yếu tầng nhu cầu nào của Maslow?",
+          "phuongAn": [
+            "Nhu cầu sinh học như ăn uống, nghỉ ngơi",
+            "Nhu cầu an toàn, ổn định công việc",
+            "Nhu cầu tự khẳng định bản thân",
+            "Nhu cầu xã hội, được thuộc về tập thể"
+          ],
+          "dung": 3,
+          "giai": "Tầng xã hội (thuộc về) gồm nhu cầu có quan hệ tốt, được chấp nhận trong nhóm. Hoạt động gắn kết đội ngũ đáp ứng trực tiếp nhu cầu này."
+        },
+        {
+          "hoi": "Điểm khác biệt quan trọng trong cách Herzberg nhìn nhận sự hài lòng và bất mãn là gì?",
+          "phuongAn": [
+            "Tiền lương là yếu tố tạo động lực mạnh và lâu dài nhất",
+            "Chỉ cần xoá bất mãn là nhân viên sẽ có động lực",
+            "Sự hài lòng chỉ phụ thuộc vào tính cách bẩm sinh",
+            "Hài lòng và bất mãn không nằm ở hai đầu một thang đo"
+          ],
+          "dung": 3,
+          "giai": "Herzberg cho rằng đối lập của hài lòng là \"không hài lòng\", còn đối lập của bất mãn là \"không bất mãn\". Xoá bất mãn chưa đồng nghĩa tạo ra động lực."
+        },
+        {
+          "hoi": "Chủ doanh nghiệp tin theo Thuyết X nên luôn giám sát chặt. Theo McGregor, rủi ro lớn nhất về lâu dài là gì?",
+          "phuongAn": [
+            "Nhân viên trở nên thụ động, đúng như giả định ban đầu",
+            "Nhân viên tự giác hơn hẳn vì sợ bị cấp trên phát hiện sai sót",
+            "Chi phí lương giảm mạnh do năng suất tăng liên tục",
+            "Nhân viên chủ động đề xuất nhiều sáng kiến cải tiến"
+          ],
+          "dung": 0,
+          "giai": "McGregor chỉ ra giả định của quản lý có thể tự thành sự thật: kiểm soát chặt khiến nhân viên thụ động, chỉ làm đủ yêu cầu, càng củng cố niềm tin Thuyết X."
+        }
+      ]
+    },
+    {
+      "ma": "nhan-su-lanh-dao-06",
+      "ten": "Phong cách lãnh đạo",
+      "moTa": "Lãnh đạo độc đoán, dân chủ, chuyển đổi, phục vụ và mô hình lãnh đạo tình huống trong doanh nghiệp.",
+      "cau": [
+        {
+          "hoi": "Trong phong cách lãnh đạo nào, người đứng đầu tự ra quyết định và ít tham khảo ý kiến cấp dưới?",
+          "phuongAn": [
+            "Lãnh đạo độc đoán (chuyên quyền)",
+            "Lãnh đạo dân chủ (tham gia)",
+            "Lãnh đạo tự do (uỷ thác)",
+            "Lãnh đạo phục vụ (servant leadership)"
+          ],
+          "dung": 0,
+          "giai": "Lãnh đạo độc đoán tập trung quyền quyết định vào người đứng đầu; hữu ích khi khẩn cấp nhưng dùng lâu dễ làm giảm sáng kiến của đội ngũ."
+        },
+        {
+          "hoi": "Khái niệm \"lãnh đạo phục vụ\" (servant leadership) do Robert K. Greenleaf đề xuất nhấn mạnh điều gì?",
+          "phuongAn": [
+            "Lãnh đạo nên trực tiếp làm thay việc của nhân viên",
+            "Lãnh đạo chỉ cần phục vụ yêu cầu của cổ đông",
+            "Lãnh đạo nên tránh đưa ra các quyết định khó",
+            "Lãnh đạo ưu tiên phục vụ, giúp đội ngũ phát triển"
+          ],
+          "dung": 3,
+          "giai": "Greenleaf đưa ra khái niệm lãnh đạo phục vụ: người lãnh đạo đặt sự phát triển của người khác lên trước, lấy việc giúp đội ngũ thành công làm trọng tâm."
+        },
+        {
+          "hoi": "Phong cách lãnh đạo \"laissez-faire\" có đặc điểm gì?",
+          "phuongAn": [
+            "Kiểm soát chặt chẽ từng chi tiết trong công việc của nhân viên",
+            "Can thiệp rất ít, để nhân viên tự quyết phần lớn công việc",
+            "Lấy biểu quyết của cả nhóm cho mọi quyết định lớn nhỏ",
+            "Dùng thưởng phạt rõ ràng theo từng chỉ tiêu được giao"
+          ],
+          "dung": 1,
+          "giai": "Laissez-faire (tự do) trao gần như toàn quyền cho nhân viên; hiệu quả với đội ngũ giỏi, tự chủ, nhưng dễ rối nếu nhân viên thiếu kinh nghiệm."
+        },
+        {
+          "hoi": "Lãnh đạo dân chủ (tham gia) phù hợp nhất trong tình huống nào?",
+          "phuongAn": [
+            "Cần quyết định trong vài phút khi có sự cố khẩn cấp",
+            "Nhân viên mới hoàn toàn chưa biết gì về công việc",
+            "Đội có chuyên môn, cần nhiều ý tưởng cho kế hoạch mới",
+            "Doanh nghiệp khủng hoảng, cần chỉ đạo thật dứt khoát"
+          ],
+          "dung": 2,
+          "giai": "Lãnh đạo dân chủ phát huy khi có thời gian thảo luận và đội có năng lực góp ý. Tình huống khẩn cấp hoặc nhân viên thiếu kinh nghiệm cần chỉ đạo rõ hơn."
+        },
+        {
+          "hoi": "Lãnh đạo chuyển đổi (transformational) khác lãnh đạo giao dịch (transactional) chủ yếu ở điểm nào?",
+          "phuongAn": [
+            "Chỉ tập trung vào chỉ tiêu ngắn hạn, kiểm soát chặt và bắt lỗi sai sót",
+            "Truyền cảm hứng bằng tầm nhìn, không chỉ trao đổi thưởng – phạt",
+            "Không quan tâm nhiều đến kết quả kinh doanh của doanh nghiệp",
+            "Chỉ áp dụng được trong các tập đoàn đa quốc gia"
+          ],
+          "dung": 1,
+          "giai": "Lãnh đạo giao dịch dựa trên trao đổi: hoàn thành thì thưởng, sai thì phạt. Lãnh đạo chuyển đổi truyền cảm hứng, khơi dậy cam kết vượt lên lợi ích trao đổi."
+        },
+        {
+          "hoi": "Mô hình Lãnh đạo tình huống (Situational Leadership) gắn với tên tuổi của những ai?",
+          "phuongAn": [
+            "Robert Kaplan và David Norton",
+            "Michael Porter và Philip Kotler",
+            "Paul Hersey và Ken Blanchard",
+            "Jim Collins và Jerry Porras"
+          ],
+          "dung": 2,
+          "giai": "Hersey và Blanchard phát triển mô hình Lãnh đạo tình huống: không có phong cách tốt nhất, lãnh đạo điều chỉnh theo mức độ sẵn sàng của nhân viên."
+        },
+        {
+          "hoi": "Theo mô hình SLII của Ken Blanchard, với nhân viên mới rất nhiệt tình nhưng chưa có kỹ năng, phong cách phù hợp nhất là gì?",
+          "phuongAn": [
+            "Uỷ thác: giao toàn quyền để nhân viên tự học",
+            "Hỗ trợ: chủ yếu động viên, ít chỉ dẫn cách làm",
+            "Tự do: để nhân viên thử sai, chỉ xem kết quả cuối",
+            "Chỉ đạo: hướng dẫn cụ thể và theo dõi sát sao"
+          ],
+          "dung": 3,
+          "giai": "SLII gọi đây là \"người mới hăng hái\": cam kết cao, năng lực thấp. Phù hợp nhất là phong cách Chỉ đạo: hướng dẫn rõ làm gì, làm thế nào và theo dõi sát tiến độ."
+        },
+        {
+          "hoi": "Khi cả đội vừa thất bại một dự án, cách phản ứng nào của người lãnh đạo thể hiện trí tuệ cảm xúc (EQ) cao nhất?",
+          "phuongAn": [
+            "Bình tĩnh nhận trách nhiệm, lắng nghe đội, cùng rút bài học",
+            "Nổi giận để cả đội thấy rõ mức nghiêm trọng của thất bại",
+            "Im lặng cho qua để không khí khỏi căng thẳng",
+            "Nhanh chóng chỉ ra người có lỗi để xử lý dứt điểm, làm gương"
+          ],
+          "dung": 0,
+          "giai": "EQ gồm tự nhận thức, tự điều chỉnh cảm xúc, thấu cảm và kỹ năng xã hội. Kiểm soát cảm xúc, thấu hiểu đội và hướng tới giải pháp là biểu hiện rõ nhất."
+        },
+        {
+          "hoi": "Theo Jim Collins trong sách \"Từ tốt đến vĩ đại\" (Good to Great), lãnh đạo \"Cấp độ 5\" kết hợp hai phẩm chất nào?",
+          "phuongAn": [
+            "Sức hút cá nhân mạnh mẽ và tài diễn thuyết thuyết phục",
+            "Quyết đoán tuyệt đối và kiểm soát chặt chẽ",
+            "Khiêm tốn cá nhân và ý chí nghề nghiệp mãnh liệt",
+            "Tầm nhìn công nghệ và khả năng gọi vốn lớn"
+          ],
+          "dung": 2,
+          "giai": "Jim Collins mô tả lãnh đạo Cấp độ 5 là sự kết hợp giữa khiêm tốn cá nhân (personal humility) và ý chí chuyên nghiệp mãnh liệt (professional will)."
+        },
+        {
+          "hoi": "Theo Daniel Goleman, phong cách \"dẫn nhịp\" (pacesetting) – lãnh đạo đặt chuẩn rất cao và tự làm mẫu – có rủi ro gì nếu dùng lâu?",
+          "phuongAn": [
+            "Đội trở nên ỷ lại vì lãnh đạo quá dễ dãi",
+            "Đội dễ quá tải, nản lòng và bớt chủ động",
+            "Đội mất phương hướng vì không có tiêu chuẩn",
+            "Đội họp bàn quá nhiều nên chậm ra quyết định"
+          ],
+          "dung": 1,
+          "giai": "Goleman nhận định phong cách dẫn nhịp hiệu quả ngắn hạn với đội giỏi, nhưng dùng lâu dễ khiến nhân viên quá tải, cảm thấy bị soi xét và mất chủ động."
+        }
+      ]
+    },
+    {
+      "ma": "nhan-su-lanh-dao-07",
+      "ten": "Uỷ quyền và giao việc hiệu quả",
+      "moTa": "Phân biệt giao việc và uỷ quyền, ma trận RACI, ma trận Eisenhower và cách để nhân viên làm chủ công việc.",
+      "cau": [
+        {
+          "hoi": "Điểm khác biệt cốt lõi giữa \"giao việc\" và \"uỷ quyền\" là gì?",
+          "phuongAn": [
+            "Uỷ quyền chỉ dùng cho việc nhỏ, giao việc dùng cho việc lớn",
+            "Giao việc phải có văn bản, còn uỷ quyền thì chỉ cần nói miệng",
+            "Uỷ quyền trao cả quyền quyết định, không chỉ phần việc cần làm",
+            "Giao việc là chuyển luôn trách nhiệm cuối cùng cho cấp dưới"
+          ],
+          "dung": 2,
+          "giai": "Giao việc là phân công phần việc cần làm; uỷ quyền là trao thêm quyền hạn để người nhận được tự quyết định trong phạm vi đã thống nhất."
+        },
+        {
+          "hoi": "Khi đã uỷ quyền cho cấp dưới, trách nhiệm giải trình cuối cùng về kết quả thuộc về ai?",
+          "phuongAn": [
+            "Hoàn toàn thuộc về cấp dưới nhận việc",
+            "Người quản lý đã uỷ quyền",
+            "Bộ phận nhân sự đã tuyển người đó",
+            "Chia đều cho mọi thành viên trong nhóm"
+          ],
+          "dung": 1,
+          "giai": "Có thể uỷ quyền hạn nhưng không thể chuyển trách nhiệm giải trình cuối cùng. Người quản lý vẫn phải chịu trách nhiệm trước cấp trên về kết quả."
+        },
+        {
+          "hoi": "Trong ma trận RACI, chữ \"A\" (Accountable) chỉ ai?",
+          "phuongAn": [
+            "Người chịu trách nhiệm cuối cùng, phê duyệt kết quả",
+            "Người trực tiếp bắt tay vào thực hiện toàn bộ công việc",
+            "Người được hỏi ý kiến trước khi thực hiện",
+            "Người được thông báo khi có kết quả"
+          ],
+          "dung": 0,
+          "giai": "RACI: Responsible (người thực hiện), Accountable (người chịu trách nhiệm cuối cùng), Consulted (người được tham vấn), Informed (người được thông báo)."
+        },
+        {
+          "hoi": "Rào cản tâm lý phổ biến nào khiến chủ doanh nghiệp nhỏ ngại uỷ quyền?",
+          "phuongAn": [
+            "Cho rằng nhân viên nào cũng sẽ từ chối nhận thêm việc",
+            "Nghĩ rằng pháp luật không cho giao quyền cho nhân viên",
+            "Cho rằng doanh nghiệp nhỏ không có việc gì cần giao",
+            "Tin rằng tự làm sẽ nhanh và tốt hơn giao cho người khác"
+          ],
+          "dung": 3,
+          "giai": "Suy nghĩ \"tự làm cho nhanh\" khiến chủ doanh nghiệp ôm việc, quá tải và nhân viên không được phát triển. Thời gian hướng dẫn ban đầu sẽ được đền đáp về sau."
+        },
+        {
+          "hoi": "Nhân viên mắc lỗi ở lần đầu được uỷ quyền xử lý một việc mới. Cách phản ứng phù hợp nhất của người quản lý là gì?",
+          "phuongAn": [
+            "Cùng phân tích nguyên nhân, hướng dẫn thêm rồi tiếp tục giao",
+            "Lấy lại việc và tự làm từ nay về sau",
+            "Phê bình trước tập thể để cả nhóm rút kinh nghiệm",
+            "Chuyển ngay việc đó cho một nhân viên khác"
+          ],
+          "dung": 0,
+          "giai": "Sai sót ban đầu là một phần của quá trình học. Rút lại việc hay phê bình công khai khiến nhân viên ngại nhận trách nhiệm, và người quản lý lại phải ôm việc."
+        },
+        {
+          "hoi": "Khi giao một việc mới, cách nào giúp chắc chắn nhân viên đã hiểu đúng yêu cầu nhất?",
+          "phuongAn": [
+            "Hỏi \"Em hiểu chưa?\" và chờ nhân viên gật đầu xác nhận",
+            "Gửi thật nhiều tài liệu liên quan để nhân viên tự đọc tìm hiểu",
+            "Nhắc đi nhắc lại yêu cầu nhiều lần cho nhân viên nhớ",
+            "Nhờ nhân viên nhắc lại mục tiêu, kết quả cần đạt và thời hạn"
+          ],
+          "dung": 3,
+          "giai": "Để nhân viên tự diễn đạt lại giúp phát hiện ngay chỗ hiểu sai. Câu hỏi \"Hiểu chưa?\" thường chỉ nhận về một cái gật đầu cho qua."
+        },
+        {
+          "hoi": "\"Quản lý vi mô\" (micromanagement) sau khi đã giao việc thường gây hậu quả gì?",
+          "phuongAn": [
+            "Nhân viên sáng tạo hơn vì được hướng dẫn kỹ từng bước",
+            "Nhân viên mất chủ động, ỷ lại và giảm động lực",
+            "Quản lý có thêm thời gian cho việc chiến lược",
+            "Công việc luôn hoàn thành sớm hơn dự kiến"
+          ],
+          "dung": 1,
+          "giai": "Can thiệp từng chi tiết khiến nhân viên thấy không được tin tưởng, ngại tự quyết và chờ chỉ đạo, trong khi người quản lý lại càng quá tải."
+        },
+        {
+          "hoi": "Việc nào dưới đây người quản lý KHÔNG nên uỷ quyền cho nhân viên?",
+          "phuongAn": [
+            "Tổng hợp báo cáo số liệu bán hàng hằng tuần của phòng",
+            "Liên hệ các nhà cung cấp để lấy báo giá so sánh",
+            "Trao đổi kỷ luật với một nhân viên do chính mình quản lý",
+            "Sắp xếp lịch họp định kỳ hằng tháng cho toàn bộ phòng ban"
+          ],
+          "dung": 2,
+          "giai": "Việc nhạy cảm về con người như kỷ luật, đánh giá nhân viên trực tiếp nên do người quản lý tự làm. Việc thường lệ, lặp lại là lựa chọn tốt để uỷ quyền."
+        },
+        {
+          "hoi": "Nhân viên mang vấn đề đến, quản lý đáp \"Để anh xem rồi tính\". Theo khái niệm \"Ai đang giữ con khỉ?\" (Who’s Got the Monkey?), điều gì vừa xảy ra?",
+          "phuongAn": [
+            "Quản lý đã uỷ quyền thành công cho nhân viên xử lý",
+            "Quản lý đã nhận về bước tiếp theo lẽ ra nhân viên phải làm",
+            "Nhân viên đã bị giao thêm việc nằm ngoài phạm vi",
+            "Quản lý đã áp dụng đúng phong cách huấn luyện và kèm cặp nhân viên"
+          ],
+          "dung": 1,
+          "giai": "Theo Oncken và Wass (Harvard Business Review, 1974), \"con khỉ\" là bước xử lý tiếp theo. Nói \"để anh xem\" là nhận khỉ về vai mình; nên để nhân viên đề xuất giải pháp."
+        },
+        {
+          "hoi": "Nhân viên đã nhiều lần làm tốt một loại việc. Mức uỷ quyền phù hợp nhất cho lần tới là gì?",
+          "phuongAn": [
+            "Đề xuất phương án, chờ quản lý duyệt từng bước",
+            "Chỉ thu thập thông tin để quản lý tự quyết định",
+            "Tự quyết định và làm, báo cáo kết quả định kỳ",
+            "Làm đúng theo hướng dẫn chi tiết từ đầu đến cuối"
+          ],
+          "dung": 2,
+          "giai": "Mức uỷ quyền nên tăng theo năng lực đã được chứng minh. Người làm tốt nhiều lần nên được tự quyết và báo cáo sau, tránh duyệt từng bước làm chậm việc."
+        }
+      ]
+    },
+    {
+      "ma": "nhan-su-lanh-dao-08",
+      "ten": "Văn hoá doanh nghiệp",
+      "moTa": "Giá trị cốt lõi, tầm nhìn – sứ mệnh, các tầng văn hoá của Schein và vai trò làm gương của người lãnh đạo.",
+      "cau": [
+        {
+          "hoi": "\"Giá trị cốt lõi\" của một doanh nghiệp là gì?",
+          "phuongAn": [
+            "Tổng giá trị tài sản ghi trên báo cáo tài chính năm gần nhất",
+            "Nhóm sản phẩm chủ lực mang lại doanh thu cao nhất",
+            "Mức giá trị hợp đồng tối thiểu mà doanh nghiệp nhận",
+            "Nguyên tắc định hướng hành vi, quyết định của cả tổ chức"
+          ],
+          "dung": 3,
+          "giai": "Giá trị cốt lõi là những niềm tin, nguyên tắc bền vững mà mọi thành viên cùng theo đuổi, định hướng cách hành xử và ra quyết định hằng ngày."
+        },
+        {
+          "hoi": "\"Tầm nhìn\" (vision) và \"sứ mệnh\" (mission) của doanh nghiệp khác nhau thế nào?",
+          "phuongAn": [
+            "Tầm nhìn là chỉ tiêu doanh thu; sứ mệnh là chỉ tiêu lợi nhuận",
+            "Tầm nhìn dành cho khách hàng; sứ mệnh dành cho nhà đầu tư",
+            "Tầm nhìn là đích đến tương lai; sứ mệnh là lý do tồn tại",
+            "Tầm nhìn là kế hoạch 1 năm; sứ mệnh là kế hoạch 10 năm"
+          ],
+          "dung": 2,
+          "giai": "Tầm nhìn mô tả doanh nghiệp muốn trở thành gì trong tương lai; sứ mệnh nói rõ doanh nghiệp tồn tại để làm gì, phục vụ ai, mang lại giá trị gì."
+        },
+        {
+          "hoi": "Ở doanh nghiệp vừa và nhỏ, yếu tố nào ảnh hưởng lớn nhất đến việc hình thành văn hoá?",
+          "phuongAn": [
+            "Hành vi và cách làm gương hằng ngày của người chủ",
+            "Màu sơn văn phòng và thiết kế đồng phục nhân viên",
+            "Số lượng khẩu hiệu, giá trị treo trên tường văn phòng",
+            "Quy mô vốn điều lệ của doanh nghiệp"
+          ],
+          "dung": 0,
+          "giai": "Nhân viên học văn hoá qua việc lãnh đạo làm gì, khen gì, phạt gì, chứ không qua khẩu hiệu. Ở doanh nghiệp nhỏ, người chủ chính là \"bản mẫu\" văn hoá."
+        },
+        {
+          "hoi": "Hành động nào thể hiện rõ nhất doanh nghiệp đang sống đúng giá trị \"Lấy khách hàng làm trung tâm\"?",
+          "phuongAn": [
+            "In khẩu hiệu \"Khách hàng là thượng đế\" khắp văn phòng",
+            "Cho nhân viên quyền tự xử lý nhanh khiếu nại trong hạn mức",
+            "Mời khách điền phiếu góp ý nhưng sau đó không ai xem lại",
+            "Thưởng nhân viên chỉ dựa trên số lượng đơn hàng bán ra được"
+          ],
+          "dung": 1,
+          "giai": "Giá trị chỉ sống khi được cụ thể hoá thành quyền hạn, quy trình và hành vi. Khẩu hiệu hay phiếu góp ý không được xử lý chỉ là hình thức."
+        },
+        {
+          "hoi": "Theo Edgar Schein, văn hoá tổ chức gồm những tầng (cấp độ) nào?",
+          "phuongAn": [
+            "Văn hoá bên trong và văn hoá bên ngoài doanh nghiệp",
+            "Tầm nhìn, sứ mệnh, giá trị cốt lõi và khẩu hiệu hành động",
+            "Biểu hiện hữu hình, giá trị tuyên bố, ngầm định nền tảng",
+            "Văn hoá cá nhân, văn hoá phòng ban và văn hoá của cả ngành"
+          ],
+          "dung": 2,
+          "giai": "Schein chia văn hoá thành 3 tầng: Artifacts (biểu hiện hữu hình), Espoused values (giá trị được tuyên bố) và Basic assumptions (ngầm định nền tảng)."
+        },
+        {
+          "hoi": "Theo mô hình của Schein, biểu hiện nào thuộc tầng \"hữu hình\" (artifacts)?",
+          "phuongAn": [
+            "Cách bố trí văn phòng, trang phục, nghi thức họp",
+            "Niềm tin ngầm rằng khách hàng luôn là trên hết",
+            "Các giá trị mà lãnh đạo tuyên bố là quan trọng",
+            "Những giả định không ai nói ra nhưng ai cũng làm theo"
+          ],
+          "dung": 0,
+          "giai": "Tầng hữu hình là những gì nhìn, nghe, cảm nhận được: không gian, trang phục, ngôn ngữ, nghi thức. Dễ thấy nhưng khó hiểu đúng nếu không xét tầng sâu hơn."
+        },
+        {
+          "hoi": "Doanh nghiệp đề cao giá trị \"Chính trực\" nhưng vẫn giữ một nhân viên doanh số cao dù biết người đó gian lận. Hậu quả dễ thấy nhất là gì?",
+          "phuongAn": [
+            "Nhân viên thấy lãnh đạo bao dung nên gắn bó và trung thực hơn",
+            "Văn hoá doanh nghiệp gần như không hề bị ảnh hưởng gì cả",
+            "Khách hàng sẽ tin tưởng doanh nghiệp nhiều hơn trước đây",
+            "Nhân viên hiểu giá trị chỉ là khẩu hiệu, doanh số mới thật"
+          ],
+          "dung": 3,
+          "giai": "Khi lời nói và hành động vênh nhau, nhân viên tin vào hành động. Dung túng người vi phạm giá trị cốt lõi làm mất uy tín của chính hệ giá trị đó."
+        },
+        {
+          "hoi": "Hội nhập văn hoá cho nhân viên mới (onboarding) hiệu quả nhất khi được làm thế nào?",
+          "phuongAn": [
+            "Phát sổ tay nội quy và để nhân viên tự đọc trong tuần đầu",
+            "Có lộ trình từ ngày đầu, có người kèm và ví dụ thực tế",
+            "Chờ nhân viên qua thử việc rồi mới giới thiệu văn hoá",
+            "Tổ chức một buổi liên hoan chào mừng thật hoành tráng"
+          ],
+          "dung": 1,
+          "giai": "Những tuần đầu định hình cách nhân viên hiểu \"ở đây làm việc thế nào\". Lộ trình rõ, người kèm cặp và ví dụ thực tế giúp thấm văn hoá nhanh hơn đọc nội quy."
+        },
+        {
+          "hoi": "Theo Schein, vì sao thay đổi văn hoá chỉ bằng cách đổi khẩu hiệu, logo, trang trí văn phòng thường thất bại?",
+          "phuongAn": [
+            "Vì chỉ chạm tầng bề mặt, chưa đổi được ngầm định nền tảng",
+            "Vì khẩu hiệu mới thường quá dài và rất khó nhớ với nhân viên",
+            "Vì văn hoá chỉ thay đổi khi thay toàn bộ đội ngũ nhân sự",
+            "Vì tầng hữu hình mới là tầng khó thay đổi nhất"
+          ],
+          "dung": 0,
+          "giai": "Ngầm định nền tảng là tầng sâu nhất, khó thay đổi nhất. Đổi khẩu hiệu, logo chỉ là tầng bề mặt; văn hoá chỉ đổi khi niềm tin và hành vi thực sự thay đổi."
+        },
+        {
+          "hoi": "Công ty đề cao quy trình chặt, nhiều cấp phê duyệt, sự ổn định và kiểm soát. Theo khung giá trị cạnh tranh của Cameron và Quinn, đây là kiểu văn hoá nào?",
+          "phuongAn": [
+            "Văn hoá gia đình (Clan)",
+            "Văn hoá sáng tạo (Adhocracy)",
+            "Văn hoá thị trường (Market)",
+            "Văn hoá thứ bậc (Hierarchy)"
+          ],
+          "dung": 3,
+          "giai": "Khung giá trị cạnh tranh (Cameron & Quinn) có 4 kiểu văn hoá. Kiểu thứ bậc chú trọng ổn định, kiểm soát nội bộ, quy trình và hiệu quả có trật tự."
+        }
+      ]
+    },
+    {
+      "ma": "nhan-su-lanh-dao-09",
+      "ten": "Giao tiếp và phản hồi trong đội ngũ",
+      "moTa": "Mô hình phản hồi SBI, lắng nghe chủ động, họp 1-1 và cách góp ý để đội ngũ tiến bộ mà không mất lòng.",
+      "cau": [
+        {
+          "hoi": "Mô hình phản hồi SBI gồm ba thành phần nào?",
+          "phuongAn": [
+            "Strength – Barrier – Improve (Điểm mạnh – Rào cản – Cải thiện)",
+            "Situation – Behavior – Impact (Tình huống – Hành vi – Tác động)",
+            "Scope – Budget – Index (Phạm vi – Ngân sách – Chỉ số)",
+            "Support – Balance – Inspire (Hỗ trợ – Cân bằng – Khích lệ)"
+          ],
+          "dung": 1,
+          "giai": "SBI (của Center for Creative Leadership): nêu Situation (bối cảnh cụ thể), Behavior (hành vi quan sát được) và Impact (tác động của hành vi đó)."
+        },
+        {
+          "hoi": "\"Lắng nghe chủ động\" (active listening) được thể hiện rõ nhất qua hành động nào?",
+          "phuongAn": [
+            "Tóm tắt lại ý người nói và đặt câu hỏi làm rõ",
+            "Chuẩn bị sẵn câu trả lời trong lúc người khác nói",
+            "Vừa nghe vừa xem điện thoại cho đỡ mất thời gian",
+            "Ngắt lời để đưa ra giải pháp càng sớm càng tốt"
+          ],
+          "dung": 0,
+          "giai": "Lắng nghe chủ động là tập trung hiểu người nói: diễn đạt lại, hỏi làm rõ, ghi nhận cảm xúc, thay vì chỉ chờ đến lượt mình nói."
+        },
+        {
+          "hoi": "Nguyên tắc \"khen công khai, góp ý riêng\" trong quản lý đội ngũ có ý nghĩa gì?",
+          "phuongAn": [
+            "Khen và góp ý đều nên nói trước toàn công ty cho minh bạch",
+            "Chỉ khen qua tin nhắn, còn góp ý thì nói giữa cuộc họp",
+            "Khen trước tập thể để lan toả, góp ý riêng để giữ thể diện",
+            "Hạn chế khen ngợi để nhân viên không sinh tự mãn"
+          ],
+          "dung": 2,
+          "giai": "Khen trước tập thể giúp nhân rộng hành vi tốt; góp ý riêng giúp người nghe tiếp thu mà không mất thể diện, đặc biệt quan trọng trong văn hoá Á Đông."
+        },
+        {
+          "hoi": "Câu phản hồi nào dưới đây cụ thể và mang tính xây dựng nhất?",
+          "phuongAn": [
+            "\"Dạo này em làm việc thiếu trách nhiệm quá, em xem lại đi.\"",
+            "\"Em cần phải chuyên nghiệp hơn nữa thì mới tiến bộ được.\"",
+            "\"Anh thấy hình như em không hợp với công việc này lắm.\"",
+            "\"Báo cáo sáng nay thiếu số liệu tháng 8, em bổ sung nhé.\""
+          ],
+          "dung": 3,
+          "giai": "Phản hồi tốt nói về sự việc cụ thể và hướng cải thiện, không phán xét tính cách. Nhận xét chung chung khiến người nghe phòng thủ mà không biết sửa gì."
+        },
+        {
+          "hoi": "Buổi họp 1-1 định kỳ giữa quản lý và nhân viên nên tập trung vào điều gì?",
+          "phuongAn": [
+            "Quản lý đọc lại toàn bộ chỉ tiêu và số liệu kinh doanh của phòng",
+            "Chỉ họp khi nhân viên mắc lỗi cần nhắc nhở",
+            "Thông báo các quyết định chung đã có của công ty",
+            "Khó khăn và mong muốn phát triển của nhân viên, để họ nói nhiều hơn"
+          ],
+          "dung": 3,
+          "giai": "1-1 là thời gian của nhân viên: lắng nghe khó khăn, cảm nhận, mục tiêu phát triển. Thông báo chung hay đọc số liệu nên dành cho họp nhóm."
+        },
+        {
+          "hoi": "Trong phản hồi theo SBI, câu nào mô tả đúng phần \"Hành vi\" (Behavior)?",
+          "phuongAn": [
+            "\"Em là người không biết tôn trọng khách hàng và đồng nghiệp.\"",
+            "\"Em vào họp trễ 15 phút, lúc khách đã trình bày xong phần đầu.\"",
+            "\"Em có vẻ chẳng quan tâm gì đến cuộc họp quan trọng này.\"",
+            "\"Em lúc nào cũng lề mề, chẳng bao giờ chịu đúng giờ cả.\""
+          ],
+          "dung": 1,
+          "giai": "Hành vi trong SBI phải là điều quan sát được, kiểm chứng được, không suy diễn động cơ hay dán nhãn tính cách như \"thiếu tôn trọng\", \"lề mề\"."
+        },
+        {
+          "hoi": "Theo Amy Edmondson, \"an toàn tâm lý\" (psychological safety) trong đội ngũ nghĩa là gì?",
+          "phuongAn": [
+            "Dám nêu ý kiến, nhận sai mà không sợ bị trừng phạt hay bẽ mặt",
+            "Nhân viên được công ty cam kết không bao giờ bị cho nghỉ việc",
+            "Mọi người luôn đồng ý với nhau để tránh mọi xung đột trong nhóm",
+            "Công ty có gói bảo hiểm chăm sóc sức khoẻ tinh thần"
+          ],
+          "dung": 0,
+          "giai": "Amy Edmondson định nghĩa an toàn tâm lý là niềm tin chung rằng nhóm đủ an toàn để chấp nhận rủi ro giao tiếp: đặt câu hỏi, góp ý, thừa nhận sai sót."
+        },
+        {
+          "hoi": "Quản lý giao việc qua nhóm chat, mỗi người hiểu một kiểu. Cách khắc phục tốt nhất là gì?",
+          "phuongAn": [
+            "Gửi thêm biểu tượng cảm xúc cho tin nhắn thêm thân thiện",
+            "Để các nhân viên tự trao đổi với nhau cho hiểu",
+            "Chốt bằng văn bản: ai làm gì, kết quả ra sao, hạn khi nào",
+            "Bỏ hẳn nhắn tin, chuyển toàn bộ sang gọi điện"
+          ],
+          "dung": 2,
+          "giai": "Giao việc hiệu quả cần rõ người phụ trách, kết quả mong đợi và thời hạn. Tin nhắn chốt việc tạo điểm tham chiếu chung, tránh mỗi người hiểu một kiểu."
+        },
+        {
+          "hoi": "Vì sao cách góp ý \"bánh sandwich\" (khen – chê – khen) thường bị các chuyên gia phê bình?",
+          "phuongAn": [
+            "Góp ý chính dễ bị lu mờ, lời khen bị xem là chiêu rào đón",
+            "Pháp luật lao động không cho phép chê nhân viên trực tiếp",
+            "Cấu trúc quá ngắn khiến người nghe không kịp hiểu",
+            "Cách này chỉ dùng được khi phản hồi bằng văn bản"
+          ],
+          "dung": 0,
+          "giai": "Kẹp góp ý giữa hai lời khen dễ làm thông điệp chính bị lu mờ, lâu dần nhân viên nghi ngờ mọi lời khen. Nên tách riêng khen thật và góp ý cụ thể."
+        },
+        {
+          "hoi": "Mô hình \"Cửa sổ Johari\" giúp cải thiện giao tiếp trong đội ngũ bằng cách nào?",
+          "phuongAn": [
+            "Phân loại nhân viên thành 4 nhóm tính cách cố định, khó đổi",
+            "Chia thông tin công ty thành 4 cấp độ bảo mật",
+            "Xếp hạng nhân viên theo mức hướng nội, hướng ngoại",
+            "Mở rộng vùng \"mở\" nhờ chia sẻ bản thân và nhận phản hồi"
+          ],
+          "dung": 3,
+          "giai": "Cửa sổ Johari có 4 vùng: mở, mù, ẩn, chưa biết. Tự bộc lộ thu hẹp vùng ẩn, nhận phản hồi thu hẹp vùng mù, nhờ đó vùng mở rộng ra, giao tiếp tin cậy hơn."
+        }
+      ]
+    },
+    {
+      "ma": "nhan-su-lanh-dao-10",
+      "ten": "Giữ chân nhân tài và xử lý xung đột",
+      "moTa": "Phỏng vấn thôi việc, phỏng vấn giữ chân, mô hình Thomas–Kilmann và cách hoà giải mâu thuẫn trong đội ngũ.",
+      "cau": [
+        {
+          "hoi": "\"Phỏng vấn thôi việc\" (exit interview) nhằm mục đích chính là gì?",
+          "phuongAn": [
+            "Thuyết phục bằng mọi giá để nhân viên rút lại đơn xin nghỉ",
+            "Kiểm tra nhân viên có mang tài sản công ty về không",
+            "Tìm hiểu lý do nghỉ để cải thiện môi trường cho người ở lại",
+            "Yêu cầu nhân viên ký cam kết không làm cho đối thủ cạnh tranh"
+          ],
+          "dung": 2,
+          "giai": "Exit interview thu thập phản hồi thẳng thắn từ người sắp nghỉ (về quản lý, lương, văn hoá…) để doanh nghiệp phát hiện và khắc phục nguyên nhân nghỉ việc."
+        },
+        {
+          "hoi": "\"Phỏng vấn giữ chân\" (stay interview) khác phỏng vấn thôi việc ở điểm nào?",
+          "phuongAn": [
+            "Chỉ thực hiện sau khi nhân viên đã nộp đơn xin nghỉ việc",
+            "Do công ty săn đầu người bên ngoài thực hiện",
+            "Chỉ dành riêng cho nhân viên đang trong thời gian thử việc",
+            "Làm với nhân viên đang gắn bó, trước khi họ có ý định nghỉ"
+          ],
+          "dung": 3,
+          "giai": "Stay interview hỏi nhân viên hiện tại: điều gì giữ bạn ở lại, điều gì có thể khiến bạn ra đi. Cách này chủ động hơn nhiều so với chờ họ nộp đơn."
+        },
+        {
+          "hoi": "Câu nói phổ biến trong quản trị nhân sự \"Nhân viên không rời bỏ công ty, họ rời bỏ…\" thường kết thúc thế nào?",
+          "phuongAn": [
+            "…mức lương thấp hơn mặt bằng thị trường",
+            "…người quản lý trực tiếp của họ",
+            "…những đồng nghiệp cùng phòng",
+            "…văn phòng làm việc chật chội"
+          ],
+          "dung": 1,
+          "giai": "Câu nói nhấn mạnh vai trò người quản lý trực tiếp: cách họ đối xử, ghi nhận, hỗ trợ nhân viên ảnh hưởng mạnh đến quyết định ở lại hay ra đi."
+        },
+        {
+          "hoi": "Khi hai nhân viên mâu thuẫn với nhau, bước đầu tiên người quản lý nên làm là gì?",
+          "phuongAn": [
+            "Lắng nghe riêng từng người để hiểu rõ sự việc và quan điểm",
+            "Kỷ luật cả hai người ngay lập tức để làm gương cho người khác",
+            "Đứng về phía người có thâm niên làm việc lâu hơn",
+            "Làm như không biết, chờ mâu thuẫn tự lắng xuống"
+          ],
+          "dung": 0,
+          "giai": "Trước khi xử lý cần hiểu đúng bản chất: nghe riêng từng bên giúp họ nói thật, tránh đối đầu và giúp quản lý không phán xét vội vàng."
+        },
+        {
+          "hoi": "Mô hình Thomas–Kilmann (TKI) mô tả bao nhiêu phong cách xử lý xung đột?",
+          "phuongAn": [
+            "3 phong cách: tấn công, phòng thủ và rút lui",
+            "5 phong cách: cạnh tranh, hợp tác, thoả hiệp, né tránh, nhượng bộ",
+            "4 phong cách: thắng–thắng, thắng–thua, thua–thắng, thua–thua",
+            "2 phong cách: đối đầu trực tiếp và né tránh xung đột"
+          ],
+          "dung": 1,
+          "giai": "Thomas–Kilmann dựa trên hai trục quyết đoán và hợp tác, gồm 5 phong cách: Cạnh tranh, Hợp tác, Thoả hiệp, Né tránh và Nhượng bộ."
+        },
+        {
+          "hoi": "Theo Thomas–Kilmann, phong cách nào vừa quyết đoán cao vừa hợp tác cao, hướng tới \"đôi bên cùng thắng\"?",
+          "phuongAn": [
+            "Thoả hiệp (Compromising)",
+            "Nhượng bộ (Accommodating)",
+            "Hợp tác (Collaborating)",
+            "Cạnh tranh (Competing)"
+          ],
+          "dung": 2,
+          "giai": "Hợp tác là cùng đào sâu nhu cầu thật của hai bên để tìm giải pháp thoả mãn cả hai. Thoả hiệp chỉ ở mức trung bình: mỗi bên nhường một phần."
+        },
+        {
+          "hoi": "Nhân viên giỏi xin nghỉ vì không thấy lộ trình phát triển. Biện pháp giữ chân bền vững nhất là gì?",
+          "phuongAn": [
+            "Cùng xây lộ trình phát triển rõ ràng và giao thử thách mới",
+            "Tăng lương gấp đôi ngay lập tức để nhân viên rút đơn",
+            "Nhắc nhân viên về các khoá đào tạo công ty đã bỏ tiền tài trợ",
+            "Hứa sẽ thăng chức sau này nhưng chưa nói rõ khi nào"
+          ],
+          "dung": 0,
+          "giai": "Khi lý do nghỉ là thiếu phát triển, tăng lương chỉ giữ chân tạm thời. Lộ trình rõ ràng và thử thách mới giải quyết đúng nguyên nhân gốc."
+        },
+        {
+          "hoi": "Theo Thomas–Kilmann, phong cách \"Né tránh\" có thể là lựa chọn hợp lý trong trường hợp nào?",
+          "phuongAn": [
+            "Vấn đề nghiêm trọng liên quan trực tiếp đến an toàn lao động",
+            "Xung đột lặp lại nhiều lần giữa hai trưởng bộ phận",
+            "Cần quyết định gấp liên quan tới một khách hàng lớn",
+            "Vấn đề nhỏ, hoặc cần thời gian để hai bên nguôi cảm xúc"
+          ],
+          "dung": 3,
+          "giai": "Né tránh phù hợp khi vấn đề không quan trọng hoặc cảm xúc đang căng, cần tạm dừng. Vấn đề nghiêm trọng, lặp lại hay cấp bách mà né tránh sẽ càng tệ hơn."
+        },
+        {
+          "hoi": "Loại bất đồng nào, nếu ở mức vừa phải và được quản lý tốt, có thể giúp đội ngũ ra quyết định tốt hơn?",
+          "phuongAn": [
+            "Xung đột cá nhân, công kích lẫn nhau",
+            "Tranh giành quyền lợi riêng giữa các phe nhóm",
+            "Bất đồng về cách làm, ý tưởng cho công việc",
+            "Mâu thuẫn âm ỉ kéo dài không ai lên tiếng"
+          ],
+          "dung": 2,
+          "giai": "Bất đồng về nhiệm vụ buộc nhóm cân nhắc nhiều phương án và phát hiện điểm yếu của kế hoạch; ngược lại, xung đột quan hệ cá nhân thường làm giảm hiệu quả và sự gắn kết."
+        },
+        {
+          "hoi": "Trưởng Kinh doanh muốn giao hàng gấp, trưởng Sản xuất muốn giữ lịch để bảo đảm chất lượng. Cách xử lý tốt nhất là gì?",
+          "phuongAn": [
+            "Đưa về mục tiêu chung, tìm cách đáp ứng cả tiến độ và chất lượng",
+            "Giám đốc chọn ngay phía Kinh doanh vì khách hàng là ưu tiên",
+            "Để hai bên tự tranh luận, bên nào thuyết phục hơn thì bên đó thắng",
+            "Chia đôi cho xong: nửa số đơn giao gấp, nửa còn lại theo lịch cũ"
+          ],
+          "dung": 0,
+          "giai": "Xung đột liên phòng ban thường do mục tiêu riêng khác nhau. Đưa về mục tiêu chung và cùng tìm giải pháp tốt hơn việc chọn phe hay chia đôi cho xong chuyện."
+        }
+      ]
+    }
+  ]
+}

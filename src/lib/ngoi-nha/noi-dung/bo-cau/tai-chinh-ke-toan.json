@@ -1,0 +1,681 @@
+{
+  "chuDe": "tai-chinh-ke-toan",
+  "ten": "Tài chính, kế toán & thuế",
+  "bo": [
+    {
+      "ma": "tai-chinh-ke-toan-01",
+      "ten": "Ba báo cáo tài chính cốt lõi",
+      "moTa": "Bảng cân đối kế toán, báo cáo kết quả kinh doanh và báo cáo lưu chuyển tiền tệ.",
+      "cau": [
+        {
+          "hoi": "Báo cáo nào cho biết tài sản, nợ phải trả và vốn chủ sở hữu của doanh nghiệp tại một thời điểm?",
+          "phuongAn": ["Báo cáo kết quả hoạt động kinh doanh", "Bảng cân đối kế toán", "Báo cáo lưu chuyển tiền tệ", "Bảng tính giá thành sản phẩm"],
+          "dung": 1,
+          "giai": "Bảng cân đối kế toán (còn gọi là báo cáo tình hình tài chính) phản ánh tài sản và nguồn vốn tại một thời điểm, thường là ngày cuối kỳ."
+        },
+        {
+          "hoi": "Phương trình kế toán cơ bản thể hiện trên bảng cân đối kế toán là gì?",
+          "phuongAn": ["Tài sản = Nợ phải trả + Vốn chủ sở hữu", "Doanh thu = Chi phí + Lợi nhuận", "Tài sản = Doanh thu − Chi phí", "Vốn chủ sở hữu = Tài sản + Nợ phải trả"],
+          "dung": 0,
+          "giai": "Mọi tài sản đều được tài trợ bằng nợ phải trả hoặc vốn của chủ sở hữu, nên tổng tài sản luôn bằng tổng nợ phải trả cộng vốn chủ sở hữu."
+        },
+        {
+          "hoi": "Báo cáo kết quả hoạt động kinh doanh phản ánh nội dung nào?",
+          "phuongAn": ["Số dư tiền mặt và tiền gửi cuối kỳ", "Tài sản và nguồn vốn tại ngày cuối kỳ", "Doanh thu, chi phí và lãi lỗ trong một kỳ", "Danh sách cổ đông và tỷ lệ sở hữu"],
+          "dung": 2,
+          "giai": "Báo cáo kết quả hoạt động kinh doanh tổng hợp doanh thu, chi phí và lợi nhuận hoặc lỗ phát sinh trong một khoảng thời gian như quý, năm."
+        },
+        {
+          "hoi": "Báo cáo lưu chuyển tiền tệ chia dòng tiền thành những nhóm hoạt động nào?",
+          "phuongAn": ["Sản xuất, bán hàng và quản lý", "Ngắn hạn, trung hạn và dài hạn", "Tiền mặt, tiền gửi và tương đương tiền", "Kinh doanh, đầu tư và tài chính"],
+          "dung": 3,
+          "giai": "Dòng tiền được trình bày theo ba nhóm: hoạt động kinh doanh, hoạt động đầu tư và hoạt động tài chính."
+        },
+        {
+          "hoi": "Doanh nghiệp chi 2 tỷ đồng mua dây chuyền sản xuất mới. Khoản chi này nằm ở nhóm nào trên báo cáo lưu chuyển tiền tệ?",
+          "phuongAn": ["Lưu chuyển tiền từ hoạt động kinh doanh", "Lưu chuyển tiền từ hoạt động đầu tư", "Lưu chuyển tiền từ hoạt động tài chính", "Không trình bày trên báo cáo này"],
+          "dung": 1,
+          "giai": "Mua sắm tài sản cố định như máy móc, dây chuyền là dòng tiền chi cho hoạt động đầu tư."
+        },
+        {
+          "hoi": "Doanh nghiệp vay ngân hàng 1 tỷ đồng và đã nhận tiền vào tài khoản. Bảng cân đối kế toán thay đổi thế nào?",
+          "phuongAn": ["Tiền tăng 1 tỷ, vốn chủ sở hữu tăng 1 tỷ", "Tiền tăng 1 tỷ, lợi nhuận tăng 1 tỷ", "Tiền tăng 1 tỷ, nợ phải trả tăng 1 tỷ", "Chỉ tiền tăng, nguồn vốn giữ nguyên"],
+          "dung": 2,
+          "giai": "Khoản vay làm tài sản (tiền) và nợ phải trả cùng tăng 1 tỷ đồng; vốn chủ sở hữu và lợi nhuận không thay đổi."
+        },
+        {
+          "hoi": "Lợi nhuận sau thuế trên báo cáo kết quả kinh doanh được chuyển vào chỉ tiêu nào trên bảng cân đối kế toán?",
+          "phuongAn": ["Lợi nhuận sau thuế chưa phân phối", "Vốn góp của chủ sở hữu", "Tiền và các khoản tương đương tiền", "Phải thu ngắn hạn của khách hàng"],
+          "dung": 0,
+          "giai": "Lợi nhuận sau thuế của kỳ được cộng vào chỉ tiêu lợi nhuận sau thuế chưa phân phối thuộc vốn chủ sở hữu; đây là mắt xích nối hai báo cáo."
+        },
+        {
+          "hoi": "Khoản mục nào làm giảm lợi nhuận trên báo cáo kết quả kinh doanh nhưng KHÔNG làm giảm tiền trong kỳ?",
+          "phuongAn": ["Tiền lương trả cho nhân viên", "Tiền thuê mặt bằng trả hằng tháng", "Chi phí khấu hao tài sản cố định", "Tiền điện nước thanh toán trong kỳ"],
+          "dung": 2,
+          "giai": "Khấu hao là phân bổ giá trị tài sản đã mua trước đó vào chi phí, không phát sinh khoản chi tiền nào trong kỳ ghi nhận."
+        },
+        {
+          "hoi": "Công ty bán chịu lô hàng giá 500 triệu, giá vốn 300 triệu, khách chưa trả tiền. Bỏ qua thuế, tác động nào là đúng?",
+          "phuongAn": ["Lợi nhuận tăng 200 triệu, tiền tăng 500 triệu", "Lợi nhuận tăng 200 triệu, tiền không đổi", "Lợi nhuận không đổi, phải thu tăng 500 triệu", "Lợi nhuận tăng 500 triệu, tồn kho giảm 300 triệu"],
+          "dung": 1,
+          "giai": "Doanh thu 500 triệu trừ giá vốn 300 triệu cho lợi nhuận 200 triệu; khách chưa trả nên tiền không đổi, phải thu khách hàng tăng 500 triệu."
+        },
+        {
+          "hoi": "Trên bảng cân đối kế toán, tài sản được xếp vào nhóm “ngắn hạn” khi dự kiến thu hồi hoặc sử dụng trong thời gian nào?",
+          "phuongAn": [
+            "Trong vòng 1 tháng",
+            "Trong vòng 5 năm",
+            "Trong vòng 3 năm",
+            "Trong 12 tháng hoặc một chu kỳ kinh doanh thông thường"
+          ],
+          "dung": 3,
+          "giai": "Tài sản ngắn hạn như tiền, phải thu, hàng tồn kho được thu hồi hoặc sử dụng trong 12 tháng hoặc một chu kỳ kinh doanh; máy móc, nhà xưởng dùng lâu hơn là tài sản dài hạn."
+        }
+      ]
+    },
+    {
+      "ma": "tai-chinh-ke-toan-02",
+      "ten": "Chỉ số ROE, ROA, biên lợi nhuận và thanh toán",
+      "moTa": "Đọc nhanh sức khỏe doanh nghiệp qua các chỉ số sinh lời và khả năng thanh toán.",
+      "cau": [
+        {
+          "hoi": "ROE (tỷ suất lợi nhuận trên vốn chủ sở hữu) được tính như thế nào?",
+          "phuongAn": ["Lợi nhuận gộp chia doanh thu thuần", "Lợi nhuận sau thuế chia tổng tài sản", "Lợi nhuận sau thuế chia vốn chủ sở hữu", "Doanh thu thuần chia vốn chủ sở hữu"],
+          "dung": 2,
+          "giai": "ROE = Lợi nhuận sau thuế / Vốn chủ sở hữu (thường lấy bình quân), cho biết mỗi đồng vốn của chủ tạo ra bao nhiêu đồng lợi nhuận."
+        },
+        {
+          "hoi": "Công ty có lợi nhuận sau thuế 1 tỷ đồng, tổng tài sản bình quân 20 tỷ đồng. ROA là bao nhiêu?",
+          "phuongAn": ["5%", "20%", "2%", "10%"],
+          "dung": 0,
+          "giai": "ROA = Lợi nhuận sau thuế / Tổng tài sản bình quân = 1 / 20 = 5%."
+        },
+        {
+          "hoi": "Doanh thu thuần 10 tỷ đồng, giá vốn hàng bán 7 tỷ đồng. Biên lợi nhuận gộp là bao nhiêu?",
+          "phuongAn": ["70%", "43%", "7%", "30%"],
+          "dung": 3,
+          "giai": "Lợi nhuận gộp = 10 − 7 = 3 tỷ đồng. Biên lợi nhuận gộp = 3 / 10 = 30%."
+        },
+        {
+          "hoi": "Hệ số khả năng thanh toán hiện hành được tính bằng công thức nào?",
+          "phuongAn": ["Tổng tài sản chia tổng nợ phải trả", "Tài sản ngắn hạn chia nợ ngắn hạn", "Tiền mặt chia nợ dài hạn", "Nợ ngắn hạn chia vốn chủ sở hữu"],
+          "dung": 1,
+          "giai": "Hệ số thanh toán hiện hành = Tài sản ngắn hạn / Nợ ngắn hạn, đo khả năng dùng tài sản ngắn hạn để trả các khoản nợ đến hạn trong vòng 12 tháng."
+        },
+        {
+          "hoi": "Hệ số thanh toán hiện hành của doanh nghiệp là 0,7. Điều này thường cho thấy gì?",
+          "phuongAn": ["Doanh nghiệp đang có biên lợi nhuận rất cao", "Tài sản ngắn hạn không đủ bù nợ ngắn hạn", "Doanh nghiệp không vay nợ ngân hàng", "Vốn chủ sở hữu lớn hơn tổng tài sản"],
+          "dung": 1,
+          "giai": "Hệ số dưới 1 nghĩa là tài sản ngắn hạn nhỏ hơn nợ ngắn hạn, doanh nghiệp có nguy cơ gặp áp lực thanh toán khi các khoản nợ đến hạn."
+        },
+        {
+          "hoi": "Tài sản ngắn hạn 6 tỷ, trong đó hàng tồn kho 2 tỷ; nợ ngắn hạn 4 tỷ đồng. Hệ số khả năng thanh toán nhanh là bao nhiêu?",
+          "phuongAn": ["1,5", "0,5", "1,0", "2,0"],
+          "dung": 2,
+          "giai": "Hệ số thanh toán nhanh = (Tài sản ngắn hạn − Hàng tồn kho) / Nợ ngắn hạn = (6 − 2) / 4 = 1,0."
+        },
+        {
+          "hoi": "Vì sao hệ số thanh toán nhanh loại hàng tồn kho ra khỏi tử số?",
+          "phuongAn": ["Hàng tồn kho không ghi trên bảng cân đối", "Hàng tồn kho luôn bị định giá quá thấp", "Hàng tồn kho thuộc nhóm tài sản dài hạn", "Hàng tồn kho thường khó chuyển thành tiền nhanh"],
+          "dung": 3,
+          "giai": "Hàng tồn kho cần thời gian bán và thu tiền, có thể phải giảm giá, nên bị loại ra để đo khả năng trả nợ ngay bằng tài sản dễ chuyển thành tiền."
+        },
+        {
+          "hoi": "Theo mô hình DuPont, ROE được tách thành tích của ba yếu tố nào?",
+          "phuongAn": ["Biên lợi nhuận ròng, vòng quay tài sản, đòn bẩy tài chính", "Biên lợi nhuận gộp, vòng quay tồn kho, lãi suất vay", "Tăng trưởng doanh thu, ROA, hệ số thanh toán", "Lợi nhuận gộp, chi phí bán hàng, thuế TNDN"],
+          "dung": 0,
+          "giai": "ROE = (LNST/Doanh thu) × (Doanh thu/Tổng tài sản) × (Tổng tài sản/Vốn chủ sở hữu), tức biên lợi nhuận ròng × vòng quay tài sản × đòn bẩy."
+        },
+        {
+          "hoi": "Hai công ty có cùng ROA 5%. Công ty A có ROE 25%, công ty B có ROE 8%. Nhận định nào hợp lý nhất?",
+          "phuongAn": ["Công ty A có biên lợi nhuận gộp cao hơn B", "Công ty A quản lý hàng tồn kho tốt hơn B", "Công ty A dùng đòn bẩy tài chính cao hơn B", "Công ty A có khả năng thanh toán tốt hơn B"],
+          "dung": 2,
+          "giai": "ROE / ROA = Tổng tài sản / Vốn chủ sở hữu. Hệ số này ở A là 5 lần, ở B là 1,6 lần, nên A dùng nhiều nợ trên vốn chủ hơn: ROE cao hơn nhưng rủi ro tài chính lớn hơn."
+        },
+        {
+          "hoi": "Lợi nhuận trước lãi vay và thuế (EBIT) 3 tỷ, chi phí lãi vay 1,2 tỷ đồng. Hệ số khả năng trả lãi vay là bao nhiêu?",
+          "phuongAn": ["0,4 lần", "1,8 lần", "3,6 lần", "2,5 lần"],
+          "dung": 3,
+          "giai": "Hệ số khả năng trả lãi vay = EBIT / Chi phí lãi vay = 3 / 1,2 = 2,5 lần; lợi nhuận hoạt động đủ trang trải lãi vay 2,5 lần."
+        }
+      ]
+    },
+    {
+      "ma": "tai-chinh-ke-toan-03",
+      "ten": "Dòng tiền và vốn lưu động",
+      "moTa": "Giữ tiền chảy đều: công nợ, tồn kho, chu kỳ tiền mặt và dự báo dòng tiền.",
+      "cau": [
+        {
+          "hoi": "Vốn lưu động ròng của doanh nghiệp được tính như thế nào?",
+          "phuongAn": ["Tổng tài sản trừ tổng nợ phải trả", "Tài sản ngắn hạn trừ nợ ngắn hạn", "Doanh thu thuần trừ giá vốn hàng bán", "Tiền mặt trừ các khoản vay dài hạn"],
+          "dung": 1,
+          "giai": "Vốn lưu động ròng = Tài sản ngắn hạn − Nợ ngắn hạn, cho biết phần tài sản ngắn hạn còn lại sau khi đã trừ các nghĩa vụ nợ ngắn hạn."
+        },
+        {
+          "hoi": "Biện pháp nào sau đây giúp doanh nghiệp cải thiện dòng tiền?",
+          "phuongAn": ["Kéo dài thời hạn cho khách hàng nợ", "Tăng lượng hàng dự trữ trong kho", "Đẩy nhanh thu hồi công nợ phải thu", "Trả tiền nhà cung cấp sớm hơn hạn"],
+          "dung": 2,
+          "giai": "Thu hồi công nợ sớm biến khoản phải thu thành tiền. Ba cách còn lại đều khiến tiền bị giữ lại lâu hơn hoặc phải chi ra sớm hơn."
+        },
+        {
+          "hoi": "Dòng tiền tự do (free cash flow) của doanh nghiệp thường được tính bằng cách nào?",
+          "phuongAn": ["Lợi nhuận gộp trừ chi phí bán hàng và quản lý", "Doanh thu trừ toàn bộ chi phí đã chi bằng tiền", "Tiền cuối kỳ trừ tiền đầu kỳ trên báo cáo", "Dòng tiền kinh doanh trừ chi đầu tư tài sản cố định"],
+          "dung": 3,
+          "giai": "Dòng tiền tự do = Dòng tiền thuần từ hoạt động kinh doanh − Chi đầu tư tài sản cố định; đây là phần tiền có thể dùng trả nợ, chia cổ tức hoặc mở rộng."
+        },
+        {
+          "hoi": "Khi doanh nghiệp giảm lượng hàng tồn kho dư thừa, tác động trực tiếp tới dòng tiền là gì?",
+          "phuongAn": ["Giải phóng tiền đang bị giữ trong kho", "Làm tăng nợ phải trả người bán", "Làm tăng chi phí khấu hao trong kỳ", "Làm giảm vốn chủ sở hữu ngay lập tức"],
+          "dung": 0,
+          "giai": "Hàng tồn kho là tiền đã chi ra nhưng chưa thu về. Giảm tồn kho dư thừa giúp chuyển hàng thành tiền và giảm chi phí lưu kho."
+        },
+        {
+          "hoi": "Số ngày tồn kho 60, số ngày thu tiền khách hàng 45, số ngày trả tiền nhà cung cấp 30. Chu kỳ chuyển đổi tiền mặt là bao nhiêu ngày?",
+          "phuongAn": ["135 ngày", "75 ngày", "45 ngày", "105 ngày"],
+          "dung": 1,
+          "giai": "Chu kỳ chuyển đổi tiền mặt = Số ngày tồn kho + Số ngày thu tiền − Số ngày trả tiền = 60 + 45 − 30 = 75 ngày."
+        },
+        {
+          "hoi": "Doanh thu năm 3,65 tỷ đồng, phải thu khách hàng bình quân 500 triệu đồng. Kỳ thu tiền bình quân khoảng bao nhiêu ngày?",
+          "phuongAn": ["36 ngày", "73 ngày", "50 ngày", "100 ngày"],
+          "dung": 2,
+          "giai": "Doanh thu bình quân mỗi ngày = 3.650 triệu / 365 = 10 triệu đồng. Kỳ thu tiền bình quân = 500 / 10 = 50 ngày."
+        },
+        {
+          "hoi": "Vì sao doanh nghiệp tăng trưởng doanh số quá nhanh có thể thiếu tiền dù vẫn đang có lãi?",
+          "phuongAn": ["Lợi nhuận tăng làm thuế phải nộp ngay lập tức", "Cần nhiều tiền hơn cho tồn kho và công nợ phải thu", "Ngân hàng ngừng cho vay khi doanh số tăng", "Khấu hao tăng làm tiền mặt giảm theo"],
+          "dung": 1,
+          "giai": "Bán nhiều hơn thường phải mua thêm nguyên liệu, trữ thêm hàng và cho khách nợ nhiều hơn trước khi thu được tiền, làm vốn lưu động bị kéo căng."
+        },
+        {
+          "hoi": "Doanh nghiệp lập dự báo dòng tiền theo tuần hoặc theo tháng chủ yếu để làm gì?",
+          "phuongAn": ["Thay thế báo cáo tài chính năm", "Tính chính xác thuế TNDN phải nộp", "Phát hiện sớm thời điểm thiếu hụt tiền", "Xác định giá trị thị trường của công ty"],
+          "dung": 2,
+          "giai": "Dự báo dòng tiền cho biết trước tuần, tháng nào có thể thiếu tiền để chủ động thu nợ sớm, đàm phán giãn thời hạn thanh toán hoặc thu xếp hạn mức vay."
+        },
+        {
+          "hoi": "Nhà cung cấp cho chiết khấu 2% nếu trả trong 10 ngày, hạn thanh toán 30 ngày. Bỏ qua chiết khấu tương đương chi phí vốn khoảng bao nhiêu mỗi năm?",
+          "phuongAn": ["Khoảng 2%/năm", "Khoảng 12%/năm", "Khoảng 24%/năm", "Khoảng 37%/năm"],
+          "dung": 3,
+          "giai": "Trả chậm thêm 20 ngày phải bỏ 2%: 2/98 × 365/20 ≈ 37%/năm, cao hơn nhiều lãi vay thông thường, nên tận dụng chiết khấu nếu có nguồn tiền rẻ hơn mức này."
+        },
+        {
+          "hoi": "Công ty nhận đơn hàng lớn: phải trả ngay tiền nguyên liệu, khách thanh toán sau 90 ngày, tiền mặt hiện không đủ. Cách xử lý phù hợp nhất là gì?",
+          "phuongAn": ["Đàm phán khách đặt cọc và thu xếp vốn lưu động", "Nhận đơn và tạm hoãn trả lương nhân viên", "Tạm dùng tiền dành nộp thuế để mua nguyên liệu", "Rút vốn vay dài hạn dành cho xây nhà xưởng"],
+          "dung": 0,
+          "giai": "Tiền đặt cọc giảm nhu cầu vốn, hạn mức vốn lưu động bù phần còn thiếu. Nợ lương, chậm nộp thuế hay dùng sai mục đích vốn vay đều gây rủi ro pháp lý và uy tín."
+        }
+      ]
+    },
+    {
+      "ma": "tai-chinh-ke-toan-04",
+      "ten": "Thẩm định dự án: NPV, IRR, thời gian hoàn vốn",
+      "moTa": "Đánh giá dự án đầu tư bằng giá trị hiện tại ròng, suất sinh lời nội bộ và thời gian hoàn vốn.",
+      "cau": [
+        {
+          "hoi": "Theo nguyên tắc thẩm định phổ biến, một dự án độc lập nên được chấp nhận khi nào?",
+          "phuongAn": ["NPV lớn hơn 0 tại suất chiết khấu phù hợp", "NPV nhỏ hơn 0 tại suất chiết khấu phù hợp", "IRR thấp hơn chi phí sử dụng vốn", "Thời gian hoàn vốn dài hơn vòng đời dự án"],
+          "dung": 0,
+          "giai": "NPV dương nghĩa là dòng tiền của dự án, sau khi quy về hiện tại, vượt số vốn bỏ ra và tạo thêm giá trị cho chủ sở hữu."
+        },
+        {
+          "hoi": "IRR (suất sinh lời nội bộ) của một dự án là gì?",
+          "phuongAn": ["Lãi suất vay ngân hàng để làm dự án", "Suất chiết khấu làm NPV của dự án bằng 0", "Tỷ lệ lợi nhuận gộp trên doanh thu dự án", "Tỷ lệ lạm phát dự kiến trong vòng đời dự án"],
+          "dung": 1,
+          "giai": "IRR là suất chiết khấu tại đó giá trị hiện tại của các dòng tiền vào đúng bằng vốn đầu tư ban đầu, tức NPV bằng 0."
+        },
+        {
+          "hoi": "Dự án đầu tư 600 triệu đồng, mang lại dòng tiền đều 200 triệu đồng mỗi năm. Thời gian hoàn vốn giản đơn là bao lâu?",
+          "phuongAn": ["2 năm", "4 năm", "3 năm", "6 năm"],
+          "dung": 2,
+          "giai": "Thời gian hoàn vốn giản đơn = Vốn đầu tư / Dòng tiền hằng năm = 600 / 200 = 3 năm."
+        },
+        {
+          "hoi": "Nhược điểm lớn của phương pháp thời gian hoàn vốn giản đơn là gì?",
+          "phuongAn": ["Tính toán quá phức tạp với doanh nghiệp nhỏ", "Chỉ dùng được cho dự án bất động sản", "Bắt buộc phải biết IRR trước khi tính", "Không tính đến giá trị thời gian của tiền"],
+          "dung": 3,
+          "giai": "Phương pháp này không chiết khấu dòng tiền và bỏ qua phần dòng tiền phát sinh sau khi đã thu hồi đủ vốn, nên có thể đánh giá sai dự án."
+        },
+        {
+          "hoi": "Với suất chiết khấu 10%/năm, khoản tiền 110 triệu đồng nhận được sau 1 năm có giá trị hiện tại là bao nhiêu?",
+          "phuongAn": ["100 triệu đồng", "99 triệu đồng", "110 triệu đồng", "121 triệu đồng"],
+          "dung": 0,
+          "giai": "Giá trị hiện tại = 110 / (1 + 10%) = 100 triệu đồng."
+        },
+        {
+          "hoi": "Khi tính dòng tiền để thẩm định dự án mới, khoản nào KHÔNG nên đưa vào?",
+          "phuongAn": ["Vốn lưu động tăng thêm cho dự án", "Chi phí khảo sát đã chi, không thu hồi được", "Thu nhập mất đi khi dùng mặt bằng cho dự án", "Thuế TNDN tăng thêm do dự án tạo lợi nhuận"],
+          "dung": 1,
+          "giai": "Chi phí chìm là khoản đã chi, không thu hồi được dù quyết định thế nào, nên không ảnh hưởng quyết định. Chi phí cơ hội và vốn lưu động tăng thêm phải tính."
+        },
+        {
+          "hoi": "Suất chiết khấu dùng để tính NPV của dự án thường dựa trên yếu tố nào?",
+          "phuongAn": ["Tỷ lệ tăng trưởng doanh thu kỳ vọng", "Biên lợi nhuận gộp hiện tại của công ty", "Chi phí sử dụng vốn tương ứng rủi ro dự án", "Lãi suất tiền gửi không kỳ hạn"],
+          "dung": 2,
+          "giai": "Suất chiết khấu phản ánh chi phí sử dụng vốn (nợ và vốn chủ) cùng mức rủi ro của dự án; dự án càng rủi ro càng cần suất chiết khấu cao hơn."
+        },
+        {
+          "hoi": "Hai dự án loại trừ nhau: A có NPV cao hơn, B có IRR cao hơn. Theo nguyên tắc tài chính phổ biến, nên chọn dự án nào?",
+          "phuongAn": ["Dự án B vì IRR luôn đáng tin hơn NPV", "Dự án có thời gian hoàn vốn ngắn hơn", "Dự án có vốn đầu tư ban đầu nhỏ hơn", "Dự án A vì tạo thêm nhiều giá trị hơn"],
+          "dung": 3,
+          "giai": "Khi hai tiêu chí mâu thuẫn ở các dự án loại trừ nhau, NPV được ưu tiên vì đo trực tiếp giá trị tăng thêm bằng tiền cho doanh nghiệp."
+        },
+        {
+          "hoi": "Dự án đầu tư 100 triệu đồng hôm nay, thu về 121 triệu đồng sau đúng 2 năm. Với suất chiết khấu 10%/năm, NPV là bao nhiêu?",
+          "phuongAn": ["Dương 21 triệu đồng", "Dương 10,5 triệu đồng", "Bằng 0", "Âm 21 triệu đồng"],
+          "dung": 2,
+          "giai": "Giá trị hiện tại của 121 triệu = 121 / 1,1² = 100 triệu. NPV = 100 − 100 = 0, nghĩa là IRR của dự án đúng bằng 10%."
+        },
+        {
+          "hoi": "Dự án có IRR 14%, chi phí sử dụng vốn của doanh nghiệp 11%, dòng tiền thông thường (chi trước, thu sau). Kết luận nào đúng?",
+          "phuongAn": ["NPV tại 11% dương, dự án tạo thêm giá trị", "NPV tại 11% âm, nên loại bỏ dự án", "NPV tại 11% bằng 0, dự án chỉ hòa vốn", "Chưa đủ căn cứ để biết dấu của NPV"],
+          "dung": 0,
+          "giai": "Với dòng tiền thông thường, NPV giảm khi suất chiết khấu tăng và bằng 0 tại IRR 14%. Chiết khấu ở 11% thấp hơn IRR nên NPV dương."
+        }
+      ]
+    },
+    {
+      "ma": "tai-chinh-ke-toan-05",
+      "ten": "Chi phí cố định, biến đổi và điểm hòa vốn",
+      "moTa": "Phân loại chi phí, tính số dư đảm phí và sản lượng hòa vốn để quyết định giá và sản lượng.",
+      "cau": [
+        {
+          "hoi": "Khoản nào sau đây là chi phí cố định của một xưởng may trong ngắn hạn?",
+          "phuongAn": ["Vải và phụ liệu cho từng sản phẩm", "Tiền thuê nhà xưởng hằng tháng", "Tiền công khoán theo từng sản phẩm", "Phí vận chuyển theo từng đơn hàng"],
+          "dung": 1,
+          "giai": "Tiền thuê xưởng không đổi dù sản xuất nhiều hay ít trong phạm vi công suất. Vải, công khoán, vận chuyển theo đơn tăng giảm theo sản lượng."
+        },
+        {
+          "hoi": "Số dư đảm phí trên mỗi sản phẩm được tính như thế nào?",
+          "phuongAn": ["Giá bán trừ chi phí biến đổi mỗi sản phẩm", "Giá bán trừ tổng chi phí cố định trong kỳ", "Doanh thu trừ lợi nhuận mong muốn đạt được", "Chi phí cố định chia cho số lượng bán ra"],
+          "dung": 0,
+          "giai": "Số dư đảm phí = Giá bán − Chi phí biến đổi đơn vị; đây là phần mỗi sản phẩm đóng góp để bù chi phí cố định và tạo lợi nhuận."
+        },
+        {
+          "hoi": "Tại điểm hòa vốn, doanh nghiệp ở trạng thái nào?",
+          "phuongAn": ["Doanh thu đạt mức cao nhất trong năm tài chính", "Chi phí biến đổi bằng tổng chi phí cố định", "Tổng doanh thu bằng tổng chi phí, lợi nhuận bằng 0", "Dòng tiền thuần từ kinh doanh đạt mức cao nhất"],
+          "dung": 2,
+          "giai": "Điểm hòa vốn là mức doanh thu hoặc sản lượng mà tổng doanh thu vừa đủ bù tổng chi phí cố định và biến đổi, không lãi cũng không lỗ."
+        },
+        {
+          "hoi": "Khi sản lượng tăng trong phạm vi công suất, chi phí cố định tính trên mỗi sản phẩm thay đổi thế nào?",
+          "phuongAn": ["Tăng lên tương ứng với sản lượng", "Giữ nguyên như khi sản lượng thấp", "Biến động không theo quy luật nào", "Giảm dần khi sản lượng tăng"],
+          "dung": 3,
+          "giai": "Tổng chi phí cố định không đổi nên khi chia cho nhiều sản phẩm hơn, phần gánh trên mỗi sản phẩm giảm; đây là lợi thế theo quy mô."
+        },
+        {
+          "hoi": "Chi phí cố định 300 triệu/tháng, giá bán 500.000 đồng, chi phí biến đổi 300.000 đồng/sản phẩm. Sản lượng hòa vốn mỗi tháng là bao nhiêu?",
+          "phuongAn": ["600 sản phẩm", "1.000 sản phẩm", "1.500 sản phẩm", "3.750 sản phẩm"],
+          "dung": 2,
+          "giai": "Số dư đảm phí mỗi sản phẩm = 500.000 − 300.000 = 200.000 đồng. Sản lượng hòa vốn = 300 triệu / 200.000 = 1.500 sản phẩm."
+        },
+        {
+          "hoi": "Chi phí cố định 200 triệu đồng/tháng, tỷ lệ số dư đảm phí 40%. Doanh thu hòa vốn mỗi tháng là bao nhiêu?",
+          "phuongAn": ["500 triệu đồng", "80 triệu đồng", "280 triệu đồng", "333 triệu đồng"],
+          "dung": 0,
+          "giai": "Doanh thu hòa vốn = Chi phí cố định / Tỷ lệ số dư đảm phí = 200 triệu / 40% = 500 triệu đồng."
+        },
+        {
+          "hoi": "Cửa hàng muốn lãi 100 triệu/tháng. Chi phí cố định 200 triệu, số dư đảm phí 300.000 đồng/sản phẩm. Cần bán bao nhiêu sản phẩm?",
+          "phuongAn": ["667 sản phẩm", "1.000 sản phẩm", "333 sản phẩm", "1.500 sản phẩm"],
+          "dung": 1,
+          "giai": "Sản lượng mục tiêu = (Chi phí cố định + Lợi nhuận mong muốn) / Số dư đảm phí = (200 + 100) triệu / 300.000 = 1.000 sản phẩm."
+        },
+        {
+          "hoi": "Doanh nghiệp có tỷ trọng chi phí cố định cao (đòn bẩy hoạt động lớn) sẽ chịu tác động nào khi doanh thu biến động?",
+          "phuongAn": ["Lợi nhuận hầu như không thay đổi", "Điểm hòa vốn luôn thấp hơn đối thủ", "Chi phí biến đổi đơn vị tăng theo doanh thu", "Lợi nhuận biến động mạnh hơn doanh thu"],
+          "dung": 3,
+          "giai": "Khi chi phí cố định lớn, phần doanh thu tăng thêm chủ yếu chuyển thành lợi nhuận và ngược lại, nên lợi nhuận tăng giảm mạnh hơn tỷ lệ biến động doanh thu."
+        },
+        {
+          "hoi": "Giá bán 1.000.000 đồng, chi phí biến đổi 600.000 đồng/sản phẩm, chi phí cố định 400 triệu. Giảm giá còn 900.000 đồng thì sản lượng hòa vốn thế nào?",
+          "phuongAn": ["Từ 1.000 lên khoảng 1.111 sản phẩm", "Từ 1.000 lên khoảng 1.334 sản phẩm", "Từ 1.000 xuống khoảng 900 sản phẩm", "Giữ nguyên ở mức 1.000 sản phẩm"],
+          "dung": 1,
+          "giai": "Số dư đảm phí giảm từ 400.000 còn 300.000 đồng. Sản lượng hòa vốn tăng từ 400 triệu/400.000 = 1.000 lên 400 triệu/300.000 ≈ 1.333,3, tức phải bán 1.334 sản phẩm."
+        },
+        {
+          "hoi": "Xưởng còn dư công suất. Khách đặt thêm 500 sản phẩm giá 250.000 đồng; chi phí biến đổi 200.000 đồng, giá thành toàn bộ 280.000 đồng. Nên làm gì?",
+          "phuongAn": ["Nhận đơn vì mỗi sản phẩm vẫn đóng góp 50.000 đồng", "Từ chối vì giá bán thấp hơn giá thành toàn bộ", "Từ chối vì làm tăng chi phí cố định của xưởng", "Chỉ nhận đơn khi giá bán từ 280.000 đồng trở lên"],
+          "dung": 0,
+          "giai": "Khi dư công suất, chi phí cố định không tăng thêm. Đơn hàng đóng góp 500 × 50.000 = 25 triệu đồng số dư đảm phí, làm tăng lợi nhuận nếu không ảnh hưởng giá bán thường."
+        }
+      ]
+    },
+    {
+      "ma": "tai-chinh-ke-toan-06",
+      "ten": "Vay vốn ngân hàng: lãi đơn, lãi kép, tín chấp, thế chấp",
+      "moTa": "Hiểu cách tính lãi và các hình thức bảo đảm khi doanh nghiệp đi vay ngân hàng.",
+      "cau": [
+        {
+          "hoi": "Vay tín chấp là hình thức vay như thế nào?",
+          "phuongAn": ["Vay phải thế chấp nhà đất hoặc nhà xưởng", "Vay dựa trên uy tín, không cần tài sản bảo đảm", "Vay phải ký quỹ bằng sổ tiết kiệm tại ngân hàng", "Vay có bên thứ ba cầm cố hàng hóa bảo đảm"],
+          "dung": 1,
+          "giai": "Vay tín chấp dựa vào uy tín, lịch sử tín dụng và khả năng trả nợ của người vay, không yêu cầu tài sản bảo đảm."
+        },
+        {
+          "hoi": "Doanh nghiệp vay 200 triệu đồng, lãi đơn 9%/năm trong 2 năm. Tổng tiền lãi phải trả là bao nhiêu?",
+          "phuongAn": ["18 triệu đồng", "37,62 triệu đồng", "36 triệu đồng", "40 triệu đồng"],
+          "dung": 2,
+          "giai": "Lãi đơn chỉ tính trên tiền gốc: 200 × 9% × 2 = 36 triệu đồng. Con số 37,62 triệu là kết quả nếu tính theo lãi kép."
+        },
+        {
+          "hoi": "Đặc điểm của lãi kép là gì?",
+          "phuongAn": ["Lãi kỳ trước được cộng vào gốc để tính lãi kỳ sau", "Lãi suất được nhân đôi sau mỗi năm vay", "Chỉ tính lãi trên số tiền gốc ban đầu", "Người vay trả lãi cho hai ngân hàng cùng lúc"],
+          "dung": 0,
+          "giai": "Với lãi kép, lãi của mỗi kỳ được nhập vào gốc, nên kỳ sau tính lãi trên số tiền lớn hơn: lãi sinh ra lãi."
+        },
+        {
+          "hoi": "Theo Bộ luật Dân sự 2015, điểm khác cơ bản giữa thế chấp và cầm cố tài sản là gì?",
+          "phuongAn": ["Cầm cố chỉ áp dụng cho bất động sản", "Thế chấp bắt buộc phải là tiền gửi", "Cầm cố không cần lập hợp đồng", "Thế chấp không phải giao tài sản cho bên nhận"],
+          "dung": 3,
+          "giai": "Theo Bộ luật Dân sự 2015, cầm cố là giao tài sản cho bên nhận cầm cố; còn thế chấp thì bên có tài sản không phải giao tài sản cho bên nhận thế chấp."
+        },
+        {
+          "hoi": "Vì sao lãi suất vay tín chấp thường cao hơn lãi suất vay có tài sản thế chấp?",
+          "phuongAn": ["Vì vay tín chấp luôn có thời hạn dài hơn", "Vì ngân hàng chịu rủi ro thu hồi nợ cao hơn", "Vì vay tín chấp được miễn phí thẩm định", "Vì pháp luật quy định lãi tín chấp gấp đôi"],
+          "dung": 1,
+          "giai": "Không có tài sản để xử lý thu hồi nợ khi người vay mất khả năng trả, ngân hàng phải bù rủi ro bằng lãi suất cao hơn."
+        },
+        {
+          "hoi": "Doanh nghiệp vay 100 triệu đồng, lãi kép 10%/năm, trả cả gốc lẫn lãi một lần sau 2 năm. Tổng số tiền phải trả là bao nhiêu?",
+          "phuongAn": ["120 triệu đồng", "110 triệu đồng", "121 triệu đồng", "122 triệu đồng"],
+          "dung": 2,
+          "giai": "Năm 1: 100 × 1,1 = 110 triệu. Năm 2 tính lãi trên 110 triệu: 110 × 1,1 = 121 triệu đồng. Nếu tính lãi đơn chỉ là 120 triệu."
+        },
+        {
+          "hoi": "Khi xét hồ sơ vay, ngân hàng tra cứu thông tin tại CIC (Trung tâm Thông tin tín dụng Quốc gia) nhằm mục đích gì?",
+          "phuongAn": ["Xác minh giấy phép kinh doanh của khách hàng", "Định giá tài sản thế chấp của khách hàng", "Xem lịch sử vay và trả nợ của khách hàng", "Kiểm tra số thuế khách hàng đã nộp trong năm"],
+          "dung": 2,
+          "giai": "CIC lưu thông tin tín dụng như dư nợ, nhóm nợ, lịch sử trả nợ của khách hàng, giúp ngân hàng đánh giá mức độ tin cậy của người vay."
+        },
+        {
+          "hoi": "Doanh nghiệp dùng khoản vay ngắn hạn 6 tháng để xây nhà xưởng dự kiến hoàn vốn trong 7 năm. Rủi ro lớn nhất là gì?",
+          "phuongAn": ["Nợ đến hạn trước khi dự án tạo đủ tiền trả", "Lãi suất ngắn hạn luôn cao hơn dài hạn", "Nhà xưởng không được trích khấu hao", "Doanh nghiệp không được khấu trừ thuế GTGT"],
+          "dung": 0,
+          "giai": "Vay ngắn hạn tài trợ tài sản dài hạn gây lệch kỳ hạn: nợ đến hạn liên tục trong khi tiền từ nhà xưởng về chậm, dễ mất khả năng thanh toán."
+        },
+        {
+          "hoi": "Vay trả góp cùng lãi suất 10%/năm, cùng kỳ hạn. So với tính lãi trên dư nợ giảm dần, cách tính lãi trên dư nợ gốc ban đầu cho tổng tiền lãi thế nào?",
+          "phuongAn": ["Bằng nhau vì cùng mức lãi suất", "Thấp hơn vì tiền lãi được chia đều", "Tùy từng tháng, không so sánh được", "Cao hơn vì lãi luôn tính trên toàn bộ gốc"],
+          "dung": 3,
+          "giai": "Khi trả góp, gốc giảm dần nhưng cách tính trên dư nợ ban đầu vẫn tính lãi trên toàn bộ số tiền vay, nên tổng lãi thực trả cao hơn đáng kể."
+        },
+        {
+          "hoi": "Theo quy tắc 72, một khoản tiền tăng trưởng với lãi kép 8%/năm sẽ tăng gấp đôi sau khoảng bao nhiêu năm?",
+          "phuongAn": ["9 năm", "6 năm", "12,5 năm", "18 năm"],
+          "dung": 0,
+          "giai": "Quy tắc 72: số năm để gấp đôi ≈ 72 / lãi suất = 72 / 8 = 9 năm. Tính chính xác với lãi kép 8%/năm cũng xấp xỉ 9 năm."
+        }
+      ]
+    },
+    {
+      "ma": "tai-chinh-ke-toan-07",
+      "ten": "Nguyên tắc kế toán: dồn tích, thận trọng, khấu hao",
+      "moTa": "Các nguyên tắc nền tảng quyết định doanh thu, chi phí được ghi nhận khi nào và bao nhiêu.",
+      "cau": [
+        {
+          "hoi": "Theo nguyên tắc cơ sở dồn tích, nghiệp vụ kinh tế được ghi sổ kế toán vào thời điểm nào?",
+          "phuongAn": ["Khi thực tế đã thu tiền hoặc đã chi tiền ra", "Khi nghiệp vụ phát sinh, dù đã thu chi tiền hay chưa", "Dồn vào ngày cuối cùng của năm tài chính", "Khi hóa đơn được cơ quan thuế xác nhận"],
+          "dung": 1,
+          "giai": "Chuẩn mực kế toán Việt Nam số 01 (ban hành năm 2002) quy định nghiệp vụ được ghi sổ vào thời điểm phát sinh, không căn cứ vào thời điểm thực tế thu hoặc chi tiền."
+        },
+        {
+          "hoi": "Việc trích lập dự phòng nợ phải thu khó đòi thể hiện nguyên tắc kế toán nào?",
+          "phuongAn": ["Nguyên tắc nhất quán", "Nguyên tắc giá gốc", "Nguyên tắc thận trọng", "Nguyên tắc hoạt động liên tục"],
+          "dung": 2,
+          "giai": "Nguyên tắc thận trọng yêu cầu không đánh giá cao hơn giá trị tài sản; lập dự phòng là ghi nhận trước khoản có thể không thu hồi được."
+        },
+        {
+          "hoi": "Dàn máy may công nghiệp mua 500 triệu đồng, dùng 5 năm, không có giá trị thu hồi, khấu hao đường thẳng. Mức khấu hao mỗi năm là bao nhiêu?",
+          "phuongAn": ["100 triệu đồng", "50 triệu đồng", "125 triệu đồng", "200 triệu đồng"],
+          "dung": 0,
+          "giai": "Khấu hao đường thẳng = Nguyên giá / Số năm sử dụng = 500 / 5 = 100 triệu đồng mỗi năm."
+        },
+        {
+          "hoi": "Nguyên tắc nhất quán trong kế toán yêu cầu điều gì?",
+          "phuongAn": ["Mọi doanh nghiệp phải dùng cùng một phần mềm", "Số liệu các chi nhánh phải bằng nhau mỗi kỳ", "Chỉ ghi nhận doanh thu khi đã thu được tiền", "Áp dụng thống nhất chính sách kế toán qua các kỳ"],
+          "dung": 3,
+          "giai": "Chính sách và phương pháp kế toán đã chọn phải được áp dụng thống nhất ít nhất trong một kỳ kế toán năm; nếu thay đổi phải giải trình lý do và ảnh hưởng."
+        },
+        {
+          "hoi": "Hóa đơn tiền điện tháng 12 được thanh toán vào tháng 1 năm sau. Theo cơ sở dồn tích, chi phí này ghi nhận vào kỳ nào?",
+          "phuongAn": ["Tháng 1 năm sau, khi trả tiền", "Tháng 12, kỳ sử dụng điện", "Chia đều cho tháng 12 và tháng 1", "Không ghi nhận vì đã sang năm mới"],
+          "dung": 1,
+          "giai": "Chi phí được ghi nhận vào kỳ phát sinh, tức tháng 12 khi điện được sử dụng; khoản chưa trả được ghi nhận là nợ phải trả."
+        },
+        {
+          "hoi": "Nguyên tắc phù hợp trong kế toán yêu cầu điều gì?",
+          "phuongAn": ["Chi phí phải phù hợp ngân sách đã duyệt", "Giá bán phải phù hợp với giá thị trường", "Chi phí ghi nhận tương ứng với doanh thu nó tạo ra", "Số liệu kế toán phải khớp số liệu thuế"],
+          "dung": 2,
+          "giai": "Khi ghi nhận một khoản doanh thu thì phải ghi nhận chi phí tương ứng có liên quan đến việc tạo ra doanh thu đó, ví dụ giá vốn của hàng đã bán."
+        },
+        {
+          "hoi": "Nhà xưởng nguyên giá 1,2 tỷ đồng, khấu hao đường thẳng trong 10 năm, không có giá trị thu hồi. Sau 3 năm, giá trị còn lại là bao nhiêu?",
+          "phuongAn": ["360 triệu đồng", "840 triệu đồng", "900 triệu đồng", "1,08 tỷ đồng"],
+          "dung": 1,
+          "giai": "Khấu hao mỗi năm = 1.200 / 10 = 120 triệu. Sau 3 năm hao mòn lũy kế 360 triệu, giá trị còn lại = 1.200 − 360 = 840 triệu đồng."
+        },
+        {
+          "hoi": "So với khấu hao đường thẳng, phương pháp khấu hao theo số dư giảm dần có đặc điểm nào?",
+          "phuongAn": ["Chi phí khấu hao những năm đầu cao hơn", "Tổng khấu hao cả vòng đời lớn hơn nguyên giá", "Mức khấu hao bằng nhau qua các năm", "Không cần xác định thời gian sử dụng"],
+          "dung": 0,
+          "giai": "Số dư giảm dần cho mức khấu hao lớn ở những năm đầu và giảm dần về sau, phù hợp tài sản hao mòn hoặc lạc hậu nhanh về công nghệ."
+        },
+        {
+          "hoi": "Tháng 11, khách chuyển trước 100 triệu đồng cho lô hàng sẽ giao vào tháng 2 năm sau. Tại ngày 31/12, khoản này được trình bày thế nào?",
+          "phuongAn": ["Doanh thu của năm nay", "Khoản phải thu khách hàng", "Vốn góp của chủ sở hữu", "Nợ phải trả: người mua trả tiền trước"],
+          "dung": 3,
+          "giai": "Chưa giao hàng nên chưa đủ điều kiện ghi nhận doanh thu. Doanh nghiệp còn nghĩa vụ giao hàng cho khách nên ghi nhận là khoản nợ phải trả."
+        },
+        {
+          "hoi": "Theo nguyên tắc thận trọng, cách ghi nhận doanh thu và chi phí nào là đúng?",
+          "phuongAn": ["Doanh thu cần chắc chắn; chi phí chỉ cần có khả năng xảy ra", "Doanh thu ghi ngay khi ký hợp đồng với khách hàng", "Chi phí chỉ ghi nhận khi đã chắc chắn chi tiền ra", "Doanh thu và chi phí cần mức chắc chắn như nhau"],
+          "dung": 0,
+          "giai": "Theo VAS 01 (Chuẩn mực chung): doanh thu chỉ ghi nhận khi có bằng chứng chắc chắn thu được lợi ích kinh tế, còn chi phí ghi nhận khi có bằng chứng về khả năng phát sinh."
+        }
+      ]
+    },
+    {
+      "ma": "tai-chinh-ke-toan-08",
+      "ten": "Các loại thuế doanh nghiệp cơ bản",
+      "moTa": "Khái niệm và cách tính cơ bản của thuế GTGT, thuế TNDN, thuế TNCN và thuế tiêu thụ đặc biệt.",
+      "cau": [
+        {
+          "hoi": "Thuế giá trị gia tăng (GTGT) thuộc loại thuế nào và ai là người thực sự chịu thuế?",
+          "phuongAn": ["Thuế trực thu, doanh nghiệp sản xuất chịu", "Thuế gián thu, người tiêu dùng cuối cùng chịu", "Thuế trực thu, người lao động chịu", "Thuế gián thu, nhà cung cấp nguyên liệu chịu"],
+          "dung": 1,
+          "giai": "Thuế GTGT là thuế gián thu, cộng vào giá bán qua từng khâu; doanh nghiệp kê khai, nộp thay, còn người tiêu dùng cuối cùng là người thực sự chịu thuế."
+        },
+        {
+          "hoi": "Thuế thu nhập doanh nghiệp (TNDN) được tính trên cơ sở nào?",
+          "phuongAn": ["Tổng doanh thu bán hàng trong kỳ", "Vốn điều lệ đăng ký của doanh nghiệp", "Thu nhập tính thuế của doanh nghiệp trong kỳ", "Tổng quỹ lương trả cho người lao động"],
+          "dung": 2,
+          "giai": "Thuế TNDN tính trên thu nhập tính thuế, tức thu nhập chịu thuế (doanh thu trừ chi phí được trừ, cộng thu nhập khác) sau khi trừ thu nhập được miễn thuế và lỗ được kết chuyển."
+        },
+        {
+          "hoi": "Với tiền lương trả cho nhân viên, ai có trách nhiệm khấu trừ thuế thu nhập cá nhân trước khi chi trả?",
+          "phuongAn": ["Tổ chức, doanh nghiệp trả thu nhập", "Ngân hàng nơi nhân viên nhận lương", "Công đoàn cơ sở của doanh nghiệp", "Cơ quan bảo hiểm xã hội nơi đóng"],
+          "dung": 0,
+          "giai": "Tổ chức, doanh nghiệp trả tiền lương, tiền công có trách nhiệm khấu trừ thuế thu nhập cá nhân tại nguồn và nộp vào ngân sách thay cho người lao động."
+        },
+        {
+          "hoi": "Thuế tiêu thụ đặc biệt đánh vào nhóm hàng hóa nào sau đây?",
+          "phuongAn": ["Gạo, rau củ và thực phẩm tươi sống", "Sách giáo khoa và dụng cụ học tập", "Thuốc chữa bệnh và thiết bị y tế", "Thuốc lá điếu, rượu và bia"],
+          "dung": 3,
+          "giai": "Thuế tiêu thụ đặc biệt dùng để điều tiết tiêu dùng với hàng hóa, dịch vụ cần hạn chế như thuốc lá, rượu, bia; hàng thiết yếu không thuộc diện chịu thuế này."
+        },
+        {
+          "hoi": "Doanh nghiệp theo phương pháp khấu trừ có thuế GTGT đầu ra 100 triệu, đầu vào được khấu trừ 70 triệu đồng. Thuế GTGT phải nộp là bao nhiêu?",
+          "phuongAn": ["170 triệu đồng", "100 triệu đồng", "70 triệu đồng", "30 triệu đồng"],
+          "dung": 3,
+          "giai": "Theo phương pháp khấu trừ: Thuế GTGT phải nộp = Thuế GTGT đầu ra − Thuế GTGT đầu vào được khấu trừ = 100 − 70 = 30 triệu đồng."
+        },
+        {
+          "hoi": "Theo Luật Thuế TNDN 2025, điều kiện cơ bản để một khoản chi được tính vào chi phí được trừ là gì?",
+          "phuongAn": ["Được giám đốc ký duyệt và ghi nhận đầy đủ vào sổ kế toán", "Chi bằng tiền mặt và có giấy biên nhận ký tên của người nhận", "Thực tế phát sinh, phục vụ kinh doanh, có hóa đơn chứng từ hợp pháp", "Tổng các khoản chi không vượt quá 10% doanh thu cả năm"],
+          "dung": 2,
+          "giai": "Khoản chi được trừ phải thực tế phát sinh, liên quan đến hoạt động sản xuất kinh doanh và có đủ hóa đơn, chứng từ hợp pháp; một số khoản còn phải thanh toán không dùng tiền mặt theo quy định."
+        },
+        {
+          "hoi": "Khoản chi nào sau đây KHÔNG được tính vào chi phí được trừ khi xác định thu nhập chịu thuế TNDN?",
+          "phuongAn": ["Tiền lương trả theo hợp đồng lao động", "Tiền nộp phạt do vi phạm hành chính", "Khấu hao máy móc dùng cho sản xuất", "Tiền thuê văn phòng có hóa đơn hợp lệ"],
+          "dung": 1,
+          "giai": "Tiền phạt vi phạm hành chính không được tính vào chi phí được trừ. Lương, khấu hao, tiền thuê phục vụ sản xuất kinh doanh, có chứng từ hợp lệ thì được trừ."
+        },
+        {
+          "hoi": "Năm trước doanh nghiệp bị lỗ theo quyết toán thuế. Khoản lỗ này được xử lý thế nào khi tính thuế TNDN?",
+          "phuongAn": ["Được chuyển trừ vào thu nhập các năm sau theo luật định", "Được Nhà nước hoàn lại số tiền thuế tương ứng", "Bị xóa bỏ, không được tính cho các năm sau", "Được trừ thẳng vào số thuế GTGT phải nộp kỳ này"],
+          "dung": 0,
+          "giai": "Luật Thuế TNDN 2025 cho phép chuyển lỗ sang trừ vào thu nhập của các năm tiếp theo trong thời hạn luật định; lỗ không được hoàn tiền hay trừ vào loại thuế khác."
+        },
+        {
+          "hoi": "Lợi nhuận kế toán trước thuế 1 tỷ đồng, trong đó đã trừ 50 triệu tiền phạt vi phạm hành chính. Không có điều chỉnh khác, thu nhập tính thuế TNDN là bao nhiêu?",
+          "phuongAn": ["950 triệu đồng", "1 tỷ đồng", "1,05 tỷ đồng", "1,1 tỷ đồng"],
+          "dung": 2,
+          "giai": "Tiền phạt vi phạm hành chính không được trừ nên phải cộng ngược lại: 1.000 + 50 = 1.050 triệu đồng thu nhập tính thuế."
+        },
+        {
+          "hoi": "Điểm khác biệt quan trọng giữa hàng hóa áp thuế suất GTGT 0% và hàng hóa thuộc diện không chịu thuế GTGT là gì?",
+          "phuongAn": ["Hàng 0% được khấu trừ đầu vào, hàng không chịu thuế thì không", "Hàng thuế suất 0% không phải lập hóa đơn khi bán ra", "Hàng không chịu thuế được hoàn toàn bộ thuế đầu vào", "Hai loại giống hệt nhau về quyền khấu trừ và nghĩa vụ"],
+          "dung": 0,
+          "giai": "Theo Luật Thuế GTGT 2024, hàng áp thuế suất 0% (như hàng xuất khẩu) vẫn được khấu trừ thuế đầu vào; hàng không chịu thuế GTGT về nguyên tắc không được khấu trừ."
+        }
+      ]
+    },
+    {
+      "ma": "tai-chinh-ke-toan-09",
+      "ten": "Gọi vốn: thiên thần, quỹ mạo hiểm, IPO, nợ và vốn chủ",
+      "moTa": "Chọn đúng nguồn vốn cho từng giai đoạn và hiểu cái giá của vay nợ so với bán cổ phần.",
+      "cau": [
+        {
+          "hoi": "Nhà đầu tư thiên thần (angel investor) thường là ai?",
+          "phuongAn": ["Cá nhân bỏ tiền riêng vào doanh nghiệp giai đoạn đầu", "Ngân hàng cho doanh nghiệp mới vay ưu đãi", "Quỹ quản lý tiền của nhiều tổ chức đầu tư", "Người mua cổ phiếu trên sàn chứng khoán"],
+          "dung": 0,
+          "giai": "Nhà đầu tư thiên thần là cá nhân, thường có kinh nghiệm kinh doanh, bỏ tiền riêng vào công ty khởi nghiệp giai đoạn sớm để đổi lấy cổ phần."
+        },
+        {
+          "hoi": "IPO là gì?",
+          "phuongAn": ["Phát hành trái phiếu riêng lẻ cho ngân hàng", "Chào bán cổ phiếu lần đầu ra công chúng", "Sáp nhập hai công ty cùng ngành", "Tăng vốn bằng lợi nhuận giữ lại"],
+          "dung": 1,
+          "giai": "IPO (Initial Public Offering) là việc công ty chào bán cổ phiếu lần đầu ra công chúng, thường gắn với niêm yết trên sàn chứng khoán."
+        },
+        {
+          "hoi": "So với vay nợ, huy động vốn bằng cách bán cổ phần có đặc điểm nào?",
+          "phuongAn": ["Phải trả lãi cố định theo kỳ đã thỏa thuận", "Phải hoàn trả toàn bộ gốc khi đến hạn", "Không phải hoàn trả nhưng giảm tỷ lệ sở hữu", "Luôn cần tài sản thế chấp để được góp vốn"],
+          "dung": 2,
+          "giai": "Vốn chủ sở hữu không phải trả lãi hay hoàn gốc theo hạn, nhưng người sáng lập phải chia sẻ quyền sở hữu, lợi nhuận và có thể cả quyền kiểm soát."
+        },
+        {
+          "hoi": "Quỹ đầu tư mạo hiểm (venture capital) thường ưu tiên rót vốn vào doanh nghiệp nào?",
+          "phuongAn": ["Doanh nghiệp ổn định, cổ tức đều hằng năm", "Hộ kinh doanh cần vốn lưu động ngắn hạn", "Doanh nghiệp cần vay có tài sản bảo đảm", "Khởi nghiệp tăng trưởng nhanh, tiềm năng lớn"],
+          "dung": 3,
+          "giai": "Quỹ mạo hiểm chấp nhận rủi ro cao để tìm công ty có khả năng tăng trưởng đột phá, kỳ vọng lợi nhuận lớn khi thoái vốn qua bán lại cổ phần hoặc IPO."
+        },
+        {
+          "hoi": "Nhà đầu tư rót 2 tỷ đồng vào công ty với định giá trước khi góp vốn (pre-money) 8 tỷ đồng. Nhà đầu tư sở hữu bao nhiêu phần trăm?",
+          "phuongAn": ["25%", "20%", "10%", "16%"],
+          "dung": 1,
+          "giai": "Định giá sau góp vốn (post-money) = 8 + 2 = 10 tỷ đồng. Tỷ lệ sở hữu = 2 / 10 = 20%. Con số 25% là do chia nhầm cho 8 tỷ."
+        },
+        {
+          "hoi": "Vì sao chi phí thực của vốn vay sau thuế thường thấp hơn lãi suất ghi trên hợp đồng vay?",
+          "phuongAn": ["Ngân hàng hoàn lại một phần lãi cuối năm", "Lãi vay hợp lệ được trừ khi tính thuế TNDN", "Lạm phát luôn cao hơn lãi suất cho vay", "Lãi vay được khấu trừ vào thuế GTGT"],
+          "dung": 1,
+          "giai": "Lãi vay đủ điều kiện được tính vào chi phí được trừ, làm giảm thuế TNDN phải nộp. Đây gọi là lá chắn thuế, khiến chi phí nợ sau thuế thấp hơn."
+        },
+        {
+          "hoi": "Trước khi rót vốn, nhà đầu tư tiến hành thẩm định chuyên sâu (due diligence) nhằm mục đích gì?",
+          "phuongAn": ["Kiểm tra toàn diện pháp lý, tài chính, vận hành", "Soạn thảo điều lệ mới cho công ty sau gọi vốn", "Quảng bá thương vụ gọi vốn trên truyền thông", "Tính thuế thu nhập cá nhân cho nhà sáng lập"],
+          "dung": 0,
+          "giai": "Thẩm định chuyên sâu giúp nhà đầu tư xác minh thông tin nhà sáng lập cung cấp, phát hiện rủi ro pháp lý, tài chính, vận hành trước khi quyết định rót vốn."
+        },
+        {
+          "hoi": "Doanh nghiệp sản xuất có dòng tiền ổn định, cần vốn mở rộng xưởng và muốn giữ nguyên quyền kiểm soát. Nguồn vốn phù hợp nhất là gì?",
+          "phuongAn": ["Bán 40% cổ phần cho quỹ mạo hiểm", "Kêu gọi thêm nhà đầu tư thiên thần", "Vay trung, dài hạn từ ngân hàng", "Gọi vốn cộng đồng đổi lấy cổ phần"],
+          "dung": 2,
+          "giai": "Dòng tiền ổn định đủ trả nợ và vay không làm pha loãng sở hữu. Bán cổ phần cho quỹ, thiên thần hay cộng đồng đều chia bớt quyền sở hữu và kiểm soát."
+        },
+        {
+          "hoi": "Nhà sáng lập giữ 60% cổ phần. Công ty phát hành cổ phần mới cho nhà đầu tư, sau đó nhà đầu tư chiếm 25%. Tỷ lệ của nhà sáng lập còn bao nhiêu?",
+          "phuongAn": ["35%", "48%", "40%", "45%"],
+          "dung": 3,
+          "giai": "Cổ đông cũ bị pha loãng, cùng nhau còn 75%. Nhà sáng lập giữ 60% × 75% = 45%. Đáp án 35% là do trừ nhầm trực tiếp 25 điểm phần trăm."
+        },
+        {
+          "hoi": "Vì sao chi phí vốn chủ sở hữu thường cao hơn chi phí vay nợ đối với cùng một doanh nghiệp?",
+          "phuongAn": ["Cổ đông chịu rủi ro cao hơn nên đòi lợi nhuận cao hơn", "Cổ đông được ưu tiên thanh toán trước chủ nợ", "Cổ tức được tính vào chi phí được trừ thuế", "Vốn chủ sở hữu phải hoàn trả nhanh hơn nợ"],
+          "dung": 0,
+          "giai": "Cổ đông chỉ nhận phần còn lại sau khi đã trả chủ nợ, cổ tức không cố định và không được trừ khi tính thuế, nên họ đòi suất sinh lời cao hơn lãi vay."
+        }
+      ]
+    },
+    {
+      "ma": "tai-chinh-ke-toan-10",
+      "ten": "Quản trị rủi ro tài chính và bảo hiểm",
+      "moTa": "Nhận diện, đo lường và xử lý rủi ro tỷ giá, tín dụng, thanh khoản và tài sản bằng bảo hiểm.",
+      "cau": [
+        {
+          "hoi": "Doanh nghiệp mua bảo hiểm cháy nổ cho kho hàng là đang áp dụng chiến lược xử lý rủi ro nào?",
+          "phuongAn": ["Né tránh rủi ro", "Chuyển giao rủi ro", "Chấp nhận, giữ lại rủi ro", "Giảm tần suất xảy ra rủi ro"],
+          "dung": 1,
+          "giai": "Mua bảo hiểm là chuyển giao hậu quả tài chính của rủi ro sang doanh nghiệp bảo hiểm, đổi lại doanh nghiệp trả phí bảo hiểm."
+        },
+        {
+          "hoi": "Ma trận rủi ro thường đánh giá mỗi rủi ro theo hai tiêu chí nào?",
+          "phuongAn": ["Chi phí và doanh thu liên quan", "Bộ phận phụ trách và thời hạn xử lý", "Khả năng xảy ra và mức độ ảnh hưởng", "Số lần xảy ra năm trước và năm nay"],
+          "dung": 2,
+          "giai": "Mỗi rủi ro được chấm theo khả năng xảy ra và mức độ ảnh hưởng; rủi ro cao ở cả hai tiêu chí cần được ưu tiên xử lý trước."
+        },
+        {
+          "hoi": "Một khách hàng chiếm 70% doanh thu của công ty. Đây là dấu hiệu của loại rủi ro nào?",
+          "phuongAn": ["Rủi ro tập trung khách hàng", "Rủi ro lãi suất thả nổi", "Rủi ro lạm phát chung", "Rủi ro tỷ giá hối đoái"],
+          "dung": 0,
+          "giai": "Phụ thuộc lớn vào một khách hàng khiến doanh thu và dòng tiền lao dốc nếu khách đó giảm đơn hay chậm trả; nên đa dạng hóa tệp khách hàng."
+        },
+        {
+          "hoi": "Trong hợp đồng bảo hiểm tài sản, 'mức khấu trừ' là gì?",
+          "phuongAn": ["Số phí bảo hiểm được giảm khi gia hạn", "Hoa hồng trả cho đại lý bảo hiểm", "Số tiền tối đa công ty bảo hiểm bồi thường", "Phần tổn thất bên được bảo hiểm tự chịu"],
+          "dung": 3,
+          "giai": "Mức khấu trừ là phần tổn thất người được bảo hiểm tự gánh trong mỗi sự cố; chọn mức khấu trừ cao hơn thường giúp giảm phí bảo hiểm."
+        },
+        {
+          "hoi": "Doanh nghiệp nhập khẩu phải trả 100.000 USD sau 3 tháng và lo ngại tỷ giá tăng. Công cụ phòng ngừa phù hợp là gì?",
+          "phuongAn": ["Ký hợp đồng kỳ hạn mua USD với ngân hàng", "Gửi tiết kiệm VND kỳ hạn 3 tháng", "Mua bảo hiểm hàng hóa vận chuyển", "Vay thêm VND với lãi suất thả nổi"],
+          "dung": 0,
+          "giai": "Hợp đồng kỳ hạn (forward) chốt trước tỷ giá mua USD tại thời điểm thanh toán, giúp doanh nghiệp cố định chi phí nhập khẩu tính bằng VND."
+        },
+        {
+          "hoi": "Điểm khác biệt chính giữa hợp đồng quyền chọn (option) và hợp đồng kỳ hạn (forward) là gì?",
+          "phuongAn": ["Hợp đồng kỳ hạn chỉ dùng cho giao dịch nông sản", "Người mua quyền chọn có quyền, không bắt buộc thực hiện", "Quyền chọn không mất bất kỳ khoản phí nào khi mua", "Hợp đồng kỳ hạn được đơn phương hủy bất cứ lúc nào"],
+          "dung": 1,
+          "giai": "Người mua quyền chọn trả phí để có quyền mua hoặc bán theo giá định trước nhưng không bắt buộc thực hiện; hợp đồng kỳ hạn buộc cả hai bên thực hiện."
+        },
+        {
+          "hoi": "Khách hàng mới đặt đơn hàng lớn và muốn trả chậm 60 ngày. Cách kiểm soát rủi ro tín dụng phù hợp nhất là gì?",
+          "phuongAn": ["Đồng ý ngay để không mất đơn hàng lớn", "Từ chối mọi hình thức bán chịu cho khách", "Tăng mạnh giá bán để bù đắp rủi ro", "Thẩm định, đặt hạn mức, yêu cầu cọc hoặc bảo lãnh"],
+          "dung": 3,
+          "giai": "Thẩm định tín dụng, giới hạn mức nợ và yêu cầu đặt cọc hoặc bảo lãnh thanh toán giúp vẫn bán được hàng mà kiểm soát được nguy cơ mất vốn."
+        },
+        {
+          "hoi": "Biện pháp nào giúp doanh nghiệp giảm rủi ro thanh khoản, tức nguy cơ không đủ tiền trả các khoản nợ đến hạn?",
+          "phuongAn": ["Dùng hết tiền mặt để trả trước nợ dài hạn", "Tăng dự trữ hàng tồn kho để phòng giá tăng", "Duy trì quỹ tiền dự phòng và hạn mức vay chưa dùng", "Kéo dài thời hạn bán chịu cho khách hàng"],
+          "dung": 2,
+          "giai": "Quỹ tiền dự phòng và hạn mức tín dụng chưa sử dụng là tấm đệm khi dòng tiền về chậm. Ba cách còn lại đều làm lượng tiền sẵn có giảm đi."
+        },
+        {
+          "hoi": "Kho hàng trị giá 10 tỷ đồng nhưng chỉ mua bảo hiểm 5 tỷ. Cháy gây thiệt hại 2 tỷ, không có mức khấu trừ hay thỏa thuận khác. Bồi thường bao nhiêu?",
+          "phuongAn": ["2 tỷ đồng", "1 tỷ đồng", "5 tỷ đồng", "500 triệu đồng"],
+          "dung": 1,
+          "giai": "Theo Luật Kinh doanh bảo hiểm 2022, bảo hiểm dưới giá trị được bồi thường theo tỷ lệ số tiền bảo hiểm trên giá trị tài sản: 2 tỷ × 5/10 = 1 tỷ đồng. Nên mua đúng giá trị."
+        },
+        {
+          "hoi": "Doanh nghiệp xuất khẩu thu tiền bằng USD, còn chi phí và nợ vay chủ yếu bằng VND. Biến động nào bất lợi nhất cho lợi nhuận?",
+          "phuongAn": ["USD tăng giá so với VND", "Lãi suất tiền gửi USD tăng", "USD giảm giá so với VND", "Giá nguyên liệu trong nước giảm"],
+          "dung": 2,
+          "giai": "USD giảm giá thì cùng số USD thu về đổi được ít VND hơn, trong khi chi phí và nợ bằng VND không đổi, làm lợi nhuận giảm. Có thể phòng ngừa bằng hợp đồng kỳ hạn bán USD."
+        }
+      ]
+    }
+  ]
+}
